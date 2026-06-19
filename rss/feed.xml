@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>PS5 Mini-Store Mises à jour</title>
+    <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/</link>
+    <description>Suivi automatique des payloads</description>
+    <item>
+      <title>nanoDNS (0.3)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_dns/nanoDNS/0.3/nanodns-ps4.elf</link>
+      <description>Un serveur DNS ultra-léger et rapide idéal pour rediriger les requêtes de la console vers votre hôte local d'exploits. - SHA256: 09b7c87903dc28f5bbb40855572776adb10afa1b61f310fac5a9550f6dbd033b</description>
+    </item>
+    <item>
+      <title>Chukei DNS (0.9.0)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_dns/Chukei_DNS/0.9.0/chukei-ps5.elf</link>
+      <description>Serveur DNS de redirection d'envergure conçu spécifiquement pour bloquer les mises à jour de Sony et rediriger le guide de l'utilisateur. - SHA256: 0cf13e1ed87b57ffa4fdcfca5d9afe1572be29b4f632677cedf17657a972d750</description>
+    </item>
+    <item>
+      <title>etaHEN (2.5B)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/etaHEN/2.5B/etaHEN-2.5B.bin</link>
+      <description>Le Homebrew Enabler (HEN) de référence pour la PS5 avec serveurs de triche, plugins et gestionnaire de mémoire intégrés. - SHA256: 4845cac45095361b8983b14d6690622183b0dcfbf6d7fda16e161aa91ff0531e</description>
+    </item>
+    <item>
+      <title>PS5 Unified Autoloader (v0.1.2-8e96846)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/PS5_Unified_Autoloader/v0.1.2-8e96846/ps5-unified-autoloader-v0.1.2-8e96846.elf</link>
+      <description>Chargeur universel de payloads permettant de lancer automatiquement vos outils favoris au démarrage de l'exploit. - SHA256: 14312044a48ec136dcf4b3481fcab20d45a84aa5f859b88bcfaef5ab9c500963</description>
+    </item>
+    <item>
+      <title>PS5 Payload Manager (v0.3.1)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/PS5_Payload_Manager/v0.3.1/pldmgr_v0.3.1.elf</link>
+      <description>Interface d'administration et de gestion réseau pour envoyer, activer et ordonner vos fichiers ELF/BIN sur la console. - SHA256: 518740adbacccb9094fadb07dd424c53ee290f38306449ccc9d6957fdf813c0b</description>
+    </item>
+    <item>
+      <title>ELF Arsenal (v1.6.21)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/ELF_Arsenal/v1.6.21/ELF_Arsenal_v1.6.21.zip</link>
+      <description>Boîte à outils regroupant une collection complète de payloads utilitaires pour les consoles jailbreakées. - SHA256: N/A (Archive)</description>
+    </item>
+    <item>
+      <title>Kura (v1.0.0-beta.22)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/Kura/v1.0.0-beta.22/kura.elf</link>
+      <description>Un loader de payloads moderne et épuré conçu pour optimiser l'injection de code sur PS5. - SHA256: 5e4489709cc4012aa700d80b51e6657dd9306cf75445c12374cc9b8d5b563abc</description>
+    </item>
+  </channel>
+</rss>

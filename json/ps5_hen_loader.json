@@ -1,0 +1,45 @@
+{
+  "name": "ps5_hen_loader (PLDMGR Updater)",
+  "payloads": [
+    {
+      "title": "etaHEN",
+      "author": "LightningMods",
+      "version": "2.5B",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/etaHEN/2.5B/etaHEN-2.5B.bin",
+      "sha256": "4845cac45095361b8983b14d6690622183b0dcfbf6d7fda16e161aa91ff0531e",
+      "description": "Le Homebrew Enabler (HEN) de référence pour la PS5 avec serveurs de triche, plugins et gestionnaire de mémoire intégrés."
+    },
+    {
+      "title": "PS5 Unified Autoloader",
+      "author": "itsPLK",
+      "version": "v0.1.2-8e96846",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/PS5_Unified_Autoloader/v0.1.2-8e96846/ps5-unified-autoloader-v0.1.2-8e96846.elf",
+      "sha256": "14312044a48ec136dcf4b3481fcab20d45a84aa5f859b88bcfaef5ab9c500963",
+      "description": "Chargeur universel de payloads permettant de lancer automatiquement vos outils favoris au démarrage de l'exploit."
+    },
+    {
+      "title": "PS5 Payload Manager",
+      "author": "itsPLK",
+      "version": "v0.3.1",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/PS5_Payload_Manager/v0.3.1/pldmgr_v0.3.1.elf",
+      "sha256": "518740adbacccb9094fadb07dd424c53ee290f38306449ccc9d6957fdf813c0b",
+      "description": "Interface d'administration et de gestion réseau pour envoyer, activer et ordonner vos fichiers ELF/BIN sur la console."
+    },
+    {
+      "title": "ELF Arsenal",
+      "author": "SonicIso",
+      "version": "v1.6.21",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/ELF_Arsenal/v1.6.21/ELF_Arsenal_v1.6.21.zip",
+      "sha256": "N/A (Archive)",
+      "description": "Boîte à outils regroupant une collection complète de payloads utilitaires pour les consoles jailbreakées."
+    },
+    {
+      "title": "Kura",
+      "author": "NookieAI",
+      "version": "v1.0.0-beta.22",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/Kura/v1.0.0-beta.22/kura.elf",
+      "sha256": "5e4489709cc4012aa700d80b51e6657dd9306cf75445c12374cc9b8d5b563abc",
+      "description": "Un loader de payloads moderne et épuré conçu pour optimiser l'injection de code sur PS5."
+    }
+  ]
+}
