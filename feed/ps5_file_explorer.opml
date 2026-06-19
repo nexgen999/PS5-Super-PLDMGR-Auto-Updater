@@ -5,8 +5,8 @@
   </head>
   <body>
     <outline title="ps5_file_explorer">
-      <outline text="BFpilot-Core" title="BFpilot-Core" type="rss" xmlUrl="https://github.com/nexgen999/PS5_Payload_Manager_Updater/raw/refs/heads/main/ps5_file_explorer/bfpilot-core_v0.2.1.elf" author="ItsBlurf" description="BFpilot is a lightweight PS5 payload that serves a browser-based file manager at http://<PS5_IP>:5905/ ." />
-      <outline text="BFpilot-Full" title="BFpilot-Full" type="rss" xmlUrl="https://github.com/nexgen999/PS5_Payload_Manager_Updater/raw/refs/heads/main/ps5_file_explorer/bfpilot-full_v0.2.1.elf" author="ItsBlurf" description="BFpilot is a lightweight PS5 payload that serves a browser-based file manager at http://<PS5_IP>:5905/ ." />
+      <outline text="BFpilot-Core" title="BFpilot-Core" type="rss" xmlUrl="https://raw.githubusercontent.com/nexgen999/PS5_Payload_Manager_Updater/main/ps5_file_explorer/bfpilot-core_v0.2.1.elf" author="ItsBlurf" description="BFpilot is a lightweight PS5 payload that serves a browser-based file manager at http://<PS5_IP>:5905/ ." />
+      <outline text="BFpilot-Full" title="BFpilot-Full" type="rss" xmlUrl="https://raw.githubusercontent.com/nexgen999/PS5_Payload_Manager_Updater/main/ps5_file_explorer/bfpilot-full_v0.2.1.elf" author="ItsBlurf" description="BFpilot is a lightweight PS5 payload that serves a browser-based file manager at http://<PS5_IP>:5905/ ." />
       <outline text="Lapy JB Daemon" title="Lapy JB Daemon" type="rss" xmlUrl="https://raw.githubusercontent.com/ArkSama/PS5-Lapy-JB-Daemon/main/lapy_jb_daemon.elf" author="ArkSama" description="Daemon pour le jailbreak de Lapy"/>
     </outline>
   </body>
