@@ -18,7 +18,7 @@ jobs:
         with:
           python-version: '3.x'
 
-      - name: ⚙️ Exécution du script de synchronisation strict
+      - name: ⚙️ Exécution du script de synchronisation strict v3
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
@@ -34,9 +34,10 @@ jobs:
           os.makedirs(RSS_DIR, exist_ok=True)
           os.makedirs(PAYLOADS_ROOT, exist_ok=True)
 
-          global_json_data = {}
+          # Liste plate globale pour le fichier payloads.json final
+          all_payloads_flat_list = []
+          
           readme_rows = []
-          rss_items = []
           credits_list = set()
 
           print("=== Début de la synchronisation ===")
@@ -48,16 +49,11 @@ jobs:
           opml_files = [f for f in os.listdir(FEED_DIR) if f.endswith('.opml')]
 
           for opml_file in opml_files:
-              # Nom technique strict du dossier (ex: ps5_dns ou ps5_hen_loader)
               cat_tech_name = opml_file.replace('.opml', '')
-              
-              # Titre propre pour l'affichage (ex: PS5 DNS ou PS5 HEN Loader)
               cat_display_name = cat_tech_name.replace('_', ' ').title()
               if "Hen" in cat_display_name: cat_display_name = cat_display_name.replace("Hen", "HEN")
               
               print(f"\n📁 Catégorie : {cat_display_name} ({cat_tech_name})")
-              
-              # Initialisation des données pour le JSON de la catégorie
               category_payloads_list = []
 
               with open(os.path.join(FEED_DIR, opml_file), 'r', encoding='utf-8') as f:
@@ -79,12 +75,9 @@ jobs:
                   credits_list.add(f"- **{author}** : [{title}]({xml_url})")
 
                   version = "v1.0.0"
-                  
-                  # Construction du chemin cible : payloads/nom_categorie/Nom_App/version/
-                  target_dir = os.path.join(PAYLOADS_ROOT, cat_tech_name, title.replace(" ", "_"), version)
-                  os.makedirs(target_dir, exist_ok=True)
-
                   downloaded = False
+                  
+                  # 1. TRAITEMENT GITHUB
                   if "github.com" in xml_url:
                       repo_match = re.search(r'github\.com/([^/]+/[^/]+)', xml_url)
                       if repo_match:
@@ -96,10 +89,6 @@ jobs:
                               pass
                           
                           version_clean = re.sub(r'[^a-zA-Z0-9._-]', '', version)
-                          try:
-                              os.rmdir(target_dir)
-                          except:
-                              pass
                           target_dir = os.path.join(PAYLOADS_ROOT, cat_tech_name, title.replace(" ", "_"), version_clean)
                           os.makedirs(target_dir, exist_ok=True)
 
@@ -109,12 +98,28 @@ jobs:
                           except:
                               pass
 
+                  # 2. TRAITEMENT DÉPÔTS EXTERNES (Gitea / Forgejo comme git.etawen.dev)
                   if not downloaded:
+                      version_clean = re.sub(r'[^a-zA-Z0-9._-]', '', version)
+                      target_dir = os.path.join(PAYLOADS_ROOT, cat_tech_name, title.replace(" ", "_"), version_clean)
+                      os.makedirs(target_dir, exist_ok=True)
                       try:
+                          # Lecture du flux d'activité Atom des releases
                           rss_url = f"{xml_url}/releases.atom"
                           req = urllib.request.Request(rss_url, headers={'User-Agent': 'Mozilla/5.0'})
                           html = urllib.request.urlopen(req).read().decode('utf-8')
-                          links = re.findall(r'href="([^"]+/(?:releases|archive)/[^"]+\.(?:elf|bin|pkg|zip))"', html)
+                          
+                          # Extraction du tag de version depuis l'entry du flux Atom s'il existe
+                          tag_match = re.search(r'<title>([^<]+)</title>', html)
+                          if tag_match and tag_match.group(1) != title:
+                              version = tag_match.group(1).strip()
+                              version_clean = re.sub(r'[^a-zA-Z0-9._-]', '', version)
+                              # Réajustement dynamique du dossier avec la vraie version lue
+                              os.rename(target_dir, os.path.join(PAYLOADS_ROOT, cat_tech_name, title.replace(" ", "_"), version_clean))
+                              target_dir = os.path.join(PAYLOADS_ROOT, cat_tech_name, title.replace(" ", "_"), version_clean)
+
+                          # Recherche des URLs de téléchargement d'assets directes ou d'archives zip/tar.gz
+                          links = re.findall(r'href="([^"]+/(?:releases|archive|attachments)/[^"]+\.(?:elf|bin|pkg|zip|tar\.gz))"', html)
                           if links:
                               file_dl_url = links[0]
                               if file_dl_url.startswith('/'):
@@ -122,10 +127,11 @@ jobs:
                                   file_dl_url = base_url + file_dl_url
                               f_name = file_dl_url.split('/')[-1]
                               urllib.request.urlretrieve(file_dl_url, os.path.join(target_dir, f_name))
-                              print(f"   => Fichier externe téléchargé : {f_name}")
+                              print(f"   => Fichier externe récupéré : {f_name}")
                       except Exception as e:
-                          print(f"   ⚠️ Échec du scan externe alternatif : {e}")
+                          print(f"   ⚠️ Échec de la récupération externe : {e}")
 
+                  # ANALYSE DU CONTENU ET SHA-256
                   files_in_dir = os.listdir(target_dir) if os.path.exists(target_dir) else []
                   main_file = None
                   sha256_hash = ""
@@ -142,7 +148,7 @@ jobs:
 
                   if not main_file:
                       for f_name in files_in_dir:
-                          if f_name.endswith('.zip') or f_name.endswith('.pkg'):
+                          if f_name.endswith('.zip') or f_name.endswith('.pkg') or f_name.endswith('.tar.gz'):
                               main_file = f_name
                               sha256_hash = "N/A (Package/Archive)"
                               break
@@ -160,28 +166,26 @@ jobs:
                           "description": description
                       }
                       category_payloads_list.append(item_data)
+                      all_payloads_flat_list.append(item_data)
                       
                       repo_folder_url = f"https://github.com/nexgen999/{repo_name}/tree/main/{target_dir.replace(os.sep, '/')}"
                       readme_rows.append(f"| **{title}** | {author} | {cat_display_name} | [{version}]({repo_folder_url}) | `{sha256_hash[:10]}...` | {description} |")
-                      
-                      rss_items.append(f"<item><title>[{cat_display_name}] {title} {version}</title><link>{repo_folder_url}</link><description><![CDATA[{description}]]></description></item>")
 
-              # Génération du JSON Spécifique strict selon ton modèle exact !
+              # Génération du JSON par catégorie (Ex: ps5_dns.json)
               cat_final_json = {
                   "name": f"{cat_tech_name} (PLDMGR Updater)",
                   "payloads": category_payloads_list
               }
-              
-              cat_filename = os.path.join(JSON_DIR, f"{cat_tech_name}.json")
-              with open(cat_filename, 'w', encoding='utf-8') as out_cat:
+              with open(os.path.join(JSON_DIR, f"{cat_tech_name}.json"), 'w', encoding='utf-8') as out_cat:
                   json.dump(cat_final_json, out_cat, indent=2, ensure_ascii=False)
 
-              # On stocke aussi dans les données globales
-              global_json_data[cat_display_name] = category_payloads_list
-
-          # Écriture du payloads.json global
+          # Génération du payloads.json global (Structure plate sans catégories imbriquées)
+          global_flat_json = {
+              "name": "payloads",
+              "payloads": all_payloads_flat_list
+          }
           with open(os.path.join(JSON_DIR, "payloads.json"), 'w', encoding='utf-8') as out_glob:
-              json.dump(global_json_data, out_glob, indent=2, ensure_ascii=False)
+              json.dump(global_flat_json, out_glob, indent=2, ensure_ascii=False)
 
           # MISE A JOUR DU README
           if os.path.exists("README.md"):
@@ -196,19 +200,19 @@ jobs:
               credits_content = "\n".join(sorted(list(credits_list))) + "\n"
 
               for line in lines:
-                  if "<!-- START_TABLE -->" in line:
+                  if "" in line:
                       new_lines.append(line)
                       new_lines.append("\n" + table_content + "\n")
                       skip_table = True
                       continue
-                  if "<!-- END_TABLE -->" in line:
+                  if "" in line:
                       skip_table = False
-                  if "<!-- START_CREDITS -->" in line:
+                  if "" in line:
                       new_lines.append(line)
                       new_lines.append("\n" + credits_content + "\n")
                       skip_credits = True
                       continue
-                  if "<!-- END_CREDITS -->" in line:
+                  if "" in line:
                       skip_credits = False
                   
                   if not skip_table and not skip_credits:
@@ -225,12 +229,12 @@ jobs:
           git config --global user.name "PS5 Store Bot"
           git config --global user.email "actions@github.com"
           
-          # Nettoyage automatique des anciens dossiers mal rangés à la racine
-          rm -rf ps5_dnss ps5_hen_loaders 2>/dev/null
+          # Nettoyage résiduel automatique des répertoires orphelins éventuels
+          rm -rf ps5_dnss ps5_dns ps5_hen_loaders ps5_hen_loader 2>/dev/null
           
           git add .
           if ! git diff --cached --quiet; then
-            git commit -m "🤖 [Mise à jour structurelle] Alignement JSON strict & Rangement /payloads/"
+            git commit -m "🤖 [Mise à jour v3] Correction structure payloads.json & support strict git.etawen.dev"
             git push
           else
             echo "Aucune modification."
