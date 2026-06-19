@@ -104,8 +104,7 @@ for opml_file in opml_files:
                     print(f"   -> Téléchargement GitHub ({version})...")
                     subprocess.call(f"gh release download '{version}' --repo '{repo}' --dir '{target_dir}' --clobber 2>/dev/null", shell=True)
                     
-                    # --- FILTRAGE SPÉCIFIQUE (websrv & ps5upload) ---
-                    # Bien vu ! On applique le nettoyage uniquement si le dépôt fait partie des deux coupables encombrants.
+                    # --- FILTRAGE DE SÉCURITÉ GITHUB ---
                     files_downloaded = os.listdir(target_dir)
                     repo_lower = repo.lower()
                     
@@ -113,7 +112,6 @@ for opml_file in opml_files:
                         print("   ⚠️ Dépôt lourd détecté : Application de la règle d'exception (.elf uniquement)")
                         for f in files_downloaded:
                             f_lower = f.lower()
-                            # On dégage TOUT ce qui n'est pas un fichier ELF
                             if not f_lower.endswith('.elf'):
                                 try:
                                     os.remove(os.path.join(target_dir, f))
@@ -121,7 +119,6 @@ for opml_file in opml_files:
                                 except:
                                     pass
                     else:
-                        # Nettoyage standard léger pour les autres dépôts (juste la sécurité PS4)
                         for f in files_downloaded:
                             if "ps4" in f.lower():
                                 os.remove(os.path.join(target_dir, f))
@@ -209,7 +206,7 @@ for opml_file in opml_files:
                 except Exception as api_err:
                     print(f"   ⚠️ Échec de l'API de secours Forgejo: {api_err}")
 
-        # ANALYSE ET CALCUL SHA-256 (FILTRAGE : EXÉCUTABLES OU ARCHIVES VALIDES SELON LE CAS)
+        # ANALYSE ET CALCUL SHA-256 (FILTRAGE STRICT DES EXÉCUTABLES SUR LE JSON FINAL)
         version_clean = re.sub(r'[^a-zA-Z0-9._-]', '', version) if version != "Source-Fixe" else "Source-Fixe"
         target_dir = os.path.join(PAYLOADS_ROOT, cat_tech_name, title.replace(" ", "_"), version_clean)
         
@@ -217,21 +214,14 @@ for opml_file in opml_files:
         main_file = None
         sha256_hash = ""
 
-        # Priorité aux exécutables PS5 directs
+        # RÈGLE ABSOLUE : On cherche uniquement un exécutable natif .elf ou .bin
         for f_name in files_in_dir:
             f_name_lower = f_name.lower()
             if f_name_lower.endswith('.elf') or f_name_lower.endswith('.bin'):
                 main_file = f_name
                 break
-        
-        # Secours : Si aucun ELF/BIN n'est là, on prend le premier package/zip disponible (sauf pour nos deux exclus)
-        if not main_file:
-            for f_name in files_in_dir:
-                f_name_lower = f_name.lower()
-                if f_name_lower.endswith('.zip') or f_name_lower.endswith('.pkg'):
-                    main_file = f_name
-                    break
 
+        # Si un binaire exécutable PS5 valide est trouvé, on l'ajoute au Store !
         if main_file:
             full_path = os.path.join(target_dir, main_file)
             hasher = hashlib.sha256()
@@ -259,7 +249,8 @@ for opml_file in opml_files:
             repo_folder_url = f"https://github.com/nexgen999/{repo_name}/tree/main/{target_dir.replace(os.sep, '/')}"
             readme_rows.append(f"| **{title}** | {author} | {cat_display_name} | [{version}]({repo_folder_url}) | `{sha256_hash[:10]}...` | {description} |")
         else:
-            print(f"   ℹ️ Aucun fichier éligible retenu pour {title}")
+            # S'il n'y a pas d'ELF ou de BIN, le dépôt est ignoré du fichier payloads.json final
+            print(f"   🚫 Ignoré du JSON final car aucun fichier exécutable (.elf / .bin) n'a été détecté pour {title}")
 
     # Sauvegarde JSON Catégorie
     cat_final_json = {
