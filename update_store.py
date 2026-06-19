@@ -73,7 +73,6 @@ for opml_file in opml_files:
                 f_name = xml_url.split('?')[0].split('/')[-1]
                 print(f"   🎯 Source fixe détectée (Téléchargement Raw direct) : {f_name}")
                 
-                # CORRECTION : urlretrieve prend directement la chaîne de l'URL, pas l'objet Request
                 opener = urllib.request.build_opener()
                 opener.addheaders = [('User-Agent', 'Mozilla/5.0')]
                 urllib.request.install_opener(opener)
@@ -82,18 +81,16 @@ for opml_file in opml_files:
             except Exception as e:
                 print(f"   ⚠️ Échec du téléchargement de la source fixe : {e}")
 
-# 1. TRAITEMENT RELEASES GITHUB
+        # 1. TRAITEMENT RELEASES GITHUB (Prend en compte les pré-releases)
         if not downloaded and "github.com" in xml_url:
             repo_match = re.search(r'github\.com/([^/]+/[^/]+)', xml_url)
             if repo_match:
                 repo = repo_match.group(1)
                 try:
-                    # CORRECTION : On demande la liste des releases (inclut les pré-releases) et on prend la première ([0])
                     res_tag = subprocess.check_output(f"gh release list --repo {repo} --limit 1 --json tagName --jq '.[0].tagName'", shell=True).decode().strip()
                     if res_tag: 
                         version = res_tag
                     else:
-                        # Si la liste est vide, on tente le coup avec le dernier tag Git classique
                         res_tag = subprocess.check_output(f"gh repo view {repo} --json latestRelease --jq '.latestRelease.tagName'", shell=True).decode().strip()
                         if res_tag: version = res_tag
                 except:
@@ -105,7 +102,6 @@ for opml_file in opml_files:
 
                 try:
                     print(f"   -> Téléchargement GitHub ({version})...")
-                    # On télécharge la version trouvée (qu'elle soit pré-release ou stable)
                     subprocess.call(f"gh release download '{version}' --repo '{repo}' --dir '{target_dir}' --clobber 2>/dev/null", shell=True)
                     
                     for f in os.listdir(target_dir):
@@ -171,13 +167,11 @@ for opml_file in opml_files:
                             
                             if valid_file_url and f_name:
                                 print(f"   🎯 Asset Forgejo détecté : {f_name}")
-                                # CORRECTION : Remplacement de valid_url par valid_file_url
                                 urllib.request.urlretrieve(valid_file_url, os.path.join(target_dir, f_name))
                                 downloaded = True
             except Exception as e:
                 print(f"   ℹ️ Erreur API Forgejo ({e})")
 
-            # Secours API Tags
             if not downloaded and api_repo_match:
                 try:
                     api_url = f"https://git.etawen.dev/api/v1/repos/{repo_path}/tags"
@@ -198,7 +192,7 @@ for opml_file in opml_files:
                 except Exception as api_err:
                     print(f"   ⚠️ Échec de l'API de secours Forgejo: {api_err}")
 
-        # ANALYSE ET CALCUL SHA-256
+        # ANALYSE ET CALCUL SHA-256 (FILTRAGE STRICT : UNIQUEMENT LES EXÉCUTABLES PS5)
         version_clean = re.sub(r'[^a-zA-Z0-9._-]', '', version) if version != "Source-Fixe" else "Source-Fixe"
         target_dir = os.path.join(PAYLOADS_ROOT, cat_tech_name, title.replace(" ", "_"), version_clean)
         
@@ -206,6 +200,7 @@ for opml_file in opml_files:
         main_file = None
         sha256_hash = ""
 
+        # Recherche exclusive du binaire exécutable (.elf ou .bin)
         for f_name in files_in_dir:
             f_name_lower = f_name.lower()
             if f_name_lower.endswith('.elf') or f_name_lower.endswith('.bin'):
@@ -218,14 +213,7 @@ for opml_file in opml_files:
                 sha256_hash = hasher.hexdigest()
                 break
 
-        if not main_file:
-            for f_name in files_in_dir:
-                f_name_lower = f_name.lower()
-                if f_name_lower.endswith('.zip') or f_name_lower.endswith('.pkg') or f_name_lower.endswith('.tar.gz'):
-                    main_file = f_name
-                    sha256_hash = "N/A (Archive)"
-                    break
-
+        # SÉCURITÉ & RÈGLE PS5 : On n'ajoute aux crédits, au JSON et au README QUE si un vrai binaire exécutable est présent !
         if main_file:
             credits_list.add(f"- **{author}** : [{title}]({xml_url})")
             
@@ -246,7 +234,8 @@ for opml_file in opml_files:
             repo_folder_url = f"https://github.com/nexgen999/{repo_name}/tree/main/{target_dir.replace(os.sep, '/')}"
             readme_rows.append(f"| **{title}** | {author} | {cat_display_name} | [{version}]({repo_folder_url}) | `{sha256_hash[:10]}...` | {description} |")
         else:
-            print(f"   ⚠️ Abandon de l'indexation pour {title} : Aucun fichier valide trouvé dans {target_dir}")
+            # Le dépôt reste enregistré et téléchargé localement, mais il est masqué du store PS5
+            print(f"   ℹ️ Dépôt conservé mais masqué du JSON (uniquement une archive ZIP/source disponible pour le moment) pour {title}")
 
     # Sauvegarde JSON Catégorie
     cat_final_json = {
@@ -291,7 +280,12 @@ with open(os.path.join(RSS_DIR, "feed.xml"), "w", encoding="utf-8") as feed_out:
 with open("README.md", "w", encoding="utf-8") as r_file:
     r_file.write("# 🎮 PS5 Payload Manager & Mini-Store\n\n")
     r_file.write("Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !\n\n")
+    r_file.write("> 💡 **Configuration du Store sur l'application PS5 :** Pour connecter votre console, ajoutez le fichier central **`payloads.json`** :\n")
     r_file.write(f"> `https://nexgen999.github.io/{repo_name}/json/payloads.json`\n\n")
+    r_file.write("---\n\n")
+    r_file.write("## 📱 Flux RSS & Alertes\n")
+    r_file.write("* **Radar Global (OPML) :** `rss/store-global.opml`\n")
+    r_file.write("* **Flux de mises à jour (XML) :** `rss/feed.xml`\n\n")
     r_file.write("---\n\n")
     r_file.write("## 📦 Liste des Applications & Payloads disponibles\n\n")
     r_file.write("| Application | Auteur | Catégorie | Version (Dépôt) | Empreinte SHA-256 | Description |\n")
@@ -300,5 +294,7 @@ with open("README.md", "w", encoding="utf-8") as r_file:
     r_file.write("---\n\n")
     r_file.write("## 🤝 Crédits & Remerciements\n")
     r_file.write("\n".join(sorted(list(credits_list))) + "\n\n")
+    r_file.write("---\n")
+    r_file.write("*Dépôt 100% autonome géré par GitHub Actions.*\n")
 
 print("=== Synchronisation terminée ===")
