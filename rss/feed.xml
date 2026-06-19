@@ -35,6 +35,46 @@
       <description>Fake activate PS5 without PSN. - SHA256: f5c66fcb9e3f512e5463a7123d819b87f063d9955639366fa7ad26a2f0abefa4</description>
     </item>
     <item>
+      <title>PS5-Game-Compressor (v1.0.1)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/PS5-Game-Compressor/v1.0.1/game-compressor.elf</link>
+      <description>Tool to compress PS5 games. - SHA256: 64dba49ef83b2508de4fb99e8b4cc86816812ea7bd70696a29c6b13c95994e9d</description>
+    </item>
+    <item>
+      <title>ps5-app-dumper (v1.10)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/ps5-app-dumper/v1.10/ps5-app-dumper.elf</link>
+      <description>PS5 App Dumper payload. - SHA256: 95382a9e37987d8eb931cbe5db618e77d293099ef4314e3288d9899bd5ac5c00</description>
+    </item>
+    <item>
+      <title>dump_installer (1.06)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/dump_installer/1.06/dump_installer.zip</link>
+      <description>Dump Installer utility. - SHA256: N/A (Archive)</description>
+    </item>
+    <item>
+      <title>dump_runner (v1.02)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/dump_runner/v1.02/dump_runner.zip</link>
+      <description>Dump Runner tool. - SHA256: N/A (Archive)</description>
+    </item>
+    <item>
+      <title>ShadowMountPlus (1.6test15-fix2)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/ShadowMountPlus/1.6test15-fix2/shadowmountplus.elf</link>
+      <description>ShadowMountPlus payload for game mounting. - SHA256: 8ab32f4cede840a73515c05697fe81759bc98cf41fc22b43e09943262f447e99</description>
+    </item>
+    <item>
+      <title>BackPork (0.1)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/BackPork/0.1/ps5-backpork.elf</link>
+      <description>BackPork PS5 tool. - SHA256: d74e4cd119b2bb1fd423f2f5b1c9a7f096b3e588c753af1ab48b983d56216a52</description>
+    </item>
+    <item>
+      <title>dlc_emu (0.2)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/dlc_emu/0.2/dcl_emu_0.2.zip</link>
+      <description>DLC Emulator for PS5. - SHA256: N/A (Archive)</description>
+    </item>
+    <item>
+      <title>pgo_stub (0.4)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/pgo_stub/0.4/pg_stub_0.4.zip</link>
+      <description>PGO stub utility. - SHA256: N/A (Archive)</description>
+    </item>
+    <item>
       <title>Spectrum-Library (1.4.1)</title>
       <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_freeshop/Spectrum-Library/1.4.1/SpectrumLibrary_1.4.1.elf</link>
       <description>free store webadmin http://your-ps5-ip:7575. - SHA256: 2a0c96c74d0b36a34bd8424ba92a173775ef54a3878f4d05d1772bc4061394b7</description>

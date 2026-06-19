@@ -50,6 +50,70 @@
       "description": "Fake activate PS5 without PSN."
     },
     {
+      "title": "PS5-Game-Compressor",
+      "author": "juma-sayeh",
+      "version": "v1.0.1",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/PS5-Game-Compressor/v1.0.1/game-compressor.elf",
+      "sha256": "64dba49ef83b2508de4fb99e8b4cc86816812ea7bd70696a29c6b13c95994e9d",
+      "description": "Tool to compress PS5 games."
+    },
+    {
+      "title": "ps5-app-dumper",
+      "author": "EchoStretch",
+      "version": "v1.10",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/ps5-app-dumper/v1.10/ps5-app-dumper.elf",
+      "sha256": "95382a9e37987d8eb931cbe5db618e77d293099ef4314e3288d9899bd5ac5c00",
+      "description": "PS5 App Dumper payload."
+    },
+    {
+      "title": "dump_installer",
+      "author": "EchoStretch",
+      "version": "1.06",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/dump_installer/1.06/dump_installer.zip",
+      "sha256": "N/A (Archive)",
+      "description": "Dump Installer utility."
+    },
+    {
+      "title": "dump_runner",
+      "author": "EchoStretch",
+      "version": "v1.02",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/dump_runner/v1.02/dump_runner.zip",
+      "sha256": "N/A (Archive)",
+      "description": "Dump Runner tool."
+    },
+    {
+      "title": "ShadowMountPlus",
+      "author": "drakmor",
+      "version": "1.6test15-fix2",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/ShadowMountPlus/1.6test15-fix2/shadowmountplus.elf",
+      "sha256": "8ab32f4cede840a73515c05697fe81759bc98cf41fc22b43e09943262f447e99",
+      "description": "ShadowMountPlus payload for game mounting."
+    },
+    {
+      "title": "BackPork",
+      "author": "BestPig",
+      "version": "0.1",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/BackPork/0.1/ps5-backpork.elf",
+      "sha256": "d74e4cd119b2bb1fd423f2f5b1c9a7f096b3e588c753af1ab48b983d56216a52",
+      "description": "BackPork PS5 tool."
+    },
+    {
+      "title": "dlc_emu",
+      "author": "drakmor",
+      "version": "0.2",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/dlc_emu/0.2/dcl_emu_0.2.zip",
+      "sha256": "N/A (Archive)",
+      "description": "DLC Emulator for PS5."
+    },
+    {
+      "title": "pgo_stub",
+      "author": "drakmor",
+      "version": "0.4",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/pgo_stub/0.4/pg_stub_0.4.zip",
+      "sha256": "N/A (Archive)",
+      "description": "PGO stub utility."
+    },
+    {
       "title": "Spectrum-Library",
       "author": "Phoenixx1202",
       "version": "1.4.1",
