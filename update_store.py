@@ -51,6 +51,11 @@ for opml_file in opml_files:
         if not xml_url:
             continue
 
+        # Exclusion globale si le titre ou la description contient explicitement PS4
+        if "ps4" in title.lower() or "ps4" in description.lower():
+            print(f" 🚫 Ignoré (Critère d'exclusion PS4 trouvé dans les métadonnées de {title})")
+            continue
+
         print(f" 🔍 Analyse de {title} ({xml_url})...")
         credits_list.add(f"- **{author}** : [{title}]({xml_url})")
 
@@ -75,12 +80,19 @@ for opml_file in opml_files:
                 try:
                     print(f"   -> Téléchargement GitHub ({version})...")
                     subprocess.call(f"gh release download '{version}' --repo '{repo}' --dir '{target_dir}' --clobber 2>/dev/null", shell=True)
+                    
+                    # Nettoyage après téléchargement GitHub pour virer les fichiers PS4 s'ils ont atterri là
+                    for f in os.listdir(target_dir):
+                        if "ps4" in f.lower():
+                            os.remove(os.path.join(target_dir, f))
+                            print(f"   🚫 Fichier joint spécifié PS4 supprimé : {f}")
+                            
                     if os.listdir(target_dir):
                         downloaded = True
                 except Exception as e:
                     print(f"   ⚠️ Erreur gh release: {e}")
 
-# 2. TRAITEMENT RELEASES FORGEJO (SCAN INTÉGRAL, SÉLECTION STRICTE ET EXCLUSION PS4)
+        # 2. TRAITEMENT RELEASES FORGEJO (SCAN TOTAL SÉCURISÉ)
         if not downloaded and "git.etawen.dev" in xml_url:
             try:
                 rss_url = f"{xml_url}/releases.atom"
@@ -95,53 +107,50 @@ for opml_file in opml_files:
                 target_dir = os.path.join(PAYLOADS_ROOT, cat_tech_name, title.replace(" ", "_"), version_clean)
                 os.makedirs(target_dir, exist_ok=True)
 
-                # Décodage complet des entités HTML
                 decoded_atom = html.unescape(raw_atom)
-                
-                # On extrait TOUS les liens possibles présents dans le flux
                 all_found_links = re.findall(r'href=[\'"]?([^\'" >]+)', decoded_atom)
                 
                 valid_file_url = None
                 
-                # Étape 1 : On cherche en priorité absolue un binaire pur (.elf, .bin, .pkg) sans "ps4"
+                # Étape A : Recherche du binaire brut (.elf, .bin, .pkg) n'importe où dans l'URL sans PS4
                 for link in all_found_links:
-                    link_lower = link.lower()
-                    # Exclusion stricte de la mention PS4 et des archives de code source
-                    if "ps4" in link_lower or "archive" in link_lower or link_lower.endswith('.zip') or link_lower.endswith('.tar.gz'):
+                    # On nettoie l'URL de ses paramètres de requêtes (?token=...) pour l'analyse
+                    clean_link = link.split('?')[0].lower()
+                    
+                    if "ps4" in clean_link or "archive" in clean_link or clean_link.endswith('.zip') or clean_link.endswith('.tar.gz'):
                         continue
-                    if link_lower.endswith('.elf') or link_lower.endswith('.bin') or link_lower.endswith('.pkg'):
+                        
+                    if ".elf" in clean_link or ".bin" in clean_link or ".pkg" in clean_link:
                         valid_file_url = link
                         break
                 
-                # Étape 2 : Si vraiment aucun binaire pur n'est trouvé, on cherche une archive (.zip), toujours sans "ps4"
+                # Étape B : Secours uniquement si aucun binaire brut trouvé (Ex: l'application est packagée en .zip valide)
                 if not valid_file_url:
                     for link in all_found_links:
-                        link_lower = link.lower()
-                        if "ps4" in link_lower or "archive" in link_lower:
+                        clean_link = link.split('?')[0].lower()
+                        if "ps4" in clean_link or "archive" in clean_link:
                             continue
-                        if link_lower.endswith('.zip'):
+                        if clean_link.endswith('.zip'):
                             valid_file_url = link
                             break
 
                 if valid_file_url:
-                    # Reconstruction de l'URL absolue si Forgejo renvoie un chemin relatif
                     if valid_file_url.startswith('/'):
                         base_url = re.match(r'(https?://[^/]+)', xml_url).group(1)
                         valid_file_url = base_url + valid_file_url
                     
-                    f_name = valid_file_url.split('/')[-1]
-                    if "?" in f_name: f_name = f_name.split('?')[0]
+                    f_name = valid_file_url.split('?')[0].split('/')[-1]
                     
-                    print(f"   🎯 Cible idéale trouvée : {f_name}")
-                    print(f"   -> Téléchargement en cours...")
+                    print(f"   🎯 URL ciblée validée : {valid_file_url}")
+                    print(f"   -> Téléchargement de l'exécutable : {f_name}...")
                     urllib.request.urlretrieve(valid_file_url, os.path.join(target_dir, f_name))
                     downloaded = True
                 else:
-                    print("   ⚠️ Aucun fichier correspondant aux critères PS5 (.elf/.bin) n'a été localisé dans le flux.")
+                    print("   ⚠️ Aucun binaire PS5 éligible trouvé dans le flux XML.")
             except Exception as e:
-                print(f"   ℹ️ Échec de l'analyse du flux Forgejo ({e}), bascule sur l'API des Tags...")
+                print(f"   ℹ️ Flux Atom indéchiffrable ({e}), bascule sur l'API des Tags...")
 
-            # Secours via l'API des Tags (uniquement si rien n'a été pris sur le flux)
+            # Secours API Tags avec filtrage PS4 renforcé
             if not downloaded:
                 try:
                     api_repo_match = re.search(r'git\.etawen\.dev/([^/]+/[^/]+)', xml_url)
@@ -153,18 +162,23 @@ for opml_file in opml_files:
                         with urllib.request.urlopen(req) as response:
                             tags_data = json.loads(response.read().decode('utf-8'))
                             if tags_data:
-                                version = tags_data[0].get('name', 'v1.0.0')
+                                tag_name = tags_data[0].get('name', '')
                                 zip_url = tags_data[0].get('zipball_url', '')
-                                if zip_url and "ps4" not in zip_url.lower():
+                                
+                                # Sécurité : Si le tag s'appelle explicitement PS4, on refuse
+                                if "ps4" in tag_name.lower() or "ps4" in zip_url.lower():
+                                    print(f"   🚫 [API Tags] Cible refusée car tag PS4 détecté ({tag_name})")
+                                else:
+                                    version = tag_name if tag_name else "v1.0.0"
                                     version_clean = re.sub(r'[^a-zA-Z0-9._-]', '', version)
                                     target_dir = os.path.join(PAYLOADS_ROOT, cat_tech_name, title.replace(" ", "_"), version_clean)
                                     os.makedirs(target_dir, exist_ok=True)
                                     f_name = f"{title.replace(' ', '_')}_{version_clean}.zip"
-                                    print(f"   -> [Secours Tag] Archive récupérée : {f_name}")
+                                    print(f"   -> [Secours Tag] Téléchargement de l'archive source : {f_name}")
                                     urllib.request.urlretrieve(zip_url, os.path.join(target_dir, f_name))
                                     downloaded = True
                 except Exception as api_err:
-                    print(f"   ⚠️ Échec complet Forgejo pour {title}: {api_err}")
+                    print(f"   ⚠️ Échec de l'API de secours Forgejo: {api_err}")
 
         # ANALYSE ET CALCUL SHA-256
         version_clean = re.sub(r'[^a-zA-Z0-9._-]', '', version)
@@ -227,20 +241,17 @@ global_flat_json = {
 with open(os.path.join(JSON_DIR, "payloads.json"), 'w', encoding='utf-8') as out_glob:
     json.dump(global_flat_json, out_glob, indent=2, ensure_ascii=False)
 
-# GENERATION DES FICHIERS DANS RSS/ (Flux & OPML Global)
+# GENERATION DES FICHIERS DANS RSS/
 print("\n📡 Génération des flux RSS et OPML...")
-# 1. OPML Global Réseau
 with open(os.path.join(RSS_DIR, "store-global.opml"), "w", encoding="utf-8") as opml_out:
     opml_out.write('<?xml version="1.0" encoding="UTF-8"?>\n<opml version="2.0">\n  <head>\n    <title>PS5 Store Global Radar</title>\n  </head>\n  <body>\n')
     for row in sorted(list(credits_list)):
-        # Extrait le titre et l'url brute pour reconstruire proprement l'OPML
         match = re.search(r'\*\*([^*]+)\*\*\s*:\s*\[([^\]]+)\]\(([^)]+)\)', row)
         if match:
             author_name, title_name, raw_url = match.group(1), match.group(2), match.group(3)
             opml_out.write(f'    <outline text="{title_name}" title="{title_name}" type="rss" xmlUrl="{raw_url}" author="{author_name}"/>\n')
     opml_out.write('  </body>\n</opml>')
 
-# 2. Flux XML d'actualités basique
 with open(os.path.join(RSS_DIR, "feed.xml"), "w", encoding="utf-8") as feed_out:
     feed_out.write('<?xml version="1.0" encoding="UTF-8" ?>\n<rss version="2.0">\n  <channel>\n    <title>PS5 Mini-Store Mises à jour</title>\n')
     feed_out.write(f'    <link>https://nexgen999.github.io/{repo_name}/</link>\n    <description>Suivi automatique des payloads</description>\n')
@@ -252,7 +263,7 @@ with open(os.path.join(RSS_DIR, "feed.xml"), "w", encoding="utf-8") as feed_out:
         feed_out.write('    </item>\n')
     feed_out.write('  </channel>\n</rss>')
 
-# REGENERATION STRUCTURELLE ET COMPLÈTE DU README (Avec tes instructions pour payloads.json)
+# REGENERATION DU README
 with open("README.md", "w", encoding="utf-8") as r_file:
     r_file.write("# 🎮 PS5 Payload Manager & Mini-Store\n\n")
     r_file.write("![Logo ou Bannière](assets/banner.png)\n\n")
