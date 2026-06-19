@@ -8,8 +8,6 @@
     <outline text="Lapy JB Daemon" title="Lapy JB Daemon" type="rss" xmlUrl="https://raw.githubusercontent.com/ArkSama/PS5-Lapy-JB-Daemon/main/lapy_jb_daemon.elf" author="ArkSama"/>
     <outline text="BackPork" title="BackPork" type="rss" xmlUrl="https://github.com/BestPig/BackPork" author="BestPig"/>
     <outline text="nanoDNS" title="nanoDNS" type="rss" xmlUrl="https://github.com/drakmor/nanoDNS" author="Drakmor"/>
-    <outline text="dump_installer" title="dump_installer" type="rss" xmlUrl="https://github.com/EchoStretch/dump_installer" author="EchoStretch"/>
-    <outline text="dump_runner" title="dump_runner" type="rss" xmlUrl="https://github.com/EchoStretch/dump_runner" author="EchoStretch"/>
     <outline text="ps5-app-dumper" title="ps5-app-dumper" type="rss" xmlUrl="https://github.com/EchoStretch/ps5-app-dumper" author="EchoStretch"/>
     <outline text="BFpilot-Core" title="BFpilot-Core" type="rss" xmlUrl="https://raw.githubusercontent.com/nexgen999/PS5_Payload_Manager_Updater/main/ps5_file_explorer/bfpilot-core_v0.2.1.elf" author="ItsBlurf"/>
     <outline text="BFpilot-Full" title="BFpilot-Full" type="rss" xmlUrl="https://raw.githubusercontent.com/nexgen999/PS5_Payload_Manager_Updater/main/ps5_file_explorer/bfpilot-full_v0.2.1.elf" author="ItsBlurf"/>
@@ -19,8 +17,6 @@
     <outline text="ELF Arsenal" title="ELF Arsenal" type="rss" xmlUrl="https://git.etawen.dev/soniciso/elf-arsenal" author="SonicIso"/>
     <outline text="kylin-core" title="kylin-core" type="rss" xmlUrl="https://raw.githubusercontent.com/nexgen999/PS5_Payload_Manager_Updater/main/ps5_cheat/kylin-core-community-lite-v131-global-release.elf" author="aydencharles"/>
     <outline text="ShadowMountPlus" title="ShadowMountPlus" type="rss" xmlUrl="https://github.com/drakmor/ShadowMountPlus" author="drakmor"/>
-    <outline text="dlc_emu" title="dlc_emu" type="rss" xmlUrl="https://github.com/drakmor/dlc_emu" author="drakmor"/>
-    <outline text="pgo_stub" title="pgo_stub" type="rss" xmlUrl="https://github.com/drakmor/pgo_stub" author="drakmor"/>
     <outline text="np-fake-signin" title="np-fake-signin" type="rss" xmlUrl="https://git.etawen.dev/earthonion/np-fake-signin" author="earthonion"/>
     <outline text="PS5 Payload Manager" title="PS5 Payload Manager" type="rss" xmlUrl="https://github.com/itsPLK/ps5-payload-manager" author="itsPLK"/>
     <outline text="PS5 Unified Autoloader" title="PS5 Unified Autoloader" type="rss" xmlUrl="https://github.com/itsPLK/ps5-unified-autoloader" author="itsPLK"/>

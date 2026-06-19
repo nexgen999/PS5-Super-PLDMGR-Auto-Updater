@@ -2,7 +2,14 @@
 
 Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 
+> 💡 **Configuration du Store sur l'application PS5 :** Pour connecter votre console, ajoutez le fichier central **`payloads.json`** :
 > `https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/json/payloads.json`
+
+---
+
+## 📱 Flux RSS & Alertes
+* **Radar Global (OPML) :** `rss/store-global.opml`
+* **Flux de mises à jour (XML) :** `rss/feed.xml`
 
 ---
 
@@ -18,12 +25,8 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 | **np-fake-signin** | earthonion | Ps5 Activation | [v1.3](https://github.com/nexgen999/PS5-Super-PLDMGR-Auto-Updater/tree/main/payloads/PS5_Activation/np-fake-signin/v1.3) | `f5c66fcb9e...` | Fake activate PS5 without PSN. |
 | **PS5-Game-Compressor** | juma-sayeh | Ps5 Game Dump | [v1.0.1](https://github.com/nexgen999/PS5-Super-PLDMGR-Auto-Updater/tree/main/payloads/ps5_game_dump/PS5-Game-Compressor/v1.0.1) | `64dba49ef8...` | Tool to compress PS5 games. |
 | **ps5-app-dumper** | EchoStretch | Ps5 Game Dump | [v1.10](https://github.com/nexgen999/PS5-Super-PLDMGR-Auto-Updater/tree/main/payloads/ps5_game_dump/ps5-app-dumper/v1.10) | `95382a9e37...` | PS5 App Dumper payload. |
-| **dump_installer** | EchoStretch | Ps5 Game Dump | [1.06](https://github.com/nexgen999/PS5-Super-PLDMGR-Auto-Updater/tree/main/payloads/ps5_game_dump/dump_installer/1.06) | `N/A (Archi...` | Dump Installer utility. |
-| **dump_runner** | EchoStretch | Ps5 Game Dump | [v1.02](https://github.com/nexgen999/PS5-Super-PLDMGR-Auto-Updater/tree/main/payloads/ps5_game_dump/dump_runner/v1.02) | `N/A (Archi...` | Dump Runner tool. |
 | **ShadowMountPlus** | drakmor | Ps5 Game Dump | [1.6test15-fix2](https://github.com/nexgen999/PS5-Super-PLDMGR-Auto-Updater/tree/main/payloads/ps5_game_dump/ShadowMountPlus/1.6test15-fix2) | `8ab32f4ced...` | ShadowMountPlus payload for game mounting. |
 | **BackPork** | BestPig | Ps5 Game Dump | [0.1](https://github.com/nexgen999/PS5-Super-PLDMGR-Auto-Updater/tree/main/payloads/ps5_game_dump/BackPork/0.1) | `d74e4cd119...` | BackPork PS5 tool. |
-| **dlc_emu** | drakmor | Ps5 Game Dump | [0.2](https://github.com/nexgen999/PS5-Super-PLDMGR-Auto-Updater/tree/main/payloads/ps5_game_dump/dlc_emu/0.2) | `N/A (Archi...` | DLC Emulator for PS5. |
-| **pgo_stub** | drakmor | Ps5 Game Dump | [0.4](https://github.com/nexgen999/PS5-Super-PLDMGR-Auto-Updater/tree/main/payloads/ps5_game_dump/pgo_stub/0.4) | `N/A (Archi...` | PGO stub utility. |
 | **Spectrum-Library** | Phoenixx1202 | Ps5 Freeshop | [1.4.1](https://github.com/nexgen999/PS5-Super-PLDMGR-Auto-Updater/tree/main/payloads/ps5_freeshop/Spectrum-Library/1.4.1) | `2a0c96c74d...` | free store webadmin http://your-ps5-ip:7575. |
 | **pegasus-dl** | pegasus-ps5 | Ps5 Freeshop | [v1.5.0](https://github.com/nexgen999/PS5-Super-PLDMGR-Auto-Updater/tree/main/payloads/ps5_freeshop/pegasus-dl/v1.5.0) | `d48b96e93a...` | free store webadmin http://your-ps5-ip:6970. |
 | **nanoDNS** | Drakmor | Ps5 Dns | [0.3](https://github.com/nexgen999/PS5-Super-PLDMGR-Auto-Updater/tree/main/payloads/ps5_dns/nanoDNS/0.3) | `ce1c8b3103...` | Un serveur DNS ultra-léger et rapide idéal pour rediriger les requêtes de la console vers votre hôte local d'exploits. |
@@ -41,8 +44,6 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 - **ArkSama** : [Lapy JB Daemon](https://raw.githubusercontent.com/ArkSama/PS5-Lapy-JB-Daemon/main/lapy_jb_daemon.elf)
 - **BestPig** : [BackPork](https://github.com/BestPig/BackPork)
 - **Drakmor** : [nanoDNS](https://github.com/drakmor/nanoDNS)
-- **EchoStretch** : [dump_installer](https://github.com/EchoStretch/dump_installer)
-- **EchoStretch** : [dump_runner](https://github.com/EchoStretch/dump_runner)
 - **EchoStretch** : [ps5-app-dumper](https://github.com/EchoStretch/ps5-app-dumper)
 - **ItsBlurf** : [BFpilot-Core](https://raw.githubusercontent.com/nexgen999/PS5_Payload_Manager_Updater/main/ps5_file_explorer/bfpilot-core_v0.2.1.elf)
 - **ItsBlurf** : [BFpilot-Full](https://raw.githubusercontent.com/nexgen999/PS5_Payload_Manager_Updater/main/ps5_file_explorer/bfpilot-full_v0.2.1.elf)
@@ -52,8 +53,6 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 - **SonicIso** : [ELF Arsenal](https://git.etawen.dev/soniciso/elf-arsenal)
 - **aydencharles** : [kylin-core](https://raw.githubusercontent.com/nexgen999/PS5_Payload_Manager_Updater/main/ps5_cheat/kylin-core-community-lite-v131-global-release.elf)
 - **drakmor** : [ShadowMountPlus](https://github.com/drakmor/ShadowMountPlus)
-- **drakmor** : [dlc_emu](https://github.com/drakmor/dlc_emu)
-- **drakmor** : [pgo_stub](https://github.com/drakmor/pgo_stub)
 - **earthonion** : [np-fake-signin](https://git.etawen.dev/earthonion/np-fake-signin)
 - **itsPLK** : [PS5 Payload Manager](https://github.com/itsPLK/ps5-payload-manager)
 - **itsPLK** : [PS5 Unified Autoloader](https://github.com/itsPLK/ps5-unified-autoloader)
@@ -61,3 +60,5 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 - **notmaj0r** : [CheatRunner](https://github.com/notmaj0r/CheatRunner)
 - **pegasus-ps5** : [pegasus-dl](https://github.com/pegasus-ps5/pegasus-dl)
 
+---
+*Dépôt 100% autonome géré par GitHub Actions.*

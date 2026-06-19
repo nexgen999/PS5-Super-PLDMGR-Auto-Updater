@@ -66,22 +66,6 @@
       "description": "PS5 App Dumper payload."
     },
     {
-      "title": "dump_installer",
-      "author": "EchoStretch",
-      "version": "1.06",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/dump_installer/1.06/dump_installer.zip",
-      "sha256": "N/A (Archive)",
-      "description": "Dump Installer utility."
-    },
-    {
-      "title": "dump_runner",
-      "author": "EchoStretch",
-      "version": "v1.02",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/dump_runner/v1.02/dump_runner.zip",
-      "sha256": "N/A (Archive)",
-      "description": "Dump Runner tool."
-    },
-    {
       "title": "ShadowMountPlus",
       "author": "drakmor",
       "version": "1.6test15-fix2",
@@ -96,22 +80,6 @@
       "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/BackPork/0.1/ps5-backpork.elf",
       "sha256": "d74e4cd119b2bb1fd423f2f5b1c9a7f096b3e588c753af1ab48b983d56216a52",
       "description": "BackPork PS5 tool."
-    },
-    {
-      "title": "dlc_emu",
-      "author": "drakmor",
-      "version": "0.2",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/dlc_emu/0.2/dcl_emu_0.2.zip",
-      "sha256": "N/A (Archive)",
-      "description": "DLC Emulator for PS5."
-    },
-    {
-      "title": "pgo_stub",
-      "author": "drakmor",
-      "version": "0.4",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/pgo_stub/0.4/pg_stub_0.4.zip",
-      "sha256": "N/A (Archive)",
-      "description": "PGO stub utility."
     },
     {
       "title": "Spectrum-Library",
