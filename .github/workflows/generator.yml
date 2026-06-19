@@ -18,7 +18,7 @@ jobs:
         with:
           python-version: '3.x'
 
-      - name: ⚙️ Exécution du script de synchronisation strict v7
+      - name: ⚙️ Exécution du script de synchronisation strict v8
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
@@ -75,7 +75,7 @@ jobs:
                   version = "v1.0.0"
                   downloaded = False
                   
-                  # 1. CAS CLASSIQUE GITHUB
+                  # 1. CAS GITHUB
                   if "github.com" in xml_url:
                       repo_match = re.search(r'github\.com/([^/]+/[^/]+)', xml_url)
                       if repo_match:
@@ -97,7 +97,7 @@ jobs:
                           except:
                               pass
 
-                  # 2. CAS DÉPÔT EXTERNE FORGEJO AVEC LIEN DIRECT HTML RE-VÉRIFIÉ
+                  # 2. CAS DÉPÔT FORGEJO (elf-arsenal)
                   if not downloaded:
                       try:
                           rss_url = f"{xml_url}/releases.atom"
@@ -113,11 +113,9 @@ jobs:
                           os.makedirs(target_dir, exist_ok=True)
 
                           decoded_atom = html.unescape(raw_atom)
-                          
-                          # Regex ultra large pour intercepter les fichiers elf/bin/zip dans les releases Gitea/Forgejo
                           links = re.findall(r'href="([^"]+?\.(?:elf|bin|pkg|zip|tar\.gz))"', decoded_atom)
+                          
                           if not links:
-                              # On extrait les urls de téléchargement d'archive standard si pas de binaire direct
                               links = re.findall(r'/[^"\s>]+?/(?:archive|releases/download)/[^"\s>]+', decoded_atom)
 
                           if links:
@@ -133,7 +131,7 @@ jobs:
                               print(f"   => Fichier externe récupéré : {f_name}")
                               downloaded = True
                       except Exception as e:
-                          print(f"   ⚠️ Échec de la récupération externe pour {title}: {e}")
+                          print(f"   ⚠️ Échec Forgejo pour {title}: {e}")
 
                   # ANALYSE ET CALCUL SHA-256
                   version_clean = re.sub(r'[^a-zA-Z0-9._-]', '', version)
@@ -178,7 +176,7 @@ jobs:
                       repo_folder_url = f"https://github.com/nexgen999/{repo_name}/tree/main/{target_dir.replace(os.sep, '/')}"
                       readme_rows.append(f"| **{title}** | {author} | {cat_display_name} | [{version}]({repo_folder_url}) | `{sha256_hash[:10]}...` | {description} |")
 
-              # Écriture du JSON de catégorie
+              # Écriture JSON Catégorie
               cat_final_json = {
                   "name": f"{cat_tech_name} (PLDMGR Updater)",
                   "payloads": category_payloads_list
@@ -186,7 +184,7 @@ jobs:
               with open(os.path.join(JSON_DIR, f"{cat_tech_name}.json"), 'w', encoding='utf-8') as out_cat:
                   json.dump(cat_final_json, out_cat, indent=2, ensure_ascii=False)
 
-          # Écriture du payloads.json GLOBAL avec le bon "name"
+          # Écriture payloads.json GLOBAL strict name
           global_flat_json = {
               "name": "PS5 Super PLDMGR Updater",
               "payloads": all_payloads_flat_list
@@ -194,20 +192,39 @@ jobs:
           with open(os.path.join(JSON_DIR, "payloads.json"), 'w', encoding='utf-8') as out_glob:
               json.dump(global_flat_json, out_glob, indent=2, ensure_ascii=False)
 
-          # MISE A JOUR DU README PAR BLOC UNIQUE REPRODUCTIBLE
+          # RECONSTRUCTION LINEAIRE DU README SANS REGEX RISQUÉE
           if os.path.exists("README.md"):
               with open("README.md", 'r', encoding='utf-8') as r_file:
-                  readme_content = r_file.read()
+                  lines = r_file.readlines()
               
-              table_str = "\n\n| Application | Auteur | Catégorie | Version (Dépôt) | Empreinte SHA-256 | Description |\n| :--- | :--- | :--- | :--- | :--- | :--- |\n" + "\n".join(readme_rows) + "\n\n"
-              credits_str = "\n\n" + "\n".join(sorted(list(credits_list))) + "\n\n"
-              
-              # Remplacement propre sans empilement de lignes
-              readme_content = re.sub(r".*?", table_str, readme_content, flags=re.DOTALL)
-              readme_content = re.sub(r".*?", credits_str, readme_content, flags=re.DOTALL)
-              
+              new_lines = []
+              inside_table = False
+              inside_credits = False
+
+              table_content = "| Application | Auteur | Catégorie | Version (Dépôt) | Empreinte SHA-256 | Description |\n| :--- | :--- | :--- | :--- | :--- | :--- |\n" + "\n".join(readme_rows)
+              credits_content = "\n".join(sorted(list(credits_list)))
+
+              for line in lines:
+                  if "" in line:
+                      new_lines.append(line)
+                      new_lines.append("\n" + table_content + "\n")
+                      inside_table = True
+                      continue
+                  if "" in line:
+                      inside_table = False
+                  if "" in line:
+                      new_lines.append(line)
+                      new_lines.append("\n" + credits_content + "\n")
+                      inside_credits = True
+                      continue
+                  if "" in line:
+                      inside_credits = False
+
+                  if not inside_table and not inside_credits:
+                      new_lines.append(line)
+
               with open("README.md", 'w', encoding='utf-8') as r_file:
-                  r_file.write(readme_content)
+                  r_file.writelines(new_lines)
 
           print("=== Synchronisation terminée ===")
           EOF
@@ -218,8 +235,8 @@ jobs:
           git config --global user.email "actions@github.com"
           git add .
           if ! git diff --cached --quiet; then
-            git commit -m "🤖 [Mise à jour Réseau] Synchronisation et tableaux opérationnels"
+            git commit -m "🤖 [Mise à jour v8] Correction taille README et sécurité linéaire"
             git push
           else
-            echo "Aucun changement."
+            echo "Rien à pousser."
           fi
