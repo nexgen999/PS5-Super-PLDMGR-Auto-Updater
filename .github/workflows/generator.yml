@@ -34,7 +34,7 @@ jobs:
           global_json_data = {}
           readme_rows = []
           rss_items = []
-          credits_list = set() # Pour éviter les doublons de développeurs
+          credits_list = set()
 
           print("=== Début de la synchronisation ===")
 
@@ -81,7 +81,6 @@ jobs:
 
                   os.makedirs(target_dir, exist_ok=True)
 
-                  # STRATÉGIE DE TÉLÉCHARGEMENT
                   downloaded = False
                   if "github.com" in xml_url:
                       repo_match = re.search(r'github\.com/([^/]+/[^/]+)', xml_url)
@@ -93,9 +92,11 @@ jobs:
                           except:
                               pass
                           
-                          # Recalcul du dossier avec la vraie version GitHub
                           version_clean = re.sub(r'[^a-zA-Z0-9._-]', '', version)
-                          os.rmdir(target_dir) # On vire le dossier temporaire v1.0.0
+                          try:
+                              os.rmdir(target_dir)
+                          except:
+                              pass
                           if base_cat == sub_cat + "s":
                               target_dir = os.path.join(base_cat, title.replace(" ", "_"), version_clean)
                           else:
@@ -108,14 +109,11 @@ jobs:
                           except:
                               pass
 
-                  # SI DÉPÔT EXTERNE (Ex: Gitea / Forgejo comme etawen.dev)
                   if not downloaded:
                       try:
-                          # On tente de lire les releases via l'API RSS native de la plateforme Git externe
                           rss_url = f"{xml_url}/releases.atom"
                           req = urllib.request.Request(rss_url, headers={'User-Agent': 'Mozilla/5.0'})
                           html = urllib.request.urlopen(req).read().decode('utf-8')
-                          # Extraction du premier lien de téléchargement disponible dans le flux RSS
                           links = re.findall(r'href="([^"]+/(?:releases|archive)/[^"]+\.(?:elf|bin|pkg|zip))"', html)
                           if links:
                               file_dl_url = links[0]
@@ -124,11 +122,10 @@ jobs:
                                   file_dl_url = base_url + file_dl_url
                               f_name = file_dl_url.split('/')[-1]
                               urllib.request.urlretrieve(file_dl_url, os.path.join(target_dir, f_name))
-                              print(f"   => Fichier externe téléchargé avec succès : {f_name}")
+                              print(f"   => Fichier externe téléchargé : {f_name}")
                       except Exception as e:
                           print(f"   ⚠️ Échec du scan externe alternatif : {e}")
 
-                  # ANALYSE ET CALCUL DU SHA-256
                   files_in_dir = os.listdir(target_dir) if os.path.exists(target_dir) else []
                   main_file = None
                   sha256_hash = ""
@@ -176,21 +173,39 @@ jobs:
           with open(os.path.join(JSON_DIR, "payloads.json"), 'w', encoding='utf-8') as out_glob:
               json.dump(global_json_data, out_glob, indent=2, ensure_ascii=False)
 
-          # MISE A JOUR DU README (TABLEAU + CREDITS)
+          # MISE A JOUR DU README (SÉCURISÉE SANS BOUCLE)
           if os.path.exists("README.md"):
               with open("README.md", 'r', encoding='utf-8') as r_file:
-                  readme_content = r_file.read()
+                  lines = r_file.readlines()
               
-              # Injection Tableau
-              table_content = "| Application | Auteur | Catégorie | Version (Dépôt) | Empreinte SHA-256 | Description |\n| :--- | :--- | :--- | :--- | :--- | :--- |\n" + "\n".join(readme_rows)
-              readme_content = re.sub(r".*?", f"\n\n{table_content}\n\n", readme_content, flags=re.DOTALL)
+              new_lines = []
+              skip_table = False
+              skip_credits = False
               
-              # Injection Crédits
-              credits_content = "\n".join(sorted(list(credits_list)))
-              readme_content = re.sub(r".*?", f"\n\n{credits_content}\n\n", readme_content, flags=re.DOTALL)
-              
+              table_content = "| Application | Auteur | Catégorie | Version (Dépôt) | Empreinte SHA-256 | Description |\n| :--- | :--- | :--- | :--- | :--- | :--- |\n" + "\n".join(readme_rows) + "\n"
+              credits_content = "\n".join(sorted(list(credits_list))) + "\n"
+
+              for line in lines:
+                  if "<!-- START_TABLE -->" in line:
+                      new_lines.append(line)
+                      new_lines.append("\n" + table_content + "\n")
+                      skip_table = True
+                      continue
+                  if "<!-- END_TABLE -->" in line:
+                      skip_table = False
+                  if "<!-- START_CREDITS -->" in line:
+                      new_lines.append(line)
+                      new_lines.append("\n" + credits_content + "\n")
+                      skip_credits = True
+                      continue
+                  if "<!-- END_CREDITS -->" in line:
+                      skip_credits = False
+                  
+                  if not skip_table and not skip_credits:
+                      new_lines.append(line)
+
               with open("README.md", 'w', encoding='utf-8') as r_file:
-                  r_file.write(readme_content)
+                  r_file.writelines(new_lines)
 
           print("=== Synchronisation terminée ===")
           EOF
