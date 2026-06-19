@@ -57,7 +57,6 @@ for opml_file in opml_files:
             continue
 
         print(f" 🔍 Analyse de {title} ({xml_url})...")
-        credits_list.add(f"- **{author}** : [{title}]({xml_url})")
 
         version = "v1.0.0"
         downloaded = False
@@ -67,7 +66,7 @@ for opml_file in opml_files:
         if clean_xml_url.endswith('.elf') or clean_xml_url.endswith('.bin') or clean_xml_url.endswith('.pkg'):
             try:
                 version = "Source-Fixe"
-                version_clean = "main"
+                version_clean = "Source-Fixe" # Correction cohérence dossier
                 target_dir = os.path.join(PAYLOADS_ROOT, cat_tech_name, title.replace(" ", "_"), version_clean)
                 os.makedirs(target_dir, exist_ok=True)
                 
@@ -80,7 +79,7 @@ for opml_file in opml_files:
             except Exception as e:
                 print(f"   ⚠️ Échec du téléchargement de la source fixe : {e}")
 
-        # 1. TRAITEMENT RELEASES GITHUB (Uniquement si pas déjà téléchargé via source fixe)
+        # 1. TRAITEMENT RELEASES GITHUB
         if not downloaded and "github.com" in xml_url:
             repo_match = re.search(r'github\.com/([^/]+/[^/]+)', xml_url)
             if repo_match:
@@ -163,7 +162,7 @@ for opml_file in opml_files:
                             
                             if valid_file_url and f_name:
                                 print(f"   🎯 Asset Forgejo détecté : {f_name}")
-                                urllib.request.urlretrieve(valid_file_url, os.path.join(target_dir, f_name))
+                                urllib.request.urlretrieve(valid_url, os.path.join(target_dir, f_name))
                                 downloaded = True
             except Exception as e:
                 print(f"   ℹ️ Erreur API Forgejo ({e})")
@@ -189,16 +188,18 @@ for opml_file in opml_files:
                 except Exception as api_err:
                     print(f"   ⚠️ Échec de l'API de secours Forgejo: {api_err}")
 
-        # ANALYSE ET CALCUL SHA-256
-        version_clean = re.sub(r'[^a-zA-Z0-9._-]', '', version)
+        # ANALYSE ET CALCUL SHA-256 (Correction ciblage dossier)
+        version_clean = re.sub(r'[^a-zA-Z0-9._-]', '', version) if version != "Source-Fixe" else "Source-Fixe"
         target_dir = os.path.join(PAYLOADS_ROOT, cat_tech_name, title.replace(" ", "_"), version_clean)
         
         files_in_dir = os.listdir(target_dir) if os.path.exists(target_dir) else []
         main_file = None
         sha256_hash = ""
 
+        # Recherche du binaire exécutable d'abord
         for f_name in files_in_dir:
-            if f_name.endswith('.elf') or f_name.endswith('.bin'):
+            f_name_lower = f_name.lower()
+            if f_name_lower.endswith('.elf') or f_name_lower.endswith('.bin'):
                 main_file = f_name
                 full_path = os.path.join(target_dir, f_name)
                 hasher = hashlib.sha256()
@@ -208,14 +209,19 @@ for opml_file in opml_files:
                 sha256_hash = hasher.hexdigest()
                 break
 
+        # Archive de secours si pas de binaire pur
         if not main_file:
             for f_name in files_in_dir:
-                if f_name.endswith('.zip') or f_name.endswith('.pkg') or f_name.endswith('.tar.gz'):
+                f_name_lower = f_name.lower()
+                if f_name_lower.endswith('.zip') or f_name_lower.endswith('.pkg') or f_name_lower.endswith('.tar.gz'):
                     main_file = f_name
                     sha256_hash = "N/A (Archive)"
                     break
 
+        # On n'ajoute aux crédits, au JSON et au README QUE si le fichier existe vraiment !
         if main_file:
+            credits_list.add(f"- **{author}** : [{title}]({xml_url})") # Déplacé ici pour être synchro !
+            
             repo_name = os.environ.get('GITHUB_REPOSITORY', 'PS5-Super-PLDMGR-Auto-Updater').split('/')[-1]
             file_url = f"https://nexgen999.github.io/{repo_name}/{target_dir.replace(os.sep, '/')}/{main_file}"
 
@@ -232,6 +238,8 @@ for opml_file in opml_files:
             
             repo_folder_url = f"https://github.com/nexgen999/{repo_name}/tree/main/{target_dir.replace(os.sep, '/')}"
             readme_rows.append(f"| **{title}** | {author} | {cat_display_name} | [{version}]({repo_folder_url}) | `{sha256_hash[:10]}...` | {description} |")
+        else:
+            print(f"   ⚠️ Abandon de l'indexation pour {title} : Aucun fichier valide trouvé dans {target_dir}")
 
     # Sauvegarde JSON Catégorie
     cat_final_json = {
@@ -247,51 +255,3 @@ global_flat_json = {
     "name": "PS5 Super PLDMGR Updater",
     "payloads": all_payloads_flat_list
 }
-with open(os.path.join(JSON_DIR, "payloads.json"), 'w', encoding='utf-8') as out_glob:
-    json.dump(global_flat_json, out_glob, indent=2, ensure_ascii=False)
-
-# GENERATION DES FICHIERS DANS RSS/
-print("\n📡 Génération des flux RSS et OPML...")
-with open(os.path.join(RSS_DIR, "store-global.opml"), "w", encoding="utf-8") as opml_out:
-    opml_out.write('<?xml version="1.0" encoding="UTF-8"?>\n<opml version="2.0">\n  <head>\n    <title>PS5 Store Global Radar</title>\n  </head>\n  <body>\n')
-    for row in sorted(list(credits_list)):
-        match = re.search(r'\*\*([^*]+)\*\*\s*:\s*\[([^\]]+)\]\(([^)]+)\)', row)
-        if match:
-            author_name, title_name, raw_url = match.group(1), match.group(2), match.group(3)
-            opml_out.write(f'    <outline text="{title_name}" title="{title_name}" type="rss" xmlUrl="{raw_url}" author="{author_name}"/>\n')
-    opml_out.write('  </body>\n</opml>')
-
-with open(os.path.join(RSS_DIR, "feed.xml"), "w", encoding="utf-8") as feed_out:
-    feed_out.write('<?xml version="1.0" encoding="UTF-8" ?>\n<rss version="2.0">\n  <channel>\n    <title>PS5 Mini-Store Mises à jour</title>\n')
-    feed_out.write(f'    <link>https://nexgen999.github.io/{repo_name}/</link>\n    <description>Suivi automatique des payloads</description>\n')
-    for item in all_payloads_flat_list:
-        feed_out.write('    <item>\n')
-        feed_out.write(f'      <title>{item["title"]} ({item["version"]})</title>\n')
-        feed_out.write(f'      <link>{item["url"]}</link>\n')
-        feed_out.write(f'      <description>{item["description"]} - SHA256: {item["sha256"]}</description>\n')
-        feed_out.write('    </item>\n')
-    feed_out.write('  </channel>\n</rss>')
-
-# REGENERATION DU README
-with open("README.md", "w", encoding="utf-8") as r_file:
-    r_file.write("# 🎮 PS5 Payload Manager & Mini-Store\n\n")
-    r_file.write("![Logo ou Bannière](assets/banner.png)\n\n")
-    r_file.write("Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !\n\n")
-    r_file.write("> 💡 **Configuration du Store sur l'application PS5 :** Pour connecter votre console, ajoutez le fichier central **`payloads.json`** :\n")
-    r_file.write(f"> `https://nexgen999.github.io/{repo_name}/json/payloads.json`\n\n")
-    r_file.write("---\n\n")
-    r_file.write("## 📱 Flux RSS & Alertes\n")
-    r_file.write("* **Radar Global (OPML) :** `rss/store-global.opml`\n")
-    r_file.write("* **Flux de mises à jour (XML) :** `rss/feed.xml`\n\n")
-    r_file.write("---\n\n")
-    r_file.write("## 📦 Liste des Applications & Payloads disponibles\n\n")
-    r_file.write("| Application | Auteur | Catégorie | Version (Dépôt) | Empreinte SHA-256 | Description |\n")
-    r_file.write("| :--- | :--- | :--- | :--- | :--- | :--- |\n")
-    r_file.write("\n".join(readme_rows) + "\n\n")
-    r_file.write("---\n\n")
-    r_file.write("## 🤝 Crédits & Remerciements\n")
-    r_file.write("\n".join(sorted(list(credits_list))) + "\n\n")
-    r_file.write("---\n")
-    r_file.write("*Dépôt 100% autonome géré par GitHub Actions.*\n")
-
-print("=== Synchronisation terminée ===")
