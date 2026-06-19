@@ -92,7 +92,7 @@ for opml_file in opml_files:
                 except Exception as e:
                     print(f"   ⚠️ Erreur gh release: {e}")
 
-        # 2. TRAITEMENT RELEASES FORGEJO (SCAN TOTAL SÉCURISÉ)
+# 2. TRAITEMENT RELEASES FORGEJO (SCAN RADICAL DES LIENS D'ASSETS)
         if not downloaded and "git.etawen.dev" in xml_url:
             try:
                 rss_url = f"{xml_url}/releases.atom"
@@ -107,50 +107,65 @@ for opml_file in opml_files:
                 target_dir = os.path.join(PAYLOADS_ROOT, cat_tech_name, title.replace(" ", "_"), version_clean)
                 os.makedirs(target_dir, exist_ok=True)
 
+                # Décodage complet du flux HTML/XML
                 decoded_atom = html.unescape(raw_atom)
-                all_found_links = re.findall(r'href=[\'"]?([^\'" >]+)', decoded_atom)
+                
+                # Extraction ultra-large de tout ce qui ressemble à une URL ou un chemin
+                all_found_links = re.findall(r'(?:href|src)=[\'"]?([^\'" >]+)', decoded_atom)
                 
                 valid_file_url = None
                 
-                # Étape A : Recherche du binaire brut (.elf, .bin, .pkg) n'importe où dans l'URL sans PS4
+                # --- ÉTAPE A : RECHERCHE PRIORITAIRE DU ELF / BIN STRICT ---
                 for link in all_found_links:
-                    # On nettoie l'URL de ses paramètres de requêtes (?token=...) pour l'analyse
                     clean_link = link.split('?')[0].lower()
                     
+                    # Filtres d'exclusions stricts
                     if "ps4" in clean_link or "archive" in clean_link or clean_link.endswith('.zip') or clean_link.endswith('.tar.gz'):
                         continue
-                        
+                    
+                    # Si l'URL contient explicitement .elf, .bin ou .pkg, on l'attrape direct !
                     if ".elf" in clean_link or ".bin" in clean_link or ".pkg" in clean_link:
                         valid_file_url = link
                         break
                 
-                # Étape B : Secours uniquement si aucun binaire brut trouvé (Ex: l'application est packagée en .zip valide)
+                # --- ÉTAPE B : SI TOUJOURS RIEN, RECHERCHE DANS LE TEXTE DÉCODÉ VIA PATTERN DE TÉLÉCHARGEMENT ---
+                if not valid_file_url:
+                    # Recherche de patterns d'attachments ou de releases Forgejo : /releases/download/ ou /attachments/
+                    forgejo_asset_matches = re.findall(r'/[^"\s>‘]+?\.(?:elf|bin|pkg)', decoded_atom, re.IGNORECASE)
+                    for match in forgejo_asset_matches:
+                        if "ps4" in match.lower():
+                            continue
+                        valid_file_url = match
+                        break
+
+                # --- ÉTAPE C : SECOURS UNIQUE SI L'APPLICATION EST EMBALLÉE DANS UN ZIP NOMMÉ ---
                 if not valid_file_url:
                     for link in all_found_links:
                         clean_link = link.split('?')[0].lower()
-                        if "ps4" in clean_link or "archive" in clean_link:
+                        if "ps4" in clean_link or "archive" in clean_link or "src" in clean_link:
                             continue
-                        if clean_link.endswith('.zip'):
+                        if clean_link.endswith('.zip') and title.replace(" ", "_").lower() in clean_link:
                             valid_file_url = link
                             break
 
                 if valid_file_url:
+                    # Reconstruction de l'URL absolue si chemin relatif
                     if valid_file_url.startswith('/'):
                         base_url = re.match(r'(https?://[^/]+)', xml_url).group(1)
                         valid_file_url = base_url + valid_file_url
                     
                     f_name = valid_file_url.split('?')[0].split('/')[-1]
                     
-                    print(f"   🎯 URL ciblée validée : {valid_file_url}")
-                    print(f"   -> Téléchargement de l'exécutable : {f_name}...")
+                    print(f"   🎯 URL Forgejo interceptée : {valid_file_url}")
+                    print(f"   -> Téléchargement du binaire : {f_name}...")
                     urllib.request.urlretrieve(valid_file_url, os.path.join(target_dir, f_name))
                     downloaded = True
                 else:
-                    print("   ⚠️ Aucun binaire PS5 éligible trouvé dans le flux XML.")
+                    print("   ⚠️ Aucun asset direct détecté dans le flux XML, tentative via l'API des tags...")
             except Exception as e:
-                print(f"   ℹ️ Flux Atom indéchiffrable ({e}), bascule sur l'API des Tags...")
+                print(f"   ℹ️ Erreur lors du scan du flux Atom Forgejo ({e})")
 
-            # Secours API Tags avec filtrage PS4 renforcé
+            # Secours API Tags (uniquement si le flux n'a absolument rien donné)
             if not downloaded:
                 try:
                     api_repo_match = re.search(r'git\.etawen\.dev/([^/]+/[^/]+)', xml_url)
@@ -165,16 +180,15 @@ for opml_file in opml_files:
                                 tag_name = tags_data[0].get('name', '')
                                 zip_url = tags_data[0].get('zipball_url', '')
                                 
-                                # Sécurité : Si le tag s'appelle explicitement PS4, on refuse
                                 if "ps4" in tag_name.lower() or "ps4" in zip_url.lower():
-                                    print(f"   🚫 [API Tags] Cible refusée car tag PS4 détecté ({tag_name})")
+                                    print(f"   🚫 [API Tags] Rejet du tag de secours (PS4 détecté)")
                                 else:
                                     version = tag_name if tag_name else "v1.0.0"
                                     version_clean = re.sub(r'[^a-zA-Z0-9._-]', '', version)
                                     target_dir = os.path.join(PAYLOADS_ROOT, cat_tech_name, title.replace(" ", "_"), version_clean)
                                     os.makedirs(target_dir, exist_ok=True)
                                     f_name = f"{title.replace(' ', '_')}_{version_clean}.zip"
-                                    print(f"   -> [Secours Tag] Téléchargement de l'archive source : {f_name}")
+                                    print(f"   -> [Secours Tag] Téléchargement du zip de code source : {f_name}")
                                     urllib.request.urlretrieve(zip_url, os.path.join(target_dir, f_name))
                                     downloaded = True
                 except Exception as api_err:
