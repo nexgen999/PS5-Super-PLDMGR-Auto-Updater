@@ -37,7 +37,7 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 - **LightningMods** : [etaHEN](https://github.com/etaHEN/etaHEN)
 - **NookieAI** : [Kura](https://github.com/NookieAI/kura)
 - **SonicIso** : [ELF Arsenal](https://git.etawen.dev/soniciso/elf-arsenal)
-- **aydencharles** : [kylin-core](https://github.com/aydencharles/kylin-core-release)
+- **aydencharles** : [kylin-core](https://github.com/nexgen999/PS5_Payload_Manager_Updater/raw/refs/heads/main/ps5_cheat/kylin-core-community-lite-v131-global-release.elf)
 - **earthonion** : [np-fake-signin](https://git.etawen.dev/earthonion/np-fake-signin)
 - **itsPLK** : [PS5 Payload Manager](https://github.com/itsPLK/ps5-payload-manager)
 - **itsPLK** : [PS5 Unified Autoloader](https://github.com/itsPLK/ps5-unified-autoloader)

@@ -10,7 +10,7 @@
     <outline text="etaHEN" title="etaHEN" type="rss" xmlUrl="https://github.com/etaHEN/etaHEN" author="LightningMods"/>
     <outline text="Kura" title="Kura" type="rss" xmlUrl="https://github.com/NookieAI/kura" author="NookieAI"/>
     <outline text="ELF Arsenal" title="ELF Arsenal" type="rss" xmlUrl="https://git.etawen.dev/soniciso/elf-arsenal" author="SonicIso"/>
-    <outline text="kylin-core" title="kylin-core" type="rss" xmlUrl="https://github.com/aydencharles/kylin-core-release" author="aydencharles"/>
+    <outline text="kylin-core" title="kylin-core" type="rss" xmlUrl="https://github.com/nexgen999/PS5_Payload_Manager_Updater/raw/refs/heads/main/ps5_cheat/kylin-core-community-lite-v131-global-release.elf" author="aydencharles"/>
     <outline text="np-fake-signin" title="np-fake-signin" type="rss" xmlUrl="https://git.etawen.dev/earthonion/np-fake-signin" author="earthonion"/>
     <outline text="PS5 Payload Manager" title="PS5 Payload Manager" type="rss" xmlUrl="https://github.com/itsPLK/ps5-payload-manager" author="itsPLK"/>
     <outline text="PS5 Unified Autoloader" title="PS5 Unified Autoloader" type="rss" xmlUrl="https://github.com/itsPLK/ps5-unified-autoloader" author="itsPLK"/>
