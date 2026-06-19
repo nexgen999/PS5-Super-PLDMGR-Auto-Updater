@@ -80,7 +80,7 @@ for opml_file in opml_files:
                 except Exception as e:
                     print(f"   ⚠️ Erreur gh release: {e}")
 
-        # 2. TRAITEMENT RELEASES FORGEJO (MÉTHODE ATOM PRIORITAIRE POUR EVITER LES ZIP DE CODE SOURCE)
+# 2. TRAITEMENT RELEASES FORGEJO (MÉTHODE ATOM PRIORITAIRE AVEC DÉCODAGE HTML)
         if not downloaded and "git.etawen.dev" in xml_url:
             try:
                 rss_url = f"{xml_url}/releases.atom"
@@ -95,19 +95,19 @@ for opml_file in opml_files:
                 target_dir = os.path.join(PAYLOADS_ROOT, cat_tech_name, title.replace(" ", "_"), version_clean)
                 os.makedirs(target_dir, exist_ok=True)
 
+                # CRUCIAL : On décode TOUT le flux Atom pour transformer les &quot; et &lt; en vrai HTML lisible
                 decoded_atom = html.unescape(raw_atom)
                 
-                # Extraction des liens se terminant par .elf ou .bin en priorité absolue
+                # Maintenant que c'est décodé, on cherche les fichiers .elf, .bin, .pkg
                 links = re.findall(r'href="([^"]+?\.(?:elf|bin|pkg))"', decoded_atom)
+                
+                # Si non trouvé, on cherche sans les guillemets (parfois requis selon le rendu Forgejo)
                 if not links:
-                    # Secours sur les archives si aucun binaire brut n'est présent
-                    links = re.findall(r'href="([^"]+?\.(?:zip|tar\.gz))"', decoded_atom)
-                if not links:
-                    # Secours chemin générique
-                    links = re.findall(r'/[^"\s>]+?/(?:archive|releases/download)/[^"\s>]+', decoded_atom)
+                    links = re.findall(r'href=[\'"]?([^\'" >]+?\.(?:elf|bin|pkg))', decoded_atom)
 
                 if links:
                     file_dl_url = links[0]
+                    # Si le chemin est relatif (ex: /soniciso/elf-arsenal/releases/download/...), on ajoute le domaine
                     if file_dl_url.startswith('/'):
                         base_url = re.match(r'(https?://[^/]+)', xml_url).group(1)
                         file_dl_url = base_url + file_dl_url
@@ -115,13 +115,15 @@ for opml_file in opml_files:
                     f_name = file_dl_url.split('/')[-1]
                     if "?" in f_name: f_name = f_name.split('?')[0]
                     
-                    print(f"   -> Téléchargement binaire brut Forgejo : {f_name}...")
+                    print(f"   -> Liens décodés trouvés ! Téléchargement du binaire brut : {f_name}...")
                     urllib.request.urlretrieve(file_dl_url, os.path.join(target_dir, f_name))
                     downloaded = True
+                else:
+                    print("   ℹ️ Aucun binaire direct (.elf/.bin) trouvé dans le flux décodé.")
             except Exception as e:
                 print(f"   ℹ️ Échec méthode Atom Forgejo ({e}), bascule sur l'API des Tags...")
 
-            # Secours via l'API publique des Tags si l'Atom n'avait pas de fichiers valides
+            # Secours via l'API publique des Tags si l'Atom n'a rien donné
             if not downloaded:
                 try:
                     api_repo_match = re.search(r'git\.etawen\.dev/([^/]+/[^/]+)', xml_url)
@@ -140,7 +142,7 @@ for opml_file in opml_files:
                                     target_dir = os.path.join(PAYLOADS_ROOT, cat_tech_name, title.replace(" ", "_"), version_clean)
                                     os.makedirs(target_dir, exist_ok=True)
                                     f_name = f"{title.replace(' ', '_')}_{version_clean}.zip"
-                                    print(f"   -> Tag Forgejo utilisé ({version}) : {f_name}")
+                                    print(f"   -> [Secours Tag] Téléchargement de l'archive : {f_name}")
                                     urllib.request.urlretrieve(zip_url, os.path.join(target_dir, f_name))
                                     downloaded = True
                 except Exception as api_err:
