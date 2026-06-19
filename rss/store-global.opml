@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>PS5 Store Global Radar</title>
+  </head>
+  <body>
+    <outline text="Chukei DNS" title="Chukei DNS" type="rss" xmlUrl="https://github.com/Al-Azif/chukei-dns" author="Al-Azif"/>
+    <outline text="nanoDNS" title="nanoDNS" type="rss" xmlUrl="https://github.com/drakmor/nanoDNS" author="Drakmor"/>
+    <outline text="etaHEN" title="etaHEN" type="rss" xmlUrl="https://github.com/etaHEN/etaHEN" author="LightningMods"/>
+    <outline text="Kura" title="Kura" type="rss" xmlUrl="https://github.com/NookieAI/kura" author="NookieAI"/>
+    <outline text="ELF Arsenal" title="ELF Arsenal" type="rss" xmlUrl="https://git.etawen.dev/soniciso/elf-arsenal" author="SonicIso"/>
+    <outline text="PS5 Payload Manager" title="PS5 Payload Manager" type="rss" xmlUrl="https://github.com/itsPLK/ps5-payload-manager" author="itsPLK"/>
+    <outline text="PS5 Unified Autoloader" title="PS5 Unified Autoloader" type="rss" xmlUrl="https://github.com/itsPLK/ps5-unified-autoloader" author="itsPLK"/>
+  </body>
+</opml>
