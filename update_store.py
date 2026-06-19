@@ -80,7 +80,7 @@ for opml_file in opml_files:
                 except Exception as e:
                     print(f"   ⚠️ Erreur gh release: {e}")
 
-# 2. TRAITEMENT RELEASES FORGEJO (MÉTHODE ATOM PRIORITAIRE AVEC DÉCODAGE HTML)
+# 2. TRAITEMENT RELEASES FORGEJO (SCAN INTÉGRAL, SÉLECTION STRICTE ET EXCLUSION PS4)
         if not downloaded and "git.etawen.dev" in xml_url:
             try:
                 rss_url = f"{xml_url}/releases.atom"
@@ -95,35 +95,53 @@ for opml_file in opml_files:
                 target_dir = os.path.join(PAYLOADS_ROOT, cat_tech_name, title.replace(" ", "_"), version_clean)
                 os.makedirs(target_dir, exist_ok=True)
 
-                # CRUCIAL : On décode TOUT le flux Atom pour transformer les &quot; et &lt; en vrai HTML lisible
+                # Décodage complet des entités HTML
                 decoded_atom = html.unescape(raw_atom)
                 
-                # Maintenant que c'est décodé, on cherche les fichiers .elf, .bin, .pkg
-                links = re.findall(r'href="([^"]+?\.(?:elf|bin|pkg))"', decoded_atom)
+                # On extrait TOUS les liens possibles présents dans le flux
+                all_found_links = re.findall(r'href=[\'"]?([^\'" >]+)', decoded_atom)
                 
-                # Si non trouvé, on cherche sans les guillemets (parfois requis selon le rendu Forgejo)
-                if not links:
-                    links = re.findall(r'href=[\'"]?([^\'" >]+?\.(?:elf|bin|pkg))', decoded_atom)
+                valid_file_url = None
+                
+                # Étape 1 : On cherche en priorité absolue un binaire pur (.elf, .bin, .pkg) sans "ps4"
+                for link in all_found_links:
+                    link_lower = link.lower()
+                    # Exclusion stricte de la mention PS4 et des archives de code source
+                    if "ps4" in link_lower or "archive" in link_lower or link_lower.endswith('.zip') or link_lower.endswith('.tar.gz'):
+                        continue
+                    if link_lower.endswith('.elf') or link_lower.endswith('.bin') or link_lower.endswith('.pkg'):
+                        valid_file_url = link
+                        break
+                
+                # Étape 2 : Si vraiment aucun binaire pur n'est trouvé, on cherche une archive (.zip), toujours sans "ps4"
+                if not valid_file_url:
+                    for link in all_found_links:
+                        link_lower = link.lower()
+                        if "ps4" in link_lower or "archive" in link_lower:
+                            continue
+                        if link_lower.endswith('.zip'):
+                            valid_file_url = link
+                            break
 
-                if links:
-                    file_dl_url = links[0]
-                    # Si le chemin est relatif (ex: /soniciso/elf-arsenal/releases/download/...), on ajoute le domaine
-                    if file_dl_url.startswith('/'):
+                if valid_file_url:
+                    # Reconstruction de l'URL absolue si Forgejo renvoie un chemin relatif
+                    if valid_file_url.startswith('/'):
                         base_url = re.match(r'(https?://[^/]+)', xml_url).group(1)
-                        file_dl_url = base_url + file_dl_url
+                        valid_file_url = base_url + valid_file_url
                     
-                    f_name = file_dl_url.split('/')[-1]
+                    f_name = valid_file_url.split('/')[-1]
                     if "?" in f_name: f_name = f_name.split('?')[0]
                     
-                    print(f"   -> Liens décodés trouvés ! Téléchargement du binaire brut : {f_name}...")
-                    urllib.request.urlretrieve(file_dl_url, os.path.join(target_dir, f_name))
+                    print(f"   🎯 Cible idéale trouvée : {f_name}")
+                    print(f"   -> Téléchargement en cours...")
+                    urllib.request.urlretrieve(valid_file_url, os.path.join(target_dir, f_name))
                     downloaded = True
                 else:
-                    print("   ℹ️ Aucun binaire direct (.elf/.bin) trouvé dans le flux décodé.")
+                    print("   ⚠️ Aucun fichier correspondant aux critères PS5 (.elf/.bin) n'a été localisé dans le flux.")
             except Exception as e:
-                print(f"   ℹ️ Échec méthode Atom Forgejo ({e}), bascule sur l'API des Tags...")
+                print(f"   ℹ️ Échec de l'analyse du flux Forgejo ({e}), bascule sur l'API des Tags...")
 
-            # Secours via l'API publique des Tags si l'Atom n'a rien donné
+            # Secours via l'API des Tags (uniquement si rien n'a été pris sur le flux)
             if not downloaded:
                 try:
                     api_repo_match = re.search(r'git\.etawen\.dev/([^/]+/[^/]+)', xml_url)
@@ -137,12 +155,12 @@ for opml_file in opml_files:
                             if tags_data:
                                 version = tags_data[0].get('name', 'v1.0.0')
                                 zip_url = tags_data[0].get('zipball_url', '')
-                                if zip_url:
+                                if zip_url and "ps4" not in zip_url.lower():
                                     version_clean = re.sub(r'[^a-zA-Z0-9._-]', '', version)
                                     target_dir = os.path.join(PAYLOADS_ROOT, cat_tech_name, title.replace(" ", "_"), version_clean)
                                     os.makedirs(target_dir, exist_ok=True)
                                     f_name = f"{title.replace(' ', '_')}_{version_clean}.zip"
-                                    print(f"   -> [Secours Tag] Téléchargement de l'archive : {f_name}")
+                                    print(f"   -> [Secours Tag] Archive récupérée : {f_name}")
                                     urllib.request.urlretrieve(zip_url, os.path.join(target_dir, f_name))
                                     downloaded = True
                 except Exception as api_err:
