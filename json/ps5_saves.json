@@ -18,14 +18,6 @@
       "description": "Garlic worker payload component."
     },
     {
-      "title": "Playstation-5-Save-Mounter",
-      "author": "n0llptr",
-      "version": "v1.5.0-Beta2",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_saves/Playstation-5-Save-Mounter/v1.5.0-Beta2/save-mounter.zip",
-      "sha256": "208bc44ac43d4a44c1a6adb52045fc9a2f182f8d6f42493cc86183246ab0a51a",
-      "description": "PS5 Save Mounter application."
-    },
-    {
       "title": "savemnt-offset-dumper",
       "author": "StonedModder",
       "version": "1.0.0",

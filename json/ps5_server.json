@@ -58,14 +58,6 @@
       "description": "Drakmor's variant of the FTP server. Port: 21"
     },
     {
-      "title": "ps5-ezremote-client",
-      "author": "cy33hc",
-      "version": "2.06",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ps5-ezremote-client/2.06/Ps5_ezRemote_Client_2.00.pkg",
-      "sha256": "27059e236ac8e87110f2316870512669e67ab6e8d6b6ac8926673f368dda2b81",
-      "description": "Easy remote client application for PS5."
-    },
-    {
       "title": "ps5upload",
       "author": "phantomptr",
       "version": "v3.3.22",

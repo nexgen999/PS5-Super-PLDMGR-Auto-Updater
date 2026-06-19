@@ -18,14 +18,6 @@
       "description": "Lightweight version of kstuff."
     },
     {
-      "title": "kstuff-toggle",
-      "author": "EchoStretch",
-      "version": "0.6",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_kstuff/kstuff-toggle/0.6/kstuff-toggle.zip",
-      "sha256": "ec6b227b233810e2e9cea2895820b74b5185732d2c2153f3508a03bc68a7f14d",
-      "description": "Utility to toggle kstuff features."
-    },
-    {
       "title": "kstuff-lite (drakmor)",
       "author": "drakmor",
       "version": "1.2-dr-test2",

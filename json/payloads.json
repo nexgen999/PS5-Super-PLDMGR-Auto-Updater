@@ -34,14 +34,6 @@
       "description": "Garlic worker payload component."
     },
     {
-      "title": "Playstation-5-Save-Mounter",
-      "author": "n0llptr",
-      "version": "v1.5.0-Beta2",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_saves/Playstation-5-Save-Mounter/v1.5.0-Beta2/save-mounter.zip",
-      "sha256": "208bc44ac43d4a44c1a6adb52045fc9a2f182f8d6f42493cc86183246ab0a51a",
-      "description": "PS5 Save Mounter application."
-    },
-    {
       "title": "savemnt-offset-dumper",
       "author": "StonedModder",
       "version": "1.0.0",
@@ -104,14 +96,6 @@
       "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ftpsrv_(drakmor)/1.6-ng-test2/ftpsrv-ps5.elf",
       "sha256": "6364e0529416f400be123c52acdcda68efd5179d971c060286022131fd047b8e",
       "description": "Drakmor's variant of the FTP server. Port: 21"
-    },
-    {
-      "title": "ps5-ezremote-client",
-      "author": "cy33hc",
-      "version": "2.06",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ps5-ezremote-client/2.06/Ps5_ezRemote_Client_2.00.pkg",
-      "sha256": "27059e236ac8e87110f2316870512669e67ab6e8d6b6ac8926673f368dda2b81",
-      "description": "Easy remote client application for PS5."
     },
     {
       "title": "ps5upload",
@@ -200,14 +184,6 @@
       "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_kstuff/kstuff-lite/v1.07/kstuff.elf",
       "sha256": "eb730eccd1a333f94e918076d053b4d20701f7c97e6356e591cebabfb4e0fa2d",
       "description": "Lightweight version of kstuff."
-    },
-    {
-      "title": "kstuff-toggle",
-      "author": "EchoStretch",
-      "version": "0.6",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_kstuff/kstuff-toggle/0.6/kstuff-toggle.zip",
-      "sha256": "ec6b227b233810e2e9cea2895820b74b5185732d2c2153f3508a03bc68a7f14d",
-      "description": "Utility to toggle kstuff features."
     },
     {
       "title": "kstuff-lite (drakmor)",
@@ -306,22 +282,6 @@
       "description": "PS5 App Dumper payload."
     },
     {
-      "title": "dump_installer",
-      "author": "EchoStretch",
-      "version": "1.06",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/dump_installer/1.06/dump_installer.zip",
-      "sha256": "696bee1c03311269bde9de1d7e56dcfbfdefdf047a805d2b2ba7cb18e574fb5c",
-      "description": "Dump Installer utility."
-    },
-    {
-      "title": "dump_runner",
-      "author": "EchoStretch",
-      "version": "v1.02",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/dump_runner/v1.02/dump_runner.zip",
-      "sha256": "0ffc4af70b23f7a3c6e943732fab76a7b353f03048958df7699b40e2ec539b1d",
-      "description": "Dump Runner tool."
-    },
-    {
       "title": "ShadowMountPlus",
       "author": "drakmor",
       "version": "1.6test15-fix2",
@@ -336,22 +296,6 @@
       "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/BackPork/0.1/ps5-backpork.elf",
       "sha256": "d74e4cd119b2bb1fd423f2f5b1c9a7f096b3e588c753af1ab48b983d56216a52",
       "description": "BackPork PS5 tool."
-    },
-    {
-      "title": "dlc_emu",
-      "author": "drakmor",
-      "version": "0.2",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/dlc_emu/0.2/dcl_emu_0.2.zip",
-      "sha256": "cffe71d2b247ac3c37b260586ade79df2cb0a76951e4f5de15cca2677c4bd4c7",
-      "description": "DLC Emulator for PS5."
-    },
-    {
-      "title": "pgo_stub",
-      "author": "drakmor",
-      "version": "0.4",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/pgo_stub/0.4/pg_stub_0.4.zip",
-      "sha256": "615999cf2869218f0f1b07b27545dde62905887435c3c0e9fa9f119eceb85732",
-      "description": "PGO stub utility."
     },
     {
       "title": "Spectrum-Library",

@@ -25,11 +25,6 @@
       <description>Garlic worker payload component. - SHA256: da311b3ff92fd06acf513a849b9a7eecdc43ecc34e5b7137d9f3f6f2c16c1704</description>
     </item>
     <item>
-      <title>Playstation-5-Save-Mounter (v1.5.0-Beta2)</title>
-      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_saves/Playstation-5-Save-Mounter/v1.5.0-Beta2/save-mounter.zip</link>
-      <description>PS5 Save Mounter application. - SHA256: 208bc44ac43d4a44c1a6adb52045fc9a2f182f8d6f42493cc86183246ab0a51a</description>
-    </item>
-    <item>
       <title>savemnt-offset-dumper (1.0.0)</title>
       <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_saves/savemnt-offset-dumper/1.0.0/savemnt-offset-dumper.elf</link>
       <description>Offset dumper for save mounting utilities. - SHA256: 946328551f74e3b6a34a7c0169f9b40792e392775768b84874b55ecdff71222e</description>
@@ -68,11 +63,6 @@
       <title>ftpsrv (drakmor) (1.6-ng-test2)</title>
       <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ftpsrv_(drakmor)/1.6-ng-test2/ftpsrv-ps5.elf</link>
       <description>Drakmor's variant of the FTP server. Port: 21 - SHA256: 6364e0529416f400be123c52acdcda68efd5179d971c060286022131fd047b8e</description>
-    </item>
-    <item>
-      <title>ps5-ezremote-client (2.06)</title>
-      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ps5-ezremote-client/2.06/Ps5_ezRemote_Client_2.00.pkg</link>
-      <description>Easy remote client application for PS5. - SHA256: 27059e236ac8e87110f2316870512669e67ab6e8d6b6ac8926673f368dda2b81</description>
     </item>
     <item>
       <title>ps5upload (v3.3.22)</title>
@@ -128,11 +118,6 @@
       <title>kstuff-lite (v1.07)</title>
       <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_kstuff/kstuff-lite/v1.07/kstuff.elf</link>
       <description>Lightweight version of kstuff. - SHA256: eb730eccd1a333f94e918076d053b4d20701f7c97e6356e591cebabfb4e0fa2d</description>
-    </item>
-    <item>
-      <title>kstuff-toggle (0.6)</title>
-      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_kstuff/kstuff-toggle/0.6/kstuff-toggle.zip</link>
-      <description>Utility to toggle kstuff features. - SHA256: ec6b227b233810e2e9cea2895820b74b5185732d2c2153f3508a03bc68a7f14d</description>
     </item>
     <item>
       <title>kstuff-lite (drakmor) (1.2-dr-test2)</title>
@@ -195,16 +180,6 @@
       <description>PS5 App Dumper payload. - SHA256: 95382a9e37987d8eb931cbe5db618e77d293099ef4314e3288d9899bd5ac5c00</description>
     </item>
     <item>
-      <title>dump_installer (1.06)</title>
-      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/dump_installer/1.06/dump_installer.zip</link>
-      <description>Dump Installer utility. - SHA256: 696bee1c03311269bde9de1d7e56dcfbfdefdf047a805d2b2ba7cb18e574fb5c</description>
-    </item>
-    <item>
-      <title>dump_runner (v1.02)</title>
-      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/dump_runner/v1.02/dump_runner.zip</link>
-      <description>Dump Runner tool. - SHA256: 0ffc4af70b23f7a3c6e943732fab76a7b353f03048958df7699b40e2ec539b1d</description>
-    </item>
-    <item>
       <title>ShadowMountPlus (1.6test15-fix2)</title>
       <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/ShadowMountPlus/1.6test15-fix2/shadowmountplus.elf</link>
       <description>ShadowMountPlus payload for game mounting. - SHA256: 8ab32f4cede840a73515c05697fe81759bc98cf41fc22b43e09943262f447e99</description>
@@ -213,16 +188,6 @@
       <title>BackPork (0.1)</title>
       <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/BackPork/0.1/ps5-backpork.elf</link>
       <description>BackPork PS5 tool. - SHA256: d74e4cd119b2bb1fd423f2f5b1c9a7f096b3e588c753af1ab48b983d56216a52</description>
-    </item>
-    <item>
-      <title>dlc_emu (0.2)</title>
-      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/dlc_emu/0.2/dcl_emu_0.2.zip</link>
-      <description>DLC Emulator for PS5. - SHA256: cffe71d2b247ac3c37b260586ade79df2cb0a76951e4f5de15cca2677c4bd4c7</description>
-    </item>
-    <item>
-      <title>pgo_stub (0.4)</title>
-      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/pgo_stub/0.4/pg_stub_0.4.zip</link>
-      <description>PGO stub utility. - SHA256: 615999cf2869218f0f1b07b27545dde62905887435c3c0e9fa9f119eceb85732</description>
     </item>
     <item>
       <title>Spectrum-Library (1.4.1)</title>
