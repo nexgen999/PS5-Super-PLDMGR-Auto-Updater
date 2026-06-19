@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>ps5_utility</title>
+  </head>
+  <body>
+    <outline text="ChronicLoader-PS5-Payload" title="ChronicLoader-PS5-Payload" type="rss" xmlUrl="https://github.com/StonedModder/ChronicLoader-PS5-Payload" author="StonedModder" description="ChronicLoader utility payload for PS5." />
+    <outline text="Ghostpad" title="Ghostpad" type="rss" xmlUrl="https://github.com/StonedModder/Ghostpad" author="StonedModder" description="Ghostpad controller input utility." />
+    <outline text="Ghostcontrol-PS5-USB-Controller-Patcher" title="Ghostcontrol-PS5-USB-Controller-Patcher" type="rss" xmlUrl="https://github.com/StonedModder/Ghostcontrol-PS5-USB-Controller-Patcher" author="StonedModder" description="USB Controller patcher tool for PS5." />
+  </body>
+</opml>
