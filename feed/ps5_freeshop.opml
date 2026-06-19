@@ -4,9 +4,7 @@
     <title>ps5_freeshop</title>
   </head>
   <body>
-    <outline title="ps5_freeshop">
-      <outline title="Spectrum-Library" xmlUrl="https://github.com/Phoenixx1202/Spectrum-Library" author="Phoenixx1202" description="free store webadmin http://<your-ps5-ip>:7575." />
-      <outline title="pegasus-dl" xmlUrl="https://github.com/pegasus-ps5/pegasus-dl" author="pegasus-ps5" description="free store webadmin http://<your-ps5-ip>:6970." />
-    </outline>
+    <outline text="Spectrum-Library" title="Spectrum-Library" type="rss" xmlUrl="https://github.com/Phoenixx1202/Spectrum-Library" author="Phoenixx1202" description="free store webadmin http://your-ps5-ip:7575." />
+    <outline text="pegasus-dl" title="pegasus-dl" type="rss" xmlUrl="https://github.com/pegasus-ps5/pegasus-dl" author="pegasus-ps5" description="free store webadmin http://your-ps5-ip:6970." />
   </body>
 </opml>
