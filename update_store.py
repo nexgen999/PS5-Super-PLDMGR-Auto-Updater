@@ -92,74 +92,76 @@ for opml_file in opml_files:
                 except Exception as e:
                     print(f"   ⚠️ Erreur gh release: {e}")
 
-# 2. TRAITEMENT RELEASES FORGEJO (SÉLECTION ABSOLUE DU BINAIRE .ELF/.BIN)
+# 2. TRAITEMENT RELEASES FORGEJO (VIA API RELEASES POUR ACCÉDER AUX VRAIS ASSETS)
         if not downloaded and "git.etawen.dev" in xml_url:
             try:
-                rss_url = f"{xml_url}/releases.atom"
-                req = urllib.request.Request(rss_url, headers={'User-Agent': 'Mozilla/5.0'})
-                raw_atom = urllib.request.urlopen(req).read().decode('utf-8')
-                
-                tag_match = re.search(r'<title>[^<]*?(v?\d+\.\d+\.\d+[^<]*?)</title>', raw_atom)
-                if tag_match:
-                    version = tag_match.group(1).strip()
-                
-                version_clean = re.sub(r'[^a-zA-Z0-9._-]', '', version)
-                target_dir = os.path.join(PAYLOADS_ROOT, cat_tech_name, title.replace(" ", "_"), version_clean)
-                os.makedirs(target_dir, exist_ok=True)
-
-                # Décodage complet des entités HTML du flux Atom
-                decoded_atom = html.unescape(raw_atom)
-                
-                # RECHERCHE CHIRURGICALE : On extrait uniquement les chemins d'accès se terminant par .elf, .bin ou .pkg
-                # Cela cible précisément les liens d'assets de release ou d'attachments
-                forgejo_binaries = re.findall(r'href=[\'"]?([^\'" >]+?\.(?:elf|bin|pkg)[^\'" >]*)', decoded_atom, re.IGNORECASE)
-                
-                valid_file_url = None
-                for link in forgejo_binaries:
-                    clean_link = link.split('?')[0].lower()
-                    # Exclusion stricte de toute mention PS4
-                    if "ps4" in clean_link:
-                        continue
-                    # On a notre binaire éligible
-                    valid_file_url = link
-                    break
-
-                # Si la recherche ciblée n'a rien donné, extraction globale par précaution (sans aucun .zip)
-                if not valid_file_url:
-                    all_links = re.findall(r'href=[\'"]?([^\'" >]+)', decoded_atom)
-                    for link in all_links:
-                        clean_link = link.split('?')[0].lower()
-                        if "ps4" in clean_link or "archive" in clean_link or clean_link.endswith('.zip') or clean_link.endswith('.tar.gz'):
-                            continue
-                        if ".elf" in clean_link or ".bin" in clean_link or ".pkg" in clean_link:
-                            valid_file_url = link
-                            break
-
-                if valid_file_url:
-                    # Reconstruction de l'URL si elle est relative
-                    if valid_file_url.startswith('/'):
-                        base_url = re.match(r'(https?://[^/]+)', xml_url).group(1)
-                        valid_file_url = base_url + valid_file_url
+                api_repo_match = re.search(r'git\.etawen\.dev/([^/]+/[^/]+)', xml_url)
+                if api_repo_match:
+                    repo_path = api_repo_match.group(1)
+                    # On interroge l'API des releases qui liste explicitement les fichiers attachés (assets)
+                    api_url = f"https://git.etawen.dev/api/v1/repos/{repo_path}/releases"
                     
-                    f_name = valid_file_url.split('?')[0].split('/')[-1]
-                    
-                    print(f"   🎯 Binaire Forgejo identifié : {valid_file_url}")
-                    print(f"   -> Téléchargement de l'exécutable : {f_name}...")
-                    urllib.request.urlretrieve(valid_file_url, os.path.join(target_dir, f_name))
-                    downloaded = True
-                else:
-                    print("   ⚠️ Aucun fichier .elf / .bin valide trouvé dans le flux Atom.")
+                    req = urllib.request.Request(api_url, headers={'User-Agent': 'Mozilla/5.0'})
+                    with urllib.request.urlopen(req) as response:
+                        releases_data = json.loads(response.read().decode('utf-8'))
+                        
+                        if releases_data:
+                            # Récupération de la dernière release publique
+                            latest_release = releases_data[0]
+                            version = latest_release.get('tag_name', 'v1.0.0')
+                            
+                            version_clean = re.sub(r'[^a-zA-Z0-9._-]', '', version)
+                            target_dir = os.path.join(PAYLOADS_ROOT, cat_tech_name, title.replace(" ", "_"), version_clean)
+                            os.makedirs(target_dir, exist_ok=True)
+                            
+                            assets = latest_release.get('assets', [])
+                            valid_file_url = None
+                            f_name = None
+                            
+                            # Étape A : Recherche prioritaire du binaire PS5 brut (.elf, .bin, .pkg)
+                            for asset in assets:
+                                asset_url = asset.get('browser_download_url', '')
+                                asset_name = asset.get('name', '')
+                                clean_name = asset_name.lower()
+                                
+                                if "ps4" in clean_name:
+                                    continue
+                                    
+                                if clean_name.endswith('.elf') or clean_name.endswith('.bin') or clean_name.endswith('.pkg'):
+                                    valid_file_url = asset_url
+                                    f_name = asset_name
+                                    break
+                                    
+                            # Étape B : Secours si l'auteur a publié un .zip d'asset spécifique (pas le code source global)
+                            if not valid_file_url:
+                                for asset in assets:
+                                    asset_url = asset.get('browser_download_url', '')
+                                    asset_name = asset.get('name', '')
+                                    clean_name = asset_name.lower()
+                                    
+                                    if "ps4" in clean_name:
+                                        continue
+                                        
+                                    if clean_name.endswith('.zip'):
+                                        valid_file_url = asset_url
+                                        f_name = asset_name
+                                        break
+                            
+                            if valid_file_url and f_name:
+                                print(f"   🎯 Asset Forgejo détecté : {f_name}")
+                                print(f"   -> Téléchargement direct : {f_name}...")
+                                urllib.request.urlretrieve(valid_file_url, os.path.join(target_dir, f_name))
+                                downloaded = True
+                            else:
+                                print("   ⚠️ Aucun asset (.elf / .bin / .zip) éligible trouvé dans cette release Forgejo.")
             except Exception as e:
-                print(f"   ℹ️ Erreur lors du traitement du flux Forgejo ({e})")
+                print(f"   ℹ️ Erreur lors de l'appel à l'API Forgejo ({e})")
 
-            # Secours API Tags (Totalement bridé pour ne rien télécharger si le tag ou le zip contient 'ps4')
+            # Secours ultime via l'API des Tags si vraiment aucune release n'est configurée
             if not downloaded:
                 try:
-                    api_repo_match = re.search(r'git\.etawen\.dev/([^/]+/[^/]+)', xml_url)
                     if api_repo_match:
-                        repo_path = api_repo_match.group(1)
                         api_url = f"https://git.etawen.dev/api/v1/repos/{repo_path}/tags"
-                        
                         req = urllib.request.Request(api_url, headers={'User-Agent': 'Mozilla/5.0'})
                         with urllib.request.urlopen(req) as response:
                             tags_data = json.loads(response.read().decode('utf-8'))
@@ -168,14 +170,14 @@ for opml_file in opml_files:
                                 zip_url = tags_data[0].get('zipball_url', '')
                                 
                                 if "ps4" in tag_name.lower() or "ps4" in zip_url.lower():
-                                    print(f"   🚫 [API Tags] Annulation, binaire PS4 détecté dans le tag.")
+                                    print(f"   🚫 [API Tags] Rejet de l'archive de secours (PS4 détecté)")
                                 else:
                                     version = tag_name if tag_name else "v1.0.0"
                                     version_clean = re.sub(r'[^a-zA-Z0-9._-]', '', version)
                                     target_dir = os.path.join(PAYLOADS_ROOT, cat_tech_name, title.replace(" ", "_"), version_clean)
                                     os.makedirs(target_dir, exist_ok=True)
                                     f_name = f"{title.replace(' ', '_')}_{version_clean}.zip"
-                                    print(f"   -> [Secours Tag] Téléchargement de l'archive : {f_name}")
+                                    print(f"   -> [Secours Tag] Téléchargement du zip source : {f_name}")
                                     urllib.request.urlretrieve(zip_url, os.path.join(target_dir, f_name))
                                     downloaded = True
                 except Exception as api_err:
