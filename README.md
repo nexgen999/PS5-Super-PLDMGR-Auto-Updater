@@ -1,17 +1,8 @@
 # 🎮 PS5 Payload Manager & Mini-Store
 
-![Logo ou Bannière](assets/banner.png)
-
 Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 
-> 💡 **Configuration du Store sur l'application PS5 :** Pour connecter votre console, ajoutez le fichier central **`payloads.json`** :
 > `https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/json/payloads.json`
-
----
-
-## 📱 Flux RSS & Alertes
-* **Radar Global (OPML) :** `rss/store-global.opml`
-* **Flux de mises à jour (XML) :** `rss/feed.xml`
 
 ---
 
@@ -19,6 +10,8 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 
 | Application | Auteur | Catégorie | Version (Dépôt) | Empreinte SHA-256 | Description |
 | :--- | :--- | :--- | :--- | :--- | :--- |
+| **kylin-core** | aydencharles | Ps5 Cheat | [Source-Fixe](https://github.com/nexgen999/PS5-Super-PLDMGR-Auto-Updater/tree/main/payloads/PS5_Cheat/kylin-core/Source-Fixe) | `2b731fc60b...` | kylin-core |
+| **Lapy JB Daemon** | ArkSama | Ps5 File Explorer | [Source-Fixe](https://github.com/nexgen999/PS5-Super-PLDMGR-Auto-Updater/tree/main/payloads/ps5_file_explorer/Lapy_JB_Daemon/Source-Fixe) | `e8230ac459...` | Daemon pour le jailbreak de Lapy |
 | **np-fake-signin** | earthonion | Ps5 Activation | [v1.3](https://github.com/nexgen999/PS5-Super-PLDMGR-Auto-Updater/tree/main/payloads/PS5_Activation/np-fake-signin/v1.3) | `f5c66fcb9e...` | Fake activate PS5 without PSN. |
 | **nanoDNS** | Drakmor | Ps5 Dns | [0.3](https://github.com/nexgen999/PS5-Super-PLDMGR-Auto-Updater/tree/main/payloads/ps5_dns/nanoDNS/0.3) | `ce1c8b3103...` | Un serveur DNS ultra-léger et rapide idéal pour rediriger les requêtes de la console vers votre hôte local d'exploits. |
 | **Chukei DNS** | Al-Azif | Ps5 Dns | [0.9.0](https://github.com/nexgen999/PS5-Super-PLDMGR-Auto-Updater/tree/main/payloads/ps5_dns/Chukei_DNS/0.9.0) | `0cf13e1ed8...` | Serveur DNS de redirection d'envergure conçu spécifiquement pour bloquer les mises à jour de Sony et rediriger le guide de l'utilisateur. |
@@ -41,7 +34,4 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 - **earthonion** : [np-fake-signin](https://git.etawen.dev/earthonion/np-fake-signin)
 - **itsPLK** : [PS5 Payload Manager](https://github.com/itsPLK/ps5-payload-manager)
 - **itsPLK** : [PS5 Unified Autoloader](https://github.com/itsPLK/ps5-unified-autoloader)
-- **notmaj0r** : [CheatRunner](https://github.com/notmaj0r/CheatRunner)
 
----
-*Dépôt 100% autonome géré par GitHub Actions.*

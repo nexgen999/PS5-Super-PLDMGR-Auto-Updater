@@ -4,9 +4,9 @@
     {
       "title": "np-fake-signin",
       "author": "earthonion",
-      "version": "1.2",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Activation/np-fake-signin/1.2/np-fake-signin_1.2.zip",
-      "sha256": "N/A (Archive)",
+      "version": "v1.3",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Activation/np-fake-signin/v1.3/np-fake-signin-ps5.elf",
+      "sha256": "f5c66fcb9e3f512e5463a7123d819b87f063d9955639366fa7ad26a2f0abefa4",
       "description": "Fake activate PS5 without PSN."
     }
   ]

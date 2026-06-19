@@ -1,4 +1,13 @@
 {
   "name": "PS5_Cheat (PLDMGR Updater)",
-  "payloads": []
+  "payloads": [
+    {
+      "title": "kylin-core",
+      "author": "aydencharles",
+      "version": "Source-Fixe",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Cheat/kylin-core/Source-Fixe/kylin-core-community-lite-v131-global-release.elf",
+      "sha256": "2b731fc60b3d7996667b372bb8e31df7125d209ecacbb6838312a51b24b65c29",
+      "description": "kylin-core"
+    }
+  ]
 }

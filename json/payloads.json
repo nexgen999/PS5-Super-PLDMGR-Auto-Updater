@@ -2,6 +2,22 @@
   "name": "PS5 Super PLDMGR Updater",
   "payloads": [
     {
+      "title": "kylin-core",
+      "author": "aydencharles",
+      "version": "Source-Fixe",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Cheat/kylin-core/Source-Fixe/kylin-core-community-lite-v131-global-release.elf",
+      "sha256": "2b731fc60b3d7996667b372bb8e31df7125d209ecacbb6838312a51b24b65c29",
+      "description": "kylin-core"
+    },
+    {
+      "title": "Lapy JB Daemon",
+      "author": "ArkSama",
+      "version": "Source-Fixe",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_file_explorer/Lapy_JB_Daemon/Source-Fixe/lapy_jb_daemon.elf",
+      "sha256": "e8230ac4597b8f0388e75d7515ad1a2e251c4589cc3b8d56a483ffae73627eed",
+      "description": "Daemon pour le jailbreak de Lapy"
+    },
+    {
       "title": "np-fake-signin",
       "author": "earthonion",
       "version": "v1.3",

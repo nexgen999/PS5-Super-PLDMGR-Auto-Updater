@@ -1,4 +1,13 @@
 {
   "name": "ps5_file_explorer (PLDMGR Updater)",
-  "payloads": []
+  "payloads": [
+    {
+      "title": "Lapy JB Daemon",
+      "author": "ArkSama",
+      "version": "Source-Fixe",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_file_explorer/Lapy_JB_Daemon/Source-Fixe/lapy_jb_daemon.elf",
+      "sha256": "e8230ac4597b8f0388e75d7515ad1a2e251c4589cc3b8d56a483ffae73627eed",
+      "description": "Daemon pour le jailbreak de Lapy"
+    }
+  ]
 }
