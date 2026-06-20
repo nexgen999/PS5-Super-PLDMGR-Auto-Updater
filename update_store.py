@@ -183,27 +183,7 @@ for opml_file in opml_files:
             except Exception as e:
                 print(f"   ℹ️ Erreur API Forgejo ({e})")
 
-            if not downloaded and api_repo_match:
-                try:
-                    api_url = f"https://git.etawen.dev/api/v1/repos/{repo_path}/tags"
-                    req = urllib.request.Request(api_url, headers={'User-Agent': 'Mozilla/5.0'})
-                    with urllib.request.urlopen(req) as response:
-                        tags_data = json.loads(response.read().decode('utf-8'))
-                        if tags_data:
-                            tag_name = tags_data[0].get('name', '')
-                            zip_url = tags_data[0].get('zipball_url', '')
-                            if "ps4" not in tag_name.lower() and "ps4" not in zip_url.lower():
-                                version = tag_name if tag_name else "v1.0.0"
-                                version_clean = re.sub(r'[^a-zA-Z0-9._-]', '', version)
-                                target_dir = os.path.join(PAYLOADS_ROOT, cat_tech_name, title.replace(" ", "_"), version_clean)
-                                os.makedirs(target_dir, exist_ok=True)
-                                f_name = f"{title.replace(' ', '_')}_{version_clean}.zip"
-                                urllib.request.urlretrieve(zip_url, os.path.join(target_dir, f_name))
-                                downloaded = True
-                except Exception as api_err:
-                    print(f"   ⚠️ Échec de l'API de secours Forgejo: {api_err}")
-
-        # ANALYSE ET CALCUL CHECKSUM
+        # ANALYSE, RENOMMAGE AUTOMATIQUE ET CALCUL CHECKSUM
         version_clean = re.sub(r'[^a-zA-Z0-9._-]', '', version) if version != "Source-Fixe" else "Source-Fixe"
         target_dir = os.path.join(PAYLOADS_ROOT, cat_tech_name, title.replace(" ", "_"), version_clean)
         
@@ -211,10 +191,39 @@ for opml_file in opml_files:
         main_file = None
         sha256_hash = ""
 
+        # Formatage propre du tag de version pour le nom de fichier (ex: "0.14" -> "_v0.14", "v1.2" -> "_v1.2")
+        v_suffix = version_clean
+        if v_suffix != "Source-Fixe":
+            if not v_suffix.lower().startswith('v'):
+                v_suffix = f"v{v_suffix}"
+            v_suffix = f"_{v_suffix}"
+        else:
+            v_suffix = ""
+
         for f_name in files_in_dir:
             f_name_lower = f_name.lower()
             if f_name_lower.endswith('.elf') or f_name_lower.endswith('.bin'):
-                main_file = f_name
+                # Extraction du nom d'origine et de l'extension
+                base_name, ext = os.path.splitext(f_name)
+                
+                # On évite de rajouter la version en boucle si elle est déjà présente dans le fichier d'origine
+                if v_suffix and v_suffix in base_name:
+                    new_f_name = f_name
+                else:
+                    new_f_name = f"{base_name}{v_suffix}{ext}"
+                
+                # Renommage physique du fichier sur le stockage
+                old_path = os.path.join(target_dir, f_name)
+                new_path = os.path.join(target_dir, new_f_name)
+                if old_path != new_path:
+                    try:
+                        os.rename(old_path, new_path)
+                        print(f"   🏷️  Fichier renommé : {f_name} -> {new_f_name}")
+                    except Exception as rn_err:
+                        print(f"   ⚠️ Erreur renommage : {rn_err}")
+                        new_f_name = f_name
+                
+                main_file = new_f_name
                 break
 
         if main_file:
@@ -230,7 +239,6 @@ for opml_file in opml_files:
             repo_name = os.environ.get('GITHUB_REPOSITORY', 'PS5-Super-PLDMGR-Auto-Updater').split('/')[-1]
             file_url = f"https://nexgen999.github.io/{repo_name}/{target_dir.replace(os.sep, '/')}/{main_file}"
 
-            # FORMAT CONSOLE STRICT EXIGÉ
             item_data = {
                 "name": title,
                 "filename": main_file,
@@ -247,11 +255,11 @@ for opml_file in opml_files:
         else:
             print(f"   🚫 Ignoré du JSON final car aucun binaire (.elf / .bin) détecté pour {title}")
 
-    # Sauvegarde JSON Catégorie (Liste plate)
+    # Sauvegarde JSON Catégorie
     with open(os.path.join(JSON_DIR, f"{cat_tech_name}.json"), 'w', encoding='utf-8') as out_cat:
         json.dump(category_payloads_list, out_cat, indent=2, ensure_ascii=False)
 
-# Sauvegarde JSON Global complet (Liste plate directe)
+# Sauvegarde JSON Global complet
 with open(os.path.join(JSON_DIR, "payloads.json"), 'w', encoding='utf-8') as out_glob:
     json.dump(all_payloads_flat_list, out_glob, indent=2, ensure_ascii=False)
 
