@@ -268,9 +268,9 @@
     {
       "title": "PS5-Game-Compressor",
       "author": "juma-sayeh",
-      "version": "v1.0.1",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/PS5-Game-Compressor/v1.0.1/game-compressor.elf",
-      "sha256": "64dba49ef83b2508de4fb99e8b4cc86816812ea7bd70696a29c6b13c95994e9d",
+      "version": "v1.0.2",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/PS5-Game-Compressor/v1.0.2/game-compressor.elf",
+      "sha256": "65918eda7454e9221b244ff0fa29738bf3e251b4745efcf589271bb76de3f6b1",
       "description": "Tool to compress PS5 games."
     },
     {
