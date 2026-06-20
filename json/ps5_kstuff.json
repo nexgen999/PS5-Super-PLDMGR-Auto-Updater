@@ -1,6 +1,6 @@
 [
   {
-    "name": "kstuff",
+    "name": "kstuff (kstuff_v1.6.7)",
     "filename": "kstuff_v1.6.7.elf",
     "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_kstuff/kstuff/v1.6.7/kstuff_v1.6.7.elf",
     "description": "Fnd Kstuff payload for PS5.",
@@ -8,7 +8,15 @@
     "checksum": "f1c1f4b2b6395644af04cbe9828aba58586acf7aacb9e01113cac92ce16e3569"
   },
   {
-    "name": "kstuff-lite",
+    "name": "kstuff (kstuff_v1.6.7)",
+    "filename": "kstuff_v1.6.7.elf",
+    "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_kstuff/kstuff/v1.6.7/kstuff_v1.6.7.elf",
+    "description": "Fnd Kstuff payload for PS5.",
+    "version": "v1.6.7",
+    "checksum": "f1c1f4b2b6395644af04cbe9828aba58586acf7aacb9e01113cac92ce16e3569"
+  },
+  {
+    "name": "kstuff-lite (kstuff_v1.07)",
     "filename": "kstuff_v1.07.elf",
     "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_kstuff/kstuff-lite/v1.07/kstuff_v1.07.elf",
     "description": "Lightweight version of kstuff.",
@@ -16,7 +24,23 @@
     "checksum": "eb730eccd1a333f94e918076d053b4d20701f7c97e6356e591cebabfb4e0fa2d"
   },
   {
-    "name": "kstuff-lite (drakmor)",
+    "name": "kstuff-lite (kstuff_v1.07)",
+    "filename": "kstuff_v1.07.elf",
+    "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_kstuff/kstuff-lite/v1.07/kstuff_v1.07.elf",
+    "description": "Lightweight version of kstuff.",
+    "version": "v1.07",
+    "checksum": "eb730eccd1a333f94e918076d053b4d20701f7c97e6356e591cebabfb4e0fa2d"
+  },
+  {
+    "name": "kstuff-lite (drakmor) (kstuff_v1.2-dr-test2)",
+    "filename": "kstuff_v1.2-dr-test2.elf",
+    "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_kstuff/kstuff-lite_(drakmor)/1.2-dr-test2/kstuff_v1.2-dr-test2.elf",
+    "description": "Drakmor's variant of kstuff-lite.",
+    "version": "1.2-dr-test2",
+    "checksum": "2b699d411079a21dba7c39a02993fc0fb21e52f434103e884a0c892fafe56b75"
+  },
+  {
+    "name": "kstuff-lite (drakmor) (kstuff_v1.2-dr-test2)",
     "filename": "kstuff_v1.2-dr-test2.elf",
     "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_kstuff/kstuff-lite_(drakmor)/1.2-dr-test2/kstuff_v1.2-dr-test2.elf",
     "description": "Drakmor's variant of kstuff-lite.",
