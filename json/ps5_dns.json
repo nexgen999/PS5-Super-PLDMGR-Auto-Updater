@@ -1,0 +1,18 @@
+[
+  {
+    "name": "nanoDNS",
+    "filename": "nanoDNS_v0.3.elf",
+    "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_dns/nanoDNS/0.3/nanoDNS_v0.3.elf",
+    "description": "Un serveur DNS ultra-léger et rapide idéal pour rediriger les requêtes de la console vers votre hôte local d'exploits.",
+    "version": "0.3",
+    "checksum": "ce1c8b31036ab948da65b362a4b6f249ffca8a555fc5bc4b051ec65d041bc944"
+  },
+  {
+    "name": "Chukei_DNS",
+    "filename": "Chukei_DNS_v0.9.0.elf",
+    "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_dns/Chukei_DNS/0.9.0/Chukei_DNS_v0.9.0.elf",
+    "description": "Serveur DNS de redirection d'envergure conçu spécifiquement pour bloquer les mises à jour de Sony et rediriger le guide de l'utilisateur.",
+    "version": "0.9.0",
+    "checksum": "0cf13e1ed87b57ffa4fdcfca5d9afe1572be29b4f632677cedf17657a972d750"
+  }
+]

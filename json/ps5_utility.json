@@ -1,0 +1,26 @@
+[
+  {
+    "name": "ChronicLoader-PS5-Payload",
+    "filename": "ChronicLoader-PS5-Payload_v0.1.elf",
+    "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_utility/ChronicLoader-PS5-Payload/0.1/ChronicLoader-PS5-Payload_v0.1.elf",
+    "description": "ChronicLoader utility payload for PS5.",
+    "version": "0.1",
+    "checksum": "3561120f85e0ec32de5de15cdd61a1fe8d5146eb4c6aa99ee88209914a2774b1"
+  },
+  {
+    "name": "Ghostpad",
+    "filename": "Ghostpad_v1.0.0.elf",
+    "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_utility/Ghostpad/v1.0.0/Ghostpad_v1.0.0.elf",
+    "description": "Ghostpad controller input utility.",
+    "version": "v1.0.0",
+    "checksum": "94d43a8db7ec9df6e18f0a0da25aac0f60e1a0b14d35bfff261f6f5cdeabdba1"
+  },
+  {
+    "name": "Ghostcontrol-PS5-USB-Controller-Patcher",
+    "filename": "Ghostcontrol-PS5-USB-Controller-Patcher_v1.0.4.elf",
+    "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_utility/Ghostcontrol-PS5-USB-Controller-Patcher/1.0.4/Ghostcontrol-PS5-USB-Controller-Patcher_v1.0.4.elf",
+    "description": "USB Controller patcher tool for PS5.",
+    "version": "1.0.4",
+    "checksum": "e2e658fc3c4b041e630fae897acdefa23c4f79f0adc8473a69b49bfc4897ccf0"
+  }
+]

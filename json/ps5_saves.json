@@ -1,0 +1,26 @@
+[
+  {
+    "name": "garlic-savemgr",
+    "filename": "garlic-savemgr_v1.10.elf",
+    "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_saves/garlic-savemgr/v1.10/garlic-savemgr_v1.10.elf",
+    "description": "Save manager utility hosted on Forgejo.",
+    "version": "v1.10",
+    "checksum": "b82bf7aa83943c957f56c1b65c0739057d6b21f5b417215db17c9418fc265a27"
+  },
+  {
+    "name": "garlic-worker",
+    "filename": "garlic-worker_v1.1.4.elf",
+    "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_saves/garlic-worker/v1.1.4/garlic-worker_v1.1.4.elf",
+    "description": "Garlic worker payload component.",
+    "version": "v1.1.4",
+    "checksum": "da311b3ff92fd06acf513a849b9a7eecdc43ecc34e5b7137d9f3f6f2c16c1704"
+  },
+  {
+    "name": "savemnt-offset-dumper",
+    "filename": "savemnt-offset-dumper_v1.0.0.elf",
+    "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_saves/savemnt-offset-dumper/1.0.0/savemnt-offset-dumper_v1.0.0.elf",
+    "description": "Offset dumper for save mounting utilities.",
+    "version": "1.0.0",
+    "checksum": "946328551f74e3b6a34a7c0169f9b40792e392775768b84874b55ecdff71222e"
+  }
+]
