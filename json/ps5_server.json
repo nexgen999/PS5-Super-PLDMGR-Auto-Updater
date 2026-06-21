@@ -48,14 +48,6 @@
     "checksum": "8f305a959fb9d70fd8d52ba88409e0d5a1632e83d4ecdd38646a0a33e54089da"
   },
   {
-    "name": "ftpsrv_ps5-payload",
-    "filename": "ftpsrv_ps5-payload_v0.20.elf",
-    "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ftpsrv_(ps5-payload)/v0.20/ftpsrv_ps5-payload_v0.20.elf",
-    "description": "FTP server background daemon. Port: 21",
-    "version": "v0.20",
-    "checksum": "8f305a959fb9d70fd8d52ba88409e0d5a1632e83d4ecdd38646a0a33e54089da"
-  },
-  {
     "name": "websrv",
     "filename": "websrv_v0.32.elf",
     "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/websrv/v0.32/websrv_v0.32.elf",
@@ -78,14 +70,6 @@
     "description": "Kernel log server daemon. Port: 3232",
     "version": "v0.8",
     "checksum": "f6eb1b415ecf3340b89a56a0cb04ba5c714430085851ada13a98012b63a5a4cf"
-  },
-  {
-    "name": "ftpsrv_drakmor",
-    "filename": "ftpsrv_drakmor_v1.6-ng-test2.elf",
-    "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ftpsrv_(drakmor)/1.6-ng-test2/ftpsrv_drakmor_v1.6-ng-test2.elf",
-    "description": "Drakmor's variant of the FTP server. Port: 21",
-    "version": "1.6-ng-test2",
-    "checksum": "da65f0c5b5dffd2b803e2521d73e96d35db4ff9711e661f49be5795f72da2cd3"
   },
   {
     "name": "ftpsrv_drakmor",

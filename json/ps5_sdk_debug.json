@@ -16,65 +16,65 @@
     "checksum": "f1754521caa92a6a1ac313a1b6c969ec49d67750e290ba99870958290a0961f0"
   },
   {
-    "name": "ps5-self-pager",
-    "filename": "ps5-self-pager_v1.2.elf",
-    "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/ps5-self-pager/v1.2/ps5-self-pager_v1.2.elf",
+    "name": "ps5-self-pager-shellcore",
+    "filename": "ps5-self-pager-shellcore_v1.2.elf",
+    "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/ps5-self-pager/v1.2/ps5-self-pager-shellcore_v1.2.elf",
+    "description": "SELF pager payload tool.",
+    "version": "v1.2",
+    "checksum": "2b500bc356b5bcfca5c3e5187bcec0a37c80ed05e39348b8f06bd2e5a6f3342b"
+  },
+  {
+    "name": "ps5-self-pager-game",
+    "filename": "ps5-self-pager-game_v1.2.elf",
+    "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/ps5-self-pager/v1.2/ps5-self-pager-game_v1.2.elf",
+    "description": "SELF pager payload tool.",
+    "version": "v1.2",
+    "checksum": "73d94fea5de9086cac26385c117a0b3098890c447d67536877fb7b51c9145aac"
+  },
+  {
+    "name": "ps5-self-pager-full-system",
+    "filename": "ps5-self-pager-full-system_v1.2.elf",
+    "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/ps5-self-pager/v1.2/ps5-self-pager-full-system_v1.2.elf",
+    "description": "SELF pager payload tool.",
+    "version": "v1.2",
+    "checksum": "fb498d4112611619150281e0c44afbd09f144c09eaca3ab3f5b306b39450d13a"
+  },
+  {
+    "name": "ps5-self-pager-system-common-lib",
+    "filename": "ps5-self-pager-system-common-lib_v1.2.elf",
+    "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/ps5-self-pager/v1.2/ps5-self-pager-system-common-lib_v1.2.elf",
     "description": "SELF pager payload tool.",
     "version": "v1.2",
     "checksum": "a86c3e69ed38656310b41af4f9221bdb2264ff4daf93fb4c2515fd54a216b701"
   },
   {
-    "name": "ps5-self-pager",
-    "filename": "ps5-self-pager_v1.2.elf",
-    "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/ps5-self-pager/v1.2/ps5-self-pager_v1.2.elf",
-    "description": "SELF pager payload tool.",
-    "version": "v1.2",
-    "checksum": "a86c3e69ed38656310b41af4f9221bdb2264ff4daf93fb4c2515fd54a216b701"
-  },
-  {
-    "name": "ps5-self-pager",
-    "filename": "ps5-self-pager_v1.2.elf",
-    "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/ps5-self-pager/v1.2/ps5-self-pager_v1.2.elf",
-    "description": "SELF pager payload tool.",
-    "version": "v1.2",
-    "checksum": "a86c3e69ed38656310b41af4f9221bdb2264ff4daf93fb4c2515fd54a216b701"
-  },
-  {
-    "name": "ps5-self-pager",
-    "filename": "ps5-self-pager_v1.2.elf",
-    "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/ps5-self-pager/v1.2/ps5-self-pager_v1.2.elf",
-    "description": "SELF pager payload tool.",
-    "version": "v1.2",
-    "checksum": "a86c3e69ed38656310b41af4f9221bdb2264ff4daf93fb4c2515fd54a216b701"
-  },
-  {
-    "name": "PS5-SELF-Decrypter",
-    "filename": "PS5-SELF-Decrypter_v0.5.2.elf",
-    "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/PS5-SELF-Decrypter/v0.5.2/PS5-SELF-Decrypter_v0.5.2.elf",
+    "name": "ps5-self-decrypter-full-system",
+    "filename": "ps5-self-decrypter-full-system_v0.5.2.elf",
+    "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/PS5-SELF-Decrypter/v0.5.2/ps5-self-decrypter-full-system_v0.5.2.elf",
     "description": "SELF decrypter tool for PS5 binaries.",
     "version": "v0.5.2",
-    "checksum": "6a16c6457c604db4846632510da0975f49faba08e6cab9cfd7f84d78b4557d97"
+    "checksum": "46340d3048a977f5603b3def0a0ba1c85b5c182891388442e51b39e281257b6a"
   },
   {
-    "name": "PS5-SELF-Decrypter",
-    "filename": "PS5-SELF-Decrypter_v0.5.2.elf",
-    "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/PS5-SELF-Decrypter/v0.5.2/PS5-SELF-Decrypter_v0.5.2.elf",
+    "name": "ps5-self-decrypter-game",
+    "filename": "ps5-self-decrypter-game_v0.5.2.elf",
+    "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/PS5-SELF-Decrypter/v0.5.2/ps5-self-decrypter-game_v0.5.2.elf",
     "description": "SELF decrypter tool for PS5 binaries.",
     "version": "v0.5.2",
-    "checksum": "6a16c6457c604db4846632510da0975f49faba08e6cab9cfd7f84d78b4557d97"
+    "checksum": "190b350759b4f9d50949325e84d131e0953f37a9df271c329ba43c80c0ac7a57"
   },
   {
-    "name": "PS5-SELF-Decrypter",
-    "filename": "PS5-SELF-Decrypter_v0.5.2.elf",
-    "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/PS5-SELF-Decrypter/v0.5.2/PS5-SELF-Decrypter_v0.5.2.elf",
+    "name": "ps5-self-decrypter-shellcore",
+    "filename": "ps5-self-decrypter-shellcore_v0.5.2.elf",
+    "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/PS5-SELF-Decrypter/v0.5.2/ps5-self-decrypter-shellcore_v0.5.2.elf",
     "description": "SELF decrypter tool for PS5 binaries.",
     "version": "v0.5.2",
-    "checksum": "6a16c6457c604db4846632510da0975f49faba08e6cab9cfd7f84d78b4557d97"
+    "checksum": "15050c691c21c790ae970a1ee99ad3918dd1065fe5512c762fccee6d521c8066"
   },
   {
-    "name": "PS5-SELF-Decrypter",
-    "filename": "PS5-SELF-Decrypter_v0.5.2.elf",
-    "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/PS5-SELF-Decrypter/v0.5.2/PS5-SELF-Decrypter_v0.5.2.elf",
+    "name": "ps5-self-decrypter-system-common-lib",
+    "filename": "ps5-self-decrypter-system-common-lib_v0.5.2.elf",
+    "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/PS5-SELF-Decrypter/v0.5.2/ps5-self-decrypter-system-common-lib_v0.5.2.elf",
     "description": "SELF decrypter tool for PS5 binaries.",
     "version": "v0.5.2",
     "checksum": "6a16c6457c604db4846632510da0975f49faba08e6cab9cfd7f84d78b4557d97"
