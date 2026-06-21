@@ -1,8 +1,16 @@
 [
   {
     "name": "PS5-Game-Compressor",
-    "filename": "game-compressor_v1.0.3.elf",
-    "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/PS5-Game-Compressor/v1.0.3/game-compressor_v1.0.3.elf",
+    "filename": "PS5-Game-Compressor_v1.0.3.elf",
+    "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/PS5-Game-Compressor/v1.0.3/PS5-Game-Compressor_v1.0.3.elf",
+    "description": "Tool to compress PS5 games.",
+    "version": "v1.0.3",
+    "checksum": "51b66edf6210c022d57a31ab12bf97f95a3c71ea683df387d9081494f11606b2"
+  },
+  {
+    "name": "PS5-Game-Compressor",
+    "filename": "PS5-Game-Compressor_v1.0.3.elf",
+    "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/PS5-Game-Compressor/v1.0.3/PS5-Game-Compressor_v1.0.3.elf",
     "description": "Tool to compress PS5 games.",
     "version": "v1.0.3",
     "checksum": "51b66edf6210c022d57a31ab12bf97f95a3c71ea683df387d9081494f11606b2"
@@ -16,17 +24,41 @@
     "checksum": "95382a9e37987d8eb931cbe5db618e77d293099ef4314e3288d9899bd5ac5c00"
   },
   {
+    "name": "ps5-app-dumper",
+    "filename": "ps5-app-dumper_v1.10.elf",
+    "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/ps5-app-dumper/v1.10/ps5-app-dumper_v1.10.elf",
+    "description": "PS5 App Dumper payload.",
+    "version": "v1.10",
+    "checksum": "95382a9e37987d8eb931cbe5db618e77d293099ef4314e3288d9899bd5ac5c00"
+  },
+  {
     "name": "ShadowMountPlus",
-    "filename": "shadowmountplus_v1.6test15-fix2.elf",
-    "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/ShadowMountPlus/1.6test15-fix2/shadowmountplus_v1.6test15-fix2.elf",
+    "filename": "ShadowMountPlus_v1.6test15-fix2.elf",
+    "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/ShadowMountPlus/1.6test15-fix2/ShadowMountPlus_v1.6test15-fix2.elf",
+    "description": "ShadowMountPlus payload for game mounting.",
+    "version": "1.6test15-fix2",
+    "checksum": "8ab32f4cede840a73515c05697fe81759bc98cf41fc22b43e09943262f447e99"
+  },
+  {
+    "name": "ShadowMountPlus",
+    "filename": "ShadowMountPlus_v1.6test15-fix2.elf",
+    "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/ShadowMountPlus/1.6test15-fix2/ShadowMountPlus_v1.6test15-fix2.elf",
     "description": "ShadowMountPlus payload for game mounting.",
     "version": "1.6test15-fix2",
     "checksum": "8ab32f4cede840a73515c05697fe81759bc98cf41fc22b43e09943262f447e99"
   },
   {
     "name": "BackPork",
-    "filename": "ps5-backpork_v0.1.elf",
-    "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/BackPork/0.1/ps5-backpork_v0.1.elf",
+    "filename": "BackPork_v0.1.elf",
+    "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/BackPork/0.1/BackPork_v0.1.elf",
+    "description": "BackPork PS5 tool.",
+    "version": "0.1",
+    "checksum": "d74e4cd119b2bb1fd423f2f5b1c9a7f096b3e588c753af1ab48b983d56216a52"
+  },
+  {
+    "name": "BackPork",
+    "filename": "BackPork_v0.1.elf",
+    "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/BackPork/0.1/BackPork_v0.1.elf",
     "description": "BackPork PS5 tool.",
     "version": "0.1",
     "checksum": "d74e4cd119b2bb1fd423f2f5b1c9a7f096b3e588c753af1ab48b983d56216a52"

@@ -8,8 +8,8 @@
     <outline text="Lapy JB Daemon" title="Lapy JB Daemon" type="rss" xmlUrl="https://raw.githubusercontent.com/ArkSama/PS5-Lapy-JB-Daemon/main/lapy_jb_daemon.elf" author="ArkSama"/>
     <outline text="BackPork" title="BackPork" type="rss" xmlUrl="https://github.com/BestPig/BackPork" author="BestPig"/>
     <outline text="nanoDNS" title="nanoDNS" type="rss" xmlUrl="https://github.com/drakmor/nanoDNS" author="Drakmor"/>
-    <outline text="kstuff-lite" title="kstuff-lite" type="rss" xmlUrl="https://github.com/EchoStretch/kstuff-lite" author="EchoStretch"/>
-    <outline text="kstuff" title="kstuff" type="rss" xmlUrl="https://github.com/EchoStretch/kstuff" author="EchoStretch"/>
+    <outline text="kstuff (EchoStretch)" title="kstuff (EchoStretch)" type="rss" xmlUrl="https://github.com/EchoStretch/kstuff" author="EchoStretch"/>
+    <outline text="kstuff-lite (EchoStretch)" title="kstuff-lite (EchoStretch)" type="rss" xmlUrl="https://github.com/EchoStretch/kstuff-lite" author="EchoStretch"/>
     <outline text="ps5-app-dumper" title="ps5-app-dumper" type="rss" xmlUrl="https://github.com/EchoStretch/ps5-app-dumper" author="EchoStretch"/>
     <outline text="BFpilot-Core" title="BFpilot-Core" type="rss" xmlUrl="https://raw.githubusercontent.com/nexgen999/PS5_Payload_Manager_Updater/main/ps5_file_explorer/bfpilot-core_v0.2.1.elf" author="ItsBlurf"/>
     <outline text="BFpilot-Full" title="BFpilot-Full" type="rss" xmlUrl="https://raw.githubusercontent.com/nexgen999/PS5_Payload_Manager_Updater/main/ps5_file_explorer/bfpilot-full_v0.2.1.elf" author="ItsBlurf"/>
@@ -44,7 +44,7 @@
     <outline text="ps5upload" title="ps5upload" type="rss" xmlUrl="https://github.com/phantomptr/ps5upload" author="phantomptr"/>
     <outline text="ps5-linux-loader" title="ps5-linux-loader" type="rss" xmlUrl="https://github.com/ps5-linux/ps5-linux-loader" author="ps5-linux"/>
     <outline text="elfldr" title="elfldr" type="rss" xmlUrl="https://github.com/ps5-payload-dev/elfldr" author="ps5-payload-dev"/>
-    <outline text="ftpsrv" title="ftpsrv" type="rss" xmlUrl="https://github.com/ps5-payload-dev/ftpsrv" author="ps5-payload-dev"/>
+    <outline text="ftpsrv (ps5-payload)" title="ftpsrv (ps5-payload)" type="rss" xmlUrl="https://github.com/ps5-payload-dev/ftpsrv" author="ps5-payload-dev"/>
     <outline text="gdbsrv" title="gdbsrv" type="rss" xmlUrl="https://github.com/ps5-payload-dev/gdbsrv" author="ps5-payload-dev"/>
     <outline text="klogsrv" title="klogsrv" type="rss" xmlUrl="https://github.com/ps5-payload-dev/klogsrv" author="ps5-payload-dev"/>
     <outline text="websrv" title="websrv" type="rss" xmlUrl="https://github.com/ps5-payload-dev/websrv" author="ps5-payload-dev"/>

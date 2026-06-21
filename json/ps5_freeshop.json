@@ -1,16 +1,32 @@
 [
   {
     "name": "Spectrum-Library",
-    "filename": "SpectrumLibrary_1.4.2_v1.4.2.elf",
-    "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_freeshop/Spectrum-Library/1.4.2/SpectrumLibrary_1.4.2_v1.4.2.elf",
+    "filename": "Spectrum-Library_v1.4.2.elf",
+    "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_freeshop/Spectrum-Library/1.4.2/Spectrum-Library_v1.4.2.elf",
+    "description": "free store webadmin http://your-ps5-ip:7575.",
+    "version": "1.4.2",
+    "checksum": "54755ce62d99be610afe364e26de05eaa9e2d92192cda525790a563c6296261f"
+  },
+  {
+    "name": "Spectrum-Library",
+    "filename": "Spectrum-Library_v1.4.2.elf",
+    "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_freeshop/Spectrum-Library/1.4.2/Spectrum-Library_v1.4.2.elf",
     "description": "free store webadmin http://your-ps5-ip:7575.",
     "version": "1.4.2",
     "checksum": "54755ce62d99be610afe364e26de05eaa9e2d92192cda525790a563c6296261f"
   },
   {
     "name": "pegasus-dl",
-    "filename": "pegasus_dl_v1.6.0.elf",
-    "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_freeshop/pegasus-dl/v1.6.0/pegasus_dl_v1.6.0.elf",
+    "filename": "pegasus-dl_v1.6.0.elf",
+    "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_freeshop/pegasus-dl/v1.6.0/pegasus-dl_v1.6.0.elf",
+    "description": "free store webadmin http://your-ps5-ip:6970.",
+    "version": "v1.6.0",
+    "checksum": "29b62ef5004729af92a40caeeb956c6fd2c1a795079317a4e3285599a641a89e"
+  },
+  {
+    "name": "pegasus-dl",
+    "filename": "pegasus-dl_v1.6.0.elf",
+    "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_freeshop/pegasus-dl/v1.6.0/pegasus-dl_v1.6.0.elf",
     "description": "free store webadmin http://your-ps5-ip:6970.",
     "version": "v1.6.0",
     "checksum": "29b62ef5004729af92a40caeeb956c6fd2c1a795079317a4e3285599a641a89e"
