@@ -76,7 +76,7 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 | **PS5_Unified_Autoloader** | [v0.1.2-8e96846](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/PS5_Unified_Autoloader/v0.1.2-8e96846/PS5_Unified_Autoloader_v0.1.2-8e96846.elf) | `14312044a4...` | Chargeur universel de payloads permettant de lancer automatiquement vos outils favoris au démarrage de l'exploit. |
 | **pldmgr** | [v0.3.1](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/PS5_Payload_Manager/v0.3.1/pldmgr_v0.3.1.elf) | `518740adba...` | Interface d'administration et de gestion réseau pour envoyer, activer et ordonner vos fichiers ELF/BIN sur la console. |
 | **ELF_Arsenal** | [v1.6.21](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/ELF_Arsenal/v1.6.21/ELF_Arsenal_v1.6.21.elf) | `cec8008893...` | Boîte à outils regroupant une collection complète de payloads utilitaires pour les consoles jailbreakées. |
-| **Kura** | [v1.0.0-beta.22](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/Kura/v1.0.0-beta.22/Kura_v1.0.0-beta.22.elf) | `5e4489709c...` | Un loader de payloads moderne et épuré conçu pour optimiser l'injection de code sur PS5. |
+| **Kura** | [v1.0.0-beta.41](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/Kura/v1.0.0-beta.41/Kura_v1.0.0-beta.41.elf) | `6116475fdc...` | Un loader de payloads moderne et épuré conçu pour optimiser l'injection de code sur PS5. |
 
 ### 🧪 Ps5 Kstuff
 📂 **Fichier JSON Dédié :** `https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/json/ps5_kstuff.json`
