@@ -117,8 +117,13 @@ for opml_file in opml_files:
                                     pass
                     else:
                         for f in files_downloaded:
-                            if "ps4" in f.lower():
-                                os.remove(os.path.join(target_dir, f))
+                            f_lower = f.lower()
+                            # CORRECTION CRITIQUE : Suppression des gros binaires PC/Mac non-console pour éviter l'erreur de push GitHub > 100Mo
+                            if "ps4" in f_lower or f_lower.endswith('.dmg') or f_lower.endswith('.exe') or f_lower.endswith('.appimage'):
+                                try:
+                                    os.remove(os.path.join(target_dir, f))
+                                except:
+                                    pass
 
                     if os.listdir(target_dir):
                         downloaded = True
@@ -154,7 +159,7 @@ for opml_file in opml_files:
                                 asset_name = asset.get('name', '')
                                 clean_name = asset_name.lower()
                                 
-                                if "ps4" in clean_name:
+                                if "ps4" in clean_name or clean_name.endswith('.dmg') or clean_name.endswith('.exe') or clean_name.endswith('.appimage'):
                                     continue
                                     
                                 if clean_name.endswith('.elf') or clean_name.endswith('.bin') or clean_name.endswith('.pkg'):
@@ -168,7 +173,7 @@ for opml_file in opml_files:
                                     asset_name = asset.get('name', '')
                                     clean_name = asset_name.lower()
                                     
-                                    if "ps4" in clean_name:
+                                    if "ps4" in clean_name or clean_name.endswith('.dmg') or clean_name.endswith('.exe') or clean_name.endswith('.appimage'):
                                         continue
                                         
                                     if clean_name.endswith('.zip'):
@@ -290,7 +295,7 @@ for opml_file in opml_files:
         else:
             print(f"   🚫 Ignoré du JSON final car aucun binaire (.elf / .bin) détecté pour {title}")
 
-    # CORRECTION : Sauvegarde JSON Catégorie avec la clé "name" d'en-tête et "payloads"
+    # Sauvegarde JSON Catégorie
     category_json_structured = {
         "name": cat_display_name,
         "payloads": category_payloads_list
@@ -298,7 +303,7 @@ for opml_file in opml_files:
     with open(os.path.join(JSON_DIR, f"{cat_tech_name}.json"), 'w', encoding='utf-8') as out_cat:
         json.dump(category_json_structured, out_cat, indent=2, ensure_ascii=False)
 
-# CORRECTION : Sauvegarde JSON Global avec la clé "name" d'en-tête "All-In-One" et "payloads"
+# Sauvegarde JSON Global
 global_json_structured = {
     "name": "AIO Store",
     "payloads": all_payloads_flat_list
@@ -331,7 +336,6 @@ with open(os.path.join(RSS_DIR, "feed.xml"), "w", encoding="utf-8") as feed_out:
         feed_out.write('    </item>\n')
     feed_out.write('  </channel>\n</rss>')
 
-# Table de correspondance exacte des icônes de ton dépôt PS5_Payload_Manager_Updater
 CATEGORY_ICONS = {
     "ps5_activation": "🔓",
     "ps5_cheat": "🏴‍☠️",
@@ -354,12 +358,10 @@ print("📝 Génération du README.md personnalisé avec icônes officielles..."
 with open("README.md", "w", encoding="utf-8") as r_file:
     repo_name = os.environ.get('GITHUB_REPOSITORY', 'PS5-Super-PLDMGR-Auto-Updater').split('/')[-1]
     
-    # 1. Bannière d'en-tête
     r_file.write(f"![Banner](assets/banner.png)\n\n")
     r_file.write("# 🎮 PS5 Payload Manager & Mini-Store\n\n")
     r_file.write("Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !\n\n")
     
-    # 2. Lien payloads.json Global (Maintenu en haut)
     r_file.write("> 💡 **Configuration du Store sur l'application PS5 :** Pour connecter votre console, ajoutez le fichier central **`payloads.json`** :\n")
     r_file.write(f"> `https://nexgen999.github.io/{repo_name}/json/payloads.json`\n\n")
     r_file.write("---\n\n")
@@ -371,7 +373,6 @@ with open("README.md", "w", encoding="utf-8") as r_file:
     
     r_file.write("## 📦 Liste des Applications & Payloads disponibles par Catégorie\n\n")
 
-    # Re-parcourir les fichiers OPML pour générer les sections ordonnées dans le README
     if os.path.exists(FEED_DIR):
         for opml_file in sorted(os.listdir(FEED_DIR)):
             if not opml_file.endswith('.opml'):
@@ -383,7 +384,6 @@ with open("README.md", "w", encoding="utf-8") as r_file:
             
             icon = CATEGORY_ICONS.get(cat_tech.lower(), "📦")
             
-            # Lecture et parsing du JSON restructuré
             json_path = os.path.join(JSON_DIR, f"{cat_tech}.json")
             if os.path.exists(json_path):
                 with open(json_path, 'r', encoding='utf-8') as j_f:
