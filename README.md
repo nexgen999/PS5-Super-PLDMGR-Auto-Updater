@@ -55,7 +55,7 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 | Application | Version | Empreinte SHA-256 | Description |
 | :--- | :--- | :--- | :--- |
 | **Spectrum-Library** | [1.4.2](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_freeshop/Spectrum-Library/1.4.2/Spectrum-Library_v1.4.2.elf) | `54755ce62d...` | free store webadmin http://your-ps5-ip:7575. |
-| **pegasus-dl** | [v1.6.0](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_freeshop/pegasus-dl/v1.6.0/pegasus-dl_v1.6.0.elf) | `29b62ef500...` | free store webadmin http://your-ps5-ip:6970. |
+| **pegasus-dl** | [v1.7.0](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_freeshop/pegasus-dl/v1.7.0/pegasus-dl_v1.7.0.elf) | `cb2a4b3c24...` | free store webadmin http://your-ps5-ip:6970. |
 
 ### 💿 Ps5 Game Dump
 📂 **Fichier JSON Dédié :** `https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/json/ps5_game_dump.json`
@@ -76,7 +76,7 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 | **PS5_Unified_Autoloader** | [v0.1.2-8e96846](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/PS5_Unified_Autoloader/v0.1.2-8e96846/PS5_Unified_Autoloader_v0.1.2-8e96846.elf) | `14312044a4...` | Chargeur universel de payloads permettant de lancer automatiquement vos outils favoris au démarrage de l'exploit. |
 | **pldmgr** | [v0.3.1](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/PS5_Payload_Manager/v0.3.1/pldmgr_v0.3.1.elf) | `518740adba...` | Interface d'administration et de gestion réseau pour envoyer, activer et ordonner vos fichiers ELF/BIN sur la console. |
 | **ELF_Arsenal** | [v1.6.21](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/ELF_Arsenal/v1.6.21/ELF_Arsenal_v1.6.21.elf) | `cec8008893...` | Boîte à outils regroupant une collection complète de payloads utilitaires pour les consoles jailbreakées. |
-| **Kura** | [v1.0.0](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/Kura/v1.0.0/Kura_v1.0.0.elf) | `6116475fdc...` | Un loader de payloads moderne et épuré conçu pour optimiser l'injection de code sur PS5. |
+| **Kura** | [v1.0.0](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/Kura/v1.0.0/Kura_v1.0.0.elf) | `193a22edf4...` | Un loader de payloads moderne et épuré conçu pour optimiser l'injection de code sur PS5. |
 
 ### 🧪 Ps5 Kstuff
 📂 **Fichier JSON Dédié :** `https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/json/ps5_kstuff.json`

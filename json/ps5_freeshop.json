@@ -11,11 +11,11 @@
     },
     {
       "name": "pegasus-dl",
-      "filename": "pegasus-dl_v1.6.0.elf",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_freeshop/pegasus-dl/v1.6.0/pegasus-dl_v1.6.0.elf",
+      "filename": "pegasus-dl_v1.7.0.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_freeshop/pegasus-dl/v1.7.0/pegasus-dl_v1.7.0.elf",
       "description": "free store webadmin http://your-ps5-ip:6970.",
-      "version": "v1.6.0",
-      "checksum": "29b62ef5004729af92a40caeeb956c6fd2c1a795079317a4e3285599a641a89e"
+      "version": "v1.7.0",
+      "checksum": "cb2a4b3c248323f2432ce118cb1bf4975146035239ce9b571a9bdb51b3fee226"
     }
   ]
 }
