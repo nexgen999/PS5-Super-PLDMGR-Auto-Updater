@@ -51,11 +51,11 @@
     },
     {
       "name": "websrv",
-      "filename": "websrv_v0.32.elf",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/websrv/v0.32/websrv_v0.32.elf",
+      "filename": "websrv_v0.33.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/websrv/v0.33/websrv_v0.33.elf",
       "description": "HTTP Web server payload. Port: 8080",
-      "version": "v0.32",
-      "checksum": "8dd24df100bff6db156e86bdf9380d5c0fcd2a680c2b08f5c87380d5007190c5"
+      "version": "v0.33",
+      "checksum": "4676a40ac4c7ca1adeb04980efa48dd33a8961446b42e6a12abfcbe96090c8ac"
     },
     {
       "name": "gdbsrv",
@@ -83,11 +83,11 @@
     },
     {
       "name": "ps5upload",
-      "filename": "ps5upload_v3.3.22.elf",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ps5upload/v3.3.22/ps5upload_v3.3.22.elf",
+      "filename": "ps5upload_v3.3.24.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ps5upload/v3.3.24/ps5upload_v3.3.24.elf",
       "description": "PS5 Upload server / tool. Port: 9025",
-      "version": "v3.3.22",
-      "checksum": "6fac6e1fa572e8780a39b7d32f418eff8900f9d6c921d6aad926270db30f9527"
+      "version": "v3.3.24",
+      "checksum": "0669701436835059cf5ddefbc7a739268fcb621337b59922d1670d36a5599896"
     },
     {
       "name": "airpsx",

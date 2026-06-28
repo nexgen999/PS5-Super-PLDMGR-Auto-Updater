@@ -64,7 +64,7 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 | :--- | :--- | :--- | :--- |
 | **PS5-Game-Compressor** | [v1.0.3](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/PS5-Game-Compressor/v1.0.3/PS5-Game-Compressor_v1.0.3.elf) | `51b66edf62...` | Tool to compress PS5 games. |
 | **ps5-app-dumper** | [v1.10](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/ps5-app-dumper/v1.10/ps5-app-dumper_v1.10.elf) | `95382a9e37...` | PS5 App Dumper payload. |
-| **ShadowMountPlus** | [1.6test15-fix2](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/ShadowMountPlus/1.6test15-fix2/ShadowMountPlus_v1.6test15-fix2.elf) | `8ab32f4ced...` | ShadowMountPlus payload for game mounting. |
+| **ShadowMountPlus** | [1.6beta16](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/ShadowMountPlus/1.6beta16/ShadowMountPlus_v1.6beta16.elf) | `a35246fb3b...` | ShadowMountPlus payload for game mounting. |
 | **BackPork** | [0.1](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/BackPork/0.1/BackPork_v0.1.elf) | `d74e4cd119...` | BackPork PS5 tool. |
 
 ### 🚀 Ps5 HEN Loader
@@ -131,11 +131,11 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 | **zftp** | [v1.5.0](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/zftpd/v1.5.0/zftp_v1.5.0.bin) | `f430dc1fde...` | FTP server payload for PS5. Port: 21 |
 | **elfldr** | [v0.23](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/elfldr/v0.23/elfldr_v0.23.elf) | `092d16ee0e...` | ELF Loader utility. Port: 9020 / 9021 |
 | **ftpsrv_ps5-payload** | [v0.20](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ftpsrv_ps5-payload/v0.20/ftpsrv_ps5-payload_v0.20.elf) | `8f305a959f...` | FTP server background daemon. Port: 21 |
-| **websrv** | [v0.32](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/websrv/v0.32/websrv_v0.32.elf) | `8dd24df100...` | HTTP Web server payload. Port: 8080 |
+| **websrv** | [v0.33](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/websrv/v0.33/websrv_v0.33.elf) | `4676a40ac4...` | HTTP Web server payload. Port: 8080 |
 | **gdbsrv** | [v0.8](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/gdbsrv/v0.8/gdbsrv_v0.8.elf) | `7621b829bd...` | GDB Debugger server payload. Port: 1234 |
 | **klogsrv** | [v0.8](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/klogsrv/v0.8/klogsrv_v0.8.elf) | `f6eb1b415e...` | Kernel log server daemon. Port: 3232 |
 | **ftpsrv_drakmor** | [1.6-ng-test2](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ftpsrv_drakmor/1.6-ng-test2/ftpsrv_drakmor_v1.6-ng-test2.elf) | `da65f0c5b5...` | Drakmor's variant of the FTP server. Port: 21 |
-| **ps5upload** | [v3.3.22](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ps5upload/v3.3.22/ps5upload_v3.3.22.elf) | `6fac6e1fa5...` | PS5 Upload server / tool. Port: 9025 |
+| **ps5upload** | [v3.3.24](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ps5upload/v3.3.24/ps5upload_v3.3.24.elf) | `0669701436...` | PS5 Upload server / tool. Port: 9025 |
 | **airpsx** | [0.19](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/airpsx/0.19/airpsx_v0.19.elf) | `ae025ca772...` | AirPSX server tool for PS5 ecosystem. |
 
 ### 📦 Ps5 Themes-Avatars
