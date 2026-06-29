@@ -9,5 +9,6 @@
     <outline text="ps5-self-pager" title="ps5-self-pager" type="rss" xmlUrl="https://github.com/idlesauce/ps5-self-pager" author="idlesauce" description="SELF pager payload tool." />
     <outline text="PS5-SELF-Decrypter" title="PS5-SELF-Decrypter" type="rss" xmlUrl="https://github.com/idlesauce/PS5-SELF-Decrypter" author="idlesauce" description="SELF decrypter tool for PS5 binaries." />
     <outline text="ps5-remoteplay-get-pin" title="ps5-remoteplay-get-pin" type="rss" xmlUrl="https://github.com/idlesauce/ps5-remoteplay-get-pin" author="idlesauce" description="Utility to get Remote Play PIN." />
+    <outline text="MemDBG" title="MemDBG" type="rss" xmlUrl="https://github.com/seregonwar/MemDBG" author="seregonwar" description="Memory debugging and inspection suite." />
   </body>
 </opml>
