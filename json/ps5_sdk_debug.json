@@ -99,6 +99,15 @@
       "version": "v0.1.1",
       "category": "PS5 Sdk Debug",
       "checksum": "1d611c1856dd2f4b4b6cb42ead1128a7f08a26585788f92de79fa4f67d721472"
+    },
+    {
+      "name": "MemDBG",
+      "filename": "MemDBG_v0.1.1.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/MemDBG/v0.1.1/MemDBG_v0.1.1.elf",
+      "description": "Memory debugging and inspection suite.",
+      "version": "v0.1.1",
+      "category": "PS5 Sdk Debug",
+      "checksum": "dcc3a5baa98512eaa3fa3bd51a95b8deccea5f1905fd498fb397a37473fc8a73"
     }
   ]
 }

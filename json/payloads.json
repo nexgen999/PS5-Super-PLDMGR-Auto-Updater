@@ -254,6 +254,15 @@
       "checksum": "1d611c1856dd2f4b4b6cb42ead1128a7f08a26585788f92de79fa4f67d721472"
     },
     {
+      "name": "MemDBG",
+      "filename": "MemDBG_v0.1.1.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/MemDBG/v0.1.1/MemDBG_v0.1.1.elf",
+      "description": "Memory debugging and inspection suite.",
+      "version": "v0.1.1",
+      "category": "PS5 Sdk Debug",
+      "checksum": "dcc3a5baa98512eaa3fa3bd51a95b8deccea5f1905fd498fb397a37473fc8a73"
+    },
+    {
       "name": "PS5-Custom-Tool-Manager-",
       "filename": "PS5-Custom-Tool-Manager-_vCustom.elf",
       "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_themes-avatars/PS5-Custom-Tool-Manager-/Custom/PS5-Custom-Tool-Manager-_vCustom.elf",
@@ -360,6 +369,24 @@
       "version": "Source-Fixe",
       "category": "PS5 File Explorer",
       "checksum": "e8230ac4597b8f0388e75d7515ad1a2e251c4589cc3b8d56a483ffae73627eed"
+    },
+    {
+      "name": "ps5-web-file-manager",
+      "filename": "ps5-web-file-manager_v0.6.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_file_explorer/ps5-web-file-manager/v0.6/ps5-web-file-manager_v0.6.elf",
+      "description": "PS5 Web File Manager http://your-ps5-ip:8888.",
+      "version": "v0.6",
+      "category": "PS5 File Explorer",
+      "checksum": "fc125aff73b1cd8354979f364e2688630fc9fc1569d2251e34da875898fe8d2d"
+    },
+    {
+      "name": "PS5-File-Explorer",
+      "filename": "PS5-File-Explorer_vfile-explorer-v0.2.1.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_file_explorer/PS5-File-Explorer/file-explorer-v0.2.1/PS5-File-Explorer_vfile-explorer-v0.2.1.elf",
+      "description": "PS5 File Explorer http://your-ps5-ip:5905.",
+      "version": "file-explorer-v0.2.1",
+      "category": "PS5 File Explorer",
+      "checksum": "6d4b905b42727dddeaedddb2a657ed0d4e7110ddd068a6daab0aafb2ba32604b"
     },
     {
       "name": "np-fake-signin",

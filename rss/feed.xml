@@ -145,6 +145,11 @@
       <description>Utility to get Remote Play PIN. - Checksum: 1d611c1856dd2f4b4b6cb42ead1128a7f08a26585788f92de79fa4f67d721472</description>
     </item>
     <item>
+      <title>MemDBG (v0.1.1)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/MemDBG/v0.1.1/MemDBG_v0.1.1.elf</link>
+      <description>Memory debugging and inspection suite. - Checksum: dcc3a5baa98512eaa3fa3bd51a95b8deccea5f1905fd498fb397a37473fc8a73</description>
+    </item>
+    <item>
       <title>PS5-Custom-Tool-Manager- (Custom)</title>
       <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_themes-avatars/PS5-Custom-Tool-Manager-/Custom/PS5-Custom-Tool-Manager-_vCustom.elf</link>
       <description>Custom manager tool for PS5 personalization. - Checksum: 297824ceaf6ea53fde57550adf9b5c2fc44c63ef60e8196ab92d351d1615d9cb</description>
@@ -203,6 +208,16 @@
       <title>lapy_jb_daemon (Source-Fixe)</title>
       <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_file_explorer/Lapy_JB_Daemon/Source-Fixe/lapy_jb_daemon.elf</link>
       <description>Daemon pour le jailbreak de Lapy - Checksum: e8230ac4597b8f0388e75d7515ad1a2e251c4589cc3b8d56a483ffae73627eed</description>
+    </item>
+    <item>
+      <title>ps5-web-file-manager (v0.6)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_file_explorer/ps5-web-file-manager/v0.6/ps5-web-file-manager_v0.6.elf</link>
+      <description>PS5 Web File Manager http://your-ps5-ip:8888. - Checksum: fc125aff73b1cd8354979f364e2688630fc9fc1569d2251e34da875898fe8d2d</description>
+    </item>
+    <item>
+      <title>PS5-File-Explorer (file-explorer-v0.2.1)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_file_explorer/PS5-File-Explorer/file-explorer-v0.2.1/PS5-File-Explorer_vfile-explorer-v0.2.1.elf</link>
+      <description>PS5 File Explorer http://your-ps5-ip:5905. - Checksum: 6d4b905b42727dddeaedddb2a657ed0d4e7110ddd068a6daab0aafb2ba32604b</description>
     </item>
     <item>
       <title>np-fake-signin (v1.3)</title>
