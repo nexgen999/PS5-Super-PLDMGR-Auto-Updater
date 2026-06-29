@@ -272,15 +272,6 @@
       "checksum": "4514bdbc0c556df1a66544615942d5087d1cbee5c2026b3b66e688ba01e5a5b0"
     },
     {
-      "name": "ps5-hwinfo",
-      "filename": "ps5-hwinfo_v0.1.elf",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/ps5-hwinfo/0.1/ps5-hwinfo_v0.1.elf",
-      "description": "PS5 payload for collecting hardware and runtime telemetry.",
-      "version": "0.1",
-      "category": "PS5 Sdk Debug",
-      "checksum": "ad5014112dec619779619d0ea01a984b3c8267fed682eca5687f34c9eade51cb"
-    },
-    {
       "name": "hwinfo_sysinfo",
       "filename": "hwinfo_sysinfo_v0.1.elf",
       "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/ps5-hwinfo/0.1/hwinfo_sysinfo_v0.1.elf",
