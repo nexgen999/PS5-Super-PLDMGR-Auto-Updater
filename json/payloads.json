@@ -255,7 +255,7 @@
       "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_kstuff/kstuff-lite_EchoStretch/v1.08/kstuff-lite_EchoStretch_v1.08.elf",
       "description": "Lightweight version of kstuff.",
       "version": "v1.08",
-      "checksum": "e13400a6a65baa135ece87341f8045e0a1399e110d12da7d3af77f848b42b818"
+      "checksum": "641ad66069e64fb1fda970e37ab963287b3ae9669bba59926280e8b74848993b"
     },
     {
       "name": "kstuff-lite_drakmor",
