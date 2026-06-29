@@ -32,7 +32,6 @@ for opml_file in opml_files:
     cat_tech_name = opml_file.replace('.opml', '')
     cat_display_name = cat_tech_name.replace('_', ' ').title()
     if "Hen" in cat_display_name: cat_display_name = cat_display_name.replace("Hen", "HEN")
-    # Si le nom commence par "Ps5 ", on peut optionnellement le nettoyer ou le laisser selon ta préférence
     if cat_display_name.startswith("Ps5 "): cat_display_name = cat_display_name.replace("Ps5 ", "PS5 ")
     
     print(f"\n📁 Catégorie : {cat_display_name} ({cat_tech_name})")
@@ -83,10 +82,12 @@ for opml_file in opml_files:
                 print(f"   ⚠️ Échec du téléchargement de la source fixe : {e}")
 
         # 1. TRAITEMENT RELEASES GITHUB
+        repo_lower = ""
         if not downloaded and "github.com" in xml_url:
             repo_match = re.search(r'github\.com/([^/]+/[^/]+)', xml_url)
             if repo_match:
                 repo = repo_match.group(1)
+                repo_lower = repo.lower()
                 try:
                     res_tag = subprocess.check_output(f"gh release list --repo {repo} --limit 1 --json tagName --jq '.[0].tagName'", shell=True).decode().strip()
                     if res_tag: 
@@ -106,7 +107,6 @@ for opml_file in opml_files:
                     subprocess.call(f"gh release download '{version}' --repo '{repo}' --dir '{target_dir}' --clobber 2>/dev/null", shell=True)
                     
                     files_downloaded = os.listdir(target_dir)
-                    repo_lower = repo.lower()
                     
                     if "ps5-payload-dev/websrv" in repo_lower or "phantomptr/ps5upload" in repo_lower:
                         print("   ⚠️ Dépôt lourd détecté : Application de la règle d'exception (.elf uniquement)")
@@ -222,7 +222,17 @@ for opml_file in opml_files:
 
             final_base = None
 
-            if "zhttp" in f_name_lower:
+            # RÈGLE D'EXCEPTION : ps5-hwinfo (Drakmor) - Préserver les deux variantes distinctes
+            if "drakmor/ps5-hwinfo" in repo_lower or "hwinfo" in f_name_lower:
+                if "bench" in f_name_lower:
+                    final_base = "hwinfo_bench"
+                elif "sysinfo" in f_name_lower:
+                    final_base = "hwinfo_sysinfo"
+                else:
+                    final_base = "ps5-hwinfo"
+            
+            # Identifications strictes habituelles
+            elif "zhttp" in f_name_lower:
                 final_base = "zhttp"
             elif "zftp" in f_name_lower:
                 final_base = "zftp"
@@ -273,7 +283,6 @@ for opml_file in opml_files:
 
                 display_name = os.path.splitext(main_file)[0].split('_v')[0]
 
-                # AJOUT DE LA NOUVEAUTÉ : Clé "category" ajoutée dynamiquement entre "version" et "checksum"
                 item_data = {
                     "name": display_name,
                     "filename": main_file,
