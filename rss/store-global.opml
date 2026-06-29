@@ -28,6 +28,7 @@
     <outline text="ShadowMountPlus" title="ShadowMountPlus" type="rss" xmlUrl="https://github.com/drakmor/ShadowMountPlus" author="drakmor"/>
     <outline text="ftpsrv_drakmor" title="ftpsrv_drakmor" type="rss" xmlUrl="https://github.com/drakmor/ftpsrv" author="drakmor"/>
     <outline text="kstuff-lite_drakmor" title="kstuff-lite_drakmor" type="rss" xmlUrl="https://github.com/drakmor/kstuff-lite" author="drakmor"/>
+    <outline text="ps5-hwinfo" title="ps5-hwinfo" type="rss" xmlUrl="https://github.com/drakmor/ps5-hwinfo" author="drakmor"/>
     <outline text="garlic-savemgr" title="garlic-savemgr" type="rss" xmlUrl="https://git.etawen.dev/earthonion/garlic-savemgr" author="earthonion"/>
     <outline text="garlic-worker" title="garlic-worker" type="rss" xmlUrl="https://git.etawen.dev/earthonion/garlic-worker" author="earthonion"/>
     <outline text="np-fake-signin" title="np-fake-signin" type="rss" xmlUrl="https://git.etawen.dev/earthonion/np-fake-signin" author="earthonion"/>
