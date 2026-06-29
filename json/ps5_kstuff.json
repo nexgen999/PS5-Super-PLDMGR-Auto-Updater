@@ -1,5 +1,5 @@
 {
-  "name": "Ps5 Kstuff",
+  "name": "PS5 Kstuff",
   "payloads": [
     {
       "name": "kstuff_EchoStretch",
@@ -7,6 +7,7 @@
       "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_kstuff/kstuff_EchoStretch/v1.6.7/kstuff_EchoStretch_v1.6.7.elf",
       "description": "Fnd Kstuff payload for PS5.",
       "version": "v1.6.7",
+      "category": "PS5 Kstuff",
       "checksum": "f1c1f4b2b6395644af04cbe9828aba58586acf7aacb9e01113cac92ce16e3569"
     },
     {
@@ -15,6 +16,7 @@
       "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_kstuff/kstuff-lite_EchoStretch/v1.08/kstuff-lite_EchoStretch_v1.08.elf",
       "description": "Lightweight version of kstuff.",
       "version": "v1.08",
+      "category": "PS5 Kstuff",
       "checksum": "641ad66069e64fb1fda970e37ab963287b3ae9669bba59926280e8b74848993b"
     },
     {
@@ -23,6 +25,7 @@
       "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_kstuff/kstuff-lite_drakmor/1.2-dr-test2/kstuff-lite_drakmor_v1.2-dr-test2.elf",
       "description": "Drakmor's variant of kstuff-lite.",
       "version": "1.2-dr-test2",
+      "category": "PS5 Kstuff",
       "checksum": "2b699d411079a21dba7c39a02993fc0fb21e52f434103e884a0c892fafe56b75"
     }
   ]

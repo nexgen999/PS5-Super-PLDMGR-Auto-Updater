@@ -1,5 +1,5 @@
 {
-  "name": "Ps5 Server",
+  "name": "PS5 Server",
   "payloads": [
     {
       "name": "zftp",
@@ -7,6 +7,7 @@
       "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/zftpd/v1.5.0/zftp_v1.5.0.elf",
       "description": "FTP server payload for PS5. Port: 21",
       "version": "v1.5.0",
+      "category": "PS5 Server",
       "checksum": "68a80e1cb45544c15b1581a49154ad14aa8e29483e5fec786f2a95e0e28ea6cb"
     },
     {
@@ -15,6 +16,7 @@
       "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/zftpd/v1.5.0/zhttp_v1.5.0.elf",
       "description": "FTP server payload for PS5. Port: 21",
       "version": "v1.5.0",
+      "category": "PS5 Server",
       "checksum": "6cf6a738112fc339619ebe772690fa611f60ecdb20164a0e3f49e137277bc42b"
     },
     {
@@ -23,6 +25,7 @@
       "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/zftpd/v1.5.0/zhttp_v1.5.0.bin",
       "description": "FTP server payload for PS5. Port: 21",
       "version": "v1.5.0",
+      "category": "PS5 Server",
       "checksum": "9340aa91f8f1eeb619473d716e0b6ab7af1c6fbb3ad815648520872ad6c86ccf"
     },
     {
@@ -31,6 +34,7 @@
       "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/zftpd/v1.5.0/zftp_v1.5.0.bin",
       "description": "FTP server payload for PS5. Port: 21",
       "version": "v1.5.0",
+      "category": "PS5 Server",
       "checksum": "f430dc1fdeaea425c9e8248708b4b8f4d11b662d2a3f74ac7e85cf7d785d82c3"
     },
     {
@@ -39,6 +43,7 @@
       "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/elfldr/v0.23/elfldr_v0.23.elf",
       "description": "ELF Loader utility. Port: 9020 / 9021",
       "version": "v0.23",
+      "category": "PS5 Server",
       "checksum": "092d16ee0ede0c494947efd38d1a17bbd7cc4b022d3858ea898833c188c703e8"
     },
     {
@@ -47,6 +52,7 @@
       "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ftpsrv_ps5-payload/v0.20/ftpsrv_ps5-payload_v0.20.elf",
       "description": "FTP server background daemon. Port: 21",
       "version": "v0.20",
+      "category": "PS5 Server",
       "checksum": "8f305a959fb9d70fd8d52ba88409e0d5a1632e83d4ecdd38646a0a33e54089da"
     },
     {
@@ -55,6 +61,7 @@
       "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/websrv/v0.33/websrv_v0.33.elf",
       "description": "HTTP Web server payload. Port: 8080",
       "version": "v0.33",
+      "category": "PS5 Server",
       "checksum": "4676a40ac4c7ca1adeb04980efa48dd33a8961446b42e6a12abfcbe96090c8ac"
     },
     {
@@ -63,6 +70,7 @@
       "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/gdbsrv/v0.8/gdbsrv_v0.8.elf",
       "description": "GDB Debugger server payload. Port: 1234",
       "version": "v0.8",
+      "category": "PS5 Server",
       "checksum": "7621b829bd8b6d6f3d2328fa12c16af956b0ca128250f92a91eddc100c87f208"
     },
     {
@@ -71,6 +79,7 @@
       "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/klogsrv/v0.8/klogsrv_v0.8.elf",
       "description": "Kernel log server daemon. Port: 3232",
       "version": "v0.8",
+      "category": "PS5 Server",
       "checksum": "f6eb1b415ecf3340b89a56a0cb04ba5c714430085851ada13a98012b63a5a4cf"
     },
     {
@@ -79,6 +88,7 @@
       "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ftpsrv_drakmor/1.6-ng-test2/ftpsrv_drakmor_v1.6-ng-test2.elf",
       "description": "Drakmor's variant of the FTP server. Port: 21",
       "version": "1.6-ng-test2",
+      "category": "PS5 Server",
       "checksum": "da65f0c5b5dffd2b803e2521d73e96d35db4ff9711e661f49be5795f72da2cd3"
     },
     {
@@ -87,6 +97,7 @@
       "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ps5upload/v3.3.24/ps5upload_v3.3.24.elf",
       "description": "PS5 Upload server / tool. Port: 9025",
       "version": "v3.3.24",
+      "category": "PS5 Server",
       "checksum": "0669701436835059cf5ddefbc7a739268fcb621337b59922d1670d36a5599896"
     },
     {
@@ -95,6 +106,7 @@
       "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/airpsx/0.19/airpsx_v0.19.elf",
       "description": "AirPSX server tool for PS5 ecosystem.",
       "version": "0.19",
+      "category": "PS5 Server",
       "checksum": "ae025ca7727b3a8abf6a705903ca9116a6fa6e7f7ead606916109cf9044c5d63"
     }
   ]

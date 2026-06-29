@@ -1,5 +1,5 @@
 {
-  "name": "Ps5 Activation",
+  "name": "PS5 Activation",
   "payloads": [
     {
       "name": "np-fake-signin",
@@ -7,6 +7,7 @@
       "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Activation/np-fake-signin/v1.3/np-fake-signin_v1.3.elf",
       "description": "Fake activate PS5 without PSN.",
       "version": "v1.3",
+      "category": "PS5 Activation",
       "checksum": "f5c66fcb9e3f512e5463a7123d819b87f063d9955639366fa7ad26a2f0abefa4"
     }
   ]
