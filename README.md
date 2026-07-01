@@ -94,7 +94,7 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 
 | Application | Version | Empreinte SHA-256 | Description |
 | :--- | :--- | :--- | :--- |
-| **ps5-linux-loader** | [v2.2](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_linux/ps5-linux-loader/v2.2/ps5-linux-loader_v2.2.elf) | `ec64491c0c...` | Linux loader payload for the PS5. |
+| **ps5-linux-loader** | [v2.3](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_linux/ps5-linux-loader/v2.3/ps5-linux-loader_v2.3.elf) | `0723b5d5e0...` | Linux loader payload for the PS5. |
 
 ### 📝 PS5 Saves
 📂 **Fichier JSON Dédié :** `https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/json/ps5_saves.json`

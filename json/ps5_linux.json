@@ -3,12 +3,12 @@
   "payloads": [
     {
       "name": "ps5-linux-loader",
-      "filename": "ps5-linux-loader_v2.2.elf",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_linux/ps5-linux-loader/v2.2/ps5-linux-loader_v2.2.elf",
+      "filename": "ps5-linux-loader_v2.3.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_linux/ps5-linux-loader/v2.3/ps5-linux-loader_v2.3.elf",
       "description": "Linux loader payload for the PS5.",
-      "version": "v2.2",
+      "version": "v2.3",
       "category": "PS5 Linux",
-      "checksum": "ec64491c0c8f559244709fbd6a1d6d0c43a402e40502c40ddccbd1722f376338"
+      "checksum": "0723b5d5e09120861023e91780d9ec345a3aa2f32c8a17fdfb3a60a9e934e8a5"
     }
   ]
 }

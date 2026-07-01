@@ -185,9 +185,9 @@
       <description>Drakmor's variant of kstuff-lite. - Checksum: 2b699d411079a21dba7c39a02993fc0fb21e52f434103e884a0c892fafe56b75</description>
     </item>
     <item>
-      <title>ps5-linux-loader (v2.2)</title>
-      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_linux/ps5-linux-loader/v2.2/ps5-linux-loader_v2.2.elf</link>
-      <description>Linux loader payload for the PS5. - Checksum: ec64491c0c8f559244709fbd6a1d6d0c43a402e40502c40ddccbd1722f376338</description>
+      <title>ps5-linux-loader (v2.3)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_linux/ps5-linux-loader/v2.3/ps5-linux-loader_v2.3.elf</link>
+      <description>Linux loader payload for the PS5. - Checksum: 0723b5d5e09120861023e91780d9ec345a3aa2f32c8a17fdfb3a60a9e934e8a5</description>
     </item>
     <item>
       <title>ChronicLoader-PS5-Payload (0.1)</title>
