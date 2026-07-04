@@ -11,5 +11,6 @@
     <outline text="ps5-remoteplay-get-pin" title="ps5-remoteplay-get-pin" type="rss" xmlUrl="https://github.com/idlesauce/ps5-remoteplay-get-pin" author="idlesauce" description="Utility to get Remote Play PIN." />
     <outline text="MemDBG" title="MemDBG" type="rss" xmlUrl="https://github.com/seregonwar/MemDBG" author="seregonwar" description="Memory debugging and inspection suite." />
     <outline text="ps5-hwinfo" title="ps5-hwinfo" type="rss" xmlUrl="https://github.com/drakmor/ps5-hwinfo" author="drakmor" description="PS5 payload for collecting hardware and runtime telemetry." />
+    <outline text="PS5 Debugger GUI" title="PS5 Debugger GUI" type="rss" xmlUrl="https://github.com/boazvdwansem/ps5-debugger" author="boazvdwansem" description="Graphical user interface for interacting with the debugger payload." />
   </body>
 </opml>
