@@ -77,7 +77,7 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 | **etaHEN** | [2.5B](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/etaHEN/2.5B/etaHEN_v2.5B.bin) | `4845cac450...` | Le Homebrew Enabler (HEN) de référence pour la PS5 avec serveurs de triche, plugins et gestionnaire de mémoire intégrés. |
 | **PS5_Unified_Autoloader** | [v0.1.2-8e96846](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/PS5_Unified_Autoloader/v0.1.2-8e96846/PS5_Unified_Autoloader_v0.1.2-8e96846.elf) | `14312044a4...` | Chargeur universel de payloads permettant de lancer automatiquement vos outils favoris au démarrage de l'exploit. |
 | **pldmgr** | [v0.3.1](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/PS5_Payload_Manager/v0.3.1/pldmgr_v0.3.1.elf) | `518740adba...` | Interface d'administration et de gestion réseau pour envoyer, activer et ordonner vos fichiers ELF/BIN sur la console. |
-| **ELF_Arsenal** | [v1.6.22](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/ELF_Arsenal/v1.6.22/ELF_Arsenal_v1.6.22.elf) | `7fe0502aa4...` | Boîte à outils regroupant une collection complète de payloads utilitaires pour les consoles jailbreakées. |
+| **ELF_Arsenal** | [v1.6.22](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/ELF_Arsenal/v1.6.22/ELF_Arsenal_v1.6.22.elf) | `ee8f47e4d6...` | Boîte à outils regroupant une collection complète de payloads utilitaires pour les consoles jailbreakées. |
 | **Kura** | [v1.3.0](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/Kura/v1.3.0/Kura_v1.3.0.elf) | `2f3ceed797...` | Un loader de payloads moderne et épuré conçu pour optimiser l'injection de code sur PS5. |
 
 ### 🧪 PS5 Kstuff
@@ -102,7 +102,7 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 | Application | Version | Empreinte SHA-256 | Description |
 | :--- | :--- | :--- | :--- |
 | **garlic-savemgr** | [v1.10](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_saves/garlic-savemgr/v1.10/garlic-savemgr_v1.10.elf) | `b82bf7aa83...` | Save manager utility hosted on Forgejo. |
-| **garlic-worker** | [v1.1.4](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_saves/garlic-worker/v1.1.4/garlic-worker_v1.1.4.elf) | `da311b3ff9...` | Garlic worker payload component. |
+| **garlic-worker** | [v1.1.6](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_saves/garlic-worker/v1.1.6/garlic-worker_v1.1.6.elf) | `a16fdd755e...` | Garlic worker payload component. |
 | **savemnt-offset-dumper** | [1.0.0](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_saves/savemnt-offset-dumper/1.0.0/savemnt-offset-dumper_v1.0.0.elf) | `946328551f...` | Offset dumper for save mounting utilities. |
 
 ### ⚙️ PS5 Sdk Debug
@@ -124,6 +124,7 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 | **MemDBG** | [v0.1.1](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/MemDBG/v0.1.1/MemDBG_v0.1.1.elf) | `dcc3a5baa9...` | Memory debugging and inspection suite. |
 | **hwinfo_bench** | [0.1](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/ps5-hwinfo/0.1/hwinfo_bench_v0.1.elf) | `4514bdbc0c...` | PS5 payload for collecting hardware and runtime telemetry. |
 | **hwinfo_sysinfo** | [0.1](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/ps5-hwinfo/0.1/hwinfo_sysinfo_v0.1.elf) | `ad5014112d...` | PS5 payload for collecting hardware and runtime telemetry. |
+| **PS5_Debugger_GUI** | [1.0.0-BETA](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/PS5_Debugger_GUI/1.0.0-BETA/PS5_Debugger_GUI_v1.0.0-BETA.elf) | `8f75fb90b4...` | Graphical user interface for interacting with the debugger payload. |
 
 ### 🖥️ PS5 Server
 📂 **Fichier JSON Dédié :** `https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/json/ps5_server.json`
@@ -191,6 +192,7 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 - **StonedModder** : [savemnt-offset-dumper](https://github.com/StonedModder/savemnt-offset-dumper)
 - **aydencharles** : [kylin-core](https://raw.githubusercontent.com/nexgen999/PS5_Payload_Manager_Updater/main/ps5_cheat/kylin-core-community-lite-v131-global-release.elf)
 - **barisyild** : [airpsx](https://github.com/barisyild/airpsx)
+- **boazvdwansem** : [PS5 Debugger GUI](https://github.com/boazvdwansem/ps5-debugger)
 - **drakmor** : [ShadowMountPlus](https://github.com/drakmor/ShadowMountPlus)
 - **drakmor** : [ftpsrv_drakmor](https://github.com/drakmor/ftpsrv)
 - **drakmor** : [kstuff-lite_drakmor](https://github.com/drakmor/kstuff-lite)
