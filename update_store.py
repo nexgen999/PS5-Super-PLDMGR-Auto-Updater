@@ -108,19 +108,21 @@ for opml_file in opml_files:
                     
                     files_downloaded = os.listdir(target_dir)
                     
-                    if "ps5-payload-dev/websrv" in repo_lower or "phantomptr/ps5upload" in repo_lower:
-                        print("   ⚠️ Dépôt lourd détecté : Application de la règle d'exception (.elf uniquement)")
+                    # FILTRES DE SÉCURITÉ POUR DÉPÔTS LOURDS SPECIFIQUES (Uniquement .elf ou .bin)
+                    if "ps5-payload-dev/websrv" in repo_lower or "phantomptr/ps5upload" in repo_lower or "boazvdwansem/ps5-debugger" in repo_lower:
+                        print(f"   ⚠️ Dépôt lourd/PC détecté ({repo}) : Conservation des binaires console uniquement (.elf/.bin)")
                         for f in files_downloaded:
                             f_lower = f.lower()
-                            if not f_lower.endswith('.elf'):
+                            if not (f_lower.endswith('.elf') or f_lower.endswith('.bin')):
                                 try:
                                     os.remove(os.path.join(target_dir, f))
                                 except:
                                     pass
                     else:
+                        # Nettoyage global renforcé (Exclusion des .msi, .exe, .dmg, .appimage, etc.)
                         for f in files_downloaded:
                             f_lower = f.lower()
-                            if "ps4" in f_lower or f_lower.endswith('.dmg') or f_lower.endswith('.exe') or f_lower.endswith('.appimage'):
+                            if "ps4" in f_lower or f_lower.endswith('.dmg') or f_lower.endswith('.exe') or f_lower.endswith('.appimage') or f_lower.endswith('.msi'):
                                 try:
                                     os.remove(os.path.join(target_dir, f))
                                 except:
@@ -160,7 +162,7 @@ for opml_file in opml_files:
                                 asset_name = asset.get('name', '')
                                 clean_name = asset_name.lower()
                                 
-                                if "ps4" in clean_name or clean_name.endswith('.dmg') or clean_name.endswith('.exe') or clean_name.endswith('.appimage'):
+                                if "ps4" in clean_name or clean_name.endswith('.dmg') or clean_name.endswith('.exe') or clean_name.endswith('.appimage') or clean_name.endswith('.msi'):
                                     continue
                                     
                                 if clean_name.endswith('.elf') or clean_name.endswith('.bin') or clean_name.endswith('.pkg'):
@@ -174,7 +176,7 @@ for opml_file in opml_files:
                                     asset_name = asset.get('name', '')
                                     clean_name = asset_name.lower()
                                     
-                                    if "ps4" in clean_name or clean_name.endswith('.dmg') or clean_name.endswith('.exe') or clean_name.endswith('.appimage'):
+                                    if "ps4" in clean_name or clean_name.endswith('.dmg') or clean_name.endswith('.exe') or clean_name.endswith('.appimage') or clean_name.endswith('.msi'):
                                         continue
                                         
                                     if clean_name.endswith('.zip'):
@@ -222,7 +224,6 @@ for opml_file in opml_files:
 
             final_base = None
 
-            # RÈGLE D'EXCEPTION : ps5-hwinfo (Drakmor) - Préserver les deux variantes distinctes
             if "drakmor/ps5-hwinfo" in repo_lower or "hwinfo" in f_name_lower:
                 if "bench" in f_name_lower:
                     final_base = "hwinfo_bench"
@@ -230,8 +231,6 @@ for opml_file in opml_files:
                     final_base = "hwinfo_sysinfo"
                 else:
                     final_base = "ps5-hwinfo"
-            
-            # Identifications strictes habituelles
             elif "zhttp" in f_name_lower:
                 final_base = "zhttp"
             elif "zftp" in f_name_lower:
