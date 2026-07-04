@@ -175,9 +175,9 @@
       <description>Fnd Kstuff payload for PS5. - Checksum: f1c1f4b2b6395644af04cbe9828aba58586acf7aacb9e01113cac92ce16e3569</description>
     </item>
     <item>
-      <title>kstuff-lite_EchoStretch (v1.08)</title>
-      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_kstuff/kstuff-lite_EchoStretch/v1.08/kstuff-lite_EchoStretch_v1.08.elf</link>
-      <description>Lightweight version of kstuff. - Checksum: 17294fb95736b9871457c255c0fa2ce2fc2c0401f5cc5b26abd077393b018361</description>
+      <title>kstuff-lite_EchoStretch (v1.09)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_kstuff/kstuff-lite_EchoStretch/v1.09/kstuff-lite_EchoStretch_v1.09.elf</link>
+      <description>Lightweight version of kstuff. - Checksum: ec5212794dc6e44ee8e70fd0549abec6d3dac8c3e03ddbeafd9f869ffe97d4e8</description>
     </item>
     <item>
       <title>kstuff-lite_drakmor (1.2-dr-test2)</title>
@@ -295,9 +295,9 @@
       <description>Interface d'administration et de gestion réseau pour envoyer, activer et ordonner vos fichiers ELF/BIN sur la console. - Checksum: 518740adbacccb9094fadb07dd424c53ee290f38306449ccc9d6957fdf813c0b</description>
     </item>
     <item>
-      <title>ELF_Arsenal (v1.6.21)</title>
-      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/ELF_Arsenal/v1.6.21/ELF_Arsenal_v1.6.21.elf</link>
-      <description>Boîte à outils regroupant une collection complète de payloads utilitaires pour les consoles jailbreakées. - Checksum: cec800889364e4e8a4586989f27a1e31717b3b384683386b88deef9c78bc50dd</description>
+      <title>ELF_Arsenal (v1.6.22)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/ELF_Arsenal/v1.6.22/ELF_Arsenal_v1.6.22.elf</link>
+      <description>Boîte à outils regroupant une collection complète de payloads utilitaires pour les consoles jailbreakées. - Checksum: c9793086f68cc9403634642448b2aceb07059aecb331a0b8ae0caaff7cedf860</description>
     </item>
     <item>
       <title>Kura (v1.3.0)</title>

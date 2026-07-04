@@ -30,12 +30,12 @@
     },
     {
       "name": "ELF_Arsenal",
-      "filename": "ELF_Arsenal_v1.6.21.elf",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/ELF_Arsenal/v1.6.21/ELF_Arsenal_v1.6.21.elf",
+      "filename": "ELF_Arsenal_v1.6.22.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/ELF_Arsenal/v1.6.22/ELF_Arsenal_v1.6.22.elf",
       "description": "Boîte à outils regroupant une collection complète de payloads utilitaires pour les consoles jailbreakées.",
-      "version": "v1.6.21",
+      "version": "v1.6.22",
       "category": "PS5 HEN Loader",
-      "checksum": "cec800889364e4e8a4586989f27a1e31717b3b384683386b88deef9c78bc50dd"
+      "checksum": "c9793086f68cc9403634642448b2aceb07059aecb331a0b8ae0caaff7cedf860"
     },
     {
       "name": "Kura",
