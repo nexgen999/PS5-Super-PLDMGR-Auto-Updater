@@ -281,15 +281,6 @@
       "checksum": "ad5014112dec619779619d0ea01a984b3c8267fed682eca5687f34c9eade51cb"
     },
     {
-      "name": "PS5_Debugger_GUI",
-      "filename": "PS5_Debugger_GUI_v1.0.0-BETA.elf",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/PS5_Debugger_GUI/1.0.0-BETA/PS5_Debugger_GUI_v1.0.0-BETA.elf",
-      "description": "Graphical user interface for interacting with the debugger payload.",
-      "version": "1.0.0-BETA",
-      "category": "PS5 Sdk Debug",
-      "checksum": "8f75fb90b45d7cc4d59147e3323577d7264cf572c78a27f76722202f492ad16a"
-    },
-    {
       "name": "PS5-Custom-Tool-Manager-",
       "filename": "PS5-Custom-Tool-Manager-_vCustom.elf",
       "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_themes-avatars/PS5-Custom-Tool-Manager-/Custom/PS5-Custom-Tool-Manager-_vCustom.elf",

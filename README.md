@@ -124,7 +124,6 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 | **MemDBG** | [v0.1.1](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/MemDBG/v0.1.1/MemDBG_v0.1.1.elf) | `dcc3a5baa9...` | Memory debugging and inspection suite. |
 | **hwinfo_bench** | [0.1](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/ps5-hwinfo/0.1/hwinfo_bench_v0.1.elf) | `4514bdbc0c...` | PS5 payload for collecting hardware and runtime telemetry. |
 | **hwinfo_sysinfo** | [0.1](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/ps5-hwinfo/0.1/hwinfo_sysinfo_v0.1.elf) | `ad5014112d...` | PS5 payload for collecting hardware and runtime telemetry. |
-| **PS5_Debugger_GUI** | [1.0.0-BETA](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/PS5_Debugger_GUI/1.0.0-BETA/PS5_Debugger_GUI_v1.0.0-BETA.elf) | `8f75fb90b4...` | Graphical user interface for interacting with the debugger payload. |
 
 ### 🖥️ PS5 Server
 📂 **Fichier JSON Dédié :** `https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/json/ps5_server.json`
@@ -192,7 +191,6 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 - **StonedModder** : [savemnt-offset-dumper](https://github.com/StonedModder/savemnt-offset-dumper)
 - **aydencharles** : [kylin-core](https://raw.githubusercontent.com/nexgen999/PS5_Payload_Manager_Updater/main/ps5_cheat/kylin-core-community-lite-v131-global-release.elf)
 - **barisyild** : [airpsx](https://github.com/barisyild/airpsx)
-- **boazvdwansem** : [PS5 Debugger GUI](https://github.com/boazvdwansem/ps5-debugger)
 - **drakmor** : [ShadowMountPlus](https://github.com/drakmor/ShadowMountPlus)
 - **drakmor** : [ftpsrv_drakmor](https://github.com/drakmor/ftpsrv)
 - **drakmor** : [kstuff-lite_drakmor](https://github.com/drakmor/kstuff-lite)
