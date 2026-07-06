@@ -354,12 +354,12 @@
     },
     {
       "name": "Ghostcontrol-PS5-USB-Controller-Patcher",
-      "filename": "Ghostcontrol-PS5-USB-Controller-Patcher_v1.0.4.elf",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_utility/Ghostcontrol-PS5-USB-Controller-Patcher/1.0.4/Ghostcontrol-PS5-USB-Controller-Patcher_v1.0.4.elf",
+      "filename": "Ghostcontrol-PS5-USB-Controller-Patcher_v1.0.5.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_utility/Ghostcontrol-PS5-USB-Controller-Patcher/1.0.5/Ghostcontrol-PS5-USB-Controller-Patcher_v1.0.5.elf",
       "description": "USB Controller patcher tool for PS5.",
-      "version": "1.0.4",
+      "version": "1.0.5",
       "category": "PS5 Utility",
-      "checksum": "e2e658fc3c4b041e630fae897acdefa23c4f79f0adc8473a69b49bfc4897ccf0"
+      "checksum": "69271d91f27397c9ad42150129639ce452ecb405021108f42c6c87926123a6f1"
     },
     {
       "name": "bfpilot-core",
