@@ -22,6 +22,7 @@
     <outline text="ChronicLoader-PS5-Payload" title="ChronicLoader-PS5-Payload" type="rss" xmlUrl="https://github.com/StonedModder/ChronicLoader-PS5-Payload" author="StonedModder"/>
     <outline text="Ghostcontrol-PS5-USB-Controller-Patcher" title="Ghostcontrol-PS5-USB-Controller-Patcher" type="rss" xmlUrl="https://github.com/StonedModder/Ghostcontrol-PS5-USB-Controller-Patcher" author="StonedModder"/>
     <outline text="Ghostpad" title="Ghostpad" type="rss" xmlUrl="https://github.com/StonedModder/Ghostpad" author="StonedModder"/>
+    <outline text="PS Game State Lib" title="PS Game State Lib" type="rss" xmlUrl="https://github.com/StonedModder/ps-game-state-lib" author="StonedModder"/>
     <outline text="savemnt-offset-dumper" title="savemnt-offset-dumper" type="rss" xmlUrl="https://github.com/StonedModder/savemnt-offset-dumper" author="StonedModder"/>
     <outline text="kylin-core" title="kylin-core" type="rss" xmlUrl="https://raw.githubusercontent.com/nexgen999/PS5_Payload_Manager_Updater/main/ps5_cheat/kylin-core-community-lite-v131-global-release.elf" author="aydencharles"/>
     <outline text="airpsx" title="airpsx" type="rss" xmlUrl="https://github.com/barisyild/airpsx" author="barisyild"/>

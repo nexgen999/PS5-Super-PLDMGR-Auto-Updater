@@ -27,6 +27,15 @@
       "version": "1.0.5",
       "category": "PS5 Utility",
       "checksum": "69271d91f27397c9ad42150129639ce452ecb405021108f42c6c87926123a6f1"
+    },
+    {
+      "name": "PS_Game_State_Lib",
+      "filename": "PS_Game_State_Lib_v0.1.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_utility/PS_Game_State_Lib/v0.1/PS_Game_State_Lib_v0.1.elf",
+      "description": "Standalone PS5 game-state detection payload - webui ps5ip:9877 .",
+      "version": "v0.1",
+      "category": "PS5 Utility",
+      "checksum": "a550e1494b0f8be3b244f8820ee8d899442d33a936f9ded6203a0318c7afdba8"
     }
   ]
 }
