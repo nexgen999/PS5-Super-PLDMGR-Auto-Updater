@@ -250,11 +250,6 @@
       <description>PS5 App Dumper payload. - Checksum: 95382a9e37987d8eb931cbe5db618e77d293099ef4314e3288d9899bd5ac5c00</description>
     </item>
     <item>
-      <title>ShadowMountPlus (1.6beta16)</title>
-      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/ShadowMountPlus/1.6beta16/ShadowMountPlus_v1.6beta16.elf</link>
-      <description>ShadowMountPlus payload for game mounting. - Checksum: a35246fb3bb6042b25653b51cdcbc33254b40339342bf1d2dd0d2eceee2ca526</description>
-    </item>
-    <item>
       <title>BackPork (0.1)</title>
       <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/BackPork/0.1/BackPork_v0.1.elf</link>
       <description>BackPork PS5 tool. - Checksum: d74e4cd119b2bb1fd423f2f5b1c9a7f096b3e588c753af1ab48b983d56216a52</description>
