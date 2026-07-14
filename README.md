@@ -100,7 +100,7 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 
 | Application | Version | Empreinte SHA-256 | Description |
 | :--- | :--- | :--- | :--- |
-| **garlic-savemgr** | [v1.10](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_saves/garlic-savemgr/v1.10/garlic-savemgr_v1.10.elf) | `b82bf7aa83...` | Save manager utility hosted on Forgejo. |
+| **garlic-savemgr** | [v1.12](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_saves/garlic-savemgr/v1.12/garlic-savemgr_v1.12.elf) | `245150007d...` | Save manager utility hosted on Forgejo. |
 | **garlic-worker** | [v1.1.6](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_saves/garlic-worker/v1.1.6/garlic-worker_v1.1.6.elf) | `a16fdd755e...` | Garlic worker payload component. |
 | **savemnt-offset-dumper** | [1.0.0](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_saves/savemnt-offset-dumper/1.0.0/savemnt-offset-dumper_v1.0.0.elf) | `946328551f...` | Offset dumper for save mounting utilities. |
 
