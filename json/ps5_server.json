@@ -2,6 +2,24 @@
   "name": "PS5 Server",
   "payloads": [
     {
+      "name": "zftp",
+      "filename": "zftp_v1.5.0.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/zftpd/v1.5.0/zftp_v1.5.0.elf",
+      "description": "FTP server payload for PS5. Port: 21",
+      "version": "v1.5.0",
+      "category": "PS5 Server",
+      "checksum": "68a80e1cb45544c15b1581a49154ad14aa8e29483e5fec786f2a95e0e28ea6cb"
+    },
+    {
+      "name": "zhttp",
+      "filename": "zhttp_v1.5.0.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/zftpd/v1.5.0/zhttp_v1.5.0.elf",
+      "description": "FTP server payload for PS5. Port: 21",
+      "version": "v1.5.0",
+      "category": "PS5 Server",
+      "checksum": "6cf6a738112fc339619ebe772690fa611f60ecdb20164a0e3f49e137277bc42b"
+    },
+    {
       "name": "zhttp",
       "filename": "zhttp_v1.5.0.bin",
       "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/zftpd/v1.5.0/zhttp_v1.5.0.bin",
@@ -18,24 +36,6 @@
       "version": "v1.5.0",
       "category": "PS5 Server",
       "checksum": "f430dc1fdeaea425c9e8248708b4b8f4d11b662d2a3f74ac7e85cf7d785d82c3"
-    },
-    {
-      "name": "zhttp",
-      "filename": "zhttp_v1.5.0.elf",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/zftpd/v1.5.0/zhttp_v1.5.0.elf",
-      "description": "FTP server payload for PS5. Port: 21",
-      "version": "v1.5.0",
-      "category": "PS5 Server",
-      "checksum": "6cf6a738112fc339619ebe772690fa611f60ecdb20164a0e3f49e137277bc42b"
-    },
-    {
-      "name": "zftp",
-      "filename": "zftp_v1.5.0.elf",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/zftpd/v1.5.0/zftp_v1.5.0.elf",
-      "description": "FTP server payload for PS5. Port: 21",
-      "version": "v1.5.0",
-      "category": "PS5 Server",
-      "checksum": "68a80e1cb45544c15b1581a49154ad14aa8e29483e5fec786f2a95e0e28ea6cb"
     },
     {
       "name": "elfldr",
@@ -89,7 +89,7 @@
       "description": "Drakmor's variant of the FTP server. Port: 21",
       "version": "1.6-ng-test2",
       "category": "PS5 Server",
-      "checksum": "6364e0529416f400be123c52acdcda68efd5179d971c060286022131fd047b8e"
+      "checksum": "da65f0c5b5dffd2b803e2521d73e96d35db4ff9711e661f49be5795f72da2cd3"
     },
     {
       "name": "ps5upload",
