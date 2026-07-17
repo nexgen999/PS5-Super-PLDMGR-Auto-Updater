@@ -55,9 +55,9 @@
       <description>Drakmor's variant of the FTP server. Port: 21 - Checksum: 6364e0529416f400be123c52acdcda68efd5179d971c060286022131fd047b8e</description>
     </item>
     <item>
-      <title>ps5upload (v4.0.0)</title>
-      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ps5upload/v4.0.0/ps5upload_v4.0.0.elf</link>
-      <description>PS5 Upload server / tool. Port: 9025 - Checksum: ba8de000b8a20a624352f445b8e2d4ead541c191eb3c3efece4ff5ea01745ed4</description>
+      <title>ps5upload (v4.1.0)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ps5upload/v4.1.0/ps5upload_v4.1.0.elf</link>
+      <description>PS5 Upload server / tool. Port: 9025 - Checksum: e9c0a580ba33f9dac96f729be0cf6f76d5c99805f875e0c4daa7a5976dc837df</description>
     </item>
     <item>
       <title>airpsx (0.19)</title>
@@ -160,9 +160,9 @@
       <description>Chargeur universel de payloads permettant de lancer automatiquement vos outils favoris au démarrage de l'exploit. - Checksum: 14312044a48ec136dcf4b3481fcab20d45a84aa5f859b88bcfaef5ab9c500963</description>
     </item>
     <item>
-      <title>pldmgr (v0.3.1)</title>
-      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/PS5_Payload_Manager/v0.3.1/pldmgr_v0.3.1.elf</link>
-      <description>Interface d'administration et de gestion réseau pour envoyer, activer et ordonner vos fichiers ELF/BIN sur la console. - Checksum: 518740adbacccb9094fadb07dd424c53ee290f38306449ccc9d6957fdf813c0b</description>
+      <title>pldmgr (v0.3.3)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/PS5_Payload_Manager/v0.3.3/pldmgr_v0.3.3.elf</link>
+      <description>Interface d'administration et de gestion réseau pour envoyer, activer et ordonner vos fichiers ELF/BIN sur la console. - Checksum: 8a214dcc190c893b1dea43ab64cb89c431a34630906c31413f6f44c0389b698e</description>
     </item>
     <item>
       <title>ELF_Arsenal (v1.6.22)</title>

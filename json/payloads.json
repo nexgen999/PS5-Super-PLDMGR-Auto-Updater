@@ -93,12 +93,12 @@
     },
     {
       "name": "ps5upload",
-      "filename": "ps5upload_v4.0.0.elf",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ps5upload/v4.0.0/ps5upload_v4.0.0.elf",
+      "filename": "ps5upload_v4.1.0.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ps5upload/v4.1.0/ps5upload_v4.1.0.elf",
       "description": "PS5 Upload server / tool. Port: 9025",
-      "version": "v4.0.0",
+      "version": "v4.1.0",
       "category": "PS5 Server",
-      "checksum": "ba8de000b8a20a624352f445b8e2d4ead541c191eb3c3efece4ff5ea01745ed4"
+      "checksum": "e9c0a580ba33f9dac96f729be0cf6f76d5c99805f875e0c4daa7a5976dc837df"
     },
     {
       "name": "airpsx",
@@ -282,12 +282,12 @@
     },
     {
       "name": "pldmgr",
-      "filename": "pldmgr_v0.3.1.elf",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/PS5_Payload_Manager/v0.3.1/pldmgr_v0.3.1.elf",
+      "filename": "pldmgr_v0.3.3.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/PS5_Payload_Manager/v0.3.3/pldmgr_v0.3.3.elf",
       "description": "Interface d'administration et de gestion réseau pour envoyer, activer et ordonner vos fichiers ELF/BIN sur la console.",
-      "version": "v0.3.1",
+      "version": "v0.3.3",
       "category": "PS5 HEN Loader",
-      "checksum": "518740adbacccb9094fadb07dd424c53ee290f38306449ccc9d6957fdf813c0b"
+      "checksum": "8a214dcc190c893b1dea43ab64cb89c431a34630906c31413f6f44c0389b698e"
     },
     {
       "name": "ELF_Arsenal",
