@@ -160,9 +160,9 @@
       <description>Chargeur universel de payloads permettant de lancer automatiquement vos outils favoris au démarrage de l'exploit. - Checksum: 14312044a48ec136dcf4b3481fcab20d45a84aa5f859b88bcfaef5ab9c500963</description>
     </item>
     <item>
-      <title>pldmgr (v0.3.3)</title>
-      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/PS5_Payload_Manager/v0.3.3/pldmgr_v0.3.3.elf</link>
-      <description>Interface d'administration et de gestion réseau pour envoyer, activer et ordonner vos fichiers ELF/BIN sur la console. - Checksum: 8a214dcc190c893b1dea43ab64cb89c431a34630906c31413f6f44c0389b698e</description>
+      <title>pldmgr (v0.4.0)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/PS5_Payload_Manager/v0.4.0/pldmgr_v0.4.0.elf</link>
+      <description>Interface d'administration et de gestion réseau pour envoyer, activer et ordonner vos fichiers ELF/BIN sur la console. - Checksum: 460808dead44100c4cb6e4ad8a768ffd1c5445afc7d1cb83e2727030240a85fd</description>
     </item>
     <item>
       <title>ELF_Arsenal (v1.6.22)</title>
