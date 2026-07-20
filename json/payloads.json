@@ -426,12 +426,12 @@
     },
     {
       "name": "MemDBG",
-      "filename": "MemDBG_vnightly-20260719-g81e5eea.elf",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/MemDBG/nightly-20260719-g81e5eea/MemDBG_vnightly-20260719-g81e5eea.elf",
+      "filename": "MemDBG_vnightly-20260720-g0ab6f18.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/MemDBG/nightly-20260720-g0ab6f18/MemDBG_vnightly-20260720-g0ab6f18.elf",
       "description": "Memory debugging and inspection suite.",
-      "version": "nightly-20260719-g81e5eea",
+      "version": "nightly-20260720-g0ab6f18",
       "category": "PS5 Sdk Debug",
-      "checksum": "ece8e27c91ebbddfdfba48488f861921733624e213be37305fb1466f66ed512e"
+      "checksum": "1c1a56cbc4169e0df27f2f5368d330516c1265e8002b210017ee932e00e3c1f9"
     },
     {
       "name": "hwinfo_sysinfo",

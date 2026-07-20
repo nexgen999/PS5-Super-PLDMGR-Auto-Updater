@@ -240,9 +240,9 @@
       <description>Utility to get Remote Play PIN. - Checksum: 1d611c1856dd2f4b4b6cb42ead1128a7f08a26585788f92de79fa4f67d721472</description>
     </item>
     <item>
-      <title>MemDBG (nightly-20260719-g81e5eea)</title>
-      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/MemDBG/nightly-20260719-g81e5eea/MemDBG_vnightly-20260719-g81e5eea.elf</link>
-      <description>Memory debugging and inspection suite. - Checksum: ece8e27c91ebbddfdfba48488f861921733624e213be37305fb1466f66ed512e</description>
+      <title>MemDBG (nightly-20260720-g0ab6f18)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/MemDBG/nightly-20260720-g0ab6f18/MemDBG_vnightly-20260720-g0ab6f18.elf</link>
+      <description>Memory debugging and inspection suite. - Checksum: 1c1a56cbc4169e0df27f2f5368d330516c1265e8002b210017ee932e00e3c1f9</description>
     </item>
     <item>
       <title>hwinfo_sysinfo (0.1)</title>
