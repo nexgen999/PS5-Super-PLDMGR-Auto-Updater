@@ -285,8 +285,28 @@
       <description>PS5 ELF payload for extracting RAR and 7z archives on a jailbroken PS5 and installing extracted apps into a configurable layout.. - Checksum: 2ef04b0bc8fc1932b29da1a53336c40ed0a3f6a945a0746bef2e5dde52149701</description>
     </item>
     <item>
+      <title>ps5power-suspend (1.0)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_utility/PS5-Power-Payloads-Project/1.0/ps5power-suspend_v1.0.elf</link>
+      <description>PS5-Power-Payloads-Project utility. - Checksum: 1a36a01c92cd73fc89645ce73e3f33c71979b5b677c92b6f4c26d269e3f9a2c1</description>
+    </item>
+    <item>
+      <title>ps5power-notify_test (1.0)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_utility/PS5-Power-Payloads-Project/1.0/ps5power-notify_test_v1.0.elf</link>
+      <description>PS5-Power-Payloads-Project utility. - Checksum: a06cf9ace6e13f3c0241a709c6a8d23969d74e6559ec2a2290298f480f62da79</description>
+    </item>
+    <item>
       <title>PS5-Power-Payloads-Project (1.0)</title>
       <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_utility/PS5-Power-Payloads-Project/1.0/PS5-Power-Payloads-Project_v1.0.elf</link>
+      <description>PS5-Power-Payloads-Project utility. - Checksum: 3614f68981adc13a231d3655bf3892725bc25aa372d67a0037698253753b7cbe</description>
+    </item>
+    <item>
+      <title>ps5power-poweroff (1.0)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_utility/PS5-Power-Payloads-Project/1.0/ps5power-poweroff_v1.0.elf</link>
+      <description>PS5-Power-Payloads-Project utility. - Checksum: 42ed7983619a31f74a6ac74cc943b80899366ceaf07fed77a46384b9b0f51c48</description>
+    </item>
+    <item>
+      <title>ps5power-reboot (1.0)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_utility/PS5-Power-Payloads-Project/1.0/ps5power-reboot_v1.0.elf</link>
       <description>PS5-Power-Payloads-Project utility. - Checksum: 3614f68981adc13a231d3655bf3892725bc25aa372d67a0037698253753b7cbe</description>
     </item>
     <item>
