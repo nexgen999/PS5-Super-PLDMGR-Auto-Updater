@@ -160,9 +160,9 @@
       <description>Chargeur universel de payloads permettant de lancer automatiquement vos outils favoris au démarrage de l'exploit. - Checksum: 14312044a48ec136dcf4b3481fcab20d45a84aa5f859b88bcfaef5ab9c500963</description>
     </item>
     <item>
-      <title>pldmgr (v0.4.1)</title>
-      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/PS5_Payload_Manager/v0.4.1/pldmgr_v0.4.1.elf</link>
-      <description>Interface d'administration et de gestion réseau pour envoyer, activer et ordonner vos fichiers ELF/BIN sur la console. - Checksum: 8f26faf1f6e831150af3284e2cca4944917f073efedfb4db0335cfab75a17951</description>
+      <title>pldmgr (v0.4.2)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/PS5_Payload_Manager/v0.4.2/pldmgr_v0.4.2.elf</link>
+      <description>Interface d'administration et de gestion réseau pour envoyer, activer et ordonner vos fichiers ELF/BIN sur la console. - Checksum: ed6039f1f62a9de5016721e003a11da001a09695718e5b893424d9af0a5d56a2</description>
     </item>
     <item>
       <title>ELF_Arsenal (v1.6.22)</title>
@@ -240,9 +240,9 @@
       <description>Utility to get Remote Play PIN. - Checksum: 1d611c1856dd2f4b4b6cb42ead1128a7f08a26585788f92de79fa4f67d721472</description>
     </item>
     <item>
-      <title>MemDBG (nightly-20260720-g0ab6f18)</title>
-      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/MemDBG/nightly-20260720-g0ab6f18/MemDBG_vnightly-20260720-g0ab6f18.elf</link>
-      <description>Memory debugging and inspection suite. - Checksum: 1c1a56cbc4169e0df27f2f5368d330516c1265e8002b210017ee932e00e3c1f9</description>
+      <title>MemDBG (nightly-20260720-g4358537)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/MemDBG/nightly-20260720-g4358537/MemDBG_vnightly-20260720-g4358537.elf</link>
+      <description>Memory debugging and inspection suite. - Checksum: b7ae0999c307718c2ba166e0fa56621afc0cc99ffcfda9bace0035d90ea7d184</description>
     </item>
     <item>
       <title>hwinfo_sysinfo (0.1)</title>
@@ -275,6 +275,21 @@
       <description>Standalone PS5 game-state detection payload - webui ps5ip:9877 . - Checksum: a550e1494b0f8be3b244f8820ee8d899442d33a936f9ded6203a0318c7afdba8</description>
     </item>
     <item>
+      <title>PS-DiscordPresence (v0.01)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_utility/PS-DiscordPresence/v0.01/PS-DiscordPresence_v0.01.elf</link>
+      <description>PS5 game activity service with a local status endpoint and a Python Discord RPC bridge. - Checksum: 375cf619ea6f6c594ea2b79ecbb98704723522d07e51c877687876d5fe589afb</description>
+    </item>
+    <item>
+      <title>unrar-ps5 (v1.4.0)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_utility/unrar-ps5/v1.4.0/unrar-ps5_v1.4.0.elf</link>
+      <description>PS5 ELF payload for extracting RAR and 7z archives on a jailbroken PS5 and installing extracted apps into a configurable layout.. - Checksum: 2ef04b0bc8fc1932b29da1a53336c40ed0a3f6a945a0746bef2e5dde52149701</description>
+    </item>
+    <item>
+      <title>PS5-Power-Payloads-Project (1.0)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_utility/PS5-Power-Payloads-Project/1.0/PS5-Power-Payloads-Project_v1.0.elf</link>
+      <description>PS5-Power-Payloads-Project utility. - Checksum: 3614f68981adc13a231d3655bf3892725bc25aa372d67a0037698253753b7cbe</description>
+    </item>
+    <item>
       <title>garlic-savemgr (v1.12)</title>
       <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_saves/garlic-savemgr/v1.12/garlic-savemgr_v1.12.elf</link>
       <description>Save manager utility hosted on Forgejo. - Checksum: 245150007dd2c48da6d0fdf791396a31434095e27f0175587b7b18ec3b8d6d5d</description>
@@ -295,9 +310,9 @@
       <description>Fake activate PS5 without PSN. - Checksum: f5c66fcb9e3f512e5463a7123d819b87f063d9955639366fa7ad26a2f0abefa4</description>
     </item>
     <item>
-      <title>CheatRunner (v0.15)</title>
-      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Cheat/CheatRunner/v0.15/CheatRunner_v0.15.elf</link>
-      <description>CheatRunner. - Checksum: b48a2424d90a4d34bca7824ce33fae6a79c07281a87a38d080776a1e6987cc68</description>
+      <title>CheatRunner (v0.16)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Cheat/CheatRunner/v0.16/CheatRunner_v0.16.elf</link>
+      <description>CheatRunner. - Checksum: a5483253926a0188c76a68101714cbd9bbc9c2305e0b071fad775d752da995bb</description>
     </item>
     <item>
       <title>kylin-core-community-lite-v131-global-release (Source-Fixe)</title>

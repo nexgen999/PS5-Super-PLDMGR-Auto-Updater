@@ -36,6 +36,33 @@
       "version": "v0.1",
       "category": "PS5 Utility",
       "checksum": "a550e1494b0f8be3b244f8820ee8d899442d33a936f9ded6203a0318c7afdba8"
+    },
+    {
+      "name": "PS-DiscordPresence",
+      "filename": "PS-DiscordPresence_v0.01.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_utility/PS-DiscordPresence/v0.01/PS-DiscordPresence_v0.01.elf",
+      "description": "PS5 game activity service with a local status endpoint and a Python Discord RPC bridge.",
+      "version": "v0.01",
+      "category": "PS5 Utility",
+      "checksum": "375cf619ea6f6c594ea2b79ecbb98704723522d07e51c877687876d5fe589afb"
+    },
+    {
+      "name": "unrar-ps5",
+      "filename": "unrar-ps5_v1.4.0.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_utility/unrar-ps5/v1.4.0/unrar-ps5_v1.4.0.elf",
+      "description": "PS5 ELF payload for extracting RAR and 7z archives on a jailbroken PS5 and installing extracted apps into a configurable layout..",
+      "version": "v1.4.0",
+      "category": "PS5 Utility",
+      "checksum": "2ef04b0bc8fc1932b29da1a53336c40ed0a3f6a945a0746bef2e5dde52149701"
+    },
+    {
+      "name": "PS5-Power-Payloads-Project",
+      "filename": "PS5-Power-Payloads-Project_v1.0.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_utility/PS5-Power-Payloads-Project/1.0/PS5-Power-Payloads-Project_v1.0.elf",
+      "description": "PS5-Power-Payloads-Project utility.",
+      "version": "1.0",
+      "category": "PS5 Utility",
+      "checksum": "3614f68981adc13a231d3655bf3892725bc25aa372d67a0037698253753b7cbe"
     }
   ]
 }

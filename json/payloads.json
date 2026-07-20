@@ -282,12 +282,12 @@
     },
     {
       "name": "pldmgr",
-      "filename": "pldmgr_v0.4.1.elf",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/PS5_Payload_Manager/v0.4.1/pldmgr_v0.4.1.elf",
+      "filename": "pldmgr_v0.4.2.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/PS5_Payload_Manager/v0.4.2/pldmgr_v0.4.2.elf",
       "description": "Interface d'administration et de gestion réseau pour envoyer, activer et ordonner vos fichiers ELF/BIN sur la console.",
-      "version": "v0.4.1",
+      "version": "v0.4.2",
       "category": "PS5 HEN Loader",
-      "checksum": "8f26faf1f6e831150af3284e2cca4944917f073efedfb4db0335cfab75a17951"
+      "checksum": "ed6039f1f62a9de5016721e003a11da001a09695718e5b893424d9af0a5d56a2"
     },
     {
       "name": "ELF_Arsenal",
@@ -426,12 +426,12 @@
     },
     {
       "name": "MemDBG",
-      "filename": "MemDBG_vnightly-20260720-g0ab6f18.elf",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/MemDBG/nightly-20260720-g0ab6f18/MemDBG_vnightly-20260720-g0ab6f18.elf",
+      "filename": "MemDBG_vnightly-20260720-g4358537.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/MemDBG/nightly-20260720-g4358537/MemDBG_vnightly-20260720-g4358537.elf",
       "description": "Memory debugging and inspection suite.",
-      "version": "nightly-20260720-g0ab6f18",
+      "version": "nightly-20260720-g4358537",
       "category": "PS5 Sdk Debug",
-      "checksum": "1c1a56cbc4169e0df27f2f5368d330516c1265e8002b210017ee932e00e3c1f9"
+      "checksum": "b7ae0999c307718c2ba166e0fa56621afc0cc99ffcfda9bace0035d90ea7d184"
     },
     {
       "name": "hwinfo_sysinfo",
@@ -488,6 +488,33 @@
       "checksum": "a550e1494b0f8be3b244f8820ee8d899442d33a936f9ded6203a0318c7afdba8"
     },
     {
+      "name": "PS-DiscordPresence",
+      "filename": "PS-DiscordPresence_v0.01.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_utility/PS-DiscordPresence/v0.01/PS-DiscordPresence_v0.01.elf",
+      "description": "PS5 game activity service with a local status endpoint and a Python Discord RPC bridge.",
+      "version": "v0.01",
+      "category": "PS5 Utility",
+      "checksum": "375cf619ea6f6c594ea2b79ecbb98704723522d07e51c877687876d5fe589afb"
+    },
+    {
+      "name": "unrar-ps5",
+      "filename": "unrar-ps5_v1.4.0.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_utility/unrar-ps5/v1.4.0/unrar-ps5_v1.4.0.elf",
+      "description": "PS5 ELF payload for extracting RAR and 7z archives on a jailbroken PS5 and installing extracted apps into a configurable layout..",
+      "version": "v1.4.0",
+      "category": "PS5 Utility",
+      "checksum": "2ef04b0bc8fc1932b29da1a53336c40ed0a3f6a945a0746bef2e5dde52149701"
+    },
+    {
+      "name": "PS5-Power-Payloads-Project",
+      "filename": "PS5-Power-Payloads-Project_v1.0.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_utility/PS5-Power-Payloads-Project/1.0/PS5-Power-Payloads-Project_v1.0.elf",
+      "description": "PS5-Power-Payloads-Project utility.",
+      "version": "1.0",
+      "category": "PS5 Utility",
+      "checksum": "3614f68981adc13a231d3655bf3892725bc25aa372d67a0037698253753b7cbe"
+    },
+    {
       "name": "garlic-savemgr",
       "filename": "garlic-savemgr_v1.12.elf",
       "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_saves/garlic-savemgr/v1.12/garlic-savemgr_v1.12.elf",
@@ -525,12 +552,12 @@
     },
     {
       "name": "CheatRunner",
-      "filename": "CheatRunner_v0.15.elf",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Cheat/CheatRunner/v0.15/CheatRunner_v0.15.elf",
+      "filename": "CheatRunner_v0.16.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Cheat/CheatRunner/v0.16/CheatRunner_v0.16.elf",
       "description": "CheatRunner.",
-      "version": "v0.15",
+      "version": "v0.16",
       "category": "PS5 Cheat",
-      "checksum": "b48a2424d90a4d34bca7824ce33fae6a79c07281a87a38d080776a1e6987cc68"
+      "checksum": "a5483253926a0188c76a68101714cbd9bbc9c2305e0b071fad775d752da995bb"
     },
     {
       "name": "kylin-core-community-lite-v131-global-release",

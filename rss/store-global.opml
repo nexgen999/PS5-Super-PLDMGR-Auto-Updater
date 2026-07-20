@@ -14,6 +14,7 @@
     <outline text="BFpilot-Core" title="BFpilot-Core" type="rss" xmlUrl="https://raw.githubusercontent.com/nexgen999/PS5_Payload_Manager_Updater/main/ps5_file_explorer/bfpilot-core_v0.2.1.elf" author="ItsBlurf"/>
     <outline text="BFpilot-Full" title="BFpilot-Full" type="rss" xmlUrl="https://raw.githubusercontent.com/nexgen999/PS5_Payload_Manager_Updater/main/ps5_file_explorer/bfpilot-full_v0.2.1.elf" author="ItsBlurf"/>
     <outline text="etaHEN" title="etaHEN" type="rss" xmlUrl="https://github.com/etaHEN/etaHEN" author="LightningMods"/>
+    <outline text="PS5-Power-Payloads-Project" title="PS5-Power-Payloads-Project" type="rss" xmlUrl="https://github.com/MasterPS0/PS5-Power-Payloads-Project" author="MasterPS0"/>
     <outline text="PS5-Custom-Tool-Manager-" title="PS5-Custom-Tool-Manager-" type="rss" xmlUrl="https://github.com/NikoBellikJR31/PS5-Custom-Tool-Manager-" author="NikoBellikJR31"/>
     <outline text="Kura" title="Kura" type="rss" xmlUrl="https://github.com/NookieAI/kura" author="NookieAI"/>
     <outline text="ps5debug-NG" title="ps5debug-NG" type="rss" xmlUrl="https://github.com/OpenSourcereR-dev/ps5debug-NG" author="OpenSourcereR-dev"/>
@@ -23,9 +24,11 @@
     <outline text="Ghostcontrol-PS5-USB-Controller-Patcher" title="Ghostcontrol-PS5-USB-Controller-Patcher" type="rss" xmlUrl="https://github.com/StonedModder/Ghostcontrol-PS5-USB-Controller-Patcher" author="StonedModder"/>
     <outline text="Ghostpad" title="Ghostpad" type="rss" xmlUrl="https://github.com/StonedModder/Ghostpad" author="StonedModder"/>
     <outline text="PS Game State Lib" title="PS Game State Lib" type="rss" xmlUrl="https://github.com/StonedModder/ps-game-state-lib" author="StonedModder"/>
+    <outline text="PS-DiscordPresence" title="PS-DiscordPresence" type="rss" xmlUrl="https://github.com/StonedModder/PS-DiscordPresence" author="StonedModder"/>
     <outline text="savemnt-offset-dumper" title="savemnt-offset-dumper" type="rss" xmlUrl="https://github.com/StonedModder/savemnt-offset-dumper" author="StonedModder"/>
     <outline text="kylin-core" title="kylin-core" type="rss" xmlUrl="https://raw.githubusercontent.com/nexgen999/PS5_Payload_Manager_Updater/main/ps5_cheat/kylin-core-community-lite-v131-global-release.elf" author="aydencharles"/>
     <outline text="airpsx" title="airpsx" type="rss" xmlUrl="https://github.com/barisyild/airpsx" author="barisyild"/>
+    <outline text="unrar-ps5" title="unrar-ps5" type="rss" xmlUrl="https://github.com/bizkut/unrar-ps5" author="bizkut"/>
     <outline text="ftpsrv_drakmor" title="ftpsrv_drakmor" type="rss" xmlUrl="https://github.com/drakmor/ftpsrv" author="drakmor"/>
     <outline text="kstuff-lite_drakmor" title="kstuff-lite_drakmor" type="rss" xmlUrl="https://github.com/drakmor/kstuff-lite" author="drakmor"/>
     <outline text="ps5-hwinfo" title="ps5-hwinfo" type="rss" xmlUrl="https://github.com/drakmor/ps5-hwinfo" author="drakmor"/>
