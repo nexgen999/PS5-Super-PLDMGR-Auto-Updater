@@ -108,7 +108,7 @@ for opml_file in opml_files:
                     
                     files_downloaded = os.listdir(target_dir)
                     
-                    # FILTRES DE SÉCURITÉ POUR DÉPÔTS LOURDS SPECIFIQUES (Uniquement .elf ou .bin)
+                    # FILTRES DE SÉCURITÉ POUR DÉPÔTS LOURDS / MULTI-ELF
                     if "ps5-payload-dev/websrv" in repo_lower or "phantomptr/ps5upload" in repo_lower or "boazvdwansem/ps5-debugger" in repo_lower:
                         print(f"   ⚠️ Dépôt lourd/PC détecté ({repo}) : Conservation des binaires console uniquement (.elf/.bin)")
                         for f in files_downloaded:
@@ -119,7 +119,6 @@ for opml_file in opml_files:
                                 except:
                                     pass
                     else:
-                        # Nettoyage global renforcé (Exclusion des .msi, .exe, .dmg, .appimage, etc.)
                         for f in files_downloaded:
                             f_lower = f.lower()
                             if "ps4" in f_lower or f_lower.endswith('.dmg') or f_lower.endswith('.exe') or f_lower.endswith('.appimage') or f_lower.endswith('.msi'):
@@ -224,13 +223,21 @@ for opml_file in opml_files:
 
             final_base = None
 
-            if "drakmor/ps5-hwinfo" in repo_lower or "hwinfo" in f_name_lower:
+            # RÈGLE D'EXCEPTION : MasterPS0/PS5-Power-Payloads-Project
+            if "masterps0/ps5-power-payloads-project" in repo_lower or "ps5-power-payloads" in repo_lower or "poweroff" in f_name_lower or "reboot" in f_name_lower or "suspend" in f_name_lower:
+                clean_elf_name = base_name.replace("ps5_", "").replace("ps5-", "").replace("payload_", "")
+                final_base = f"ps5power-{clean_elf_name}"
+
+            # RÈGLE D'EXCEPTION : ps5-hwinfo (Drakmor)
+            elif "drakmor/ps5-hwinfo" in repo_lower or "hwinfo" in f_name_lower:
                 if "bench" in f_name_lower:
                     final_base = "hwinfo_bench"
                 elif "sysinfo" in f_name_lower:
                     final_base = "hwinfo_sysinfo"
                 else:
                     final_base = "ps5-hwinfo"
+
+            # Identifications habituelles
             elif "zhttp" in f_name_lower:
                 final_base = "zhttp"
             elif "zftp" in f_name_lower:
