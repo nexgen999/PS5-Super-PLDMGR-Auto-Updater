@@ -21,12 +21,12 @@
     },
     {
       "name": "pldmgr",
-      "filename": "pldmgr_v0.4.0.elf",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/PS5_Payload_Manager/v0.4.0/pldmgr_v0.4.0.elf",
+      "filename": "pldmgr_v0.4.1.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/PS5_Payload_Manager/v0.4.1/pldmgr_v0.4.1.elf",
       "description": "Interface d'administration et de gestion réseau pour envoyer, activer et ordonner vos fichiers ELF/BIN sur la console.",
-      "version": "v0.4.0",
+      "version": "v0.4.1",
       "category": "PS5 HEN Loader",
-      "checksum": "460808dead44100c4cb6e4ad8a768ffd1c5445afc7d1cb83e2727030240a85fd"
+      "checksum": "8f26faf1f6e831150af3284e2cca4944917f073efedfb4db0335cfab75a17951"
     },
     {
       "name": "ELF_Arsenal",

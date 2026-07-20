@@ -75,7 +75,7 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 | :--- | :--- | :--- | :--- |
 | **etaHEN** | [2.5B](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/etaHEN/2.5B/etaHEN_v2.5B.bin) | `4845cac450...` | Le Homebrew Enabler (HEN) de référence pour la PS5 avec serveurs de triche, plugins et gestionnaire de mémoire intégrés. |
 | **PS5_Unified_Autoloader** | [v0.1.2-8e96846](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/PS5_Unified_Autoloader/v0.1.2-8e96846/PS5_Unified_Autoloader_v0.1.2-8e96846.elf) | `14312044a4...` | Chargeur universel de payloads permettant de lancer automatiquement vos outils favoris au démarrage de l'exploit. |
-| **pldmgr** | [v0.4.0](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/PS5_Payload_Manager/v0.4.0/pldmgr_v0.4.0.elf) | `460808dead...` | Interface d'administration et de gestion réseau pour envoyer, activer et ordonner vos fichiers ELF/BIN sur la console. |
+| **pldmgr** | [v0.4.1](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/PS5_Payload_Manager/v0.4.1/pldmgr_v0.4.1.elf) | `8f26faf1f6...` | Interface d'administration et de gestion réseau pour envoyer, activer et ordonner vos fichiers ELF/BIN sur la console. |
 | **ELF_Arsenal** | [v1.6.22](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/ELF_Arsenal/v1.6.22/ELF_Arsenal_v1.6.22.elf) | `ee8f47e4d6...` | Boîte à outils regroupant une collection complète de payloads utilitaires pour les consoles jailbreakées. |
 | **Kura** | [v1.6.2](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/Kura/v1.6.2/Kura_v1.6.2.elf) | `3599d96600...` | Un loader de payloads moderne et épuré conçu pour optimiser l'injection de code sur PS5. |
 
@@ -139,7 +139,7 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 | **gdbsrv** | [v0.8](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/gdbsrv/v0.8/gdbsrv_v0.8.elf) | `7621b829bd...` | GDB Debugger server payload. Port: 1234 |
 | **klogsrv** | [v0.8](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/klogsrv/v0.8/klogsrv_v0.8.elf) | `f6eb1b415e...` | Kernel log server daemon. Port: 3232 |
 | **ftpsrv_drakmor** | [1.6-ng-test2](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ftpsrv_drakmor/1.6-ng-test2/ftpsrv_drakmor_v1.6-ng-test2.elf) | `6364e05294...` | Drakmor's variant of the FTP server. Port: 21 |
-| **ps5upload** | [v4.1.1](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ps5upload/v4.1.1/ps5upload_v4.1.1.elf) | `7356497816...` | PS5 Upload server / tool. Port: 9025 |
+| **ps5upload** | [v4.1.2](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ps5upload/v4.1.2/ps5upload_v4.1.2.elf) | `4ecdd43a63...` | PS5 Upload server / tool. Port: 9025 |
 | **airpsx** | [0.19](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/airpsx/0.19/airpsx_v0.19.elf) | `ae025ca772...` | AirPSX server tool for PS5 ecosystem. |
 
 ### 📦 PS5 Themes-Avatars
