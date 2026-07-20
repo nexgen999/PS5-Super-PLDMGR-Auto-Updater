@@ -170,7 +170,6 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 | **unrar-ps5** | [v1.4.0](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_utility/unrar-ps5/v1.4.0/unrar-ps5_v1.4.0.elf) | `2ef04b0bc8...` | PS5 ELF payload for extracting RAR and 7z archives on a jailbroken PS5 and installing extracted apps into a configurable layout.. |
 | **ps5power-suspend** | [1.0](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_utility/PS5-Power-Payloads-Project/1.0/ps5power-suspend_v1.0.elf) | `1a36a01c92...` | PS5-Power-Payloads-Project utility. |
 | **ps5power-notify_test** | [1.0](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_utility/PS5-Power-Payloads-Project/1.0/ps5power-notify_test_v1.0.elf) | `a06cf9ace6...` | PS5-Power-Payloads-Project utility. |
-| **PS5-Power-Payloads-Project** | [1.0](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_utility/PS5-Power-Payloads-Project/1.0/PS5-Power-Payloads-Project_v1.0.elf) | `3614f68981...` | PS5-Power-Payloads-Project utility. |
 | **ps5power-poweroff** | [1.0](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_utility/PS5-Power-Payloads-Project/1.0/ps5power-poweroff_v1.0.elf) | `42ed798361...` | PS5-Power-Payloads-Project utility. |
 | **ps5power-reboot** | [1.0](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_utility/PS5-Power-Payloads-Project/1.0/ps5power-reboot_v1.0.elf) | `3614f68981...` | PS5-Power-Payloads-Project utility. |
 
