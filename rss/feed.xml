@@ -160,9 +160,9 @@
       <description>Chargeur universel de payloads permettant de lancer automatiquement vos outils favoris au démarrage de l'exploit. - Checksum: 14312044a48ec136dcf4b3481fcab20d45a84aa5f859b88bcfaef5ab9c500963</description>
     </item>
     <item>
-      <title>pldmgr (v0.4.2)</title>
-      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/PS5_Payload_Manager/v0.4.2/pldmgr_v0.4.2.elf</link>
-      <description>Interface d'administration et de gestion réseau pour envoyer, activer et ordonner vos fichiers ELF/BIN sur la console. - Checksum: ed6039f1f62a9de5016721e003a11da001a09695718e5b893424d9af0a5d56a2</description>
+      <title>pldmgr (v0.5.0)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/PS5_Payload_Manager/v0.5.0/pldmgr_v0.5.0.elf</link>
+      <description>Interface d'administration et de gestion réseau pour envoyer, activer et ordonner vos fichiers ELF/BIN sur la console. - Checksum: 1fe181908027fc625147ac888288ed1bee72a378b4751d36a8a8e0582d306169</description>
     </item>
     <item>
       <title>ELF_Arsenal (v1.6.22)</title>
@@ -170,9 +170,9 @@
       <description>Boîte à outils regroupant une collection complète de payloads utilitaires pour les consoles jailbreakées. - Checksum: ee8f47e4d6a5fd85cef113341aa1eb74d68e373a58fcb1fb5a9274acd2b83bd2</description>
     </item>
     <item>
-      <title>Kura (v1.6.2)</title>
-      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/Kura/v1.6.2/Kura_v1.6.2.elf</link>
-      <description>Un loader de payloads moderne et épuré conçu pour optimiser l'injection de code sur PS5. - Checksum: 3599d966004c5d013734ae70b126252312a78aaac09c307804b734e47eabfccf</description>
+      <title>Kura (v1.6.24)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/Kura/v1.6.24/Kura_v1.6.24.elf</link>
+      <description>Un loader de payloads moderne et épuré conçu pour optimiser l'injection de code sur PS5. - Checksum: 770d91e3ff3a967a05acf6a9acae2fb5951ea5938e4b2cfe48585e81c74cb1d7</description>
     </item>
     <item>
       <title>nanoDNS (0.3)</title>

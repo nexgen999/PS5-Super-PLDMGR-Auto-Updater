@@ -282,12 +282,12 @@
     },
     {
       "name": "pldmgr",
-      "filename": "pldmgr_v0.4.2.elf",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/PS5_Payload_Manager/v0.4.2/pldmgr_v0.4.2.elf",
+      "filename": "pldmgr_v0.5.0.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/PS5_Payload_Manager/v0.5.0/pldmgr_v0.5.0.elf",
       "description": "Interface d'administration et de gestion réseau pour envoyer, activer et ordonner vos fichiers ELF/BIN sur la console.",
-      "version": "v0.4.2",
+      "version": "v0.5.0",
       "category": "PS5 HEN Loader",
-      "checksum": "ed6039f1f62a9de5016721e003a11da001a09695718e5b893424d9af0a5d56a2"
+      "checksum": "1fe181908027fc625147ac888288ed1bee72a378b4751d36a8a8e0582d306169"
     },
     {
       "name": "ELF_Arsenal",
@@ -300,12 +300,12 @@
     },
     {
       "name": "Kura",
-      "filename": "Kura_v1.6.2.elf",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/Kura/v1.6.2/Kura_v1.6.2.elf",
+      "filename": "Kura_v1.6.24.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/Kura/v1.6.24/Kura_v1.6.24.elf",
       "description": "Un loader de payloads moderne et épuré conçu pour optimiser l'injection de code sur PS5.",
-      "version": "v1.6.2",
+      "version": "v1.6.24",
       "category": "PS5 HEN Loader",
-      "checksum": "3599d966004c5d013734ae70b126252312a78aaac09c307804b734e47eabfccf"
+      "checksum": "770d91e3ff3a967a05acf6a9acae2fb5951ea5938e4b2cfe48585e81c74cb1d7"
     },
     {
       "name": "nanoDNS",
