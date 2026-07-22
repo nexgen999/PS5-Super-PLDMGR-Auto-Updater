@@ -65,15 +65,6 @@
       "checksum": "3614f68981adc13a231d3655bf3892725bc25aa372d67a0037698253753b7cbe"
     },
     {
-      "name": "ps5power-poweroff",
-      "filename": "ps5power-poweroff_v1.0.elf",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_utility/PS5-Power-Payloads-Project/1.0/ps5power-poweroff_v1.0.elf",
-      "description": "PS5-Power-Payloads-Project utility.",
-      "version": "1.0",
-      "category": "PS5 Utility",
-      "checksum": "42ed7983619a31f74a6ac74cc943b80899366ceaf07fed77a46384b9b0f51c48"
-    },
-    {
       "name": "ps5power-suspend",
       "filename": "ps5power-suspend_v1.0.elf",
       "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_utility/PS5-Power-Payloads-Project/1.0/ps5power-suspend_v1.0.elf",
@@ -81,6 +72,15 @@
       "version": "1.0",
       "category": "PS5 Utility",
       "checksum": "1a36a01c92cd73fc89645ce73e3f33c71979b5b677c92b6f4c26d269e3f9a2c1"
+    },
+    {
+      "name": "ps5power-poweroff",
+      "filename": "ps5power-poweroff_v1.0.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_utility/PS5-Power-Payloads-Project/1.0/ps5power-poweroff_v1.0.elf",
+      "description": "PS5-Power-Payloads-Project utility.",
+      "version": "1.0",
+      "category": "PS5 Utility",
+      "checksum": "42ed7983619a31f74a6ac74cc943b80899366ceaf07fed77a46384b9b0f51c48"
     },
     {
       "name": "ps5power-notify_test",
