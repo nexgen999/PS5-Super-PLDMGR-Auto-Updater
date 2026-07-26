@@ -24,7 +24,7 @@
       "filename": "ps5-self-pager-shellcore_v1.2.elf",
       "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/ps5-self-pager/v1.2/ps5-self-pager-shellcore_v1.2.elf",
       "description": "SELF pager payload tool.",
-      "version": "1.2",
+      "version": "v1.2",
       "category": "PS5 Sdk Debug",
       "checksum": "2b500bc356b5bcfca5c3e5187bcec0a37c80ed05e39348b8f06bd2e5a6f3342b"
     },
@@ -33,7 +33,7 @@
       "filename": "ps5-self-pager-full-system_v1.2.elf",
       "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/ps5-self-pager/v1.2/ps5-self-pager-full-system_v1.2.elf",
       "description": "SELF pager payload tool.",
-      "version": "1.2",
+      "version": "v1.2",
       "category": "PS5 Sdk Debug",
       "checksum": "fb498d4112611619150281e0c44afbd09f144c09eaca3ab3f5b306b39450d13a"
     },
@@ -42,7 +42,7 @@
       "filename": "ps5-self-pager-system-common-lib_v1.2.elf",
       "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/ps5-self-pager/v1.2/ps5-self-pager-system-common-lib_v1.2.elf",
       "description": "SELF pager payload tool.",
-      "version": "1.2",
+      "version": "v1.2",
       "category": "PS5 Sdk Debug",
       "checksum": "a86c3e69ed38656310b41af4f9221bdb2264ff4daf93fb4c2515fd54a216b701"
     },
@@ -51,7 +51,7 @@
       "filename": "ps5-self-pager-game_v1.2.elf",
       "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/ps5-self-pager/v1.2/ps5-self-pager-game_v1.2.elf",
       "description": "SELF pager payload tool.",
-      "version": "1.2",
+      "version": "v1.2",
       "category": "PS5 Sdk Debug",
       "checksum": "73d94fea5de9086cac26385c117a0b3098890c447d67536877fb7b51c9145aac"
     },
@@ -60,7 +60,7 @@
       "filename": "ps5-self-decrypter-shellcore_v0.5.2.elf",
       "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/PS5-SELF-Decrypter/v0.5.2/ps5-self-decrypter-shellcore_v0.5.2.elf",
       "description": "SELF decrypter tool for PS5 binaries.",
-      "version": "0.5.2",
+      "version": "v0.5.2",
       "category": "PS5 Sdk Debug",
       "checksum": "15050c691c21c790ae970a1ee99ad3918dd1065fe5512c762fccee6d521c8066"
     },
@@ -69,7 +69,7 @@
       "filename": "ps5-self-decrypter-game_v0.5.2.elf",
       "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/PS5-SELF-Decrypter/v0.5.2/ps5-self-decrypter-game_v0.5.2.elf",
       "description": "SELF decrypter tool for PS5 binaries.",
-      "version": "0.5.2",
+      "version": "v0.5.2",
       "category": "PS5 Sdk Debug",
       "checksum": "190b350759b4f9d50949325e84d131e0953f37a9df271c329ba43c80c0ac7a57"
     },
@@ -78,7 +78,7 @@
       "filename": "ps5-self-decrypter-system-common-lib_v0.5.2.elf",
       "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/PS5-SELF-Decrypter/v0.5.2/ps5-self-decrypter-system-common-lib_v0.5.2.elf",
       "description": "SELF decrypter tool for PS5 binaries.",
-      "version": "0.5.2",
+      "version": "v0.5.2",
       "category": "PS5 Sdk Debug",
       "checksum": "6a16c6457c604db4846632510da0975f49faba08e6cab9cfd7f84d78b4557d97"
     },
@@ -87,7 +87,7 @@
       "filename": "ps5-self-decrypter-full-system_v0.5.2.elf",
       "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/PS5-SELF-Decrypter/v0.5.2/ps5-self-decrypter-full-system_v0.5.2.elf",
       "description": "SELF decrypter tool for PS5 binaries.",
-      "version": "0.5.2",
+      "version": "v0.5.2",
       "category": "PS5 Sdk Debug",
       "checksum": "46340d3048a977f5603b3def0a0ba1c85b5c182891388442e51b39e281257b6a"
     },
@@ -96,45 +96,9 @@
       "filename": "ps5-remoteplay-get-pin_v0.1.1.elf",
       "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/ps5-remoteplay-get-pin/v0.1.1/ps5-remoteplay-get-pin_v0.1.1.elf",
       "description": "Utility to get Remote Play PIN.",
-      "version": "0.1.1",
+      "version": "v0.1.1",
       "category": "PS5 Sdk Debug",
       "checksum": "1d611c1856dd2f4b4b6cb42ead1128a7f08a26585788f92de79fa4f67d721472"
-    },
-    {
-      "name": "MemDBG",
-      "filename": "MemDBG_vnightly-20260722-g171822d.elf",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/MemDBG/nightly-20260722-g171822d/MemDBG_vnightly-20260722-g171822d.elf",
-      "description": "Memory debugging and inspection suite.",
-      "version": "nightly-20260722-g171822d",
-      "category": "PS5 Sdk Debug",
-      "checksum": "8e55166df15d00c02d41adc17ade7aed6eec6cdf80bc0ac4ab8fec358f5bb0c1"
-    },
-    {
-      "name": "MemDBG",
-      "filename": "MemDBG_vnightly-20260720-g0ab6f18.elf",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/MemDBG/nightly-20260720-g0ab6f18/MemDBG_vnightly-20260720-g0ab6f18.elf",
-      "description": "Memory debugging and inspection suite.",
-      "version": "nightly-20260720-g0ab6f18",
-      "category": "PS5 Sdk Debug",
-      "checksum": "1c1a56cbc4169e0df27f2f5368d330516c1265e8002b210017ee932e00e3c1f9"
-    },
-    {
-      "name": "MemDBG",
-      "filename": "MemDBG_vnightly-20260723-g171822d.elf",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/MemDBG/nightly-20260723-g171822d/MemDBG_vnightly-20260723-g171822d.elf",
-      "description": "Memory debugging and inspection suite.",
-      "version": "nightly-20260723-g171822d",
-      "category": "PS5 Sdk Debug",
-      "checksum": "e9fb08ad4fbbcfc6ada1a9a282f3485daf69428c412e28c2dc3187aa0abef824"
-    },
-    {
-      "name": "MemDBG",
-      "filename": "MemDBG_v0.2.0-beta.1.elf",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/MemDBG/v0.2.0-beta.1/MemDBG_v0.2.0-beta.1.elf",
-      "description": "Memory debugging and inspection suite.",
-      "version": "0.2.0-beta.1",
-      "category": "PS5 Sdk Debug",
-      "checksum": "a5fe4e2e326f53bf5ab1e0636513001eb7253305a89ed4403406f5599bdc2824"
     },
     {
       "name": "MemDBG",
@@ -144,96 +108,6 @@
       "version": "nightly-20260726-g171822d",
       "category": "PS5 Sdk Debug",
       "checksum": "36905d8257dcd2f5302447a4c094c6fba738f6caeb257c8ece5cf5495a67b11a"
-    },
-    {
-      "name": "MemDBG",
-      "filename": "MemDBG_vnightly-20260718-g4c09468.elf",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/MemDBG/nightly-20260718-g4c09468/MemDBG_vnightly-20260718-g4c09468.elf",
-      "description": "Memory debugging and inspection suite.",
-      "version": "nightly-20260718-g4c09468",
-      "category": "PS5 Sdk Debug",
-      "checksum": "5123f136212676fae1f4cde7855d5ef5e2ede1819b02e7d89ae6b70d1664c8f4"
-    },
-    {
-      "name": "MemDBG",
-      "filename": "MemDBG_vnightly-20260717-gc992b20.elf",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/MemDBG/nightly-20260717-gc992b20/MemDBG_vnightly-20260717-gc992b20.elf",
-      "description": "Memory debugging and inspection suite.",
-      "version": "nightly-20260717-gc992b20",
-      "category": "PS5 Sdk Debug",
-      "checksum": "336262cae38821a9d843e28da3be44335148e54bee0c034be4e09bbcd3203286"
-    },
-    {
-      "name": "MemDBG",
-      "filename": "MemDBG_v0.1.1.elf",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/MemDBG/v0.1.1/MemDBG_v0.1.1.elf",
-      "description": "Memory debugging and inspection suite.",
-      "version": "0.1.1",
-      "category": "PS5 Sdk Debug",
-      "checksum": "dcc3a5baa98512eaa3fa3bd51a95b8deccea5f1905fd498fb397a37473fc8a73"
-    },
-    {
-      "name": "MemDBG",
-      "filename": "MemDBG_vnightly-20260724-g171822d.elf",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/MemDBG/nightly-20260724-g171822d/MemDBG_vnightly-20260724-g171822d.elf",
-      "description": "Memory debugging and inspection suite.",
-      "version": "nightly-20260724-g171822d",
-      "category": "PS5 Sdk Debug",
-      "checksum": "d54f2b2c59a4b693b9b7c5951771fa55dffb31ebe511d37468ce365df4abc0d6"
-    },
-    {
-      "name": "MemDBG",
-      "filename": "MemDBG_vnightly-20260725-g171822d.elf",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/MemDBG/nightly-20260725-g171822d/MemDBG_vnightly-20260725-g171822d.elf",
-      "description": "Memory debugging and inspection suite.",
-      "version": "nightly-20260725-g171822d",
-      "category": "PS5 Sdk Debug",
-      "checksum": "25c19b7433d067a8ec6fd34f2fd668effd9b8f245a397170041030a1962c5787"
-    },
-    {
-      "name": "MemDBG",
-      "filename": "MemDBG_vnightly.elf",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/MemDBG/nightly/MemDBG_vnightly.elf",
-      "description": "Memory debugging and inspection suite.",
-      "version": "nightly",
-      "category": "PS5 Sdk Debug",
-      "checksum": "00ad2c17253d1e43038c73c53372048004bef6357bdac4fc06e2bc17f2298a54"
-    },
-    {
-      "name": "MemDBG",
-      "filename": "MemDBG_vnightly-20260720-g4358537.elf",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/MemDBG/nightly-20260720-g4358537/MemDBG_vnightly-20260720-g4358537.elf",
-      "description": "Memory debugging and inspection suite.",
-      "version": "nightly-20260720-g4358537",
-      "category": "PS5 Sdk Debug",
-      "checksum": "b7ae0999c307718c2ba166e0fa56621afc0cc99ffcfda9bace0035d90ea7d184"
-    },
-    {
-      "name": "MemDBG",
-      "filename": "MemDBG_vnightly-20260719-g81e5eea.elf",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/MemDBG/nightly-20260719-g81e5eea/MemDBG_vnightly-20260719-g81e5eea.elf",
-      "description": "Memory debugging and inspection suite.",
-      "version": "nightly-20260719-g81e5eea",
-      "category": "PS5 Sdk Debug",
-      "checksum": "ece8e27c91ebbddfdfba48488f861921733624e213be37305fb1466f66ed512e"
-    },
-    {
-      "name": "MemDBG",
-      "filename": "MemDBG_vnightly-20260716-g19bcee1.elf",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/MemDBG/nightly-20260716-g19bcee1/MemDBG_vnightly-20260716-g19bcee1.elf",
-      "description": "Memory debugging and inspection suite.",
-      "version": "nightly-20260716-g19bcee1",
-      "category": "PS5 Sdk Debug",
-      "checksum": "9bcd57cdd360f5a1fb5ffdd661e59aa84d4aa991261c20b70fe05112bb1e9a8d"
-    },
-    {
-      "name": "MemDBG",
-      "filename": "MemDBG_vnightly-20260722-gd2b17fc.elf",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/MemDBG/nightly-20260722-gd2b17fc/MemDBG_vnightly-20260722-gd2b17fc.elf",
-      "description": "Memory debugging and inspection suite.",
-      "version": "nightly-20260722-gd2b17fc",
-      "category": "PS5 Sdk Debug",
-      "checksum": "6a23317aa284164fba8d9df783f7fbec2ae9fef701ca044d32426eef38405d14"
     },
     {
       "name": "hwinfo_bench",
@@ -252,15 +126,6 @@
       "version": "0.1",
       "category": "PS5 Sdk Debug",
       "checksum": "ad5014112dec619779619d0ea01a984b3c8267fed682eca5687f34c9eade51cb"
-    },
-    {
-      "name": "PS5_Debugger_GUI",
-      "filename": "PS5_Debugger_GUI_v1.0.0-BETA.elf",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/PS5_Debugger_GUI/1.0.0-BETA/PS5_Debugger_GUI_v1.0.0-BETA.elf",
-      "description": "Graphical user interface for interacting with the debugger payload.",
-      "version": "1.0.0-BETA",
-      "category": "PS5 Sdk Debug",
-      "checksum": "8f75fb90b45d7cc4d59147e3323577d7264cf572c78a27f76722202f492ad16a"
     }
   ]
 }
