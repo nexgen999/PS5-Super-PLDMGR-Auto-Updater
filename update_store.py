@@ -90,58 +90,46 @@ for opml_file in opml_files:
                 repo = repo_match.group(1)
                 repo_lower = repo.lower()
                 
-                # RÈGLE SPÉCIALE : ShadowMountPlus (Forcer la récupération d'un ELF fonctionnel)
+                # RÈGLE DÉDIÉE : drakmor/ShadowMountPlus (1.6beta16 + 1.7alpha4 uniquement)
                 if "shadowmountplus" in repo_lower:
-                    try:
-                        # Tente d'abord de lire la dernière release
-                        res_tag = subprocess.check_output(f"gh release list --repo {repo} --limit 1 --json tagName --jq '.[0].tagName'", shell=True).decode().strip()
-                        if res_tag: version = res_tag
-                    except:
-                        pass
+                    versions_to_get = ["1.6beta16", "1.7alpha4"]
                     
-                    version_clean = re.sub(r'[^a-zA-Z0-9._-]', '', version)
-                    target_dir = os.path.join(PAYLOADS_ROOT, cat_tech_name, title.replace(" ", "_"), version_clean)
-                    os.makedirs(target_dir, exist_ok=True)
-                    
-                    try:
-                        print(f"   -> Téléchargement GitHub ShadowMountPlus ({version})...")
-                        subprocess.call(f"gh release download '{version}' --repo '{repo}' --dir '{target_dir}' --clobber 2>/dev/null", shell=True)
-                    except:
-                        pass
-                    
-                    # Décompresse les fichiers ZIP trouvés si l'ELF est à l'intérieur
-                    files_dl = os.listdir(target_dir)
-                    for f in files_dl:
-                        if f.lower().endswith('.zip'):
-                            zip_path = os.path.join(target_dir, f)
-                            try:
-                                with zipfile.ZipFile(zip_path, 'r') as zip_ref:
-                                    zip_ref.extractall(target_dir)
-                                print(f"   📦 Archive décompressée pour ShadowMountPlus : {f}")
-                                os.remove(zip_path)
-                            except Exception as zerr:
-                                print(f"   ⚠️ Erreur extraction zip : {zerr}")
-                    
-                    # Si aucun binaire n'est extrait/disponible, fallback forcé vers la 1.6beta16
-                    has_elf = any(f.lower().endswith('.elf') or f.lower().endswith('.bin') for f in os.listdir(target_dir))
-                    if not has_elf:
-                        print("   ⚠️ Pas de binaire ELF trouvé dans la dernière release. Activation du Fallback 1.6beta16...")
-                        version = "1.6beta16"
-                        version_clean = re.sub(r'[^a-zA-Z0-9._-]', '', version)
-                        target_dir = os.path.join(PAYLOADS_ROOT, cat_tech_name, title.replace(" ", "_"), version_clean)
+                    for v_tag in versions_to_get:
+                        v_clean = re.sub(r'[^a-zA-Z0-9._-]', '', v_tag)
+                        target_dir = os.path.join(PAYLOADS_ROOT, cat_tech_name, title.replace(" ", "_"), v_clean)
                         os.makedirs(target_dir, exist_ok=True)
-                        subprocess.call(f"gh release download '1.6beta16' --repo '{repo}' --dir '{target_dir}' --clobber 2>/dev/null", shell=True)
                         
-                        # Décompresse si nécessaire pour la 1.6beta16
-                        for f in os.listdir(target_dir):
-                            if f.lower().endswith('.zip'):
-                                zip_path = os.path.join(target_dir, f)
+                        print(f"   -> Téléchargement spécifique ShadowMountPlus ({v_tag})...")
+                        subprocess.call(f"gh release download '{v_tag}' --repo '{repo}' --dir '{target_dir}' --clobber 2>/dev/null", shell=True)
+                        
+                        # Extraction ciblée du fichier ELF depuis le ZIP
+                        for item in os.listdir(target_dir):
+                            item_path = os.path.join(target_dir, item)
+                            if item.lower().endswith('.zip'):
                                 try:
-                                    with zipfile.ZipFile(zip_path, 'r') as zip_ref:
-                                        zip_ref.extractall(target_dir)
-                                    os.remove(zip_path)
+                                    with zipfile.ZipFile(item_path, 'r') as zf:
+                                        for member in zf.namelist():
+                                            if member.lower().endswith('.elf'):
+                                                # Extrait uniquement le fichier ELF
+                                                zf.extract(member, target_dir)
+                                                extracted_path = os.path.join(target_dir, member)
+                                                dest_path = os.path.join(target_dir, os.path.basename(member))
+                                                if extracted_path != dest_path:
+                                                    os.rename(extracted_path, dest_path)
+                                                print(f"   📦 ELF extrait du ZIP ({v_tag}) : {os.path.basename(member)}")
+                                except Exception as zerr:
+                                    print(f"   ⚠️ Erreur d'extraction ZIP ShadowMountPlus : {zerr}")
+                                finally:
+                                    if os.path.exists(item_path):
+                                        os.remove(item_path) # Supprime le ZIP
+                            
+                            # Nettoyage de tout fichier non-ELF
+                            elif not item.lower().endswith('.elf'):
+                                try:
+                                    os.remove(item_path)
                                 except:
                                     pass
+
                     downloaded = True
 
                 else:
@@ -165,19 +153,6 @@ for opml_file in opml_files:
                         
                         files_downloaded = os.listdir(target_dir)
                         
-                        # Extraire les fichiers ZIP de manière générale si possible
-                        for f in files_downloaded:
-                            if f.lower().endswith('.zip'):
-                                zip_path = os.path.join(target_dir, f)
-                                try:
-                                    with zipfile.ZipFile(zip_path, 'r') as zip_ref:
-                                        zip_ref.extractall(target_dir)
-                                    os.remove(zip_path)
-                                except:
-                                    pass
-
-                        files_downloaded = os.listdir(target_dir)
-
                         # FILTRES DE SÉCURITÉ POUR DÉPÔTS LOURDS / MULTI-ELF
                         if "ps5-payload-dev/websrv" in repo_lower or "phantomptr/ps5upload" in repo_lower or "boazvdwansem/ps5-debugger" in repo_lower:
                             print(f"   ⚠️ Dépôt lourd/PC détecté ({repo}) : Conservation des binaires console uniquement (.elf/.bin)")
@@ -261,124 +236,130 @@ for opml_file in opml_files:
                 print(f"   ℹ️ Erreur API Forgejo ({e})")
 
         # =========================================================================
-        # ANALYSE ET RENOMMAGE
+        # ANALYSE, RENOMMAGE ET ENREGISTREMENT DANS LES JSON
         # =========================================================================
-        version_clean = re.sub(r'[^a-zA-Z0-9._-]', '', version) if version != "Source-Fixe" else "Source-Fixe"
-        target_dir = os.path.join(PAYLOADS_ROOT, cat_tech_name, title.replace(" ", "_"), version_clean)
+        # Pour gérer le cas multi-versions (ex: ShadowMountPlus), on boucle sur les dossiers créés
+        base_title_dir = os.path.join(PAYLOADS_ROOT, cat_tech_name, title.replace(" ", "_"))
         
-        files_in_dir = os.listdir(target_dir) if os.path.exists(target_dir) else []
-        eligible_binaries = []
-
-        default_base_name = re.sub(r'[^a-zA-Z0-9._-]', '_', title)
-        default_base_name = re.sub(r'_{2,}', '_', default_base_name).strip('_')
-
-        v_suffix = version_clean
-        if v_suffix != "Source-Fixe":
-            if not v_suffix.lower().startswith('v'):
-                v_suffix = f"v{v_suffix}"
-            v_suffix = f"_{v_suffix}"
+        if os.path.exists(base_title_dir):
+            version_subdirs = [d for d in os.listdir(base_title_dir) if os.path.isdir(os.path.join(base_title_dir, d))]
         else:
-            v_suffix = ""
+            version_subdirs = []
 
-        binaries_found = [f for f in files_in_dir if f.lower().endswith('.elf') or f.lower().endswith('.bin')]
+        for v_dir in version_subdirs:
+            target_dir = os.path.join(base_title_dir, v_dir)
+            files_in_dir = os.listdir(target_dir) if os.path.exists(target_dir) else []
+            eligible_binaries = []
 
-        for f_name in binaries_found:
-            f_name_lower = f_name.lower()
-            base_name, ext = os.path.splitext(f_name)
-            
-            if f_name_lower.endswith(f"{v_suffix.lower()}{ext.lower()}"):
-                if f_name not in eligible_binaries:
-                    eligible_binaries.append(f_name)
-                continue
+            default_base_name = re.sub(r'[^a-zA-Z0-9._-]', '_', title)
+            default_base_name = re.sub(r'_{2,}', '_', default_base_name).strip('_')
 
-            final_base = None
+            v_suffix = v_dir
+            if v_suffix != "Source-Fixe":
+                if not v_suffix.lower().startswith('v'):
+                    v_suffix = f"v{v_suffix}"
+                v_suffix = f"_{v_suffix}"
+            else:
+                v_suffix = ""
 
-            # RÈGLE D'EXCEPTION : ShadowMountPlus
-            if "shadowmountplus" in repo_lower or "shadowmount" in f_name_lower:
-                final_base = "shadowmountplus"
+            binaries_found = [f for f in files_in_dir if f.lower().endswith('.elf') or f.lower().endswith('.bin')]
 
-            # RÈGLE D'EXCEPTION : MasterPS0/PS5-Power-Payloads-Project
-            elif "masterps0/ps5-power-payloads-project" in repo_lower or "ps5-power-payloads" in repo_lower or "poweroff" in f_name_lower or "reboot" in f_name_lower or "suspend" in f_name_lower:
-                clean_elf_name = base_name.replace("ps5_", "").replace("ps5-", "").replace("payload_", "")
-                final_base = f"ps5power-{clean_elf_name}"
-
-            # RÈGLE D'EXCEPTION : ps5-hwinfo (Drakmor)
-            elif "drakmor/ps5-hwinfo" in repo_lower or "hwinfo" in f_name_lower:
-                if "bench" in f_name_lower:
-                    final_base = "hwinfo_bench"
-                elif "sysinfo" in f_name_lower:
-                    final_base = "hwinfo_sysinfo"
-                else:
-                    final_base = "ps5-hwinfo"
-
-            # Identifications habituelles
-            elif "zhttp" in f_name_lower:
-                final_base = "zhttp"
-            elif "zftp" in f_name_lower:
-                final_base = "zftp"
-            elif "self-pager" in f_name_lower:
-                if "game" in f_name_lower: final_base = "ps5-self-pager-game"
-                elif "full-system" in f_name_lower: final_base = "ps5-self-pager-full-system"
-                elif "system-common" in f_name_lower: final_base = "ps5-self-pager-system-common-lib"
-                elif "shellcore" in f_name_lower: final_base = "ps5-self-pager-shellcore"
-                else: final_base = "ps5-self-pager"
-            elif "self-decrypter" in f_name_lower:
-                if "game" in f_name_lower: final_base = "ps5-self-decrypter-game"
-                elif "full-system" in f_name_lower: final_base = "ps5-self-decrypter-full-system"
-                elif "system-common" in f_name_lower: final_base = "ps5-self-decrypter-system-common-lib"
-                elif "shellcore" in f_name_lower: final_base = "ps5-self-decrypter-shellcore"
-                else: final_base = "ps5-self-decrypter"
-
-            if final_base is None:
-                final_base = default_base_name
-
-            new_f_name = f"{final_base}{v_suffix}{ext}"
-            old_path = os.path.join(target_dir, f_name)
-            new_path = os.path.join(target_dir, new_f_name)
-            
-            if old_path != new_path:
-                try:
-                    os.rename(old_path, new_path)
-                    print(f"   🏷️  Fichier renommé : {f_name} -> {new_f_name}")
-                except Exception as rn_err:
-                    print(f"   ⚠️ Erreur renommage : {rn_err}")
-                    new_f_name = f_name
-            
-            if new_f_name not in eligible_binaries:
-                eligible_binaries.append(new_f_name)
-
-        if eligible_binaries:
-            for main_file in eligible_binaries:
-                full_path = os.path.join(target_dir, main_file)
-                hasher = hashlib.sha256()
-                with open(full_path, 'rb') as fb:
-                    for chunk in iter(lambda: fb.read(4096), b""): 
-                        hasher.update(chunk)
-                sha256_hash = hasher.hexdigest()
-
-                credits_list.add(f"- **{author}** : [{title}]({xml_url})")
+            for f_name in binaries_found:
+                f_name_lower = f_name.lower()
+                base_name, ext = os.path.splitext(f_name)
                 
-                repo_name = os.environ.get('GITHUB_REPOSITORY', 'PS5-Super-PLDMGR-Auto-Updater').split('/')[-1]
-                file_url = f"https://nexgen999.github.io/{repo_name}/{target_dir.replace(os.sep, '/')}/{main_file}"
+                if f_name_lower.endswith(f"{v_suffix.lower()}{ext.lower()}"):
+                    if f_name not in eligible_binaries:
+                        eligible_binaries.append(f_name)
+                    continue
 
-                display_name = os.path.splitext(main_file)[0].split('_v')[0]
+                final_base = None
 
-                item_data = {
-                    "name": display_name,
-                    "filename": main_file,
-                    "url": file_url,
-                    "description": description if description else f"Payload {display_name} pour PS5",
-                    "version": version,
-                    "category": cat_display_name,
-                    "checksum": sha256_hash
-                }
-                category_payloads_list.append(item_data)
-                all_payloads_flat_list.append(item_data)
+                # RÈGLE D'EXCEPTION : ShadowMountPlus
+                if "shadowmountplus" in repo_lower or "shadowmount" in f_name_lower:
+                    final_base = "shadowmountplus"
+
+                # RÈGLE D'EXCEPTION : MasterPS0/PS5-Power-Payloads-Project
+                elif "masterps0/ps5-power-payloads-project" in repo_lower or "ps5-power-payloads" in repo_lower or "poweroff" in f_name_lower or "reboot" in f_name_lower or "suspend" in f_name_lower:
+                    clean_elf_name = base_name.replace("ps5_", "").replace("ps5-", "").replace("payload_", "")
+                    final_base = f"ps5power-{clean_elf_name}"
+
+                # RÈGLE D'EXCEPTION : ps5-hwinfo (Drakmor)
+                elif "drakmor/ps5-hwinfo" in repo_lower or "hwinfo" in f_name_lower:
+                    if "bench" in f_name_lower:
+                        final_base = "hwinfo_bench"
+                    elif "sysinfo" in f_name_lower:
+                        final_base = "hwinfo_sysinfo"
+                    else:
+                        final_base = "ps5-hwinfo"
+
+                # Identifications habituelles
+                elif "zhttp" in f_name_lower:
+                    final_base = "zhttp"
+                elif "zftp" in f_name_lower:
+                    final_base = "zftp"
+                elif "self-pager" in f_name_lower:
+                    if "game" in f_name_lower: final_base = "ps5-self-pager-game"
+                    elif "full-system" in f_name_lower: final_base = "ps5-self-pager-full-system"
+                    elif "system-common" in f_name_lower: final_base = "ps5-self-pager-system-common-lib"
+                    elif "shellcore" in f_name_lower: final_base = "ps5-self-pager-shellcore"
+                    else: final_base = "ps5-self-pager"
+                elif "self-decrypter" in f_name_lower:
+                    if "game" in f_name_lower: final_base = "ps5-self-decrypter-game"
+                    elif "full-system" in f_name_lower: final_base = "ps5-self-decrypter-full-system"
+                    elif "system-common" in f_name_lower: final_base = "ps5-self-decrypter-system-common-lib"
+                    elif "shellcore" in f_name_lower: final_base = "ps5-self-decrypter-shellcore"
+                    else: final_base = "ps5-self-decrypter"
+
+                if final_base is None:
+                    final_base = default_base_name
+
+                new_f_name = f"{final_base}{v_suffix}{ext}"
+                old_path = os.path.join(target_dir, f_name)
+                new_path = os.path.join(target_dir, new_f_name)
                 
-                repo_folder_url = f"https://github.com/nexgen999/{repo_name}/tree/main/{target_dir.replace(os.sep, '/')}"
-                readme_rows.append(f"| **{display_name}** | {author} | {cat_display_name} | [{version}]({repo_folder_url}) | `{sha256_hash[:10]}...` | {description} |")
-        else:
-            print(f"   🚫 Ignoré du JSON final car aucun binaire (.elf / .bin) détecté pour {title}")
+                if old_path != new_path:
+                    try:
+                        os.rename(old_path, new_path)
+                        print(f"   🏷️  Fichier renommé : {f_name} -> {new_f_name}")
+                    except Exception as rn_err:
+                        print(f"   ⚠️ Erreur renommage : {rn_err}")
+                        new_f_name = f_name
+                
+                if new_f_name not in eligible_binaries:
+                    eligible_binaries.append(new_f_name)
+
+            if eligible_binaries:
+                for main_file in eligible_binaries:
+                    full_path = os.path.join(target_dir, main_file)
+                    hasher = hashlib.sha256()
+                    with open(full_path, 'rb') as fb:
+                        for chunk in iter(lambda: fb.read(4096), b""): 
+                            hasher.update(chunk)
+                    sha256_hash = hasher.hexdigest()
+
+                    credits_list.add(f"- **{author}** : [{title}]({xml_url})")
+                    
+                    repo_name = os.environ.get('GITHUB_REPOSITORY', 'PS5-Super-PLDMGR-Auto-Updater').split('/')[-1]
+                    file_url = f"https://nexgen999.github.io/{repo_name}/{target_dir.replace(os.sep, '/')}/{main_file}"
+
+                    display_name = os.path.splitext(main_file)[0].split('_v')[0]
+                    item_version = v_dir.lstrip('v') if v_dir.lower().startswith('v') else v_dir
+
+                    item_data = {
+                        "name": display_name,
+                        "filename": main_file,
+                        "url": file_url,
+                        "description": description if description else f"Payload {display_name} pour PS5",
+                        "version": item_version,
+                        "category": cat_display_name,
+                        "checksum": sha256_hash
+                    }
+                    category_payloads_list.append(item_data)
+                    all_payloads_flat_list.append(item_data)
+                    
+                    repo_folder_url = f"https://github.com/nexgen999/{repo_name}/tree/main/{target_dir.replace(os.sep, '/')}"
+                    readme_rows.append(f"| **{display_name}** | {author} | {cat_display_name} | [{item_version}]({repo_folder_url}) | `{sha256_hash[:10]}...` | {description} |")
 
     # Sauvegarde JSON Catégorie
     category_json_structured = {
