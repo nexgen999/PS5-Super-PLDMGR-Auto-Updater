@@ -5,6 +5,7 @@ import re
 import hashlib
 import subprocess
 import urllib.request
+import zipfile
 import html
 
 FEED_DIR = "feed"
@@ -88,49 +89,118 @@ for opml_file in opml_files:
             if repo_match:
                 repo = repo_match.group(1)
                 repo_lower = repo.lower()
-                try:
-                    res_tag = subprocess.check_output(f"gh release list --repo {repo} --limit 1 --json tagName --jq '.[0].tagName'", shell=True).decode().strip()
-                    if res_tag: 
-                        version = res_tag
-                    else:
-                        res_tag = subprocess.check_output(f"gh repo view {repo} --json latestRelease --jq '.latestRelease.tagName'", shell=True).decode().strip()
-                        if res_tag: version = res_tag
-                except:
-                    pass
                 
-                version_clean = re.sub(r'[^a-zA-Z0-9._-]', '', version)
-                target_dir = os.path.join(PAYLOADS_ROOT, cat_tech_name, title.replace(" ", "_"), version_clean)
-                os.makedirs(target_dir, exist_ok=True)
-
-                try:
-                    print(f"   -> Téléchargement GitHub ({version})...")
-                    subprocess.call(f"gh release download '{version}' --repo '{repo}' --dir '{target_dir}' --clobber 2>/dev/null", shell=True)
+                # RÈGLE SPÉCIALE : ShadowMountPlus (Forcer la récupération d'un ELF fonctionnel)
+                if "shadowmountplus" in repo_lower:
+                    try:
+                        # Tente d'abord de lire la dernière release
+                        res_tag = subprocess.check_output(f"gh release list --repo {repo} --limit 1 --json tagName --jq '.[0].tagName'", shell=True).decode().strip()
+                        if res_tag: version = res_tag
+                    except:
+                        pass
                     
-                    files_downloaded = os.listdir(target_dir)
+                    version_clean = re.sub(r'[^a-zA-Z0-9._-]', '', version)
+                    target_dir = os.path.join(PAYLOADS_ROOT, cat_tech_name, title.replace(" ", "_"), version_clean)
+                    os.makedirs(target_dir, exist_ok=True)
                     
-                    # FILTRES DE SÉCURITÉ POUR DÉPÔTS LOURDS / MULTI-ELF
-                    if "ps5-payload-dev/websrv" in repo_lower or "phantomptr/ps5upload" in repo_lower or "boazvdwansem/ps5-debugger" in repo_lower:
-                        print(f"   ⚠️ Dépôt lourd/PC détecté ({repo}) : Conservation des binaires console uniquement (.elf/.bin)")
-                        for f in files_downloaded:
-                            f_lower = f.lower()
-                            if not (f_lower.endswith('.elf') or f_lower.endswith('.bin')):
+                    try:
+                        print(f"   -> Téléchargement GitHub ShadowMountPlus ({version})...")
+                        subprocess.call(f"gh release download '{version}' --repo '{repo}' --dir '{target_dir}' --clobber 2>/dev/null", shell=True)
+                    except:
+                        pass
+                    
+                    # Décompresse les fichiers ZIP trouvés si l'ELF est à l'intérieur
+                    files_dl = os.listdir(target_dir)
+                    for f in files_dl:
+                        if f.lower().endswith('.zip'):
+                            zip_path = os.path.join(target_dir, f)
+                            try:
+                                with zipfile.ZipFile(zip_path, 'r') as zip_ref:
+                                    zip_ref.extractall(target_dir)
+                                print(f"   📦 Archive décompressée pour ShadowMountPlus : {f}")
+                                os.remove(zip_path)
+                            except Exception as zerr:
+                                print(f"   ⚠️ Erreur extraction zip : {zerr}")
+                    
+                    # Si aucun binaire n'est extrait/disponible, fallback forcé vers la 1.6beta16
+                    has_elf = any(f.lower().endswith('.elf') or f.lower().endswith('.bin') for f in os.listdir(target_dir))
+                    if not has_elf:
+                        print("   ⚠️ Pas de binaire ELF trouvé dans la dernière release. Activation du Fallback 1.6beta16...")
+                        version = "1.6beta16"
+                        version_clean = re.sub(r'[^a-zA-Z0-9._-]', '', version)
+                        target_dir = os.path.join(PAYLOADS_ROOT, cat_tech_name, title.replace(" ", "_"), version_clean)
+                        os.makedirs(target_dir, exist_ok=True)
+                        subprocess.call(f"gh release download '1.6beta16' --repo '{repo}' --dir '{target_dir}' --clobber 2>/dev/null", shell=True)
+                        
+                        # Décompresse si nécessaire pour la 1.6beta16
+                        for f in os.listdir(target_dir):
+                            if f.lower().endswith('.zip'):
+                                zip_path = os.path.join(target_dir, f)
                                 try:
-                                    os.remove(os.path.join(target_dir, f))
+                                    with zipfile.ZipFile(zip_path, 'r') as zip_ref:
+                                        zip_ref.extractall(target_dir)
+                                    os.remove(zip_path)
                                 except:
                                     pass
-                    else:
+                    downloaded = True
+
+                else:
+                    try:
+                        res_tag = subprocess.check_output(f"gh release list --repo {repo} --limit 1 --json tagName --jq '.[0].tagName'", shell=True).decode().strip()
+                        if res_tag: 
+                            version = res_tag
+                        else:
+                            res_tag = subprocess.check_output(f"gh repo view {repo} --json latestRelease --jq '.latestRelease.tagName'", shell=True).decode().strip()
+                            if res_tag: version = res_tag
+                    except:
+                        pass
+                    
+                    version_clean = re.sub(r'[^a-zA-Z0-9._-]', '', version)
+                    target_dir = os.path.join(PAYLOADS_ROOT, cat_tech_name, title.replace(" ", "_"), version_clean)
+                    os.makedirs(target_dir, exist_ok=True)
+
+                    try:
+                        print(f"   -> Téléchargement GitHub ({version})...")
+                        subprocess.call(f"gh release download '{version}' --repo '{repo}' --dir '{target_dir}' --clobber 2>/dev/null", shell=True)
+                        
+                        files_downloaded = os.listdir(target_dir)
+                        
+                        # Extraire les fichiers ZIP de manière générale si possible
                         for f in files_downloaded:
-                            f_lower = f.lower()
-                            if "ps4" in f_lower or f_lower.endswith('.dmg') or f_lower.endswith('.exe') or f_lower.endswith('.appimage') or f_lower.endswith('.msi'):
+                            if f.lower().endswith('.zip'):
+                                zip_path = os.path.join(target_dir, f)
                                 try:
-                                    os.remove(os.path.join(target_dir, f))
+                                    with zipfile.ZipFile(zip_path, 'r') as zip_ref:
+                                        zip_ref.extractall(target_dir)
+                                    os.remove(zip_path)
                                 except:
                                     pass
 
-                    if os.listdir(target_dir):
-                        downloaded = True
-                except Exception as e:
-                    print(f"   ⚠️ Erreur gh release: {e}")
+                        files_downloaded = os.listdir(target_dir)
+
+                        # FILTRES DE SÉCURITÉ POUR DÉPÔTS LOURDS / MULTI-ELF
+                        if "ps5-payload-dev/websrv" in repo_lower or "phantomptr/ps5upload" in repo_lower or "boazvdwansem/ps5-debugger" in repo_lower:
+                            print(f"   ⚠️ Dépôt lourd/PC détecté ({repo}) : Conservation des binaires console uniquement (.elf/.bin)")
+                            for f in files_downloaded:
+                                f_lower = f.lower()
+                                if not (f_lower.endswith('.elf') or f_lower.endswith('.bin')):
+                                    try:
+                                        os.remove(os.path.join(target_dir, f))
+                                    except:
+                                        pass
+                        else:
+                            for f in files_downloaded:
+                                f_lower = f.lower()
+                                if "ps4" in f_lower or f_lower.endswith('.dmg') or f_lower.endswith('.exe') or f_lower.endswith('.appimage') or f_lower.endswith('.msi'):
+                                    try:
+                                        os.remove(os.path.join(target_dir, f))
+                                    except:
+                                        pass
+
+                        if os.listdir(target_dir):
+                            downloaded = True
+                    except Exception as e:
+                        print(f"   ⚠️ Erreur gh release: {e}")
 
         # 2. TRAITEMENT RELEASES FORGEJO
         if not downloaded and "git.etawen.dev" in xml_url:
@@ -223,8 +293,12 @@ for opml_file in opml_files:
 
             final_base = None
 
+            # RÈGLE D'EXCEPTION : ShadowMountPlus
+            if "shadowmountplus" in repo_lower or "shadowmount" in f_name_lower:
+                final_base = "shadowmountplus"
+
             # RÈGLE D'EXCEPTION : MasterPS0/PS5-Power-Payloads-Project
-            if "masterps0/ps5-power-payloads-project" in repo_lower or "ps5-power-payloads" in repo_lower or "poweroff" in f_name_lower or "reboot" in f_name_lower or "suspend" in f_name_lower:
+            elif "masterps0/ps5-power-payloads-project" in repo_lower or "ps5-power-payloads" in repo_lower or "poweroff" in f_name_lower or "reboot" in f_name_lower or "suspend" in f_name_lower:
                 clean_elf_name = base_name.replace("ps5_", "").replace("ps5-", "").replace("payload_", "")
                 final_base = f"ps5power-{clean_elf_name}"
 
