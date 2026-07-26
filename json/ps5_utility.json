@@ -15,9 +15,18 @@
       "filename": "Ghostpad_v1.0.0.elf",
       "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_utility/Ghostpad/v1.0.0/Ghostpad_v1.0.0.elf",
       "description": "Ghostpad controller input utility.",
-      "version": "v1.0.0",
+      "version": "1.0.0",
       "category": "PS5 Utility",
       "checksum": "94d43a8db7ec9df6e18f0a0da25aac0f60e1a0b14d35bfff261f6f5cdeabdba1"
+    },
+    {
+      "name": "Ghostcontrol-PS5-USB-Controller-Patcher",
+      "filename": "Ghostcontrol-PS5-USB-Controller-Patcher_v1.0.4.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_utility/Ghostcontrol-PS5-USB-Controller-Patcher/1.0.4/Ghostcontrol-PS5-USB-Controller-Patcher_v1.0.4.elf",
+      "description": "USB Controller patcher tool for PS5.",
+      "version": "1.0.4",
+      "category": "PS5 Utility",
+      "checksum": "e2e658fc3c4b041e630fae897acdefa23c4f79f0adc8473a69b49bfc4897ccf0"
     },
     {
       "name": "Ghostcontrol-PS5-USB-Controller-Patcher",
@@ -33,7 +42,7 @@
       "filename": "PS_Game_State_Lib_v0.1.elf",
       "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_utility/PS_Game_State_Lib/v0.1/PS_Game_State_Lib_v0.1.elf",
       "description": "Standalone PS5 game-state detection payload - webui ps5ip:9877 .",
-      "version": "v0.1",
+      "version": "0.1",
       "category": "PS5 Utility",
       "checksum": "a550e1494b0f8be3b244f8820ee8d899442d33a936f9ded6203a0318c7afdba8"
     },
@@ -42,7 +51,7 @@
       "filename": "PS-DiscordPresence_v0.01.elf",
       "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_utility/PS-DiscordPresence/v0.01/PS-DiscordPresence_v0.01.elf",
       "description": "PS5 game activity service with a local status endpoint and a Python Discord RPC bridge.",
-      "version": "v0.01",
+      "version": "0.01",
       "category": "PS5 Utility",
       "checksum": "375cf619ea6f6c594ea2b79ecbb98704723522d07e51c877687876d5fe589afb"
     },
@@ -51,7 +60,7 @@
       "filename": "unrar-ps5_v1.4.0.elf",
       "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_utility/unrar-ps5/v1.4.0/unrar-ps5_v1.4.0.elf",
       "description": "PS5 ELF payload for extracting RAR and 7z archives on a jailbroken PS5 and installing extracted apps into a configurable layout..",
-      "version": "v1.4.0",
+      "version": "1.4.0",
       "category": "PS5 Utility",
       "checksum": "2ef04b0bc8fc1932b29da1a53336c40ed0a3f6a945a0746bef2e5dde52149701"
     },

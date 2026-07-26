@@ -6,16 +6,34 @@
       "filename": "kstuff_EchoStretch_v1.6.7.elf",
       "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_kstuff/kstuff_EchoStretch/v1.6.7/kstuff_EchoStretch_v1.6.7.elf",
       "description": "Fnd Kstuff payload for PS5.",
-      "version": "v1.6.7",
+      "version": "1.6.7",
       "category": "PS5 Kstuff",
       "checksum": "f1c1f4b2b6395644af04cbe9828aba58586acf7aacb9e01113cac92ce16e3569"
+    },
+    {
+      "name": "kstuff-lite_EchoStretch",
+      "filename": "kstuff-lite_EchoStretch_v1.07.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_kstuff/kstuff-lite_EchoStretch/v1.07/kstuff-lite_EchoStretch_v1.07.elf",
+      "description": "Lightweight version of kstuff.",
+      "version": "1.07",
+      "category": "PS5 Kstuff",
+      "checksum": "eb730eccd1a333f94e918076d053b4d20701f7c97e6356e591cebabfb4e0fa2d"
+    },
+    {
+      "name": "kstuff-lite_EchoStretch",
+      "filename": "kstuff-lite_EchoStretch_v1.08.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_kstuff/kstuff-lite_EchoStretch/v1.08/kstuff-lite_EchoStretch_v1.08.elf",
+      "description": "Lightweight version of kstuff.",
+      "version": "1.08",
+      "category": "PS5 Kstuff",
+      "checksum": "17294fb95736b9871457c255c0fa2ce2fc2c0401f5cc5b26abd077393b018361"
     },
     {
       "name": "kstuff-lite_EchoStretch",
       "filename": "kstuff-lite_EchoStretch_v1.09.elf",
       "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_kstuff/kstuff-lite_EchoStretch/v1.09/kstuff-lite_EchoStretch_v1.09.elf",
       "description": "Lightweight version of kstuff.",
-      "version": "v1.09",
+      "version": "1.09",
       "category": "PS5 Kstuff",
       "checksum": "ec5212794dc6e44ee8e70fd0549abec6d3dac8c3e03ddbeafd9f869ffe97d4e8"
     },
