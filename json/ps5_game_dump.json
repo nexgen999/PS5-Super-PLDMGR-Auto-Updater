@@ -20,15 +20,6 @@
       "checksum": "95382a9e37987d8eb931cbe5db618e77d293099ef4314e3288d9899bd5ac5c00"
     },
     {
-      "name": "ShadowMountPlus",
-      "filename": "ShadowMountPlus_v1.6test15-fix2.elf",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/ShadowMountPlus/1.6test15-fix2/ShadowMountPlus_v1.6test15-fix2.elf",
-      "description": "ShadowMountPlus payload for game mounting.",
-      "version": "1.6test15-fix2",
-      "category": "PS5 Game Dump",
-      "checksum": "8ab32f4cede840a73515c05697fe81759bc98cf41fc22b43e09943262f447e99"
-    },
-    {
       "name": "shadowmountplus",
       "filename": "shadowmountplus_v1.7alpha4.elf",
       "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/ShadowMountPlus/1.7alpha4/shadowmountplus_v1.7alpha4.elf",

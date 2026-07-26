@@ -40,11 +40,6 @@
       <description>PS5 App Dumper payload. - Checksum: 95382a9e37987d8eb931cbe5db618e77d293099ef4314e3288d9899bd5ac5c00</description>
     </item>
     <item>
-      <title>ShadowMountPlus (1.6test15-fix2)</title>
-      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/ShadowMountPlus/1.6test15-fix2/ShadowMountPlus_v1.6test15-fix2.elf</link>
-      <description>ShadowMountPlus payload for game mounting. - Checksum: 8ab32f4cede840a73515c05697fe81759bc98cf41fc22b43e09943262f447e99</description>
-    </item>
-    <item>
       <title>shadowmountplus (1.7alpha4)</title>
       <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/ShadowMountPlus/1.7alpha4/shadowmountplus_v1.7alpha4.elf</link>
       <description>ShadowMountPlus payload for game mounting. - Checksum: 7a9f948f2f0d4d1b4974cb59a7dfa01dfd3db79bc0b83c26355d992d9e73449e</description>
@@ -313,6 +308,11 @@
       <title>MemDBG (0.2.0-beta.1)</title>
       <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/MemDBG/v0.2.0-beta.1/MemDBG_v0.2.0-beta.1.elf</link>
       <description>Memory debugging and inspection suite. - Checksum: a5fe4e2e326f53bf5ab1e0636513001eb7253305a89ed4403406f5599bdc2824</description>
+    </item>
+    <item>
+      <title>MemDBG (nightly-20260726-g171822d)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/MemDBG/nightly-20260726-g171822d/MemDBG_vnightly-20260726-g171822d.elf</link>
+      <description>Memory debugging and inspection suite. - Checksum: 36905d8257dcd2f5302447a4c094c6fba738f6caeb257c8ece5cf5495a67b11a</description>
     </item>
     <item>
       <title>MemDBG (nightly-20260718-g4c09468)</title>
