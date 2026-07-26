@@ -76,7 +76,6 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 | **ShadowMountPlus** | [1.6test15-fix2](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/ShadowMountPlus/1.6test15-fix2/ShadowMountPlus_v1.6test15-fix2.elf) | `8ab32f4ced...` | ShadowMountPlus payload for game mounting. |
 | **shadowmountplus** | [1.7alpha4](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/ShadowMountPlus/1.7alpha4/shadowmountplus_v1.7alpha4.elf) | `7a9f948f2f...` | ShadowMountPlus payload for game mounting. |
 | **shadowmountplus** | [1.6beta16](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/ShadowMountPlus/1.6beta16/shadowmountplus_v1.6beta16.elf) | `a35246fb3b...` | ShadowMountPlus payload for game mounting. |
-| **ShadowMountPlus** | [1.6beta16](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/ShadowMountPlus/1.6beta16/ShadowMountPlus_v1.6beta16.elf) | `a35246fb3b...` | ShadowMountPlus payload for game mounting. |
 | **BackPork** | [0.1](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/BackPork/0.1/BackPork_v0.1.elf) | `d74e4cd119...` | BackPork PS5 tool. |
 
 ### 🚀 PS5 HEN Loader
