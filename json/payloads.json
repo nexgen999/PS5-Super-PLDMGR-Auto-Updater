@@ -30,12 +30,12 @@
     },
     {
       "name": "ps5-app-dumper",
-      "filename": "ps5-app-dumper_v1.10.elf",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/ps5-app-dumper/v1.10/ps5-app-dumper_v1.10.elf",
+      "filename": "ps5-app-dumper_v1.11.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/ps5-app-dumper/v1.11/ps5-app-dumper_v1.11.elf",
       "description": "PS5 App Dumper payload.",
-      "version": "v1.10",
+      "version": "v1.11",
       "category": "PS5 Game Dump",
-      "checksum": "95382a9e37987d8eb931cbe5db618e77d293099ef4314e3288d9899bd5ac5c00"
+      "checksum": "18483751ebaea6879b020a9dd87c0a4fb4f1bf09f3708d950362a483f78cc0d0"
     },
     {
       "name": "shadowmountplus",
