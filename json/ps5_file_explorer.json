@@ -30,12 +30,12 @@
     },
     {
       "name": "ps5-web-file-manager",
-      "filename": "ps5-web-file-manager_v0.9.elf",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_file_explorer/ps5-web-file-manager/v0.9/ps5-web-file-manager_v0.9.elf",
+      "filename": "ps5-web-file-manager_v1.0.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_file_explorer/ps5-web-file-manager/v1.0/ps5-web-file-manager_v1.0.elf",
       "description": "PS5 Web File Manager http://your-ps5-ip:8888.",
-      "version": "v0.9",
+      "version": "v1.0",
       "category": "PS5 File Explorer",
-      "checksum": "62be5e3865b409c53301f4fc65ff4f4bda3aaf2e20bed1197aca883bfffa16e0"
+      "checksum": "4c1ba01ad2f1a7aac48c6cf0aac8c9374f764e60706bac77660284323b390f6a"
     },
     {
       "name": "PS5-File-Explorer",
