@@ -140,7 +140,6 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 | **gdbsrv** | [v0.8](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/gdbsrv/v0.8/gdbsrv_v0.8.elf) | `7621b829bd...` | GDB Debugger server payload. Port: 1234 |
 | **klogsrv** | [v0.8](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/klogsrv/v0.8/klogsrv_v0.8.elf) | `f6eb1b415e...` | Kernel log server daemon. Port: 3232 |
 | **ftpsrv_drakmor** | [1.6-ng-test2](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ftpsrv_drakmor/1.6-ng-test2/ftpsrv_drakmor_v1.6-ng-test2.elf) | `6364e05294...` | Drakmor's variant of the FTP server. Port: 21 |
-| **ps5upload** | [v4.1.7](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ps5upload/v4.1.7/ps5upload_v4.1.7.elf) | `06b5da2947...` | PS5 Upload server / tool. Port: 9025 |
 | **airpsx** | [0.19](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/airpsx/0.19/airpsx_v0.19.elf) | `ae025ca772...` | AirPSX server tool for PS5 ecosystem. |
 
 ### 📦 PS5 Themes-Avatars
@@ -221,7 +220,6 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 - **notmaj0r** : [CheatRunner](https://github.com/notmaj0r/CheatRunner)
 - **owendswang** : [ps5-web-file-manager](https://github.com/owendswang/ps5-web-file-manager)
 - **pegasus-ps5** : [pegasus-dl](https://github.com/pegasus-ps5/pegasus-dl)
-- **phantomptr** : [ps5upload](https://github.com/phantomptr/ps5upload)
 - **ps5-linux** : [ps5-linux-loader](https://github.com/ps5-linux/ps5-linux-loader)
 - **ps5-payload-dev** : [elfldr](https://github.com/ps5-payload-dev/elfldr)
 - **ps5-payload-dev** : [ftpsrv_ps5-payload](https://github.com/ps5-payload-dev/ftpsrv)
