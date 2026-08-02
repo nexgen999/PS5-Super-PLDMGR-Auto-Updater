@@ -115,14 +115,14 @@
       <description>FTP server payload for PS5. Port: 21 - Checksum: 68a80e1cb45544c15b1581a49154ad14aa8e29483e5fec786f2a95e0e28ea6cb</description>
     </item>
     <item>
-      <title>elfldr (v0.23)</title>
-      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/elfldr/v0.23/elfldr_v0.23.elf</link>
-      <description>ELF Loader utility. Port: 9020 / 9021 - Checksum: 092d16ee0ede0c494947efd38d1a17bbd7cc4b022d3858ea898833c188c703e8</description>
+      <title>elfldr (v0.24)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/elfldr/v0.24/elfldr_v0.24.elf</link>
+      <description>ELF Loader utility. Port: 9020 / 9021 - Checksum: e23313367cf59a9b0a09e34eb59e435e2c387de418e557d65bf578b7744942a5</description>
     </item>
     <item>
-      <title>ftpsrv_ps5-payload (v0.20)</title>
-      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ftpsrv_ps5-payload/v0.20/ftpsrv_ps5-payload_v0.20.elf</link>
-      <description>FTP server background daemon. Port: 21 - Checksum: 8f305a959fb9d70fd8d52ba88409e0d5a1632e83d4ecdd38646a0a33e54089da</description>
+      <title>ftpsrv_ps5-payload (v0.21)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ftpsrv_ps5-payload/v0.21/ftpsrv_ps5-payload_v0.21.elf</link>
+      <description>FTP server background daemon. Port: 21 - Checksum: c580f0534ac6349dc5a4a5c656eaced537b4c2b18da51886d943cea6393436c8</description>
     </item>
     <item>
       <title>websrv (v0.33)</title>
@@ -130,14 +130,14 @@
       <description>HTTP Web server payload. Port: 8080 - Checksum: 4676a40ac4c7ca1adeb04980efa48dd33a8961446b42e6a12abfcbe96090c8ac</description>
     </item>
     <item>
-      <title>gdbsrv (v0.8)</title>
-      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/gdbsrv/v0.8/gdbsrv_v0.8.elf</link>
-      <description>GDB Debugger server payload. Port: 1234 - Checksum: 7621b829bd8b6d6f3d2328fa12c16af956b0ca128250f92a91eddc100c87f208</description>
+      <title>gdbsrv (v0.9)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/gdbsrv/v0.9/gdbsrv_v0.9.elf</link>
+      <description>GDB Debugger server payload. Port: 1234 - Checksum: 80952d75f423768b95385f0944e5a5c2f417dcc10c22c1bb6516a923ad8894e5</description>
     </item>
     <item>
-      <title>klogsrv (v0.8)</title>
-      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/klogsrv/v0.8/klogsrv_v0.8.elf</link>
-      <description>Kernel log server daemon. Port: 3232 - Checksum: f6eb1b415ecf3340b89a56a0cb04ba5c714430085851ada13a98012b63a5a4cf</description>
+      <title>klogsrv (v0.9)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/klogsrv/v0.9/klogsrv_v0.9.elf</link>
+      <description>Kernel log server daemon. Port: 3232 - Checksum: e828ec144231f81547cb58bc7d2c396fa984be0c2295f31364b58017816dcceb</description>
     </item>
     <item>
       <title>ftpsrv_drakmor (1.6-ng-test2)</title>
@@ -145,9 +145,9 @@
       <description>Drakmor's variant of the FTP server. Port: 21 - Checksum: 6364e0529416f400be123c52acdcda68efd5179d971c060286022131fd047b8e</description>
     </item>
     <item>
-      <title>ps5upload (v4.3.1)</title>
-      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ps5upload/v4.3.1/ps5upload_v4.3.1.elf</link>
-      <description>PS5 Upload server / tool. Port: 9025 - Checksum: 7bfc22c082f57f2b9ab59100954a6142d725a8665a8ad6c1dddc6405caf09747</description>
+      <title>ps5upload (v4.3.2)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ps5upload/v4.3.2/ps5upload_v4.3.2.elf</link>
+      <description>PS5 Upload server / tool. Port: 9025 - Checksum: 5cc36fbcea9ffd99eabca7d192c2c8f2e471446e029e042d38f9f06722d2b2ac</description>
     </item>
     <item>
       <title>airpsx (0.19)</title>
@@ -275,9 +275,9 @@
       <description>Chargeur universel de payloads permettant de lancer automatiquement vos outils favoris au démarrage de l'exploit. - Checksum: 14312044a48ec136dcf4b3481fcab20d45a84aa5f859b88bcfaef5ab9c500963</description>
     </item>
     <item>
-      <title>pldmgr (v0.5.0)</title>
-      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/PS5_Payload_Manager/v0.5.0/pldmgr_v0.5.0.elf</link>
-      <description>Interface d'administration et de gestion réseau pour envoyer, activer et ordonner vos fichiers ELF/BIN sur la console. - Checksum: 1fe181908027fc625147ac888288ed1bee72a378b4751d36a8a8e0582d306169</description>
+      <title>pldmgr (v0.5.1)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/PS5_Payload_Manager/v0.5.1/pldmgr_v0.5.1.elf</link>
+      <description>Interface d'administration et de gestion réseau pour envoyer, activer et ordonner vos fichiers ELF/BIN sur la console. - Checksum: 05617c69ea145d1c11b8f7a6b7d3bd9e6df3831afd25d71a4ac85d63fb8e28aa</description>
     </item>
     <item>
       <title>ELF_Arsenal (v1.6.22)</title>
