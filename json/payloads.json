@@ -219,12 +219,12 @@
     },
     {
       "name": "websrv",
-      "filename": "websrv_v0.33.elf",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/websrv/v0.33/websrv_v0.33.elf",
+      "filename": "websrv_v0.34.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/websrv/v0.34/websrv_v0.34.elf",
       "description": "HTTP Web server payload. Port: 8080",
-      "version": "v0.33",
+      "version": "v0.34",
       "category": "PS5 Server",
-      "checksum": "4676a40ac4c7ca1adeb04980efa48dd33a8961446b42e6a12abfcbe96090c8ac"
+      "checksum": "54730c867c6e1148536fdcb370e63a7762d989ea87b62488ad4caff64d43f263"
     },
     {
       "name": "gdbsrv",
@@ -480,12 +480,12 @@
     },
     {
       "name": "PS5_Unified_Autoloader",
-      "filename": "PS5_Unified_Autoloader_v0.1.2-8e96846.elf",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/PS5_Unified_Autoloader/v0.1.2-8e96846/PS5_Unified_Autoloader_v0.1.2-8e96846.elf",
+      "filename": "PS5_Unified_Autoloader_v0.1.3-78a6f02.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/PS5_Unified_Autoloader/v0.1.3-78a6f02/PS5_Unified_Autoloader_v0.1.3-78a6f02.elf",
       "description": "Chargeur universel de payloads permettant de lancer automatiquement vos outils favoris au démarrage de l'exploit.",
-      "version": "v0.1.2-8e96846",
+      "version": "v0.1.3-78a6f02",
       "category": "PS5 HEN Loader",
-      "checksum": "14312044a48ec136dcf4b3481fcab20d45a84aa5f859b88bcfaef5ab9c500963"
+      "checksum": "f411cc69872d7bdfc1d5166b37e93cd31bffdce355ff204c74f787767a4acad8"
     },
     {
       "name": "pldmgr",

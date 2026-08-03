@@ -57,12 +57,12 @@
     },
     {
       "name": "websrv",
-      "filename": "websrv_v0.33.elf",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/websrv/v0.33/websrv_v0.33.elf",
+      "filename": "websrv_v0.34.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/websrv/v0.34/websrv_v0.34.elf",
       "description": "HTTP Web server payload. Port: 8080",
-      "version": "v0.33",
+      "version": "v0.34",
       "category": "PS5 Server",
-      "checksum": "4676a40ac4c7ca1adeb04980efa48dd33a8961446b42e6a12abfcbe96090c8ac"
+      "checksum": "54730c867c6e1148536fdcb370e63a7762d989ea87b62488ad4caff64d43f263"
     },
     {
       "name": "gdbsrv",
