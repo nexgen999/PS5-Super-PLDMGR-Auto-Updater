@@ -372,12 +372,12 @@
     },
     {
       "name": "MemDBG",
-      "filename": "MemDBG_vnightly-20260727-g6794bf3.elf",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/MemDBG/nightly-20260727-g6794bf3/MemDBG_vnightly-20260727-g6794bf3.elf",
+      "filename": "MemDBG_vnightly-20260804-g5a5007c.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/MemDBG/nightly-20260804-g5a5007c/MemDBG_vnightly-20260804-g5a5007c.elf",
       "description": "Memory debugging and inspection suite.",
-      "version": "nightly-20260727-g6794bf3",
+      "version": "nightly-20260804-g5a5007c",
       "category": "PS5 Sdk Debug",
-      "checksum": "d8c1fdc5816f62074de33bf521dbfc1771bf541a49f668d252b3e0a155c0abe4"
+      "checksum": "f5f6b37ba8cadf05b1443b1f2df8a985392be8bba5dd218ce6130b4edd4621e3"
     },
     {
       "name": "hwinfo_bench",
@@ -588,12 +588,12 @@
     },
     {
       "name": "nanoDNS",
-      "filename": "nanoDNS_v0.3.elf",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_dns/nanoDNS/0.3/nanoDNS_v0.3.elf",
+      "filename": "nanoDNS_v0.4.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_dns/nanoDNS/0.4/nanoDNS_v0.4.elf",
       "description": "Un serveur DNS ultra-léger et rapide idéal pour rediriger les requêtes de la console vers votre hôte local d'exploits.",
-      "version": "0.3",
+      "version": "0.4",
       "category": "PS5 Dns",
-      "checksum": "ce1c8b31036ab948da65b362a4b6f249ffca8a555fc5bc4b051ec65d041bc944"
+      "checksum": "dcb845f3570771275b22b37534bf924a7f8ae219fb91ef00c6bccab85d1c2420"
     },
     {
       "name": "Chukei_DNS",
