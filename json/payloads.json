@@ -372,12 +372,12 @@
     },
     {
       "name": "MemDBG",
-      "filename": "MemDBG_vnightly-20260807-g6a49926.elf",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/MemDBG/nightly-20260807-g6a49926/MemDBG_vnightly-20260807-g6a49926.elf",
+      "filename": "MemDBG_vnightly-20260808-g8e65dfd.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/MemDBG/nightly-20260808-g8e65dfd/MemDBG_vnightly-20260808-g8e65dfd.elf",
       "description": "Memory debugging and inspection suite.",
-      "version": "nightly-20260807-g6a49926",
+      "version": "nightly-20260808-g8e65dfd",
       "category": "PS5 Sdk Debug",
-      "checksum": "aa2347d9b982ba61295e9e14b4303cf11406d960375019116e9404daec2720d2"
+      "checksum": "1414bd648d7968a3689a02f6bd10c4de07d6b3eab1651ad089cb86bbda5862da"
     },
     {
       "name": "hwinfo_bench",
@@ -515,15 +515,6 @@
       "checksum": "a492f9a661e3b8cc1ad59d151bb6e3eca6fd76087a4d5fbbe22c02f5403ff5d5"
     },
     {
-      "name": "bfpilot",
-      "filename": "bfpilot_v0.4.3.elf",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_file_explorer/BFpilot/v0.4.3/bfpilot_v0.4.3.elf",
-      "description": "BFpilot is a lightweight PS5 payload that serves a browser-based file manager.",
-      "version": "v0.4.3",
-      "category": "PS5 File Explorer",
-      "checksum": "e2ca0a948f0d2b5d57f73672836714847a7850c0f07e0859e755e7cbb0204786"
-    },
-    {
       "name": "bfpilot-launcher-installer",
       "filename": "bfpilot-launcher-installer_v0.4.3.elf",
       "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_file_explorer/BFpilot/v0.4.3/bfpilot-launcher-installer_v0.4.3.elf",
@@ -531,6 +522,15 @@
       "version": "v0.4.3",
       "category": "PS5 File Explorer",
       "checksum": "c79f65be428b6eefcc0df6e8c788111a3f477da3a71305c057e74d6cceab484c"
+    },
+    {
+      "name": "bfpilot",
+      "filename": "bfpilot_v0.4.3.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_file_explorer/BFpilot/v0.4.3/bfpilot_v0.4.3.elf",
+      "description": "BFpilot is a lightweight PS5 payload that serves a browser-based file manager.",
+      "version": "v0.4.3",
+      "category": "PS5 File Explorer",
+      "checksum": "e2ca0a948f0d2b5d57f73672836714847a7850c0f07e0859e755e7cbb0204786"
     },
     {
       "name": "lapy_jb_daemon",
@@ -606,12 +606,12 @@
     },
     {
       "name": "ps5-fan-control",
-      "filename": "ps5-fan-control_v0.2.elf",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_fan/ps5-fan-control/v0.2/ps5-fan-control_v0.2.elf",
+      "filename": "ps5-fan-control_v0.3.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_fan/ps5-fan-control/v0.3/ps5-fan-control_v0.3.elf",
       "description": "Small PS5 daemon payload ELF that sets the system fan temperature.",
-      "version": "v0.2",
+      "version": "v0.3",
       "category": "PS5 Fan",
-      "checksum": "ae38c7e1861a7f7d77bc8461ba52887a0a954ba742471b491efb6d8480f266d7"
+      "checksum": "b10b6b9b9c00efed8bf9202a83b6cb762345d1f84130a419eff7139250026b36"
     },
     {
       "name": "fan_target_85c",

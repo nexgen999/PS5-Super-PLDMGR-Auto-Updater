@@ -45,7 +45,7 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 
 | Application | Version | Empreinte SHA-256 | Description |
 | :--- | :--- | :--- | :--- |
-| **ps5-fan-control** | [v0.2](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_fan/ps5-fan-control/v0.2/ps5-fan-control_v0.2.elf) | `ae38c7e186...` | Small PS5 daemon payload ELF that sets the system fan temperature. |
+| **ps5-fan-control** | [v0.3](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_fan/ps5-fan-control/v0.3/ps5-fan-control_v0.3.elf) | `b10b6b9b9c...` | Small PS5 daemon payload ELF that sets the system fan temperature. |
 | **fan_target_85c** | [0.1](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_fan/fan_target/0.1/fan_target_85c_v0.1.elf) | `c37019c351...` | fan_target keeps the PS5 fan controller at a selected target temperature while leaving the console's automatic fan control enabled. |
 | **fan_target_75c** | [0.1](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_fan/fan_target/0.1/fan_target_75c_v0.1.elf) | `4b52e09c48...` | fan_target keeps the PS5 fan controller at a selected target temperature while leaving the console's automatic fan control enabled. |
 | **fan_target_80c** | [0.1](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_fan/fan_target/0.1/fan_target_80c_v0.1.elf) | `ccf2e70921...` | fan_target keeps the PS5 fan controller at a selected target temperature while leaving the console's automatic fan control enabled. |
@@ -57,8 +57,8 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 
 | Application | Version | Empreinte SHA-256 | Description |
 | :--- | :--- | :--- | :--- |
-| **bfpilot** | [v0.4.3](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_file_explorer/BFpilot/v0.4.3/bfpilot_v0.4.3.elf) | `e2ca0a948f...` | BFpilot is a lightweight PS5 payload that serves a browser-based file manager. |
 | **bfpilot-launcher-installer** | [v0.4.3](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_file_explorer/BFpilot/v0.4.3/bfpilot-launcher-installer_v0.4.3.elf) | `c79f65be42...` | BFpilot is a lightweight PS5 payload that serves a browser-based file manager. |
+| **bfpilot** | [v0.4.3](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_file_explorer/BFpilot/v0.4.3/bfpilot_v0.4.3.elf) | `e2ca0a948f...` | BFpilot is a lightweight PS5 payload that serves a browser-based file manager. |
 | **lapy_jb_daemon** | [Source-Fixe](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_file_explorer/Lapy_JB_Daemon/Source-Fixe/lapy_jb_daemon.elf) | `e8230ac459...` | Daemon pour le jailbreak de Lapy |
 | **ps5-web-file-manager** | [v1.2](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_file_explorer/ps5-web-file-manager/v1.2/ps5-web-file-manager_v1.2.elf) | `5a34294335...` | PS5 Web File Manager http://your-ps5-ip:8888. |
 | **PS5-File-Explorer** | [file-explorer-v0.2.1](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_file_explorer/PS5-File-Explorer/file-explorer-v0.2.1/PS5-File-Explorer_vfile-explorer-v0.2.1.elf) | `1013c23b12...` | PS5 File Explorer http://your-ps5-ip:5905. |
@@ -133,7 +133,7 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 | **ps5-self-decrypter-system-common-lib** | [v0.5.2](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/PS5-SELF-Decrypter/v0.5.2/ps5-self-decrypter-system-common-lib_v0.5.2.elf) | `6a16c6457c...` | SELF decrypter tool for PS5 binaries. |
 | **ps5-self-decrypter-full-system** | [v0.5.2](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/PS5-SELF-Decrypter/v0.5.2/ps5-self-decrypter-full-system_v0.5.2.elf) | `46340d3048...` | SELF decrypter tool for PS5 binaries. |
 | **ps5-remoteplay-get-pin** | [v0.1.1](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/ps5-remoteplay-get-pin/v0.1.1/ps5-remoteplay-get-pin_v0.1.1.elf) | `1d611c1856...` | Utility to get Remote Play PIN. |
-| **MemDBG** | [nightly-20260807-g6a49926](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/MemDBG/nightly-20260807-g6a49926/MemDBG_vnightly-20260807-g6a49926.elf) | `aa2347d9b9...` | Memory debugging and inspection suite. |
+| **MemDBG** | [nightly-20260808-g8e65dfd](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/MemDBG/nightly-20260808-g8e65dfd/MemDBG_vnightly-20260808-g8e65dfd.elf) | `1414bd648d...` | Memory debugging and inspection suite. |
 | **hwinfo_bench** | [0.1](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/ps5-hwinfo/0.1/hwinfo_bench_v0.1.elf) | `4514bdbc0c...` | PS5 payload for collecting hardware and runtime telemetry. |
 | **hwinfo_sysinfo** | [0.1](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/ps5-hwinfo/0.1/hwinfo_sysinfo_v0.1.elf) | `ad5014112d...` | PS5 payload for collecting hardware and runtime telemetry. |
 

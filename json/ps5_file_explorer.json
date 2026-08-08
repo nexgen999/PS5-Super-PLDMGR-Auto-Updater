@@ -2,15 +2,6 @@
   "name": "PS5 File Explorer",
   "payloads": [
     {
-      "name": "bfpilot",
-      "filename": "bfpilot_v0.4.3.elf",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_file_explorer/BFpilot/v0.4.3/bfpilot_v0.4.3.elf",
-      "description": "BFpilot is a lightweight PS5 payload that serves a browser-based file manager.",
-      "version": "v0.4.3",
-      "category": "PS5 File Explorer",
-      "checksum": "e2ca0a948f0d2b5d57f73672836714847a7850c0f07e0859e755e7cbb0204786"
-    },
-    {
       "name": "bfpilot-launcher-installer",
       "filename": "bfpilot-launcher-installer_v0.4.3.elf",
       "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_file_explorer/BFpilot/v0.4.3/bfpilot-launcher-installer_v0.4.3.elf",
@@ -18,6 +9,15 @@
       "version": "v0.4.3",
       "category": "PS5 File Explorer",
       "checksum": "c79f65be428b6eefcc0df6e8c788111a3f477da3a71305c057e74d6cceab484c"
+    },
+    {
+      "name": "bfpilot",
+      "filename": "bfpilot_v0.4.3.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_file_explorer/BFpilot/v0.4.3/bfpilot_v0.4.3.elf",
+      "description": "BFpilot is a lightweight PS5 payload that serves a browser-based file manager.",
+      "version": "v0.4.3",
+      "category": "PS5 File Explorer",
+      "checksum": "e2ca0a948f0d2b5d57f73672836714847a7850c0f07e0859e755e7cbb0204786"
     },
     {
       "name": "lapy_jb_daemon",
