@@ -266,8 +266,15 @@ for opml_file in opml_files:
 
             final_base = None
 
+            # RÈGLE SPÉCIFIQUE : ItsBlurf / BFpilot (conservation des deux ELF : launcher-installer et bfpilot)
+            if "itsblurf/bfpilot" in repo_lower or "bfpilot" in repo_lower:
+                if "launcher" in f_name_lower or "installer" in f_name_lower:
+                    final_base = "bfpilot-launcher-installer"
+                else:
+                    final_base = "bfpilot"
+
             # RÈGLE D'EXCEPTION : Drakmor / fan_target (conservation du suffixe de température ex: fan_target_65c)
-            if "fan_target" in repo_lower or "fan_target" in f_name_lower:
+            elif "fan_target" in repo_lower or "fan_target" in f_name_lower:
                 temp_match = re.search(r'(\d+c)', f_name_lower)
                 if temp_match:
                     temp_val = temp_match.group(1)
