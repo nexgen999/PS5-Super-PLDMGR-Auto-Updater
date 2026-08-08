@@ -30,6 +30,7 @@
     <outline text="airpsx" title="airpsx" type="rss" xmlUrl="https://github.com/barisyild/airpsx" author="barisyild"/>
     <outline text="unrar-ps5" title="unrar-ps5" type="rss" xmlUrl="https://github.com/bizkut/unrar-ps5" author="bizkut"/>
     <outline text="ShadowMountPlus" title="ShadowMountPlus" type="rss" xmlUrl="https://github.com/drakmor/ShadowMountPlus" author="drakmor"/>
+    <outline text="fan_target" title="fan_target" type="rss" xmlUrl="https://github.com/drakmor/fan_target" author="drakmor"/>
     <outline text="ftpsrv_drakmor" title="ftpsrv_drakmor" type="rss" xmlUrl="https://github.com/drakmor/ftpsrv" author="drakmor"/>
     <outline text="kstuff-lite_drakmor" title="kstuff-lite_drakmor" type="rss" xmlUrl="https://github.com/drakmor/kstuff-lite" author="drakmor"/>
     <outline text="ps5-hwinfo" title="ps5-hwinfo" type="rss" xmlUrl="https://github.com/drakmor/ps5-hwinfo" author="drakmor"/>
@@ -46,6 +47,7 @@
     <outline text="PS5-File-Explorer" title="PS5-File-Explorer" type="rss" xmlUrl="https://github.com/juma-sayeh/PS5-File-Explorer" author="juma-sayeh"/>
     <outline text="PS5-Game-Compressor" title="PS5-Game-Compressor" type="rss" xmlUrl="https://github.com/juma-sayeh/PS5-Game-Compressor" author="juma-sayeh"/>
     <outline text="CheatRunner" title="CheatRunner" type="rss" xmlUrl="https://github.com/notmaj0r/CheatRunner" author="notmaj0r"/>
+    <outline text="ps5-fan-control" title="ps5-fan-control" type="rss" xmlUrl="https://github.com/owendswang/ps5-fan-control" author="owendswang"/>
     <outline text="ps5-web-file-manager" title="ps5-web-file-manager" type="rss" xmlUrl="https://github.com/owendswang/ps5-web-file-manager" author="owendswang"/>
     <outline text="pegasus-dl" title="pegasus-dl" type="rss" xmlUrl="https://github.com/pegasus-ps5/pegasus-dl" author="pegasus-ps5"/>
     <outline text="ps5upload" title="ps5upload" type="rss" xmlUrl="https://github.com/phantomptr/ps5upload" author="phantomptr"/>
