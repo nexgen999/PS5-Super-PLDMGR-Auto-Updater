@@ -290,14 +290,14 @@
       <description>Un loader de payloads moderne et épuré conçu pour optimiser l'injection de code sur PS5. - Checksum: a492f9a661e3b8cc1ad59d151bb6e3eca6fd76087a4d5fbbe22c02f5403ff5d5</description>
     </item>
     <item>
-      <title>bfpilot-core (Source-Fixe)</title>
-      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_file_explorer/BFpilot-Core/Source-Fixe/bfpilot-core_v0.2.1.elf</link>
-      <description>BFpilot is a lightweight PS5 payload that serves a browser-based file manager. - Checksum: 4375479705f599147533e3ec667fb18bf03fe9de17eb29fb54c5998078d429e0</description>
+      <title>bfpilot (v0.4.3)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_file_explorer/BFpilot/v0.4.3/bfpilot_v0.4.3.elf</link>
+      <description>BFpilot is a lightweight PS5 payload that serves a browser-based file manager. - Checksum: e2ca0a948f0d2b5d57f73672836714847a7850c0f07e0859e755e7cbb0204786</description>
     </item>
     <item>
-      <title>bfpilot-full (Source-Fixe)</title>
-      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_file_explorer/BFpilot-Full/Source-Fixe/bfpilot-full_v0.2.1.elf</link>
-      <description>BFpilot is a lightweight PS5 payload that serves a browser-based file manager. - Checksum: c5b66745332a4b353b0b32abd0ec408b179e7b6a7d22bd9c0db4be7250633fc7</description>
+      <title>bfpilot-launcher-installer (v0.4.3)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_file_explorer/BFpilot/v0.4.3/bfpilot-launcher-installer_v0.4.3.elf</link>
+      <description>BFpilot is a lightweight PS5 payload that serves a browser-based file manager. - Checksum: c79f65be428b6eefcc0df6e8c788111a3f477da3a71305c057e74d6cceab484c</description>
     </item>
     <item>
       <title>lapy_jb_daemon (Source-Fixe)</title>

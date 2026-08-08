@@ -57,8 +57,8 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 
 | Application | Version | Empreinte SHA-256 | Description |
 | :--- | :--- | :--- | :--- |
-| **bfpilot-core** | [Source-Fixe](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_file_explorer/BFpilot-Core/Source-Fixe/bfpilot-core_v0.2.1.elf) | `4375479705...` | BFpilot is a lightweight PS5 payload that serves a browser-based file manager. |
-| **bfpilot-full** | [Source-Fixe](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_file_explorer/BFpilot-Full/Source-Fixe/bfpilot-full_v0.2.1.elf) | `c5b6674533...` | BFpilot is a lightweight PS5 payload that serves a browser-based file manager. |
+| **bfpilot** | [v0.4.3](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_file_explorer/BFpilot/v0.4.3/bfpilot_v0.4.3.elf) | `e2ca0a948f...` | BFpilot is a lightweight PS5 payload that serves a browser-based file manager. |
+| **bfpilot-launcher-installer** | [v0.4.3](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_file_explorer/BFpilot/v0.4.3/bfpilot-launcher-installer_v0.4.3.elf) | `c79f65be42...` | BFpilot is a lightweight PS5 payload that serves a browser-based file manager. |
 | **lapy_jb_daemon** | [Source-Fixe](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_file_explorer/Lapy_JB_Daemon/Source-Fixe/lapy_jb_daemon.elf) | `e8230ac459...` | Daemon pour le jailbreak de Lapy |
 | **ps5-web-file-manager** | [v1.2](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_file_explorer/ps5-web-file-manager/v1.2/ps5-web-file-manager_v1.2.elf) | `5a34294335...` | PS5 Web File Manager http://your-ps5-ip:8888. |
 | **PS5-File-Explorer** | [file-explorer-v0.2.1](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_file_explorer/PS5-File-Explorer/file-explorer-v0.2.1/PS5-File-Explorer_vfile-explorer-v0.2.1.elf) | `1013c23b12...` | PS5 File Explorer http://your-ps5-ip:5905. |
@@ -196,8 +196,7 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 - **EchoStretch** : [kstuff-lite_EchoStretch](https://github.com/EchoStretch/kstuff-lite)
 - **EchoStretch** : [kstuff_EchoStretch](https://github.com/EchoStretch/kstuff)
 - **EchoStretch** : [ps5-app-dumper](https://github.com/EchoStretch/ps5-app-dumper)
-- **ItsBlurf** : [BFpilot-Core](https://raw.githubusercontent.com/nexgen999/PS5_Payload_Manager_Updater/main/ps5_file_explorer/bfpilot-core_v0.2.1.elf)
-- **ItsBlurf** : [BFpilot-Full](https://raw.githubusercontent.com/nexgen999/PS5_Payload_Manager_Updater/main/ps5_file_explorer/bfpilot-full_v0.2.1.elf)
+- **ItsBlurf** : [BFpilot](https://github.com/ItsBlurf/BFpilot)
 - **LightningMods** : [etaHEN](https://github.com/etaHEN/etaHEN)
 - **MasterPS0** : [PS5-Power-Payloads-Project](https://github.com/MasterPS0/PS5-Power-Payloads-Project)
 - **NikoBellikJR31** : [PS5-Custom-Tool-Manager-](https://github.com/NikoBellikJR31/PS5-Custom-Tool-Manager-)

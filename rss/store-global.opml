@@ -11,8 +11,7 @@
     <outline text="kstuff-lite_EchoStretch" title="kstuff-lite_EchoStretch" type="rss" xmlUrl="https://github.com/EchoStretch/kstuff-lite" author="EchoStretch"/>
     <outline text="kstuff_EchoStretch" title="kstuff_EchoStretch" type="rss" xmlUrl="https://github.com/EchoStretch/kstuff" author="EchoStretch"/>
     <outline text="ps5-app-dumper" title="ps5-app-dumper" type="rss" xmlUrl="https://github.com/EchoStretch/ps5-app-dumper" author="EchoStretch"/>
-    <outline text="BFpilot-Core" title="BFpilot-Core" type="rss" xmlUrl="https://raw.githubusercontent.com/nexgen999/PS5_Payload_Manager_Updater/main/ps5_file_explorer/bfpilot-core_v0.2.1.elf" author="ItsBlurf"/>
-    <outline text="BFpilot-Full" title="BFpilot-Full" type="rss" xmlUrl="https://raw.githubusercontent.com/nexgen999/PS5_Payload_Manager_Updater/main/ps5_file_explorer/bfpilot-full_v0.2.1.elf" author="ItsBlurf"/>
+    <outline text="BFpilot" title="BFpilot" type="rss" xmlUrl="https://github.com/ItsBlurf/BFpilot" author="ItsBlurf"/>
     <outline text="etaHEN" title="etaHEN" type="rss" xmlUrl="https://github.com/etaHEN/etaHEN" author="LightningMods"/>
     <outline text="PS5-Power-Payloads-Project" title="PS5-Power-Payloads-Project" type="rss" xmlUrl="https://github.com/MasterPS0/PS5-Power-Payloads-Project" author="MasterPS0"/>
     <outline text="PS5-Custom-Tool-Manager-" title="PS5-Custom-Tool-Manager-" type="rss" xmlUrl="https://github.com/NikoBellikJR31/PS5-Custom-Tool-Manager-" author="NikoBellikJR31"/>
