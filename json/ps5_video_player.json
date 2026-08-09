@@ -1,0 +1,23 @@
+{
+  "name": "PS5 Video Player",
+  "payloads": [
+    {
+      "name": "BFplayer-standalone",
+      "filename": "BFplayer-standalone_v0.1.0-alpha.44.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_video_player/BFplayer-standalone/v0.1.0-alpha.44/BFplayer-standalone_v0.1.0-alpha.44.elf",
+      "description": "BFplayer is a native media library and player for jailbroken PlayStation 5 consoles.",
+      "version": "v0.1.0-alpha.44",
+      "category": "PS5 Video Player",
+      "checksum": "0d028deb145d6fc9a5b55d43a45e072919178fbb261c66cd914ebcfb0b3b05c0"
+    },
+    {
+      "name": "svtplay",
+      "filename": "svtplay_v0.2.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_video_player/svtplay/v0.2/svtplay_v0.2.elf",
+      "description": "This is an unofficial 10-foot UI for SVT Play, the Swedish public service television broadcaster.",
+      "version": "v0.2",
+      "category": "PS5 Video Player",
+      "checksum": "5bdf25142512f25dc6269bd7c90a914001fcef5e731125a74aa23c1a8d91810f"
+    }
+  ]
+}

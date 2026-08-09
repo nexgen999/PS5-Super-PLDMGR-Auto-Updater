@@ -12,6 +12,7 @@
     <outline text="kstuff_EchoStretch" title="kstuff_EchoStretch" type="rss" xmlUrl="https://github.com/EchoStretch/kstuff" author="EchoStretch"/>
     <outline text="ps5-app-dumper" title="ps5-app-dumper" type="rss" xmlUrl="https://github.com/EchoStretch/ps5-app-dumper" author="EchoStretch"/>
     <outline text="BFpilot" title="BFpilot" type="rss" xmlUrl="https://github.com/ItsBlurf/BFpilot" author="ItsBlurf"/>
+    <outline text="BFplayer-standalone" title="BFplayer-standalone" type="rss" xmlUrl="https://github.com/ItsBlurf/BFplayer" author="ItsBlurf"/>
     <outline text="etaHEN" title="etaHEN" type="rss" xmlUrl="https://github.com/etaHEN/etaHEN" author="LightningMods"/>
     <outline text="PS5-Power-Payloads-Project" title="PS5-Power-Payloads-Project" type="rss" xmlUrl="https://github.com/MasterPS0/PS5-Power-Payloads-Project" author="MasterPS0"/>
     <outline text="PS5-Custom-Tool-Manager-" title="PS5-Custom-Tool-Manager-" type="rss" xmlUrl="https://github.com/NikoBellikJR31/PS5-Custom-Tool-Manager-" author="NikoBellikJR31"/>
@@ -55,6 +56,7 @@
     <outline text="ftpsrv_ps5-payload" title="ftpsrv_ps5-payload" type="rss" xmlUrl="https://github.com/ps5-payload-dev/ftpsrv" author="ps5-payload-dev"/>
     <outline text="gdbsrv" title="gdbsrv" type="rss" xmlUrl="https://github.com/ps5-payload-dev/gdbsrv" author="ps5-payload-dev"/>
     <outline text="klogsrv" title="klogsrv" type="rss" xmlUrl="https://github.com/ps5-payload-dev/klogsrv" author="ps5-payload-dev"/>
+    <outline text="svtplay" title="svtplay" type="rss" xmlUrl="https://github.com/ps5-payload-dev/svtplay" author="ps5-payload-dev"/>
     <outline text="websrv" title="websrv" type="rss" xmlUrl="https://github.com/ps5-payload-dev/websrv" author="ps5-payload-dev"/>
     <outline text="MemDBG" title="MemDBG" type="rss" xmlUrl="https://github.com/seregonwar/MemDBG" author="seregonwar"/>
     <outline text="zftpd" title="zftpd" type="rss" xmlUrl="https://github.com/seregonwar/zftpd" author="seregonwar"/>

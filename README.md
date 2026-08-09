@@ -152,7 +152,7 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 | **gdbsrv** | [v0.9](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/gdbsrv/v0.9/gdbsrv_v0.9.elf) | `80952d75f4...` | GDB Debugger server payload. Port: 1234 |
 | **klogsrv** | [v0.9](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/klogsrv/v0.9/klogsrv_v0.9.elf) | `e828ec1442...` | Kernel log server daemon. Port: 3232 |
 | **ftpsrv_drakmor** | [1.6-ng-test2](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ftpsrv_drakmor/1.6-ng-test2/ftpsrv_drakmor_v1.6-ng-test2.elf) | `6364e05294...` | Drakmor's variant of the FTP server. Port: 21 |
-| **ps5upload** | [v5.1.6](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ps5upload/v5.1.6/ps5upload_v5.1.6.elf) | `273186fa8c...` | PS5 Upload server / tool. Port: 9025 |
+| **ps5upload** | [v5.1.7](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ps5upload/v5.1.7/ps5upload_v5.1.7.elf) | `15798b0cb8...` | PS5 Upload server / tool. Port: 9025 |
 | **airpsx** | [0.19](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/airpsx/0.19/airpsx_v0.19.elf) | `ae025ca772...` | AirPSX server tool for PS5 ecosystem. |
 
 ### 📦 PS5 Themes-Avatars
@@ -186,6 +186,14 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 | **ps5power-poweroff** | [1.0](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_utility/PS5-Power-Payloads-Project/1.0/ps5power-poweroff_v1.0.elf) | `42ed798361...` | PS5-Power-Payloads-Project utility. |
 | **ps5power-notify_test** | [1.0](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_utility/PS5-Power-Payloads-Project/1.0/ps5power-notify_test_v1.0.elf) | `a06cf9ace6...` | PS5-Power-Payloads-Project utility. |
 
+### 📦 PS5 Video Player
+📂 **Fichier JSON Dédié :** `https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/json/ps5_video_player.json`
+
+| Application | Version | Empreinte SHA-256 | Description |
+| :--- | :--- | :--- | :--- |
+| **BFplayer-standalone** | [v0.1.0-alpha.44](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_video_player/BFplayer-standalone/v0.1.0-alpha.44/BFplayer-standalone_v0.1.0-alpha.44.elf) | `0d028deb14...` | BFplayer is a native media library and player for jailbroken PlayStation 5 consoles. |
+| **svtplay** | [v0.2](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_video_player/svtplay/v0.2/svtplay_v0.2.elf) | `5bdf251425...` | This is an unofficial 10-foot UI for SVT Play, the Swedish public service television broadcaster. |
+
 ---
 
 ## 🤝 Crédits & Remerciements
@@ -197,6 +205,7 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 - **EchoStretch** : [kstuff_EchoStretch](https://github.com/EchoStretch/kstuff)
 - **EchoStretch** : [ps5-app-dumper](https://github.com/EchoStretch/ps5-app-dumper)
 - **ItsBlurf** : [BFpilot](https://github.com/ItsBlurf/BFpilot)
+- **ItsBlurf** : [BFplayer-standalone](https://github.com/ItsBlurf/BFplayer)
 - **LightningMods** : [etaHEN](https://github.com/etaHEN/etaHEN)
 - **MasterPS0** : [PS5-Power-Payloads-Project](https://github.com/MasterPS0/PS5-Power-Payloads-Project)
 - **NikoBellikJR31** : [PS5-Custom-Tool-Manager-](https://github.com/NikoBellikJR31/PS5-Custom-Tool-Manager-)
@@ -240,6 +249,7 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 - **ps5-payload-dev** : [ftpsrv_ps5-payload](https://github.com/ps5-payload-dev/ftpsrv)
 - **ps5-payload-dev** : [gdbsrv](https://github.com/ps5-payload-dev/gdbsrv)
 - **ps5-payload-dev** : [klogsrv](https://github.com/ps5-payload-dev/klogsrv)
+- **ps5-payload-dev** : [svtplay](https://github.com/ps5-payload-dev/svtplay)
 - **ps5-payload-dev** : [websrv](https://github.com/ps5-payload-dev/websrv)
 - **seregonwar** : [MemDBG](https://github.com/seregonwar/MemDBG)
 - **seregonwar** : [zftpd](https://github.com/seregonwar/zftpd)

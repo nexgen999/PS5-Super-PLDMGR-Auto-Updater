@@ -255,12 +255,12 @@
     },
     {
       "name": "ps5upload",
-      "filename": "ps5upload_v5.1.6.elf",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ps5upload/v5.1.6/ps5upload_v5.1.6.elf",
+      "filename": "ps5upload_v5.1.7.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ps5upload/v5.1.7/ps5upload_v5.1.7.elf",
       "description": "PS5 Upload server / tool. Port: 9025",
-      "version": "v5.1.6",
+      "version": "v5.1.7",
       "category": "PS5 Server",
-      "checksum": "273186fa8c152b62a27c632c3db6b4924ebda0077fd689a770a8a110f8bdb3b0"
+      "checksum": "15798b0cb880f64d6c04d3945cb789bb717281621ed57961609fcd610fdf3492"
     },
     {
       "name": "airpsx",
@@ -603,6 +603,24 @@
       "version": "0.9.0",
       "category": "PS5 Dns",
       "checksum": "0cf13e1ed87b57ffa4fdcfca5d9afe1572be29b4f632677cedf17657a972d750"
+    },
+    {
+      "name": "BFplayer-standalone",
+      "filename": "BFplayer-standalone_v0.1.0-alpha.44.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_video_player/BFplayer-standalone/v0.1.0-alpha.44/BFplayer-standalone_v0.1.0-alpha.44.elf",
+      "description": "BFplayer is a native media library and player for jailbroken PlayStation 5 consoles.",
+      "version": "v0.1.0-alpha.44",
+      "category": "PS5 Video Player",
+      "checksum": "0d028deb145d6fc9a5b55d43a45e072919178fbb261c66cd914ebcfb0b3b05c0"
+    },
+    {
+      "name": "svtplay",
+      "filename": "svtplay_v0.2.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_video_player/svtplay/v0.2/svtplay_v0.2.elf",
+      "description": "This is an unofficial 10-foot UI for SVT Play, the Swedish public service television broadcaster.",
+      "version": "v0.2",
+      "category": "PS5 Video Player",
+      "checksum": "5bdf25142512f25dc6269bd7c90a914001fcef5e731125a74aa23c1a8d91810f"
     },
     {
       "name": "ps5-fan-control",
