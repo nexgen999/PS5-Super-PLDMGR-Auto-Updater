@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>ps5_video_player</title>
+  </head>
+  <body>
+    <outline text="BFplayer-standalone" title="BFplayer-standalone" type="rss" xmlUrl="https://github.com/ItsBlurf/BFplayer" author="ItsBlurf" description="BFplayer is a native media library and player for jailbroken PlayStation 5 consoles." />
+    <outline text="svtplay" title="svtplay" type="rss" xmlUrl="https://github.com/ps5-payload-dev/svtplay" author="ps5-payload-dev" description="This is an unofficial 10-foot UI for SVT Play, the Swedish public service television broadcaster." />
+  </body>
+</opml>
