@@ -255,12 +255,12 @@
     },
     {
       "name": "ps5upload",
-      "filename": "ps5upload_v5.1.7.elf",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ps5upload/v5.1.7/ps5upload_v5.1.7.elf",
+      "filename": "ps5upload_v5.1.8.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ps5upload/v5.1.8/ps5upload_v5.1.8.elf",
       "description": "PS5 Upload server / tool. Port: 9025",
-      "version": "v5.1.7",
+      "version": "v5.1.8",
       "category": "PS5 Server",
-      "checksum": "15798b0cb880f64d6c04d3945cb789bb717281621ed57961609fcd610fdf3492"
+      "checksum": "a627e7761d471246643ff26d7a160bb09d64390da6a4d6487c2389a0a349c509"
     },
     {
       "name": "airpsx",
@@ -372,12 +372,12 @@
     },
     {
       "name": "MemDBG",
-      "filename": "MemDBG_vnightly-20260808-g8e65dfd.elf",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/MemDBG/nightly-20260808-g8e65dfd/MemDBG_vnightly-20260808-g8e65dfd.elf",
+      "filename": "MemDBG_vnightly-20260809-g1a859d3.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/MemDBG/nightly-20260809-g1a859d3/MemDBG_vnightly-20260809-g1a859d3.elf",
       "description": "Memory debugging and inspection suite.",
-      "version": "nightly-20260808-g8e65dfd",
+      "version": "nightly-20260809-g1a859d3",
       "category": "PS5 Sdk Debug",
-      "checksum": "1414bd648d7968a3689a02f6bd10c4de07d6b3eab1651ad089cb86bbda5862da"
+      "checksum": "4eb2cb2fb87c799b32370318c53a981d4eba120f9dc64e8b94f50b6fba2a59a8"
     },
     {
       "name": "hwinfo_bench",
