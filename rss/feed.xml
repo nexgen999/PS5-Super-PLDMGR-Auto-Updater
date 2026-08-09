@@ -345,6 +345,11 @@
       <description>BFplayer is a native media library and player for jailbroken PlayStation 5 consoles. - Checksum: 0d028deb145d6fc9a5b55d43a45e072919178fbb261c66cd914ebcfb0b3b05c0</description>
     </item>
     <item>
+      <title>ProsperoPlayer (v1.0)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_video_player/ProsperoPlayer/v1.0/ProsperoPlayer_v1.0.elf</link>
+      <description>A homebrew media player for jailbroken PS5. - Checksum: 40b9955273982cd563e1b16bd428ea6a9c399e7d4bc55b220fe223948572cdad</description>
+    </item>
+    <item>
       <title>svtplay (v0.2)</title>
       <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_video_player/svtplay/v0.2/svtplay_v0.2.elf</link>
       <description>This is an unofficial 10-foot UI for SVT Play, the Swedish public service television broadcaster. - Checksum: 5bdf25142512f25dc6269bd7c90a914001fcef5e731125a74aa23c1a8d91810f</description>

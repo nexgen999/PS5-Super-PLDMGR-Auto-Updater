@@ -614,6 +614,15 @@
       "checksum": "0d028deb145d6fc9a5b55d43a45e072919178fbb261c66cd914ebcfb0b3b05c0"
     },
     {
+      "name": "ProsperoPlayer",
+      "filename": "ProsperoPlayer_v1.0.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_video_player/ProsperoPlayer/v1.0/ProsperoPlayer_v1.0.elf",
+      "description": "A homebrew media player for jailbroken PS5.",
+      "version": "v1.0",
+      "category": "PS5 Video Player",
+      "checksum": "40b9955273982cd563e1b16bd428ea6a9c399e7d4bc55b220fe223948572cdad"
+    },
+    {
       "name": "svtplay",
       "filename": "svtplay_v0.2.elf",
       "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_video_player/svtplay/v0.2/svtplay_v0.2.elf",

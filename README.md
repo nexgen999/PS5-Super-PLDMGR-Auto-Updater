@@ -192,6 +192,7 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 | Application | Version | Empreinte SHA-256 | Description |
 | :--- | :--- | :--- | :--- |
 | **BFplayer-standalone** | [v0.1.0-alpha.44](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_video_player/BFplayer-standalone/v0.1.0-alpha.44/BFplayer-standalone_v0.1.0-alpha.44.elf) | `0d028deb14...` | BFplayer is a native media library and player for jailbroken PlayStation 5 consoles. |
+| **ProsperoPlayer** | [v1.0](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_video_player/ProsperoPlayer/v1.0/ProsperoPlayer_v1.0.elf) | `40b9955273...` | A homebrew media player for jailbroken PS5. |
 | **svtplay** | [v0.2](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_video_player/svtplay/v0.2/svtplay_v0.2.elf) | `5bdf251425...` | This is an unofficial 10-foot UI for SVT Play, the Swedish public service television broadcaster. |
 
 ---
@@ -206,6 +207,7 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 - **EchoStretch** : [ps5-app-dumper](https://github.com/EchoStretch/ps5-app-dumper)
 - **ItsBlurf** : [BFpilot](https://github.com/ItsBlurf/BFpilot)
 - **ItsBlurf** : [BFplayer-standalone](https://github.com/ItsBlurf/BFplayer)
+- **KINGDKAK** : [ProsperoPlayer](https://github.com/KINGDKAK/ProsperoPlayer)
 - **LightningMods** : [etaHEN](https://github.com/etaHEN/etaHEN)
 - **MasterPS0** : [PS5-Power-Payloads-Project](https://github.com/MasterPS0/PS5-Power-Payloads-Project)
 - **NikoBellikJR31** : [PS5-Custom-Tool-Manager-](https://github.com/NikoBellikJR31/PS5-Custom-Tool-Manager-)
