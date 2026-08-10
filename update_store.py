@@ -107,29 +107,8 @@ for opml_file in opml_files:
                     print(f"   -> Téléchargement GitHub ({version})...")
                     subprocess.call(f"gh release download '{version}' --repo '{repo}' --dir '{target_dir}' --clobber 2>/dev/null", shell=True)
                     
-                    # RÈGLE SPÉCIFIQUE : Extraction de TOUS les ELF pour fan_target (Drakmor)
-                    if "drakmor/fan_target" in repo_lower or "fan_target" in repo_lower:
-                        for item in os.listdir(target_dir):
-                            item_path = os.path.join(target_dir, item)
-                            if item.lower().endswith('.zip'):
-                                try:
-                                    with zipfile.ZipFile(item_path, 'r') as zf:
-                                        for member in zf.namelist():
-                                            if member.lower().endswith('.elf'):
-                                                zf.extract(member, target_dir)
-                                                extracted_path = os.path.join(target_dir, member)
-                                                dest_path = os.path.join(target_dir, os.path.basename(member))
-                                                if extracted_path != dest_path:
-                                                    os.rename(extracted_path, dest_path)
-                                                print(f"   📦 ELF de température extrait : {os.path.basename(member)}")
-                                except Exception as zerr:
-                                    print(f"   ⚠️ Erreur d'extraction ZIP fan_target : {zerr}")
-                                finally:
-                                    if os.path.exists(item_path):
-                                        os.remove(item_path)
-
-                    # RÈGLE SPÉCIFIQUE : Extraction ciblée de l'ELF pour ShadowMountPlus
-                    elif "shadowmountplus" in repo_lower:
+                    # RÈGLE SPÉCIFIQUE : Extraction de TOUS les ELF pour PoorDS4, fan_target, ShadowMountPlus
+                    if "poords4" in repo_lower or "fan_target" in repo_lower or "shadowmountplus" in repo_lower:
                         for item in os.listdir(target_dir):
                             item_path = os.path.join(target_dir, item)
                             if item.lower().endswith('.zip'):
@@ -144,7 +123,7 @@ for opml_file in opml_files:
                                                     os.rename(extracted_path, dest_path)
                                                 print(f"   📦 ELF extrait de l'archive ZIP : {os.path.basename(member)}")
                                 except Exception as zerr:
-                                    print(f"   ⚠️ Erreur d'extraction ZIP ShadowMountPlus : {zerr}")
+                                    print(f"   ⚠️ Erreur d'extraction ZIP : {zerr}")
                                 finally:
                                     if os.path.exists(item_path):
                                         os.remove(item_path)
@@ -266,14 +245,18 @@ for opml_file in opml_files:
 
             final_base = None
 
-            # RÈGLE SPÉCIFIQUE : ItsBlurf / BFpilot (conservation des deux ELF : launcher-installer et bfpilot)
-            if "itsblurf/bfpilot" in repo_lower or "bfpilot" in repo_lower:
+            # RÈGLE SPÉCIFIQUE : ItsBlurf / PoorDS4 (conservation des noms exacts des ELF)
+            if "poords4" in repo_lower or "poords4" in f_name_lower:
+                final_base = base_name
+
+            # RÈGLE SPÉCIFIQUE : ItsBlurf / BFpilot (conservation des deux ELF)
+            elif "itsblurf/bfpilot" in repo_lower or "bfpilot" in repo_lower:
                 if "launcher" in f_name_lower or "installer" in f_name_lower:
                     final_base = "bfpilot-launcher-installer"
                 else:
                     final_base = "bfpilot"
 
-            # RÈGLE D'EXCEPTION : Drakmor / fan_target (conservation du suffixe de température ex: fan_target_65c)
+            # RÈGLE D'EXCEPTION : Drakmor / fan_target (conservation du suffixe de température)
             elif "fan_target" in repo_lower or "fan_target" in f_name_lower:
                 temp_match = re.search(r'(\d+c)', f_name_lower)
                 if temp_match:
