@@ -29,6 +29,33 @@
       "checksum": "69271d91f27397c9ad42150129639ce452ecb405021108f42c6c87926123a6f1"
     },
     {
+      "name": "PoorDS4rc38",
+      "filename": "PoorDS4rc38_v0.1.0-rc38.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_utility/PoorDS4/v0.1.0-rc38/PoorDS4rc38_v0.1.0-rc38.elf",
+      "description": "PoorDS4 lets a wireless DualShock 4 paired with a jailbroken PS5.",
+      "version": "v0.1.0-rc38",
+      "category": "PS5 Utility",
+      "checksum": "62d21fe837ee53dd4291e45d99259d4557def05e2d4196ab54e020ba28b5399e"
+    },
+    {
+      "name": "PoorDS4-status",
+      "filename": "PoorDS4-status_v0.1.0-rc38.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_utility/PoorDS4/v0.1.0-rc38/PoorDS4-status_v0.1.0-rc38.elf",
+      "description": "PoorDS4 lets a wireless DualShock 4 paired with a jailbroken PS5.",
+      "version": "v0.1.0-rc38",
+      "category": "PS5 Utility",
+      "checksum": "c26a35a2c9ba9074ad33cf27a5afbd05536978518c546552df21d512b07a273d"
+    },
+    {
+      "name": "PoorDS4-stop",
+      "filename": "PoorDS4-stop_v0.1.0-rc38.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_utility/PoorDS4/v0.1.0-rc38/PoorDS4-stop_v0.1.0-rc38.elf",
+      "description": "PoorDS4 lets a wireless DualShock 4 paired with a jailbroken PS5.",
+      "version": "v0.1.0-rc38",
+      "category": "PS5 Utility",
+      "checksum": "bf9f1dec35edcffe3744fbc69cb7d4601f6df3cef72fab36c38fd249e736107a"
+    },
+    {
       "name": "PS_Game_State_Lib",
       "filename": "PS_Game_State_Lib_v0.1.elf",
       "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_utility/PS_Game_State_Lib/v0.1/PS_Game_State_Lib_v0.1.elf",
