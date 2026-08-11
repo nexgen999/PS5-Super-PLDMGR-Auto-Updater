@@ -46,22 +46,21 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 | Application | Version | Empreinte SHA-256 | Description |
 | :--- | :--- | :--- | :--- |
 | **ps5-fan-control** | [v0.3](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_fan/ps5-fan-control/v0.3/ps5-fan-control_v0.3.elf) | `b10b6b9b9c...` | Small PS5 daemon payload ELF that sets the system fan temperature. |
-| **fan_target_85c** | [0.1](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_fan/fan_target/0.1/fan_target_85c_v0.1.elf) | `c37019c351...` | fan_target keeps the PS5 fan controller at a selected target temperature while leaving the console's automatic fan control enabled. |
 | **fan_target_75c** | [0.1](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_fan/fan_target/0.1/fan_target_75c_v0.1.elf) | `4b52e09c48...` | fan_target keeps the PS5 fan controller at a selected target temperature while leaving the console's automatic fan control enabled. |
+| **fan_target_85c** | [0.1](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_fan/fan_target/0.1/fan_target_85c_v0.1.elf) | `c37019c351...` | fan_target keeps the PS5 fan controller at a selected target temperature while leaving the console's automatic fan control enabled. |
 | **fan_target_80c** | [0.1](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_fan/fan_target/0.1/fan_target_80c_v0.1.elf) | `ccf2e70921...` | fan_target keeps the PS5 fan controller at a selected target temperature while leaving the console's automatic fan control enabled. |
-| **fan_target_70c** | [0.1](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_fan/fan_target/0.1/fan_target_70c_v0.1.elf) | `a9ad850212...` | fan_target keeps the PS5 fan controller at a selected target temperature while leaving the console's automatic fan control enabled. |
 | **fan_target_65c** | [0.1](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_fan/fan_target/0.1/fan_target_65c_v0.1.elf) | `0bedeb5649...` | fan_target keeps the PS5 fan controller at a selected target temperature while leaving the console's automatic fan control enabled. |
+| **fan_target_70c** | [0.1](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_fan/fan_target/0.1/fan_target_70c_v0.1.elf) | `a9ad850212...` | fan_target keeps the PS5 fan controller at a selected target temperature while leaving the console's automatic fan control enabled. |
 
 ### 📂 PS5 File Explorer
 📂 **Fichier JSON Dédié :** `https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/json/ps5_file_explorer.json`
 
 | Application | Version | Empreinte SHA-256 | Description |
 | :--- | :--- | :--- | :--- |
-| **bfpilot-launcher-installer** | [v0.4.3](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_file_explorer/BFpilot/v0.4.3/bfpilot-launcher-installer_v0.4.3.elf) | `c79f65be42...` | BFpilot is a lightweight PS5 payload that serves a browser-based file manager. |
-| **bfpilot** | [v0.4.3](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_file_explorer/BFpilot/v0.4.3/bfpilot_v0.4.3.elf) | `e2ca0a948f...` | BFpilot is a lightweight PS5 payload that serves a browser-based file manager. |
+| **bfpilot** | [v0.4.4](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_file_explorer/BFpilot/v0.4.4/bfpilot_v0.4.4.elf) | `5a82376302...` | BFpilot is a lightweight PS5 payload that serves a browser-based file manager. |
 | **lapy_jb_daemon** | [Source-Fixe](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_file_explorer/Lapy_JB_Daemon/Source-Fixe/lapy_jb_daemon.elf) | `e8230ac459...` | Daemon pour le jailbreak de Lapy |
-| **ps5-web-file-manager** | [v1.3](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_file_explorer/ps5-web-file-manager/v1.3/ps5-web-file-manager_v1.3.elf) | `02e85cc184...` | PS5 Web File Manager http://your-ps5-ip:8888. |
-| **PS5-File-Explorer** | [file-explorer-v0.2.1](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_file_explorer/PS5-File-Explorer/file-explorer-v0.2.1/PS5-File-Explorer_vfile-explorer-v0.2.1.elf) | `1013c23b12...` | PS5 File Explorer http://your-ps5-ip:5905. |
+| **ps5-web-file-manager** | [v1.4](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_file_explorer/ps5-web-file-manager/v1.4/ps5-web-file-manager_v1.4.elf) | `1f44ff7190...` | PS5 Web File Manager http://your-ps5-ip:8888. |
+| **PS5-File-Explorer** | [file-explorer-v0.2.1](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_file_explorer/PS5-File-Explorer/file-explorer-v0.2.1/PS5-File-Explorer_vfile-explorer-v0.2.1.elf) | `6d4b905b42...` | PS5 File Explorer http://your-ps5-ip:5905. |
 
 ### 💾 PS5 Freeshop
 📂 **Fichier JSON Dédié :** `https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/json/ps5_freeshop.json`
@@ -125,16 +124,16 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 | :--- | :--- | :--- | :--- |
 | **ps5debug-NG** | [1.3.0](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/ps5debug-NG/1.3.0/ps5debug-NG_v1.3.0.elf) | `8f75fb90b4...` | Next generation debugger payload for PS5. |
 | **ps5-fw-spoof** | [26616621599](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/ps5-fw-spoof/26616621599/ps5-fw-spoof_v26616621599.elf) | `f1754521ca...` | Firmware spoofer utility for PS5. |
+| **ps5-self-pager-game** | [v1.2](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/ps5-self-pager/v1.2/ps5-self-pager-game_v1.2.elf) | `73d94fea5d...` | SELF pager payload tool. |
+| **ps5-self-pager-system-common-lib** | [v1.2](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/ps5-self-pager/v1.2/ps5-self-pager-system-common-lib_v1.2.elf) | `a86c3e69ed...` | SELF pager payload tool. |
 | **ps5-self-pager-shellcore** | [v1.2](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/ps5-self-pager/v1.2/ps5-self-pager-shellcore_v1.2.elf) | `2b500bc356...` | SELF pager payload tool. |
 | **ps5-self-pager-full-system** | [v1.2](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/ps5-self-pager/v1.2/ps5-self-pager-full-system_v1.2.elf) | `fb498d4112...` | SELF pager payload tool. |
-| **ps5-self-pager-system-common-lib** | [v1.2](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/ps5-self-pager/v1.2/ps5-self-pager-system-common-lib_v1.2.elf) | `a86c3e69ed...` | SELF pager payload tool. |
-| **ps5-self-pager-game** | [v1.2](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/ps5-self-pager/v1.2/ps5-self-pager-game_v1.2.elf) | `73d94fea5d...` | SELF pager payload tool. |
 | **ps5-self-decrypter-shellcore** | [v0.5.2](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/PS5-SELF-Decrypter/v0.5.2/ps5-self-decrypter-shellcore_v0.5.2.elf) | `15050c691c...` | SELF decrypter tool for PS5 binaries. |
-| **ps5-self-decrypter-game** | [v0.5.2](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/PS5-SELF-Decrypter/v0.5.2/ps5-self-decrypter-game_v0.5.2.elf) | `190b350759...` | SELF decrypter tool for PS5 binaries. |
 | **ps5-self-decrypter-system-common-lib** | [v0.5.2](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/PS5-SELF-Decrypter/v0.5.2/ps5-self-decrypter-system-common-lib_v0.5.2.elf) | `6a16c6457c...` | SELF decrypter tool for PS5 binaries. |
 | **ps5-self-decrypter-full-system** | [v0.5.2](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/PS5-SELF-Decrypter/v0.5.2/ps5-self-decrypter-full-system_v0.5.2.elf) | `46340d3048...` | SELF decrypter tool for PS5 binaries. |
+| **ps5-self-decrypter-game** | [v0.5.2](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/PS5-SELF-Decrypter/v0.5.2/ps5-self-decrypter-game_v0.5.2.elf) | `190b350759...` | SELF decrypter tool for PS5 binaries. |
 | **ps5-remoteplay-get-pin** | [v0.1.1](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/ps5-remoteplay-get-pin/v0.1.1/ps5-remoteplay-get-pin_v0.1.1.elf) | `1d611c1856...` | Utility to get Remote Play PIN. |
-| **MemDBG** | [nightly-20260809-g1a859d3](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/MemDBG/nightly-20260809-g1a859d3/MemDBG_vnightly-20260809-g1a859d3.elf) | `4eb2cb2fb8...` | Memory debugging and inspection suite. |
+| **MemDBG** | [nightly-20260811-gfc5e19c](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/MemDBG/nightly-20260811-gfc5e19c/MemDBG_vnightly-20260811-gfc5e19c.elf) | `c43e062e63...` | Memory debugging and inspection suite. |
 | **hwinfo_bench** | [0.1](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/ps5-hwinfo/0.1/hwinfo_bench_v0.1.elf) | `4514bdbc0c...` | PS5 payload for collecting hardware and runtime telemetry. |
 | **hwinfo_sysinfo** | [0.1](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/ps5-hwinfo/0.1/hwinfo_sysinfo_v0.1.elf) | `ad5014112d...` | PS5 payload for collecting hardware and runtime telemetry. |
 
@@ -144,11 +143,11 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 | Application | Version | Empreinte SHA-256 | Description |
 | :--- | :--- | :--- | :--- |
 | **zftp** | [v1.5.0](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/zftpd/v1.5.0/zftp_v1.5.0.bin) | `f430dc1fde...` | FTP server payload for PS5. Port: 21 |
-| **zhttp** | [v1.5.0](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/zftpd/v1.5.0/zhttp_v1.5.0.elf) | `6cf6a73811...` | FTP server payload for PS5. Port: 21 |
-| **zhttp** | [v1.5.0](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/zftpd/v1.5.0/zhttp_v1.5.0.bin) | `9340aa91f8...` | FTP server payload for PS5. Port: 21 |
 | **zftp** | [v1.5.0](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/zftpd/v1.5.0/zftp_v1.5.0.elf) | `68a80e1cb4...` | FTP server payload for PS5. Port: 21 |
+| **zhttp** | [v1.5.0](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/zftpd/v1.5.0/zhttp_v1.5.0.bin) | `9340aa91f8...` | FTP server payload for PS5. Port: 21 |
+| **zhttp** | [v1.5.0](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/zftpd/v1.5.0/zhttp_v1.5.0.elf) | `6cf6a73811...` | FTP server payload for PS5. Port: 21 |
 | **elfldr** | [v0.24](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/elfldr/v0.24/elfldr_v0.24.elf) | `e23313367c...` | ELF Loader utility. Port: 9020 / 9021 |
-| **ftpsrv_ps5-payload** | [v0.21](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ftpsrv_ps5-payload/v0.21/ftpsrv_ps5-payload_v0.21.elf) | `c580f0534a...` | FTP server background daemon. Port: 21 |
+| **ftpsrv_ps5-payload** | [v0.21](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ftpsrv_ps5-payload/v0.21/ftpsrv_ps5-payload_v0.21.elf) | `f86aed1194...` | FTP server background daemon. Port: 21 |
 | **websrv** | [v0.34](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/websrv/v0.34/websrv_v0.34.elf) | `54730c867c...` | HTTP Web server payload. Port: 8080 |
 | **gdbsrv** | [v0.9](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/gdbsrv/v0.9/gdbsrv_v0.9.elf) | `80952d75f4...` | GDB Debugger server payload. Port: 1234 |
 | **klogsrv** | [v0.9](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/klogsrv/v0.9/klogsrv_v0.9.elf) | `e828ec1442...` | Kernel log server daemon. Port: 3232 |
@@ -179,16 +178,16 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 | **ChronicLoader-PS5-Payload** | [0.1](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_utility/ChronicLoader-PS5-Payload/0.1/ChronicLoader-PS5-Payload_v0.1.elf) | `3561120f85...` | ChronicLoader utility payload for PS5. |
 | **Ghostpad** | [v1.0.0](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_utility/Ghostpad/v1.0.0/Ghostpad_v1.0.0.elf) | `94d43a8db7...` | Ghostpad controller input utility. |
 | **Ghostcontrol-PS5-USB-Controller-Patcher** | [1.0.5](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_utility/Ghostcontrol-PS5-USB-Controller-Patcher/1.0.5/Ghostcontrol-PS5-USB-Controller-Patcher_v1.0.5.elf) | `69271d91f2...` | USB Controller patcher tool for PS5. |
+| **PoorDS4-status** | [v0.1.0-rc38](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_utility/PoorDS4/v0.1.0-rc38/PoorDS4-status_v0.1.0-rc38.elf) | `c26a35a2c9...` | PoorDS4 lets a wireless DualShock 4 paired with a jailbroken PS5. |
 | **PoorDS4-stop** | [v0.1.0-rc38](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_utility/PoorDS4/v0.1.0-rc38/PoorDS4-stop_v0.1.0-rc38.elf) | `bf9f1dec35...` | PoorDS4 lets a wireless DualShock 4 paired with a jailbroken PS5. |
 | **PoorDS4rc38** | [v0.1.0-rc38](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_utility/PoorDS4/v0.1.0-rc38/PoorDS4rc38_v0.1.0-rc38.elf) | `62d21fe837...` | PoorDS4 lets a wireless DualShock 4 paired with a jailbroken PS5. |
-| **PoorDS4-status** | [v0.1.0-rc38](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_utility/PoorDS4/v0.1.0-rc38/PoorDS4-status_v0.1.0-rc38.elf) | `c26a35a2c9...` | PoorDS4 lets a wireless DualShock 4 paired with a jailbroken PS5. |
 | **PS_Game_State_Lib** | [v0.1](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_utility/PS_Game_State_Lib/v0.1/PS_Game_State_Lib_v0.1.elf) | `a550e1494b...` | Standalone PS5 game-state detection payload - webui ps5ip:9877 . |
 | **PS-DiscordPresence** | [v0.01](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_utility/PS-DiscordPresence/v0.01/PS-DiscordPresence_v0.01.elf) | `375cf619ea...` | PS5 game activity service with a local status endpoint and a Python Discord RPC bridge. |
 | **unrar-ps5** | [v1.4.0](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_utility/unrar-ps5/v1.4.0/unrar-ps5_v1.4.0.elf) | `2ef04b0bc8...` | PS5 ELF payload for extracting RAR and 7z archives on a jailbroken PS5 and installing extracted apps into a configurable layout.. |
 | **ps5power-reboot** | [1.0](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_utility/PS5-Power-Payloads-Project/1.0/ps5power-reboot_v1.0.elf) | `3614f68981...` | PS5-Power-Payloads-Project utility. |
-| **ps5power-suspend** | [1.0](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_utility/PS5-Power-Payloads-Project/1.0/ps5power-suspend_v1.0.elf) | `1a36a01c92...` | PS5-Power-Payloads-Project utility. |
 | **ps5power-poweroff** | [1.0](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_utility/PS5-Power-Payloads-Project/1.0/ps5power-poweroff_v1.0.elf) | `42ed798361...` | PS5-Power-Payloads-Project utility. |
 | **ps5power-notify_test** | [1.0](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_utility/PS5-Power-Payloads-Project/1.0/ps5power-notify_test_v1.0.elf) | `a06cf9ace6...` | PS5-Power-Payloads-Project utility. |
+| **ps5power-suspend** | [1.0](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_utility/PS5-Power-Payloads-Project/1.0/ps5power-suspend_v1.0.elf) | `1a36a01c92...` | PS5-Power-Payloads-Project utility. |
 
 ### 📦 PS5 Video Player
 📂 **Fichier JSON Dédié :** `https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/json/ps5_video_player.json`
