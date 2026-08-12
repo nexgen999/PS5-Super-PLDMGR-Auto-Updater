@@ -12,12 +12,12 @@
     },
     {
       "name": "kstuff-lite_EchoStretch",
-      "filename": "kstuff-lite_EchoStretch_v1.09.elf",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_kstuff/kstuff-lite_EchoStretch/v1.09/kstuff-lite_EchoStretch_v1.09.elf",
+      "filename": "kstuff-lite_EchoStretch_v1.10.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_kstuff/kstuff-lite_EchoStretch/v1.10/kstuff-lite_EchoStretch_v1.10.elf",
       "description": "Lightweight version of kstuff.",
-      "version": "v1.09",
+      "version": "v1.10",
       "category": "PS5 Kstuff",
-      "checksum": "ec5212794dc6e44ee8e70fd0549abec6d3dac8c3e03ddbeafd9f869ffe97d4e8"
+      "checksum": "b1dfe57f367a35374f605127915eda38c76a6ed5d1c729e427955798bd78c66a"
     },
     {
       "name": "kstuff-lite_drakmor",
