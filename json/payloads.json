@@ -633,12 +633,12 @@
     },
     {
       "name": "webkit-autoloader-installer",
-      "filename": "webkit-autoloader-installer_v0.1.1.elf",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5-webkit-autoloader/ps5-webkit-autoloader/v0.1.1/webkit-autoloader-installer_v0.1.1.elf",
+      "filename": "webkit-autoloader-installer_v0.2.0.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5-webkit-autoloader/ps5-webkit-autoloader/v0.2.0/webkit-autoloader-installer_v0.2.0.elf",
       "description": "Installs WebKit Autoloader on homescreen for firmwares 9.00-12.00.",
-      "version": "v0.1.1",
+      "version": "v0.2.0",
       "category": "Ps5-Webkit-Autoloader",
-      "checksum": "162892ca3d6ae9b89764fa6447401b94e62148b21855a9b971b41458955accc1"
+      "checksum": "a477483c523b15fea00216f5f1b4a06a50414f47ab065ffd5823ca6b89776117"
     },
     {
       "name": "BFplayer-standalone",
