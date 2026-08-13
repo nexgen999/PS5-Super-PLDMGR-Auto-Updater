@@ -309,12 +309,12 @@
     },
     {
       "name": "webkit-autoloader-installer",
-      "filename": "webkit-autoloader-installer_v0.2.2-pre-e1b7e6b.elf",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5-webkit-autoloader/ps5-webkit-autoloader/v0.2.2-pre-e1b7e6b/webkit-autoloader-installer_v0.2.2-pre-e1b7e6b.elf",
+      "filename": "webkit-autoloader-installer_v0.2.3-pre-ed88da6.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5-webkit-autoloader/ps5-webkit-autoloader/v0.2.3-pre-ed88da6/webkit-autoloader-installer_v0.2.3-pre-ed88da6.elf",
       "description": "Installs WebKit Autoloader on homescreen for firmwares 9.00-12.00.",
-      "version": "v0.2.2-pre-e1b7e6b",
+      "version": "v0.2.3-pre-ed88da6",
       "category": "Ps5-Webkit-Autoloader",
-      "checksum": "dfd0d0353b46eff01968bf00df0998ef49a829690d74642d0790208d1ca53064"
+      "checksum": "696ed27a7f49e07c5e1cca88eab03b327fe16a888d9247cc8de2702943521735"
     },
     {
       "name": "garlic-savemgr",

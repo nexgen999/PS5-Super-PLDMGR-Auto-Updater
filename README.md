@@ -37,7 +37,7 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 
 | Application | Version | Empreinte SHA-256 | Description |
 | :--- | :--- | :--- | :--- |
-| **webkit-autoloader-installer** | [v0.2.2-pre-e1b7e6b](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5-webkit-autoloader/ps5-webkit-autoloader/v0.2.2-pre-e1b7e6b/webkit-autoloader-installer_v0.2.2-pre-e1b7e6b.elf) | `dfd0d0353b...` | Installs WebKit Autoloader on homescreen for firmwares 9.00-12.00. |
+| **webkit-autoloader-installer** | [v0.2.3-pre-ed88da6](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5-webkit-autoloader/ps5-webkit-autoloader/v0.2.3-pre-ed88da6/webkit-autoloader-installer_v0.2.3-pre-ed88da6.elf) | `696ed27a7f...` | Installs WebKit Autoloader on homescreen for firmwares 9.00-12.00. |
 
 ### 🌐 PS5 Dns
 📂 **Fichier JSON Dédié :** `https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/json/ps5_dns.json`

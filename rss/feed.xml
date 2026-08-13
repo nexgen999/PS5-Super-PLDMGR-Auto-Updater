@@ -175,9 +175,9 @@
       <description>PS5-Power-Payloads-Project utility. - Checksum: 1a36a01c92cd73fc89645ce73e3f33c71979b5b677c92b6f4c26d269e3f9a2c1</description>
     </item>
     <item>
-      <title>webkit-autoloader-installer (v0.2.2-pre-e1b7e6b)</title>
-      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5-webkit-autoloader/ps5-webkit-autoloader/v0.2.2-pre-e1b7e6b/webkit-autoloader-installer_v0.2.2-pre-e1b7e6b.elf</link>
-      <description>Installs WebKit Autoloader on homescreen for firmwares 9.00-12.00. - Checksum: dfd0d0353b46eff01968bf00df0998ef49a829690d74642d0790208d1ca53064</description>
+      <title>webkit-autoloader-installer (v0.2.3-pre-ed88da6)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5-webkit-autoloader/ps5-webkit-autoloader/v0.2.3-pre-ed88da6/webkit-autoloader-installer_v0.2.3-pre-ed88da6.elf</link>
+      <description>Installs WebKit Autoloader on homescreen for firmwares 9.00-12.00. - Checksum: 696ed27a7f49e07c5e1cca88eab03b327fe16a888d9247cc8de2702943521735</description>
     </item>
     <item>
       <title>garlic-savemgr (v1.12)</title>
