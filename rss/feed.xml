@@ -175,9 +175,9 @@
       <description>PS5-Power-Payloads-Project utility. - Checksum: 1a36a01c92cd73fc89645ce73e3f33c71979b5b677c92b6f4c26d269e3f9a2c1</description>
     </item>
     <item>
-      <title>webkit-autoloader-installer (v0.3.0-pre-5d50af6)</title>
-      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5-webkit-autoloader/ps5-webkit-autoloader/v0.3.0-pre-5d50af6/webkit-autoloader-installer_v0.3.0-pre-5d50af6.elf</link>
-      <description>Installs WebKit Autoloader on homescreen for firmwares 9.00-12.00. - Checksum: c0ac06f8d3f8940b44c7c1d0db7631f1f73258276688d22e49f569363bccf88b</description>
+      <title>webkit-autoloader-installer (v0.3.0-pre-1378d31)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5-webkit-autoloader/ps5-webkit-autoloader/v0.3.0-pre-1378d31/webkit-autoloader-installer_v0.3.0-pre-1378d31.elf</link>
+      <description>Installs WebKit Autoloader on homescreen for firmwares 9.00-12.00. - Checksum: cab835d346004ecbb345b56250140ef8a3402d9935fcd86c3d39acfdd6174f39</description>
     </item>
     <item>
       <title>garlic-savemgr (v1.12)</title>
@@ -390,9 +390,9 @@
       <description>Utility to get Remote Play PIN. - Checksum: 1d611c1856dd2f4b4b6cb42ead1128a7f08a26585788f92de79fa4f67d721472</description>
     </item>
     <item>
-      <title>MemDBG (nightly-20260811-gc49fa7c)</title>
-      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/MemDBG/nightly-20260811-gc49fa7c/MemDBG_vnightly-20260811-gc49fa7c.elf</link>
-      <description>Memory debugging and inspection suite. - Checksum: 55c6ab2460f9059e19a759ea07a0d8b5daac146b986cd3c3cde495e45815b645</description>
+      <title>MemDBG (nightly-20260813-gb9f5e03)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/MemDBG/nightly-20260813-gb9f5e03/MemDBG_vnightly-20260813-gb9f5e03.elf</link>
+      <description>Memory debugging and inspection suite. - Checksum: 7b590aaaf27018c33e254838769dd5d9e4b84b4f2b755464ac24cc059851a227</description>
     </item>
     <item>
       <title>hwinfo_bench (0.1)</title>

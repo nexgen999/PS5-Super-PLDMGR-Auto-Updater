@@ -309,12 +309,12 @@
     },
     {
       "name": "webkit-autoloader-installer",
-      "filename": "webkit-autoloader-installer_v0.3.0-pre-5d50af6.elf",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5-webkit-autoloader/ps5-webkit-autoloader/v0.3.0-pre-5d50af6/webkit-autoloader-installer_v0.3.0-pre-5d50af6.elf",
+      "filename": "webkit-autoloader-installer_v0.3.0-pre-1378d31.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5-webkit-autoloader/ps5-webkit-autoloader/v0.3.0-pre-1378d31/webkit-autoloader-installer_v0.3.0-pre-1378d31.elf",
       "description": "Installs WebKit Autoloader on homescreen for firmwares 9.00-12.00.",
-      "version": "v0.3.0-pre-5d50af6",
+      "version": "v0.3.0-pre-1378d31",
       "category": "Ps5-Webkit-Autoloader",
-      "checksum": "c0ac06f8d3f8940b44c7c1d0db7631f1f73258276688d22e49f569363bccf88b"
+      "checksum": "cab835d346004ecbb345b56250140ef8a3402d9935fcd86c3d39acfdd6174f39"
     },
     {
       "name": "garlic-savemgr",
@@ -696,12 +696,12 @@
     },
     {
       "name": "MemDBG",
-      "filename": "MemDBG_vnightly-20260811-gc49fa7c.elf",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/MemDBG/nightly-20260811-gc49fa7c/MemDBG_vnightly-20260811-gc49fa7c.elf",
+      "filename": "MemDBG_vnightly-20260813-gb9f5e03.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/MemDBG/nightly-20260813-gb9f5e03/MemDBG_vnightly-20260813-gb9f5e03.elf",
       "description": "Memory debugging and inspection suite.",
-      "version": "nightly-20260811-gc49fa7c",
+      "version": "nightly-20260813-gb9f5e03",
       "category": "PS5 Sdk Debug",
-      "checksum": "55c6ab2460f9059e19a759ea07a0d8b5daac146b986cd3c3cde495e45815b645"
+      "checksum": "7b590aaaf27018c33e254838769dd5d9e4b84b4f2b755464ac24cc059851a227"
     },
     {
       "name": "hwinfo_bench",
