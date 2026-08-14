@@ -3,12 +3,12 @@
   "payloads": [
     {
       "name": "webkit-autoloader-installer",
-      "filename": "webkit-autoloader-installer_v0.3.0-pre-1378d31.elf",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5-webkit-autoloader/ps5-webkit-autoloader/v0.3.0-pre-1378d31/webkit-autoloader-installer_v0.3.0-pre-1378d31.elf",
+      "filename": "webkit-autoloader-installer_v0.3.0-pre-eeb555e.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5-webkit-autoloader/ps5-webkit-autoloader/v0.3.0-pre-eeb555e/webkit-autoloader-installer_v0.3.0-pre-eeb555e.elf",
       "description": "Installs WebKit Autoloader on homescreen for firmwares 9.00-12.00.",
-      "version": "v0.3.0-pre-1378d31",
+      "version": "v0.3.0-pre-eeb555e",
       "category": "Ps5-Webkit-Autoloader",
-      "checksum": "cab835d346004ecbb345b56250140ef8a3402d9935fcd86c3d39acfdd6174f39"
+      "checksum": "54015627833475275378706fe582a7a9f6c7436abf1b48033b79a754e8015ad9"
     }
   ]
 }
