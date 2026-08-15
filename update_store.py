@@ -411,7 +411,7 @@ CATEGORY_ICONS = {
     "ps5_utility": "🛠️"
 }
 
-print("📝 Génération du README.md personnalisé avec icônes officielles...")
+print("📝 Génération du README.md personnalisé...")
 with open("README.md", "w", encoding="utf-8") as r_file:
     repo_name = os.environ.get('GITHUB_REPOSITORY', 'PS5-Super-PLDMGR-Auto-Updater').split('/')[-1]
     
@@ -419,8 +419,12 @@ with open("README.md", "w", encoding="utf-8") as r_file:
     r_file.write("# 🎮 PS5 Payload Manager & Mini-Store\n\n")
     r_file.write("Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !\n\n")
     
+    r_file.write(f"🌐 **Site Web Vitrine :** [Visiter le site PS5 Super PLDMGR Auto Updater](https://nexgen999.github.io/{repo_name}/index.html)\n\n")
+    
     r_file.write("> 💡 **Configuration du Store sur l'application PS5 :** Pour connecter votre console, ajoutez le fichier central **`payloads.json`** :\n")
     r_file.write(f"> `https://nexgen999.github.io/{repo_name}/json/payloads.json`\n\n")
+    
+    r_file.write(f"📦 **Package AIO Offline (Dernières versions ELF) :** [Télécharger le package AIO Latest (.zip)](https://github.com/nexgen999/{repo_name}/releases/latest/download/ps5_super_pldmgr_auto_updated_offline.aio_latest.zip)\n\n")
     r_file.write("---\n\n")
     
     r_file.write("## 📱 Flux RSS & Alertes\n")
