@@ -41,7 +41,7 @@ jobs:
         env:
           GITHUB_REPOSITORY: ${{ github.repository }}
 
-      - name: 4. Publication de la Release GitHub (Horodatée & Latest)
+- name: 4. Publication de la Release GitHub (Horodatée & Latest)
         run: |
           if [ -f "release_notes.md" ]; then
             gh release create "v${{ env.AIO_TAG }}" \
@@ -49,7 +49,7 @@ jobs:
               "ps5_super_pldmgr_auto_updated_offline.aio_latest.zip" \
               --title "AIO Package v${{ env.AIO_TAG }}" \
               --notes-file release_notes.md \
-              --clobber
+              --latest
           fi
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
