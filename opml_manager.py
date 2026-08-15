@@ -2,9 +2,8 @@ import os
 import xml.etree.ElementTree as ET
 from xml.dom import minidom
 import customtkinter as ctk
-from tkinter import messagebox, filedialog
+from tkinter import messagebox
 
-# Configuration du thème CustomTkinter (Thème Sombre / Bleu)
 ctk.set_appearance_mode("Dark")
 ctk.set_default_color_theme("blue")
 
@@ -15,18 +14,18 @@ class OPMLManagerApp(ctk.CTk):
         super().__init__()
 
         self.title("PS5 Store - OPML Feed Manager")
-        self.geometry("900 x 600")
+        self.geometry("1050 x 680")
 
         self.current_file_path = None
-        self.entries_data = []  # Liste de dictionnaires pour stocker les outlines
+        self.entries_data = []
+        self.editing_index = None
 
-        # Structure du Layout (2 Colonnes)
         self.grid_columnconfigure(0, weight=1)
-        self.grid_columnconfigure(1, weight=2)
+        self.grid_columnconfigure(1, weight=3)
         self.grid_rowconfigure(0, weight=1)
 
-        # --- Sidebar (Gauche) : Fichiers OPML ---
-        self.sidebar_frame = ctk.CTkFrame(self, width=250, corner_radius=0)
+        # --- Sidebar (Gauche) ---
+        self.sidebar_frame = ctk.CTkFrame(self, width=260, corner_radius=0)
         self.sidebar_frame.grid(row=0, column=0, sticky="nsew", padx=10, pady=10)
 
         self.lbl_files = ctk.CTkLabel(self.sidebar_frame, text="📁 Catégories (OPML)", font=ctk.CTkFont(size=16, weight="bold"))
@@ -41,16 +40,15 @@ class OPMLManagerApp(ctk.CTk):
         self.files_scrollable = ctk.CTkScrollableFrame(self.sidebar_frame, label_text="Fichiers disponibles")
         self.files_scrollable.pack(padx=10, pady=10, fill="both", expand=True)
 
-        # --- Main Content (Droite) : Éditeur ---
+        # --- Content Area (Droite) ---
         self.main_frame = ctk.CTkFrame(self)
         self.main_frame.grid(row=0, column=1, sticky="nsew", padx=10, pady=10)
         self.main_frame.grid_columnconfigure(1, weight=1)
 
-        # Titre Fichier Actif
         self.lbl_active_file = ctk.CTkLabel(self.main_frame, text="Sélectionnez un fichier .opml", font=ctk.CTkFont(size=18, weight="bold"))
         self.lbl_active_file.grid(row=0, column=0, columnspan=2, padx=15, pady=10, sticky="w")
 
-        # Formulaire d'ajout / modification
+        # Formulaire
         self.form_frame = ctk.CTkFrame(self.main_frame)
         self.form_frame.grid(row=1, column=0, columnspan=2, padx=15, pady=5, sticky="ew")
         self.form_frame.grid_columnconfigure(1, weight=1)
@@ -67,24 +65,21 @@ class OPMLManagerApp(ctk.CTk):
         self.entry_desc = ctk.CTkEntry(self.form_frame, placeholder_text="ex: Dumper de jeux et apps PS5")
         self.entry_desc.grid(row=2, column=1, padx=10, pady=5, sticky="ew")
 
-        # Boutons Formulaire
-        self.btn_add_entry = ctk.CTkButton(self.form_frame, text="➕ Ajouter au fichier", command=self.add_entry)
-        self.btn_add_entry.grid(row=3, column=1, padx=10, pady=10, sticky="e")
+        self.btn_action = ctk.CTkButton(self.form_frame, text="➕ Ajouter au fichier", command=self.add_or_update_entry)
+        self.btn_action.grid(row=3, column=1, padx=10, pady=10, sticky="e")
 
-        # Liste des dépôts dans le fichier
-        self.entries_scrollable = ctk.CTkScrollableFrame(self.main_frame, label_text="Dépôts inclus dans ce fichier")
+        # Liste des éléments
+        self.entries_scrollable = ctk.CTkScrollableFrame(self.main_frame, label_text="Dépôts inclus")
         self.entries_scrollable.grid(row=2, column=0, columnspan=2, padx=15, pady=10, sticky="nsew")
         self.main_frame.grid_rowconfigure(2, weight=1)
 
-        # Bouton Enregistrer
+        # Enregistrer
         self.btn_save = ctk.CTkButton(self.main_frame, text="💾 Enregistrer les modifications", fg_color="#1da1f2", hover_color="#1a91da", font=ctk.CTkFont(weight="bold"), command=self.save_opml)
         self.btn_save.grid(row=3, column=0, columnspan=2, padx=15, pady=10, sticky="ew")
 
-        # Charger la liste initiale
         self.load_opml_files()
 
     def load_opml_files(self):
-        # Nettoyer les boutons de fichiers existants
         for widget in self.files_scrollable.winfo_children():
             widget.destroy()
 
@@ -104,7 +99,6 @@ class OPMLManagerApp(ctk.CTk):
                 name += ".opml"
             file_path = os.path.join(FEED_DIR, name)
             if not os.path.exists(file_path):
-                # Créer une structure XML minimale
                 root = ET.Element("opml", version="2.0")
                 head = ET.SubElement(root, "head")
                 ET.SubElement(head, "title").text = name.replace(".opml", "").title()
@@ -119,8 +113,8 @@ class OPMLManagerApp(ctk.CTk):
 
     def open_opml_file(self, filename):
         self.current_file_path = os.path.join(FEED_DIR, filename)
-        self.lbl_active_file.configure(text=f"Édition : {filename}")
         self.entries_data.clear()
+        self.reset_form()
 
         try:
             tree = ET.parse(self.current_file_path)
@@ -128,12 +122,17 @@ class OPMLManagerApp(ctk.CTk):
             body = root.find("body")
 
             if body is not None:
-                for outline in body.findall("outline"):
-                    title = outline.attrib.get("text", outline.attrib.get("title", ""))
-                    url = outline.attrib.get("xmlUrl", outline.attrib.get("htmlUrl", ""))
+                # Parcours RECURSIF de toutes les balises <outline>
+                for outline in body.iter("outline"):
+                    title = outline.attrib.get("text") or outline.attrib.get("title", "")
+                    url = outline.attrib.get("xmlUrl") or outline.attrib.get("htmlUrl", "")
                     desc = outline.attrib.get("description", "")
-                    self.entries_data.append({"title": title, "url": url, "description": desc})
+                    
+                    # On évite d'ajouter les balises dossiers/catégories qui n'ont pas d'URL
+                    if url or title:
+                        self.entries_data.append({"title": title, "url": url, "description": desc})
 
+            self.lbl_active_file.configure(text=f"Édition : {filename} ({len(self.entries_data)} dépôts)")
             self.render_entries()
         except Exception as e:
             messagebox.showerror("Erreur", f"Impossible de lire le fichier OPML : {e}")
@@ -147,14 +146,24 @@ class OPMLManagerApp(ctk.CTk):
             card.pack(padx=5, pady=5, fill="x")
             card.grid_columnconfigure(0, weight=1)
 
-            info_text = f"🔹 {item['title']}\n🔗 {item['url']}\n📝 {item['description']}"
-            lbl = ctk.CTkLabel(card, text=info_text, justify="left", anchor="w")
+            title_str = item['title'] if item['title'] else "Sans Titre"
+            url_str = item['url'] if item['url'] else "Pas d'URL définie"
+            desc_str = f" | {item['description']}" if item['description'] else ""
+
+            info_text = f"🔹 {title_str}\n🔗 {url_str}{desc_str}"
+            lbl = ctk.CTkLabel(card, text=info_text, justify="left", anchor="w", wraplength=600)
             lbl.grid(row=0, column=0, padx=10, pady=8, sticky="w")
 
-            btn_del = ctk.CTkButton(card, text="🗑️", width=40, fg_color="#d32f2f", hover_color="#9a0007", command=lambda i=idx: self.delete_entry(i))
-            btn_del.grid(row=0, column=1, padx=10, pady=8)
+            actions_frame = ctk.CTkFrame(card, fg_color="transparent")
+            actions_frame.grid(row=0, column=1, padx=10, pady=8, sticky="e")
 
-    def add_entry(self):
+            btn_edit = ctk.CTkButton(actions_frame, text="✏️", width=35, command=lambda i=idx: self.edit_entry(i))
+            btn_edit.pack(side="left", padx=2)
+
+            btn_del = ctk.CTkButton(actions_frame, text="🗑️", width=35, fg_color="#d32f2f", hover_color="#9a0007", command=lambda i=idx: self.delete_entry(i))
+            btn_del.pack(side="left", padx=2)
+
+    def add_or_update_entry(self):
         if not self.current_file_path:
             messagebox.showwarning("Attention", "Veuillez d'abord sélectionner ou créer un fichier .opml.")
             return
@@ -163,20 +172,50 @@ class OPMLManagerApp(ctk.CTk):
         url = self.entry_url.get().strip()
         desc = self.entry_desc.get().strip()
 
-        if not title or not url:
-            messagebox.showwarning("Attention", "Le Titre et l'URL sont obligatoires.")
+        if not title and not url:
+            messagebox.showwarning("Attention", "Veuillez renseigner au moins un Titre ou une URL.")
             return
 
-        self.entries_data.append({"title": title, "url": url, "description": desc})
+        entry_dict = {"title": title, "url": url, "description": desc}
+
+        if self.editing_index is not None:
+            self.entries_data[self.editing_index] = entry_dict
+        else:
+            self.entries_data.append(entry_dict)
+
+        filename = os.path.basename(self.current_file_path)
+        self.lbl_active_file.configure(text=f"Édition : {filename} ({len(self.entries_data)} dépôts)")
+        
+        self.reset_form()
         self.render_entries()
 
-        # Réinitialiser les champs de saisie
+    def edit_entry(self, index):
+        self.editing_index = index
+        item = self.entries_data[index]
+
+        self.entry_title.delete(0, 'end')
+        self.entry_title.insert(0, item['title'])
+
+        self.entry_url.delete(0, 'end')
+        self.entry_url.insert(0, item['url'])
+
+        self.entry_desc.delete(0, 'end')
+        self.entry_desc.insert(0, item['description'])
+
+        self.btn_action.configure(text="🔄 Mettre à jour", fg_color="#e67e22", hover_color="#d35400")
+
+    def reset_form(self):
+        self.editing_index = None
         self.entry_title.delete(0, 'end')
         self.entry_url.delete(0, 'end')
         self.entry_desc.delete(0, 'end')
+        self.btn_action.configure(text="➕ Ajouter au fichier", fg_color="#1f538d", hover_color="#14375e")
 
     def delete_entry(self, index):
         del self.entries_data[index]
+        filename = os.path.basename(self.current_file_path)
+        self.lbl_active_file.configure(text=f"Édition : {filename} ({len(self.entries_data)} dépôts)")
+        self.reset_form()
         self.render_entries()
 
     def save_opml(self):
