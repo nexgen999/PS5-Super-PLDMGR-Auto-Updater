@@ -1,66 +1,93 @@
 import os
 import sys
+import json
 import zipfile
 import datetime
 
+JSON_DIR = "json"
+PAYLOADS_JSON = os.path.join(JSON_DIR, "payloads.json")
 PAYLOADS_ROOT = "payloads"
 RELEASE_NOTES_FILE = "release_notes.md"
 
-def build_aio():
-    if not os.path.exists(PAYLOADS_ROOT):
-        print(f"Erreur: Le dossier {PAYLOADS_ROOT} n'existe pas.")
+def get_latest_elf_paths():
+    """
+    Extrait les chemins des derniers fichiers ELF uniquement à partir du fichier payloads.json
+    """
+    elf_files = []
+
+    if not os.path.exists(PAYLOADS_JSON):
+        print(f"❌ Erreur: Le fichier {PAYLOADS_JSON} n'existe pas.")
         sys.exit(1)
 
+    try:
+        with open(PAYLOADS_JSON, "r", encoding="utf-8") as f:
+            data = json.load(f)
+            payloads = data.get("payloads", [])
+
+            for item in payloads:
+                url = item.get("url", "")
+                if url:
+                    # Extrait le chemin local du fichier depuis l'URL ou le nom relatif
+                    # Exemple d'URL : https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/category/name/v1.0/file.elf
+                    if "/payloads/" in url:
+                        rel_path = url.split("/payloads/")[-1]
+                        full_path = os.path.join(PAYLOADS_ROOT, rel_path)
+                    else:
+                        full_path = url
+
+                    if os.path.exists(full_path):
+                        filename = os.path.basename(full_path)
+                        elf_files.append((full_path, filename, item.get("name"), item.get("version")))
+                    else:
+                        print(f"⚠️ Fichier introuvable sur le disque : {full_path}")
+
+    except Exception as e:
+        print(f"❌ Erreur lors de la lecture de {PAYLOADS_JSON} : {e}")
+        sys.exit(1)
+
+    return elf_files
+
+def build_aio():
     now = datetime.datetime.now()
     tag_timestamp = now.strftime("%d.%m.%Y_%H.%M")
 
     zip_timestamp_name = f"ps5_super_pldmgr_auto_updated_offline.aio_v{tag_timestamp}.zip"
     zip_latest_name = "ps5_super_pldmgr_auto_updated_offline.aio_latest.zip"
 
-    print(f"=== Création des packages AIO avec DERNIÈRES VERSIONS UNIQUEMENT ({tag_timestamp}) ===")
+    print(f"=== Création du package AIO à partir de payloads.json ({tag_timestamp}) ===")
 
-    latest_elf_files = {}
-
-    # Parcourt les sous-dossiers : payloads/categorie/nom_payload/version/fichier.elf
-    for root, _, files in os.walk(PAYLOADS_ROOT):
-        for file in files:
-            if file.lower().endswith('.elf'):
-                full_path = os.path.join(root, file)
-                rel_path = os.path.relpath(full_path, PAYLOADS_ROOT)
-                parts = rel_path.split(os.sep)
-
-                if len(parts) >= 3:
-                    payload_key = f"{parts[0]}/{parts[1]}/{file}"
-                    latest_elf_files[payload_key] = (full_path, file)
-                else:
-                    latest_elf_files[rel_path] = (full_path, file)
-
-    elf_to_pack = list(latest_elf_files.values())
+    elf_to_pack = get_latest_elf_paths()
 
     if not elf_to_pack:
-        print("⚠️ Aucun fichier .elf trouvé dans payloads/.")
+        print("⚠️ Aucun fichier ELF trouvé dans payloads.json.")
         sys.exit(0)
 
+    print(f"📌 {len(elf_to_pack)} payloads uniques (dernières versions) identifiés dans payloads.json.")
+
+    # Création des deux archives ZIP
     for zip_name in [zip_timestamp_name, zip_latest_name]:
         with zipfile.ZipFile(zip_name, 'w', zipfile.ZIP_DEFLATED) as zf:
-            for full_p, filename in elf_to_pack:
+            for full_p, filename, name, ver in elf_to_pack:
+                # Stocke le fichier sous son nom ELF uniquement à la racine du ZIP
                 zf.write(full_p, arcname=filename)
-        print(f"📦 Archive créée : {zip_name} ({len(elf_to_pack)} ELF uniques)")
+        print(f"📦 Archive créée : {zip_name} ({len(elf_to_pack)} ELF)")
 
+    # Génération des Release Notes
     with open(RELEASE_NOTES_FILE, "w", encoding="utf-8") as rn:
         rn.write(f"## 🚀 Release AIO Auto-Updated ({tag_timestamp})\n\n")
-        rn.write("Cette archive contient uniquement la **dernière version** de chaque payload ELF disponible.\n\n")
+        rn.write("Cette archive contient **exclusivement la dernière version** de chaque payload répertorié dans `payloads.json`.\n\n")
         rn.write("### 📦 Payloads inclus dans ce package :\n")
-        for _, filename in sorted(elf_to_pack, key=lambda x: x[1].lower()):
-            rn.write(f"- `{filename}`\n")
+        for _, filename, name, ver in sorted(elf_to_pack, key=lambda x: x[1].lower()):
+            rn.write(f"- `{filename}` — **{name}** ({ver})\n")
 
+    # Mise à jour de l'environnement GitHub Actions si disponible
     github_env = os.environ.get('GITHUB_ENV')
     if github_env:
         with open(github_env, 'a', encoding='utf-8') as f:
             f.write(f"AIO_TAG={tag_timestamp}\n")
             f.write(f"ZIP_TIMESTAMP_NAME={zip_timestamp_name}\n")
 
-    print("=== Packaging AIO terminé ===")
+    print("=== Packaging AIO terminé avec succès ===")
 
 if __name__ == "__main__":
     build_aio()
