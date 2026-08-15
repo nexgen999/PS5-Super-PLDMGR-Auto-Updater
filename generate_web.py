@@ -1,12 +1,13 @@
 import os
 import json
+import re
 import datetime
 
 JSON_DIR = "json"
 PAYLOADS_JSON = os.path.join(JSON_DIR, "payloads.json")
+README_FILE = "README.md"
 OUTPUT_HTML = "index.html"
 
-# Configuration profil & réseaux
 USERNAME = "nexgen999"
 AVATAR_URL = f"https://github.com/{USERNAME}.png"
 REPO_NAME = os.environ.get('GITHUB_REPOSITORY', 'PS5-Super-PLDMGR-Auto-Updater').split('/')[-1]
@@ -24,7 +25,19 @@ def generate_html():
         except Exception as e:
             print(f"Erreur de lecture du JSON : {e}")
 
-    # Génération des lignes de la table de payloads
+    # Récupération des crédits dans le README.md
+    credits_html = ""
+    if os.path.exists(README_FILE):
+        with open(README_FILE, 'r', encoding='utf-8') as rf:
+            content = rf.read()
+            if "## 🤝 Crédits & Remerciements" in content:
+                credits_section = content.split("## 🤝 Crédits & Remerciements")[-1].split("---")[0]
+                lines = [line.strip() for line in credits_section.split("\n") if line.strip().startswith("- **")]
+                for line in lines:
+                    formatted_line = re.sub(r'\[([^\]]+)\]\(([^)]+)\)', r'<a href="\2" target="_blank" style="color:var(--accent-blue); text-decoration:none;">\1</a>', line)
+                    formatted_line = formatted_line.replace("- **", "<li><strong>").replace("** :", "</strong> :") + "</li>"
+                    credits_html += formatted_line
+
     payload_rows_html = ""
     for item in payloads_data:
         payload_rows_html += f"""
@@ -59,22 +72,20 @@ def generate_html():
         * {{ box-sizing: border-box; margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }}
         body {{ background-color: var(--bg-main); color: var(--text-main); display: flex; min-height: 100vh; }}
 
-        /* Sidebar */
         .sidebar {{ width: 280px; background-color: var(--bg-main); border-right: 1px solid var(--border-color); padding: 20px; display: flex; flex-direction: column; position: fixed; height: 100vh; overflow-y: auto; }}
         .profile-card {{ text-align: center; padding-bottom: 20px; border-bottom: 1px solid var(--border-color); margin-bottom: 20px; }}
         .profile-img {{ width: 90px; height: 90px; border-radius: 50%; border: 3px solid var(--accent-blue); margin-bottom: 10px; }}
         .profile-name {{ font-size: 1.2rem; font-weight: bold; }}
         .profile-handle {{ color: var(--text-muted); font-size: 0.9rem; margin-bottom: 12px; }}
         
-        .social-links {{ display: flex; justify-content: center; gap: 10px; margin-top: 10px; }}
-        .social-btn {{ color: var(--text-muted); text-decoration: none; font-size: 0.85rem; padding: 4px 10px; border: 1px solid var(--border-color); border-radius: 15px; transition: 0.2s; }}
+        .social-links {{ display: flex; justify-content: center; gap: 6px; margin-top: 10px; flex-wrap: wrap; }}
+        .social-btn {{ color: var(--text-muted); text-decoration: none; font-size: 0.8rem; padding: 4px 8px; border: 1px solid var(--border-color); border-radius: 15px; transition: 0.2s; }}
         .social-btn:hover {{ background-color: var(--bg-hover); color: var(--accent-blue); border-color: var(--accent-blue); }}
 
         .nav-menu {{ display: flex; flex-direction: column; gap: 8px; flex-grow: 1; }}
         .nav-item {{ display: flex; align-items: center; gap: 12px; padding: 12px 16px; color: var(--text-main); text-decoration: none; border-radius: 25px; font-weight: 600; cursor: pointer; transition: 0.2s; }}
         .nav-item:hover, .nav-item.active {{ background-color: var(--bg-hover); color: var(--accent-blue); }}
 
-        /* Main Content */
         .main-content {{ margin-left: 280px; flex-grow: 1; padding: 30px; max-width: 1000px; }}
         .tab-panel {{ display: none; }}
         .tab-panel.active {{ display: block; animation: fadeIn 0.3s ease; }}
@@ -86,25 +97,23 @@ def generate_html():
         p {{ color: var(--text-muted); line-height: 1.6; margin-bottom: 15px; }}
         code {{ background-color: #10171e; color: var(--accent-blue); padding: 3px 8px; border-radius: 6px; font-family: monospace; font-size: 0.9rem; }}
 
-        /* Buttons & Badges */
         .btn-primary {{ display: inline-block; background-color: var(--accent-blue); color: #fff; text-decoration: none; padding: 12px 24px; border-radius: 25px; font-weight: bold; transition: 0.2s; border: none; cursor: pointer; }}
         .btn-primary:hover {{ background-color: var(--accent-blue-hover); }}
         .badge {{ padding: 4px 10px; border-radius: 12px; font-size: 0.8rem; font-weight: bold; }}
         .badge-cat {{ background-color: #253341; color: var(--accent-blue); }}
         .badge-ver {{ background-color: #193a32; color: var(--accent-green); }}
 
-        /* Tables */
         table {{ width: 100%; border-collapse: collapse; margin-top: 15px; }}
         th, td {{ padding: 12px 15px; text-align: left; border-bottom: 1px solid var(--border-color); }}
         th {{ background-color: var(--bg-card); color: var(--text-muted); font-size: 0.85rem; text-transform: uppercase; }}
         tr:hover {{ background-color: var(--bg-hover); }}
         .btn-download-sm {{ color: var(--accent-blue); text-decoration: none; font-weight: bold; }}
         .btn-download-sm:hover {{ text-decoration: underline; }}
+        .credits-list {{ list-style: none; line-height: 2; color: var(--text-muted); }}
     </style>
 </head>
 <body>
 
-    <!-- Sidebar -->
     <div class="sidebar">
         <div class="profile-card">
             <img src="{AVATAR_URL}" alt="Profile" class="profile-img">
@@ -113,7 +122,8 @@ def generate_html():
             <p style="font-size: 0.8rem; margin-bottom: 0;">PS5 Scene & Homebrew Automation</p>
             <div class="social-links">
                 <a href="https://github.com/{USERNAME}" target="_blank" class="social-btn">GitHub</a>
-                <a href="https://x.com" target="_blank" class="social-btn">X</a>
+                <a href="https://x.com/nexgen999" target="_blank" class="social-btn">X</a>
+                <a href="https://bsky.app/profile/nexgen999.bsky.social" target="_blank" class="social-btn">Bluesky</a>
             </div>
         </div>
 
@@ -127,10 +137,8 @@ def generate_html():
         </nav>
     </div>
 
-    <!-- Main Content -->
     <div class="main-content">
 
-        <!-- Panel: Accueil -->
         <div id="home" class="tab-panel active">
             <div class="card">
                 <h1>🎮 PS5 Payload Manager & Store</h1>
@@ -143,35 +151,25 @@ def generate_html():
             </div>
         </div>
 
-        <!-- Panel: payloads.json -->
         <div id="json-info" class="tab-panel">
             <div class="card">
                 <h2>📄 Configuration du fichier JSON central</h2>
-                <p>Utilisez cette URL directement dans votre application PS5 pour alimenter votre liste de payloads en temps réel :</p>
+                <p>URL pour connecter votre application PS5 :</p>
                 <p><code>{JSON_URL}</code></p>
-                <h3>📌 Instructions d'installation :</h3>
-                <ol style="margin-left: 20px; color: var(--text-muted); line-height: 1.8;">
-                    <li>Ouvrez l'application Payload Manager / Store sur votre PS5.</li>
-                    <li>Accédez aux paramètres de source distante.</li>
-                    <li>Ajoutez l'URL exacte du fichier <code>payloads.json</code> indiquée ci-dessus.</li>
-                    <li>Validez pour charger la liste dynamique des payloads.</li>
-                </ol>
             </div>
         </div>
 
-        <!-- Panel: Package AIO -->
         <div id="aio-package" class="tab-panel">
             <div class="card">
                 <h2>📦 Package All-In-One (AIO) Hors-ligne</h2>
-                <p>Ce package est régénéré automatiquement à chaque mise à jour du dépôt. Il regroupe la totalité des fichiers ELF dans une seule archive ZIP.</p>
-                <p><strong>URL Fixe Permanent (Latest) :</strong></p>
+                <p>Contient uniquement la dernière version de chaque payload ELF disponible.</p>
+                <p><strong>Lien direct Latest :</strong></p>
                 <p><code>{LATEST_ZIP_URL}</code></p>
                 <br>
-                <a href="{LATEST_ZIP_URL}" class="btn-primary">Télécharger le Dernier Package (.zip)</a>
+                <a href="{LATEST_ZIP_URL}" class="btn-primary">Télécharger le Package AIO Latest (.zip)</a>
             </div>
         </div>
 
-        <!-- Panel: Liste Payloads -->
         <div id="payloads-list" class="tab-panel">
             <div class="card">
                 <h2>🛠️ Payloads ELF disponibles</h2>
@@ -192,20 +190,20 @@ def generate_html():
             </div>
         </div>
 
-        <!-- Panel: Crédits -->
         <div id="credits" class="tab-panel">
             <div class="card">
                 <h2>🤝 Remerciements & Crédits</h2>
-                <p>Un grand merci à l'ensemble des développeurs et chercheurs de la scène PS5 homebrew dont les travaux alimentent ce magasin automatisé.</p>
+                <p>Un grand merci à tous les développeurs et chercheurs de la scène PS5 homebrew :</p>
+                <ul class="credits-list">
+                    {credits_html if credits_html else '<li>Liste des développeurs disponible dans le README.md.</li>'}
+                </ul>
             </div>
         </div>
 
-        <!-- Panel: À Propos -->
         <div id="about" class="tab-panel">
             <div class="card">
                 <h2>ℹ️ À Propos</h2>
                 <p>Projet développé et maintenu par <strong>nexgen999</strong>.</p>
-                <p>Ce système utilise GitHub Actions pour surveiller les dépôts sources, extraire et renommer les binaires ELF, puis distribuer les mises à jour en continu via GitHub Pages et Releases.</p>
             </div>
         </div>
 
@@ -227,7 +225,7 @@ def generate_html():
     with open(OUTPUT_HTML, "w", encoding="utf-8") as out:
         out.write(html_content)
 
-    print(f"🌐 Page web générée avec succès : {OUTPUT_HTML}")
+    print(f"🌐 Page web générée : {OUTPUT_HTML}")
 
 if __name__ == "__main__":
     generate_html()
