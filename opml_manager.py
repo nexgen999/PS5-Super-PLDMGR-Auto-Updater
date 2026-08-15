@@ -1,0 +1,216 @@
+import os
+import xml.etree.ElementTree as ET
+from xml.dom import minidom
+import customtkinter as ctk
+from tkinter import messagebox, filedialog
+
+# Configuration du thème CustomTkinter (Thème Sombre / Bleu)
+ctk.set_appearance_mode("Dark")
+ctk.set_default_color_theme("blue")
+
+FEED_DIR = "feed"
+
+class OPMLManagerApp(ctk.CTk):
+    def __init__(self):
+        super().__init__()
+
+        self.title("PS5 Store - OPML Feed Manager")
+        self.geometry("900 x 600")
+
+        self.current_file_path = None
+        self.entries_data = []  # Liste de dictionnaires pour stocker les outlines
+
+        # Structure du Layout (2 Colonnes)
+        self.grid_columnconfigure(0, weight=1)
+        self.grid_columnconfigure(1, weight=2)
+        self.grid_rowconfigure(0, weight=1)
+
+        # --- Sidebar (Gauche) : Fichiers OPML ---
+        self.sidebar_frame = ctk.CTkFrame(self, width=250, corner_radius=0)
+        self.sidebar_frame.grid(row=0, column=0, sticky="nsew", padx=10, pady=10)
+
+        self.lbl_files = ctk.CTkLabel(self.sidebar_frame, text="📁 Catégories (OPML)", font=ctk.CTkFont(size=16, weight="bold"))
+        self.lbl_files.pack(padx=10, pady=(10, 5))
+
+        self.btn_refresh = ctk.CTkButton(self.sidebar_frame, text="🔄 Rafraîchir la liste", command=self.load_opml_files)
+        self.btn_refresh.pack(padx=10, pady=5, fill="x")
+
+        self.btn_new_file = ctk.CTkButton(self.sidebar_frame, text="➕ Nouveau fichier .opml", fg_color="#00ba7c", hover_color="#008f5f", command=self.create_new_opml)
+        self.btn_new_file.pack(padx=10, pady=5, fill="x")
+
+        self.files_scrollable = ctk.CTkScrollableFrame(self.sidebar_frame, label_text="Fichiers disponibles")
+        self.files_scrollable.pack(padx=10, pady=10, fill="both", expand=True)
+
+        # --- Main Content (Droite) : Éditeur ---
+        self.main_frame = ctk.CTkFrame(self)
+        self.main_frame.grid(row=0, column=1, sticky="nsew", padx=10, pady=10)
+        self.main_frame.grid_columnconfigure(1, weight=1)
+
+        # Titre Fichier Actif
+        self.lbl_active_file = ctk.CTkLabel(self.main_frame, text="Sélectionnez un fichier .opml", font=ctk.CTkFont(size=18, weight="bold"))
+        self.lbl_active_file.grid(row=0, column=0, columnspan=2, padx=15, pady=10, sticky="w")
+
+        # Formulaire d'ajout / modification
+        self.form_frame = ctk.CTkFrame(self.main_frame)
+        self.form_frame.grid(row=1, column=0, columnspan=2, padx=15, pady=5, sticky="ew")
+        self.form_frame.grid_columnconfigure(1, weight=1)
+
+        ctk.CTkLabel(self.form_frame, text="Titre / Nom :").grid(row=0, column=0, padx=10, pady=5, sticky="w")
+        self.entry_title = ctk.CTkEntry(self.form_frame, placeholder_text="ex: PS5 App Dumper")
+        self.entry_title.grid(row=0, column=1, padx=10, pady=5, sticky="ew")
+
+        ctk.CTkLabel(self.form_frame, text="URL Dépôt / Feed :").grid(row=1, column=0, padx=10, pady=5, sticky="w")
+        self.entry_url = ctk.CTkEntry(self.form_frame, placeholder_text="ex: https://github.com/user/repo")
+        self.entry_url.grid(row=1, column=1, padx=10, pady=5, sticky="ew")
+
+        ctk.CTkLabel(self.form_frame, text="Description :").grid(row=2, column=0, padx=10, pady=5, sticky="w")
+        self.entry_desc = ctk.CTkEntry(self.form_frame, placeholder_text="ex: Dumper de jeux et apps PS5")
+        self.entry_desc.grid(row=2, column=1, padx=10, pady=5, sticky="ew")
+
+        # Boutons Formulaire
+        self.btn_add_entry = ctk.CTkButton(self.form_frame, text="➕ Ajouter au fichier", command=self.add_entry)
+        self.btn_add_entry.grid(row=3, column=1, padx=10, pady=10, sticky="e")
+
+        # Liste des dépôts dans le fichier
+        self.entries_scrollable = ctk.CTkScrollableFrame(self.main_frame, label_text="Dépôts inclus dans ce fichier")
+        self.entries_scrollable.grid(row=2, column=0, columnspan=2, padx=15, pady=10, sticky="nsew")
+        self.main_frame.grid_rowconfigure(2, weight=1)
+
+        # Bouton Enregistrer
+        self.btn_save = ctk.CTkButton(self.main_frame, text="💾 Enregistrer les modifications", fg_color="#1da1f2", hover_color="#1a91da", font=ctk.CTkFont(weight="bold"), command=self.save_opml)
+        self.btn_save.grid(row=3, column=0, columnspan=2, padx=15, pady=10, sticky="ew")
+
+        # Charger la liste initiale
+        self.load_opml_files()
+
+    def load_opml_files(self):
+        # Nettoyer les boutons de fichiers existants
+        for widget in self.files_scrollable.winfo_children():
+            widget.destroy()
+
+        if not os.path.exists(FEED_DIR):
+            os.makedirs(FEED_DIR)
+
+        files = [f for f in os.listdir(FEED_DIR) if f.endswith('.opml')]
+        for f in sorted(files):
+            btn = ctk.CTkButton(self.files_scrollable, text=f, fg_color="transparent", border_width=1, anchor="w", command=lambda filename=f: self.open_opml_file(filename))
+            btn.pack(padx=5, pady=3, fill="x")
+
+    def create_new_opml(self):
+        dialog = ctk.CTkInputDialog(text="Nom du fichier (ex: utilities.opml) :", title="Nouveau fichier OPML")
+        name = dialog.get_input()
+        if name:
+            if not name.endswith(".opml"):
+                name += ".opml"
+            file_path = os.path.join(FEED_DIR, name)
+            if not os.path.exists(file_path):
+                # Créer une structure XML minimale
+                root = ET.Element("opml", version="2.0")
+                head = ET.SubElement(root, "head")
+                ET.SubElement(head, "title").text = name.replace(".opml", "").title()
+                ET.SubElement(root, "body")
+                
+                xml_str = minidom.parseString(ET.tostring(root)).toprettyxml(indent="  ")
+                with open(file_path, "w", encoding="utf-8") as f:
+                    f.write(xml_str)
+                
+                self.load_opml_files()
+                self.open_opml_file(name)
+
+    def open_opml_file(self, filename):
+        self.current_file_path = os.path.join(FEED_DIR, filename)
+        self.lbl_active_file.configure(text=f"Édition : {filename}")
+        self.entries_data.clear()
+
+        try:
+            tree = ET.parse(self.current_file_path)
+            root = tree.getroot()
+            body = root.find("body")
+
+            if body is not None:
+                for outline in body.findall("outline"):
+                    title = outline.attrib.get("text", outline.attrib.get("title", ""))
+                    url = outline.attrib.get("xmlUrl", outline.attrib.get("htmlUrl", ""))
+                    desc = outline.attrib.get("description", "")
+                    self.entries_data.append({"title": title, "url": url, "description": desc})
+
+            self.render_entries()
+        except Exception as e:
+            messagebox.showerror("Erreur", f"Impossible de lire le fichier OPML : {e}")
+
+    def render_entries(self):
+        for widget in self.entries_scrollable.winfo_children():
+            widget.destroy()
+
+        for idx, item in enumerate(self.entries_data):
+            card = ctk.CTkFrame(self.entries_scrollable)
+            card.pack(padx=5, pady=5, fill="x")
+            card.grid_columnconfigure(0, weight=1)
+
+            info_text = f"🔹 {item['title']}\n🔗 {item['url']}\n📝 {item['description']}"
+            lbl = ctk.CTkLabel(card, text=info_text, justify="left", anchor="w")
+            lbl.grid(row=0, column=0, padx=10, pady=8, sticky="w")
+
+            btn_del = ctk.CTkButton(card, text="🗑️", width=40, fg_color="#d32f2f", hover_color="#9a0007", command=lambda i=idx: self.delete_entry(i))
+            btn_del.grid(row=0, column=1, padx=10, pady=8)
+
+    def add_entry(self):
+        if not self.current_file_path:
+            messagebox.showwarning("Attention", "Veuillez d'abord sélectionner ou créer un fichier .opml.")
+            return
+
+        title = self.entry_title.get().strip()
+        url = self.entry_url.get().strip()
+        desc = self.entry_desc.get().strip()
+
+        if not title or not url:
+            messagebox.showwarning("Attention", "Le Titre et l'URL sont obligatoires.")
+            return
+
+        self.entries_data.append({"title": title, "url": url, "description": desc})
+        self.render_entries()
+
+        # Réinitialiser les champs de saisie
+        self.entry_title.delete(0, 'end')
+        self.entry_url.delete(0, 'end')
+        self.entry_desc.delete(0, 'end')
+
+    def delete_entry(self, index):
+        del self.entries_data[index]
+        self.render_entries()
+
+    def save_opml(self):
+        if not self.current_file_path:
+            return
+
+        try:
+            root = ET.Element("opml", version="2.0")
+            head = ET.SubElement(root, "head")
+            cat_name = os.path.basename(self.current_file_path).replace(".opml", "").replace("_", " ").title()
+            ET.SubElement(head, "title").text = cat_name
+
+            body = ET.SubElement(root, "body")
+            for item in self.entries_data:
+                ET.SubElement(body, "outline", {
+                    "text": item["title"],
+                    "title": item["title"],
+                    "type": "rss",
+                    "xmlUrl": item["url"],
+                    "htmlUrl": item["url"],
+                    "description": item["description"]
+                })
+
+            raw_xml = ET.tostring(root, encoding="utf-8")
+            parsed_xml = minidom.parseString(raw_xml)
+            pretty_xml = parsed_xml.toprettyxml(indent="  ", encoding="utf-8").decode("utf-8")
+
+            with open(self.current_file_path, "w", encoding="utf-8") as f:
+                f.write(pretty_xml)
+
+            messagebox.showinfo("Succès", "Fichier OPML enregistré avec succès !")
+        except Exception as e:
+            messagebox.showerror("Erreur", f"Erreur lors de l'enregistrement : {e}")
+
+if __name__ == "__main__":
+    app = OPMLManagerApp()
+    app.mainloop()
