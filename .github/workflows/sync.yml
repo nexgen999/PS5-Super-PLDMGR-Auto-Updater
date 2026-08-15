@@ -41,7 +41,7 @@ jobs:
         env:
           GITHUB_REPOSITORY: ${{ github.repository }}
 
-- name: 4. Publication de la Release GitHub (Horodatée & Latest)
+      - name: 4. Publication de la Release GitHub (Horodatée & Latest)
         run: |
           if [ -f "release_notes.md" ]; then
             gh release create "v${{ env.AIO_TAG }}" \
