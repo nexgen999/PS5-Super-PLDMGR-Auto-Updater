@@ -4,8 +4,12 @@
 
 Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 
+🌐 **Site Web Vitrine :** [Visiter le site PS5 Super PLDMGR Auto Updater](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/index.html)
+
 > 💡 **Configuration du Store sur l'application PS5 :** Pour connecter votre console, ajoutez le fichier central **`payloads.json`** :
 > `https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/json/payloads.json`
+
+📦 **Package AIO Offline (Dernières versions ELF) :** [Télécharger le package AIO Latest (.zip)](https://github.com/nexgen999/PS5-Super-PLDMGR-Auto-Updater/releases/latest/download/ps5_super_pldmgr_auto_updated_offline.aio_latest.zip)
 
 ---
 

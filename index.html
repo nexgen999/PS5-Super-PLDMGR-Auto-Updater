@@ -20,22 +20,20 @@
         * { box-sizing: border-box; margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
         body { background-color: var(--bg-main); color: var(--text-main); display: flex; min-height: 100vh; }
 
-        /* Sidebar */
         .sidebar { width: 280px; background-color: var(--bg-main); border-right: 1px solid var(--border-color); padding: 20px; display: flex; flex-direction: column; position: fixed; height: 100vh; overflow-y: auto; }
         .profile-card { text-align: center; padding-bottom: 20px; border-bottom: 1px solid var(--border-color); margin-bottom: 20px; }
         .profile-img { width: 90px; height: 90px; border-radius: 50%; border: 3px solid var(--accent-blue); margin-bottom: 10px; }
         .profile-name { font-size: 1.2rem; font-weight: bold; }
         .profile-handle { color: var(--text-muted); font-size: 0.9rem; margin-bottom: 12px; }
         
-        .social-links { display: flex; justify-content: center; gap: 10px; margin-top: 10px; }
-        .social-btn { color: var(--text-muted); text-decoration: none; font-size: 0.85rem; padding: 4px 10px; border: 1px solid var(--border-color); border-radius: 15px; transition: 0.2s; }
+        .social-links { display: flex; justify-content: center; gap: 6px; margin-top: 10px; flex-wrap: wrap; }
+        .social-btn { color: var(--text-muted); text-decoration: none; font-size: 0.8rem; padding: 4px 8px; border: 1px solid var(--border-color); border-radius: 15px; transition: 0.2s; }
         .social-btn:hover { background-color: var(--bg-hover); color: var(--accent-blue); border-color: var(--accent-blue); }
 
         .nav-menu { display: flex; flex-direction: column; gap: 8px; flex-grow: 1; }
         .nav-item { display: flex; align-items: center; gap: 12px; padding: 12px 16px; color: var(--text-main); text-decoration: none; border-radius: 25px; font-weight: 600; cursor: pointer; transition: 0.2s; }
         .nav-item:hover, .nav-item.active { background-color: var(--bg-hover); color: var(--accent-blue); }
 
-        /* Main Content */
         .main-content { margin-left: 280px; flex-grow: 1; padding: 30px; max-width: 1000px; }
         .tab-panel { display: none; }
         .tab-panel.active { display: block; animation: fadeIn 0.3s ease; }
@@ -47,25 +45,23 @@
         p { color: var(--text-muted); line-height: 1.6; margin-bottom: 15px; }
         code { background-color: #10171e; color: var(--accent-blue); padding: 3px 8px; border-radius: 6px; font-family: monospace; font-size: 0.9rem; }
 
-        /* Buttons & Badges */
         .btn-primary { display: inline-block; background-color: var(--accent-blue); color: #fff; text-decoration: none; padding: 12px 24px; border-radius: 25px; font-weight: bold; transition: 0.2s; border: none; cursor: pointer; }
         .btn-primary:hover { background-color: var(--accent-blue-hover); }
         .badge { padding: 4px 10px; border-radius: 12px; font-size: 0.8rem; font-weight: bold; }
         .badge-cat { background-color: #253341; color: var(--accent-blue); }
         .badge-ver { background-color: #193a32; color: var(--accent-green); }
 
-        /* Tables */
         table { width: 100%; border-collapse: collapse; margin-top: 15px; }
         th, td { padding: 12px 15px; text-align: left; border-bottom: 1px solid var(--border-color); }
         th { background-color: var(--bg-card); color: var(--text-muted); font-size: 0.85rem; text-transform: uppercase; }
         tr:hover { background-color: var(--bg-hover); }
         .btn-download-sm { color: var(--accent-blue); text-decoration: none; font-weight: bold; }
         .btn-download-sm:hover { text-decoration: underline; }
+        .credits-list { list-style: none; line-height: 2; color: var(--text-muted); }
     </style>
 </head>
 <body>
 
-    <!-- Sidebar -->
     <div class="sidebar">
         <div class="profile-card">
             <img src="https://github.com/nexgen999.png" alt="Profile" class="profile-img">
@@ -74,7 +70,8 @@
             <p style="font-size: 0.8rem; margin-bottom: 0;">PS5 Scene & Homebrew Automation</p>
             <div class="social-links">
                 <a href="https://github.com/nexgen999" target="_blank" class="social-btn">GitHub</a>
-                <a href="https://x.com" target="_blank" class="social-btn">X</a>
+                <a href="https://x.com/nexgen999" target="_blank" class="social-btn">X</a>
+                <a href="https://bsky.app/profile/nexgen999.bsky.social" target="_blank" class="social-btn">Bluesky</a>
             </div>
         </div>
 
@@ -88,15 +85,13 @@
         </nav>
     </div>
 
-    <!-- Main Content -->
     <div class="main-content">
 
-        <!-- Panel: Accueil -->
         <div id="home" class="tab-panel active">
             <div class="card">
                 <h1>🎮 PS5 Payload Manager & Store</h1>
                 <p>Bienvenue sur le hub automatisé de gestion de payloads pour la scène PS5 jailbreak.</p>
-                <p><strong>Dernière synchronisation :</strong> <code>15/08/2026 à 21:17</code></p>
+                <p><strong>Dernière synchronisation :</strong> <code>15/08/2026 à 21:51</code></p>
                 <div style="display: flex; gap: 15px; margin-top: 20px;">
                     <a href="https://github.com/nexgen999/PS5-Super-PLDMGR-Auto-Updater/releases/latest/download/ps5_super_pldmgr_auto_updated_offline.aio_latest.zip" class="btn-primary">📦 Télécharger AIO Latest (.zip)</a>
                     <button class="btn-primary" style="background-color: var(--bg-hover);" onclick="switchTab('json-info')">⚙️ Configurer le JSON</button>
@@ -104,35 +99,25 @@
             </div>
         </div>
 
-        <!-- Panel: payloads.json -->
         <div id="json-info" class="tab-panel">
             <div class="card">
                 <h2>📄 Configuration du fichier JSON central</h2>
-                <p>Utilisez cette URL directement dans votre application PS5 pour alimenter votre liste de payloads en temps réel :</p>
+                <p>URL pour connecter votre application PS5 :</p>
                 <p><code>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/json/payloads.json</code></p>
-                <h3>📌 Instructions d'installation :</h3>
-                <ol style="margin-left: 20px; color: var(--text-muted); line-height: 1.8;">
-                    <li>Ouvrez l'application Payload Manager / Store sur votre PS5.</li>
-                    <li>Accédez aux paramètres de source distante.</li>
-                    <li>Ajoutez l'URL exacte du fichier <code>payloads.json</code> indiquée ci-dessus.</li>
-                    <li>Validez pour charger la liste dynamique des payloads.</li>
-                </ol>
             </div>
         </div>
 
-        <!-- Panel: Package AIO -->
         <div id="aio-package" class="tab-panel">
             <div class="card">
                 <h2>📦 Package All-In-One (AIO) Hors-ligne</h2>
-                <p>Ce package est régénéré automatiquement à chaque mise à jour du dépôt. Il regroupe la totalité des fichiers ELF dans une seule archive ZIP.</p>
-                <p><strong>URL Fixe Permanent (Latest) :</strong></p>
+                <p>Contient uniquement la dernière version de chaque payload ELF disponible.</p>
+                <p><strong>Lien direct Latest :</strong></p>
                 <p><code>https://github.com/nexgen999/PS5-Super-PLDMGR-Auto-Updater/releases/latest/download/ps5_super_pldmgr_auto_updated_offline.aio_latest.zip</code></p>
                 <br>
-                <a href="https://github.com/nexgen999/PS5-Super-PLDMGR-Auto-Updater/releases/latest/download/ps5_super_pldmgr_auto_updated_offline.aio_latest.zip" class="btn-primary">Télécharger le Dernier Package (.zip)</a>
+                <a href="https://github.com/nexgen999/PS5-Super-PLDMGR-Auto-Updater/releases/latest/download/ps5_super_pldmgr_auto_updated_offline.aio_latest.zip" class="btn-primary">Télécharger le Package AIO Latest (.zip)</a>
             </div>
         </div>
 
-        <!-- Panel: Liste Payloads -->
         <div id="payloads-list" class="tab-panel">
             <div class="card">
                 <h2>🛠️ Payloads ELF disponibles</h2>
@@ -793,20 +778,20 @@
             </div>
         </div>
 
-        <!-- Panel: Crédits -->
         <div id="credits" class="tab-panel">
             <div class="card">
                 <h2>🤝 Remerciements & Crédits</h2>
-                <p>Un grand merci à l'ensemble des développeurs et chercheurs de la scène PS5 homebrew dont les travaux alimentent ce magasin automatisé.</p>
+                <p>Un grand merci à tous les développeurs et chercheurs de la scène PS5 homebrew :</p>
+                <ul class="credits-list">
+                    <li><strong>Al-Azif</strong> : <a href="https://github.com/Al-Azif/chukei-dns" target="_blank" style="color:var(--accent-blue); text-decoration:none;">Chukei DNS</a></li><li><strong>ArkSama</strong> : <a href="https://raw.githubusercontent.com/ArkSama/PS5-Lapy-JB-Daemon/main/lapy_jb_daemon.elf" target="_blank" style="color:var(--accent-blue); text-decoration:none;">Lapy JB Daemon</a></li><li><strong>BestPig</strong> : <a href="https://github.com/BestPig/BackPork" target="_blank" style="color:var(--accent-blue); text-decoration:none;">BackPork</a></li><li><strong>Drakmor</strong> : <a href="https://github.com/drakmor/nanoDNS" target="_blank" style="color:var(--accent-blue); text-decoration:none;">nanoDNS</a></li><li><strong>EchoStretch</strong> : <a href="https://github.com/EchoStretch/kstuff-lite" target="_blank" style="color:var(--accent-blue); text-decoration:none;">kstuff-lite_EchoStretch</a></li><li><strong>EchoStretch</strong> : <a href="https://github.com/EchoStretch/kstuff" target="_blank" style="color:var(--accent-blue); text-decoration:none;">kstuff_EchoStretch</a></li><li><strong>EchoStretch</strong> : <a href="https://github.com/EchoStretch/ps5-app-dumper" target="_blank" style="color:var(--accent-blue); text-decoration:none;">ps5-app-dumper</a></li><li><strong>ItsBlurf</strong> : <a href="https://github.com/ItsBlurf/BFpilot" target="_blank" style="color:var(--accent-blue); text-decoration:none;">BFpilot</a></li><li><strong>ItsBlurf</strong> : <a href="https://github.com/ItsBlurf/BFplayer" target="_blank" style="color:var(--accent-blue); text-decoration:none;">BFplayer-standalone</a></li><li><strong>ItsBlurf</strong> : <a href="https://github.com/ItsBlurf/PoorDS4" target="_blank" style="color:var(--accent-blue); text-decoration:none;">PoorDS4</a></li><li><strong>KINGDKAK</strong> : <a href="https://github.com/KINGDKAK/ProsperoPlayer" target="_blank" style="color:var(--accent-blue); text-decoration:none;">ProsperoPlayer</a></li><li><strong>LightningMods</strong> : <a href="https://github.com/etaHEN/etaHEN" target="_blank" style="color:var(--accent-blue); text-decoration:none;">etaHEN</a></li><li><strong>MasterPS0</strong> : <a href="https://github.com/MasterPS0/PS5-Power-Payloads-Project" target="_blank" style="color:var(--accent-blue); text-decoration:none;">PS5-Power-Payloads-Project</a></li><li><strong>Michele-M-Media</strong> : <a href="https://github.com/Michele-M-Media/PIZZA-HEN" target="_blank" style="color:var(--accent-blue); text-decoration:none;">PIZZA-HEN</a></li><li><strong>NikoBellikJR31</strong> : <a href="https://github.com/NikoBellikJR31/PS5-Custom-Tool-Manager-" target="_blank" style="color:var(--accent-blue); text-decoration:none;">PS5-Custom-Tool-Manager-</a></li><li><strong>NookieAI</strong> : <a href="https://github.com/NookieAI/kura" target="_blank" style="color:var(--accent-blue); text-decoration:none;">Kura</a></li><li><strong>OpenSourcereR-dev</strong> : <a href="https://github.com/OpenSourcereR-dev/ps5debug-NG" target="_blank" style="color:var(--accent-blue); text-decoration:none;">ps5debug-NG</a></li><li><strong>Phoenixx1202</strong> : <a href="https://github.com/Phoenixx1202/Spectrum-Library" target="_blank" style="color:var(--accent-blue); text-decoration:none;">Spectrum-Library</a></li><li><strong>SonicIso</strong> : <a href="https://git.etawen.dev/soniciso/elf-arsenal" target="_blank" style="color:var(--accent-blue); text-decoration:none;">ELF Arsenal</a></li><li><strong>StonedModder</strong> : <a href="https://github.com/StonedModder/ChronicLoader-PS5-Payload" target="_blank" style="color:var(--accent-blue); text-decoration:none;">ChronicLoader-PS5-Payload</a></li><li><strong>StonedModder</strong> : <a href="https://github.com/StonedModder/Ghostcontrol-PS5-USB-Controller-Patcher" target="_blank" style="color:var(--accent-blue); text-decoration:none;">Ghostcontrol-PS5-USB-Controller-Patcher</a></li><li><strong>StonedModder</strong> : <a href="https://github.com/StonedModder/Ghostpad" target="_blank" style="color:var(--accent-blue); text-decoration:none;">Ghostpad</a></li><li><strong>StonedModder</strong> : <a href="https://github.com/StonedModder/ps-game-state-lib" target="_blank" style="color:var(--accent-blue); text-decoration:none;">PS Game State Lib</a></li><li><strong>StonedModder</strong> : <a href="https://github.com/StonedModder/PS-DiscordPresence" target="_blank" style="color:var(--accent-blue); text-decoration:none;">PS-DiscordPresence</a></li><li><strong>StonedModder</strong> : <a href="https://github.com/StonedModder/savemnt-offset-dumper" target="_blank" style="color:var(--accent-blue); text-decoration:none;">savemnt-offset-dumper</a></li><li><strong>aydencharles</strong> : <a href="https://raw.githubusercontent.com/nexgen999/PS5_Payload_Manager_Updater/main/ps5_cheat/kylin-core-community-lite-v131-global-release.elf" target="_blank" style="color:var(--accent-blue); text-decoration:none;">kylin-core</a></li><li><strong>barisyild</strong> : <a href="https://github.com/barisyild/airpsx" target="_blank" style="color:var(--accent-blue); text-decoration:none;">airpsx</a></li><li><strong>bizkut</strong> : <a href="https://github.com/bizkut/unrar-ps5" target="_blank" style="color:var(--accent-blue); text-decoration:none;">unrar-ps5</a></li><li><strong>drakmor</strong> : <a href="https://github.com/drakmor/ShadowMountPlus" target="_blank" style="color:var(--accent-blue); text-decoration:none;">ShadowMountPlus</a></li><li><strong>drakmor</strong> : <a href="https://github.com/drakmor/fan_target" target="_blank" style="color:var(--accent-blue); text-decoration:none;">fan_target</a></li><li><strong>drakmor</strong> : <a href="https://github.com/drakmor/ftpsrv" target="_blank" style="color:var(--accent-blue); text-decoration:none;">ftpsrv_drakmor</a></li><li><strong>drakmor</strong> : <a href="https://github.com/drakmor/kstuff-lite" target="_blank" style="color:var(--accent-blue); text-decoration:none;">kstuff-lite_drakmor</a></li><li><strong>drakmor</strong> : <a href="https://github.com/drakmor/ps5-hwinfo" target="_blank" style="color:var(--accent-blue); text-decoration:none;">ps5-hwinfo</a></li><li><strong>earthonion</strong> : <a href="https://git.etawen.dev/earthonion/garlic-savemgr" target="_blank" style="color:var(--accent-blue); text-decoration:none;">garlic-savemgr</a></li><li><strong>earthonion</strong> : <a href="https://git.etawen.dev/earthonion/garlic-worker" target="_blank" style="color:var(--accent-blue); text-decoration:none;">garlic-worker</a></li><li><strong>earthonion</strong> : <a href="https://git.etawen.dev/earthonion/np-fake-signin" target="_blank" style="color:var(--accent-blue); text-decoration:none;">np-fake-signin</a></li><li><strong>hgr9519</strong> : <a href="https://github.com/hgr9519/ps5-wallpaper-modd" target="_blank" style="color:var(--accent-blue); text-decoration:none;">ps5-wallpaper-modd</a></li><li><strong>idlesauce</strong> : <a href="https://github.com/idlesauce/PS5-SELF-Decrypter" target="_blank" style="color:var(--accent-blue); text-decoration:none;">PS5-SELF-Decrypter</a></li><li><strong>idlesauce</strong> : <a href="https://github.com/idlesauce/ps5-remoteplay-get-pin" target="_blank" style="color:var(--accent-blue); text-decoration:none;">ps5-remoteplay-get-pin</a></li><li><strong>idlesauce</strong> : <a href="https://github.com/idlesauce/ps5-self-pager" target="_blank" style="color:var(--accent-blue); text-decoration:none;">ps5-self-pager</a></li><li><strong>illusionyy</strong> : <a href="https://github.com/illusionyy/ps5-fw-spoof" target="_blank" style="color:var(--accent-blue); text-decoration:none;">ps5-fw-spoof</a></li><li><strong>itsPLK</strong> : <a href="https://github.com/itsPLK/ps5-payload-manager" target="_blank" style="color:var(--accent-blue); text-decoration:none;">PS5 Payload Manager</a></li><li><strong>itsPLK</strong> : <a href="https://github.com/itsPLK/ps5-unified-autoloader" target="_blank" style="color:var(--accent-blue); text-decoration:none;">PS5 Unified Autoloader</a></li><li><strong>itsPLK</strong> : <a href="https://github.com/itsPLK/ps5-webkit-autoloader" target="_blank" style="color:var(--accent-blue); text-decoration:none;">ps5-webkit-autoloader</a></li><li><strong>juma-sayeh</strong> : <a href="https://github.com/juma-sayeh/PS5-File-Explorer" target="_blank" style="color:var(--accent-blue); text-decoration:none;">PS5-File-Explorer</a></li><li><strong>juma-sayeh</strong> : <a href="https://github.com/juma-sayeh/PS5-Game-Compressor" target="_blank" style="color:var(--accent-blue); text-decoration:none;">PS5-Game-Compressor</a></li><li><strong>notmaj0r</strong> : <a href="https://github.com/notmaj0r/CheatRunner" target="_blank" style="color:var(--accent-blue); text-decoration:none;">CheatRunner</a></li><li><strong>owendswang</strong> : <a href="https://github.com/owendswang/ps5-fan-control" target="_blank" style="color:var(--accent-blue); text-decoration:none;">ps5-fan-control</a></li><li><strong>owendswang</strong> : <a href="https://github.com/owendswang/ps5-web-file-manager" target="_blank" style="color:var(--accent-blue); text-decoration:none;">ps5-web-file-manager</a></li><li><strong>pegasus-ps5</strong> : <a href="https://github.com/pegasus-ps5/pegasus-dl" target="_blank" style="color:var(--accent-blue); text-decoration:none;">pegasus-dl</a></li><li><strong>phantomptr</strong> : <a href="https://github.com/phantomptr/ps5upload" target="_blank" style="color:var(--accent-blue); text-decoration:none;">ps5upload</a></li><li><strong>ps5-linux</strong> : <a href="https://github.com/ps5-linux/ps5-linux-loader" target="_blank" style="color:var(--accent-blue); text-decoration:none;">ps5-linux-loader</a></li><li><strong>ps5-payload-dev</strong> : <a href="https://github.com/ps5-payload-dev/elfldr" target="_blank" style="color:var(--accent-blue); text-decoration:none;">elfldr</a></li><li><strong>ps5-payload-dev</strong> : <a href="https://github.com/ps5-payload-dev/ftpsrv" target="_blank" style="color:var(--accent-blue); text-decoration:none;">ftpsrv_ps5-payload</a></li><li><strong>ps5-payload-dev</strong> : <a href="https://github.com/ps5-payload-dev/gdbsrv" target="_blank" style="color:var(--accent-blue); text-decoration:none;">gdbsrv</a></li><li><strong>ps5-payload-dev</strong> : <a href="https://github.com/ps5-payload-dev/klogsrv" target="_blank" style="color:var(--accent-blue); text-decoration:none;">klogsrv</a></li><li><strong>ps5-payload-dev</strong> : <a href="https://github.com/ps5-payload-dev/svtplay" target="_blank" style="color:var(--accent-blue); text-decoration:none;">svtplay</a></li><li><strong>ps5-payload-dev</strong> : <a href="https://github.com/ps5-payload-dev/websrv" target="_blank" style="color:var(--accent-blue); text-decoration:none;">websrv</a></li><li><strong>seregonwar</strong> : <a href="https://github.com/seregonwar/MemDBG" target="_blank" style="color:var(--accent-blue); text-decoration:none;">MemDBG</a></li><li><strong>seregonwar</strong> : <a href="https://github.com/seregonwar/zftpd" target="_blank" style="color:var(--accent-blue); text-decoration:none;">zftpd</a></li><li><strong>soniciso</strong> : <a href="https://git.etawen.dev/soniciso/uds-trophy-unlocker" target="_blank" style="color:var(--accent-blue); text-decoration:none;">uds-trophy-unlocker</a></li>
+                </ul>
             </div>
         </div>
 
-        <!-- Panel: À Propos -->
         <div id="about" class="tab-panel">
             <div class="card">
                 <h2>ℹ️ À Propos</h2>
                 <p>Projet développé et maintenu par <strong>nexgen999</strong>.</p>
-                <p>Ce système utilise GitHub Actions pour surveiller les dépôts sources, extraire et renommer les binaires ELF, puis distribuer les mises à jour en continu via GitHub Pages et Releases.</p>
             </div>
         </div>
 
