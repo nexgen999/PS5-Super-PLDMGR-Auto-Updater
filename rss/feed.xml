@@ -235,6 +235,11 @@
       <description>This is an unofficial 10-foot UI for SVT Play, the Swedish public service television broadcaster. - Checksum: 5bdf25142512f25dc6269bd7c90a914001fcef5e731125a74aa23c1a8d91810f</description>
     </item>
     <item>
+      <title>PS-Play (2.1)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_video_player/PS-Play/2.1/PS-Play_v2.1.elf</link>
+      <description>All-in-one media hub for jailbroken PlayStation 5 - Checksum: e3392379d5bc6ca4e44cb0d2a1d8921083b2c3ea480725f68378831874542d8d</description>
+    </item>
+    <item>
       <title>zftp (v1.5.0)</title>
       <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/zftpd/v1.5.0/zftp_v1.5.0.bin</link>
       <description>FTP server payload for PS5. Port: 21 - Checksum: f430dc1fdeaea425c9e8248708b4b8f4d11b662d2a3f74ac7e85cf7d785d82c3</description>

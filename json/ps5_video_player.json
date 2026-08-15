@@ -27,6 +27,15 @@
       "version": "v0.2",
       "category": "PS5 Video Player",
       "checksum": "5bdf25142512f25dc6269bd7c90a914001fcef5e731125a74aa23c1a8d91810f"
+    },
+    {
+      "name": "PS-Play",
+      "filename": "PS-Play_v2.1.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_video_player/PS-Play/2.1/PS-Play_v2.1.elf",
+      "description": "All-in-one media hub for jailbroken PlayStation 5",
+      "version": "2.1",
+      "category": "PS5 Video Player",
+      "checksum": "e3392379d5bc6ca4e44cb0d2a1d8921083b2c3ea480725f68378831874542d8d"
     }
   ]
 }
