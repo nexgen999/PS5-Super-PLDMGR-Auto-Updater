@@ -20,9 +20,9 @@
       <description>Le Homebrew Enabler (HEN) de référence pour la PS5 avec serveurs de triche, plugins et gestionnaire de mémoire intégrés. - Checksum: 4845cac45095361b8983b14d6690622183b0dcfbf6d7fda16e161aa91ff0531e</description>
     </item>
     <item>
-      <title>PS5_Unified_Autoloader (v0.1.3-78a6f02)</title>
-      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/PS5_Unified_Autoloader/v0.1.3-78a6f02/PS5_Unified_Autoloader_v0.1.3-78a6f02.elf</link>
-      <description>Chargeur universel de payloads permettant de lancer automatiquement vos outils favoris au démarrage de l'exploit. - Checksum: f411cc69872d7bdfc1d5166b37e93cd31bffdce355ff204c74f787767a4acad8</description>
+      <title>PS5_Unified_Autoloader (v0.1.4-955249d)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/PS5_Unified_Autoloader/v0.1.4-955249d/PS5_Unified_Autoloader_v0.1.4-955249d.elf</link>
+      <description>Chargeur universel de payloads permettant de lancer automatiquement vos outils favoris au démarrage de l'exploit. - Checksum: 31d12ba2b0b11462a91756f4b8c7857e90674fc8df02fe74155c7c2a8f27a4fd</description>
     </item>
     <item>
       <title>pldmgr (v0.5.1)</title>
@@ -175,9 +175,9 @@
       <description>PS5-Power-Payloads-Project utility. - Checksum: 1a36a01c92cd73fc89645ce73e3f33c71979b5b677c92b6f4c26d269e3f9a2c1</description>
     </item>
     <item>
-      <title>webkit-autoloader-installer (v0.3.1-pre-2235c43)</title>
-      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5-webkit-autoloader/ps5-webkit-autoloader/v0.3.1-pre-2235c43/webkit-autoloader-installer_v0.3.1-pre-2235c43.elf</link>
-      <description>Installs WebKit Autoloader on homescreen for firmwares 9.00-12.00. - Checksum: 976712ab9870c9796edc3b989a19a64322a310b594fb406e104dabe73b696f52</description>
+      <title>webkit-autoloader-installer (v0.3.1-pre-3e9b02d)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5-webkit-autoloader/ps5-webkit-autoloader/v0.3.1-pre-3e9b02d/webkit-autoloader-installer_v0.3.1-pre-3e9b02d.elf</link>
+      <description>Installs WebKit Autoloader on homescreen for firmwares 9.00-12.00. - Checksum: db6518263efa7d9cacd7754cb4bc7a27619c2c93b3f82599d6a27010b9c3e401</description>
     </item>
     <item>
       <title>garlic-savemgr (v1.12)</title>
