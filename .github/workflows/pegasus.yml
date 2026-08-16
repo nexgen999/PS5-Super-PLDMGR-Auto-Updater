@@ -1,0 +1,38 @@
+name: Auto Update Pegasus Catalog
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # S'exécute tous les jours à minuit
+  workflow_dispatch: # Permet de lancer la mise à jour manuellement depuis GitHub
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install playwright
+          playwright install chromium
+          playwright install-deps
+
+      - name: Run Scraper
+        run: python generate_pegasus_dl.py
+
+      - name: Commit and Push update
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add exfat-pegasus.json
+          git status
+          git diff-index --quiet HEAD || git commit -m "Auto-update Pegasus catalog"
+          git push
