@@ -4,7 +4,7 @@ from playwright.sync_api import sync_playwright
 
 SITE_URL = "https://pippo26442999.github.io/.exFAT/"
 # Si le site demande un mot de passe d'accès au catalogue, mets-le ici (ex: "1234")
-PASSWORD = "" 
+PASSWORD = "pippo" 
 
 def scrape_and_generate():
     with sync_playwright() as p:
