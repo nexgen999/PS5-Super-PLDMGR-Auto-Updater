@@ -16,7 +16,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.11'
+          python-version: '3.x'
 
       - name: Install dependencies
         run: |
@@ -24,6 +24,7 @@ jobs:
           pip install playwright
           playwright install chromium
           playwright install-deps
+          pip install requests beautifulsoup4
 
       - name: Run Scraper
         run: python generate_pegasus_dl.py
