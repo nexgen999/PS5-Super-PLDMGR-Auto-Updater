@@ -103,6 +103,7 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 | **Kura** | [v1.6.31](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/Kura/v1.6.31/Kura_v1.6.31.elf) | `c14475fe4d...` | Un loader de payloads moderne et épuré conçu pour optimiser l'injection de code sur PS5. |
 | **PIZZA-HEN** | [v0.1](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/PIZZA-HEN/v0.1/PIZZA-HEN_v0.1.elf) | `eb627dac47...` | PIZZA HEN is an experimental all-in-one PS5 homebrew environment. |
 | **onionHEN** | [v0.0.10](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/onionHEN/v0.0.10/onionHEN_v0.0.10.elf) | `fd6618fa00...` | An all-in-one HEN and Toolbox for PlayStation 5. |
+| **etaHEN-2.6B** | [Source-Fixe](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/etaHEN-Beta/Source-Fixe/etaHEN-2.6B.bin) | `512c74a9d6...` | etahen beta version experimental. |
 
 ### 🧪 PS5 Kstuff
 📂 **Fichier JSON Dédié :** `https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/json/ps5_kstuff.json`
@@ -277,6 +278,7 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 - **seregonwar** : [MemDBG](https://github.com/seregonwar/MemDBG)
 - **seregonwar** : [zftpd](https://github.com/seregonwar/zftpd)
 - **soniciso** : [uds-trophy-unlocker](https://git.etawen.dev/soniciso/uds-trophy-unlocker)
+- **zecoxao & LightningMods** : [etaHEN-Beta](https://github.com/zecoxao/zecoxao.github.io/raw/refs/heads/main/luasauce/payloads/etaHEN-2.6B.bin)
 
 ---
 *Dépôt 100% autonome géré par GitHub Actions.*

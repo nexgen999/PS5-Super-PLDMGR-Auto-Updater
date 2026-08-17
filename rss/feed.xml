@@ -50,6 +50,11 @@
       <description>An all-in-one HEN and Toolbox for PlayStation 5. - Checksum: fd6618fa00f4fc8ba437334aa20577acd79307fea19f6e210477a23d24fa18b6</description>
     </item>
     <item>
+      <title>etaHEN-2.6B (Source-Fixe)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/etaHEN-Beta/Source-Fixe/etaHEN-2.6B.bin</link>
+      <description>etahen beta version experimental. - Checksum: 512c74a9d6f56bb5a4ab871a0306a8cbefb8b3d5454ba8f1d833b020b245a126</description>
+    </item>
+    <item>
       <title>ps5-fan-control (v0.3)</title>
       <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_fan/ps5-fan-control/v0.3/ps5-fan-control_v0.3.elf</link>
       <description>Small PS5 daemon payload ELF that sets the system fan temperature. - Checksum: b10b6b9b9c00efed8bf9202a83b6cb762345d1f84130a419eff7139250026b36</description>

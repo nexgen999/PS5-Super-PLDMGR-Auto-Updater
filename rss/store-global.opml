@@ -67,5 +67,6 @@
     <outline text="MemDBG" title="MemDBG" type="rss" xmlUrl="https://github.com/seregonwar/MemDBG" author="seregonwar"/>
     <outline text="zftpd" title="zftpd" type="rss" xmlUrl="https://github.com/seregonwar/zftpd" author="seregonwar"/>
     <outline text="uds-trophy-unlocker" title="uds-trophy-unlocker" type="rss" xmlUrl="https://git.etawen.dev/soniciso/uds-trophy-unlocker" author="soniciso"/>
+    <outline text="etaHEN-Beta" title="etaHEN-Beta" type="rss" xmlUrl="https://github.com/zecoxao/zecoxao.github.io/raw/refs/heads/main/luasauce/payloads/etaHEN-2.6B.bin" author="zecoxao & LightningMods"/>
   </body>
 </opml>
