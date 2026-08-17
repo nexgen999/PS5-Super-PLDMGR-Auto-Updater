@@ -74,6 +74,15 @@
       "checksum": "eb627dac4746fbeb6ca88bf3e37d3c52562de15a0fb0ef433629b00e8a4a6abc"
     },
     {
+      "name": "onionHEN",
+      "filename": "onionHEN_v0.0.10.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/onionHEN/v0.0.10/onionHEN_v0.0.10.elf",
+      "description": "An all-in-one HEN and Toolbox for PlayStation 5.",
+      "version": "v0.0.10",
+      "category": "PS5 HEN Loader",
+      "checksum": "fd6618fa00f4fc8ba437334aa20577acd79307fea19f6e210477a23d24fa18b6"
+    },
+    {
       "name": "ps5-fan-control",
       "filename": "ps5-fan-control_v0.3.elf",
       "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_fan/ps5-fan-control/v0.3/ps5-fan-control_v0.3.elf",
