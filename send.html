@@ -32,7 +32,7 @@
     input:focus, select:focus { outline: 1px solid var(--accent); }
     button { background: var(--accent); font-weight: 600; cursor: pointer; border: none; transition: opacity 0.2s; white-space: nowrap; }
     button:hover { opacity: 0.9; }
-    .btn-secondary { background: #334155; font-size: 0.8rem; padding: 4px 8px; font-weight: normal; }
+    .btn-secondary { background: #334155; font-size: 0.8rem; padding: 6px 10px; font-weight: normal; }
     .btn-block { width: 100%; }
     
     .desc-box {
@@ -50,7 +50,6 @@
     }
     .desc-box.empty { color: #64748b; font-style: italic; }
 
-    /* Grande console de logs */
     .console-box {
       background: #050914;
       border: 1px solid var(--border);
@@ -80,10 +79,13 @@
 
   <!-- Configuration IP -->
   <div class="card">
-    <h2>Configuration PS5</h2>
+    <h2>
+      Configuration PS5
+      <button class="btn-secondary" onclick="setLocalIp()">Mode PS5 (127.0.0.1)</button>
+    </h2>
     <div class="form-group">
-      <label for="ps5-ip">Adresse IP de la PS5</label>
-      <input type="text" id="ps5-ip" placeholder="192.168.1.X" value="192.168.1.">
+      <label for="ps5-ip">Adresse IP de la PS5 (127.0.0.1 si ouverte directement sur la PS5)</label>
+      <input type="text" id="ps5-ip" placeholder="192.168.1.X ou 127.0.0.1" value="127.0.0.1">
     </div>
   </div>
 
@@ -130,8 +132,8 @@
     </div>
 
     <div class="form-group">
-      <label for="elf-port">Port elfldr (par défaut 9020 ou 9021)</label>
-      <input type="number" id="elf-port" value="9020">
+      <label for="elf-port">Port elfldr</label>
+      <input type="number" id="elf-port" value="9021">
     </div>
     <button class="btn-block" onclick="sendElf()">Injecter l'ELF</button>
   </div>
@@ -167,7 +169,7 @@
     <button class="btn-block" onclick="sendPkg()">Installer le PKG</button>
   </div>
 
-  <!-- Console de logs agrandie -->
+  <!-- Console de logs -->
   <div class="card">
     <h2>
       Console / Journal de Diagnostic
@@ -181,13 +183,18 @@
   let allPayloads = []; 
   let currentFilteredPayloads = [];
 
-  // Initialisation IP
-  document.getElementById('ps5-ip').value = localStorage.getItem('ps5_ip') || '192.168.1.';
+  // Initialisation IP (127.0.0.1 par défaut pour exécution locale PS5)
+  document.getElementById('ps5-ip').value = localStorage.getItem('ps5_ip') || '127.0.0.1';
   document.getElementById('ps5-ip').addEventListener('change', (e) => {
     localStorage.setItem('ps5_ip', e.target.value.trim());
   });
 
-  // Gestionnaire de Logs avancé
+  function setLocalIp() {
+    document.getElementById('ps5-ip').value = '127.0.0.1';
+    localStorage.setItem('ps5_ip', '127.0.0.1');
+    log("Adresse IP réglée sur 127.0.0.1 (Boucle locale PS5).", "info");
+  }
+
   function log(msg, type = 'info', detail = null) {
     const consoleEl = document.getElementById('console');
     const time = new Date().toLocaleTimeString();
@@ -246,14 +253,14 @@
     if (!targetUrl) return log("URL de source ELF invalide.", "error");
 
     try {
-      log(`Téléchargement de la liste JSON depuis : ${targetUrl}...`, "info");
+      log(`Téléchargement de la liste JSON : ${targetUrl}...`, "info");
       const res = await fetch(targetUrl);
       if (!res.ok) throw new Error(`HTTP ${res.status} ${res.statusText}`);
       const data = await res.json();
       
       allPayloads = parsePayloadsData(data);
       populateElfCategories();
-      log(`Liste ELF chargée avec succès (${allPayloads.length} payload(s) disponible(s)).`, "success");
+      log(`Liste ELF chargée (${allPayloads.length} payload(s)).`, "success");
     } catch (e) {
       log(`Échec du chargement du fichier JSON`, "error", `Détail : ${e.message}`);
     }
@@ -379,7 +386,7 @@
     if (!targetUrl) return log("URL de source PKG invalide.", "error");
 
     try {
-      log(`Chargement de la liste PKG depuis : ${targetUrl}...`, "info");
+      log(`Chargement de la liste PKG : ${targetUrl}...`, "info");
       const res = await fetch(targetUrl);
       if (!res.ok) throw new Error(`HTTP ${res.status} ${res.statusText}`);
       const data = await res.json();
@@ -403,52 +410,42 @@
     }
   }
 
-  // --- ENVOI DE DONNÉES AVEC DIAGNOSTIC PRÉCIS ---
+  // --- ENVOI DE DONNÉES ---
 
   async function sendElf() {
-    const ip = document.getElementById('ps5-ip').value.trim();
+    let ip = document.getElementById('ps5-ip').value.trim();
     const port = document.getElementById('elf-port').value.trim();
     const selectedId = document.getElementById('elf-select').value;
 
     const payload = currentFilteredPayloads.find(p => p.id == selectedId);
 
-    if (!ip || ip === "192.168.1.") {
-      return log("L'adresse IP de la PS5 n'est pas renseignée.", "error");
-    }
-    if (!payload || !payload.url) {
-      return log("Aucun payload sélectionné ou URL manquante.", "error");
-    }
+    if (!ip) return log("L'adresse IP n'est pas renseignée.", "error");
+    if (!payload || !payload.url) return log("Aucun payload sélectionné.", "error");
 
     log(`[Étape 1/2] Téléchargement du fichier ELF (${payload.name})...`, "info");
-    log(`URL du fichier : ${payload.url}`, "info");
 
     let buffer;
     try {
       const response = await fetch(payload.url);
-      if (!response.ok) {
-        throw new Error(`Serveur hébergeur a répondu avec le code HTTP ${response.status}`);
-      }
+      if (!response.ok) throw new Error(`Code HTTP ${response.status}`);
       buffer = await response.arrayBuffer();
-      log(`Fichier récuperé avec succès (${buffer.byteLength} octets).`, "success");
+      log(`Fichier récupéré avec succès (${buffer.byteLength} octets).`, "success");
     } catch (err) {
-      return log(`Erreur lors du téléchargement de l'ELF sur Internet`, "error", `Détails : ${err.message}. Vérifie si l'URL dans le JSON est correcte et accessible.`);
+      return log(`Erreur de téléchargement du fichier ELF`, "error", `Détails : ${err.message}`);
     }
 
-    log(`[Étape 2/2] Envoi au socket TCP PS5 (http://${ip}:${port})...`, "warning");
+    log(`[Étape 2/2] Envoi au socket TCP (http://${ip}:${port})...`, "warning");
 
     try {
-      const targetEndpoint = `http://${ip}:${port}`;
-      
-      // Envoi du binaire vers le port TCP (no-cors est obligatoire pour contourner les blocages stricts)
-      await fetch(targetEndpoint, {
+      await fetch(`http://${ip}:${port}`, {
         method: 'POST',
         mode: 'no-cors',
         body: buffer
       });
 
-      log(`Payload "${payload.name}" envoyé vers la PS5 !`, "success", `Si rien ne se passe sur la console, vérifie que elfldr écoute bien sur le port ${port}.`);
+      log(`Payload "${payload.name}" transmis avec succès !`, "success");
     } catch (err) {
-      log(`Échec de la connexion TCP vers la PS5`, "error", `Détails de l'erreur JS : ${err.message}. Cause probable : Blocage CORS du navigateur, PS5 éteinte, IP incorrecte (${ip}) ou port ${port} fermé.`);
+      log(`Échec de la connexion TCP`, "error", `Détails : ${err.message}. Si la page est en HTTPS sur la PS5, le navigateur bloque l'envoi vers un port HTTP local.`);
     }
   }
 
@@ -457,12 +454,11 @@
     const port = document.getElementById('pkg-port').value.trim();
     const pkgUrl = document.getElementById('pkg-select').value;
 
-    if (!ip || ip === "192.168.1.") return log("L'adresse IP de la PS5 n'est pas renseignée.", "error");
+    if (!ip) return log("L'adresse IP n'est pas renseignée.", "error");
     if (!pkgUrl) return log("Aucun PKG sélectionné.", "error");
 
     const endpoint = `http://${ip}:${port}/api/install`;
-    log(`Envoi de la commande d'installation au port ${port}...`, "info");
-    log(`Payload JSON transmis : ${JSON.stringify({ type: "direct", url: pkgUrl })}`, "info");
+    log(`Envoi de la commande d'installation PKG à http://${ip}:${port}...`, "info");
 
     try {
       const response = await fetch(endpoint, {
@@ -472,18 +468,18 @@
       });
 
       if (response.ok) {
-        log("Commande d'installation de PKG acceptée par la PS5 !", "success");
+        log("Commande PKG transmise avec succès !", "success");
       } else {
-        log(`La PS5 a répondu avec un code d'erreur HTTP ${response.status}`, "warning");
+        log(`Réponse PS5 : HTTP ${response.status}`, "warning");
       }
     } catch (err) {
-      log(`Échec d'envoi du PKG à la PS5`, "error", `Détails : ${err.message}. Vérifie le port (12800 par défaut) et que l'API Direct PKG Installer est active.`);
+      log(`Échec d'envoi du PKG`, "error", `Détails : ${err.message}`);
     }
   }
 
   // Initialisation
   window.addEventListener('DOMContentLoaded', () => {
-    log("Interface démarrée.", "info");
+    log("Interface prête.", "info");
     handleElfSourceChange();
     handlePkgSourceChange();
   });
