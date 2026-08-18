@@ -57,12 +57,12 @@
     },
     {
       "name": "Kura",
-      "filename": "Kura_v1.6.32.elf",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/Kura/v1.6.32/Kura_v1.6.32.elf",
+      "filename": "Kura_v1.6.36.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/Kura/v1.6.36/Kura_v1.6.36.elf",
       "description": "Un loader de payloads moderne et épuré conçu pour optimiser l'injection de code sur PS5.",
-      "version": "v1.6.32",
+      "version": "v1.6.36",
       "category": "PS5 HEN Loader",
-      "checksum": "c4c06e5950c638602eb093fb4ebecedfe7d579f89a881a1377a854008ed619d8"
+      "checksum": "8a85b699802737071d2fb81dcdb7292920353206b9c299d7d3ae5da20864e150"
     },
     {
       "name": "PIZZA-HEN",
