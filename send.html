@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PS5 ELF & PKG Sender</title>
+  <style>
+    :root {
+      --bg: #0f172a;
+      --card: #1e293b;
+      --accent: #3b82f6;
+      --text: #f8fafc;
+      --text-dim: #94a3b8;
+      --border: #334155;
+      --success: #22c55e;
+      --error: #ef4444;
+      --warning: #f59e0b;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: system-ui, -apple-system, sans-serif; }
+    body { background: var(--bg); color: var(--text); padding: 20px; display: flex; justify-content: center; }
+    .container { width: 100%; max-width: 900px; display: flex; flex-direction: column; gap: 20px; }
+    h1 { font-size: 1.5rem; text-align: center; margin-bottom: 10px; color: var(--accent); }
+    .card { background: var(--card); border: 1px solid var(--border); border-radius: 8px; padding: 20px; }
+    .card h2 { font-size: 1.1rem; margin-bottom: 15px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; justify-content: space-between; align-items: center; }
+    .form-group { display: flex; flex-direction: column; gap: 8px; margin-bottom: 15px; }
+    .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; }
+    .input-btn-group { display: flex; gap: 8px; }
+    .input-btn-group input { flex: 1; }
+    @media (max-width: 600px) { .form-row { grid-template-columns: 1fr; } }
+    label { font-size: 0.85rem; color: var(--text-dim); }
+    input, select, button { padding: 10px 12px; border-radius: 6px; border: 1px solid var(--border); background: #0f172a; color: var(--text); font-size: 0.95rem; }
+    input:focus, select:focus { outline: 1px solid var(--accent); }
+    button { background: var(--accent); font-weight: 600; cursor: pointer; border: none; transition: opacity 0.2s; white-space: nowrap; }
+    button:hover { opacity: 0.9; }
+    .btn-secondary { background: #334155; font-size: 0.8rem; padding: 4px 8px; font-weight: normal; }
+    .btn-block { width: 100%; }
+    
+    .desc-box {
+      background: #0f172a;
+      border: 1px solid var(--border);
+      border-left: 3px solid var(--accent);
+      border-radius: 6px;
+      padding: 10px 12px;
+      margin-bottom: 15px;
+      font-size: 0.88rem;
+      color: var(--text-dim);
+      min-height: 42px;
+      display: flex;
+      align-items: center;
+    }
+    .desc-box.empty { color: #64748b; font-style: italic; }
+
+    /* Grande console de logs */
+    .console-box {
+      background: #050914;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 12px;
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 0.85rem;
+      height: 250px;
+      overflow-y: auto;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+    .log-line { line-height: 1.4; word-break: break-all; }
+    .log-time { color: #64748b; margin-right: 6px; }
+    .log-info { color: var(--text-dim); }
+    .log-success { color: var(--success); }
+    .log-error { color: var(--error); font-weight: bold; }
+    .log-warning { color: var(--warning); }
+    .log-detail { color: #cbd5e1; margin-left: 15px; font-size: 0.8rem; border-left: 2px solid var(--border); padding-left: 8px; }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <h1>PS5 ELF & PKG Sender</h1>
+
+  <!-- Configuration IP -->
+  <div class="card">
+    <h2>Configuration PS5</h2>
+    <div class="form-group">
+      <label for="ps5-ip">Adresse IP de la PS5</label>
+      <input type="text" id="ps5-ip" placeholder="192.168.1.X" value="192.168.1.">
+    </div>
+  </div>
+
+  <!-- Section Envoi ELF -->
+  <div class="card">
+    <h2>Envoyer un Payload (ELF)</h2>
+    
+    <div class="form-group">
+      <label for="elf-source-select">Source du fichier payloads.json</label>
+      <select id="elf-source-select" onchange="handleElfSourceChange()">
+        <option value="https://raw.githubusercontent.com/nexgen999/PS5-Super-PLDMGR-Auto-Updater/main/json/payloads.json">Dépôt Principal (nexgen999)</option>
+        <option value="https://raw.githubusercontent.com/itsPLK/ps5-payloads-mirror/main/payloads.json">Miroir (itsPLK)</option>
+        <option value="CUSTOM">-- Ajouter une URL personnalisée --</option>
+      </select>
+    </div>
+
+    <div class="form-group" id="elf-custom-url-group" style="display: none;">
+      <label for="elf-custom-url">URL personnalisée (payloads.json)</label>
+      <div class="input-btn-group">
+        <input type="text" id="elf-custom-url" placeholder="https://domain.com/path/payloads.json">
+        <button type="button" onclick="loadElfSource(document.getElementById('elf-custom-url').value)">Charger</button>
+      </div>
+    </div>
+
+    <div class="form-row">
+      <div class="form-group">
+        <label for="elf-category">1. Catégorie</label>
+        <select id="elf-category" onchange="filterPayloads()">
+          <option value="">Chargement...</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="elf-select">2. Payload (ELF)</label>
+        <select id="elf-select" onchange="updateElfDescription()">
+          <option value="">Sélectionnez une catégorie</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label>Description du payload</label>
+      <div id="elf-description" class="desc-box empty">Aucun payload sélectionné.</div>
+    </div>
+
+    <div class="form-group">
+      <label for="elf-port">Port elfldr (par défaut 9020 ou 9021)</label>
+      <input type="number" id="elf-port" value="9020">
+    </div>
+    <button class="btn-block" onclick="sendElf()">Injecter l'ELF</button>
+  </div>
+
+  <!-- Section Envoi PKG -->
+  <div class="card">
+    <h2>Installer un Package (PKG)</h2>
+    
+    <div class="form-group">
+      <label for="pkg-source-select">Source du fichier pkg.json</label>
+      <select id="pkg-source-select" onchange="handlePkgSourceChange()">
+        <option value="https://raw.githubusercontent.com/nexgen999/PS5-Super-PLDMGR-Auto-Updater/main/json/pkg.json">Dépôt Principal (nexgen999)</option>
+        <option value="CUSTOM">-- Ajouter une URL personnalisée --</option>
+      </select>
+    </div>
+
+    <div class="form-group" id="pkg-custom-url-group" style="display: none;">
+      <label for="pkg-custom-url">URL personnalisée (pkg.json)</label>
+      <div class="input-btn-group">
+        <input type="text" id="pkg-custom-url" placeholder="https://domain.com/path/pkg.json">
+        <button type="button" onclick="loadPkgSource(document.getElementById('pkg-custom-url').value)">Charger</button>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label for="pkg-select">Sélectionner un fichier PKG</label>
+      <select id="pkg-select"><option value="">Chargement des packages...</option></select>
+    </div>
+    <div class="form-group">
+      <label for="pkg-port">Port Direct PKG Installer (par défaut 12800)</label>
+      <input type="number" id="pkg-port" value="12800">
+    </div>
+    <button class="btn-block" onclick="sendPkg()">Installer le PKG</button>
+  </div>
+
+  <!-- Console de logs agrandie -->
+  <div class="card">
+    <h2>
+      Console / Journal de Diagnostic
+      <button class="btn-secondary" onclick="clearConsole()">Effacer</button>
+    </h2>
+    <div id="console" class="console-box"></div>
+  </div>
+</div>
+
+<script>
+  let allPayloads = []; 
+  let currentFilteredPayloads = [];
+
+  // Initialisation IP
+  document.getElementById('ps5-ip').value = localStorage.getItem('ps5_ip') || '192.168.1.';
+  document.getElementById('ps5-ip').addEventListener('change', (e) => {
+    localStorage.setItem('ps5_ip', e.target.value.trim());
+  });
+
+  // Gestionnaire de Logs avancé
+  function log(msg, type = 'info', detail = null) {
+    const consoleEl = document.getElementById('console');
+    const time = new Date().toLocaleTimeString();
+
+    const line = document.createElement('div');
+    line.className = `log-line log-${type}`;
+    
+    const timeSpan = document.createElement('span');
+    timeSpan.className = 'log-time';
+    timeSpan.textContent = `[${time}]`;
+
+    line.appendChild(timeSpan);
+    line.appendChild(document.createTextNode(msg));
+    consoleEl.appendChild(line);
+
+    if (detail) {
+      const detailEl = document.createElement('div');
+      detailEl.className = 'log-detail';
+      detailEl.textContent = `> ${detail}`;
+      consoleEl.appendChild(detailEl);
+    }
+
+    consoleEl.scrollTop = consoleEl.scrollHeight;
+  }
+
+  function clearConsole() {
+    document.getElementById('console').innerHTML = '';
+    log("Console réinitialisée.", "info");
+  }
+
+  function formatRawUrl(url) {
+    if (!url) return '';
+    let formatted = url.trim();
+    if (formatted.includes('github.com') && formatted.includes('/blob/')) {
+      formatted = formatted.replace('github.com', 'raw.githubusercontent.com').replace('/blob/', '/');
+    }
+    return formatted;
+  }
+
+  // --- GESTION DES PAYLOADS ---
+
+  function handleElfSourceChange() {
+    const select = document.getElementById('elf-source-select');
+    const customGroup = document.getElementById('elf-custom-url-group');
+    
+    if (select.value === 'CUSTOM') {
+      customGroup.style.display = 'flex';
+    } else {
+      customGroup.style.display = 'none';
+      loadElfSource(select.value);
+    }
+  }
+
+  async function loadElfSource(url) {
+    const targetUrl = formatRawUrl(url);
+    if (!targetUrl) return log("URL de source ELF invalide.", "error");
+
+    try {
+      log(`Téléchargement de la liste JSON depuis : ${targetUrl}...`, "info");
+      const res = await fetch(targetUrl);
+      if (!res.ok) throw new Error(`HTTP ${res.status} ${res.statusText}`);
+      const data = await res.json();
+      
+      allPayloads = parsePayloadsData(data);
+      populateElfCategories();
+      log(`Liste ELF chargée avec succès (${allPayloads.length} payload(s) disponible(s)).`, "success");
+    } catch (e) {
+      log(`Échec du chargement du fichier JSON`, "error", `Détail : ${e.message}`);
+    }
+  }
+
+  function parsePayloadsData(data) {
+    let rawItems = [];
+
+    if (Array.isArray(data)) {
+      rawItems = data;
+    } else if (typeof data === 'object' && data !== null) {
+      if (Array.isArray(data.payloads)) {
+        rawItems = data.payloads;
+      } else {
+        Object.keys(data).forEach(catName => {
+          const content = data[catName];
+          if (Array.isArray(content)) {
+            content.forEach(item => rawItems.push({ ...item, category: item.category || catName }));
+          }
+        });
+      }
+    }
+
+    return rawItems.map((item, index) => {
+      const cat = item.category || item.cat || item.group || item.folder || "Non classé";
+      const desc = item.description || item.desc || item.info || "Aucune description disponible pour ce payload.";
+      const url = item.url || item.download_url || item.file || item.path || item.direct_url || "";
+      const name = item.name || item.display_name || item.title || item.filename || `Payload #${index + 1}`;
+
+      return {
+        id: index,
+        name: name,
+        version: item.version || "",
+        category: cat.trim(),
+        description: desc.trim(),
+        url: url
+      };
+    });
+  }
+
+  function populateElfCategories() {
+    const catSelect = document.getElementById('elf-category');
+    catSelect.innerHTML = '';
+
+    const categories = [...new Set(allPayloads.map(p => p.category))].sort((a, b) => a.localeCompare(b));
+
+    const defaultOpt = document.createElement('option');
+    defaultOpt.value = "ALL";
+    defaultOpt.textContent = "-- Toutes les catégories --";
+    catSelect.appendChild(defaultOpt);
+
+    categories.forEach(cat => {
+      const opt = document.createElement('option');
+      opt.value = cat;
+      opt.textContent = cat;
+      catSelect.appendChild(opt);
+    });
+
+    filterPayloads();
+  }
+
+  function filterPayloads() {
+    const selectedCat = document.getElementById('elf-category').value;
+    const elfSelect = document.getElementById('elf-select');
+    elfSelect.innerHTML = '';
+
+    currentFilteredPayloads = (selectedCat === "ALL" || !selectedCat) 
+      ? allPayloads 
+      : allPayloads.filter(p => p.category === selectedCat);
+
+    currentFilteredPayloads.sort((a, b) => a.name.localeCompare(b.name));
+
+    if (currentFilteredPayloads.length === 0) {
+      elfSelect.innerHTML = '<option value="">Aucun payload disponible</option>';
+      updateElfDescription();
+      return;
+    }
+
+    currentFilteredPayloads.forEach(item => {
+      const opt = document.createElement('option');
+      opt.value = item.id;
+      const verText = item.version ? ` (${item.version})` : '';
+      const catText = selectedCat === "ALL" ? ` [${item.category}]` : '';
+      opt.textContent = `${item.name}${verText}${catText}`;
+      elfSelect.appendChild(opt);
+    });
+
+    updateElfDescription();
+  }
+
+  function updateElfDescription() {
+    const elfSelect = document.getElementById('elf-select');
+    const descBox = document.getElementById('elf-description');
+
+    const selectedId = elfSelect.value;
+    const payload = currentFilteredPayloads.find(p => p.id == selectedId);
+
+    if (payload && payload.description) {
+      descBox.textContent = payload.description;
+      descBox.classList.remove('empty');
+    } else {
+      descBox.textContent = "Aucune description disponible pour ce payload.";
+      descBox.classList.add('empty');
+    }
+  }
+
+  // --- GESTION DES PACKAGES (PKG) ---
+
+  function handlePkgSourceChange() {
+    const select = document.getElementById('pkg-source-select');
+    const customGroup = document.getElementById('pkg-custom-url-group');
+    
+    if (select.value === 'CUSTOM') {
+      customGroup.style.display = 'flex';
+    } else {
+      customGroup.style.display = 'none';
+      loadPkgSource(select.value);
+    }
+  }
+
+  async function loadPkgSource(url) {
+    const targetUrl = formatRawUrl(url);
+    if (!targetUrl) return log("URL de source PKG invalide.", "error");
+
+    try {
+      log(`Chargement de la liste PKG depuis : ${targetUrl}...`, "info");
+      const res = await fetch(targetUrl);
+      if (!res.ok) throw new Error(`HTTP ${res.status} ${res.statusText}`);
+      const data = await res.json();
+      
+      const select = document.getElementById('pkg-select');
+      select.innerHTML = '';
+
+      let items = Array.isArray(data) ? data : (data.packages || Object.keys(data).map(key => ({ key, ...data[key] })));
+
+      items.forEach(item => {
+        const opt = document.createElement('option');
+        opt.value = item.url || item.download_url || item.file || item.path;
+        const name = item.display_name || item.name || item.title || item.filename || item.key || item.url;
+        opt.textContent = name;
+        if (opt.value) select.appendChild(opt);
+      });
+
+      log(`Liste PKG chargée (${select.options.length} élément(s)).`, "success");
+    } catch (e) {
+      log(`Échec du chargement de pkg.json`, "error", `Détail : ${e.message}`);
+    }
+  }
+
+  // --- ENVOI DE DONNÉES AVEC DIAGNOSTIC PRÉCIS ---
+
+  async function sendElf() {
+    const ip = document.getElementById('ps5-ip').value.trim();
+    const port = document.getElementById('elf-port').value.trim();
+    const selectedId = document.getElementById('elf-select').value;
+
+    const payload = currentFilteredPayloads.find(p => p.id == selectedId);
+
+    if (!ip || ip === "192.168.1.") {
+      return log("L'adresse IP de la PS5 n'est pas renseignée.", "error");
+    }
+    if (!payload || !payload.url) {
+      return log("Aucun payload sélectionné ou URL manquante.", "error");
+    }
+
+    log(`[Étape 1/2] Téléchargement du fichier ELF (${payload.name})...`, "info");
+    log(`URL du fichier : ${payload.url}`, "info");
+
+    let buffer;
+    try {
+      const response = await fetch(payload.url);
+      if (!response.ok) {
+        throw new Error(`Serveur hébergeur a répondu avec le code HTTP ${response.status}`);
+      }
+      buffer = await response.arrayBuffer();
+      log(`Fichier récuperé avec succès (${buffer.byteLength} octets).`, "success");
+    } catch (err) {
+      return log(`Erreur lors du téléchargement de l'ELF sur Internet`, "error", `Détails : ${err.message}. Vérifie si l'URL dans le JSON est correcte et accessible.`);
+    }
+
+    log(`[Étape 2/2] Envoi au socket TCP PS5 (http://${ip}:${port})...`, "warning");
+
+    try {
+      const targetEndpoint = `http://${ip}:${port}`;
+      
+      // Envoi du binaire vers le port TCP (no-cors est obligatoire pour contourner les blocages stricts)
+      await fetch(targetEndpoint, {
+        method: 'POST',
+        mode: 'no-cors',
+        body: buffer
+      });
+
+      log(`Payload "${payload.name}" envoyé vers la PS5 !`, "success", `Si rien ne se passe sur la console, vérifie que elfldr écoute bien sur le port ${port}.`);
+    } catch (err) {
+      log(`Échec de la connexion TCP vers la PS5`, "error", `Détails de l'erreur JS : ${err.message}. Cause probable : Blocage CORS du navigateur, PS5 éteinte, IP incorrecte (${ip}) ou port ${port} fermé.`);
+    }
+  }
+
+  async function sendPkg() {
+    const ip = document.getElementById('ps5-ip').value.trim();
+    const port = document.getElementById('pkg-port').value.trim();
+    const pkgUrl = document.getElementById('pkg-select').value;
+
+    if (!ip || ip === "192.168.1.") return log("L'adresse IP de la PS5 n'est pas renseignée.", "error");
+    if (!pkgUrl) return log("Aucun PKG sélectionné.", "error");
+
+    const endpoint = `http://${ip}:${port}/api/install`;
+    log(`Envoi de la commande d'installation au port ${port}...`, "info");
+    log(`Payload JSON transmis : ${JSON.stringify({ type: "direct", url: pkgUrl })}`, "info");
+
+    try {
+      const response = await fetch(endpoint, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ type: "direct", url: pkgUrl })
+      });
+
+      if (response.ok) {
+        log("Commande d'installation de PKG acceptée par la PS5 !", "success");
+      } else {
+        log(`La PS5 a répondu avec un code d'erreur HTTP ${response.status}`, "warning");
+      }
+    } catch (err) {
+      log(`Échec d'envoi du PKG à la PS5`, "error", `Détails : ${err.message}. Vérifie le port (12800 par défaut) et que l'API Direct PKG Installer est active.`);
+    }
+  }
+
+  // Initialisation
+  window.addEventListener('DOMContentLoaded', () => {
+    log("Interface démarrée.", "info");
+    handleElfSourceChange();
+    handlePkgSourceChange();
+  });
+</script>
+
+</body>
+</html>
