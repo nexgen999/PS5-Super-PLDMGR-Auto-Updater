@@ -84,8 +84,8 @@
       <button class="btn-secondary" onclick="setLocalIp()">Mode PS5 (127.0.0.1)</button>
     </h2>
     <div class="form-group">
-      <label for="ps5-ip">Adresse IP de la PS5 (127.0.0.1 si ouverte directement sur la PS5)</label>
-      <input type="text" id="ps5-ip" placeholder="192.168.1.X ou 127.0.0.1" value="127.0.0.1">
+      <label for="ps5-ip">Adresse IP de la PS5 (127.0.0.1 sur le navigateur PS5)</label>
+      <input type="text" id="ps5-ip" placeholder="127.0.0.1 ou 192.168.1.X" value="127.0.0.1">
     </div>
   </div>
 
@@ -183,8 +183,11 @@
   let allPayloads = []; 
   let currentFilteredPayloads = [];
 
-  // Initialisation IP (127.0.0.1 par défaut pour exécution locale PS5)
-  document.getElementById('ps5-ip').value = localStorage.getItem('ps5_ip') || '127.0.0.1';
+  // Active par défaut la boucle locale si on est sur la console
+  const isPS5Env = window.location.hostname === '127.0.0.1' || window.location.hostname === 'localhost' || navigator.userAgent.includes('PlayStation 5');
+  const defaultIp = isPS5Env ? '127.0.0.1' : '192.168.1.24';
+
+  document.getElementById('ps5-ip').value = localStorage.getItem('ps5_ip') || defaultIp;
   document.getElementById('ps5-ip').addEventListener('change', (e) => {
     localStorage.setItem('ps5_ip', e.target.value.trim());
   });
@@ -234,6 +237,58 @@
     return formatted;
   }
 
+  // --- MOTEUR D'INJECTION NATIVE WEBKIT ---
+
+  async function injectPayloadNative(payloadUrl, targetIp, targetPort) {
+    log(`[1/2] Téléchargement du binaire ELF...`, "info");
+    
+    const res = await fetch(payloadUrl);
+    if (!res.ok) throw new Error(`Code HTTP ${res.status}`);
+    const arrayBuffer = await res.arrayBuffer();
+    const rawBytes = new Uint8Array(arrayBuffer);
+    
+    log(`Binaire récupéré (${rawBytes.byteLength} octets).`, "success");
+    log(`[2/2] Injection binaire vers http://${targetIp}:${targetPort}...`, "warning");
+
+    // Tentative 1 : WebSocket (contourne le filtre CORS WebKit)
+    return new Promise((resolve, reject) => {
+      let wsDone = false;
+      try {
+        const ws = new WebSocket(`ws://${targetIp}:${targetPort}`);
+        ws.binaryType = 'arraybuffer';
+
+        ws.onopen = () => {
+          ws.send(rawBytes);
+          wsDone = true;
+          setTimeout(() => {
+            ws.close();
+            resolve("WebSocket Direct");
+          }, 200);
+        };
+
+        ws.onerror = () => {
+          if (!wsDone) fallbackFetch(targetIp, targetPort, rawBytes).then(resolve).catch(reject);
+        };
+      } catch (e) {
+        fallbackFetch(targetIp, targetPort, rawBytes).then(resolve).catch(reject);
+      }
+    });
+  }
+
+  async function fallbackFetch(ip, port, dataBytes) {
+    try {
+      await fetch(`http://${ip}:${port}`, {
+        method: 'POST',
+        mode: 'no-cors',
+        headers: { 'Content-Type': 'application/octet-stream' },
+        body: dataBytes
+      });
+      return "Fetch (no-cors)";
+    } catch (err) {
+      throw new Error(`Échec de l'envoi socket : ${err.message}`);
+    }
+  }
+
   // --- GESTION DES PAYLOADS ---
 
   function handleElfSourceChange() {
@@ -253,22 +308,21 @@
     if (!targetUrl) return log("URL de source ELF invalide.", "error");
 
     try {
-      log(`Téléchargement de la liste JSON : ${targetUrl}...`, "info");
+      log(`Chargement de la liste : ${targetUrl}...`, "info");
       const res = await fetch(targetUrl);
-      if (!res.ok) throw new Error(`HTTP ${res.status} ${res.statusText}`);
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
       const data = await res.json();
       
       allPayloads = parsePayloadsData(data);
       populateElfCategories();
-      log(`Liste ELF chargée (${allPayloads.length} payload(s)).`, "success");
+      log(`Liste ELF chargée (${allPayloads.length} payloads).`, "success");
     } catch (e) {
-      log(`Échec du chargement du fichier JSON`, "error", `Détail : ${e.message}`);
+      log(`Échec de chargement JSON`, "error", e.message);
     }
   }
 
   function parsePayloadsData(data) {
     let rawItems = [];
-
     if (Array.isArray(data)) {
       rawItems = data;
     } else if (typeof data === 'object' && data !== null) {
@@ -284,21 +338,14 @@
       }
     }
 
-    return rawItems.map((item, index) => {
-      const cat = item.category || item.cat || item.group || item.folder || "Non classé";
-      const desc = item.description || item.desc || item.info || "Aucune description disponible pour ce payload.";
-      const url = item.url || item.download_url || item.file || item.path || item.direct_url || "";
-      const name = item.name || item.display_name || item.title || item.filename || `Payload #${index + 1}`;
-
-      return {
-        id: index,
-        name: name,
-        version: item.version || "",
-        category: cat.trim(),
-        description: desc.trim(),
-        url: url
-      };
-    });
+    return rawItems.map((item, index) => ({
+      id: index,
+      name: item.name || item.display_name || item.title || `Payload #${index + 1}`,
+      version: item.version || "",
+      category: (item.category || item.cat || "Non classé").trim(),
+      description: (item.description || item.desc || "Aucune description disponible.").trim(),
+      url: item.url || item.download_url || item.file || item.path || ""
+    }));
   }
 
   function populateElfCategories() {
@@ -306,7 +353,6 @@
     catSelect.innerHTML = '';
 
     const categories = [...new Set(allPayloads.map(p => p.category))].sort((a, b) => a.localeCompare(b));
-
     const defaultOpt = document.createElement('option');
     defaultOpt.value = "ALL";
     defaultOpt.textContent = "-- Toutes les catégories --";
@@ -354,9 +400,7 @@
   function updateElfDescription() {
     const elfSelect = document.getElementById('elf-select');
     const descBox = document.getElementById('elf-description');
-
-    const selectedId = elfSelect.value;
-    const payload = currentFilteredPayloads.find(p => p.id == selectedId);
+    const payload = currentFilteredPayloads.find(p => p.id == elfSelect.value);
 
     if (payload && payload.description) {
       descBox.textContent = payload.description;
@@ -372,7 +416,6 @@
   function handlePkgSourceChange() {
     const select = document.getElementById('pkg-source-select');
     const customGroup = document.getElementById('pkg-custom-url-group');
-    
     if (select.value === 'CUSTOM') {
       customGroup.style.display = 'flex';
     } else {
@@ -383,85 +426,59 @@
 
   async function loadPkgSource(url) {
     const targetUrl = formatRawUrl(url);
-    if (!targetUrl) return log("URL de source PKG invalide.", "error");
+    if (!targetUrl) return log("URL PKG invalide.", "error");
 
     try {
-      log(`Chargement de la liste PKG : ${targetUrl}...`, "info");
+      log(`Chargement de la liste PKG...`, "info");
       const res = await fetch(targetUrl);
-      if (!res.ok) throw new Error(`HTTP ${res.status} ${res.statusText}`);
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
       const data = await res.json();
       
       const select = document.getElementById('pkg-select');
       select.innerHTML = '';
 
       let items = Array.isArray(data) ? data : (data.packages || Object.keys(data).map(key => ({ key, ...data[key] })));
-
       items.forEach(item => {
         const opt = document.createElement('option');
         opt.value = item.url || item.download_url || item.file || item.path;
-        const name = item.display_name || item.name || item.title || item.filename || item.key || item.url;
-        opt.textContent = name;
+        opt.textContent = item.display_name || item.name || item.title || item.url;
         if (opt.value) select.appendChild(opt);
       });
 
-      log(`Liste PKG chargée (${select.options.length} élément(s)).`, "success");
+      log(`Liste PKG chargée (${select.options.length} éléments).`, "success");
     } catch (e) {
-      log(`Échec du chargement de pkg.json`, "error", `Détail : ${e.message}`);
+      log(`Échec du chargement pkg.json`, "error", e.message);
     }
   }
 
-  // --- ENVOI DE DONNÉES ---
+  // --- ENVOIS ---
 
   async function sendElf() {
-    let ip = document.getElementById('ps5-ip').value.trim();
-    const port = document.getElementById('elf-port').value.trim();
+    let ip = document.getElementById('ps5-ip').value.trim() || '127.0.0.1';
+    const port = document.getElementById('elf-port').value.trim() || 9021;
     const selectedId = document.getElementById('elf-select').value;
-
     const payload = currentFilteredPayloads.find(p => p.id == selectedId);
 
-    if (!ip) return log("L'adresse IP n'est pas renseignée.", "error");
     if (!payload || !payload.url) return log("Aucun payload sélectionné.", "error");
 
-    log(`[Étape 1/2] Téléchargement du fichier ELF (${payload.name})...`, "info");
-
-    let buffer;
     try {
-      const response = await fetch(payload.url);
-      if (!response.ok) throw new Error(`Code HTTP ${response.status}`);
-      buffer = await response.arrayBuffer();
-      log(`Fichier récupéré avec succès (${buffer.byteLength} octets).`, "success");
+      const method = await injectPayloadNative(payload.url, ip, port);
+      log(`Payload "${payload.name}" injecté avec succès (${method}) !`, "success");
     } catch (err) {
-      return log(`Erreur de téléchargement du fichier ELF`, "error", `Détails : ${err.message}`);
-    }
-
-    log(`[Étape 2/2] Envoi au socket TCP (http://${ip}:${port})...`, "warning");
-
-    try {
-      await fetch(`http://${ip}:${port}`, {
-        method: 'POST',
-        mode: 'no-cors',
-        body: buffer
-      });
-
-      log(`Payload "${payload.name}" transmis avec succès !`, "success");
-    } catch (err) {
-      log(`Échec de la connexion TCP`, "error", `Détails : ${err.message}. Si la page est en HTTPS sur la PS5, le navigateur bloque l'envoi vers un port HTTP local.`);
+      log(`Échec d'injection`, "error", err.message);
     }
   }
 
   async function sendPkg() {
-    const ip = document.getElementById('ps5-ip').value.trim();
-    const port = document.getElementById('pkg-port').value.trim();
+    const ip = document.getElementById('ps5-ip').value.trim() || '127.0.0.1';
+    const port = document.getElementById('pkg-port').value.trim() || 12800;
     const pkgUrl = document.getElementById('pkg-select').value;
 
-    if (!ip) return log("L'adresse IP n'est pas renseignée.", "error");
     if (!pkgUrl) return log("Aucun PKG sélectionné.", "error");
 
-    const endpoint = `http://${ip}:${port}/api/install`;
-    log(`Envoi de la commande d'installation PKG à http://${ip}:${port}...`, "info");
-
+    log(`Envoi de l'ordre d'installation à http://${ip}:${port}...`, "info");
     try {
-      const response = await fetch(endpoint, {
+      const response = await fetch(`http://${ip}:${port}/api/install`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ type: "direct", url: pkgUrl })
@@ -473,11 +490,10 @@
         log(`Réponse PS5 : HTTP ${response.status}`, "warning");
       }
     } catch (err) {
-      log(`Échec d'envoi du PKG`, "error", `Détails : ${err.message}`);
+      log(`Échec d'envoi du PKG`, "error", err.message);
     }
   }
 
-  // Initialisation
   window.addEventListener('DOMContentLoaded', () => {
     log("Interface prête.", "info");
     handleElfSourceChange();
