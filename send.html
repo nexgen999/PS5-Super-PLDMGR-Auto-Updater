@@ -3,6 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Scripts ROP / WebKit obligatoires pour débloquer les sockets natifs -->
+  <script src="exploit.js"></script>
+  <script src="rop.js"></script>
+  <script src="syscalls.js"></script>
+  
   <title>PS5 ELF & PKG Sender</title>
   <style>
     :root {
