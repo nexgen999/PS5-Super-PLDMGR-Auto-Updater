@@ -84,7 +84,7 @@
       <button class="btn-secondary" onclick="setLocalIp()">Mode PS5 (127.0.0.1)</button>
     </h2>
     <div class="form-group">
-      <label for="ps5-ip">Adresse IP de la PS5 (127.0.0.1 sur le navigateur PS5)</label>
+      <label for="ps5-ip">Adresse IP de la PS5</label>
       <input type="text" id="ps5-ip" placeholder="127.0.0.1 ou 192.168.1.X" value="127.0.0.1">
     </div>
   </div>
@@ -183,7 +183,6 @@
   let allPayloads = []; 
   let currentFilteredPayloads = [];
 
-  // Active par défaut la boucle locale si on est sur la console
   const isPS5Env = window.location.hostname === '127.0.0.1' || window.location.hostname === 'localhost' || navigator.userAgent.includes('PlayStation 5');
   const defaultIp = isPS5Env ? '127.0.0.1' : '192.168.1.24';
 
@@ -237,56 +236,72 @@
     return formatted;
   }
 
-  // --- MOTEUR D'INJECTION NATIVE WEBKIT ---
+  // --- MOTEUR D'INJECTION (ROP SYSCALLS / SOCKET BRUT) ---
 
-  async function injectPayloadNative(payloadUrl, targetIp, targetPort) {
-    log(`[1/2] Téléchargement du binaire ELF...`, "info");
-    
-    const res = await fetch(payloadUrl);
-    if (!res.ok) throw new Error(`Code HTTP ${res.status}`);
-    const arrayBuffer = await res.arrayBuffer();
-    const rawBytes = new Uint8Array(arrayBuffer);
-    
-    log(`Binaire récupéré (${rawBytes.byteLength} octets).`, "success");
-    log(`[2/2] Injection binaire vers http://${targetIp}:${targetPort}...`, "warning");
-
-    // Tentative 1 : WebSocket (contourne le filtre CORS WebKit)
-    return new Promise((resolve, reject) => {
-      let wsDone = false;
-      try {
-        const ws = new WebSocket(`ws://${targetIp}:${targetPort}`);
-        ws.binaryType = 'arraybuffer';
-
-        ws.onopen = () => {
-          ws.send(rawBytes);
-          wsDone = true;
-          setTimeout(() => {
-            ws.close();
-            resolve("WebSocket Direct");
-          }, 200);
-        };
-
-        ws.onerror = () => {
-          if (!wsDone) fallbackFetch(targetIp, targetPort, rawBytes).then(resolve).catch(reject);
-        };
-      } catch (e) {
-        fallbackFetch(targetIp, targetPort, rawBytes).then(resolve).catch(reject);
-      }
-    });
+  function ipToNativeBytes(ipStr) {
+    const parts = ipStr.split('.').map(Number);
+    return (parts[0] & 0xff) | ((parts[1] & 0xff) << 8) | ((parts[2] & 0xff) << 16) | ((parts[3] & 0xff) << 24);
   }
 
-  async function fallbackFetch(ip, port, dataBytes) {
-    try {
-      await fetch(`http://${ip}:${port}`, {
-        method: 'POST',
-        mode: 'no-cors',
-        headers: { 'Content-Type': 'application/octet-stream' },
-        body: dataBytes
-      });
-      return "Fetch (no-cors)";
-    } catch (err) {
-      throw new Error(`Échec de l'envoi socket : ${err.message}`);
+  async function sendElfViaSyscalls(arrayBuffer, ip, port) {
+    // Si l'exploit WebKit fournit l'objet 'p' (ROP Chain PS5)
+    if (typeof window.p !== 'undefined' && typeof window.p.syscall === 'function') {
+      log("Exploit WebKit détecté (`window.p`). Tentative d'injection via socket ROP natif...", "info");
+      
+      const bytes = new Uint8Array(arrayBuffer);
+      const payloadAddr = window.p.malloc(bytes.byteLength);
+      
+      // Écriture du binaire en mémoire
+      for (let i = 0; i < bytes.byteLength; i++) {
+        window.p.write1(payloadAddr + i, bytes[i]);
+      }
+
+      // sys_socket(AF_INET=2, SOCK_STREAM=1, 0)
+      const sock = window.p.syscall(97, 2, 1, 0).low;
+      if (sock < 0) throw new Error("Échec de création du socket système.");
+
+      // Structure sockaddr_in
+      const sockaddr = window.p.malloc(0x10);
+      window.p.write1(sockaddr + 1, 2); // AF_INET
+      window.p.write2(sockaddr + 2, ((port & 0xff) << 8) | ((port >> 8) & 0xff)); // Port Network Byte Order
+      
+      const ipBytes = ip.split('.').map(Number);
+      window.p.write1(sockaddr + 4, ipBytes[0]);
+      window.p.write1(sockaddr + 5, ipBytes[1]);
+      window.p.write1(sockaddr + 6, ipBytes[2]);
+      window.p.write1(sockaddr + 7, ipBytes[3]);
+
+      // sys_connect(sock, sockaddr, 16)
+      const conn = window.p.syscall(98, sock, sockaddr, 0x10).low;
+      if (conn < 0) {
+        window.p.syscall(6, sock); // sys_close
+        throw new Error(`Impossible de se connecter à elfldr sur ${ip}:${port}.`);
+      }
+
+      // sys_write(sock, payloadAddr, len)
+      window.p.syscall(4, sock, payloadAddr, bytes.byteLength);
+      
+      // sys_close(sock)
+      window.p.syscall(6, sock);
+      return "ROP Socket Natif";
     }
+
+    // Si la fonction globale load_elf de certain payload loaders est présente
+    if (typeof window.load_elf === 'function') {
+      log("Fonction `load_elf` détectée dans le contexte WebKit.", "info");
+      window.load_elf(arrayBuffer);
+      return "load_elf()";
+    }
+
+    // Fallback Binaire Brut Web (no-cors)
+    log("Saisie hors ROP direct : tentative via transmission binaire `no-cors`...", "warning");
+    await fetch(`http://${ip}:${port}`, {
+      method: 'POST',
+      mode: 'no-cors',
+      headers: { 'Content-Type': 'application/octet-stream' },
+      body: new Uint8Array(arrayBuffer)
+    });
+    return "Stream Binaire (no-cors)";
   }
 
   // --- GESTION DES PAYLOADS ---
@@ -308,7 +323,7 @@
     if (!targetUrl) return log("URL de source ELF invalide.", "error");
 
     try {
-      log(`Chargement de la liste : ${targetUrl}...`, "info");
+      log(`Chargement du fichier JSON : ${targetUrl}...`, "info");
       const res = await fetch(targetUrl);
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
       const data = await res.json();
@@ -317,7 +332,7 @@
       populateElfCategories();
       log(`Liste ELF chargée (${allPayloads.length} payloads).`, "success");
     } catch (e) {
-      log(`Échec de chargement JSON`, "error", e.message);
+      log(`Échec de chargement du JSON`, "error", e.message);
     }
   }
 
@@ -461,11 +476,20 @@
 
     if (!payload || !payload.url) return log("Aucun payload sélectionné.", "error");
 
+    log(`[1/2] Téléchargement du binaire ELF (${payload.name})...`, "info");
+
     try {
-      const method = await injectPayloadNative(payload.url, ip, port);
+      const response = await fetch(payload.url);
+      if (!response.ok) throw new Error(`Erreur HTTP ${response.status}`);
+      const buffer = await response.arrayBuffer();
+      
+      log(`Fichier récupéré (${buffer.byteLength} octets).`, "success");
+      log(`[2/2] Envoi des octets vers ${ip}:${port}...`, "warning");
+
+      const method = await sendElfViaSyscalls(buffer, ip, port);
       log(`Payload "${payload.name}" injecté avec succès (${method}) !`, "success");
     } catch (err) {
-      log(`Échec d'injection`, "error", err.message);
+      log(`Échec de l'injection ELF`, "error", err.message);
     }
   }
 
