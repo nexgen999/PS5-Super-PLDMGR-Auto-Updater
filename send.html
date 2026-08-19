@@ -3,12 +3,6 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
-  <!-- Scripts ROP / WebKit obligatoires pour débloquer les sockets natifs -->
-  <script src="exploit.js"></script>
-  <script src="rop.js"></script>
-  <script src="syscalls.js"></script>
-  
   <title>PS5 ELF & PKG Sender</title>
   <style>
     :root {
@@ -63,7 +57,7 @@
       padding: 12px;
       font-family: 'Courier New', Courier, monospace;
       font-size: 0.85rem;
-      height: 250px;
+      height: 220px;
       overflow-y: auto;
       display: flex;
       flex-direction: column;
@@ -87,11 +81,11 @@
   <div class="card">
     <h2>
       Configuration PS5
-      <button class="btn-secondary" onclick="setLocalIp()">Mode PS5 (127.0.0.1)</button>
+      <button class="btn-secondary" onclick="setLocalIp()">127.0.0.1</button>
     </h2>
     <div class="form-group">
       <label for="ps5-ip">Adresse IP de la PS5</label>
-      <input type="text" id="ps5-ip" placeholder="127.0.0.1 ou 192.168.1.X" value="127.0.0.1">
+      <input type="text" id="ps5-ip" placeholder="192.168.1.X ou 127.0.0.1" value="127.0.0.1">
     </div>
   </div>
 
@@ -100,7 +94,7 @@
     <h2>Envoyer un Payload (ELF)</h2>
     
     <div class="form-group">
-      <label for="elf-source-select">Source du fichier payloads.json</label>
+      <label for="elf-source-select">Source des Payloads</label>
       <select id="elf-source-select" onchange="handleElfSourceChange()">
         <option value="https://raw.githubusercontent.com/nexgen999/PS5-Super-PLDMGR-Auto-Updater/main/json/payloads.json">Dépôt Principal (nexgen999)</option>
         <option value="https://raw.githubusercontent.com/itsPLK/ps5-payloads-mirror/main/payloads.json">Miroir (itsPLK)</option>
@@ -133,7 +127,7 @@
     </div>
 
     <div class="form-group">
-      <label>Description du payload</label>
+      <label>Description</label>
       <div id="elf-description" class="desc-box empty">Aucun payload sélectionné.</div>
     </div>
 
@@ -149,7 +143,7 @@
     <h2>Installer un Package (PKG)</h2>
     
     <div class="form-group">
-      <label for="pkg-source-select">Source du fichier pkg.json</label>
+      <label for="pkg-source-select">Source des Packages</label>
       <select id="pkg-source-select" onchange="handlePkgSourceChange()">
         <option value="https://raw.githubusercontent.com/nexgen999/PS5-Super-PLDMGR-Auto-Updater/main/json/pkg.json">Dépôt Principal (nexgen999)</option>
         <option value="CUSTOM">-- Ajouter une URL personnalisée --</option>
@@ -169,7 +163,7 @@
       <select id="pkg-select"><option value="">Chargement des packages...</option></select>
     </div>
     <div class="form-group">
-      <label for="pkg-port">Port Direct PKG Installer (par défaut 12800)</label>
+      <label for="pkg-port">Port Direct PKG Installer</label>
       <input type="number" id="pkg-port" value="12800">
     </div>
     <button class="btn-block" onclick="sendPkg()">Installer le PKG</button>
@@ -178,21 +172,17 @@
   <!-- Console de logs -->
   <div class="card">
     <h2>
-      Console / Journal de Diagnostic
+      Console de statut
       <button class="btn-secondary" onclick="clearConsole()">Effacer</button>
     </h2>
     <div id="console" class="console-box"></div>
   </div>
 </div>
 
+<!-- Utilitaires et scripts d'envoi -->
 <script>
-  let allPayloads = []; 
-  let currentFilteredPayloads = [];
-
-  const isPS5Env = window.location.hostname === '127.0.0.1' || window.location.hostname === 'localhost' || navigator.userAgent.includes('PlayStation 5');
-  const defaultIp = isPS5Env ? '127.0.0.1' : '192.168.1.24';
-
-  document.getElementById('ps5-ip').value = localStorage.getItem('ps5_ip') || defaultIp;
+  // Initialisation et utilitaires partagés
+  document.getElementById('ps5-ip').value = localStorage.getItem('ps5_ip') || '127.0.0.1';
   document.getElementById('ps5-ip').addEventListener('change', (e) => {
     localStorage.setItem('ps5_ip', e.target.value.trim());
   });
@@ -200,7 +190,7 @@
   function setLocalIp() {
     document.getElementById('ps5-ip').value = '127.0.0.1';
     localStorage.setItem('ps5_ip', '127.0.0.1');
-    log("Adresse IP réglée sur 127.0.0.1 (Boucle locale PS5).", "info");
+    log("IP réglée sur 127.0.0.1.", "info");
   }
 
   function log(msg, type = 'info', detail = null) {
@@ -241,289 +231,12 @@
     }
     return formatted;
   }
+</script>
 
-  // --- MOTEUR D'INJECTION (ROP SYSCALLS / SOCKET BRUT) ---
+<script src="elf.js"></script>
+<script src="pkg.js"></script>
 
-  function ipToNativeBytes(ipStr) {
-    const parts = ipStr.split('.').map(Number);
-    return (parts[0] & 0xff) | ((parts[1] & 0xff) << 8) | ((parts[2] & 0xff) << 16) | ((parts[3] & 0xff) << 24);
-  }
-
-  async function sendElfViaSyscalls(arrayBuffer, ip, port) {
-    // Si l'exploit WebKit fournit l'objet 'p' (ROP Chain PS5)
-    if (typeof window.p !== 'undefined' && typeof window.p.syscall === 'function') {
-      log("Exploit WebKit détecté (`window.p`). Tentative d'injection via socket ROP natif...", "info");
-      
-      const bytes = new Uint8Array(arrayBuffer);
-      const payloadAddr = window.p.malloc(bytes.byteLength);
-      
-      // Écriture du binaire en mémoire
-      for (let i = 0; i < bytes.byteLength; i++) {
-        window.p.write1(payloadAddr + i, bytes[i]);
-      }
-
-      // sys_socket(AF_INET=2, SOCK_STREAM=1, 0)
-      const sock = window.p.syscall(97, 2, 1, 0).low;
-      if (sock < 0) throw new Error("Échec de création du socket système.");
-
-      // Structure sockaddr_in
-      const sockaddr = window.p.malloc(0x10);
-      window.p.write1(sockaddr + 1, 2); // AF_INET
-      window.p.write2(sockaddr + 2, ((port & 0xff) << 8) | ((port >> 8) & 0xff)); // Port Network Byte Order
-      
-      const ipBytes = ip.split('.').map(Number);
-      window.p.write1(sockaddr + 4, ipBytes[0]);
-      window.p.write1(sockaddr + 5, ipBytes[1]);
-      window.p.write1(sockaddr + 6, ipBytes[2]);
-      window.p.write1(sockaddr + 7, ipBytes[3]);
-
-      // sys_connect(sock, sockaddr, 16)
-      const conn = window.p.syscall(98, sock, sockaddr, 0x10).low;
-      if (conn < 0) {
-        window.p.syscall(6, sock); // sys_close
-        throw new Error(`Impossible de se connecter à elfldr sur ${ip}:${port}.`);
-      }
-
-      // sys_write(sock, payloadAddr, len)
-      window.p.syscall(4, sock, payloadAddr, bytes.byteLength);
-      
-      // sys_close(sock)
-      window.p.syscall(6, sock);
-      return "ROP Socket Natif";
-    }
-
-    // Si la fonction globale load_elf de certain payload loaders est présente
-    if (typeof window.load_elf === 'function') {
-      log("Fonction `load_elf` détectée dans le contexte WebKit.", "info");
-      window.load_elf(arrayBuffer);
-      return "load_elf()";
-    }
-
-    // Fallback Binaire Brut Web (no-cors)
-    log("Saisie hors ROP direct : tentative via transmission binaire `no-cors`...", "warning");
-    await fetch(`http://${ip}:${port}`, {
-      method: 'POST',
-      mode: 'no-cors',
-      headers: { 'Content-Type': 'application/octet-stream' },
-      body: new Uint8Array(arrayBuffer)
-    });
-    return "Stream Binaire (no-cors)";
-  }
-
-  // --- GESTION DES PAYLOADS ---
-
-  function handleElfSourceChange() {
-    const select = document.getElementById('elf-source-select');
-    const customGroup = document.getElementById('elf-custom-url-group');
-    
-    if (select.value === 'CUSTOM') {
-      customGroup.style.display = 'flex';
-    } else {
-      customGroup.style.display = 'none';
-      loadElfSource(select.value);
-    }
-  }
-
-  async function loadElfSource(url) {
-    const targetUrl = formatRawUrl(url);
-    if (!targetUrl) return log("URL de source ELF invalide.", "error");
-
-    try {
-      log(`Chargement du fichier JSON : ${targetUrl}...`, "info");
-      const res = await fetch(targetUrl);
-      if (!res.ok) throw new Error(`HTTP ${res.status}`);
-      const data = await res.json();
-      
-      allPayloads = parsePayloadsData(data);
-      populateElfCategories();
-      log(`Liste ELF chargée (${allPayloads.length} payloads).`, "success");
-    } catch (e) {
-      log(`Échec de chargement du JSON`, "error", e.message);
-    }
-  }
-
-  function parsePayloadsData(data) {
-    let rawItems = [];
-    if (Array.isArray(data)) {
-      rawItems = data;
-    } else if (typeof data === 'object' && data !== null) {
-      if (Array.isArray(data.payloads)) {
-        rawItems = data.payloads;
-      } else {
-        Object.keys(data).forEach(catName => {
-          const content = data[catName];
-          if (Array.isArray(content)) {
-            content.forEach(item => rawItems.push({ ...item, category: item.category || catName }));
-          }
-        });
-      }
-    }
-
-    return rawItems.map((item, index) => ({
-      id: index,
-      name: item.name || item.display_name || item.title || `Payload #${index + 1}`,
-      version: item.version || "",
-      category: (item.category || item.cat || "Non classé").trim(),
-      description: (item.description || item.desc || "Aucune description disponible.").trim(),
-      url: item.url || item.download_url || item.file || item.path || ""
-    }));
-  }
-
-  function populateElfCategories() {
-    const catSelect = document.getElementById('elf-category');
-    catSelect.innerHTML = '';
-
-    const categories = [...new Set(allPayloads.map(p => p.category))].sort((a, b) => a.localeCompare(b));
-    const defaultOpt = document.createElement('option');
-    defaultOpt.value = "ALL";
-    defaultOpt.textContent = "-- Toutes les catégories --";
-    catSelect.appendChild(defaultOpt);
-
-    categories.forEach(cat => {
-      const opt = document.createElement('option');
-      opt.value = cat;
-      opt.textContent = cat;
-      catSelect.appendChild(opt);
-    });
-
-    filterPayloads();
-  }
-
-  function filterPayloads() {
-    const selectedCat = document.getElementById('elf-category').value;
-    const elfSelect = document.getElementById('elf-select');
-    elfSelect.innerHTML = '';
-
-    currentFilteredPayloads = (selectedCat === "ALL" || !selectedCat) 
-      ? allPayloads 
-      : allPayloads.filter(p => p.category === selectedCat);
-
-    currentFilteredPayloads.sort((a, b) => a.name.localeCompare(b.name));
-
-    if (currentFilteredPayloads.length === 0) {
-      elfSelect.innerHTML = '<option value="">Aucun payload disponible</option>';
-      updateElfDescription();
-      return;
-    }
-
-    currentFilteredPayloads.forEach(item => {
-      const opt = document.createElement('option');
-      opt.value = item.id;
-      const verText = item.version ? ` (${item.version})` : '';
-      const catText = selectedCat === "ALL" ? ` [${item.category}]` : '';
-      opt.textContent = `${item.name}${verText}${catText}`;
-      elfSelect.appendChild(opt);
-    });
-
-    updateElfDescription();
-  }
-
-  function updateElfDescription() {
-    const elfSelect = document.getElementById('elf-select');
-    const descBox = document.getElementById('elf-description');
-    const payload = currentFilteredPayloads.find(p => p.id == elfSelect.value);
-
-    if (payload && payload.description) {
-      descBox.textContent = payload.description;
-      descBox.classList.remove('empty');
-    } else {
-      descBox.textContent = "Aucune description disponible pour ce payload.";
-      descBox.classList.add('empty');
-    }
-  }
-
-  // --- GESTION DES PACKAGES (PKG) ---
-
-  function handlePkgSourceChange() {
-    const select = document.getElementById('pkg-source-select');
-    const customGroup = document.getElementById('pkg-custom-url-group');
-    if (select.value === 'CUSTOM') {
-      customGroup.style.display = 'flex';
-    } else {
-      customGroup.style.display = 'none';
-      loadPkgSource(select.value);
-    }
-  }
-
-  async function loadPkgSource(url) {
-    const targetUrl = formatRawUrl(url);
-    if (!targetUrl) return log("URL PKG invalide.", "error");
-
-    try {
-      log(`Chargement de la liste PKG...`, "info");
-      const res = await fetch(targetUrl);
-      if (!res.ok) throw new Error(`HTTP ${res.status}`);
-      const data = await res.json();
-      
-      const select = document.getElementById('pkg-select');
-      select.innerHTML = '';
-
-      let items = Array.isArray(data) ? data : (data.packages || Object.keys(data).map(key => ({ key, ...data[key] })));
-      items.forEach(item => {
-        const opt = document.createElement('option');
-        opt.value = item.url || item.download_url || item.file || item.path;
-        opt.textContent = item.display_name || item.name || item.title || item.url;
-        if (opt.value) select.appendChild(opt);
-      });
-
-      log(`Liste PKG chargée (${select.options.length} éléments).`, "success");
-    } catch (e) {
-      log(`Échec du chargement pkg.json`, "error", e.message);
-    }
-  }
-
-  // --- ENVOIS ---
-
-  async function sendElf() {
-    let ip = document.getElementById('ps5-ip').value.trim() || '127.0.0.1';
-    const port = document.getElementById('elf-port').value.trim() || 9021;
-    const selectedId = document.getElementById('elf-select').value;
-    const payload = currentFilteredPayloads.find(p => p.id == selectedId);
-
-    if (!payload || !payload.url) return log("Aucun payload sélectionné.", "error");
-
-    log(`[1/2] Téléchargement du binaire ELF (${payload.name})...`, "info");
-
-    try {
-      const response = await fetch(payload.url);
-      if (!response.ok) throw new Error(`Erreur HTTP ${response.status}`);
-      const buffer = await response.arrayBuffer();
-      
-      log(`Fichier récupéré (${buffer.byteLength} octets).`, "success");
-      log(`[2/2] Envoi des octets vers ${ip}:${port}...`, "warning");
-
-      const method = await sendElfViaSyscalls(buffer, ip, port);
-      log(`Payload "${payload.name}" injecté avec succès (${method}) !`, "success");
-    } catch (err) {
-      log(`Échec de l'injection ELF`, "error", err.message);
-    }
-  }
-
-  async function sendPkg() {
-    const ip = document.getElementById('ps5-ip').value.trim() || '127.0.0.1';
-    const port = document.getElementById('pkg-port').value.trim() || 12800;
-    const pkgUrl = document.getElementById('pkg-select').value;
-
-    if (!pkgUrl) return log("Aucun PKG sélectionné.", "error");
-
-    log(`Envoi de l'ordre d'installation à http://${ip}:${port}...`, "info");
-    try {
-      const response = await fetch(`http://${ip}:${port}/api/install`, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ type: "direct", url: pkgUrl })
-      });
-
-      if (response.ok) {
-        log("Commande PKG transmise avec succès !", "success");
-      } else {
-        log(`Réponse PS5 : HTTP ${response.status}`, "warning");
-      }
-    } catch (err) {
-      log(`Échec d'envoi du PKG`, "error", err.message);
-    }
-  }
-
+<script>
   window.addEventListener('DOMContentLoaded', () => {
     log("Interface prête.", "info");
     handleElfSourceChange();
