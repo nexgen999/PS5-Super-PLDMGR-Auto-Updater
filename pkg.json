@@ -1,0 +1,11 @@
+{
+  "repository": "nexgen999",
+  "packages": [
+    {
+      "name": "ps5webkit",
+      "display_name": "ps5webkit",
+      "description": "evox ps5 webkit launcher",
+      "url": "https://github.com/nexgen999/ps5webkit/releases/download/v1.0/PPNX00999.pkg"
+    }
+  ]
+}
