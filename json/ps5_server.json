@@ -48,12 +48,12 @@
     },
     {
       "name": "ftpsrv_ps5-payload",
-      "filename": "ftpsrv_ps5-payload_v0.21.elf",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ftpsrv_ps5-payload/v0.21/ftpsrv_ps5-payload_v0.21.elf",
+      "filename": "ftpsrv_ps5-payload_v0.21.1.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ftpsrv_ps5-payload/v0.21.1/ftpsrv_ps5-payload_v0.21.1.elf",
       "description": "FTP server background daemon. Port: 21",
-      "version": "v0.21",
+      "version": "v0.21.1",
       "category": "PS5 Server",
-      "checksum": "f86aed1194e92146135e1e8964993ae99663a38361b0825d2ca51d2e78a54da4"
+      "checksum": "0ccfe0097081be0514aabef34390a0f6776226e8b3eefbb047964584e0cfe3a9"
     },
     {
       "name": "websrv",
@@ -93,12 +93,12 @@
     },
     {
       "name": "ps5upload",
-      "filename": "ps5upload_v5.3.3.elf",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ps5upload/v5.3.3/ps5upload_v5.3.3.elf",
+      "filename": "ps5upload_v5.4.2.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ps5upload/v5.4.2/ps5upload_v5.4.2.elf",
       "description": "PS5 Upload server / tool. Port: 9025",
-      "version": "v5.3.3",
+      "version": "v5.4.2",
       "category": "PS5 Server",
-      "checksum": "1b19e30742068581334d5e936f7416ddcb9fdcabb6acbc89c39aba6993f987e0"
+      "checksum": "4551df26ec856863ad2c8fe9cc9f76f47a1b694032abe5e94c7a95fd63d6b4b0"
     },
     {
       "name": "airpsx",
