@@ -66,12 +66,12 @@
     },
     {
       "name": "PIZZA-HEN",
-      "filename": "PIZZA-HEN_v0.1.elf",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/PIZZA-HEN/v0.1/PIZZA-HEN_v0.1.elf",
+      "filename": "PIZZA-HEN_v1.0.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/PIZZA-HEN/v1.0/PIZZA-HEN_v1.0.elf",
       "description": "PIZZA HEN is an experimental all-in-one PS5 homebrew environment.",
-      "version": "v0.1",
+      "version": "v1.0",
       "category": "PS5 HEN Loader",
-      "checksum": "eb627dac4746fbeb6ca88bf3e37d3c52562de15a0fb0ef433629b00e8a4a6abc"
+      "checksum": "4708beca5c38b2cd506060a8baeeafcb8b3f1bb0f6bd7179566968d8b6687a5b"
     },
     {
       "name": "onionHEN",
