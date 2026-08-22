@@ -185,9 +185,9 @@
       <description>PS5-Power-Payloads-Project utility. - Checksum: 1a36a01c92cd73fc89645ce73e3f33c71979b5b677c92b6f4c26d269e3f9a2c1</description>
     </item>
     <item>
-      <title>webkit-autoloader-installer (v0.3.1)</title>
-      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5-webkit-autoloader/ps5-webkit-autoloader/v0.3.1/webkit-autoloader-installer_v0.3.1.elf</link>
-      <description>Installs WebKit Autoloader on homescreen for firmwares 9.00-12.00. - Checksum: 69beea7c4460d283606889f7ae1685f32e8fb7203274c279eeefa97fe4f1eb17</description>
+      <title>webkit-autoloader-installer (v0.4.0-pre-97dc296)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5-webkit-autoloader/ps5-webkit-autoloader/v0.4.0-pre-97dc296/webkit-autoloader-installer_v0.4.0-pre-97dc296.elf</link>
+      <description>Installs WebKit Autoloader on homescreen for firmwares 9.00-12.00. - Checksum: 0f39e079723ca8d3156c9d4c8da1c1410ff86931ef15fd49a5b2ec36c77e5c01</description>
     </item>
     <item>
       <title>garlic-savemgr (v1.12)</title>
@@ -210,9 +210,9 @@
       <description>Fake activate PS5 without PSN. - Checksum: f5c66fcb9e3f512e5463a7123d819b87f063d9955639366fa7ad26a2f0abefa4</description>
     </item>
     <item>
-      <title>PS5-Game-Compressor (v1.0.3)</title>
-      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/PS5-Game-Compressor/v1.0.3/PS5-Game-Compressor_v1.0.3.elf</link>
-      <description>Tool to compress PS5 games. - Checksum: 51b66edf6210c022d57a31ab12bf97f95a3c71ea683df387d9081494f11606b2</description>
+      <title>PS5-Game-Compressor (v1.0.4)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/PS5-Game-Compressor/v1.0.4/PS5-Game-Compressor_v1.0.4.elf</link>
+      <description>Tool to compress PS5 games. - Checksum: e55e90aaade13b6e0d4316c1597ef90a21b67a06475c3e25de054224bc1e941b</description>
     </item>
     <item>
       <title>ps5-app-dumper (v1.11)</title>

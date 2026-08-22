@@ -327,12 +327,12 @@
     },
     {
       "name": "webkit-autoloader-installer",
-      "filename": "webkit-autoloader-installer_v0.3.1.elf",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5-webkit-autoloader/ps5-webkit-autoloader/v0.3.1/webkit-autoloader-installer_v0.3.1.elf",
+      "filename": "webkit-autoloader-installer_v0.4.0-pre-97dc296.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5-webkit-autoloader/ps5-webkit-autoloader/v0.4.0-pre-97dc296/webkit-autoloader-installer_v0.4.0-pre-97dc296.elf",
       "description": "Installs WebKit Autoloader on homescreen for firmwares 9.00-12.00.",
-      "version": "v0.3.1",
+      "version": "v0.4.0-pre-97dc296",
       "category": "Ps5-Webkit-Autoloader",
-      "checksum": "69beea7c4460d283606889f7ae1685f32e8fb7203274c279eeefa97fe4f1eb17"
+      "checksum": "0f39e079723ca8d3156c9d4c8da1c1410ff86931ef15fd49a5b2ec36c77e5c01"
     },
     {
       "name": "garlic-savemgr",
@@ -372,12 +372,12 @@
     },
     {
       "name": "PS5-Game-Compressor",
-      "filename": "PS5-Game-Compressor_v1.0.3.elf",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/PS5-Game-Compressor/v1.0.3/PS5-Game-Compressor_v1.0.3.elf",
+      "filename": "PS5-Game-Compressor_v1.0.4.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/PS5-Game-Compressor/v1.0.4/PS5-Game-Compressor_v1.0.4.elf",
       "description": "Tool to compress PS5 games.",
-      "version": "v1.0.3",
+      "version": "v1.0.4",
       "category": "PS5 Game Dump",
-      "checksum": "51b66edf6210c022d57a31ab12bf97f95a3c71ea683df387d9081494f11606b2"
+      "checksum": "e55e90aaade13b6e0d4316c1597ef90a21b67a06475c3e25de054224bc1e941b"
     },
     {
       "name": "ps5-app-dumper",
