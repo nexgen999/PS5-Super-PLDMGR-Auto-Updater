@@ -57,6 +57,7 @@
     <outline text="ps5-web-file-manager" title="ps5-web-file-manager" type="rss" xmlUrl="https://github.com/owendswang/ps5-web-file-manager" author="owendswang"/>
     <outline text="pegasus-dl" title="pegasus-dl" type="rss" xmlUrl="https://github.com/pegasus-ps5/pegasus-dl" author="pegasus-ps5"/>
     <outline text="ps5upload" title="ps5upload" type="rss" xmlUrl="https://github.com/phantomptr/ps5upload" author="phantomptr"/>
+    <outline text="Host-PSM pooP2JB" title="Host-PSM pooP2JB" type="rss" xmlUrl="https://github.com/ps4macedo/instalador-host-psm-poop2jb" author="ps4macedo"/>
     <outline text="ps5-linux-loader" title="ps5-linux-loader" type="rss" xmlUrl="https://github.com/ps5-linux/ps5-linux-loader" author="ps5-linux"/>
     <outline text="elfldr" title="elfldr" type="rss" xmlUrl="https://github.com/ps5-payload-dev/elfldr" author="ps5-payload-dev"/>
     <outline text="ftpsrv_ps5-payload" title="ftpsrv_ps5-payload" type="rss" xmlUrl="https://github.com/ps5-payload-dev/ftpsrv" author="ps5-payload-dev"/>
@@ -67,6 +68,7 @@
     <outline text="MemDBG" title="MemDBG" type="rss" xmlUrl="https://github.com/seregonwar/MemDBG" author="seregonwar"/>
     <outline text="zftpd" title="zftpd" type="rss" xmlUrl="https://github.com/seregonwar/zftpd" author="seregonwar"/>
     <outline text="uds-trophy-unlocker" title="uds-trophy-unlocker" type="rss" xmlUrl="https://git.etawen.dev/soniciso/uds-trophy-unlocker" author="soniciso"/>
+    <outline text="apr-emu-updater" title="apr-emu-updater" type="rss" xmlUrl="https://github.com/tsuramatsu1/apr-emu-updater" author="tsuramatsu1"/>
     <outline text="etaHEN-Beta" title="etaHEN-Beta" type="rss" xmlUrl="https://github.com/zecoxao/zecoxao.github.io/raw/refs/heads/main/luasauce/payloads/etaHEN-2.6B.bin" author="zecoxao & LightningMods"/>
   </body>
 </opml>

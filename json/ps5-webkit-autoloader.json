@@ -9,6 +9,42 @@
       "version": "v0.4.0-pre-00e1028",
       "category": "Ps5-Webkit-Autoloader",
       "checksum": "b920bc73133764a9847975a402b6f3bd4d9d97c797159153ccc5bcb98b6ee025"
+    },
+    {
+      "name": "Host-PSM-pooP2JB-v1.1.0-instala-onionhen",
+      "filename": "Host-PSM-pooP2JB-v1.1.0-instala-onionhen_v1.1.0.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5-webkit-autoloader/Host-PSM_pooP2JB/v1.1.0/Host-PSM-pooP2JB-v1.1.0-instala-onionhen_v1.1.0.elf",
+      "description": "Host-PSM pooP2JB.",
+      "version": "v1.1.0",
+      "category": "Ps5-Webkit-Autoloader",
+      "checksum": "67a84db170a9da1cc9711882a1740a98f9e8e80dd5e2671c8ac00d94e956d17e"
+    },
+    {
+      "name": "Host-PSM-pooP2JB-v1.1.0-instala-pldmgr",
+      "filename": "Host-PSM-pooP2JB-v1.1.0-instala-pldmgr_v1.1.0.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5-webkit-autoloader/Host-PSM_pooP2JB/v1.1.0/Host-PSM-pooP2JB-v1.1.0-instala-pldmgr_v1.1.0.elf",
+      "description": "Host-PSM pooP2JB.",
+      "version": "v1.1.0",
+      "category": "Ps5-Webkit-Autoloader",
+      "checksum": "038946be06a073086a3b53f7677127446e97a0aee815fda12c73076faf4492ac"
+    },
+    {
+      "name": "Host-PSM-pooP2JB-v1.1.0-instala-pldmgr-en",
+      "filename": "Host-PSM-pooP2JB-v1.1.0-instala-pldmgr-en_v1.1.0.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5-webkit-autoloader/Host-PSM_pooP2JB/v1.1.0/Host-PSM-pooP2JB-v1.1.0-instala-pldmgr-en_v1.1.0.elf",
+      "description": "Host-PSM pooP2JB.",
+      "version": "v1.1.0",
+      "category": "Ps5-Webkit-Autoloader",
+      "checksum": "34c040c757f41c7d71132ac6af4fa42bd0b28e6271b0532eda15ef504e65b13d"
+    },
+    {
+      "name": "Host-PSM-pooP2JB-v1.1.0-instala-onionhen-en",
+      "filename": "Host-PSM-pooP2JB-v1.1.0-instala-onionhen-en_v1.1.0.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5-webkit-autoloader/Host-PSM_pooP2JB/v1.1.0/Host-PSM-pooP2JB-v1.1.0-instala-onionhen-en_v1.1.0.elf",
+      "description": "Host-PSM pooP2JB.",
+      "version": "v1.1.0",
+      "category": "Ps5-Webkit-Autoloader",
+      "checksum": "aa0dca2b98815836c099c4fbe7f62ef6b1f25748c299ea151b2fbbe7fdd42292"
     }
   ]
 }

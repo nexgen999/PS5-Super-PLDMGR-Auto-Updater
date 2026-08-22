@@ -26,7 +26,7 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 
 | Application | Version | Empreinte SHA-256 | Description |
 | :--- | :--- | :--- | :--- |
-| **np-fake-signin** | [v1.3](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Activation/np-fake-signin/v1.3/np-fake-signin_v1.3.elf) | `f5c66fcb9e...` | Fake activate PS5 without PSN. |
+| **np-fake-signin** | [v1.3](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Activation/np-fake-signin/v1.3/np-fake-signin_v1.3.elf) | `2ace1bb0be...` | Fake activate PS5 without PSN. |
 
 ### 🏴‍☠️ PS5 Cheat
 📂 **Fichier JSON Dédié :** `https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/json/PS5_Cheat.json`
@@ -42,13 +42,17 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 | Application | Version | Empreinte SHA-256 | Description |
 | :--- | :--- | :--- | :--- |
 | **webkit-autoloader-installer** | [v0.4.0-pre-00e1028](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5-webkit-autoloader/ps5-webkit-autoloader/v0.4.0-pre-00e1028/webkit-autoloader-installer_v0.4.0-pre-00e1028.elf) | `b920bc7313...` | Installs WebKit Autoloader on homescreen for firmwares 9.00-12.00. |
+| **Host-PSM-pooP2JB-v1.1.0-instala-onionhen** | [v1.1.0](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5-webkit-autoloader/Host-PSM_pooP2JB/v1.1.0/Host-PSM-pooP2JB-v1.1.0-instala-onionhen_v1.1.0.elf) | `67a84db170...` | Host-PSM pooP2JB. |
+| **Host-PSM-pooP2JB-v1.1.0-instala-pldmgr** | [v1.1.0](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5-webkit-autoloader/Host-PSM_pooP2JB/v1.1.0/Host-PSM-pooP2JB-v1.1.0-instala-pldmgr_v1.1.0.elf) | `038946be06...` | Host-PSM pooP2JB. |
+| **Host-PSM-pooP2JB-v1.1.0-instala-pldmgr-en** | [v1.1.0](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5-webkit-autoloader/Host-PSM_pooP2JB/v1.1.0/Host-PSM-pooP2JB-v1.1.0-instala-pldmgr-en_v1.1.0.elf) | `34c040c757...` | Host-PSM pooP2JB. |
+| **Host-PSM-pooP2JB-v1.1.0-instala-onionhen-en** | [v1.1.0](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5-webkit-autoloader/Host-PSM_pooP2JB/v1.1.0/Host-PSM-pooP2JB-v1.1.0-instala-onionhen-en_v1.1.0.elf) | `aa0dca2b98...` | Host-PSM pooP2JB. |
 
 ### 🌐 PS5 Dns
 📂 **Fichier JSON Dédié :** `https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/json/ps5_dns.json`
 
 | Application | Version | Empreinte SHA-256 | Description |
 | :--- | :--- | :--- | :--- |
-| **nanoDNS** | [0.4](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_dns/nanoDNS/0.4/nanoDNS_v0.4.elf) | `dcb845f357...` | Un serveur DNS ultra-léger et rapide idéal pour rediriger les requêtes de la console vers votre hôte local d'exploits. |
+| **nanoDNS** | [0.4](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_dns/nanoDNS/0.4/nanoDNS_v0.4.elf) | `18a93655c5...` | Un serveur DNS ultra-léger et rapide idéal pour rediriger les requêtes de la console vers votre hôte local d'exploits. |
 | **Chukei_DNS** | [0.9.0](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_dns/Chukei_DNS/0.9.0/Chukei_DNS_v0.9.0.elf) | `0cf13e1ed8...` | Serveur DNS de redirection d'envergure conçu spécifiquement pour bloquer les mises à jour de Sony et rediriger le guide de l'utilisateur. |
 
 ### 📦 PS5 Fan
@@ -90,6 +94,7 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 | **ps5-app-dumper** | [v1.11](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/ps5-app-dumper/v1.11/ps5-app-dumper_v1.11.elf) | `18483751eb...` | PS5 App Dumper payload. |
 | **shadowmountplus** | [1.7alpha8](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/ShadowMountPlus/1.7alpha8/shadowmountplus_v1.7alpha8.elf) | `f15653fe90...` | ShadowMountPlus payload for game mounting. |
 | **BackPork** | [0.1](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/BackPork/0.1/BackPork_v0.1.elf) | `d74e4cd119...` | BackPork PS5 tool. |
+| **apr-emu-updater** | [v1.4](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/apr-emu-updater/v1.4/apr-emu-updater_v1.4.elf) | `684a7e824e...` | APR Emu Updater must always be loaded. |
 
 ### 🚀 PS5 HEN Loader
 📂 **Fichier JSON Dédié :** `https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/json/ps5_hen_loader.json`
@@ -100,7 +105,7 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 | **PS5_Unified_Autoloader** | [v0.1.4-955249d](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/PS5_Unified_Autoloader/v0.1.4-955249d/PS5_Unified_Autoloader_v0.1.4-955249d.elf) | `31d12ba2b0...` | Chargeur universel de payloads permettant de lancer automatiquement vos outils favoris au démarrage de l'exploit. |
 | **pldmgr** | [v0.5.1](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/PS5_Payload_Manager/v0.5.1/pldmgr_v0.5.1.elf) | `05617c69ea...` | Interface d'administration et de gestion réseau pour envoyer, activer et ordonner vos fichiers ELF/BIN sur la console. |
 | **ELF_Arsenal** | [v1.6.22](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/ELF_Arsenal/v1.6.22/ELF_Arsenal_v1.6.22.elf) | `ee8f47e4d6...` | Boîte à outils regroupant une collection complète de payloads utilitaires pour les consoles jailbreakées. |
-| **Kura** | [v1.6.48](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/Kura/v1.6.48/Kura_v1.6.48.elf) | `a01c8be395...` | Un loader de payloads moderne et épuré conçu pour optimiser l'injection de code sur PS5. |
+| **Kura** | [v1.6.48](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/Kura/v1.6.48/Kura_v1.6.48.elf) | `49a1b46fa2...` | Un loader de payloads moderne et épuré conçu pour optimiser l'injection de code sur PS5. |
 | **PIZZA-HEN** | [v1.0](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/PIZZA-HEN/v1.0/PIZZA-HEN_v1.0.elf) | `4708beca5c...` | PIZZA HEN is an experimental all-in-one PS5 homebrew environment. |
 | **onionHEN** | [v0.0.11](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/onionHEN/v0.0.11/onionHEN_v0.0.11.elf) | `edc5663c32...` | An all-in-one HEN and Toolbox for PlayStation 5. |
 | **etaHEN-2.6B** | [Source-Fixe](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/etaHEN-Beta/Source-Fixe/etaHEN-2.6B.bin) | `512c74a9d6...` | etahen beta version experimental. |
@@ -127,7 +132,7 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 | Application | Version | Empreinte SHA-256 | Description |
 | :--- | :--- | :--- | :--- |
 | **garlic-savemgr** | [v1.13](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_saves/garlic-savemgr/v1.13/garlic-savemgr_v1.13.elf) | `b6d366f410...` | Save manager utility hosted on Forgejo. |
-| **garlic-worker** | [v1.1.6](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_saves/garlic-worker/v1.1.6/garlic-worker_v1.1.6.elf) | `a16fdd755e...` | Garlic worker payload component. |
+| **garlic-worker** | [v1.1.6](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_saves/garlic-worker/v1.1.6/garlic-worker_v1.1.6.elf) | `b395fd1e35...` | Garlic worker payload component. |
 | **savemnt-offset-dumper** | [1.0.0](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_saves/savemnt-offset-dumper/1.0.0/savemnt-offset-dumper_v1.0.0.elf) | `946328551f...` | Offset dumper for save mounting utilities. |
 
 ### ⚙️ PS5 Sdk Debug
@@ -155,10 +160,10 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 
 | Application | Version | Empreinte SHA-256 | Description |
 | :--- | :--- | :--- | :--- |
-| **zftp** | [v1.5.0](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/zftpd/v1.5.0/zftp_v1.5.0.bin) | `f430dc1fde...` | FTP server payload for PS5. Port: 21 |
-| **zftp** | [v1.5.0](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/zftpd/v1.5.0/zftp_v1.5.0.elf) | `68a80e1cb4...` | FTP server payload for PS5. Port: 21 |
+| **zftp** | [v1.5.0](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/zftpd/v1.5.0/zftp_v1.5.0.bin) | `0f724dc57c...` | FTP server payload for PS5. Port: 21 |
+| **zftp** | [v1.5.0](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/zftpd/v1.5.0/zftp_v1.5.0.elf) | `bc21772cea...` | FTP server payload for PS5. Port: 21 |
 | **zhttp** | [v1.5.0](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/zftpd/v1.5.0/zhttp_v1.5.0.bin) | `9340aa91f8...` | FTP server payload for PS5. Port: 21 |
-| **zhttp** | [v1.5.0](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/zftpd/v1.5.0/zhttp_v1.5.0.elf) | `6cf6a73811...` | FTP server payload for PS5. Port: 21 |
+| **zhttp** | [v1.5.0](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/zftpd/v1.5.0/zhttp_v1.5.0.elf) | `5d2f96ccf0...` | FTP server payload for PS5. Port: 21 |
 | **elfldr** | [v0.25](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/elfldr/v0.25/elfldr_v0.25.elf) | `de70a47e6d...` | ELF Loader utility. Port: 9020 / 9021 |
 | **ftpsrv_ps5-payload** | [v0.21.1](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ftpsrv_ps5-payload/v0.21.1/ftpsrv_ps5-payload_v0.21.1.elf) | `0ccfe00970...` | FTP server background daemon. Port: 21 |
 | **websrv** | [v0.34](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/websrv/v0.34/websrv_v0.34.elf) | `54730c867c...` | HTTP Web server payload. Port: 8080 |
@@ -268,6 +273,7 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 - **owendswang** : [ps5-web-file-manager](https://github.com/owendswang/ps5-web-file-manager)
 - **pegasus-ps5** : [pegasus-dl](https://github.com/pegasus-ps5/pegasus-dl)
 - **phantomptr** : [ps5upload](https://github.com/phantomptr/ps5upload)
+- **ps4macedo** : [Host-PSM pooP2JB](https://github.com/ps4macedo/instalador-host-psm-poop2jb)
 - **ps5-linux** : [ps5-linux-loader](https://github.com/ps5-linux/ps5-linux-loader)
 - **ps5-payload-dev** : [elfldr](https://github.com/ps5-payload-dev/elfldr)
 - **ps5-payload-dev** : [ftpsrv_ps5-payload](https://github.com/ps5-payload-dev/ftpsrv)
@@ -278,6 +284,7 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 - **seregonwar** : [MemDBG](https://github.com/seregonwar/MemDBG)
 - **seregonwar** : [zftpd](https://github.com/seregonwar/zftpd)
 - **soniciso** : [uds-trophy-unlocker](https://git.etawen.dev/soniciso/uds-trophy-unlocker)
+- **tsuramatsu1** : [apr-emu-updater](https://github.com/tsuramatsu1/apr-emu-updater)
 - **zecoxao & LightningMods** : [etaHEN-Beta](https://github.com/zecoxao/zecoxao.github.io/raw/refs/heads/main/luasauce/payloads/etaHEN-2.6B.bin)
 
 ---
