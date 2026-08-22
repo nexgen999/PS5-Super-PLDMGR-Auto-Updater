@@ -12,5 +12,6 @@
     <outline text="BackPork" title="BackPork" type="rss" xmlUrl="https://github.com/BestPig/BackPork" author="BestPig" description="BackPork PS5 tool." />
     <outline text="dlc_emu" title="dlc_emu" type="rss" xmlUrl="https://github.com/drakmor/dlc_emu" author="drakmor" description="DLC Emulator for PS5." />
     <outline text="pgo_stub" title="pgo_stub" type="rss" xmlUrl="https://github.com/drakmor/pgo_stub" author="drakmor" description="PGO stub utility." />
+    <outline text="apr-emu-updater" title="apr-emu-updater" type="rss" xmlUrl="https://github.com/tsuramatsu1/apr-emu-updater" author="tsuramatsu1" description="APR Emu Updater must always be loaded." />
   </body>
 </opml>
