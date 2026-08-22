@@ -3,12 +3,12 @@
   "payloads": [
     {
       "name": "garlic-savemgr",
-      "filename": "garlic-savemgr_v1.12.elf",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_saves/garlic-savemgr/v1.12/garlic-savemgr_v1.12.elf",
+      "filename": "garlic-savemgr_v1.13.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_saves/garlic-savemgr/v1.13/garlic-savemgr_v1.13.elf",
       "description": "Save manager utility hosted on Forgejo.",
-      "version": "v1.12",
+      "version": "v1.13",
       "category": "PS5 Saves",
-      "checksum": "245150007dd2c48da6d0fdf791396a31434095e27f0175587b7b18ec3b8d6d5d"
+      "checksum": "b6d366f4101fa2fcc14a353d083ef7e45e1cc86ef457bb20502bd8680dce4d73"
     },
     {
       "name": "garlic-worker",

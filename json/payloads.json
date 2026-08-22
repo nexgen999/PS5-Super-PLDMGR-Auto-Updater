@@ -75,12 +75,12 @@
     },
     {
       "name": "onionHEN",
-      "filename": "onionHEN_v0.0.10.elf",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/onionHEN/v0.0.10/onionHEN_v0.0.10.elf",
+      "filename": "onionHEN_v0.0.11.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/onionHEN/v0.0.11/onionHEN_v0.0.11.elf",
       "description": "An all-in-one HEN and Toolbox for PlayStation 5.",
-      "version": "v0.0.10",
+      "version": "v0.0.11",
       "category": "PS5 HEN Loader",
-      "checksum": "fd6618fa00f4fc8ba437334aa20577acd79307fea19f6e210477a23d24fa18b6"
+      "checksum": "edc5663c32bad01df9c4045bc93c1bdfecafd84c3414774ef42c522744d40868"
     },
     {
       "name": "etaHEN-2.6B",
@@ -327,21 +327,21 @@
     },
     {
       "name": "webkit-autoloader-installer",
-      "filename": "webkit-autoloader-installer_v0.4.0-pre-97dc296.elf",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5-webkit-autoloader/ps5-webkit-autoloader/v0.4.0-pre-97dc296/webkit-autoloader-installer_v0.4.0-pre-97dc296.elf",
+      "filename": "webkit-autoloader-installer_v0.4.0-pre-00e1028.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5-webkit-autoloader/ps5-webkit-autoloader/v0.4.0-pre-00e1028/webkit-autoloader-installer_v0.4.0-pre-00e1028.elf",
       "description": "Installs WebKit Autoloader on homescreen for firmwares 9.00-12.00.",
-      "version": "v0.4.0-pre-97dc296",
+      "version": "v0.4.0-pre-00e1028",
       "category": "Ps5-Webkit-Autoloader",
-      "checksum": "0f39e079723ca8d3156c9d4c8da1c1410ff86931ef15fd49a5b2ec36c77e5c01"
+      "checksum": "b920bc73133764a9847975a402b6f3bd4d9d97c797159153ccc5bcb98b6ee025"
     },
     {
       "name": "garlic-savemgr",
-      "filename": "garlic-savemgr_v1.12.elf",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_saves/garlic-savemgr/v1.12/garlic-savemgr_v1.12.elf",
+      "filename": "garlic-savemgr_v1.13.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_saves/garlic-savemgr/v1.13/garlic-savemgr_v1.13.elf",
       "description": "Save manager utility hosted on Forgejo.",
-      "version": "v1.12",
+      "version": "v1.13",
       "category": "PS5 Saves",
-      "checksum": "245150007dd2c48da6d0fdf791396a31434095e27f0175587b7b18ec3b8d6d5d"
+      "checksum": "b6d366f4101fa2fcc14a353d083ef7e45e1cc86ef457bb20502bd8680dce4d73"
     },
     {
       "name": "garlic-worker",
@@ -723,12 +723,12 @@
     },
     {
       "name": "MemDBG",
-      "filename": "MemDBG_vnightly-20260818-g5ad7907.elf",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/MemDBG/nightly-20260818-g5ad7907/MemDBG_vnightly-20260818-g5ad7907.elf",
+      "filename": "MemDBG_vnightly-20260822-gc39ac30.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/MemDBG/nightly-20260822-gc39ac30/MemDBG_vnightly-20260822-gc39ac30.elf",
       "description": "Memory debugging and inspection suite.",
-      "version": "nightly-20260818-g5ad7907",
+      "version": "nightly-20260822-gc39ac30",
       "category": "PS5 Sdk Debug",
-      "checksum": "560500cd3bd61f680d966ec37d27b0cc2ea8ffee6f355c2fc9546431e426b9ed"
+      "checksum": "0252539d2f1e0042525652258ff57199e492767b0e21ae9d22ad62721cc3d3d2"
     },
     {
       "name": "hwinfo_bench",
