@@ -39,12 +39,12 @@
     },
     {
       "name": "elfldr",
-      "filename": "elfldr_v0.24.elf",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/elfldr/v0.24/elfldr_v0.24.elf",
+      "filename": "elfldr_v0.25.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/elfldr/v0.25/elfldr_v0.25.elf",
       "description": "ELF Loader utility. Port: 9020 / 9021",
-      "version": "v0.24",
+      "version": "v0.25",
       "category": "PS5 Server",
-      "checksum": "e23313367cf59a9b0a09e34eb59e435e2c387de418e557d65bf578b7744942a5"
+      "checksum": "de70a47e6d099dc03718c33c158a727f1340c3b5310155618c5049ab0fb41754"
     },
     {
       "name": "ftpsrv_ps5-payload",

@@ -270,9 +270,9 @@
       <description>FTP server payload for PS5. Port: 21 - Checksum: 6cf6a738112fc339619ebe772690fa611f60ecdb20164a0e3f49e137277bc42b</description>
     </item>
     <item>
-      <title>elfldr (v0.24)</title>
-      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/elfldr/v0.24/elfldr_v0.24.elf</link>
-      <description>ELF Loader utility. Port: 9020 / 9021 - Checksum: e23313367cf59a9b0a09e34eb59e435e2c387de418e557d65bf578b7744942a5</description>
+      <title>elfldr (v0.25)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/elfldr/v0.25/elfldr_v0.25.elf</link>
+      <description>ELF Loader utility. Port: 9020 / 9021 - Checksum: de70a47e6d099dc03718c33c158a727f1340c3b5310155618c5049ab0fb41754</description>
     </item>
     <item>
       <title>ftpsrv_ps5-payload (v0.21.1)</title>
