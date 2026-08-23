@@ -185,9 +185,9 @@
       <description>PS5-Power-Payloads-Project utility. - Checksum: 1a36a01c92cd73fc89645ce73e3f33c71979b5b677c92b6f4c26d269e3f9a2c1</description>
     </item>
     <item>
-      <title>webkit-autoloader-installer (v0.4.0-pre-c6b9873)</title>
-      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5-webkit-autoloader/ps5-webkit-autoloader/v0.4.0-pre-c6b9873/webkit-autoloader-installer_v0.4.0-pre-c6b9873.elf</link>
-      <description>Installs WebKit Autoloader on homescreen for firmwares 9.00-12.00. - Checksum: d92e42e95b19372c09e297053f8e7ce7c7fe6b698e53010607aafd83c5aa10f3</description>
+      <title>webkit-autoloader-installer (v0.4.0-pre-222ef37)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5-webkit-autoloader/ps5-webkit-autoloader/v0.4.0-pre-222ef37/webkit-autoloader-installer_v0.4.0-pre-222ef37.elf</link>
+      <description>Installs WebKit Autoloader on homescreen for firmwares 9.00-12.00. - Checksum: f427b22d78ce9c38a12be209c13b3481912ed03ff17b4e04c44d525bfadc0484</description>
     </item>
     <item>
       <title>Host-PSM-pooP2JB-v1.1.0-instala-onionhen (v1.1.0)</title>
@@ -250,9 +250,9 @@
       <description>BackPork PS5 tool. - Checksum: d74e4cd119b2bb1fd423f2f5b1c9a7f096b3e588c753af1ab48b983d56216a52</description>
     </item>
     <item>
-      <title>apr-emu-updater (v1.4)</title>
-      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/apr-emu-updater/v1.4/apr-emu-updater_v1.4.elf</link>
-      <description>APR Emu Updater must always be loaded. - Checksum: 684a7e824e03f2402693641f347341a118fa0ac7a9573f212036a0a5337a8054</description>
+      <title>apr-emu-updater (v1.4.1)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/apr-emu-updater/v1.4.1/apr-emu-updater_v1.4.1.elf</link>
+      <description>APR Emu Updater must always be loaded. - Checksum: 692b4d09b2af9cb8b4369da982d510fb2d99eb4215691d07c90be0f2cb22fc21</description>
     </item>
     <item>
       <title>BFplayer-standalone (v0.1.0-alpha.44)</title>
@@ -365,9 +365,9 @@
       <description>Daemon pour le jailbreak de Lapy - Checksum: e8230ac4597b8f0388e75d7515ad1a2e251c4589cc3b8d56a483ffae73627eed</description>
     </item>
     <item>
-      <title>ps5-web-file-manager (v1.5)</title>
-      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_file_explorer/ps5-web-file-manager/v1.5/ps5-web-file-manager_v1.5.elf</link>
-      <description>PS5 Web File Manager http://your-ps5-ip:8888. - Checksum: 9a7d7e5c685900d7f916cdc08cb6f7ea7e9cf5a4576f2799157b3f251deedf3c</description>
+      <title>ps5-web-file-manager (v1.6)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_file_explorer/ps5-web-file-manager/v1.6/ps5-web-file-manager_v1.6.elf</link>
+      <description>PS5 Web File Manager http://your-ps5-ip:8888. - Checksum: 3b2bd4f8c86b125d703fda5806d732580de7b9fc453a3fa831743366239ace62</description>
     </item>
     <item>
       <title>PS5-File-Explorer (file-explorer-v0.2.1)</title>

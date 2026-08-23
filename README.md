@@ -41,7 +41,7 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 
 | Application | Version | Empreinte SHA-256 | Description |
 | :--- | :--- | :--- | :--- |
-| **webkit-autoloader-installer** | [v0.4.0-pre-c6b9873](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5-webkit-autoloader/ps5-webkit-autoloader/v0.4.0-pre-c6b9873/webkit-autoloader-installer_v0.4.0-pre-c6b9873.elf) | `d92e42e95b...` | Installs WebKit Autoloader on homescreen for firmwares 9.00-12.00. |
+| **webkit-autoloader-installer** | [v0.4.0-pre-222ef37](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5-webkit-autoloader/ps5-webkit-autoloader/v0.4.0-pre-222ef37/webkit-autoloader-installer_v0.4.0-pre-222ef37.elf) | `f427b22d78...` | Installs WebKit Autoloader on homescreen for firmwares 9.00-12.00. |
 | **Host-PSM-pooP2JB-v1.1.0-instala-onionhen** | [v1.1.0](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5-webkit-autoloader/Host-PSM_pooP2JB/v1.1.0/Host-PSM-pooP2JB-v1.1.0-instala-onionhen_v1.1.0.elf) | `67a84db170...` | Host-PSM pooP2JB. |
 | **Host-PSM-pooP2JB-v1.1.0-instala-pldmgr** | [v1.1.0](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5-webkit-autoloader/Host-PSM_pooP2JB/v1.1.0/Host-PSM-pooP2JB-v1.1.0-instala-pldmgr_v1.1.0.elf) | `038946be06...` | Host-PSM pooP2JB. |
 | **Host-PSM-pooP2JB-v1.1.0-instala-pldmgr-en** | [v1.1.0](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5-webkit-autoloader/Host-PSM_pooP2JB/v1.1.0/Host-PSM-pooP2JB-v1.1.0-instala-pldmgr-en_v1.1.0.elf) | `34c040c757...` | Host-PSM pooP2JB. |
@@ -74,7 +74,7 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 | :--- | :--- | :--- | :--- |
 | **bfpilot** | [v0.4.4](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_file_explorer/BFpilot/v0.4.4/bfpilot_v0.4.4.elf) | `5a82376302...` | BFpilot is a lightweight PS5 payload that serves a browser-based file manager. |
 | **lapy_jb_daemon** | [Source-Fixe](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_file_explorer/Lapy_JB_Daemon/Source-Fixe/lapy_jb_daemon.elf) | `e8230ac459...` | Daemon pour le jailbreak de Lapy |
-| **ps5-web-file-manager** | [v1.5](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_file_explorer/ps5-web-file-manager/v1.5/ps5-web-file-manager_v1.5.elf) | `9a7d7e5c68...` | PS5 Web File Manager http://your-ps5-ip:8888. |
+| **ps5-web-file-manager** | [v1.6](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_file_explorer/ps5-web-file-manager/v1.6/ps5-web-file-manager_v1.6.elf) | `3b2bd4f8c8...` | PS5 Web File Manager http://your-ps5-ip:8888. |
 | **PS5-File-Explorer** | [file-explorer-v0.2.1](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_file_explorer/PS5-File-Explorer/file-explorer-v0.2.1/PS5-File-Explorer_vfile-explorer-v0.2.1.elf) | `6d4b905b42...` | PS5 File Explorer http://your-ps5-ip:5905. |
 
 ### 💾 PS5 Freeshop
@@ -94,7 +94,7 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 | **ps5-app-dumper** | [v1.11](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/ps5-app-dumper/v1.11/ps5-app-dumper_v1.11.elf) | `18483751eb...` | PS5 App Dumper payload. |
 | **shadowmountplus** | [1.7alpha8](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/ShadowMountPlus/1.7alpha8/shadowmountplus_v1.7alpha8.elf) | `f15653fe90...` | ShadowMountPlus payload for game mounting. |
 | **BackPork** | [0.1](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/BackPork/0.1/BackPork_v0.1.elf) | `d74e4cd119...` | BackPork PS5 tool. |
-| **apr-emu-updater** | [v1.4](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/apr-emu-updater/v1.4/apr-emu-updater_v1.4.elf) | `684a7e824e...` | APR Emu Updater must always be loaded. |
+| **apr-emu-updater** | [v1.4.1](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/apr-emu-updater/v1.4.1/apr-emu-updater_v1.4.1.elf) | `692b4d09b2...` | APR Emu Updater must always be loaded. |
 
 ### 🚀 PS5 HEN Loader
 📂 **Fichier JSON Dédié :** `https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/json/ps5_hen_loader.json`
