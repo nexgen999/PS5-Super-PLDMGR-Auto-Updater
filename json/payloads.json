@@ -327,12 +327,12 @@
     },
     {
       "name": "webkit-autoloader-installer",
-      "filename": "webkit-autoloader-installer_v0.4.0-pre-00e1028.elf",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5-webkit-autoloader/ps5-webkit-autoloader/v0.4.0-pre-00e1028/webkit-autoloader-installer_v0.4.0-pre-00e1028.elf",
+      "filename": "webkit-autoloader-installer_v0.4.0-pre-c6b9873.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5-webkit-autoloader/ps5-webkit-autoloader/v0.4.0-pre-c6b9873/webkit-autoloader-installer_v0.4.0-pre-c6b9873.elf",
       "description": "Installs WebKit Autoloader on homescreen for firmwares 9.00-12.00.",
-      "version": "v0.4.0-pre-00e1028",
+      "version": "v0.4.0-pre-c6b9873",
       "category": "Ps5-Webkit-Autoloader",
-      "checksum": "b920bc73133764a9847975a402b6f3bd4d9d97c797159153ccc5bcb98b6ee025"
+      "checksum": "d92e42e95b19372c09e297053f8e7ce7c7fe6b698e53010607aafd83c5aa10f3"
     },
     {
       "name": "Host-PSM-pooP2JB-v1.1.0-instala-onionhen",
@@ -579,12 +579,12 @@
     },
     {
       "name": "ps5upload",
-      "filename": "ps5upload_v5.4.8.elf",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ps5upload/v5.4.8/ps5upload_v5.4.8.elf",
+      "filename": "ps5upload_v5.4.9.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ps5upload/v5.4.9/ps5upload_v5.4.9.elf",
       "description": "PS5 Upload server / tool. Port: 9025",
-      "version": "v5.4.8",
+      "version": "v5.4.9",
       "category": "PS5 Server",
-      "checksum": "b255217ffcb5bc93a0ecdd4612927f241fbef3b3f936874223fcfba4cff17cf5"
+      "checksum": "e3e40a8318a6c35c3c362f326b07559df8514c15193e2fed280d4014ca8b9d9a"
     },
     {
       "name": "airpsx",
