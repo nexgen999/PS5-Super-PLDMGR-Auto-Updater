@@ -9,19 +9,27 @@ import zipfile
 import html
 
 FEED_DIR = "feed"
+PKG_FEED_DIR = "PKGfeed"
 JSON_DIR = "json"
+PKG_JSON_DIR = "PKGjson"
 RSS_DIR = "rss"
 PAYLOADS_ROOT = "payloads"
 
 os.makedirs(JSON_DIR, exist_ok=True)
+os.makedirs(PKG_JSON_DIR, exist_ok=True)
 os.makedirs(RSS_DIR, exist_ok=True)
 os.makedirs(PAYLOADS_ROOT, exist_ok=True)
 
 all_payloads_flat_list = []
+all_pkgs_flat_list = []
 readme_rows = []
 credits_list = set()
 
 print("=== Début de la synchronisation ===")
+
+# =========================================================================
+# 1. TRAITEMENT DES PAYLOADS (.ELF / .BIN)
+# =========================================================================
 
 if not os.path.exists(FEED_DIR):
     print(f"Erreur: Le dossier {FEED_DIR} n'existe pas.")
@@ -35,7 +43,7 @@ for opml_file in opml_files:
     if "Hen" in cat_display_name: cat_display_name = cat_display_name.replace("Hen", "HEN")
     if cat_display_name.startswith("Ps5 "): cat_display_name = cat_display_name.replace("Ps5 ", "PS5 ")
     
-    print(f"\n📁 Catégorie : {cat_display_name} ({cat_tech_name})")
+    print(f"\n📁 Catégorie Payload : {cat_display_name} ({cat_tech_name})")
     category_payloads_list = []
 
     with open(os.path.join(FEED_DIR, opml_file), 'r', encoding='utf-8') as f:
@@ -50,18 +58,14 @@ for opml_file in opml_files:
         author = attrs.get('author', 'Inconnu')
         description = attrs.get('description', '')
 
-        if not xml_url:
-            continue
-
-        if "ps4" in title.lower() or "ps4" in description.lower():
+        if not xml_url or "ps4" in title.lower() or "ps4" in description.lower():
             continue
 
         print(f" 🔍 Analyse de {title} ({xml_url})...")
-
         version = "v1.0.0"
         downloaded = False
         
-        # 0. TRAITEMENT DES SOURCES FIXES
+        # Sources Fixes
         clean_xml_url = xml_url.split('?')[0].lower()
         if clean_xml_url.endswith('.elf') or clean_xml_url.endswith('.bin') or clean_xml_url.endswith('.pkg'):
             try:
@@ -71,8 +75,6 @@ for opml_file in opml_files:
                 os.makedirs(target_dir, exist_ok=True)
                 
                 f_name = xml_url.split('?')[0].split('/')[-1]
-                print(f"   🎯 Source fixe détectée (Téléchargement Raw direct) : {f_name}")
-                
                 opener = urllib.request.build_opener()
                 opener.addheaders = [('User-Agent', 'Mozilla/5.0')]
                 urllib.request.install_opener(opener)
@@ -81,7 +83,7 @@ for opml_file in opml_files:
             except Exception as e:
                 print(f"   ⚠️ Échec du téléchargement de la source fixe : {e}")
 
-        # 1. TRAITEMENT RELEASES GITHUB
+        # Releases GitHub
         repo_lower = ""
         if not downloaded and "github.com" in xml_url:
             repo_match = re.search(r'github\.com/([^/]+/[^/]+)', xml_url)
@@ -106,7 +108,6 @@ for opml_file in opml_files:
                     print(f"   -> Téléchargement GitHub ({version})...")
                     subprocess.call(f"gh release download '{version}' --repo '{repo}' --dir '{target_dir}' --clobber 2>/dev/null", shell=True)
                     
-                    # RÈGLE SPÉCIFIQUE : Extraction de TOUS les ELF pour PoorDS4, fan_target, ShadowMountPlus, instalador-host-psm-poop2jb
                     if "poords4" in repo_lower or "fan_target" in repo_lower or "shadowmountplus" in repo_lower or "instalador-host-psm-poop2jb" in repo_lower:
                         for item in os.listdir(target_dir):
                             item_path = os.path.join(target_dir, item)
@@ -120,7 +121,6 @@ for opml_file in opml_files:
                                                 dest_path = os.path.join(target_dir, os.path.basename(member))
                                                 if extracted_path != dest_path:
                                                     os.rename(extracted_path, dest_path)
-                                                print(f"   📦 ELF extrait de l'archive ZIP : {os.path.basename(member)}")
                                 except Exception as zerr:
                                     print(f"   ⚠️ Erreur d'extraction ZIP : {zerr}")
                                 finally:
@@ -128,35 +128,26 @@ for opml_file in opml_files:
                                         os.remove(item_path)
 
                     files_downloaded = os.listdir(target_dir)
-                    
-                    # FILTRES DE SÉCURITÉ POUR DÉPÔTS LOURDS / MULTI-ELF
                     if "ps5-payload-dev/websrv" in repo_lower or "phantomptr/ps5upload" in repo_lower or "boazvdwansem/ps5-debugger" in repo_lower:
-                        print(f"   ⚠️ Dépôt lourd/PC détecté ({repo}) : Conservation des binaires console uniquement (.elf/.bin)")
                         for f in files_downloaded:
-                            f_lower = f.lower()
-                            if not (f_lower.endswith('.elf') or f_lower.endswith('.bin')):
-                                try:
-                                    os.remove(os.path.join(target_dir, f))
-                                except:
-                                    pass
+                            if not (f.lower().endswith('.elf') or f.lower().endswith('.bin')):
+                                try: os.remove(os.path.join(target_dir, f))
+                                except: pass
                     else:
                         for f in files_downloaded:
                             f_lower = f.lower()
-                            # Ne supprime pas les fichiers .elf/.bin même s'ils ont des mots clés sensibles
                             if f_lower.endswith('.elf') or f_lower.endswith('.bin'):
                                 continue
                             if f_lower.endswith('.dmg') or f_lower.endswith('.exe') or f_lower.endswith('.appimage') or f_lower.endswith('.msi') or f_lower.endswith('.txt'):
-                                try:
-                                    os.remove(os.path.join(target_dir, f))
-                                except:
-                                    pass
+                                try: os.remove(os.path.join(target_dir, f))
+                                except: pass
 
                     if os.listdir(target_dir):
                         downloaded = True
                 except Exception as e:
                     print(f"   ⚠️ Erreur gh release: {e}")
 
-        # 2. TRAITEMENT RELEASES FORGEJO
+        # Releases Forgejo
         if not downloaded and "git.etawen.dev" in xml_url:
             try:
                 api_repo_match = re.search(r'git\.etawen\.dev/([^/]+/[^/]+)', xml_url)
@@ -171,7 +162,6 @@ for opml_file in opml_files:
                         if releases_data:
                             latest_release = releases_data[0]
                             version = latest_release.get('tag_name', 'v1.0.0')
-                            
                             version_clean = re.sub(r'[^a-zA-Z0-9._-]', '', version)
                             target_dir = os.path.join(PAYLOADS_ROOT, cat_tech_name, title.replace(" ", "_"), version_clean)
                             os.makedirs(target_dir, exist_ok=True)
@@ -184,39 +174,20 @@ for opml_file in opml_files:
                                 asset_url = asset.get('browser_download_url', '')
                                 asset_name = asset.get('name', '')
                                 clean_name = asset_name.lower()
-                                
                                 if clean_name.endswith('.dmg') or clean_name.endswith('.exe') or clean_name.endswith('.appimage') or clean_name.endswith('.msi'):
                                     continue
-                                    
                                 if clean_name.endswith('.elf') or clean_name.endswith('.bin') or clean_name.endswith('.pkg'):
                                     valid_file_url = asset_url
                                     f_name = asset_name
                                     break
-                                    
-                            if not valid_file_url:
-                                for asset in assets:
-                                    asset_url = asset.get('browser_download_url', '')
-                                    asset_name = asset.get('name', '')
-                                    clean_name = asset_name.lower()
-                                    
-                                    if clean_name.endswith('.dmg') or clean_name.endswith('.exe') or clean_name.endswith('.appimage') or clean_name.endswith('.msi'):
-                                        continue
-                                        
-                                    if clean_name.endswith('.zip'):
-                                        valid_file_url = asset_url
-                                        f_name = asset_name
-                                        break
                             
                             if valid_file_url and f_name:
-                                print(f"   🎯 Asset Forgejo détecté : {f_name}")
                                 urllib.request.urlretrieve(valid_file_url, os.path.join(target_dir, f_name))
                                 downloaded = True
             except Exception as e:
                 print(f"   ℹ️ Erreur API Forgejo ({e})")
 
-        # =========================================================================
-        # ANALYSE ET RENOMMAGE
-        # =========================================================================
+        # Analyse & Renommage
         version_clean = re.sub(r'[^a-zA-Z0-9._-]', '', version) if version != "Source-Fixe" else "Source-Fixe"
         target_dir = os.path.join(PAYLOADS_ROOT, cat_tech_name, title.replace(" ", "_"), version_clean)
         
@@ -228,8 +199,7 @@ for opml_file in opml_files:
 
         v_suffix = version_clean
         if v_suffix != "Source-Fixe":
-            if not v_suffix.lower().startswith('v'):
-                v_suffix = f"v{v_suffix}"
+            if not v_suffix.lower().startswith('v'): v_suffix = f"v{v_suffix}"
             v_suffix = f"_{v_suffix}"
         else:
             v_suffix = ""
@@ -237,90 +207,24 @@ for opml_file in opml_files:
         binaries_found = [f for f in files_in_dir if f.lower().endswith('.elf') or f.lower().endswith('.bin')]
 
         for f_name in binaries_found:
-            f_name_lower = f_name.lower()
             base_name, ext = os.path.splitext(f_name)
-            
-            if f_name_lower.endswith(f"{v_suffix.lower()}{ext.lower()}"):
-                if f_name not in eligible_binaries:
-                    eligible_binaries.append(f_name)
-                continue
-
             final_base = None
 
-            # RÈGLE SPÉCIFIQUE : instalador-host-psm-poop2jb (Conservation du nom exact de chaque fichier ELF)
-            if "instalador-host-psm-poop2jb" in repo_lower or "psm" in repo_lower:
+            if "instalador-host-psm-poop2jb" in repo_lower or "psm" in repo_lower or "poords4" in repo_lower:
                 final_base = base_name
-
-            # RÈGLE SPÉCIFIQUE : ItsBlurf / PoorDS4 (conservation des noms exacts des ELF)
-            elif "poords4" in repo_lower or "poords4" in f_name_lower:
-                final_base = base_name
-
-            # RÈGLE SPÉCIFIQUE : ItsBlurf / BFpilot (conservation des deux ELF)
-            elif "itsblurf/bfpilot" in repo_lower or "bfpilot" in repo_lower:
-                if "launcher" in f_name_lower or "installer" in f_name_lower:
-                    final_base = "bfpilot-launcher-installer"
-                else:
-                    final_base = "bfpilot"
-
-            # RÈGLE D'EXCEPTION : Drakmor / fan_target (conservation du suffixe de température)
-            elif "fan_target" in repo_lower or "fan_target" in f_name_lower:
-                temp_match = re.search(r'(\d+c)', f_name_lower)
-                if temp_match:
-                    temp_val = temp_match.group(1)
-                    final_base = f"fan_target_{temp_val}"
-                else:
-                    final_base = "fan_target"
-
-            # RÈGLE D'EXCEPTION : ShadowMountPlus
-            elif "shadowmountplus" in repo_lower or "shadowmount" in f_name_lower:
-                final_base = "shadowmountplus"
-
-            # RÈGLE D'EXCEPTION : MasterPS0/PS5-Power-Payloads-Project
-            elif "masterps0/ps5-power-payloads-project" in repo_lower or "ps5-power-payloads" in repo_lower or "poweroff" in f_name_lower or "reboot" in f_name_lower or "suspend" in f_name_lower:
-                clean_elf_name = base_name.replace("ps5_", "").replace("ps5-", "").replace("payload_", "")
-                final_base = f"ps5power-{clean_elf_name}"
-
-            # RÈGLE D'EXCEPTION : ps5-hwinfo (Drakmor)
-            elif "drakmor/ps5-hwinfo" in repo_lower or "hwinfo" in f_name_lower:
-                if "bench" in f_name_lower:
-                    final_base = "hwinfo_bench"
-                elif "sysinfo" in f_name_lower:
-                    final_base = "hwinfo_sysinfo"
-                else:
-                    final_base = "ps5-hwinfo"
-
-            # Identifications habituelles
-            elif "zhttp" in f_name_lower:
-                final_base = "zhttp"
-            elif "zftp" in f_name_lower:
-                final_base = "zftp"
-            elif "self-pager" in f_name_lower:
-                if "game" in f_name_lower: final_base = "ps5-self-pager-game"
-                elif "full-system" in f_name_lower: final_base = "ps5-self-pager-full-system"
-                elif "system-common" in f_name_lower: final_base = "ps5-self-pager-system-common-lib"
-                elif "shellcore" in f_name_lower: final_base = "ps5-self-pager-shellcore"
-                else: final_base = "ps5-self-pager"
-            elif "self-decrypter" in f_name_lower:
-                if "game" in f_name_lower: final_base = "ps5-self-decrypter-game"
-                elif "full-system" in f_name_lower: final_base = "ps5-self-decrypter-full-system"
-                elif "system-common" in f_name_lower: final_base = "ps5-self-decrypter-system-common-lib"
-                elif "shellcore" in f_name_lower: final_base = "ps5-self-decrypter-shellcore"
-                else: final_base = "ps5-self-decrypter"
-
-            if final_base is None:
+            elif "fan_target" in repo_lower or "fan_target" in f_name.lower():
+                temp_match = re.search(r'(\d+c)', f_name.lower())
+                final_base = f"fan_target_{temp_match.group(1)}" if temp_match else "fan_target"
+            else:
                 final_base = default_base_name
 
-            new_f_name = f"{final_base}{v_suffix}{ext}"
+            new_f_name = f"{final_base}{v_suffix}{ext}" if not f_name.lower().endswith(f"{v_suffix.lower()}{ext.lower()}") else f_name
             old_path = os.path.join(target_dir, f_name)
             new_path = os.path.join(target_dir, new_f_name)
             
             if old_path != new_path:
-                try:
-                    os.rename(old_path, new_path)
-                    print(f"   🏷️  Fichier renommé : {f_name} -> {new_f_name}")
-                except Exception as rn_err:
-                    print(f"   ⚠️ Erreur renommage : {rn_err}")
-                    new_f_name = f_name
+                try: os.rename(old_path, new_path)
+                except: new_f_name = f_name
             
             if new_f_name not in eligible_binaries:
                 eligible_binaries.append(new_f_name)
@@ -330,15 +234,12 @@ for opml_file in opml_files:
                 full_path = os.path.join(target_dir, main_file)
                 hasher = hashlib.sha256()
                 with open(full_path, 'rb') as fb:
-                    for chunk in iter(lambda: fb.read(4096), b""): 
-                        hasher.update(chunk)
+                    for chunk in iter(lambda: fb.read(4096), b""): hasher.update(chunk)
                 sha256_hash = hasher.hexdigest()
 
                 credits_list.add(f"- **{author}** : [{title}]({xml_url})")
-                
                 repo_name = os.environ.get('GITHUB_REPOSITORY', 'PS5-Super-PLDMGR-Auto-Updater').split('/')[-1]
                 file_url = f"https://nexgen999.github.io/{repo_name}/{target_dir.replace(os.sep, '/')}/{main_file}"
-
                 display_name = os.path.splitext(main_file)[0].split('_v')[0]
 
                 item_data = {
@@ -352,32 +253,78 @@ for opml_file in opml_files:
                 }
                 category_payloads_list.append(item_data)
                 all_payloads_flat_list.append(item_data)
-                
-                repo_folder_url = f"https://github.com/nexgen999/{repo_name}/tree/main/{target_dir.replace(os.sep, '/')}"
-                readme_rows.append(f"| **{display_name}** | {author} | {cat_display_name} | [{version}]({repo_folder_url}) | `{sha256_hash[:10]}...` | {description} |")
-        else:
-            print(f"   🚫 Ignoré du JSON final car aucun binaire (.elf / .bin) détecté pour {title}")
 
-    # Sauvegarde JSON Catégorie
-    category_json_structured = {
-        "name": cat_display_name,
-        "payloads": category_payloads_list
-    }
     with open(os.path.join(JSON_DIR, f"{cat_tech_name}.json"), 'w', encoding='utf-8') as out_cat:
-        json.dump(category_json_structured, out_cat, indent=2, ensure_ascii=False)
+        json.dump({"name": cat_display_name, "payloads": category_payloads_list}, out_cat, indent=2, ensure_ascii=False)
 
-# Sauvegarde JSON Global
-global_json_structured = {
-    "name": "AIO Store",
-    "payloads": all_payloads_flat_list
-}
 with open(os.path.join(JSON_DIR, "payloads.json"), 'w', encoding='utf-8') as out_glob:
-    json.dump(global_json_structured, out_glob, indent=2, ensure_ascii=False)
+    json.dump({"name": "AIO Store", "payloads": all_payloads_flat_list}, out_glob, indent=2, ensure_ascii=False)
+
 
 # =========================================================================
-# GENERATION RSS & README
+# 2. TRAITEMENT DES PACKAGES (.PKG) -> PKGfeed / PKGjson
 # =========================================================================
-print("\n📡 Génération des flux RSS et OPML...")
+
+print("\n📦 Traitement des métadonnées PKG...")
+
+if os.path.exists(PKG_FEED_DIR):
+    pkg_opml_files = [f for f in os.listdir(PKG_FEED_DIR) if f.endswith('.opml')]
+
+    for opml_file in pkg_opml_files:
+        cat_tech_name = opml_file.replace('.opml', '').lower()
+        cat_display_name = cat_tech_name.upper()
+        category_pkgs_list = []
+
+        with open(os.path.join(PKG_FEED_DIR, opml_file), 'r', encoding='utf-8') as f:
+            content = f.read()
+
+        outlines = re.findall(r'<outline\s+([^>]+)/>', content)
+        
+        for outline in outlines:
+            attrs = dict(re.findall(r'(\w+)="([^"]*)"', outline))
+            title = attrs.get('title', 'Inconnu')
+            xml_url = attrs.get('xmlUrl', '').strip()
+            author = attrs.get('author', 'Inconnu')
+            description = attrs.get('description', '')
+
+            if not xml_url:
+                continue
+
+            raw_filename = xml_url.split('/')[-1].split('?')[0]
+            if not raw_filename.lower().endswith('.pkg'):
+                raw_filename = f"{title}.pkg"
+
+            v_match = re.search(r'v(\d+[\.\d+]*)', raw_filename, re.IGNORECASE)
+            version = f"v{v_match.group(1)}" if v_match else "v1.0.0"
+
+            credits_list.add(f"- **{author}** : [{title}]({xml_url})")
+
+            item_data = {
+                "name": title,
+                "filename": raw_filename,
+                "url": xml_url,
+                "description": description if description else f"Package {title} pour PS5",
+                "version": version,
+                "author": author,
+                "category": cat_display_name
+            }
+            category_pkgs_list.append(item_data)
+            all_pkgs_flat_list.append(item_data)
+
+        # Génération du JSON dédié (ex: PKGjson/ps5pkg.json)
+        with open(os.path.join(PKG_JSON_DIR, f"{cat_tech_name}.json"), 'w', encoding='utf-8') as out_pkg_cat:
+            json.dump({"name": cat_display_name, "packages": category_pkgs_list}, out_pkg_cat, indent=2, ensure_ascii=False)
+
+# Génération du JSON Global PKG
+with open(os.path.join(PKG_JSON_DIR, "pkg.json"), 'w', encoding='utf-8') as out_pkg_glob:
+    json.dump({"name": "AIO Store PKG", "packages": all_pkgs_flat_list}, out_pkg_glob, indent=2, ensure_ascii=False)
+
+
+# =========================================================================
+# 3. GENERATION RSS & README.MD
+# =========================================================================
+
+print("\n📡 Génération des flux RSS...")
 with open(os.path.join(RSS_DIR, "store-global.opml"), "w", encoding="utf-8") as opml_out:
     opml_out.write('<?xml version="1.0" encoding="UTF-8"?>\n<opml version="2.0">\n  <head>\n    <title>PS5 Store Global Radar</title>\n  </head>\n  <body>\n')
     for row in sorted(list(credits_list)):
@@ -400,74 +347,64 @@ with open(os.path.join(RSS_DIR, "feed.xml"), "w", encoding="utf-8") as feed_out:
     feed_out.write('  </channel>\n</rss>')
 
 CATEGORY_ICONS = {
-    "ps5_activation": "🔓",
-    "ps5_cheat": "🏴‍☠️",
-    "ps5_dns": "🌐",
-    "ps5_file_explorer": "📂",
-    "ps5_freeshop": "💾",
-    "ps5_game_dump": "💿",
-    "ps5_hen_loader": "🚀",
-    "ps5_kstuff": "🧪",
-    "ps5_linux": "🐧",
-    "ps5_saves": "📝",
-    "ps5_sdk_debug": "⚙️",
-    "ps5_server": "🖥️",
-    "ps5_themes": "🎨",
-    "ps5_trophy": "🏆",
-    "ps5_utility": "🛠️"
+    "ps5_activation": "🔓", "ps5_cheat": "🏴‍☠️", "ps5_dns": "🌐", "ps5_file_explorer": "📂",
+    "ps5_freeshop": "💾", "ps5_game_dump": "💿", "ps5_hen_loader": "🚀", "ps5_kstuff": "🧪",
+    "ps5_linux": "🐧", "ps5_saves": "📝", "ps5_sdk_debug": "⚙️", "ps5_server": "🖥️",
+    "ps5_themes": "🎨", "ps5_trophy": "🏆", "ps5_utility": "🛠️"
 }
 
-print("📝 Génération du README.md personnalisé...")
+print("📝 Génération du README.md...")
 with open("README.md", "w", encoding="utf-8") as r_file:
     repo_name = os.environ.get('GITHUB_REPOSITORY', 'PS5-Super-PLDMGR-Auto-Updater').split('/')[-1]
     
     r_file.write(f"![Banner](assets/banner.png)\n\n")
     r_file.write("# 🎮 PS5 Payload Manager & Mini-Store\n\n")
     r_file.write("Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !\n\n")
-    
     r_file.write(f"🌐 **Site Web Vitrine :** [Visiter le site PS5 Super PLDMGR Auto Updater](https://nexgen999.github.io/{repo_name}/index.html)\n\n")
     
-    r_file.write("> 💡 **Configuration du Store sur l'application PS5 :** Pour connecter votre console, ajoutez le fichier central **`payloads.json`** :\n")
-    r_file.write(f"> `https://nexgen999.github.io/{repo_name}/json/payloads.json`\n\n")
+    r_file.write("## 🔗 URLs Fixes des Stores JSON\n")
+    r_file.write(f"* **Payloads Store JSON :** `https://nexgen999.github.io/{repo_name}/json/payloads.json`\n")
+    r_file.write(f"* **Packages PKG Store JSON :** `https://nexgen999.github.io/{repo_name}/PKGjson/ps5pkg.json`\n\n")
     
-    r_file.write(f"📦 **Package AIO Offline (Dernières versions ELF) :** [Télécharger le package AIO Latest (.zip)](https://github.com/nexgen999/{repo_name}/releases/latest/download/ps5_super_pldmgr_auto_updated_offline.aio_latest.zip)\n\n")
+    r_file.write("## 📦 Archives AIO Releases (Dernières Versions)\n")
+    r_file.write(f"* 🚀 **AIO Payloads Offline (.zip) :** [Télécharger](https://github.com/nexgen999/{repo_name}/releases/latest/download/ps5_super_pldmgr_auto_updated_offline.aio_latest.zip)\n")
+    r_file.write(f"* 📦 **AIO PKG Offline (.zip) :** [Télécharger](https://github.com/nexgen999/{repo_name}/releases/latest/download/PS5PKG_aio_latest.zip)\n\n")
+    
     r_file.write("---\n\n")
     
-    r_file.write("## 📱 Flux RSS & Alertes\n")
-    r_file.write("* **Radar Global (OPML) :** `rss/store-global.opml`\n")
-    r_file.write("* **Flux de mises à jour (XML) :** `rss/feed.xml`\n\n")
-    r_file.write("---\n\n")
-    
-    r_file.write("## 📦 Liste des Applications & Payloads disponibles par Catégorie\n\n")
+    # Section PKG
+    if all_pkgs_flat_list:
+        r_file.write("## 📦 Packages PS5 (.pkg) Disponibles\n\n")
+        r_file.write("| Package | Auteur | Version | Description |\n")
+        r_file.write("| :--- | :--- | :--- | :--- |\n")
+        for pkg in all_pkgs_flat_list:
+            r_file.write(f"| **[{pkg['name']}]({pkg['url']})** | {pkg['author']} | {pkg['version']} | {pkg['description']} |\n")
+        r_file.write("\n---\n\n")
 
+    # Section Payloads par catégorie
+    r_file.write("## 📦 Payloads (.elf / .bin) Disponibles par Catégorie\n\n")
     if os.path.exists(FEED_DIR):
         for opml_file in sorted(os.listdir(FEED_DIR)):
-            if not opml_file.endswith('.opml'):
-                continue
-                
+            if not opml_file.endswith('.opml'): continue
             cat_tech = opml_file.replace('.opml', '')
             cat_display = cat_tech.replace('_', ' ').title()
             if "Hen" in cat_display: cat_display = cat_display.replace("Hen", "HEN")
             if cat_display.startswith("Ps5 "): cat_display = cat_display.replace("Ps5 ", "PS5 ")
             
             icon = CATEGORY_ICONS.get(cat_tech.lower(), "📦")
-            
             json_path = os.path.join(JSON_DIR, f"{cat_tech}.json")
+            
             if os.path.exists(json_path):
                 with open(json_path, 'r', encoding='utf-8') as j_f:
                     structured_data = json.load(j_f)
-                
                 cat_items = structured_data.get("payloads", [])
                 if cat_items:
                     r_file.write(f"### {icon} {cat_display}\n")
-                    r_file.write(f"📂 **Fichier JSON Dédié :** `https://nexgen999.github.io/{repo_name}/json/{cat_tech}.json`\n\n")
+                    r_file.write(f"📂 **JSON Catégorie :** `https://nexgen999.github.io/{repo_name}/json/{cat_tech}.json`\n\n")
                     r_file.write("| Application | Version | Empreinte SHA-256 | Description |\n")
                     r_file.write("| :--- | :--- | :--- | :--- |\n")
-                    
                     for item in cat_items:
-                        short_hash = item["checksum"][:10]
-                        r_file.write(f"| **{item['name']}** | [{item['version']}]({item['url']}) | `{short_hash}...` | {item['description']} |\n")
-                    
+                        r_file.write(f"| **{item['name']}** | [{item['version']}]({item['url']}) | `{item['checksum'][:10]}...` | {item['description']} |\n")
                     r_file.write("\n")
 
     r_file.write("---\n\n")
