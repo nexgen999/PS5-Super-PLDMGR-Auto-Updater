@@ -35,6 +35,10 @@ jobs:
         run: |
           python update_store.py
 
+      - name: Run generate_web.py
+        run: |
+          python generate_web.py
+
       - name: Build AIO Payload Package (.zip)
         run: |
           python build_aio_package.py
@@ -43,29 +47,61 @@ jobs:
         run: |
           python build_aio_package_pkg.py
 
-      - name: Commit and push updated JSONs & README
+      - name: Generate Release Notes
+        run: |
+          echo "## 🚀 Nouveautés & Contenu de cette Build" > release_notes.md
+          echo "" >> release_notes.md
+          if [ -f "PKGjson/ps5pkg.json" ]; then
+            echo "### 📦 Packages PKG Inclus" >> release_notes.md
+            echo "" >> release_notes.md
+            python -c "import json; data=json.load(open('PKGjson/ps5pkg.json')); print('\n'.join([f'- **{p[\"name\"]}** ({p.get(\"version\", \"v1.0.0\")}) - {p.get(\"description\", \"\")}' for p in data.get('packages', [])]))" >> release_notes.md
+            echo "" >> release_notes.md
+          fi
+          if [ -f "json/payloads.json" ]; then
+            echo "### ⚡ Payloads Inclus" >> release_notes.md
+            echo "" >> release_notes.md
+            python -c "import json; data=json.load(open('json/payloads.json')); print('\n'.join([f'- **{p[\"name\"]}** ({p.get(\"version\", \"v1.0.0\")}) - {p.get(\"category\", \"\")}' for p in data.get('payloads', [])]))" >> release_notes.md
+          fi
+
+      - name: Commit and push updated JSONs, Web & README
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add json/ PKGjson/ payloads/ README.md
-          git commit -m "auto: update stores, payloads & readme [skip ci]" || echo "No changes to commit"
+          git add json/ PKGjson/ payloads/ docs/ rss/ README.md
+          git commit -m "auto: update stores, payloads, web site & readme [skip ci]" || echo "No changes to commit"
           git push
 
-      - name: Create or Update 'latest' Release
+      - name: Update 'latest' Release (Only Latest Archives)
         uses: softprops/action-gh-release@v2
         with:
           tag_name: "latest"
           name: "PS5 AIO Packages (Dernière version)"
-          body: |
-            🚀 **Dernière mise à jour automatique des packages AIO**
-            
-            Cette release contient toujours les dernières versions à jour des archives :
-            - **Payloads ELF/BIN AIO** (`ps5_super_pldmgr_auto_updated_offline.aio_latest.zip`)
-            - **Packages PKG AIO** (`PS5PKG_aio_latest.zip`)
+          body_path: release_notes.md
           draft: false
           prerelease: false
           files: |
-            *.zip
+            ps5_super_pldmgr_auto_updated_offline.aio_latest.zip
+            PS5PKG_aio_latest.zip
+            PKGjson/ps5pkg.json
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Create Horodated Tag
+        run: |
+          git tag -f "aio-${{ env.DATE_TAG }}"
+          git push origin "aio-${{ env.DATE_TAG }}" --force
+
+      - name: Create Horodated Release (Full Archives)
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: "aio-${{ env.DATE_TAG }}"
+          name: "PS5 AIO Packages (${{ env.DATE_TAG }})"
+          body_path: release_notes.md
+          draft: false
+          prerelease: false
+          files: |
+            ps5_super_pldmgr_auto_updated_offline.aio_*.zip
+            PS5PKG_aio_*.zip
             PKGjson/ps5pkg.json
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
