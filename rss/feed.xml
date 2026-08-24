@@ -165,14 +165,19 @@
       <description>PS5-Power-Payloads-Project utility. - Checksum: 3614f68981adc13a231d3655bf3892725bc25aa372d67a0037698253753b7cbe</description>
     </item>
     <item>
-      <title>ps5power-poweroff (1.0)</title>
-      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_utility/PS5-Power-Payloads-Project/1.0/ps5power-poweroff_v1.0.elf</link>
-      <description>PS5-Power-Payloads-Project utility. - Checksum: 42ed7983619a31f74a6ac74cc943b80899366ceaf07fed77a46384b9b0f51c48</description>
+      <title>PS5-Power-Payloads-Project (1.0)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_utility/PS5-Power-Payloads-Project/1.0/PS5-Power-Payloads-Project_v1.0.elf</link>
+      <description>PS5-Power-Payloads-Project utility. - Checksum: 1a36a01c92cd73fc89645ce73e3f33c71979b5b677c92b6f4c26d269e3f9a2c1</description>
     </item>
     <item>
       <title>ps5power-notify_test (1.0)</title>
       <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_utility/PS5-Power-Payloads-Project/1.0/ps5power-notify_test_v1.0.elf</link>
       <description>PS5-Power-Payloads-Project utility. - Checksum: a06cf9ace6e13f3c0241a709c6a8d23969d74e6559ec2a2290298f480f62da79</description>
+    </item>
+    <item>
+      <title>ps5power-poweroff (1.0)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_utility/PS5-Power-Payloads-Project/1.0/ps5power-poweroff_v1.0.elf</link>
+      <description>PS5-Power-Payloads-Project utility. - Checksum: 42ed7983619a31f74a6ac74cc943b80899366ceaf07fed77a46384b9b0f51c48</description>
     </item>
     <item>
       <title>ps5power-suspend (1.0)</title>
@@ -235,9 +240,9 @@
       <description>PS5 App Dumper payload. - Checksum: 18483751ebaea6879b020a9dd87c0a4fb4f1bf09f3708d950362a483f78cc0d0</description>
     </item>
     <item>
-      <title>shadowmountplus (1.7alpha8)</title>
-      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/ShadowMountPlus/1.7alpha8/shadowmountplus_v1.7alpha8.elf</link>
-      <description>ShadowMountPlus payload for game mounting. - Checksum: f15653fe90d81e5f82841ca693c0599d307c384d6454c1b0cc18190ae1ef4812</description>
+      <title>ShadowMountPlus (1.7alpha10)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/ShadowMountPlus/1.7alpha10/ShadowMountPlus_v1.7alpha10.elf</link>
+      <description>ShadowMountPlus payload for game mounting. - Checksum: 1dbf2131327a401a71020fa586350a795fd5eced3ecaa688ae194944a05f746d</description>
     </item>
     <item>
       <title>BackPork (0.1)</title>
@@ -275,9 +280,14 @@
       <description>FTP server payload for PS5. Port: 21 - Checksum: 0f724dc57c087dedd80c1c5090bbd4d140fa0cd6f339501f5357f7009ce4d1ed</description>
     </item>
     <item>
-      <title>zftp (v1.5.0)</title>
-      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/zftpd/v1.5.0/zftp_v1.5.0.elf</link>
-      <description>FTP server payload for PS5. Port: 21 - Checksum: bc21772ceafde44d81fce968a04e585509da3c70f8e48d5a6980e28b5bad17fb</description>
+      <title>zftpd (v1.5.0)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/zftpd/v1.5.0/zftpd_v1.5.0.elf</link>
+      <description>FTP server payload for PS5. Port: 21 - Checksum: 5d2f96ccf0630ab5803552dd3f99ad9eeaaea998daa2812f1c4dc5e7a0b45a84</description>
+    </item>
+    <item>
+      <title>zftpd (v1.5.0)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/zftpd/v1.5.0/zftpd_v1.5.0.bin</link>
+      <description>FTP server payload for PS5. Port: 21 - Checksum: 9340aa91f8f1eeb619473d716e0b6ab7af1c6fbb3ad815648520872ad6c86ccf</description>
     </item>
     <item>
       <title>zhttp (v1.5.0)</title>
@@ -288,6 +298,11 @@
       <title>zhttp (v1.5.0)</title>
       <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/zftpd/v1.5.0/zhttp_v1.5.0.elf</link>
       <description>FTP server payload for PS5. Port: 21 - Checksum: 5d2f96ccf0630ab5803552dd3f99ad9eeaaea998daa2812f1c4dc5e7a0b45a84</description>
+    </item>
+    <item>
+      <title>zftp (v1.5.0)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/zftpd/v1.5.0/zftp_v1.5.0.elf</link>
+      <description>FTP server payload for PS5. Port: 21 - Checksum: bc21772ceafde44d81fce968a04e585509da3c70f8e48d5a6980e28b5bad17fb</description>
     </item>
     <item>
       <title>elfldr (v0.25)</title>
@@ -355,6 +370,11 @@
       <description>BFpilot is a lightweight PS5 payload that serves a browser-based file manager. - Checksum: 5a8237630260026ad054d71fbbe661e433ac9ffa2cb4eea2785769c1eb7ee1c1</description>
     </item>
     <item>
+      <title>BFpilot (v0.4.4)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_file_explorer/BFpilot/v0.4.4/BFpilot_v0.4.4.elf</link>
+      <description>BFpilot is a lightweight PS5 payload that serves a browser-based file manager. - Checksum: 5a8237630260026ad054d71fbbe661e433ac9ffa2cb4eea2785769c1eb7ee1c1</description>
+    </item>
+    <item>
       <title>lapy_jb_daemon (Source-Fixe)</title>
       <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_file_explorer/Lapy_JB_Daemon/Source-Fixe/lapy_jb_daemon.elf</link>
       <description>Daemon pour le jailbreak de Lapy - Checksum: e8230ac4597b8f0388e75d7515ad1a2e251c4589cc3b8d56a483ffae73627eed</description>
@@ -380,9 +400,9 @@
       <description>Firmware spoofer utility for PS5. - Checksum: f1754521caa92a6a1ac313a1b6c969ec49d67750e290ba99870958290a0961f0</description>
     </item>
     <item>
-      <title>ps5-self-pager-game (v1.2)</title>
-      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/ps5-self-pager/v1.2/ps5-self-pager-game_v1.2.elf</link>
-      <description>SELF pager payload tool. - Checksum: 73d94fea5de9086cac26385c117a0b3098890c447d67536877fb7b51c9145aac</description>
+      <title>ps5-self-pager (v1.2)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/ps5-self-pager/v1.2/ps5-self-pager_v1.2.elf</link>
+      <description>SELF pager payload tool. - Checksum: 2b500bc356b5bcfca5c3e5187bcec0a37c80ed05e39348b8f06bd2e5a6f3342b</description>
     </item>
     <item>
       <title>ps5-self-pager-system-common-lib (v1.2)</title>
@@ -395,6 +415,11 @@
       <description>SELF pager payload tool. - Checksum: 2b500bc356b5bcfca5c3e5187bcec0a37c80ed05e39348b8f06bd2e5a6f3342b</description>
     </item>
     <item>
+      <title>ps5-self-pager-game (v1.2)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/ps5-self-pager/v1.2/ps5-self-pager-game_v1.2.elf</link>
+      <description>SELF pager payload tool. - Checksum: 73d94fea5de9086cac26385c117a0b3098890c447d67536877fb7b51c9145aac</description>
+    </item>
+    <item>
       <title>ps5-self-pager-full-system (v1.2)</title>
       <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/ps5-self-pager/v1.2/ps5-self-pager-full-system_v1.2.elf</link>
       <description>SELF pager payload tool. - Checksum: fb498d4112611619150281e0c44afbd09f144c09eaca3ab3f5b306b39450d13a</description>
@@ -405,19 +430,24 @@
       <description>SELF decrypter tool for PS5 binaries. - Checksum: 15050c691c21c790ae970a1ee99ad3918dd1065fe5512c762fccee6d521c8066</description>
     </item>
     <item>
+      <title>PS5-SELF-Decrypter (v0.5.2)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/PS5-SELF-Decrypter/v0.5.2/PS5-SELF-Decrypter_v0.5.2.elf</link>
+      <description>SELF decrypter tool for PS5 binaries. - Checksum: 190b350759b4f9d50949325e84d131e0953f37a9df271c329ba43c80c0ac7a57</description>
+    </item>
+    <item>
       <title>ps5-self-decrypter-system-common-lib (v0.5.2)</title>
       <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/PS5-SELF-Decrypter/v0.5.2/ps5-self-decrypter-system-common-lib_v0.5.2.elf</link>
       <description>SELF decrypter tool for PS5 binaries. - Checksum: 6a16c6457c604db4846632510da0975f49faba08e6cab9cfd7f84d78b4557d97</description>
     </item>
     <item>
-      <title>ps5-self-decrypter-full-system (v0.5.2)</title>
-      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/PS5-SELF-Decrypter/v0.5.2/ps5-self-decrypter-full-system_v0.5.2.elf</link>
-      <description>SELF decrypter tool for PS5 binaries. - Checksum: 46340d3048a977f5603b3def0a0ba1c85b5c182891388442e51b39e281257b6a</description>
-    </item>
-    <item>
       <title>ps5-self-decrypter-game (v0.5.2)</title>
       <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/PS5-SELF-Decrypter/v0.5.2/ps5-self-decrypter-game_v0.5.2.elf</link>
       <description>SELF decrypter tool for PS5 binaries. - Checksum: 190b350759b4f9d50949325e84d131e0953f37a9df271c329ba43c80c0ac7a57</description>
+    </item>
+    <item>
+      <title>ps5-self-decrypter-full-system (v0.5.2)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/PS5-SELF-Decrypter/v0.5.2/ps5-self-decrypter-full-system_v0.5.2.elf</link>
+      <description>SELF decrypter tool for PS5 binaries. - Checksum: 46340d3048a977f5603b3def0a0ba1c85b5c182891388442e51b39e281257b6a</description>
     </item>
     <item>
       <title>ps5-remoteplay-get-pin (v0.1.1)</title>
@@ -432,6 +462,11 @@
     <item>
       <title>hwinfo_bench (0.1)</title>
       <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/ps5-hwinfo/0.1/hwinfo_bench_v0.1.elf</link>
+      <description>PS5 payload for collecting hardware and runtime telemetry. - Checksum: 4514bdbc0c556df1a66544615942d5087d1cbee5c2026b3b66e688ba01e5a5b0</description>
+    </item>
+    <item>
+      <title>ps5-hwinfo (0.1)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/ps5-hwinfo/0.1/ps5-hwinfo_v0.1.elf</link>
       <description>PS5 payload for collecting hardware and runtime telemetry. - Checksum: 4514bdbc0c556df1a66544615942d5087d1cbee5c2026b3b66e688ba01e5a5b0</description>
     </item>
     <item>

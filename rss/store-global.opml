@@ -11,11 +11,16 @@
     <outline text="kstuff-lite_EchoStretch" title="kstuff-lite_EchoStretch" type="rss" xmlUrl="https://github.com/EchoStretch/kstuff-lite" author="EchoStretch"/>
     <outline text="kstuff_EchoStretch" title="kstuff_EchoStretch" type="rss" xmlUrl="https://github.com/EchoStretch/kstuff" author="EchoStretch"/>
     <outline text="ps5-app-dumper" title="ps5-app-dumper" type="rss" xmlUrl="https://github.com/EchoStretch/ps5-app-dumper" author="EchoStretch"/>
+    <outline text="Itemzflow_Game_Manager" title="Itemzflow_Game_Manager" type="rss" xmlUrl="https://github.com/nexgen999/Evox_PS5PKG_Private/releases/download/v1.0/PS5PKG_Itemzflow_Game_Manager_v1.14.pkg" author="Itemzflow"/>
     <outline text="BFpilot" title="BFpilot" type="rss" xmlUrl="https://github.com/ItsBlurf/BFpilot" author="ItsBlurf"/>
     <outline text="BFplayer-standalone" title="BFplayer-standalone" type="rss" xmlUrl="https://github.com/ItsBlurf/BFplayer" author="ItsBlurf"/>
     <outline text="PoorDS4" title="PoorDS4" type="rss" xmlUrl="https://github.com/ItsBlurf/PoorDS4" author="ItsBlurf"/>
+    <outline text="FPKGi" title="FPKGi" type="rss" xmlUrl="https://github.com/nexgen999/Evox_PS5PKG_Private/releases/download/v1.0/PS5PKG_FPKGi_v1.10.0.pkg" author="ItsJokerZz"/>
     <outline text="ProsperoPlayer" title="ProsperoPlayer" type="rss" xmlUrl="https://github.com/KINGDKAK/ProsperoPlayer" author="KINGDKAK"/>
+    <outline text="Avatar-Changer" title="Avatar-Changer" type="rss" xmlUrl="https://github.com/nexgen999/Evox_PS5PKG_Private/releases/download/v1.0/PS5PKG_Avatar-Changer_v1.00.pkg" author="Lapy"/>
+    <outline text="PS5-Xplorer" title="PS5-Xplorer" type="rss" xmlUrl="https://github.com/nexgen999/Evox_PS5PKG_Private/releases/download/v1.0/PS5PKG_PS5-Xplorer_v1.05.pkg" author="Lapy"/>
     <outline text="etaHEN" title="etaHEN" type="rss" xmlUrl="https://github.com/etaHEN/etaHEN" author="LightningMods"/>
+    <outline text="PS5Webit-Nexgen999_Installer" title="PS5Webit-Nexgen999_Installer" type="rss" xmlUrl="https://github.com/nexgen999/Evox_PS5PKG_Private/releases/download/v1.0/PS5PKG_PS5Webit-Nexgen999_Installer_v1.00.pkg" author="Master0"/>
     <outline text="PS5-Power-Payloads-Project" title="PS5-Power-Payloads-Project" type="rss" xmlUrl="https://github.com/MasterPS0/PS5-Power-Payloads-Project" author="MasterPS0"/>
     <outline text="PIZZA-HEN" title="PIZZA-HEN" type="rss" xmlUrl="https://github.com/Michele-M-Media/PIZZA-HEN" author="Michele-M-Media"/>
     <outline text="PS-Play" title="PS-Play" type="rss" xmlUrl="https://github.com/MounirHero/PS-Play" author="MounirHero"/>
@@ -56,14 +61,18 @@
     <outline text="ps5-web-file-manager" title="ps5-web-file-manager" type="rss" xmlUrl="https://github.com/owendswang/ps5-web-file-manager" author="owendswang"/>
     <outline text="pegasus-dl" title="pegasus-dl" type="rss" xmlUrl="https://github.com/pegasus-ps5/pegasus-dl" author="pegasus-ps5"/>
     <outline text="ps5upload" title="ps5upload" type="rss" xmlUrl="https://github.com/phantomptr/ps5upload" author="phantomptr"/>
+    <outline text="Homebrew_Store_installer" title="Homebrew_Store_installer" type="rss" xmlUrl="https://github.com/nexgen999/Evox_PS5PKG_Private/releases/download/v1.0/PS5PKG_Homebrew_Store_installer.pkg" author="pkg-zone"/>
     <outline text="Host-PSM pooP2JB" title="Host-PSM pooP2JB" type="rss" xmlUrl="https://github.com/ps4macedo/instalador-host-psm-poop2jb" author="ps4macedo"/>
     <outline text="ps5-linux-loader" title="ps5-linux-loader" type="rss" xmlUrl="https://github.com/ps5-linux/ps5-linux-loader" author="ps5-linux"/>
+    <outline text="HOMEBREWLOADER" title="HOMEBREWLOADER" type="rss" xmlUrl="https://github.com/nexgen999/Evox_PS5PKG_Private/releases/download/v1.0/PS5PKG_HOMEBREWLOADER_v0.30.pkg" author="ps5-payload-dev"/>
     <outline text="elfldr" title="elfldr" type="rss" xmlUrl="https://github.com/ps5-payload-dev/elfldr" author="ps5-payload-dev"/>
     <outline text="ftpsrv_ps5-payload" title="ftpsrv_ps5-payload" type="rss" xmlUrl="https://github.com/ps5-payload-dev/ftpsrv" author="ps5-payload-dev"/>
     <outline text="gdbsrv" title="gdbsrv" type="rss" xmlUrl="https://github.com/ps5-payload-dev/gdbsrv" author="ps5-payload-dev"/>
     <outline text="klogsrv" title="klogsrv" type="rss" xmlUrl="https://github.com/ps5-payload-dev/klogsrv" author="ps5-payload-dev"/>
     <outline text="svtplay" title="svtplay" type="rss" xmlUrl="https://github.com/ps5-payload-dev/svtplay" author="ps5-payload-dev"/>
     <outline text="websrv" title="websrv" type="rss" xmlUrl="https://github.com/ps5-payload-dev/websrv" author="ps5-payload-dev"/>
+    <outline text="InternetBrowser-Game_Menu" title="InternetBrowser-Game_Menu" type="rss" xmlUrl="https://github.com/nexgen999/Evox_PS5PKG_Private/releases/download/v1.0/PS5PKG_InternetBrowser-Game_Menu_v1.00.pkg" author="ps5xploit"/>
+    <outline text="InternetBrowser-Media_Menu" title="InternetBrowser-Media_Menu" type="rss" xmlUrl="https://github.com/nexgen999/Evox_PS5PKG_Private/releases/download/v1.0/PS5PKG_InternetBrowser-Media_Menu_v1.00.pkg" author="ps5xploit"/>
     <outline text="MemDBG" title="MemDBG" type="rss" xmlUrl="https://github.com/seregonwar/MemDBG" author="seregonwar"/>
     <outline text="zftpd" title="zftpd" type="rss" xmlUrl="https://github.com/seregonwar/zftpd" author="seregonwar"/>
     <outline text="uds-trophy-unlocker" title="uds-trophy-unlocker" type="rss" xmlUrl="https://git.etawen.dev/soniciso/uds-trophy-unlocker" author="soniciso"/>

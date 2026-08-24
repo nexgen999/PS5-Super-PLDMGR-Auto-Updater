@@ -11,8 +11,8 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 * **Packages PKG Store JSON :** `https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/PKGjson/ps5pkg.json`
 
 ## 📦 Archives AIO Releases (Dernières Versions)
-* 🚀 **AIO Payloads Offline (.zip) :** [Télécharger](https://github.com/nexgen999/PS5-Super-PLDMGR-Auto-Updater/releases/latest/download/ps5_super_pldmgr_auto_updated_offline.aio_latest.zip)
-* 📦 **AIO PKG Offline (.zip) :** [Télécharger](https://github.com/nexgen999/PS5-Super-PLDMGR-Auto-Updater/releases/latest/download/PS5PKG_aio_latest.zip)
+* 🚀 **AIO Payloads Offline (.zip) :** [Télécharger](https://github.com/nexgen999/PS5-Super-PLDMGR-Auto-Updater/releases/download/latest/ps5_super_pldmgr_auto_updated_offline.aio_latest.zip)
+* 📦 **AIO PKG Offline (.zip) :** [Télécharger](https://github.com/nexgen999/PS5-Super-PLDMGR-Auto-Updater/releases/download/latest/PS5PKG_aio_latest.zip)
 
 ---
 
@@ -106,7 +106,7 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 | :--- | :--- | :--- | :--- |
 | **PS5-Game-Compressor** | [v1.0.4](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/PS5-Game-Compressor/v1.0.4/PS5-Game-Compressor_v1.0.4.elf) | `e55e90aaad...` | Tool to compress PS5 games. |
 | **ps5-app-dumper** | [v1.11](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/ps5-app-dumper/v1.11/ps5-app-dumper_v1.11.elf) | `18483751eb...` | PS5 App Dumper payload. |
-| **ShadowMountPlus** | [1.7alpha9](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/ShadowMountPlus/1.7alpha9/ShadowMountPlus_v1.7alpha9.elf) | `6584ba2c62...` | ShadowMountPlus payload for game mounting. |
+| **ShadowMountPlus** | [1.7alpha10](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/ShadowMountPlus/1.7alpha10/ShadowMountPlus_v1.7alpha10.elf) | `1dbf213132...` | ShadowMountPlus payload for game mounting. |
 | **BackPork** | [0.1](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/BackPork/0.1/BackPork_v0.1.elf) | `d74e4cd119...` | BackPork PS5 tool. |
 | **apr-emu-updater** | [v1.5.1](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/apr-emu-updater/v1.5.1/apr-emu-updater_v1.5.1.elf) | `42a0b98ed0...` | APR Emu Updater must always be loaded. |
 
