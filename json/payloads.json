@@ -290,13 +290,13 @@
       "checksum": "3614f68981adc13a231d3655bf3892725bc25aa372d67a0037698253753b7cbe"
     },
     {
-      "name": "ps5power-poweroff",
-      "filename": "ps5power-poweroff_v1.0.elf",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_utility/PS5-Power-Payloads-Project/1.0/ps5power-poweroff_v1.0.elf",
+      "name": "PS5-Power-Payloads-Project",
+      "filename": "PS5-Power-Payloads-Project_v1.0.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_utility/PS5-Power-Payloads-Project/1.0/PS5-Power-Payloads-Project_v1.0.elf",
       "description": "PS5-Power-Payloads-Project utility.",
       "version": "1.0",
       "category": "PS5 Utility",
-      "checksum": "42ed7983619a31f74a6ac74cc943b80899366ceaf07fed77a46384b9b0f51c48"
+      "checksum": "1a36a01c92cd73fc89645ce73e3f33c71979b5b677c92b6f4c26d269e3f9a2c1"
     },
     {
       "name": "ps5power-notify_test",
@@ -306,6 +306,15 @@
       "version": "1.0",
       "category": "PS5 Utility",
       "checksum": "a06cf9ace6e13f3c0241a709c6a8d23969d74e6559ec2a2290298f480f62da79"
+    },
+    {
+      "name": "ps5power-poweroff",
+      "filename": "ps5power-poweroff_v1.0.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_utility/PS5-Power-Payloads-Project/1.0/ps5power-poweroff_v1.0.elf",
+      "description": "PS5-Power-Payloads-Project utility.",
+      "version": "1.0",
+      "category": "PS5 Utility",
+      "checksum": "42ed7983619a31f74a6ac74cc943b80899366ceaf07fed77a46384b9b0f51c48"
     },
     {
       "name": "ps5power-suspend",
@@ -416,6 +425,15 @@
       "checksum": "18483751ebaea6879b020a9dd87c0a4fb4f1bf09f3708d950362a483f78cc0d0"
     },
     {
+      "name": "ShadowMountPlus",
+      "filename": "ShadowMountPlus_v1.7alpha8.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/ShadowMountPlus/1.7alpha8/ShadowMountPlus_v1.7alpha8.elf",
+      "description": "ShadowMountPlus payload for game mounting.",
+      "version": "1.7alpha8",
+      "category": "PS5 Game Dump",
+      "checksum": "f15653fe90d81e5f82841ca693c0599d307c384d6454c1b0cc18190ae1ef4812"
+    },
+    {
       "name": "shadowmountplus",
       "filename": "shadowmountplus_v1.7alpha8.elf",
       "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/ShadowMountPlus/1.7alpha8/shadowmountplus_v1.7alpha8.elf",
@@ -488,13 +506,22 @@
       "checksum": "0f724dc57c087dedd80c1c5090bbd4d140fa0cd6f339501f5357f7009ce4d1ed"
     },
     {
-      "name": "zftp",
-      "filename": "zftp_v1.5.0.elf",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/zftpd/v1.5.0/zftp_v1.5.0.elf",
+      "name": "zftpd",
+      "filename": "zftpd_v1.5.0.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/zftpd/v1.5.0/zftpd_v1.5.0.elf",
       "description": "FTP server payload for PS5. Port: 21",
       "version": "v1.5.0",
       "category": "PS5 Server",
-      "checksum": "bc21772ceafde44d81fce968a04e585509da3c70f8e48d5a6980e28b5bad17fb"
+      "checksum": "5d2f96ccf0630ab5803552dd3f99ad9eeaaea998daa2812f1c4dc5e7a0b45a84"
+    },
+    {
+      "name": "zftpd",
+      "filename": "zftpd_v1.5.0.bin",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/zftpd/v1.5.0/zftpd_v1.5.0.bin",
+      "description": "FTP server payload for PS5. Port: 21",
+      "version": "v1.5.0",
+      "category": "PS5 Server",
+      "checksum": "9340aa91f8f1eeb619473d716e0b6ab7af1c6fbb3ad815648520872ad6c86ccf"
     },
     {
       "name": "zhttp",
@@ -513,6 +540,15 @@
       "version": "v1.5.0",
       "category": "PS5 Server",
       "checksum": "5d2f96ccf0630ab5803552dd3f99ad9eeaaea998daa2812f1c4dc5e7a0b45a84"
+    },
+    {
+      "name": "zftp",
+      "filename": "zftp_v1.5.0.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/zftpd/v1.5.0/zftp_v1.5.0.elf",
+      "description": "FTP server payload for PS5. Port: 21",
+      "version": "v1.5.0",
+      "category": "PS5 Server",
+      "checksum": "bc21772ceafde44d81fce968a04e585509da3c70f8e48d5a6980e28b5bad17fb"
     },
     {
       "name": "elfldr",
@@ -632,6 +668,15 @@
       "checksum": "5a8237630260026ad054d71fbbe661e433ac9ffa2cb4eea2785769c1eb7ee1c1"
     },
     {
+      "name": "BFpilot",
+      "filename": "BFpilot_v0.4.4.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_file_explorer/BFpilot/v0.4.4/BFpilot_v0.4.4.elf",
+      "description": "BFpilot is a lightweight PS5 payload that serves a browser-based file manager.",
+      "version": "v0.4.4",
+      "category": "PS5 File Explorer",
+      "checksum": "5a8237630260026ad054d71fbbe661e433ac9ffa2cb4eea2785769c1eb7ee1c1"
+    },
+    {
       "name": "lapy_jb_daemon",
       "filename": "lapy_jb_daemon.elf",
       "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_file_explorer/Lapy_JB_Daemon/Source-Fixe/lapy_jb_daemon.elf",
@@ -677,13 +722,13 @@
       "checksum": "f1754521caa92a6a1ac313a1b6c969ec49d67750e290ba99870958290a0961f0"
     },
     {
-      "name": "ps5-self-pager-game",
-      "filename": "ps5-self-pager-game_v1.2.elf",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/ps5-self-pager/v1.2/ps5-self-pager-game_v1.2.elf",
+      "name": "ps5-self-pager",
+      "filename": "ps5-self-pager_v1.2.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/ps5-self-pager/v1.2/ps5-self-pager_v1.2.elf",
       "description": "SELF pager payload tool.",
       "version": "v1.2",
       "category": "PS5 Sdk Debug",
-      "checksum": "73d94fea5de9086cac26385c117a0b3098890c447d67536877fb7b51c9145aac"
+      "checksum": "2b500bc356b5bcfca5c3e5187bcec0a37c80ed05e39348b8f06bd2e5a6f3342b"
     },
     {
       "name": "ps5-self-pager-system-common-lib",
@@ -704,6 +749,15 @@
       "checksum": "2b500bc356b5bcfca5c3e5187bcec0a37c80ed05e39348b8f06bd2e5a6f3342b"
     },
     {
+      "name": "ps5-self-pager-game",
+      "filename": "ps5-self-pager-game_v1.2.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/ps5-self-pager/v1.2/ps5-self-pager-game_v1.2.elf",
+      "description": "SELF pager payload tool.",
+      "version": "v1.2",
+      "category": "PS5 Sdk Debug",
+      "checksum": "73d94fea5de9086cac26385c117a0b3098890c447d67536877fb7b51c9145aac"
+    },
+    {
       "name": "ps5-self-pager-full-system",
       "filename": "ps5-self-pager-full-system_v1.2.elf",
       "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/ps5-self-pager/v1.2/ps5-self-pager-full-system_v1.2.elf",
@@ -722,6 +776,15 @@
       "checksum": "15050c691c21c790ae970a1ee99ad3918dd1065fe5512c762fccee6d521c8066"
     },
     {
+      "name": "PS5-SELF-Decrypter",
+      "filename": "PS5-SELF-Decrypter_v0.5.2.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/PS5-SELF-Decrypter/v0.5.2/PS5-SELF-Decrypter_v0.5.2.elf",
+      "description": "SELF decrypter tool for PS5 binaries.",
+      "version": "v0.5.2",
+      "category": "PS5 Sdk Debug",
+      "checksum": "190b350759b4f9d50949325e84d131e0953f37a9df271c329ba43c80c0ac7a57"
+    },
+    {
       "name": "ps5-self-decrypter-system-common-lib",
       "filename": "ps5-self-decrypter-system-common-lib_v0.5.2.elf",
       "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/PS5-SELF-Decrypter/v0.5.2/ps5-self-decrypter-system-common-lib_v0.5.2.elf",
@@ -731,15 +794,6 @@
       "checksum": "6a16c6457c604db4846632510da0975f49faba08e6cab9cfd7f84d78b4557d97"
     },
     {
-      "name": "ps5-self-decrypter-full-system",
-      "filename": "ps5-self-decrypter-full-system_v0.5.2.elf",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/PS5-SELF-Decrypter/v0.5.2/ps5-self-decrypter-full-system_v0.5.2.elf",
-      "description": "SELF decrypter tool for PS5 binaries.",
-      "version": "v0.5.2",
-      "category": "PS5 Sdk Debug",
-      "checksum": "46340d3048a977f5603b3def0a0ba1c85b5c182891388442e51b39e281257b6a"
-    },
-    {
       "name": "ps5-self-decrypter-game",
       "filename": "ps5-self-decrypter-game_v0.5.2.elf",
       "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/PS5-SELF-Decrypter/v0.5.2/ps5-self-decrypter-game_v0.5.2.elf",
@@ -747,6 +801,15 @@
       "version": "v0.5.2",
       "category": "PS5 Sdk Debug",
       "checksum": "190b350759b4f9d50949325e84d131e0953f37a9df271c329ba43c80c0ac7a57"
+    },
+    {
+      "name": "ps5-self-decrypter-full-system",
+      "filename": "ps5-self-decrypter-full-system_v0.5.2.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/PS5-SELF-Decrypter/v0.5.2/ps5-self-decrypter-full-system_v0.5.2.elf",
+      "description": "SELF decrypter tool for PS5 binaries.",
+      "version": "v0.5.2",
+      "category": "PS5 Sdk Debug",
+      "checksum": "46340d3048a977f5603b3def0a0ba1c85b5c182891388442e51b39e281257b6a"
     },
     {
       "name": "ps5-remoteplay-get-pin",
@@ -770,6 +833,15 @@
       "name": "hwinfo_bench",
       "filename": "hwinfo_bench_v0.1.elf",
       "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/ps5-hwinfo/0.1/hwinfo_bench_v0.1.elf",
+      "description": "PS5 payload for collecting hardware and runtime telemetry.",
+      "version": "0.1",
+      "category": "PS5 Sdk Debug",
+      "checksum": "4514bdbc0c556df1a66544615942d5087d1cbee5c2026b3b66e688ba01e5a5b0"
+    },
+    {
+      "name": "ps5-hwinfo",
+      "filename": "ps5-hwinfo_v0.1.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/ps5-hwinfo/0.1/ps5-hwinfo_v0.1.elf",
       "description": "PS5 payload for collecting hardware and runtime telemetry.",
       "version": "0.1",
       "category": "PS5 Sdk Debug",

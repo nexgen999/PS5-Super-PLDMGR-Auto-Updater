@@ -20,6 +20,15 @@
       "checksum": "18483751ebaea6879b020a9dd87c0a4fb4f1bf09f3708d950362a483f78cc0d0"
     },
     {
+      "name": "ShadowMountPlus",
+      "filename": "ShadowMountPlus_v1.7alpha8.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/ShadowMountPlus/1.7alpha8/ShadowMountPlus_v1.7alpha8.elf",
+      "description": "ShadowMountPlus payload for game mounting.",
+      "version": "1.7alpha8",
+      "category": "PS5 Game Dump",
+      "checksum": "f15653fe90d81e5f82841ca693c0599d307c384d6454c1b0cc18190ae1ef4812"
+    },
+    {
       "name": "shadowmountplus",
       "filename": "shadowmountplus_v1.7alpha8.elf",
       "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/ShadowMountPlus/1.7alpha8/shadowmountplus_v1.7alpha8.elf",
