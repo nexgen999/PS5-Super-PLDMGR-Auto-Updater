@@ -3,12 +3,12 @@
   "payloads": [
     {
       "name": "webkit-autoloader-installer",
-      "filename": "webkit-autoloader-installer_v0.4.0-pre-222ef37.elf",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5-webkit-autoloader/ps5-webkit-autoloader/v0.4.0-pre-222ef37/webkit-autoloader-installer_v0.4.0-pre-222ef37.elf",
+      "filename": "webkit-autoloader-installer_v0.4.0.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5-webkit-autoloader/ps5-webkit-autoloader/v0.4.0/webkit-autoloader-installer_v0.4.0.elf",
       "description": "Installs WebKit Autoloader on homescreen for firmwares 9.00-12.00.",
-      "version": "v0.4.0-pre-222ef37",
+      "version": "v0.4.0",
       "category": "Ps5-Webkit-Autoloader",
-      "checksum": "f427b22d78ce9c38a12be209c13b3481912ed03ff17b4e04c44d525bfadc0484"
+      "checksum": "179d5e52ec3e0f595900b40883c0e10cc1fba1efc275a547f47e828d45d05915"
     },
     {
       "name": "Host-PSM-pooP2JB-v1.1.0-instala-onionhen",

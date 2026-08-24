@@ -185,9 +185,9 @@
       <description>PS5-Power-Payloads-Project utility. - Checksum: 1a36a01c92cd73fc89645ce73e3f33c71979b5b677c92b6f4c26d269e3f9a2c1</description>
     </item>
     <item>
-      <title>webkit-autoloader-installer (v0.4.0-pre-222ef37)</title>
-      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5-webkit-autoloader/ps5-webkit-autoloader/v0.4.0-pre-222ef37/webkit-autoloader-installer_v0.4.0-pre-222ef37.elf</link>
-      <description>Installs WebKit Autoloader on homescreen for firmwares 9.00-12.00. - Checksum: f427b22d78ce9c38a12be209c13b3481912ed03ff17b4e04c44d525bfadc0484</description>
+      <title>webkit-autoloader-installer (v0.4.0)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5-webkit-autoloader/ps5-webkit-autoloader/v0.4.0/webkit-autoloader-installer_v0.4.0.elf</link>
+      <description>Installs WebKit Autoloader on homescreen for firmwares 9.00-12.00. - Checksum: 179d5e52ec3e0f595900b40883c0e10cc1fba1efc275a547f47e828d45d05915</description>
     </item>
     <item>
       <title>Host-PSM-pooP2JB-v1.1.0-instala-onionhen (v1.1.0)</title>
@@ -325,9 +325,9 @@
       <description>Drakmor's variant of the FTP server. Port: 21 - Checksum: 6364e0529416f400be123c52acdcda68efd5179d971c060286022131fd047b8e</description>
     </item>
     <item>
-      <title>ps5upload (v5.4.13)</title>
-      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ps5upload/v5.4.13/ps5upload_v5.4.13.elf</link>
-      <description>PS5 Upload server / tool. Port: 9025 - Checksum: 13c124e644dbab1594c759536b3ddd9e4b94c3a12e57a5e2bfe92f76d60bc61e</description>
+      <title>ps5upload (v5.4.17)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ps5upload/v5.4.17/ps5upload_v5.4.17.elf</link>
+      <description>PS5 Upload server / tool. Port: 9025 - Checksum: 38962c317978696aaf11a2c7c55495ecfad1868bbf2df23625cf6e0c6c6520fd</description>
     </item>
     <item>
       <title>airpsx (0.19)</title>
