@@ -51,40 +51,21 @@ jobs:
           git commit -m "auto: update stores, payloads & readme [skip ci]" || echo "No changes to commit"
           git push
 
-      - name: Update Latest Release (Persistent tag)
-        uses: softprops/action-gh-release@v1
+      - name: Create or Update 'latest' Release
+        uses: softprops/action-gh-release@v2
         with:
           tag_name: "latest"
           name: "PS5 AIO Packages (Dernière version)"
           body: |
-            🚀 **Dernière version des bundles AIO**
+            🚀 **Dernière mise à jour automatique des packages AIO**
             
-            - `ps5_super_pldmgr_auto_updated_offline.aio_latest.zip` (Payloads ELF/BIN)
-            - `PS5PKG_aio_latest.zip` (Packages PKG + Manifeste JSON)
+            Cette release contient toujours les dernières versions à jour des archives :
+            - **Payloads ELF/BIN AIO** (`ps5_super_pldmgr_auto_updated_offline.aio_latest.zip`)
+            - **Packages PKG AIO** (`PS5PKG_aio_latest.zip`)
+          draft: false
+          prerelease: false
           files: |
-            ps5_super_pldmgr_auto_updated_offline.aio_latest.zip
-            PS5PKG_aio_latest.zip
-            PKGjson/ps5pkg.json
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Create Horodated Git Tag
-        run: |
-          git tag -f "aio-${{ env.DATE_TAG }}"
-          git push origin "aio-${{ env.DATE_TAG }}" --force
-
-      - name: Upload Horodated Release
-        uses: softprops/action-gh-release@v1
-        with:
-          tag_name: "aio-${{ env.DATE_TAG }}"
-          name: "PS5 AIO Packages (${{ env.DATE_TAG }})"
-          body: |
-            📦 **Archive horodatée (${{ env.DATE_TAG }})**
-            
-            Contient les versions figées des archives ELF et PKG à cette date.
-          files: |
-            ps5_super_pldmgr_auto_updated_offline.aio_${{ env.DATE_TAG }}.zip
-            PS5PKG_aio_${{ env.DATE_TAG }}.zip
+            *.zip
             PKGjson/ps5pkg.json
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
