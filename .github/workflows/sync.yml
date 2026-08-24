@@ -24,7 +24,6 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          # Si tu as un requirements.txt plus tard, tu pourras ajouter: pip install -r requirements.txt
 
       - name: Set Date Tag
         id: date
@@ -52,27 +51,39 @@ jobs:
           git commit -m "auto: update stores, payloads & readme [skip ci]" || echo "No changes to commit"
           git push
 
-      - name: Create Git Tag for AIO Release
+      - name: Update Latest Release (Persistent tag)
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: "latest"
+          name: "PS5 AIO Packages (Dernière version)"
+          body: |
+            🚀 **Dernière version des bundles AIO**
+            
+            - `ps5_super_pldmgr_auto_updated_offline.aio_latest.zip` (Payloads ELF/BIN)
+            - `PS5PKG_aio_latest.zip` (Packages PKG + Manifeste JSON)
+          files: |
+            ps5_super_pldmgr_auto_updated_offline.aio_latest.zip
+            PS5PKG_aio_latest.zip
+            PKGjson/ps5pkg.json
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Create Horodated Git Tag
         run: |
           git tag -f "aio-${{ env.DATE_TAG }}"
           git push origin "aio-${{ env.DATE_TAG }}" --force
 
-      - name: Upload AIO Packages to GitHub Release
+      - name: Upload Horodated Release
         uses: softprops/action-gh-release@v1
         with:
           tag_name: "aio-${{ env.DATE_TAG }}"
           name: "PS5 AIO Packages (${{ env.DATE_TAG }})"
           body: |
-            🚀 **Mise à jour automatique des packages AIO**
+            📦 **Archive horodatée (${{ env.DATE_TAG }})**
             
-            Ce release contient :
-            - L'archive AIO regroupant tous les payloads ELF/BIN organisés par catégorie.
-            - L'archive AIO regroupant tous les fichiers PKG et le manifeste JSON (`ps5pkg.json`).
-            - Le fichier `ps5pkg.json` mis à jour directement téléchargeable.
+            Contient les versions figées des archives ELF et PKG à cette date.
           files: |
-            ps5_super_pldmgr_auto_updated_offline.aio_latest.zip
             ps5_super_pldmgr_auto_updated_offline.aio_${{ env.DATE_TAG }}.zip
-            PS5PKG_aio_latest.zip
             PS5PKG_aio_${{ env.DATE_TAG }}.zip
             PKGjson/ps5pkg.json
         env:
