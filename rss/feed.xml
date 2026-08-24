@@ -45,11 +45,6 @@
       <description>PIZZA HEN is an experimental all-in-one PS5 homebrew environment. - Checksum: 4708beca5c38b2cd506060a8baeeafcb8b3f1bb0f6bd7179566968d8b6687a5b</description>
     </item>
     <item>
-      <title>onionHEN (v0.0.11)</title>
-      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/onionHEN/v0.0.11/onionHEN_v0.0.11.elf</link>
-      <description>An all-in-one HEN and Toolbox for PlayStation 5. - Checksum: edc5663c32bad01df9c4045bc93c1bdfecafd84c3414774ef42c522744d40868</description>
-    </item>
-    <item>
       <title>etaHEN-2.6B (Source-Fixe)</title>
       <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/etaHEN-Beta/Source-Fixe/etaHEN-2.6B.bin</link>
       <description>etahen beta version experimental. - Checksum: 512c74a9d6f56bb5a4ab871a0306a8cbefb8b3d5454ba8f1d833b020b245a126</description>
@@ -250,9 +245,9 @@
       <description>BackPork PS5 tool. - Checksum: d74e4cd119b2bb1fd423f2f5b1c9a7f096b3e588c753af1ab48b983d56216a52</description>
     </item>
     <item>
-      <title>apr-emu-updater (v1.4.1)</title>
-      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/apr-emu-updater/v1.4.1/apr-emu-updater_v1.4.1.elf</link>
-      <description>APR Emu Updater must always be loaded. - Checksum: 692b4d09b2af9cb8b4369da982d510fb2d99eb4215691d07c90be0f2cb22fc21</description>
+      <title>apr-emu-updater (v1.5.1)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/apr-emu-updater/v1.5.1/apr-emu-updater_v1.5.1.elf</link>
+      <description>APR Emu Updater must always be loaded. - Checksum: 42a0b98ed05eab7bdbfab30ea15ef2a55ddefa34f729861e7dfcfcb1ea74258f</description>
     </item>
     <item>
       <title>BFplayer-standalone (v0.1.0-alpha.44)</title>
@@ -325,9 +320,9 @@
       <description>Drakmor's variant of the FTP server. Port: 21 - Checksum: 6364e0529416f400be123c52acdcda68efd5179d971c060286022131fd047b8e</description>
     </item>
     <item>
-      <title>ps5upload (v5.4.17)</title>
-      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ps5upload/v5.4.17/ps5upload_v5.4.17.elf</link>
-      <description>PS5 Upload server / tool. Port: 9025 - Checksum: 38962c317978696aaf11a2c7c55495ecfad1868bbf2df23625cf6e0c6c6520fd</description>
+      <title>ps5upload (v5.4.19)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ps5upload/v5.4.19/ps5upload_v5.4.19.elf</link>
+      <description>PS5 Upload server / tool. Port: 9025 - Checksum: 33665dd87ede0dd020522222e9240405bac5036157132ba5fa92624378f94c7c</description>
     </item>
     <item>
       <title>airpsx (0.19)</title>

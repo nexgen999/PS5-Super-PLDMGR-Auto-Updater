@@ -39,12 +39,12 @@
     },
     {
       "name": "apr-emu-updater",
-      "filename": "apr-emu-updater_v1.4.1.elf",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/apr-emu-updater/v1.4.1/apr-emu-updater_v1.4.1.elf",
+      "filename": "apr-emu-updater_v1.5.1.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/apr-emu-updater/v1.5.1/apr-emu-updater_v1.5.1.elf",
       "description": "APR Emu Updater must always be loaded.",
-      "version": "v1.4.1",
+      "version": "v1.5.1",
       "category": "PS5 Game Dump",
-      "checksum": "692b4d09b2af9cb8b4369da982d510fb2d99eb4215691d07c90be0f2cb22fc21"
+      "checksum": "42a0b98ed05eab7bdbfab30ea15ef2a55ddefa34f729861e7dfcfcb1ea74258f"
     }
   ]
 }
