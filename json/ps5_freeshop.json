@@ -3,12 +3,12 @@
   "payloads": [
     {
       "name": "Spectrum-Library",
-      "filename": "Spectrum-Library_v1.4.2.elf",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_freeshop/Spectrum-Library/1.4.2/Spectrum-Library_v1.4.2.elf",
+      "filename": "Spectrum-Library_v1.4.3.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_freeshop/Spectrum-Library/1.4.3/Spectrum-Library_v1.4.3.elf",
       "description": "free store webadmin http://your-ps5-ip:7575.",
-      "version": "1.4.2",
+      "version": "1.4.3",
       "category": "PS5 Freeshop",
-      "checksum": "54755ce62d99be610afe364e26de05eaa9e2d92192cda525790a563c6296261f"
+      "checksum": "11b261457dbb7fee013028a667699ba3c673e4a8ae376a377efb51d2f6b6b257"
     },
     {
       "name": "pegasus-dl",
