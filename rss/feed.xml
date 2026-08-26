@@ -195,9 +195,9 @@
       <description>Installs WebKit Autoloader on homescreen for firmwares 9.00-12.00. - Checksum: 179d5e52ec3e0f595900b40883c0e10cc1fba1efc275a547f47e828d45d05915</description>
     </item>
     <item>
-      <title>Host-PSM-pooP2JB-v1.1.1-instala-onionhen-en (v1.1.1)</title>
-      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5-webkit-autoloader/Host-PSM_pooP2JB/v1.1.1/Host-PSM-pooP2JB-v1.1.1-instala-onionhen-en_v1.1.1.elf</link>
-      <description>Host-PSM pooP2JB. - Checksum: f2e4ee2887c767ca0f01c1ccaf0fe88c0c56288973a3ab435307c1a9f72c301e</description>
+      <title>Host-PSM-pooP2JB-v1.1.1-instala-pldmgr-en (v1.1.1)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5-webkit-autoloader/Host-PSM_pooP2JB/v1.1.1/Host-PSM-pooP2JB-v1.1.1-instala-pldmgr-en_v1.1.1.elf</link>
+      <description>Host-PSM pooP2JB. - Checksum: 9f7acea0eb8707640abbea9adbfeb96aafb227ffcf2c0c2468c6247e2620a0de</description>
     </item>
     <item>
       <title>Host-PSM-pooP2JB-v1.1.1-instala-pldmgr (v1.1.1)</title>
@@ -205,9 +205,9 @@
       <description>Host-PSM pooP2JB. - Checksum: 63c7201b3d827edcecf75dc1840d2cd0d686fe7bee776f8c9b1f288f836a5edb</description>
     </item>
     <item>
-      <title>Host-PSM-pooP2JB-v1.1.1-instala-pldmgr-en (v1.1.1)</title>
-      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5-webkit-autoloader/Host-PSM_pooP2JB/v1.1.1/Host-PSM-pooP2JB-v1.1.1-instala-pldmgr-en_v1.1.1.elf</link>
-      <description>Host-PSM pooP2JB. - Checksum: 9f7acea0eb8707640abbea9adbfeb96aafb227ffcf2c0c2468c6247e2620a0de</description>
+      <title>Host-PSM-pooP2JB-v1.1.1-instala-onionhen-en (v1.1.1)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5-webkit-autoloader/Host-PSM_pooP2JB/v1.1.1/Host-PSM-pooP2JB-v1.1.1-instala-onionhen-en_v1.1.1.elf</link>
+      <description>Host-PSM pooP2JB. - Checksum: f2e4ee2887c767ca0f01c1ccaf0fe88c0c56288973a3ab435307c1a9f72c301e</description>
     </item>
     <item>
       <title>Host-PSM-pooP2JB-v1.1.1-instala-onionhen (v1.1.1)</title>
@@ -340,9 +340,9 @@
       <description>Drakmor's variant of the FTP server. Port: 21 - Checksum: 6364e0529416f400be123c52acdcda68efd5179d971c060286022131fd047b8e</description>
     </item>
     <item>
-      <title>ps5upload (v5.7.1)</title>
-      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ps5upload/v5.7.1/ps5upload_v5.7.1.elf</link>
-      <description>PS5 Upload server / tool. Port: 9025 - Checksum: 5a3d9e9cf72a45680c7f868ff6d16c0e8c9a2d83b70de4e3c4bed251d0706e7d</description>
+      <title>ps5upload (v5.9.0)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ps5upload/v5.9.0/ps5upload_v5.9.0.elf</link>
+      <description>PS5 Upload server / tool. Port: 9025 - Checksum: 5f6466b7394c23567129d5d130bc657722c08166e383a19f62998df7e8c292d6</description>
     </item>
     <item>
       <title>airpsx (0.19)</title>

@@ -344,13 +344,13 @@
       "checksum": "179d5e52ec3e0f595900b40883c0e10cc1fba1efc275a547f47e828d45d05915"
     },
     {
-      "name": "Host-PSM-pooP2JB-v1.1.1-instala-onionhen-en",
-      "filename": "Host-PSM-pooP2JB-v1.1.1-instala-onionhen-en_v1.1.1.elf",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5-webkit-autoloader/Host-PSM_pooP2JB/v1.1.1/Host-PSM-pooP2JB-v1.1.1-instala-onionhen-en_v1.1.1.elf",
+      "name": "Host-PSM-pooP2JB-v1.1.1-instala-pldmgr-en",
+      "filename": "Host-PSM-pooP2JB-v1.1.1-instala-pldmgr-en_v1.1.1.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5-webkit-autoloader/Host-PSM_pooP2JB/v1.1.1/Host-PSM-pooP2JB-v1.1.1-instala-pldmgr-en_v1.1.1.elf",
       "description": "Host-PSM pooP2JB.",
       "version": "v1.1.1",
       "category": "Ps5-Webkit-Autoloader",
-      "checksum": "f2e4ee2887c767ca0f01c1ccaf0fe88c0c56288973a3ab435307c1a9f72c301e"
+      "checksum": "9f7acea0eb8707640abbea9adbfeb96aafb227ffcf2c0c2468c6247e2620a0de"
     },
     {
       "name": "Host-PSM-pooP2JB-v1.1.1-instala-pldmgr",
@@ -362,13 +362,13 @@
       "checksum": "63c7201b3d827edcecf75dc1840d2cd0d686fe7bee776f8c9b1f288f836a5edb"
     },
     {
-      "name": "Host-PSM-pooP2JB-v1.1.1-instala-pldmgr-en",
-      "filename": "Host-PSM-pooP2JB-v1.1.1-instala-pldmgr-en_v1.1.1.elf",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5-webkit-autoloader/Host-PSM_pooP2JB/v1.1.1/Host-PSM-pooP2JB-v1.1.1-instala-pldmgr-en_v1.1.1.elf",
+      "name": "Host-PSM-pooP2JB-v1.1.1-instala-onionhen-en",
+      "filename": "Host-PSM-pooP2JB-v1.1.1-instala-onionhen-en_v1.1.1.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5-webkit-autoloader/Host-PSM_pooP2JB/v1.1.1/Host-PSM-pooP2JB-v1.1.1-instala-onionhen-en_v1.1.1.elf",
       "description": "Host-PSM pooP2JB.",
       "version": "v1.1.1",
       "category": "Ps5-Webkit-Autoloader",
-      "checksum": "9f7acea0eb8707640abbea9adbfeb96aafb227ffcf2c0c2468c6247e2620a0de"
+      "checksum": "f2e4ee2887c767ca0f01c1ccaf0fe88c0c56288973a3ab435307c1a9f72c301e"
     },
     {
       "name": "Host-PSM-pooP2JB-v1.1.1-instala-onionhen",
@@ -606,12 +606,12 @@
     },
     {
       "name": "ps5upload",
-      "filename": "ps5upload_v5.7.1.elf",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ps5upload/v5.7.1/ps5upload_v5.7.1.elf",
+      "filename": "ps5upload_v5.9.0.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ps5upload/v5.9.0/ps5upload_v5.9.0.elf",
       "description": "PS5 Upload server / tool. Port: 9025",
-      "version": "v5.7.1",
+      "version": "v5.9.0",
       "category": "PS5 Server",
-      "checksum": "5a3d9e9cf72a45680c7f868ff6d16c0e8c9a2d83b70de4e3c4bed251d0706e7d"
+      "checksum": "5f6466b7394c23567129d5d130bc657722c08166e383a19f62998df7e8c292d6"
     },
     {
       "name": "airpsx",
