@@ -55,10 +55,10 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 | Application | Version | Empreinte SHA-256 | Description |
 | :--- | :--- | :--- | :--- |
 | **webkit-autoloader-installer** | [v0.4.0](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5-webkit-autoloader/ps5-webkit-autoloader/v0.4.0/webkit-autoloader-installer_v0.4.0.elf) | `179d5e52ec...` | Installs WebKit Autoloader on homescreen for firmwares 9.00-12.00. |
-| **Host-PSM-pooP2JB-v1.1.0-instala-onionhen** | [v1.1.0](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5-webkit-autoloader/Host-PSM_pooP2JB/v1.1.0/Host-PSM-pooP2JB-v1.1.0-instala-onionhen_v1.1.0.elf) | `67a84db170...` | Host-PSM pooP2JB. |
-| **Host-PSM-pooP2JB-v1.1.0-instala-pldmgr** | [v1.1.0](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5-webkit-autoloader/Host-PSM_pooP2JB/v1.1.0/Host-PSM-pooP2JB-v1.1.0-instala-pldmgr_v1.1.0.elf) | `038946be06...` | Host-PSM pooP2JB. |
-| **Host-PSM-pooP2JB-v1.1.0-instala-pldmgr-en** | [v1.1.0](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5-webkit-autoloader/Host-PSM_pooP2JB/v1.1.0/Host-PSM-pooP2JB-v1.1.0-instala-pldmgr-en_v1.1.0.elf) | `34c040c757...` | Host-PSM pooP2JB. |
-| **Host-PSM-pooP2JB-v1.1.0-instala-onionhen-en** | [v1.1.0](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5-webkit-autoloader/Host-PSM_pooP2JB/v1.1.0/Host-PSM-pooP2JB-v1.1.0-instala-onionhen-en_v1.1.0.elf) | `aa0dca2b98...` | Host-PSM pooP2JB. |
+| **Host-PSM-pooP2JB-v1.1.1-instala-onionhen-en** | [v1.1.1](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5-webkit-autoloader/Host-PSM_pooP2JB/v1.1.1/Host-PSM-pooP2JB-v1.1.1-instala-onionhen-en_v1.1.1.elf) | `f2e4ee2887...` | Host-PSM pooP2JB. |
+| **Host-PSM-pooP2JB-v1.1.1-instala-pldmgr** | [v1.1.1](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5-webkit-autoloader/Host-PSM_pooP2JB/v1.1.1/Host-PSM-pooP2JB-v1.1.1-instala-pldmgr_v1.1.1.elf) | `63c7201b3d...` | Host-PSM pooP2JB. |
+| **Host-PSM-pooP2JB-v1.1.1-instala-pldmgr-en** | [v1.1.1](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5-webkit-autoloader/Host-PSM_pooP2JB/v1.1.1/Host-PSM-pooP2JB-v1.1.1-instala-pldmgr-en_v1.1.1.elf) | `9f7acea0eb...` | Host-PSM pooP2JB. |
+| **Host-PSM-pooP2JB-v1.1.1-instala-onionhen** | [v1.1.1](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5-webkit-autoloader/Host-PSM_pooP2JB/v1.1.1/Host-PSM-pooP2JB-v1.1.1-instala-onionhen_v1.1.1.elf) | `bce060ef62...` | Host-PSM pooP2JB. |
 
 ### 🌐 PS5 Dns
 📂 **JSON Catégorie :** `https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/json/ps5_dns.json`
@@ -121,6 +121,7 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 | **ELF_Arsenal** | [v1.6.22](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/ELF_Arsenal/v1.6.22/ELF_Arsenal_v1.6.22.elf) | `ee8f47e4d6...` | Boîte à outils regroupant une collection complète de payloads utilitaires pour les consoles jailbreakées. |
 | **Kura** | [v1.6.48](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/Kura/v1.6.48/Kura_v1.6.48.elf) | `49a1b46fa2...` | Un loader de payloads moderne et épuré conçu pour optimiser l'injection de code sur PS5. |
 | **PIZZA-HEN** | [v2.00](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/PIZZA-HEN/v2.00/PIZZA-HEN_v2.00.elf) | `8535d39961...` | PIZZA HEN is an experimental all-in-one PS5 homebrew environment. |
+| **onionHEN** | [v0.0.11](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/onionHEN/v0.0.11/onionHEN_v0.0.11.elf) | `edc5663c32...` | An all-in-one HEN and Toolbox for PlayStation 5. |
 | **etaHEN-2.6B** | [Source-Fixe](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/etaHEN-Beta/Source-Fixe/etaHEN-2.6B.bin) | `512c74a9d6...` | etahen beta version experimental. |
 
 ### 🧪 PS5 Kstuff
@@ -188,7 +189,7 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 | **gdbsrv** | [v0.9](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/gdbsrv/v0.9/gdbsrv_v0.9.elf) | `80952d75f4...` | GDB Debugger server payload. Port: 1234 |
 | **klogsrv** | [v0.9](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/klogsrv/v0.9/klogsrv_v0.9.elf) | `e828ec1442...` | Kernel log server daemon. Port: 3232 |
 | **ftpsrv_drakmor** | [1.6-ng-test2](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ftpsrv_drakmor/1.6-ng-test2/ftpsrv_drakmor_v1.6-ng-test2.elf) | `6364e05294...` | Drakmor's variant of the FTP server. Port: 21 |
-| **ps5upload** | [v5.5.0](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ps5upload/v5.5.0/ps5upload_v5.5.0.elf) | `2740b4d5db...` | PS5 Upload server / tool. Port: 9025 |
+| **ps5upload** | [v5.7.1](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ps5upload/v5.7.1/ps5upload_v5.7.1.elf) | `5a3d9e9cf7...` | PS5 Upload server / tool. Port: 9025 |
 | **airpsx** | [0.19](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/airpsx/0.19/airpsx_v0.19.elf) | `ae025ca772...` | AirPSX server tool for PS5 ecosystem. |
 
 ### 📦 PS5 Themes-Avatars
@@ -271,6 +272,7 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 - **StonedModder** : [PS-DiscordPresence](https://github.com/StonedModder/PS-DiscordPresence)
 - **StonedModder** : [savemnt-offset-dumper](https://github.com/StonedModder/savemnt-offset-dumper)
 - **aydencharles** : [kylin-core](https://raw.githubusercontent.com/nexgen999/PS5_Payload_Manager_Updater/main/ps5_cheat/kylin-core-community-lite-v131-global-release.elf)
+- **aydencharles** : [onionHEN](https://github.com/aydencharles/onionHEN)
 - **barisyild** : [airpsx](https://github.com/barisyild/airpsx)
 - **bizkut** : [unrar-ps5](https://github.com/bizkut/unrar-ps5)
 - **drakmor** : [ShadowMountPlus](https://github.com/drakmor/ShadowMountPlus)

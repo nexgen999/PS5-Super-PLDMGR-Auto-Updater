@@ -45,6 +45,11 @@
       <description>PIZZA HEN is an experimental all-in-one PS5 homebrew environment. - Checksum: 8535d399612d61c50a528b2ae416f2fc3ccfb7480296df99c17302583fb3e345</description>
     </item>
     <item>
+      <title>onionHEN (v0.0.11)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/onionHEN/v0.0.11/onionHEN_v0.0.11.elf</link>
+      <description>An all-in-one HEN and Toolbox for PlayStation 5. - Checksum: edc5663c32bad01df9c4045bc93c1bdfecafd84c3414774ef42c522744d40868</description>
+    </item>
+    <item>
       <title>etaHEN-2.6B (Source-Fixe)</title>
       <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/etaHEN-Beta/Source-Fixe/etaHEN-2.6B.bin</link>
       <description>etahen beta version experimental. - Checksum: 512c74a9d6f56bb5a4ab871a0306a8cbefb8b3d5454ba8f1d833b020b245a126</description>
@@ -190,24 +195,24 @@
       <description>Installs WebKit Autoloader on homescreen for firmwares 9.00-12.00. - Checksum: 179d5e52ec3e0f595900b40883c0e10cc1fba1efc275a547f47e828d45d05915</description>
     </item>
     <item>
-      <title>Host-PSM-pooP2JB-v1.1.0-instala-onionhen (v1.1.0)</title>
-      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5-webkit-autoloader/Host-PSM_pooP2JB/v1.1.0/Host-PSM-pooP2JB-v1.1.0-instala-onionhen_v1.1.0.elf</link>
-      <description>Host-PSM pooP2JB. - Checksum: 67a84db170a9da1cc9711882a1740a98f9e8e80dd5e2671c8ac00d94e956d17e</description>
+      <title>Host-PSM-pooP2JB-v1.1.1-instala-onionhen-en (v1.1.1)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5-webkit-autoloader/Host-PSM_pooP2JB/v1.1.1/Host-PSM-pooP2JB-v1.1.1-instala-onionhen-en_v1.1.1.elf</link>
+      <description>Host-PSM pooP2JB. - Checksum: f2e4ee2887c767ca0f01c1ccaf0fe88c0c56288973a3ab435307c1a9f72c301e</description>
     </item>
     <item>
-      <title>Host-PSM-pooP2JB-v1.1.0-instala-pldmgr (v1.1.0)</title>
-      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5-webkit-autoloader/Host-PSM_pooP2JB/v1.1.0/Host-PSM-pooP2JB-v1.1.0-instala-pldmgr_v1.1.0.elf</link>
-      <description>Host-PSM pooP2JB. - Checksum: 038946be06a073086a3b53f7677127446e97a0aee815fda12c73076faf4492ac</description>
+      <title>Host-PSM-pooP2JB-v1.1.1-instala-pldmgr (v1.1.1)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5-webkit-autoloader/Host-PSM_pooP2JB/v1.1.1/Host-PSM-pooP2JB-v1.1.1-instala-pldmgr_v1.1.1.elf</link>
+      <description>Host-PSM pooP2JB. - Checksum: 63c7201b3d827edcecf75dc1840d2cd0d686fe7bee776f8c9b1f288f836a5edb</description>
     </item>
     <item>
-      <title>Host-PSM-pooP2JB-v1.1.0-instala-pldmgr-en (v1.1.0)</title>
-      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5-webkit-autoloader/Host-PSM_pooP2JB/v1.1.0/Host-PSM-pooP2JB-v1.1.0-instala-pldmgr-en_v1.1.0.elf</link>
-      <description>Host-PSM pooP2JB. - Checksum: 34c040c757f41c7d71132ac6af4fa42bd0b28e6271b0532eda15ef504e65b13d</description>
+      <title>Host-PSM-pooP2JB-v1.1.1-instala-pldmgr-en (v1.1.1)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5-webkit-autoloader/Host-PSM_pooP2JB/v1.1.1/Host-PSM-pooP2JB-v1.1.1-instala-pldmgr-en_v1.1.1.elf</link>
+      <description>Host-PSM pooP2JB. - Checksum: 9f7acea0eb8707640abbea9adbfeb96aafb227ffcf2c0c2468c6247e2620a0de</description>
     </item>
     <item>
-      <title>Host-PSM-pooP2JB-v1.1.0-instala-onionhen-en (v1.1.0)</title>
-      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5-webkit-autoloader/Host-PSM_pooP2JB/v1.1.0/Host-PSM-pooP2JB-v1.1.0-instala-onionhen-en_v1.1.0.elf</link>
-      <description>Host-PSM pooP2JB. - Checksum: aa0dca2b98815836c099c4fbe7f62ef6b1f25748c299ea151b2fbbe7fdd42292</description>
+      <title>Host-PSM-pooP2JB-v1.1.1-instala-onionhen (v1.1.1)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5-webkit-autoloader/Host-PSM_pooP2JB/v1.1.1/Host-PSM-pooP2JB-v1.1.1-instala-onionhen_v1.1.1.elf</link>
+      <description>Host-PSM pooP2JB. - Checksum: bce060ef62bb6ac14a3a5d0887d38c4de3100490ba77433171e0cb7586d21005</description>
     </item>
     <item>
       <title>garlic-savemgr (v1.13)</title>
@@ -335,9 +340,9 @@
       <description>Drakmor's variant of the FTP server. Port: 21 - Checksum: 6364e0529416f400be123c52acdcda68efd5179d971c060286022131fd047b8e</description>
     </item>
     <item>
-      <title>ps5upload (v5.5.0)</title>
-      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ps5upload/v5.5.0/ps5upload_v5.5.0.elf</link>
-      <description>PS5 Upload server / tool. Port: 9025 - Checksum: 2740b4d5db2a53bd2e9a08f4c3d77fa50c4da1f755453c7543a1d84321892ec7</description>
+      <title>ps5upload (v5.7.1)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ps5upload/v5.7.1/ps5upload_v5.7.1.elf</link>
+      <description>PS5 Upload server / tool. Port: 9025 - Checksum: 5a3d9e9cf72a45680c7f868ff6d16c0e8c9a2d83b70de4e3c4bed251d0706e7d</description>
     </item>
     <item>
       <title>airpsx (0.19)</title>
