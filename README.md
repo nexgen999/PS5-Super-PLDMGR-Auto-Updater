@@ -106,7 +106,7 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 | :--- | :--- | :--- | :--- |
 | **PS5-Game-Compressor** | [v1.0.4](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/PS5-Game-Compressor/v1.0.4/PS5-Game-Compressor_v1.0.4.elf) | `e55e90aaad...` | Tool to compress PS5 games. |
 | **ps5-app-dumper** | [v1.11](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/ps5-app-dumper/v1.11/ps5-app-dumper_v1.11.elf) | `18483751eb...` | PS5 App Dumper payload. |
-| **ShadowMountPlus** | [1.7alpha10](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/ShadowMountPlus/1.7alpha10/ShadowMountPlus_v1.7alpha10.elf) | `1dbf213132...` | ShadowMountPlus payload for game mounting. |
+| **ShadowMountPlus** | [1.7alpha11](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/ShadowMountPlus/1.7alpha11/ShadowMountPlus_v1.7alpha11.elf) | `e9daf5dea9...` | ShadowMountPlus payload for game mounting. |
 | **BackPork** | [0.1](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/BackPork/0.1/BackPork_v0.1.elf) | `d74e4cd119...` | BackPork PS5 tool. |
 | **apr-emu-updater** | [v1.5.1](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/apr-emu-updater/v1.5.1/apr-emu-updater_v1.5.1.elf) | `42a0b98ed0...` | APR Emu Updater must always be loaded. |
 
@@ -129,7 +129,7 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 | Application | Version | Empreinte SHA-256 | Description |
 | :--- | :--- | :--- | :--- |
 | **kstuff_EchoStretch** | [v1.6.7](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_kstuff/kstuff_EchoStretch/v1.6.7/kstuff_EchoStretch_v1.6.7.elf) | `f1c1f4b2b6...` | Fnd Kstuff payload for PS5. |
-| **kstuff-lite_EchoStretch** | [v1.10](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_kstuff/kstuff-lite_EchoStretch/v1.10/kstuff-lite_EchoStretch_v1.10.elf) | `b1dfe57f36...` | Lightweight version of kstuff. |
+| **kstuff-lite_EchoStretch** | [v1.10](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_kstuff/kstuff-lite_EchoStretch/v1.10/kstuff-lite_EchoStretch_v1.10.elf) | `82cbb1e70f...` | Lightweight version of kstuff. |
 | **kstuff-lite_drakmor** | [1.2-dr-test2](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_kstuff/kstuff-lite_drakmor/1.2-dr-test2/kstuff-lite_drakmor_v1.2-dr-test2.elf) | `2b699d4110...` | Drakmor's variant of kstuff-lite. |
 
 ### 🐧 PS5 Linux

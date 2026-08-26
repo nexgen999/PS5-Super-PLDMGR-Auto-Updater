@@ -240,9 +240,9 @@
       <description>PS5 App Dumper payload. - Checksum: 18483751ebaea6879b020a9dd87c0a4fb4f1bf09f3708d950362a483f78cc0d0</description>
     </item>
     <item>
-      <title>ShadowMountPlus (1.7alpha10)</title>
-      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/ShadowMountPlus/1.7alpha10/ShadowMountPlus_v1.7alpha10.elf</link>
-      <description>ShadowMountPlus payload for game mounting. - Checksum: 1dbf2131327a401a71020fa586350a795fd5eced3ecaa688ae194944a05f746d</description>
+      <title>ShadowMountPlus (1.7alpha11)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/ShadowMountPlus/1.7alpha11/ShadowMountPlus_v1.7alpha11.elf</link>
+      <description>ShadowMountPlus payload for game mounting. - Checksum: e9daf5dea90807fc653e02180a0eaacf09bcc88e5d99d3f67aa6d7bbf1996522</description>
     </item>
     <item>
       <title>BackPork (0.1)</title>
@@ -352,7 +352,7 @@
     <item>
       <title>kstuff-lite_EchoStretch (v1.10)</title>
       <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_kstuff/kstuff-lite_EchoStretch/v1.10/kstuff-lite_EchoStretch_v1.10.elf</link>
-      <description>Lightweight version of kstuff. - Checksum: b1dfe57f367a35374f605127915eda38c76a6ed5d1c729e427955798bd78c66a</description>
+      <description>Lightweight version of kstuff. - Checksum: 82cbb1e70f8a562317d6b65269cf6aa0d7d94e22df4f1ac89a260ca0ec261252</description>
     </item>
     <item>
       <title>kstuff-lite_drakmor (1.2-dr-test2)</title>
