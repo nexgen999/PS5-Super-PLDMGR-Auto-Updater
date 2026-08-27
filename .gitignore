@@ -1,0 +1,10 @@
+# Ignorer le contenu de dist/ mais garder la structure
+dist/*
+
+# Ne pas inclure les archives ZIP
+*.zip
+dist/**/*.zip
+
+# Exception : Si tu veux garder certains fichiers spécifiques dans dist/
+!dist/index.html
+!dist/whatsnew.md
