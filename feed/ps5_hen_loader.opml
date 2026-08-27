@@ -13,6 +13,7 @@
       <outline title="PIZZA-HEN" xmlUrl="https://github.com/Michele-M-Media/PIZZA-HEN" author="Michele-M-Media" description="PIZZA HEN is an experimental all-in-one PS5 homebrew environment." />
       <outline title="onionHEN" xmlUrl="https://github.com/aydencharles/onionHEN" author="aydencharles" description="An all-in-one HEN and Toolbox for PlayStation 5." />
       <outline title="etaHEN-Beta" xmlUrl="https://github.com/zecoxao/zecoxao.github.io/raw/refs/heads/main/luasauce/payloads/etaHEN-2.6B.bin" author="zecoxao - LightningMods" description="etahen beta version experimental." />
+      <outline title="ProsperoMgr" xmlUrl="https://github.com/notmaj0r/ProsperoMgr" author="notmaj0r" description="A Web-Based All-In-One homebrew manager for your PlayStation 5" />
     </outline>
   </body>
 </opml>
