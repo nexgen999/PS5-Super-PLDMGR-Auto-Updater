@@ -1,0 +1,97 @@
+{
+  "repository_identity": {
+    "github_user": "nexgen999",
+    "repo_name": "PS5-Super-PLDMGR-Auto-Updater",
+    "use_profile_avatar": true,
+    "custom_avatar_url": "",
+    "social_links": {
+      "github": "https://github.com/nexgen999",
+      "discord": "",
+      "twitter": "",
+      "website": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater"
+    }
+  },
+
+  "network_and_scraping": {
+    "request_timeout_seconds": 30,
+    "max_retries": 3,
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) PS5-Store-Bot/1.0",
+    "rate_limit_delay_seconds": 1.0
+  },
+
+  "global_rules_and_filtering": {
+    "max_file_size_mb_payload": 50,
+    "max_file_size_mb_pkg": 2048,
+    "allowed_payload_extensions": [".elf", ".bin"],
+    "allowed_pkg_extensions": [".pkg"],
+    "global_keyword_ignore": ["PS4", "test", "sample", "unstable"],
+    "allow_prereleases": false
+  },
+
+  "retention_and_storage": {
+    "keep_active_payloads_count": 3,
+    "enable_payload_backup": true,
+    "backup_folder_path": "backup/payloads",
+    "keep_releases_count": 1,
+    "preserve_deleted_repos": true,
+    "mark_archived_in_json": true
+  },
+
+  "archives_naming": {
+    "payload_zip_name": "ps5_super_pldmgr_auto_updated_offline.aio",
+    "pkg_zip_name": "PS5PKG_aio",
+    "store_template_zip_name": "PS5_Super_PLDMGR_Store_Template",
+    "append_latest_tag": true,
+    "append_date_tag": true
+  },
+
+  "releases_management": {
+    "latest_tag_name": "latest",
+    "latest_release_title": "PS5 AIO Packages (Dernière version)",
+    "tag_format_type": "datetime",
+    "tag_datetime_format": "%Y.%m.%d-%H%M",
+    "dated_release_title_prefix": "PS5 AIO Packages Auto Build"
+  },
+
+  "json_metadata": {
+    "payloads_json_name": "AIO Store",
+    "ps5pkg_json_name": "PS5 PKG Store"
+  },
+
+  "readme_customization": {
+    "use_repo_name_as_title": false,
+    "custom_title": "🎮 PS5 Payload Manager & Mini-Store",
+    "banner_image_path": "botbuild/resources/banner.png",
+    "description": "Écosystème automatisé pour la scène jailbreak PS5.",
+    "show_badges": true,
+    "show_download_stats": true,
+    "show_last_updated_timestamp": true,
+    "use_collapsible_sections": true
+  },
+
+  "web_and_ui": {
+    "site_title": "PS5 Super PLDMGR Hub",
+    "site_description": "Portail complet Payloads, PKG, Webkits et Actualités PS5",
+    "theme": "dark",
+    "enable_pwa": true,
+
+    "news_section": {
+      "show_whatsnew_changelog": true,
+      "rss_feeds": [
+        {
+          "name": "Flux RSS Local Store",
+          "url": "rss/payloads_rss.xml"
+        }
+      ]
+    },
+
+    "webkits_section": [
+      {
+        "name": "PS5 Host Exploit",
+        "url": "https://example.com",
+        "icon": "⚡",
+        "description": "Host principal pour lancement des payloads"
+      }
+    ]
+  }
+}
