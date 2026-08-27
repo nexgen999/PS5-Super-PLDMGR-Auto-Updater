@@ -20,15 +20,6 @@
       "checksum": "295ab660f9e20cf67ea5a31d586c4d27c92019cc0f9c9b11825ef8139a3838f3"
     },
     {
-      "name": "Host-PSM-pooP2JB-v1.1.2-instala-pldmgr-en",
-      "filename": "Host-PSM-pooP2JB-v1.1.2-instala-pldmgr-en_v1.1.2.elf",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5-webkit-autoloader/Host-PSM_pooP2JB/v1.1.2/Host-PSM-pooP2JB-v1.1.2-instala-pldmgr-en_v1.1.2.elf",
-      "description": "Host-PSM pooP2JB.",
-      "version": "v1.1.2",
-      "category": "Ps5-Webkit-Autoloader",
-      "checksum": "00e3c444cbdf5d0d76dcaadb34c13473b72d53ac9f5e10a08943548b725cb852"
-    },
-    {
       "name": "Host-PSM-pooP2JB-v1.1.2-instala-onionhen-en",
       "filename": "Host-PSM-pooP2JB-v1.1.2-instala-onionhen-en_v1.1.2.elf",
       "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5-webkit-autoloader/Host-PSM_pooP2JB/v1.1.2/Host-PSM-pooP2JB-v1.1.2-instala-onionhen-en_v1.1.2.elf",
@@ -45,6 +36,15 @@
       "version": "v1.1.2",
       "category": "Ps5-Webkit-Autoloader",
       "checksum": "a0dccabfaa7df08a69de0db8276c72a4e78e484dcc69b91a1846c06b74ba002e"
+    },
+    {
+      "name": "Host-PSM-pooP2JB-v1.1.2-instala-pldmgr-en",
+      "filename": "Host-PSM-pooP2JB-v1.1.2-instala-pldmgr-en_v1.1.2.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5-webkit-autoloader/Host-PSM_pooP2JB/v1.1.2/Host-PSM-pooP2JB-v1.1.2-instala-pldmgr-en_v1.1.2.elf",
+      "description": "Host-PSM pooP2JB.",
+      "version": "v1.1.2",
+      "category": "Ps5-Webkit-Autoloader",
+      "checksum": "00e3c444cbdf5d0d76dcaadb34c13473b72d53ac9f5e10a08943548b725cb852"
     }
   ]
 }

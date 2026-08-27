@@ -72,6 +72,15 @@
       "version": "Source-Fixe",
       "category": "PS5 HEN Loader",
       "checksum": "512c74a9d6f56bb5a4ab871a0306a8cbefb8b3d5454ba8f1d833b020b245a126"
+    },
+    {
+      "name": "ProsperoMgr",
+      "filename": "ProsperoMgr_vbeta.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/ProsperoMgr/beta/ProsperoMgr_vbeta.elf",
+      "description": "A Web-Based All-In-One homebrew manager for your PlayStation 5",
+      "version": "beta",
+      "category": "PS5 HEN Loader",
+      "checksum": "6cde8d8e97478ff43f69d2c6b22ac6512311d83b1d9ceb09d56796b9200c1b3c"
     }
   ]
 }

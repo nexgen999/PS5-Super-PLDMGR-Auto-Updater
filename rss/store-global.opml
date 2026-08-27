@@ -58,6 +58,7 @@
     <outline text="PS5-File-Explorer" title="PS5-File-Explorer" type="rss" xmlUrl="https://github.com/juma-sayeh/PS5-File-Explorer" author="juma-sayeh"/>
     <outline text="PS5-Game-Compressor" title="PS5-Game-Compressor" type="rss" xmlUrl="https://github.com/juma-sayeh/PS5-Game-Compressor" author="juma-sayeh"/>
     <outline text="CheatRunner" title="CheatRunner" type="rss" xmlUrl="https://github.com/notmaj0r/CheatRunner" author="notmaj0r"/>
+    <outline text="ProsperoMgr" title="ProsperoMgr" type="rss" xmlUrl="https://github.com/notmaj0r/ProsperoMgr" author="notmaj0r"/>
     <outline text="ps5-fan-control" title="ps5-fan-control" type="rss" xmlUrl="https://github.com/owendswang/ps5-fan-control" author="owendswang"/>
     <outline text="ps5-web-file-manager" title="ps5-web-file-manager" type="rss" xmlUrl="https://github.com/owendswang/ps5-web-file-manager" author="owendswang"/>
     <outline text="pegasus-dl" title="pegasus-dl" type="rss" xmlUrl="https://github.com/pegasus-ps5/pegasus-dl" author="pegasus-ps5"/>
@@ -78,6 +79,6 @@
     <outline text="zftpd" title="zftpd" type="rss" xmlUrl="https://github.com/seregonwar/zftpd" author="seregonwar"/>
     <outline text="uds-trophy-unlocker" title="uds-trophy-unlocker" type="rss" xmlUrl="https://git.etawen.dev/soniciso/uds-trophy-unlocker" author="soniciso"/>
     <outline text="apr-emu-updater" title="apr-emu-updater" type="rss" xmlUrl="https://github.com/tsuramatsu1/apr-emu-updater" author="tsuramatsu1"/>
-    <outline text="etaHEN-Beta" title="etaHEN-Beta" type="rss" xmlUrl="https://github.com/zecoxao/zecoxao.github.io/raw/refs/heads/main/luasauce/payloads/etaHEN-2.6B.bin" author="zecoxao & LightningMods"/>
+    <outline text="etaHEN-Beta" title="etaHEN-Beta" type="rss" xmlUrl="https://github.com/zecoxao/zecoxao.github.io/raw/refs/heads/main/luasauce/payloads/etaHEN-2.6B.bin" author="zecoxao - LightningMods"/>
   </body>
 </opml>

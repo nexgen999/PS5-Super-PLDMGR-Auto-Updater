@@ -92,6 +92,15 @@
       "checksum": "512c74a9d6f56bb5a4ab871a0306a8cbefb8b3d5454ba8f1d833b020b245a126"
     },
     {
+      "name": "ProsperoMgr",
+      "filename": "ProsperoMgr_vbeta.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/ProsperoMgr/beta/ProsperoMgr_vbeta.elf",
+      "description": "A Web-Based All-In-One homebrew manager for your PlayStation 5",
+      "version": "beta",
+      "category": "PS5 HEN Loader",
+      "checksum": "6cde8d8e97478ff43f69d2c6b22ac6512311d83b1d9ceb09d56796b9200c1b3c"
+    },
+    {
       "name": "ps5-fan-control",
       "filename": "ps5-fan-control_v0.3.elf",
       "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_fan/ps5-fan-control/v0.3/ps5-fan-control_v0.3.elf",
@@ -353,15 +362,6 @@
       "checksum": "295ab660f9e20cf67ea5a31d586c4d27c92019cc0f9c9b11825ef8139a3838f3"
     },
     {
-      "name": "Host-PSM-pooP2JB-v1.1.2-instala-pldmgr-en",
-      "filename": "Host-PSM-pooP2JB-v1.1.2-instala-pldmgr-en_v1.1.2.elf",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5-webkit-autoloader/Host-PSM_pooP2JB/v1.1.2/Host-PSM-pooP2JB-v1.1.2-instala-pldmgr-en_v1.1.2.elf",
-      "description": "Host-PSM pooP2JB.",
-      "version": "v1.1.2",
-      "category": "Ps5-Webkit-Autoloader",
-      "checksum": "00e3c444cbdf5d0d76dcaadb34c13473b72d53ac9f5e10a08943548b725cb852"
-    },
-    {
       "name": "Host-PSM-pooP2JB-v1.1.2-instala-onionhen-en",
       "filename": "Host-PSM-pooP2JB-v1.1.2-instala-onionhen-en_v1.1.2.elf",
       "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5-webkit-autoloader/Host-PSM_pooP2JB/v1.1.2/Host-PSM-pooP2JB-v1.1.2-instala-onionhen-en_v1.1.2.elf",
@@ -378,6 +378,15 @@
       "version": "v1.1.2",
       "category": "Ps5-Webkit-Autoloader",
       "checksum": "a0dccabfaa7df08a69de0db8276c72a4e78e484dcc69b91a1846c06b74ba002e"
+    },
+    {
+      "name": "Host-PSM-pooP2JB-v1.1.2-instala-pldmgr-en",
+      "filename": "Host-PSM-pooP2JB-v1.1.2-instala-pldmgr-en_v1.1.2.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5-webkit-autoloader/Host-PSM_pooP2JB/v1.1.2/Host-PSM-pooP2JB-v1.1.2-instala-pldmgr-en_v1.1.2.elf",
+      "description": "Host-PSM pooP2JB.",
+      "version": "v1.1.2",
+      "category": "Ps5-Webkit-Autoloader",
+      "checksum": "00e3c444cbdf5d0d76dcaadb34c13473b72d53ac9f5e10a08943548b725cb852"
     },
     {
       "name": "garlic-savemgr",
@@ -497,15 +506,6 @@
       "checksum": "e3392379d5bc6ca4e44cb0d2a1d8921083b2c3ea480725f68378831874542d8d"
     },
     {
-      "name": "zftp",
-      "filename": "zftp_v1.5.0.bin",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/zftpd/v1.5.0/zftp_v1.5.0.bin",
-      "description": "FTP server payload for PS5. Port: 21",
-      "version": "v1.5.0",
-      "category": "PS5 Server",
-      "checksum": "0f724dc57c087dedd80c1c5090bbd4d140fa0cd6f339501f5357f7009ce4d1ed"
-    },
-    {
       "name": "zftpd",
       "filename": "zftpd_v1.5.0.elf",
       "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/zftpd/v1.5.0/zftpd_v1.5.0.elf",
@@ -522,33 +522,6 @@
       "version": "v1.5.0",
       "category": "PS5 Server",
       "checksum": "9340aa91f8f1eeb619473d716e0b6ab7af1c6fbb3ad815648520872ad6c86ccf"
-    },
-    {
-      "name": "zhttp",
-      "filename": "zhttp_v1.5.0.bin",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/zftpd/v1.5.0/zhttp_v1.5.0.bin",
-      "description": "FTP server payload for PS5. Port: 21",
-      "version": "v1.5.0",
-      "category": "PS5 Server",
-      "checksum": "9340aa91f8f1eeb619473d716e0b6ab7af1c6fbb3ad815648520872ad6c86ccf"
-    },
-    {
-      "name": "zhttp",
-      "filename": "zhttp_v1.5.0.elf",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/zftpd/v1.5.0/zhttp_v1.5.0.elf",
-      "description": "FTP server payload for PS5. Port: 21",
-      "version": "v1.5.0",
-      "category": "PS5 Server",
-      "checksum": "5d2f96ccf0630ab5803552dd3f99ad9eeaaea998daa2812f1c4dc5e7a0b45a84"
-    },
-    {
-      "name": "zftp",
-      "filename": "zftp_v1.5.0.elf",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/zftpd/v1.5.0/zftp_v1.5.0.elf",
-      "description": "FTP server payload for PS5. Port: 21",
-      "version": "v1.5.0",
-      "category": "PS5 Server",
-      "checksum": "bc21772ceafde44d81fce968a04e585509da3c70f8e48d5a6980e28b5bad17fb"
     },
     {
       "name": "elfldr",
@@ -606,12 +579,12 @@
     },
     {
       "name": "ps5upload",
-      "filename": "ps5upload_v5.10.0.elf",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ps5upload/v5.10.0/ps5upload_v5.10.0.elf",
+      "filename": "ps5upload_v5.12.0.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ps5upload/v5.12.0/ps5upload_v5.12.0.elf",
       "description": "PS5 Upload server / tool. Port: 9025",
-      "version": "v5.10.0",
+      "version": "v5.12.0",
       "category": "PS5 Server",
-      "checksum": "becd6778b3bbc12f7b63c622393632edb7d43e1cb739f772490e2c9deab81783"
+      "checksum": "862faa5f79ef078a664bc86e433fe5de397651f957624e50ada7799ed337bee6"
     },
     {
       "name": "airpsx",
