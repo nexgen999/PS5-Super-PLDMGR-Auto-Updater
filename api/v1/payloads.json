@@ -1,0 +1,1889 @@
+{
+  "updated_at": "2026-08-27T12:43:44Z",
+  "count": 269,
+  "items": [
+    {
+      "filename": "CheatRunner_v0.14.elf",
+      "path": "payloads/PS5_Cheat/CheatRunner/v0.14/CheatRunner_v0.14.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Cheat/CheatRunner/v0.14/CheatRunner_v0.14.elf",
+      "size_bytes": 8813288,
+      "updated_at": "2026-08-27T12:43:30Z"
+    },
+    {
+      "filename": "CheatRunner_v0.15.elf",
+      "path": "payloads/PS5_Cheat/CheatRunner/v0.15/CheatRunner_v0.15.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Cheat/CheatRunner/v0.15/CheatRunner_v0.15.elf",
+      "size_bytes": 8829704,
+      "updated_at": "2026-08-27T12:43:30Z"
+    },
+    {
+      "filename": "CheatRunner_v0.16.elf",
+      "path": "payloads/PS5_Cheat/CheatRunner/v0.16/CheatRunner_v0.16.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Cheat/CheatRunner/v0.16/CheatRunner_v0.16.elf",
+      "size_bytes": 9288944,
+      "updated_at": "2026-08-27T12:43:30Z"
+    },
+    {
+      "filename": "CheatRunner_v0.17.elf",
+      "path": "payloads/PS5_Cheat/CheatRunner/v0.17/CheatRunner_v0.17.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Cheat/CheatRunner/v0.17/CheatRunner_v0.17.elf",
+      "size_bytes": 9502120,
+      "updated_at": "2026-08-27T12:43:30Z"
+    },
+    {
+      "filename": "kylin-core-community-lite-v131-global-release.elf",
+      "path": "payloads/PS5_Cheat/kylin-core/Source-Fixe/kylin-core-community-lite-v131-global-release.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Cheat/kylin-core/Source-Fixe/kylin-core-community-lite-v131-global-release.elf",
+      "size_bytes": 6015672,
+      "updated_at": "2026-08-27T12:43:30Z"
+    },
+    {
+      "filename": "PS5-File-Explorer_vfile-explorer-v0.2.1.elf",
+      "path": "payloads/ps5_file_explorer/PS5-File-Explorer/file-explorer-v0.2.1/PS5-File-Explorer_vfile-explorer-v0.2.1.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_file_explorer/PS5-File-Explorer/file-explorer-v0.2.1/PS5-File-Explorer_vfile-explorer-v0.2.1.elf",
+      "size_bytes": 1344248,
+      "updated_at": "2026-08-27T12:43:31Z"
+    },
+    {
+      "filename": "bfpilot-core_v0.2.1.elf",
+      "path": "payloads/ps5_file_explorer/BFpilot-Core/Source-Fixe/bfpilot-core_v0.2.1.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_file_explorer/BFpilot-Core/Source-Fixe/bfpilot-core_v0.2.1.elf",
+      "size_bytes": 177968,
+      "updated_at": "2026-08-27T12:43:31Z"
+    },
+    {
+      "filename": "bfpilot-full_v0.2.1.elf",
+      "path": "payloads/ps5_file_explorer/BFpilot-Full/Source-Fixe/bfpilot-full_v0.2.1.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_file_explorer/BFpilot-Full/Source-Fixe/bfpilot-full_v0.2.1.elf",
+      "size_bytes": 341888,
+      "updated_at": "2026-08-27T12:43:31Z"
+    },
+    {
+      "filename": "ps5-web-file-manager_v0.8b.elf",
+      "path": "payloads/ps5_file_explorer/ps5-web-file-manager/v0.8b/ps5-web-file-manager_v0.8b.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_file_explorer/ps5-web-file-manager/v0.8b/ps5-web-file-manager_v0.8b.elf",
+      "size_bytes": 296272,
+      "updated_at": "2026-08-27T12:43:31Z"
+    },
+    {
+      "filename": "ps5-web-file-manager_v0.8.elf",
+      "path": "payloads/ps5_file_explorer/ps5-web-file-manager/v0.8/ps5-web-file-manager_v0.8.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_file_explorer/ps5-web-file-manager/v0.8/ps5-web-file-manager_v0.8.elf",
+      "size_bytes": 296272,
+      "updated_at": "2026-08-27T12:43:31Z"
+    },
+    {
+      "filename": "ps5-web-file-manager_v1.3.elf",
+      "path": "payloads/ps5_file_explorer/ps5-web-file-manager/v1.3/ps5-web-file-manager_v1.3.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_file_explorer/ps5-web-file-manager/v1.3/ps5-web-file-manager_v1.3.elf",
+      "size_bytes": 296280,
+      "updated_at": "2026-08-27T12:43:31Z"
+    },
+    {
+      "filename": "ps5-web-file-manager_v0.6.elf",
+      "path": "payloads/ps5_file_explorer/ps5-web-file-manager/v0.6/ps5-web-file-manager_v0.6.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_file_explorer/ps5-web-file-manager/v0.6/ps5-web-file-manager_v0.6.elf",
+      "size_bytes": 296272,
+      "updated_at": "2026-08-27T12:43:31Z"
+    },
+    {
+      "filename": "ps5-web-file-manager_v1.4.elf",
+      "path": "payloads/ps5_file_explorer/ps5-web-file-manager/v1.4/ps5-web-file-manager_v1.4.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_file_explorer/ps5-web-file-manager/v1.4/ps5-web-file-manager_v1.4.elf",
+      "size_bytes": 296280,
+      "updated_at": "2026-08-27T12:43:31Z"
+    },
+    {
+      "filename": "ps5-web-file-manager_v1.1.elf",
+      "path": "payloads/ps5_file_explorer/ps5-web-file-manager/v1.1/ps5-web-file-manager_v1.1.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_file_explorer/ps5-web-file-manager/v1.1/ps5-web-file-manager_v1.1.elf",
+      "size_bytes": 296280,
+      "updated_at": "2026-08-27T12:43:31Z"
+    },
+    {
+      "filename": "ps5-web-file-manager_v1.5.elf",
+      "path": "payloads/ps5_file_explorer/ps5-web-file-manager/v1.5/ps5-web-file-manager_v1.5.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_file_explorer/ps5-web-file-manager/v1.5/ps5-web-file-manager_v1.5.elf",
+      "size_bytes": 296280,
+      "updated_at": "2026-08-27T12:43:31Z"
+    },
+    {
+      "filename": "ps5-web-file-manager_v1.0.elf",
+      "path": "payloads/ps5_file_explorer/ps5-web-file-manager/v1.0/ps5-web-file-manager_v1.0.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_file_explorer/ps5-web-file-manager/v1.0/ps5-web-file-manager_v1.0.elf",
+      "size_bytes": 296272,
+      "updated_at": "2026-08-27T12:43:31Z"
+    },
+    {
+      "filename": "ps5-web-file-manager_v1.2.elf",
+      "path": "payloads/ps5_file_explorer/ps5-web-file-manager/v1.2/ps5-web-file-manager_v1.2.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_file_explorer/ps5-web-file-manager/v1.2/ps5-web-file-manager_v1.2.elf",
+      "size_bytes": 296280,
+      "updated_at": "2026-08-27T12:43:31Z"
+    },
+    {
+      "filename": "ps5-web-file-manager_v0.9.elf",
+      "path": "payloads/ps5_file_explorer/ps5-web-file-manager/v0.9/ps5-web-file-manager_v0.9.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_file_explorer/ps5-web-file-manager/v0.9/ps5-web-file-manager_v0.9.elf",
+      "size_bytes": 296272,
+      "updated_at": "2026-08-27T12:43:31Z"
+    },
+    {
+      "filename": "ps5-web-file-manager_v1.6.elf",
+      "path": "payloads/ps5_file_explorer/ps5-web-file-manager/v1.6/ps5-web-file-manager_v1.6.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_file_explorer/ps5-web-file-manager/v1.6/ps5-web-file-manager_v1.6.elf",
+      "size_bytes": 296280,
+      "updated_at": "2026-08-27T12:43:31Z"
+    },
+    {
+      "filename": "ps5-web-file-manager_v0.7.elf",
+      "path": "payloads/ps5_file_explorer/ps5-web-file-manager/v0.7/ps5-web-file-manager_v0.7.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_file_explorer/ps5-web-file-manager/v0.7/ps5-web-file-manager_v0.7.elf",
+      "size_bytes": 296272,
+      "updated_at": "2026-08-27T12:43:31Z"
+    },
+    {
+      "filename": "lapy_jb_daemon.elf",
+      "path": "payloads/ps5_file_explorer/Lapy_JB_Daemon/Source-Fixe/lapy_jb_daemon.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_file_explorer/Lapy_JB_Daemon/Source-Fixe/lapy_jb_daemon.elf",
+      "size_bytes": 543792,
+      "updated_at": "2026-08-27T12:43:31Z"
+    },
+    {
+      "filename": "bfpilot_v0.4.4.elf",
+      "path": "payloads/ps5_file_explorer/BFpilot/v0.4.4/bfpilot_v0.4.4.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_file_explorer/BFpilot/v0.4.4/bfpilot_v0.4.4.elf",
+      "size_bytes": 1810632,
+      "updated_at": "2026-08-27T12:43:31Z"
+    },
+    {
+      "filename": "BFpilot_v0.4.4.elf",
+      "path": "payloads/ps5_file_explorer/BFpilot/v0.4.4/BFpilot_v0.4.4.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_file_explorer/BFpilot/v0.4.4/BFpilot_v0.4.4.elf",
+      "size_bytes": 1810632,
+      "updated_at": "2026-08-27T12:43:31Z"
+    },
+    {
+      "filename": "bfpilot_v0.4.3.elf",
+      "path": "payloads/ps5_file_explorer/BFpilot/v0.4.3/bfpilot_v0.4.3.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_file_explorer/BFpilot/v0.4.3/bfpilot_v0.4.3.elf",
+      "size_bytes": 1512456,
+      "updated_at": "2026-08-27T12:43:31Z"
+    },
+    {
+      "filename": "bfpilot-launcher-installer_v0.4.3.elf",
+      "path": "payloads/ps5_file_explorer/BFpilot/v0.4.3/bfpilot-launcher-installer_v0.4.3.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_file_explorer/BFpilot/v0.4.3/bfpilot-launcher-installer_v0.4.3.elf",
+      "size_bytes": 247096,
+      "updated_at": "2026-08-27T12:43:31Z"
+    },
+    {
+      "filename": "ps5-fw-spoof_v26616621599.elf",
+      "path": "payloads/ps5_sdk_debug/ps5-fw-spoof/26616621599/ps5-fw-spoof_v26616621599.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/ps5-fw-spoof/26616621599/ps5-fw-spoof_v26616621599.elf",
+      "size_bytes": 115296,
+      "updated_at": "2026-08-27T12:43:34Z"
+    },
+    {
+      "filename": "ps5-remoteplay-get-pin_v0.1.1.elf",
+      "path": "payloads/ps5_sdk_debug/ps5-remoteplay-get-pin/v0.1.1/ps5-remoteplay-get-pin_v0.1.1.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/ps5-remoteplay-get-pin/v0.1.1/ps5-remoteplay-get-pin_v0.1.1.elf",
+      "size_bytes": 117848,
+      "updated_at": "2026-08-27T12:43:34Z"
+    },
+    {
+      "filename": "ps5debug-NG_v1.3.0.elf",
+      "path": "payloads/ps5_sdk_debug/ps5debug-NG/1.3.0/ps5debug-NG_v1.3.0.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/ps5debug-NG/1.3.0/ps5debug-NG_v1.3.0.elf",
+      "size_bytes": 4043160,
+      "updated_at": "2026-08-27T12:43:34Z"
+    },
+    {
+      "filename": "ps5-self-decrypter-shellcore_v0.5.2.elf",
+      "path": "payloads/ps5_sdk_debug/PS5-SELF-Decrypter/v0.5.2/ps5-self-decrypter-shellcore_v0.5.2.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/PS5-SELF-Decrypter/v0.5.2/ps5-self-decrypter-shellcore_v0.5.2.elf",
+      "size_bytes": 128608,
+      "updated_at": "2026-08-27T12:43:34Z"
+    },
+    {
+      "filename": "ps5-self-decrypter-system-common-lib_v0.5.2.elf",
+      "path": "payloads/ps5_sdk_debug/PS5-SELF-Decrypter/v0.5.2/ps5-self-decrypter-system-common-lib_v0.5.2.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/PS5-SELF-Decrypter/v0.5.2/ps5-self-decrypter-system-common-lib_v0.5.2.elf",
+      "size_bytes": 128608,
+      "updated_at": "2026-08-27T12:43:34Z"
+    },
+    {
+      "filename": "ps5-self-decrypter-game_v0.5.2.elf",
+      "path": "payloads/ps5_sdk_debug/PS5-SELF-Decrypter/v0.5.2/ps5-self-decrypter-game_v0.5.2.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/PS5-SELF-Decrypter/v0.5.2/ps5-self-decrypter-game_v0.5.2.elf",
+      "size_bytes": 128608,
+      "updated_at": "2026-08-27T12:43:34Z"
+    },
+    {
+      "filename": "PS5-SELF-Decrypter_v0.5.2.elf",
+      "path": "payloads/ps5_sdk_debug/PS5-SELF-Decrypter/v0.5.2/PS5-SELF-Decrypter_v0.5.2.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/PS5-SELF-Decrypter/v0.5.2/PS5-SELF-Decrypter_v0.5.2.elf",
+      "size_bytes": 128608,
+      "updated_at": "2026-08-27T12:43:34Z"
+    },
+    {
+      "filename": "ps5-self-decrypter-full-system_v0.5.2.elf",
+      "path": "payloads/ps5_sdk_debug/PS5-SELF-Decrypter/v0.5.2/ps5-self-decrypter-full-system_v0.5.2.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/PS5-SELF-Decrypter/v0.5.2/ps5-self-decrypter-full-system_v0.5.2.elf",
+      "size_bytes": 128608,
+      "updated_at": "2026-08-27T12:43:34Z"
+    },
+    {
+      "filename": "ps5-self-pager-system-common-lib_v1.2.elf",
+      "path": "payloads/ps5_sdk_debug/ps5-self-pager/v1.2/ps5-self-pager-system-common-lib_v1.2.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/ps5-self-pager/v1.2/ps5-self-pager-system-common-lib_v1.2.elf",
+      "size_bytes": 110760,
+      "updated_at": "2026-08-27T12:43:34Z"
+    },
+    {
+      "filename": "ps5-self-pager-shellcore_v1.2.elf",
+      "path": "payloads/ps5_sdk_debug/ps5-self-pager/v1.2/ps5-self-pager-shellcore_v1.2.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/ps5-self-pager/v1.2/ps5-self-pager-shellcore_v1.2.elf",
+      "size_bytes": 110456,
+      "updated_at": "2026-08-27T12:43:34Z"
+    },
+    {
+      "filename": "ps5-self-pager-game_v1.2.elf",
+      "path": "payloads/ps5_sdk_debug/ps5-self-pager/v1.2/ps5-self-pager-game_v1.2.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/ps5-self-pager/v1.2/ps5-self-pager-game_v1.2.elf",
+      "size_bytes": 110848,
+      "updated_at": "2026-08-27T12:43:34Z"
+    },
+    {
+      "filename": "ps5-self-pager_v1.2.elf",
+      "path": "payloads/ps5_sdk_debug/ps5-self-pager/v1.2/ps5-self-pager_v1.2.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/ps5-self-pager/v1.2/ps5-self-pager_v1.2.elf",
+      "size_bytes": 110456,
+      "updated_at": "2026-08-27T12:43:34Z"
+    },
+    {
+      "filename": "ps5-self-pager-full-system_v1.2.elf",
+      "path": "payloads/ps5_sdk_debug/ps5-self-pager/v1.2/ps5-self-pager-full-system_v1.2.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/ps5-self-pager/v1.2/ps5-self-pager-full-system_v1.2.elf",
+      "size_bytes": 110848,
+      "updated_at": "2026-08-27T12:43:34Z"
+    },
+    {
+      "filename": "MemDBG_vnightly-20260804-g5a5007c.elf",
+      "path": "payloads/ps5_sdk_debug/MemDBG/nightly-20260804-g5a5007c/MemDBG_vnightly-20260804-g5a5007c.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/MemDBG/nightly-20260804-g5a5007c/MemDBG_vnightly-20260804-g5a5007c.elf",
+      "size_bytes": 1254096,
+      "updated_at": "2026-08-27T12:43:33Z"
+    },
+    {
+      "filename": "MemDBG_vnightly-20260814-gc58927e.elf",
+      "path": "payloads/ps5_sdk_debug/MemDBG/nightly-20260814-gc58927e/MemDBG_vnightly-20260814-gc58927e.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/MemDBG/nightly-20260814-gc58927e/MemDBG_vnightly-20260814-gc58927e.elf",
+      "size_bytes": 1254240,
+      "updated_at": "2026-08-27T12:43:33Z"
+    },
+    {
+      "filename": "MemDBG_vnightly-20260813-gb9f5e03.elf",
+      "path": "payloads/ps5_sdk_debug/MemDBG/nightly-20260813-gb9f5e03/MemDBG_vnightly-20260813-gb9f5e03.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/MemDBG/nightly-20260813-gb9f5e03/MemDBG_vnightly-20260813-gb9f5e03.elf",
+      "size_bytes": 1254240,
+      "updated_at": "2026-08-27T12:43:33Z"
+    },
+    {
+      "filename": "MemDBG_vnightly-20260723-g171822d.elf",
+      "path": "payloads/ps5_sdk_debug/MemDBG/nightly-20260723-g171822d/MemDBG_vnightly-20260723-g171822d.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/MemDBG/nightly-20260723-g171822d/MemDBG_vnightly-20260723-g171822d.elf",
+      "size_bytes": 1253184,
+      "updated_at": "2026-08-27T12:43:33Z"
+    },
+    {
+      "filename": "MemDBG_vnightly-20260719-g81e5eea.elf",
+      "path": "payloads/ps5_sdk_debug/MemDBG/nightly-20260719-g81e5eea/MemDBG_vnightly-20260719-g81e5eea.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/MemDBG/nightly-20260719-g81e5eea/MemDBG_vnightly-20260719-g81e5eea.elf",
+      "size_bytes": 1232968,
+      "updated_at": "2026-08-27T12:43:33Z"
+    },
+    {
+      "filename": "MemDBG_vnightly-20260808-g8e65dfd.elf",
+      "path": "payloads/ps5_sdk_debug/MemDBG/nightly-20260808-g8e65dfd/MemDBG_vnightly-20260808-g8e65dfd.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/MemDBG/nightly-20260808-g8e65dfd/MemDBG_vnightly-20260808-g8e65dfd.elf",
+      "size_bytes": 1254096,
+      "updated_at": "2026-08-27T12:43:33Z"
+    },
+    {
+      "filename": "MemDBG_vnightly-20260809-g1a859d3.elf",
+      "path": "payloads/ps5_sdk_debug/MemDBG/nightly-20260809-g1a859d3/MemDBG_vnightly-20260809-g1a859d3.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/MemDBG/nightly-20260809-g1a859d3/MemDBG_vnightly-20260809-g1a859d3.elf",
+      "size_bytes": 1254096,
+      "updated_at": "2026-08-27T12:43:33Z"
+    },
+    {
+      "filename": "MemDBG_vnightly-20260725-g171822d.elf",
+      "path": "payloads/ps5_sdk_debug/MemDBG/nightly-20260725-g171822d/MemDBG_vnightly-20260725-g171822d.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/MemDBG/nightly-20260725-g171822d/MemDBG_vnightly-20260725-g171822d.elf",
+      "size_bytes": 1253184,
+      "updated_at": "2026-08-27T12:43:33Z"
+    },
+    {
+      "filename": "MemDBG_vnightly-20260814-gef4bbc7.elf",
+      "path": "payloads/ps5_sdk_debug/MemDBG/nightly-20260814-gef4bbc7/MemDBG_vnightly-20260814-gef4bbc7.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/MemDBG/nightly-20260814-gef4bbc7/MemDBG_vnightly-20260814-gef4bbc7.elf",
+      "size_bytes": 1254240,
+      "updated_at": "2026-08-27T12:43:33Z"
+    },
+    {
+      "filename": "MemDBG_vnightly-20260718-g4c09468.elf",
+      "path": "payloads/ps5_sdk_debug/MemDBG/nightly-20260718-g4c09468/MemDBG_vnightly-20260718-g4c09468.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/MemDBG/nightly-20260718-g4c09468/MemDBG_vnightly-20260718-g4c09468.elf",
+      "size_bytes": 446408,
+      "updated_at": "2026-08-27T12:43:32Z"
+    },
+    {
+      "filename": "MemDBG_v0.1.1.elf",
+      "path": "payloads/ps5_sdk_debug/MemDBG/v0.1.1/MemDBG_v0.1.1.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/MemDBG/v0.1.1/MemDBG_v0.1.1.elf",
+      "size_bytes": 228824,
+      "updated_at": "2026-08-27T12:43:34Z"
+    },
+    {
+      "filename": "MemDBG_vnightly-20260720-g4358537.elf",
+      "path": "payloads/ps5_sdk_debug/MemDBG/nightly-20260720-g4358537/MemDBG_vnightly-20260720-g4358537.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/MemDBG/nightly-20260720-g4358537/MemDBG_vnightly-20260720-g4358537.elf",
+      "size_bytes": 1250480,
+      "updated_at": "2026-08-27T12:43:33Z"
+    },
+    {
+      "filename": "MemDBG_vnightly-20260818-g5ad7907.elf",
+      "path": "payloads/ps5_sdk_debug/MemDBG/nightly-20260818-g5ad7907/MemDBG_vnightly-20260818-g5ad7907.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/MemDBG/nightly-20260818-g5ad7907/MemDBG_vnightly-20260818-g5ad7907.elf",
+      "size_bytes": 1254240,
+      "updated_at": "2026-08-27T12:43:33Z"
+    },
+    {
+      "filename": "MemDBG_vnightly-20260726-g171822d.elf",
+      "path": "payloads/ps5_sdk_debug/MemDBG/nightly-20260726-g171822d/MemDBG_vnightly-20260726-g171822d.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/MemDBG/nightly-20260726-g171822d/MemDBG_vnightly-20260726-g171822d.elf",
+      "size_bytes": 1253184,
+      "updated_at": "2026-08-27T12:43:33Z"
+    },
+    {
+      "filename": "MemDBG_vnightly-20260717-gc992b20.elf",
+      "path": "payloads/ps5_sdk_debug/MemDBG/nightly-20260717-gc992b20/MemDBG_vnightly-20260717-gc992b20.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/MemDBG/nightly-20260717-gc992b20/MemDBG_vnightly-20260717-gc992b20.elf",
+      "size_bytes": 444704,
+      "updated_at": "2026-08-27T12:43:32Z"
+    },
+    {
+      "filename": "MemDBG_vnightly-20260811-gc49fa7c.elf",
+      "path": "payloads/ps5_sdk_debug/MemDBG/nightly-20260811-gc49fa7c/MemDBG_vnightly-20260811-gc49fa7c.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/MemDBG/nightly-20260811-gc49fa7c/MemDBG_vnightly-20260811-gc49fa7c.elf",
+      "size_bytes": 1254240,
+      "updated_at": "2026-08-27T12:43:33Z"
+    },
+    {
+      "filename": "MemDBG_vnightly-20260822-gc39ac30.elf",
+      "path": "payloads/ps5_sdk_debug/MemDBG/nightly-20260822-gc39ac30/MemDBG_vnightly-20260822-gc39ac30.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/MemDBG/nightly-20260822-gc39ac30/MemDBG_vnightly-20260822-gc39ac30.elf",
+      "size_bytes": 1254240,
+      "updated_at": "2026-08-27T12:43:34Z"
+    },
+    {
+      "filename": "MemDBG_vnightly-20260716-g19bcee1.elf",
+      "path": "payloads/ps5_sdk_debug/MemDBG/nightly-20260716-g19bcee1/MemDBG_vnightly-20260716-g19bcee1.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/MemDBG/nightly-20260716-g19bcee1/MemDBG_vnightly-20260716-g19bcee1.elf",
+      "size_bytes": 444704,
+      "updated_at": "2026-08-27T12:43:32Z"
+    },
+    {
+      "filename": "MemDBG_vnightly-20260805-gdb3b499.elf",
+      "path": "payloads/ps5_sdk_debug/MemDBG/nightly-20260805-gdb3b499/MemDBG_vnightly-20260805-gdb3b499.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/MemDBG/nightly-20260805-gdb3b499/MemDBG_vnightly-20260805-gdb3b499.elf",
+      "size_bytes": 1254096,
+      "updated_at": "2026-08-27T12:43:33Z"
+    },
+    {
+      "filename": "MemDBG_vnightly-20260727-g6794bf3.elf",
+      "path": "payloads/ps5_sdk_debug/MemDBG/nightly-20260727-g6794bf3/MemDBG_vnightly-20260727-g6794bf3.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/MemDBG/nightly-20260727-g6794bf3/MemDBG_vnightly-20260727-g6794bf3.elf",
+      "size_bytes": 1253320,
+      "updated_at": "2026-08-27T12:43:33Z"
+    },
+    {
+      "filename": "MemDBG_vnightly-20260722-g171822d.elf",
+      "path": "payloads/ps5_sdk_debug/MemDBG/nightly-20260722-g171822d/MemDBG_vnightly-20260722-g171822d.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/MemDBG/nightly-20260722-g171822d/MemDBG_vnightly-20260722-g171822d.elf",
+      "size_bytes": 1253184,
+      "updated_at": "2026-08-27T12:43:33Z"
+    },
+    {
+      "filename": "MemDBG_v0.2.0-beta.1.elf",
+      "path": "payloads/ps5_sdk_debug/MemDBG/v0.2.0-beta.1/MemDBG_v0.2.0-beta.1.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/MemDBG/v0.2.0-beta.1/MemDBG_v0.2.0-beta.1.elf",
+      "size_bytes": 444000,
+      "updated_at": "2026-08-27T12:43:34Z"
+    },
+    {
+      "filename": "MemDBG_vnightly-20260724-g171822d.elf",
+      "path": "payloads/ps5_sdk_debug/MemDBG/nightly-20260724-g171822d/MemDBG_vnightly-20260724-g171822d.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/MemDBG/nightly-20260724-g171822d/MemDBG_vnightly-20260724-g171822d.elf",
+      "size_bytes": 1253184,
+      "updated_at": "2026-08-27T12:43:33Z"
+    },
+    {
+      "filename": "MemDBG_vnightly-20260720-g0ab6f18.elf",
+      "path": "payloads/ps5_sdk_debug/MemDBG/nightly-20260720-g0ab6f18/MemDBG_vnightly-20260720-g0ab6f18.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/MemDBG/nightly-20260720-g0ab6f18/MemDBG_vnightly-20260720-g0ab6f18.elf",
+      "size_bytes": 1250128,
+      "updated_at": "2026-08-27T12:43:33Z"
+    },
+    {
+      "filename": "MemDBG_vnightly-20260722-gd2b17fc.elf",
+      "path": "payloads/ps5_sdk_debug/MemDBG/nightly-20260722-gd2b17fc/MemDBG_vnightly-20260722-gd2b17fc.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/MemDBG/nightly-20260722-gd2b17fc/MemDBG_vnightly-20260722-gd2b17fc.elf",
+      "size_bytes": 1253192,
+      "updated_at": "2026-08-27T12:43:33Z"
+    },
+    {
+      "filename": "MemDBG_vnightly-20260727-g1e4392a.elf",
+      "path": "payloads/ps5_sdk_debug/MemDBG/nightly-20260727-g1e4392a/MemDBG_vnightly-20260727-g1e4392a.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/MemDBG/nightly-20260727-g1e4392a/MemDBG_vnightly-20260727-g1e4392a.elf",
+      "size_bytes": 1253320,
+      "updated_at": "2026-08-27T12:43:33Z"
+    },
+    {
+      "filename": "MemDBG_vnightly-20260807-g6a49926.elf",
+      "path": "payloads/ps5_sdk_debug/MemDBG/nightly-20260807-g6a49926/MemDBG_vnightly-20260807-g6a49926.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/MemDBG/nightly-20260807-g6a49926/MemDBG_vnightly-20260807-g6a49926.elf",
+      "size_bytes": 1254096,
+      "updated_at": "2026-08-27T12:43:33Z"
+    },
+    {
+      "filename": "MemDBG_vnightly.elf",
+      "path": "payloads/ps5_sdk_debug/MemDBG/nightly/MemDBG_vnightly.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/MemDBG/nightly/MemDBG_vnightly.elf",
+      "size_bytes": 443952,
+      "updated_at": "2026-08-27T12:43:34Z"
+    },
+    {
+      "filename": "MemDBG_vnightly-20260811-gfc5e19c.elf",
+      "path": "payloads/ps5_sdk_debug/MemDBG/nightly-20260811-gfc5e19c/MemDBG_vnightly-20260811-gfc5e19c.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/MemDBG/nightly-20260811-gfc5e19c/MemDBG_vnightly-20260811-gfc5e19c.elf",
+      "size_bytes": 1254184,
+      "updated_at": "2026-08-27T12:43:33Z"
+    },
+    {
+      "filename": "hwinfo_bench_v0.1.elf",
+      "path": "payloads/ps5_sdk_debug/ps5-hwinfo/0.1/hwinfo_bench_v0.1.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/ps5-hwinfo/0.1/hwinfo_bench_v0.1.elf",
+      "size_bytes": 116160,
+      "updated_at": "2026-08-27T12:43:34Z"
+    },
+    {
+      "filename": "ps5-hwinfo_v0.1.elf",
+      "path": "payloads/ps5_sdk_debug/ps5-hwinfo/0.1/ps5-hwinfo_v0.1.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/ps5-hwinfo/0.1/ps5-hwinfo_v0.1.elf",
+      "size_bytes": 116160,
+      "updated_at": "2026-08-27T12:43:34Z"
+    },
+    {
+      "filename": "hwinfo_sysinfo_v0.1.elf",
+      "path": "payloads/ps5_sdk_debug/ps5-hwinfo/0.1/hwinfo_sysinfo_v0.1.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/ps5-hwinfo/0.1/hwinfo_sysinfo_v0.1.elf",
+      "size_bytes": 148928,
+      "updated_at": "2026-08-27T12:43:34Z"
+    },
+    {
+      "filename": "PS5_Debugger_GUI_v1.0.0-BETA.elf",
+      "path": "payloads/ps5_sdk_debug/PS5_Debugger_GUI/1.0.0-BETA/PS5_Debugger_GUI_v1.0.0-BETA.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/PS5_Debugger_GUI/1.0.0-BETA/PS5_Debugger_GUI_v1.0.0-BETA.elf",
+      "size_bytes": 4043160,
+      "updated_at": "2026-08-27T12:43:34Z"
+    },
+    {
+      "filename": "ps5-linux-loader_v2.4.elf",
+      "path": "payloads/ps5_linux/ps5-linux-loader/v2.4/ps5-linux-loader_v2.4.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_linux/ps5-linux-loader/v2.4/ps5-linux-loader_v2.4.elf",
+      "size_bytes": 179472,
+      "updated_at": "2026-08-27T12:43:32Z"
+    },
+    {
+      "filename": "ps5-linux-loader_v2.3.elf",
+      "path": "payloads/ps5_linux/ps5-linux-loader/v2.3/ps5-linux-loader_v2.3.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_linux/ps5-linux-loader/v2.3/ps5-linux-loader_v2.3.elf",
+      "size_bytes": 179112,
+      "updated_at": "2026-08-27T12:43:32Z"
+    },
+    {
+      "filename": "ps5-linux-loader_v2.1.elf",
+      "path": "payloads/ps5_linux/ps5-linux-loader/v2.1/ps5-linux-loader_v2.1.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_linux/ps5-linux-loader/v2.1/ps5-linux-loader_v2.1.elf",
+      "size_bytes": 176832,
+      "updated_at": "2026-08-27T12:43:32Z"
+    },
+    {
+      "filename": "ps5-linux-loader_v2.2.elf",
+      "path": "payloads/ps5_linux/ps5-linux-loader/v2.2/ps5-linux-loader_v2.2.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_linux/ps5-linux-loader/v2.2/ps5-linux-loader_v2.2.elf",
+      "size_bytes": 178288,
+      "updated_at": "2026-08-27T12:43:32Z"
+    },
+    {
+      "filename": "BackPork_v0.1.elf",
+      "path": "payloads/ps5_game_dump/BackPork/0.1/BackPork_v0.1.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/BackPork/0.1/BackPork_v0.1.elf",
+      "size_bytes": 99800,
+      "updated_at": "2026-08-27T12:43:31Z"
+    },
+    {
+      "filename": "shadowmountplus_v1.7alpha6.elf",
+      "path": "payloads/ps5_game_dump/ShadowMountPlus/1.7alpha6/shadowmountplus_v1.7alpha6.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/ShadowMountPlus/1.7alpha6/shadowmountplus_v1.7alpha6.elf",
+      "size_bytes": 1721872,
+      "updated_at": "2026-08-27T12:43:31Z"
+    },
+    {
+      "filename": "ShadowMountPlus_v1.7alpha10.elf",
+      "path": "payloads/ps5_game_dump/ShadowMountPlus/1.7alpha10/ShadowMountPlus_v1.7alpha10.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/ShadowMountPlus/1.7alpha10/ShadowMountPlus_v1.7alpha10.elf",
+      "size_bytes": 1762968,
+      "updated_at": "2026-08-27T12:43:31Z"
+    },
+    {
+      "filename": "shadowmountplus_v1.7alpha4.elf",
+      "path": "payloads/ps5_game_dump/ShadowMountPlus/1.7alpha4/shadowmountplus_v1.7alpha4.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/ShadowMountPlus/1.7alpha4/shadowmountplus_v1.7alpha4.elf",
+      "size_bytes": 1688528,
+      "updated_at": "2026-08-27T12:43:31Z"
+    },
+    {
+      "filename": "shadowmountplus_v1.7alpha5.elf",
+      "path": "payloads/ps5_game_dump/ShadowMountPlus/1.7alpha5/shadowmountplus_v1.7alpha5.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/ShadowMountPlus/1.7alpha5/shadowmountplus_v1.7alpha5.elf",
+      "size_bytes": 1705472,
+      "updated_at": "2026-08-27T12:43:31Z"
+    },
+    {
+      "filename": "shadowmountplus_v1.7alpha7.elf",
+      "path": "payloads/ps5_game_dump/ShadowMountPlus/1.7alpha7/shadowmountplus_v1.7alpha7.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/ShadowMountPlus/1.7alpha7/shadowmountplus_v1.7alpha7.elf",
+      "size_bytes": 1746608,
+      "updated_at": "2026-08-27T12:43:31Z"
+    },
+    {
+      "filename": "ShadowMountPlus_v1.7alpha11.elf",
+      "path": "payloads/ps5_game_dump/ShadowMountPlus/1.7alpha11/ShadowMountPlus_v1.7alpha11.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/ShadowMountPlus/1.7alpha11/ShadowMountPlus_v1.7alpha11.elf",
+      "size_bytes": 1795736,
+      "updated_at": "2026-08-27T12:43:31Z"
+    },
+    {
+      "filename": "ShadowMountPlus_v1.7alpha8.elf",
+      "path": "payloads/ps5_game_dump/ShadowMountPlus/1.7alpha8/ShadowMountPlus_v1.7alpha8.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/ShadowMountPlus/1.7alpha8/ShadowMountPlus_v1.7alpha8.elf",
+      "size_bytes": 1746608,
+      "updated_at": "2026-08-27T12:43:31Z"
+    },
+    {
+      "filename": "shadowmountplus_v1.7alpha8.elf",
+      "path": "payloads/ps5_game_dump/ShadowMountPlus/1.7alpha8/shadowmountplus_v1.7alpha8.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/ShadowMountPlus/1.7alpha8/shadowmountplus_v1.7alpha8.elf",
+      "size_bytes": 1746608,
+      "updated_at": "2026-08-27T12:43:31Z"
+    },
+    {
+      "filename": "ShadowMountPlus_v1.7alpha9.elf",
+      "path": "payloads/ps5_game_dump/ShadowMountPlus/1.7alpha9/ShadowMountPlus_v1.7alpha9.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/ShadowMountPlus/1.7alpha9/ShadowMountPlus_v1.7alpha9.elf",
+      "size_bytes": 1762880,
+      "updated_at": "2026-08-27T12:43:31Z"
+    },
+    {
+      "filename": "shadowmountplus_v1.6beta16.elf",
+      "path": "payloads/ps5_game_dump/ShadowMountPlus/1.6beta16/shadowmountplus_v1.6beta16.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/ShadowMountPlus/1.6beta16/shadowmountplus_v1.6beta16.elf",
+      "size_bytes": 1457528,
+      "updated_at": "2026-08-27T12:43:31Z"
+    },
+    {
+      "filename": "apr-emu-updater_v1.4.1.elf",
+      "path": "payloads/ps5_game_dump/apr-emu-updater/v1.4.1/apr-emu-updater_v1.4.1.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/apr-emu-updater/v1.4.1/apr-emu-updater_v1.4.1.elf",
+      "size_bytes": 411520,
+      "updated_at": "2026-08-27T12:43:31Z"
+    },
+    {
+      "filename": "apr-emu-updater_v1.4.elf",
+      "path": "payloads/ps5_game_dump/apr-emu-updater/v1.4/apr-emu-updater_v1.4.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/apr-emu-updater/v1.4/apr-emu-updater_v1.4.elf",
+      "size_bytes": 411520,
+      "updated_at": "2026-08-27T12:43:31Z"
+    },
+    {
+      "filename": "apr-emu-updater_v1.5.1.elf",
+      "path": "payloads/ps5_game_dump/apr-emu-updater/v1.5.1/apr-emu-updater_v1.5.1.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/apr-emu-updater/v1.5.1/apr-emu-updater_v1.5.1.elf",
+      "size_bytes": 411520,
+      "updated_at": "2026-08-27T12:43:31Z"
+    },
+    {
+      "filename": "PS5-Game-Compressor_v1.0.4.elf",
+      "path": "payloads/ps5_game_dump/PS5-Game-Compressor/v1.0.4/PS5-Game-Compressor_v1.0.4.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/PS5-Game-Compressor/v1.0.4/PS5-Game-Compressor_v1.0.4.elf",
+      "size_bytes": 1289424,
+      "updated_at": "2026-08-27T12:43:31Z"
+    },
+    {
+      "filename": "PS5-Game-Compressor_v1.0.3.elf",
+      "path": "payloads/ps5_game_dump/PS5-Game-Compressor/v1.0.3/PS5-Game-Compressor_v1.0.3.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/PS5-Game-Compressor/v1.0.3/PS5-Game-Compressor_v1.0.3.elf",
+      "size_bytes": 1092136,
+      "updated_at": "2026-08-27T12:43:31Z"
+    },
+    {
+      "filename": "ps5-app-dumper_v1.11.elf",
+      "path": "payloads/ps5_game_dump/ps5-app-dumper/v1.11/ps5-app-dumper_v1.11.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/ps5-app-dumper/v1.11/ps5-app-dumper_v1.11.elf",
+      "size_bytes": 165248,
+      "updated_at": "2026-08-27T12:43:31Z"
+    },
+    {
+      "filename": "ps5-app-dumper_v1.10.elf",
+      "path": "payloads/ps5_game_dump/ps5-app-dumper/v1.10/ps5-app-dumper_v1.10.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/ps5-app-dumper/v1.10/ps5-app-dumper_v1.10.elf",
+      "size_bytes": 165248,
+      "updated_at": "2026-08-27T12:43:31Z"
+    },
+    {
+      "filename": "uds-trophy-unlocker_v1.0.0.elf",
+      "path": "payloads/ps5_trophy/uds-trophy-unlocker/v1.0.0/uds-trophy-unlocker_v1.0.0.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_trophy/uds-trophy-unlocker/v1.0.0/uds-trophy-unlocker_v1.0.0.elf",
+      "size_bytes": 142736,
+      "updated_at": "2026-08-27T12:43:35Z"
+    },
+    {
+      "filename": "PS5-Custom-Tool-Manager-_vCustom.elf",
+      "path": "payloads/ps5_themes-avatars/PS5-Custom-Tool-Manager-/Custom/PS5-Custom-Tool-Manager-_vCustom.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_themes-avatars/PS5-Custom-Tool-Manager-/Custom/PS5-Custom-Tool-Manager-_vCustom.elf",
+      "size_bytes": 4453880,
+      "updated_at": "2026-08-27T12:43:35Z"
+    },
+    {
+      "filename": "ps5-wallpaper-modd_v1.0.elf",
+      "path": "payloads/ps5_themes-avatars/ps5-wallpaper-modd/v1.0/ps5-wallpaper-modd_v1.0.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_themes-avatars/ps5-wallpaper-modd/v1.0/ps5-wallpaper-modd_v1.0.elf",
+      "size_bytes": 503008,
+      "updated_at": "2026-08-27T12:43:35Z"
+    },
+    {
+      "filename": "garlic-savemgr_v1.12.elf",
+      "path": "payloads/ps5_saves/garlic-savemgr/v1.12/garlic-savemgr_v1.12.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_saves/garlic-savemgr/v1.12/garlic-savemgr_v1.12.elf",
+      "size_bytes": 1642928,
+      "updated_at": "2026-08-27T12:43:32Z"
+    },
+    {
+      "filename": "garlic-savemgr_v1.10.elf",
+      "path": "payloads/ps5_saves/garlic-savemgr/v1.10/garlic-savemgr_v1.10.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_saves/garlic-savemgr/v1.10/garlic-savemgr_v1.10.elf",
+      "size_bytes": 1642928,
+      "updated_at": "2026-08-27T12:43:32Z"
+    },
+    {
+      "filename": "garlic-savemgr_v1.13.elf",
+      "path": "payloads/ps5_saves/garlic-savemgr/v1.13/garlic-savemgr_v1.13.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_saves/garlic-savemgr/v1.13/garlic-savemgr_v1.13.elf",
+      "size_bytes": 1664888,
+      "updated_at": "2026-08-27T12:43:32Z"
+    },
+    {
+      "filename": "savemnt-offset-dumper_v1.0.0.elf",
+      "path": "payloads/ps5_saves/savemnt-offset-dumper/1.0.0/savemnt-offset-dumper_v1.0.0.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_saves/savemnt-offset-dumper/1.0.0/savemnt-offset-dumper_v1.0.0.elf",
+      "size_bytes": 143080,
+      "updated_at": "2026-08-27T12:43:32Z"
+    },
+    {
+      "filename": "garlic-worker_v1.1.6.elf",
+      "path": "payloads/ps5_saves/garlic-worker/v1.1.6/garlic-worker_v1.1.6.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_saves/garlic-worker/v1.1.6/garlic-worker_v1.1.6.elf",
+      "size_bytes": 163168,
+      "updated_at": "2026-08-27T12:43:32Z"
+    },
+    {
+      "filename": "garlic-worker_v1.1.4.elf",
+      "path": "payloads/ps5_saves/garlic-worker/v1.1.4/garlic-worker_v1.1.4.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_saves/garlic-worker/v1.1.4/garlic-worker_v1.1.4.elf",
+      "size_bytes": 188936,
+      "updated_at": "2026-08-27T12:43:32Z"
+    },
+    {
+      "filename": "ProsperoPlayer_v1.0.elf",
+      "path": "payloads/ps5_video_player/ProsperoPlayer/v1.0/ProsperoPlayer_v1.0.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_video_player/ProsperoPlayer/v1.0/ProsperoPlayer_v1.0.elf",
+      "size_bytes": 20596032,
+      "updated_at": "2026-08-27T12:43:36Z"
+    },
+    {
+      "filename": "svtplay_v0.2.elf",
+      "path": "payloads/ps5_video_player/svtplay/v0.2/svtplay_v0.2.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_video_player/svtplay/v0.2/svtplay_v0.2.elf",
+      "size_bytes": 148520,
+      "updated_at": "2026-08-27T12:43:36Z"
+    },
+    {
+      "filename": "BFplayer-standalone_v0.1.0-alpha.44.elf",
+      "path": "payloads/ps5_video_player/BFplayer-standalone/v0.1.0-alpha.44/BFplayer-standalone_v0.1.0-alpha.44.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_video_player/BFplayer-standalone/v0.1.0-alpha.44/BFplayer-standalone_v0.1.0-alpha.44.elf",
+      "size_bytes": 17936496,
+      "updated_at": "2026-08-27T12:43:35Z"
+    },
+    {
+      "filename": "PS-Play_v2.1.elf",
+      "path": "payloads/ps5_video_player/PS-Play/2.1/PS-Play_v2.1.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_video_player/PS-Play/2.1/PS-Play_v2.1.elf",
+      "size_bytes": 32294128,
+      "updated_at": "2026-08-27T12:43:36Z"
+    },
+    {
+      "filename": "pegasus-dl_v1.6.0.elf",
+      "path": "payloads/ps5_freeshop/pegasus-dl/v1.6.0/pegasus-dl_v1.6.0.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_freeshop/pegasus-dl/v1.6.0/pegasus-dl_v1.6.0.elf",
+      "size_bytes": 20214384,
+      "updated_at": "2026-08-27T12:43:31Z"
+    },
+    {
+      "filename": "pegasus-dl_v1.7.0.elf",
+      "path": "payloads/ps5_freeshop/pegasus-dl/v1.7.0/pegasus-dl_v1.7.0.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_freeshop/pegasus-dl/v1.7.0/pegasus-dl_v1.7.0.elf",
+      "size_bytes": 20333680,
+      "updated_at": "2026-08-27T12:43:31Z"
+    },
+    {
+      "filename": "Spectrum-Library_v1.4.3.elf",
+      "path": "payloads/ps5_freeshop/Spectrum-Library/1.4.3/Spectrum-Library_v1.4.3.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_freeshop/Spectrum-Library/1.4.3/Spectrum-Library_v1.4.3.elf",
+      "size_bytes": 12913768,
+      "updated_at": "2026-08-27T12:43:31Z"
+    },
+    {
+      "filename": "Spectrum-Library_v1.4.2.elf",
+      "path": "payloads/ps5_freeshop/Spectrum-Library/1.4.2/Spectrum-Library_v1.4.2.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_freeshop/Spectrum-Library/1.4.2/Spectrum-Library_v1.4.2.elf",
+      "size_bytes": 5099464,
+      "updated_at": "2026-08-27T12:43:31Z"
+    },
+    {
+      "filename": "Chukei_DNS_v0.9.0.elf",
+      "path": "payloads/ps5_dns/Chukei_DNS/0.9.0/Chukei_DNS_v0.9.0.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_dns/Chukei_DNS/0.9.0/Chukei_DNS_v0.9.0.elf",
+      "size_bytes": 4640064,
+      "updated_at": "2026-08-27T12:43:31Z"
+    },
+    {
+      "filename": "nanoDNS_v0.3.elf",
+      "path": "payloads/ps5_dns/nanoDNS/0.3/nanoDNS_v0.3.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_dns/nanoDNS/0.3/nanoDNS_v0.3.elf",
+      "size_bytes": 132344,
+      "updated_at": "2026-08-27T12:43:31Z"
+    },
+    {
+      "filename": "nanoDNS_v0.4.elf",
+      "path": "payloads/ps5_dns/nanoDNS/0.4/nanoDNS_v0.4.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_dns/nanoDNS/0.4/nanoDNS_v0.4.elf",
+      "size_bytes": 99624,
+      "updated_at": "2026-08-27T12:43:31Z"
+    },
+    {
+      "filename": "kstuff-lite_EchoStretch_v1.09.elf",
+      "path": "payloads/ps5_kstuff/kstuff-lite_EchoStretch/v1.09/kstuff-lite_EchoStretch_v1.09.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_kstuff/kstuff-lite_EchoStretch/v1.09/kstuff-lite_EchoStretch_v1.09.elf",
+      "size_bytes": 1572824,
+      "updated_at": "2026-08-27T12:43:32Z"
+    },
+    {
+      "filename": "kstuff-lite_EchoStretch_v1.07.elf",
+      "path": "payloads/ps5_kstuff/kstuff-lite_EchoStretch/v1.07/kstuff-lite_EchoStretch_v1.07.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_kstuff/kstuff-lite_EchoStretch/v1.07/kstuff-lite_EchoStretch_v1.07.elf",
+      "size_bytes": 1574680,
+      "updated_at": "2026-08-27T12:43:32Z"
+    },
+    {
+      "filename": "kstuff-lite_EchoStretch_v1.08.elf",
+      "path": "payloads/ps5_kstuff/kstuff-lite_EchoStretch/v1.08/kstuff-lite_EchoStretch_v1.08.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_kstuff/kstuff-lite_EchoStretch/v1.08/kstuff-lite_EchoStretch_v1.08.elf",
+      "size_bytes": 1572824,
+      "updated_at": "2026-08-27T12:43:32Z"
+    },
+    {
+      "filename": "kstuff-lite_EchoStretch_v1.10.elf",
+      "path": "payloads/ps5_kstuff/kstuff-lite_EchoStretch/v1.10/kstuff-lite_EchoStretch_v1.10.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_kstuff/kstuff-lite_EchoStretch/v1.10/kstuff-lite_EchoStretch_v1.10.elf",
+      "size_bytes": 1572832,
+      "updated_at": "2026-08-27T12:43:32Z"
+    },
+    {
+      "filename": "kstuff-lite_drakmor_v1.2-dr-test2.elf",
+      "path": "payloads/ps5_kstuff/kstuff-lite_drakmor/1.2-dr-test2/kstuff-lite_drakmor_v1.2-dr-test2.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_kstuff/kstuff-lite_drakmor/1.2-dr-test2/kstuff-lite_drakmor_v1.2-dr-test2.elf",
+      "size_bytes": 1558040,
+      "updated_at": "2026-08-27T12:43:32Z"
+    },
+    {
+      "filename": "kstuff_EchoStretch_v1.6.7.elf",
+      "path": "payloads/ps5_kstuff/kstuff_EchoStretch/v1.6.7/kstuff_EchoStretch_v1.6.7.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_kstuff/kstuff_EchoStretch/v1.6.7/kstuff_EchoStretch_v1.6.7.elf",
+      "size_bytes": 1550152,
+      "updated_at": "2026-08-27T12:43:32Z"
+    },
+    {
+      "filename": "websrv_v0.34.elf",
+      "path": "payloads/ps5_server/websrv/v0.34/websrv_v0.34.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/websrv/v0.34/websrv_v0.34.elf",
+      "size_bytes": 1597864,
+      "updated_at": "2026-08-27T12:43:35Z"
+    },
+    {
+      "filename": "websrv_v0.33.elf",
+      "path": "payloads/ps5_server/websrv/v0.33/websrv_v0.33.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/websrv/v0.33/websrv_v0.33.elf",
+      "size_bytes": 1597248,
+      "updated_at": "2026-08-27T12:43:35Z"
+    },
+    {
+      "filename": "websrv_v0.32.elf",
+      "path": "payloads/ps5_server/websrv/v0.32/websrv_v0.32.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/websrv/v0.32/websrv_v0.32.elf",
+      "size_bytes": 1597088,
+      "updated_at": "2026-08-27T12:43:35Z"
+    },
+    {
+      "filename": "airpsx_v0.19.elf",
+      "path": "payloads/ps5_server/airpsx/0.19/airpsx_v0.19.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/airpsx/0.19/airpsx_v0.19.elf",
+      "size_bytes": 15694464,
+      "updated_at": "2026-08-27T12:43:34Z"
+    },
+    {
+      "filename": "klogsrv_v0.8.elf",
+      "path": "payloads/ps5_server/klogsrv/v0.8/klogsrv_v0.8.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/klogsrv/v0.8/klogsrv_v0.8.elf",
+      "size_bytes": 135248,
+      "updated_at": "2026-08-27T12:43:34Z"
+    },
+    {
+      "filename": "klogsrv_v0.9.elf",
+      "path": "payloads/ps5_server/klogsrv/v0.9/klogsrv_v0.9.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/klogsrv/v0.9/klogsrv_v0.9.elf",
+      "size_bytes": 136016,
+      "updated_at": "2026-08-27T12:43:34Z"
+    },
+    {
+      "filename": "elfldr_v0.25.elf",
+      "path": "payloads/ps5_server/elfldr/v0.25/elfldr_v0.25.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/elfldr/v0.25/elfldr_v0.25.elf",
+      "size_bytes": 397024,
+      "updated_at": "2026-08-27T12:43:34Z"
+    },
+    {
+      "filename": "elfldr_v0.24.elf",
+      "path": "payloads/ps5_server/elfldr/v0.24/elfldr_v0.24.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/elfldr/v0.24/elfldr_v0.24.elf",
+      "size_bytes": 397024,
+      "updated_at": "2026-08-27T12:43:34Z"
+    },
+    {
+      "filename": "elfldr_v0.23.elf",
+      "path": "payloads/ps5_server/elfldr/v0.23/elfldr_v0.23.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/elfldr/v0.23/elfldr_v0.23.elf",
+      "size_bytes": 397000,
+      "updated_at": "2026-08-27T12:43:34Z"
+    },
+    {
+      "filename": "ftpsrv_drakmor_v1.6-ng-test2.elf",
+      "path": "payloads/ps5_server/ftpsrv_drakmor/1.6-ng-test2/ftpsrv_drakmor_v1.6-ng-test2.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ftpsrv_drakmor/1.6-ng-test2/ftpsrv_drakmor_v1.6-ng-test2.elf",
+      "size_bytes": 230632,
+      "updated_at": "2026-08-27T12:43:34Z"
+    },
+    {
+      "filename": "gdbsrv_v0.8.elf",
+      "path": "payloads/ps5_server/gdbsrv/v0.8/gdbsrv_v0.8.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/gdbsrv/v0.8/gdbsrv_v0.8.elf",
+      "size_bytes": 173480,
+      "updated_at": "2026-08-27T12:43:34Z"
+    },
+    {
+      "filename": "gdbsrv_v0.9.elf",
+      "path": "payloads/ps5_server/gdbsrv/v0.9/gdbsrv_v0.9.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/gdbsrv/v0.9/gdbsrv_v0.9.elf",
+      "size_bytes": 174248,
+      "updated_at": "2026-08-27T12:43:34Z"
+    },
+    {
+      "filename": "zftp_v1.5.0.bin",
+      "path": "payloads/ps5_server/zftpd/v1.5.0/zftp_v1.5.0.bin",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/zftpd/v1.5.0/zftp_v1.5.0.bin",
+      "size_bytes": 165176,
+      "updated_at": "2026-08-27T12:43:35Z"
+    },
+    {
+      "filename": "zhttp_v1.5.0.bin",
+      "path": "payloads/ps5_server/zftpd/v1.5.0/zhttp_v1.5.0.bin",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/zftpd/v1.5.0/zhttp_v1.5.0.bin",
+      "size_bytes": 3328536,
+      "updated_at": "2026-08-27T12:43:35Z"
+    },
+    {
+      "filename": "zhttp_v1.5.0.elf",
+      "path": "payloads/ps5_server/zftpd/v1.5.0/zhttp_v1.5.0.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/zftpd/v1.5.0/zhttp_v1.5.0.elf",
+      "size_bytes": 3906208,
+      "updated_at": "2026-08-27T12:43:35Z"
+    },
+    {
+      "filename": "zftp_v1.5.0.elf",
+      "path": "payloads/ps5_server/zftpd/v1.5.0/zftp_v1.5.0.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/zftpd/v1.5.0/zftp_v1.5.0.elf",
+      "size_bytes": 355928,
+      "updated_at": "2026-08-27T12:43:35Z"
+    },
+    {
+      "filename": "zftpd_v1.5.0.bin",
+      "path": "payloads/ps5_server/zftpd/v1.5.0/zftpd_v1.5.0.bin",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/zftpd/v1.5.0/zftpd_v1.5.0.bin",
+      "size_bytes": 3328536,
+      "updated_at": "2026-08-27T12:43:35Z"
+    },
+    {
+      "filename": "zftpd_v1.5.0.elf",
+      "path": "payloads/ps5_server/zftpd/v1.5.0/zftpd_v1.5.0.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/zftpd/v1.5.0/zftpd_v1.5.0.elf",
+      "size_bytes": 3906208,
+      "updated_at": "2026-08-27T12:43:35Z"
+    },
+    {
+      "filename": "ftpsrv_ps5-payload_v0.20.elf",
+      "path": "payloads/ps5_server/ftpsrv_ps5-payload/v0.20/ftpsrv_ps5-payload_v0.20.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ftpsrv_ps5-payload/v0.20/ftpsrv_ps5-payload_v0.20.elf",
+      "size_bytes": 174712,
+      "updated_at": "2026-08-27T12:43:34Z"
+    },
+    {
+      "filename": "ftpsrv_ps5-payload_v0.21.elf",
+      "path": "payloads/ps5_server/ftpsrv_ps5-payload/v0.21/ftpsrv_ps5-payload_v0.21.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ftpsrv_ps5-payload/v0.21/ftpsrv_ps5-payload_v0.21.elf",
+      "size_bytes": 717272,
+      "updated_at": "2026-08-27T12:43:34Z"
+    },
+    {
+      "filename": "ftpsrv_ps5-payload_v0.21.1.elf",
+      "path": "payloads/ps5_server/ftpsrv_ps5-payload/v0.21.1/ftpsrv_ps5-payload_v0.21.1.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ftpsrv_ps5-payload/v0.21.1/ftpsrv_ps5-payload_v0.21.1.elf",
+      "size_bytes": 717272,
+      "updated_at": "2026-08-27T12:43:34Z"
+    },
+    {
+      "filename": "ps5upload_v5.9.0.elf",
+      "path": "payloads/ps5_server/ps5upload/v5.9.0/ps5upload_v5.9.0.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ps5upload/v5.9.0/ps5upload_v5.9.0.elf",
+      "size_bytes": 1387640,
+      "updated_at": "2026-08-27T12:43:35Z"
+    },
+    {
+      "filename": "ps5upload_v5.3.2.elf",
+      "path": "payloads/ps5_server/ps5upload/v5.3.2/ps5upload_v5.3.2.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ps5upload/v5.3.2/ps5upload_v5.3.2.elf",
+      "size_bytes": 1353840,
+      "updated_at": "2026-08-27T12:43:35Z"
+    },
+    {
+      "filename": "ps5upload_v5.5.0.elf",
+      "path": "payloads/ps5_server/ps5upload/v5.5.0/ps5upload_v5.5.0.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ps5upload/v5.5.0/ps5upload_v5.5.0.elf",
+      "size_bytes": 1379264,
+      "updated_at": "2026-08-27T12:43:35Z"
+    },
+    {
+      "filename": "ps5upload_v5.4.19.elf",
+      "path": "payloads/ps5_server/ps5upload/v5.4.19/ps5upload_v5.4.19.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ps5upload/v5.4.19/ps5upload_v5.4.19.elf",
+      "size_bytes": 1377576,
+      "updated_at": "2026-08-27T12:43:35Z"
+    },
+    {
+      "filename": "ps5upload_v5.10.0.elf",
+      "path": "payloads/ps5_server/ps5upload/v5.10.0/ps5upload_v5.10.0.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ps5upload/v5.10.0/ps5upload_v5.10.0.elf",
+      "size_bytes": 2229856,
+      "updated_at": "2026-08-27T12:43:35Z"
+    },
+    {
+      "filename": "ps5upload_v5.4.13.elf",
+      "path": "payloads/ps5_server/ps5upload/v5.4.13/ps5upload_v5.4.13.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ps5upload/v5.4.13/ps5upload_v5.4.13.elf",
+      "size_bytes": 1377512,
+      "updated_at": "2026-08-27T12:43:35Z"
+    },
+    {
+      "filename": "ps5upload_v5.2.1.elf",
+      "path": "payloads/ps5_server/ps5upload/v5.2.1/ps5upload_v5.2.1.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ps5upload/v5.2.1/ps5upload_v5.2.1.elf",
+      "size_bytes": 1352816,
+      "updated_at": "2026-08-27T12:43:35Z"
+    },
+    {
+      "filename": "ps5upload_v4.3.2.elf",
+      "path": "payloads/ps5_server/ps5upload/v4.3.2/ps5upload_v4.3.2.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ps5upload/v4.3.2/ps5upload_v4.3.2.elf",
+      "size_bytes": 1309712,
+      "updated_at": "2026-08-27T12:43:35Z"
+    },
+    {
+      "filename": "ps5upload_v5.1.4.elf",
+      "path": "payloads/ps5_server/ps5upload/v5.1.4/ps5upload_v5.1.4.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ps5upload/v5.1.4/ps5upload_v5.1.4.elf",
+      "size_bytes": 1313800,
+      "updated_at": "2026-08-27T12:43:35Z"
+    },
+    {
+      "filename": "ps5upload_v5.4.11.elf",
+      "path": "payloads/ps5_server/ps5upload/v5.4.11/ps5upload_v5.4.11.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ps5upload/v5.4.11/ps5upload_v5.4.11.elf",
+      "size_bytes": 1377376,
+      "updated_at": "2026-08-27T12:43:35Z"
+    },
+    {
+      "filename": "ps5upload_v5.3.3.elf",
+      "path": "payloads/ps5_server/ps5upload/v5.3.3/ps5upload_v5.3.3.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ps5upload/v5.3.3/ps5upload_v5.3.3.elf",
+      "size_bytes": 1353840,
+      "updated_at": "2026-08-27T12:43:35Z"
+    },
+    {
+      "filename": "ps5upload_v3.3.26.elf",
+      "path": "payloads/ps5_server/ps5upload/v3.3.26/ps5upload_v3.3.26.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ps5upload/v3.3.26/ps5upload_v3.3.26.elf",
+      "size_bytes": 1103992,
+      "updated_at": "2026-08-27T12:43:35Z"
+    },
+    {
+      "filename": "ps5upload_v3.3.25.elf",
+      "path": "payloads/ps5_server/ps5upload/v3.3.25/ps5upload_v3.3.25.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ps5upload/v3.3.25/ps5upload_v3.3.25.elf",
+      "size_bytes": 1102728,
+      "updated_at": "2026-08-27T12:43:35Z"
+    },
+    {
+      "filename": "ps5upload_v4.1.3.elf",
+      "path": "payloads/ps5_server/ps5upload/v4.1.3/ps5upload_v4.1.3.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ps5upload/v4.1.3/ps5upload_v4.1.3.elf",
+      "size_bytes": 1152552,
+      "updated_at": "2026-08-27T12:43:35Z"
+    },
+    {
+      "filename": "ps5upload_v4.1.0.elf",
+      "path": "payloads/ps5_server/ps5upload/v4.1.0/ps5upload_v4.1.0.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ps5upload/v4.1.0/ps5upload_v4.1.0.elf",
+      "size_bytes": 1150928,
+      "updated_at": "2026-08-27T12:43:35Z"
+    },
+    {
+      "filename": "ps5upload_v5.2.0.elf",
+      "path": "payloads/ps5_server/ps5upload/v5.2.0/ps5upload_v5.2.0.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ps5upload/v5.2.0/ps5upload_v5.2.0.elf",
+      "size_bytes": 1339688,
+      "updated_at": "2026-08-27T12:43:35Z"
+    },
+    {
+      "filename": "ps5upload_v5.1.6.elf",
+      "path": "payloads/ps5_server/ps5upload/v5.1.6/ps5upload_v5.1.6.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ps5upload/v5.1.6/ps5upload_v5.1.6.elf",
+      "size_bytes": 1314416,
+      "updated_at": "2026-08-27T12:43:35Z"
+    },
+    {
+      "filename": "ps5upload_v5.4.9.elf",
+      "path": "payloads/ps5_server/ps5upload/v5.4.9/ps5upload_v5.4.9.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ps5upload/v5.4.9/ps5upload_v5.4.9.elf",
+      "size_bytes": 1377376,
+      "updated_at": "2026-08-27T12:43:35Z"
+    },
+    {
+      "filename": "ps5upload_v5.4.17.elf",
+      "path": "payloads/ps5_server/ps5upload/v5.4.17/ps5upload_v5.4.17.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ps5upload/v5.4.17/ps5upload_v5.4.17.elf",
+      "size_bytes": 1377576,
+      "updated_at": "2026-08-27T12:43:35Z"
+    },
+    {
+      "filename": "ps5upload_v3.3.22.elf",
+      "path": "payloads/ps5_server/ps5upload/v3.3.22/ps5upload_v3.3.22.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ps5upload/v3.3.22/ps5upload_v3.3.22.elf",
+      "size_bytes": 1101896,
+      "updated_at": "2026-08-27T12:43:35Z"
+    },
+    {
+      "filename": "ps5upload_v5.1.8.elf",
+      "path": "payloads/ps5_server/ps5upload/v5.1.8/ps5upload_v5.1.8.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ps5upload/v5.1.8/ps5upload_v5.1.8.elf",
+      "size_bytes": 1314544,
+      "updated_at": "2026-08-27T12:43:35Z"
+    },
+    {
+      "filename": "ps5upload_v4.0.0.elf",
+      "path": "payloads/ps5_server/ps5upload/v4.0.0/ps5upload_v4.0.0.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ps5upload/v4.0.0/ps5upload_v4.0.0.elf",
+      "size_bytes": 1150928,
+      "updated_at": "2026-08-27T12:43:35Z"
+    },
+    {
+      "filename": "ps5upload_v4.1.8.elf",
+      "path": "payloads/ps5_server/ps5upload/v4.1.8/ps5upload_v4.1.8.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ps5upload/v4.1.8/ps5upload_v4.1.8.elf",
+      "size_bytes": 1153488,
+      "updated_at": "2026-08-27T12:43:35Z"
+    },
+    {
+      "filename": "ps5upload_v4.3.1.elf",
+      "path": "payloads/ps5_server/ps5upload/v4.3.1/ps5upload_v4.3.1.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ps5upload/v4.3.1/ps5upload_v4.3.1.elf",
+      "size_bytes": 1309712,
+      "updated_at": "2026-08-27T12:43:35Z"
+    },
+    {
+      "filename": "ps5upload_v5.0.0.elf",
+      "path": "payloads/ps5_server/ps5upload/v5.0.0/ps5upload_v5.0.0.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ps5upload/v5.0.0/ps5upload_v5.0.0.elf",
+      "size_bytes": 1309712,
+      "updated_at": "2026-08-27T12:43:35Z"
+    },
+    {
+      "filename": "ps5upload_v4.1.7.elf",
+      "path": "payloads/ps5_server/ps5upload/v4.1.7/ps5upload_v4.1.7.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ps5upload/v4.1.7/ps5upload_v4.1.7.elf",
+      "size_bytes": 1153352,
+      "updated_at": "2026-08-27T12:43:35Z"
+    },
+    {
+      "filename": "ps5upload_v5.7.1.elf",
+      "path": "payloads/ps5_server/ps5upload/v5.7.1/ps5upload_v5.7.1.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ps5upload/v5.7.1/ps5upload_v5.7.1.elf",
+      "size_bytes": 1381104,
+      "updated_at": "2026-08-27T12:43:35Z"
+    },
+    {
+      "filename": "ps5upload_v5.1.7.elf",
+      "path": "payloads/ps5_server/ps5upload/v5.1.7/ps5upload_v5.1.7.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ps5upload/v5.1.7/ps5upload_v5.1.7.elf",
+      "size_bytes": 1314416,
+      "updated_at": "2026-08-27T12:43:35Z"
+    },
+    {
+      "filename": "ps5upload_v5.4.8.elf",
+      "path": "payloads/ps5_server/ps5upload/v5.4.8/ps5upload_v5.4.8.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ps5upload/v5.4.8/ps5upload_v5.4.8.elf",
+      "size_bytes": 1377376,
+      "updated_at": "2026-08-27T12:43:35Z"
+    },
+    {
+      "filename": "ps5upload_v5.4.7.elf",
+      "path": "payloads/ps5_server/ps5upload/v5.4.7/ps5upload_v5.4.7.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ps5upload/v5.4.7/ps5upload_v5.4.7.elf",
+      "size_bytes": 1377376,
+      "updated_at": "2026-08-27T12:43:35Z"
+    },
+    {
+      "filename": "ps5upload_v4.1.1.elf",
+      "path": "payloads/ps5_server/ps5upload/v4.1.1/ps5upload_v4.1.1.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ps5upload/v4.1.1/ps5upload_v4.1.1.elf",
+      "size_bytes": 1151112,
+      "updated_at": "2026-08-27T12:43:35Z"
+    },
+    {
+      "filename": "ps5upload_v5.1.3.elf",
+      "path": "payloads/ps5_server/ps5upload/v5.1.3/ps5upload_v5.1.3.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ps5upload/v5.1.3/ps5upload_v5.1.3.elf",
+      "size_bytes": 1310312,
+      "updated_at": "2026-08-27T12:43:35Z"
+    },
+    {
+      "filename": "ps5upload_v3.4.0.elf",
+      "path": "payloads/ps5_server/ps5upload/v3.4.0/ps5upload_v3.4.0.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ps5upload/v3.4.0/ps5upload_v3.4.0.elf",
+      "size_bytes": 1104712,
+      "updated_at": "2026-08-27T12:43:35Z"
+    },
+    {
+      "filename": "ps5upload_v3.3.24.elf",
+      "path": "payloads/ps5_server/ps5upload/v3.3.24/ps5upload_v3.3.24.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ps5upload/v3.3.24/ps5upload_v3.3.24.elf",
+      "size_bytes": 1101896,
+      "updated_at": "2026-08-27T12:43:35Z"
+    },
+    {
+      "filename": "ps5upload_v5.4.2.elf",
+      "path": "payloads/ps5_server/ps5upload/v5.4.2/ps5upload_v5.4.2.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ps5upload/v5.4.2/ps5upload_v5.4.2.elf",
+      "size_bytes": 1375848,
+      "updated_at": "2026-08-27T12:43:35Z"
+    },
+    {
+      "filename": "ps5upload_v4.1.2.elf",
+      "path": "payloads/ps5_server/ps5upload/v4.1.2/ps5upload_v4.1.2.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ps5upload/v4.1.2/ps5upload_v4.1.2.elf",
+      "size_bytes": 1151112,
+      "updated_at": "2026-08-27T12:43:35Z"
+    },
+    {
+      "filename": "ps5upload_v5.1.0.elf",
+      "path": "payloads/ps5_server/ps5upload/v5.1.0/ps5upload_v5.1.0.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ps5upload/v5.1.0/ps5upload_v5.1.0.elf",
+      "size_bytes": 1309736,
+      "updated_at": "2026-08-27T12:43:35Z"
+    },
+    {
+      "filename": "Ghostcontrol-PS5-USB-Controller-Patcher_v1.0.4.elf",
+      "path": "payloads/ps5_utility/Ghostcontrol-PS5-USB-Controller-Patcher/1.0.4/Ghostcontrol-PS5-USB-Controller-Patcher_v1.0.4.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_utility/Ghostcontrol-PS5-USB-Controller-Patcher/1.0.4/Ghostcontrol-PS5-USB-Controller-Patcher_v1.0.4.elf",
+      "size_bytes": 326472,
+      "updated_at": "2026-08-27T12:43:35Z"
+    },
+    {
+      "filename": "Ghostcontrol-PS5-USB-Controller-Patcher_v1.0.5.elf",
+      "path": "payloads/ps5_utility/Ghostcontrol-PS5-USB-Controller-Patcher/1.0.5/Ghostcontrol-PS5-USB-Controller-Patcher_v1.0.5.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_utility/Ghostcontrol-PS5-USB-Controller-Patcher/1.0.5/Ghostcontrol-PS5-USB-Controller-Patcher_v1.0.5.elf",
+      "size_bytes": 348752,
+      "updated_at": "2026-08-27T12:43:35Z"
+    },
+    {
+      "filename": "unrar-ps5_v1.4.0.elf",
+      "path": "payloads/ps5_utility/unrar-ps5/v1.4.0/unrar-ps5_v1.4.0.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_utility/unrar-ps5/v1.4.0/unrar-ps5_v1.4.0.elf",
+      "size_bytes": 1537256,
+      "updated_at": "2026-08-27T12:43:35Z"
+    },
+    {
+      "filename": "PoorDS4rc38_v0.1.0-rc38.elf",
+      "path": "payloads/ps5_utility/PoorDS4/v0.1.0-rc38/PoorDS4rc38_v0.1.0-rc38.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_utility/PoorDS4/v0.1.0-rc38/PoorDS4rc38_v0.1.0-rc38.elf",
+      "size_bytes": 161592,
+      "updated_at": "2026-08-27T12:43:35Z"
+    },
+    {
+      "filename": "PoorDS4-stop_v0.1.0-rc38.elf",
+      "path": "payloads/ps5_utility/PoorDS4/v0.1.0-rc38/PoorDS4-stop_v0.1.0-rc38.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_utility/PoorDS4/v0.1.0-rc38/PoorDS4-stop_v0.1.0-rc38.elf",
+      "size_bytes": 89392,
+      "updated_at": "2026-08-27T12:43:35Z"
+    },
+    {
+      "filename": "PoorDS4-status_v0.1.0-rc38.elf",
+      "path": "payloads/ps5_utility/PoorDS4/v0.1.0-rc38/PoorDS4-status_v0.1.0-rc38.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_utility/PoorDS4/v0.1.0-rc38/PoorDS4-status_v0.1.0-rc38.elf",
+      "size_bytes": 89976,
+      "updated_at": "2026-08-27T12:43:35Z"
+    },
+    {
+      "filename": "PS_Game_State_Lib_v0.1.elf",
+      "path": "payloads/ps5_utility/PS_Game_State_Lib/v0.1/PS_Game_State_Lib_v0.1.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_utility/PS_Game_State_Lib/v0.1/PS_Game_State_Lib_v0.1.elf",
+      "size_bytes": 153536,
+      "updated_at": "2026-08-27T12:43:35Z"
+    },
+    {
+      "filename": "ps5power-reboot_v1.0.elf",
+      "path": "payloads/ps5_utility/PS5-Power-Payloads-Project/1.0/ps5power-reboot_v1.0.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_utility/PS5-Power-Payloads-Project/1.0/ps5power-reboot_v1.0.elf",
+      "size_bytes": 134024,
+      "updated_at": "2026-08-27T12:43:35Z"
+    },
+    {
+      "filename": "PS5-Power-Payloads-Project_v1.0.elf",
+      "path": "payloads/ps5_utility/PS5-Power-Payloads-Project/1.0/PS5-Power-Payloads-Project_v1.0.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_utility/PS5-Power-Payloads-Project/1.0/PS5-Power-Payloads-Project_v1.0.elf",
+      "size_bytes": 109608,
+      "updated_at": "2026-08-27T12:43:35Z"
+    },
+    {
+      "filename": "ps5power-notify_test_v1.0.elf",
+      "path": "payloads/ps5_utility/PS5-Power-Payloads-Project/1.0/ps5power-notify_test_v1.0.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_utility/PS5-Power-Payloads-Project/1.0/ps5power-notify_test_v1.0.elf",
+      "size_bytes": 109496,
+      "updated_at": "2026-08-27T12:43:35Z"
+    },
+    {
+      "filename": "ps5power-poweroff_v1.0.elf",
+      "path": "payloads/ps5_utility/PS5-Power-Payloads-Project/1.0/ps5power-poweroff_v1.0.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_utility/PS5-Power-Payloads-Project/1.0/ps5power-poweroff_v1.0.elf",
+      "size_bytes": 134024,
+      "updated_at": "2026-08-27T12:43:35Z"
+    },
+    {
+      "filename": "ps5power-suspend_v1.0.elf",
+      "path": "payloads/ps5_utility/PS5-Power-Payloads-Project/1.0/ps5power-suspend_v1.0.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_utility/PS5-Power-Payloads-Project/1.0/ps5power-suspend_v1.0.elf",
+      "size_bytes": 109608,
+      "updated_at": "2026-08-27T12:43:35Z"
+    },
+    {
+      "filename": "ChronicLoader-PS5-Payload_v0.1.elf",
+      "path": "payloads/ps5_utility/ChronicLoader-PS5-Payload/0.1/ChronicLoader-PS5-Payload_v0.1.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_utility/ChronicLoader-PS5-Payload/0.1/ChronicLoader-PS5-Payload_v0.1.elf",
+      "size_bytes": 2669960,
+      "updated_at": "2026-08-27T12:43:35Z"
+    },
+    {
+      "filename": "PS-DiscordPresence_v0.01.elf",
+      "path": "payloads/ps5_utility/PS-DiscordPresence/v0.01/PS-DiscordPresence_v0.01.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_utility/PS-DiscordPresence/v0.01/PS-DiscordPresence_v0.01.elf",
+      "size_bytes": 192872,
+      "updated_at": "2026-08-27T12:43:35Z"
+    },
+    {
+      "filename": "Ghostpad_v1.0.0.elf",
+      "path": "payloads/ps5_utility/Ghostpad/v1.0.0/Ghostpad_v1.0.0.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_utility/Ghostpad/v1.0.0/Ghostpad_v1.0.0.elf",
+      "size_bytes": 274312,
+      "updated_at": "2026-08-27T12:43:35Z"
+    },
+    {
+      "filename": "Host-PSM-pooP2JB-v1.1.0-instala-onionhen_v1.1.0.elf",
+      "path": "payloads/ps5-webkit-autoloader/Host-PSM_pooP2JB/v1.1.0/Host-PSM-pooP2JB-v1.1.0-instala-onionhen_v1.1.0.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5-webkit-autoloader/Host-PSM_pooP2JB/v1.1.0/Host-PSM-pooP2JB-v1.1.0-instala-onionhen_v1.1.0.elf",
+      "size_bytes": 3278160,
+      "updated_at": "2026-08-27T12:43:30Z"
+    },
+    {
+      "filename": "Host-PSM-pooP2JB-v1.1.0-instala-pldmgr_v1.1.0.elf",
+      "path": "payloads/ps5-webkit-autoloader/Host-PSM_pooP2JB/v1.1.0/Host-PSM-pooP2JB-v1.1.0-instala-pldmgr_v1.1.0.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5-webkit-autoloader/Host-PSM_pooP2JB/v1.1.0/Host-PSM-pooP2JB-v1.1.0-instala-pldmgr_v1.1.0.elf",
+      "size_bytes": 2409808,
+      "updated_at": "2026-08-27T12:43:30Z"
+    },
+    {
+      "filename": "Host-PSM-pooP2JB-v1.1.0-instala-onionhen-en_v1.1.0.elf",
+      "path": "payloads/ps5-webkit-autoloader/Host-PSM_pooP2JB/v1.1.0/Host-PSM-pooP2JB-v1.1.0-instala-onionhen-en_v1.1.0.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5-webkit-autoloader/Host-PSM_pooP2JB/v1.1.0/Host-PSM-pooP2JB-v1.1.0-instala-onionhen-en_v1.1.0.elf",
+      "size_bytes": 3278160,
+      "updated_at": "2026-08-27T12:43:30Z"
+    },
+    {
+      "filename": "Host-PSM-pooP2JB-v1.1.0-instala-pldmgr-en_v1.1.0.elf",
+      "path": "payloads/ps5-webkit-autoloader/Host-PSM_pooP2JB/v1.1.0/Host-PSM-pooP2JB-v1.1.0-instala-pldmgr-en_v1.1.0.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5-webkit-autoloader/Host-PSM_pooP2JB/v1.1.0/Host-PSM-pooP2JB-v1.1.0-instala-pldmgr-en_v1.1.0.elf",
+      "size_bytes": 2409808,
+      "updated_at": "2026-08-27T12:43:30Z"
+    },
+    {
+      "filename": "Host-PSM-pooP2JB-v1.1.1-instala-pldmgr-en_v1.1.1.elf",
+      "path": "payloads/ps5-webkit-autoloader/Host-PSM_pooP2JB/v1.1.1/Host-PSM-pooP2JB-v1.1.1-instala-pldmgr-en_v1.1.1.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5-webkit-autoloader/Host-PSM_pooP2JB/v1.1.1/Host-PSM-pooP2JB-v1.1.1-instala-pldmgr-en_v1.1.1.elf",
+      "size_bytes": 2409808,
+      "updated_at": "2026-08-27T12:43:30Z"
+    },
+    {
+      "filename": "Host-PSM-pooP2JB-v1.1.1-instala-pldmgr_v1.1.1.elf",
+      "path": "payloads/ps5-webkit-autoloader/Host-PSM_pooP2JB/v1.1.1/Host-PSM-pooP2JB-v1.1.1-instala-pldmgr_v1.1.1.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5-webkit-autoloader/Host-PSM_pooP2JB/v1.1.1/Host-PSM-pooP2JB-v1.1.1-instala-pldmgr_v1.1.1.elf",
+      "size_bytes": 2409808,
+      "updated_at": "2026-08-27T12:43:30Z"
+    },
+    {
+      "filename": "Host-PSM-pooP2JB-v1.1.1-instala-onionhen_v1.1.1.elf",
+      "path": "payloads/ps5-webkit-autoloader/Host-PSM_pooP2JB/v1.1.1/Host-PSM-pooP2JB-v1.1.1-instala-onionhen_v1.1.1.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5-webkit-autoloader/Host-PSM_pooP2JB/v1.1.1/Host-PSM-pooP2JB-v1.1.1-instala-onionhen_v1.1.1.elf",
+      "size_bytes": 3278160,
+      "updated_at": "2026-08-27T12:43:30Z"
+    },
+    {
+      "filename": "Host-PSM-pooP2JB-v1.1.1-instala-onionhen-en_v1.1.1.elf",
+      "path": "payloads/ps5-webkit-autoloader/Host-PSM_pooP2JB/v1.1.1/Host-PSM-pooP2JB-v1.1.1-instala-onionhen-en_v1.1.1.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5-webkit-autoloader/Host-PSM_pooP2JB/v1.1.1/Host-PSM-pooP2JB-v1.1.1-instala-onionhen-en_v1.1.1.elf",
+      "size_bytes": 3278160,
+      "updated_at": "2026-08-27T12:43:30Z"
+    },
+    {
+      "filename": "Host-PSM-pooP2JB-v1.1.2-instala-onionhen-en_v1.1.2.elf",
+      "path": "payloads/ps5-webkit-autoloader/Host-PSM_pooP2JB/v1.1.2/Host-PSM-pooP2JB-v1.1.2-instala-onionhen-en_v1.1.2.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5-webkit-autoloader/Host-PSM_pooP2JB/v1.1.2/Host-PSM-pooP2JB-v1.1.2-instala-onionhen-en_v1.1.2.elf",
+      "size_bytes": 5670224,
+      "updated_at": "2026-08-27T12:43:30Z"
+    },
+    {
+      "filename": "Host-PSM-pooP2JB-v1.1.2-instala-pldmgr_v1.1.2.elf",
+      "path": "payloads/ps5-webkit-autoloader/Host-PSM_pooP2JB/v1.1.2/Host-PSM-pooP2JB-v1.1.2-instala-pldmgr_v1.1.2.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5-webkit-autoloader/Host-PSM_pooP2JB/v1.1.2/Host-PSM-pooP2JB-v1.1.2-instala-pldmgr_v1.1.2.elf",
+      "size_bytes": 2409808,
+      "updated_at": "2026-08-27T12:43:30Z"
+    },
+    {
+      "filename": "Host-PSM-pooP2JB-v1.1.2-instala-pldmgr-en_v1.1.2.elf",
+      "path": "payloads/ps5-webkit-autoloader/Host-PSM_pooP2JB/v1.1.2/Host-PSM-pooP2JB-v1.1.2-instala-pldmgr-en_v1.1.2.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5-webkit-autoloader/Host-PSM_pooP2JB/v1.1.2/Host-PSM-pooP2JB-v1.1.2-instala-pldmgr-en_v1.1.2.elf",
+      "size_bytes": 2409808,
+      "updated_at": "2026-08-27T12:43:30Z"
+    },
+    {
+      "filename": "Host-PSM-pooP2JB-v1.1.2-instala-onionhen_v1.1.2.elf",
+      "path": "payloads/ps5-webkit-autoloader/Host-PSM_pooP2JB/v1.1.2/Host-PSM-pooP2JB-v1.1.2-instala-onionhen_v1.1.2.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5-webkit-autoloader/Host-PSM_pooP2JB/v1.1.2/Host-PSM-pooP2JB-v1.1.2-instala-onionhen_v1.1.2.elf",
+      "size_bytes": 5670224,
+      "updated_at": "2026-08-27T12:43:30Z"
+    },
+    {
+      "filename": "webkit-autoloader-installer_v0.4.0.elf",
+      "path": "payloads/ps5-webkit-autoloader/ps5-webkit-autoloader/v0.4.0/webkit-autoloader-installer_v0.4.0.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5-webkit-autoloader/ps5-webkit-autoloader/v0.4.0/webkit-autoloader-installer_v0.4.0.elf",
+      "size_bytes": 2163968,
+      "updated_at": "2026-08-27T12:43:31Z"
+    },
+    {
+      "filename": "webkit-autoloader-installer_v0.2.0.elf",
+      "path": "payloads/ps5-webkit-autoloader/ps5-webkit-autoloader/v0.2.0/webkit-autoloader-installer_v0.2.0.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5-webkit-autoloader/ps5-webkit-autoloader/v0.2.0/webkit-autoloader-installer_v0.2.0.elf",
+      "size_bytes": 1770752,
+      "updated_at": "2026-08-27T12:43:31Z"
+    },
+    {
+      "filename": "webkit-autoloader-installer_v0.4.0-pre-97dc296.elf",
+      "path": "payloads/ps5-webkit-autoloader/ps5-webkit-autoloader/v0.4.0-pre-97dc296/webkit-autoloader-installer_v0.4.0-pre-97dc296.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5-webkit-autoloader/ps5-webkit-autoloader/v0.4.0-pre-97dc296/webkit-autoloader-installer_v0.4.0-pre-97dc296.elf",
+      "size_bytes": 2016512,
+      "updated_at": "2026-08-27T12:43:31Z"
+    },
+    {
+      "filename": "webkit-autoloader-installer_v0.3.1-pre-3e9b02d.elf",
+      "path": "payloads/ps5-webkit-autoloader/ps5-webkit-autoloader/v0.3.1-pre-3e9b02d/webkit-autoloader-installer_v0.3.1-pre-3e9b02d.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5-webkit-autoloader/ps5-webkit-autoloader/v0.3.1-pre-3e9b02d/webkit-autoloader-installer_v0.3.1-pre-3e9b02d.elf",
+      "size_bytes": 1983744,
+      "updated_at": "2026-08-27T12:43:31Z"
+    },
+    {
+      "filename": "webkit-autoloader-installer_v0.3.0.elf",
+      "path": "payloads/ps5-webkit-autoloader/ps5-webkit-autoloader/v0.3.0/webkit-autoloader-installer_v0.3.0.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5-webkit-autoloader/ps5-webkit-autoloader/v0.3.0/webkit-autoloader-installer_v0.3.0.elf",
+      "size_bytes": 1983744,
+      "updated_at": "2026-08-27T12:43:31Z"
+    },
+    {
+      "filename": "webkit-autoloader-installer_v0.1.1.elf",
+      "path": "payloads/ps5-webkit-autoloader/ps5-webkit-autoloader/v0.1.1/webkit-autoloader-installer_v0.1.1.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5-webkit-autoloader/ps5-webkit-autoloader/v0.1.1/webkit-autoloader-installer_v0.1.1.elf",
+      "size_bytes": 1787136,
+      "updated_at": "2026-08-27T12:43:31Z"
+    },
+    {
+      "filename": "webkit-autoloader-installer_v0.2.1.elf",
+      "path": "payloads/ps5-webkit-autoloader/ps5-webkit-autoloader/v0.2.1/webkit-autoloader-installer_v0.2.1.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5-webkit-autoloader/ps5-webkit-autoloader/v0.2.1/webkit-autoloader-installer_v0.2.1.elf",
+      "size_bytes": 1803520,
+      "updated_at": "2026-08-27T12:43:31Z"
+    },
+    {
+      "filename": "webkit-autoloader-installer_v0.4.0-pre-c6b9873.elf",
+      "path": "payloads/ps5-webkit-autoloader/ps5-webkit-autoloader/v0.4.0-pre-c6b9873/webkit-autoloader-installer_v0.4.0-pre-c6b9873.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5-webkit-autoloader/ps5-webkit-autoloader/v0.4.0-pre-c6b9873/webkit-autoloader-installer_v0.4.0-pre-c6b9873.elf",
+      "size_bytes": 2163968,
+      "updated_at": "2026-08-27T12:43:31Z"
+    },
+    {
+      "filename": "webkit-autoloader-installer_v0.2.3-pre-ed88da6.elf",
+      "path": "payloads/ps5-webkit-autoloader/ps5-webkit-autoloader/v0.2.3-pre-ed88da6/webkit-autoloader-installer_v0.2.3-pre-ed88da6.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5-webkit-autoloader/ps5-webkit-autoloader/v0.2.3-pre-ed88da6/webkit-autoloader-installer_v0.2.3-pre-ed88da6.elf",
+      "size_bytes": 2016512,
+      "updated_at": "2026-08-27T12:43:31Z"
+    },
+    {
+      "filename": "webkit-autoloader-installer_v0.3.0-pre-1378d31.elf",
+      "path": "payloads/ps5-webkit-autoloader/ps5-webkit-autoloader/v0.3.0-pre-1378d31/webkit-autoloader-installer_v0.3.0-pre-1378d31.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5-webkit-autoloader/ps5-webkit-autoloader/v0.3.0-pre-1378d31/webkit-autoloader-installer_v0.3.0-pre-1378d31.elf",
+      "size_bytes": 2114816,
+      "updated_at": "2026-08-27T12:43:31Z"
+    },
+    {
+      "filename": "webkit-autoloader-installer_v0.3.0-pre-5d50af6.elf",
+      "path": "payloads/ps5-webkit-autoloader/ps5-webkit-autoloader/v0.3.0-pre-5d50af6/webkit-autoloader-installer_v0.3.0-pre-5d50af6.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5-webkit-autoloader/ps5-webkit-autoloader/v0.3.0-pre-5d50af6/webkit-autoloader-installer_v0.3.0-pre-5d50af6.elf",
+      "size_bytes": 2098432,
+      "updated_at": "2026-08-27T12:43:31Z"
+    },
+    {
+      "filename": "webkit-autoloader-installer_v0.3.1-pre-2235c43.elf",
+      "path": "payloads/ps5-webkit-autoloader/ps5-webkit-autoloader/v0.3.1-pre-2235c43/webkit-autoloader-installer_v0.3.1-pre-2235c43.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5-webkit-autoloader/ps5-webkit-autoloader/v0.3.1-pre-2235c43/webkit-autoloader-installer_v0.3.1-pre-2235c43.elf",
+      "size_bytes": 1983744,
+      "updated_at": "2026-08-27T12:43:31Z"
+    },
+    {
+      "filename": "webkit-autoloader-installer_v0.3.1.elf",
+      "path": "payloads/ps5-webkit-autoloader/ps5-webkit-autoloader/v0.3.1/webkit-autoloader-installer_v0.3.1.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5-webkit-autoloader/ps5-webkit-autoloader/v0.3.1/webkit-autoloader-installer_v0.3.1.elf",
+      "size_bytes": 1983744,
+      "updated_at": "2026-08-27T12:43:31Z"
+    },
+    {
+      "filename": "webkit-autoloader-installer_v0.4.0-pre-222ef37.elf",
+      "path": "payloads/ps5-webkit-autoloader/ps5-webkit-autoloader/v0.4.0-pre-222ef37/webkit-autoloader-installer_v0.4.0-pre-222ef37.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5-webkit-autoloader/ps5-webkit-autoloader/v0.4.0-pre-222ef37/webkit-autoloader-installer_v0.4.0-pre-222ef37.elf",
+      "size_bytes": 2163968,
+      "updated_at": "2026-08-27T12:43:31Z"
+    },
+    {
+      "filename": "webkit-autoloader-installer_v0.2.2-pre-e1b7e6b.elf",
+      "path": "payloads/ps5-webkit-autoloader/ps5-webkit-autoloader/v0.2.2-pre-e1b7e6b/webkit-autoloader-installer_v0.2.2-pre-e1b7e6b.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5-webkit-autoloader/ps5-webkit-autoloader/v0.2.2-pre-e1b7e6b/webkit-autoloader-installer_v0.2.2-pre-e1b7e6b.elf",
+      "size_bytes": 2016512,
+      "updated_at": "2026-08-27T12:43:31Z"
+    },
+    {
+      "filename": "webkit-autoloader-installer_v0.3.0-pre-eeb555e.elf",
+      "path": "payloads/ps5-webkit-autoloader/ps5-webkit-autoloader/v0.3.0-pre-eeb555e/webkit-autoloader-installer_v0.3.0-pre-eeb555e.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5-webkit-autoloader/ps5-webkit-autoloader/v0.3.0-pre-eeb555e/webkit-autoloader-installer_v0.3.0-pre-eeb555e.elf",
+      "size_bytes": 1983744,
+      "updated_at": "2026-08-27T12:43:31Z"
+    },
+    {
+      "filename": "webkit-autoloader-installer_v0.4.0-pre-00e1028.elf",
+      "path": "payloads/ps5-webkit-autoloader/ps5-webkit-autoloader/v0.4.0-pre-00e1028/webkit-autoloader-installer_v0.4.0-pre-00e1028.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5-webkit-autoloader/ps5-webkit-autoloader/v0.4.0-pre-00e1028/webkit-autoloader-installer_v0.4.0-pre-00e1028.elf",
+      "size_bytes": 2163968,
+      "updated_at": "2026-08-27T12:43:31Z"
+    },
+    {
+      "filename": "etaHEN_v2.5B.bin",
+      "path": "payloads/ps5_hen_loader/etaHEN/2.5B/etaHEN_v2.5B.bin",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/etaHEN/2.5B/etaHEN_v2.5B.bin",
+      "size_bytes": 4678728,
+      "updated_at": "2026-08-27T12:43:32Z"
+    },
+    {
+      "filename": "pldmgr_v0.4.0.elf",
+      "path": "payloads/ps5_hen_loader/PS5_Payload_Manager/v0.4.0/pldmgr_v0.4.0.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/PS5_Payload_Manager/v0.4.0/pldmgr_v0.4.0.elf",
+      "size_bytes": 2132240,
+      "updated_at": "2026-08-27T12:43:32Z"
+    },
+    {
+      "filename": "pldmgr_v0.5.1.elf",
+      "path": "payloads/ps5_hen_loader/PS5_Payload_Manager/v0.5.1/pldmgr_v0.5.1.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/PS5_Payload_Manager/v0.5.1/pldmgr_v0.5.1.elf",
+      "size_bytes": 2410768,
+      "updated_at": "2026-08-27T12:43:32Z"
+    },
+    {
+      "filename": "pldmgr_v0.4.2.elf",
+      "path": "payloads/ps5_hen_loader/PS5_Payload_Manager/v0.4.2/pldmgr_v0.4.2.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/PS5_Payload_Manager/v0.4.2/pldmgr_v0.4.2.elf",
+      "size_bytes": 2345232,
+      "updated_at": "2026-08-27T12:43:32Z"
+    },
+    {
+      "filename": "pldmgr_v0.3.3.elf",
+      "path": "payloads/ps5_hen_loader/PS5_Payload_Manager/v0.3.3/pldmgr_v0.3.3.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/PS5_Payload_Manager/v0.3.3/pldmgr_v0.3.3.elf",
+      "size_bytes": 2050320,
+      "updated_at": "2026-08-27T12:43:32Z"
+    },
+    {
+      "filename": "pldmgr_v0.3.1.elf",
+      "path": "payloads/ps5_hen_loader/PS5_Payload_Manager/v0.3.1/pldmgr_v0.3.1.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/PS5_Payload_Manager/v0.3.1/pldmgr_v0.3.1.elf",
+      "size_bytes": 2050320,
+      "updated_at": "2026-08-27T12:43:32Z"
+    },
+    {
+      "filename": "pldmgr_v0.5.0.elf",
+      "path": "payloads/ps5_hen_loader/PS5_Payload_Manager/v0.5.0/pldmgr_v0.5.0.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/PS5_Payload_Manager/v0.5.0/pldmgr_v0.5.0.elf",
+      "size_bytes": 2394384,
+      "updated_at": "2026-08-27T12:43:32Z"
+    },
+    {
+      "filename": "pldmgr_v0.4.1.elf",
+      "path": "payloads/ps5_hen_loader/PS5_Payload_Manager/v0.4.1/pldmgr_v0.4.1.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/PS5_Payload_Manager/v0.4.1/pldmgr_v0.4.1.elf",
+      "size_bytes": 2132240,
+      "updated_at": "2026-08-27T12:43:32Z"
+    },
+    {
+      "filename": "onionHEN_v0.0.11.elf",
+      "path": "payloads/ps5_hen_loader/onionHEN/v0.0.11/onionHEN_v0.0.11.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/onionHEN/v0.0.11/onionHEN_v0.0.11.elf",
+      "size_bytes": 4427304,
+      "updated_at": "2026-08-27T12:43:32Z"
+    },
+    {
+      "filename": "onionHEN_v0.0.10.elf",
+      "path": "payloads/ps5_hen_loader/onionHEN/v0.0.10/onionHEN_v0.0.10.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/onionHEN/v0.0.10/onionHEN_v0.0.10.elf",
+      "size_bytes": 2021824,
+      "updated_at": "2026-08-27T12:43:32Z"
+    },
+    {
+      "filename": "Kura_v1.1.0.elf",
+      "path": "payloads/ps5_hen_loader/Kura/v1.1.0/Kura_v1.1.0.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/Kura/v1.1.0/Kura_v1.1.0.elf",
+      "size_bytes": 7944168,
+      "updated_at": "2026-08-27T12:43:32Z"
+    },
+    {
+      "filename": "Kura_v1.6.0.elf",
+      "path": "payloads/ps5_hen_loader/Kura/v1.6.0/Kura_v1.6.0.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/Kura/v1.6.0/Kura_v1.6.0.elf",
+      "size_bytes": 7986120,
+      "updated_at": "2026-08-27T12:43:32Z"
+    },
+    {
+      "filename": "Kura_v1.4.0.elf",
+      "path": "payloads/ps5_hen_loader/Kura/v1.4.0/Kura_v1.4.0.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/Kura/v1.4.0/Kura_v1.4.0.elf",
+      "size_bytes": 7986120,
+      "updated_at": "2026-08-27T12:43:32Z"
+    },
+    {
+      "filename": "Kura_v1.6.29.elf",
+      "path": "payloads/ps5_hen_loader/Kura/v1.6.29/Kura_v1.6.29.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/Kura/v1.6.29/Kura_v1.6.29.elf",
+      "size_bytes": 8254112,
+      "updated_at": "2026-08-27T12:43:32Z"
+    },
+    {
+      "filename": "Kura_v1.0.4.elf",
+      "path": "payloads/ps5_hen_loader/Kura/v1.0.4/Kura_v1.0.4.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/Kura/v1.0.4/Kura_v1.0.4.elf",
+      "size_bytes": 7944168,
+      "updated_at": "2026-08-27T12:43:32Z"
+    },
+    {
+      "filename": "Kura_v1.0.0-beta.41.elf",
+      "path": "payloads/ps5_hen_loader/Kura/v1.0.0-beta.41/Kura_v1.0.0-beta.41.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/Kura/v1.0.0-beta.41/Kura_v1.0.0-beta.41.elf",
+      "size_bytes": 7911384,
+      "updated_at": "2026-08-27T12:43:31Z"
+    },
+    {
+      "filename": "Kura_v1.6.31.elf",
+      "path": "payloads/ps5_hen_loader/Kura/v1.6.31/Kura_v1.6.31.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/Kura/v1.6.31/Kura_v1.6.31.elf",
+      "size_bytes": 8254112,
+      "updated_at": "2026-08-27T12:43:32Z"
+    },
+    {
+      "filename": "Kura_v1.0.0-beta.22.elf",
+      "path": "payloads/ps5_hen_loader/Kura/v1.0.0-beta.22/Kura_v1.0.0-beta.22.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/Kura/v1.0.0-beta.22/Kura_v1.0.0-beta.22.elf",
+      "size_bytes": 12453384,
+      "updated_at": "2026-08-27T12:43:31Z"
+    },
+    {
+      "filename": "Kura_v1.5.2.elf",
+      "path": "payloads/ps5_hen_loader/Kura/v1.5.2/Kura_v1.5.2.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/Kura/v1.5.2/Kura_v1.5.2.elf",
+      "size_bytes": 7986120,
+      "updated_at": "2026-08-27T12:43:32Z"
+    },
+    {
+      "filename": "Kura_v1.6.32.elf",
+      "path": "payloads/ps5_hen_loader/Kura/v1.6.32/Kura_v1.6.32.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/Kura/v1.6.32/Kura_v1.6.32.elf",
+      "size_bytes": 8296968,
+      "updated_at": "2026-08-27T12:43:32Z"
+    },
+    {
+      "filename": "Kura_v1.6.2.elf",
+      "path": "payloads/ps5_hen_loader/Kura/v1.6.2/Kura_v1.6.2.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/Kura/v1.6.2/Kura_v1.6.2.elf",
+      "size_bytes": 7986120,
+      "updated_at": "2026-08-27T12:43:32Z"
+    },
+    {
+      "filename": "Kura_v1.0.0.elf",
+      "path": "payloads/ps5_hen_loader/Kura/v1.0.0/Kura_v1.0.0.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/Kura/v1.0.0/Kura_v1.0.0.elf",
+      "size_bytes": 7944168,
+      "updated_at": "2026-08-27T12:43:32Z"
+    },
+    {
+      "filename": "Kura_v1.6.24.elf",
+      "path": "payloads/ps5_hen_loader/Kura/v1.6.24/Kura_v1.6.24.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/Kura/v1.6.24/Kura_v1.6.24.elf",
+      "size_bytes": 8245176,
+      "updated_at": "2026-08-27T12:43:32Z"
+    },
+    {
+      "filename": "Kura_v1.0.5.elf",
+      "path": "payloads/ps5_hen_loader/Kura/v1.0.5/Kura_v1.0.5.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/Kura/v1.0.5/Kura_v1.0.5.elf",
+      "size_bytes": 7944168,
+      "updated_at": "2026-08-27T12:43:32Z"
+    },
+    {
+      "filename": "Kura_v1.6.47.elf",
+      "path": "payloads/ps5_hen_loader/Kura/v1.6.47/Kura_v1.6.47.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/Kura/v1.6.47/Kura_v1.6.47.elf",
+      "size_bytes": 8297208,
+      "updated_at": "2026-08-27T12:43:32Z"
+    },
+    {
+      "filename": "Kura_v1.0.1.elf",
+      "path": "payloads/ps5_hen_loader/Kura/v1.0.1/Kura_v1.0.1.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/Kura/v1.0.1/Kura_v1.0.1.elf",
+      "size_bytes": 7944168,
+      "updated_at": "2026-08-27T12:43:32Z"
+    },
+    {
+      "filename": "Kura_v1.6.48.elf",
+      "path": "payloads/ps5_hen_loader/Kura/v1.6.48/Kura_v1.6.48.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/Kura/v1.6.48/Kura_v1.6.48.elf",
+      "size_bytes": 409752,
+      "updated_at": "2026-08-27T12:43:32Z"
+    },
+    {
+      "filename": "Kura_v1.5.0.elf",
+      "path": "payloads/ps5_hen_loader/Kura/v1.5.0/Kura_v1.5.0.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/Kura/v1.5.0/Kura_v1.5.0.elf",
+      "size_bytes": 7986120,
+      "updated_at": "2026-08-27T12:43:32Z"
+    },
+    {
+      "filename": "Kura_v1.6.36.elf",
+      "path": "payloads/ps5_hen_loader/Kura/v1.6.36/Kura_v1.6.36.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/Kura/v1.6.36/Kura_v1.6.36.elf",
+      "size_bytes": 8297208,
+      "updated_at": "2026-08-27T12:43:32Z"
+    },
+    {
+      "filename": "Kura_v1.6.25.elf",
+      "path": "payloads/ps5_hen_loader/Kura/v1.6.25/Kura_v1.6.25.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/Kura/v1.6.25/Kura_v1.6.25.elf",
+      "size_bytes": 8245176,
+      "updated_at": "2026-08-27T12:43:32Z"
+    },
+    {
+      "filename": "Kura_v1.3.0.elf",
+      "path": "payloads/ps5_hen_loader/Kura/v1.3.0/Kura_v1.3.0.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/Kura/v1.3.0/Kura_v1.3.0.elf",
+      "size_bytes": 7944168,
+      "updated_at": "2026-08-27T12:43:32Z"
+    },
+    {
+      "filename": "etaHEN-2.6B.bin",
+      "path": "payloads/ps5_hen_loader/etaHEN-Beta/Source-Fixe/etaHEN-2.6B.bin",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/etaHEN-Beta/Source-Fixe/etaHEN-2.6B.bin",
+      "size_bytes": 4740712,
+      "updated_at": "2026-08-27T12:43:32Z"
+    },
+    {
+      "filename": "PIZZA-HEN_v0.1.elf",
+      "path": "payloads/ps5_hen_loader/PIZZA-HEN/v0.1/PIZZA-HEN_v0.1.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/PIZZA-HEN/v0.1/PIZZA-HEN_v0.1.elf",
+      "size_bytes": 7171688,
+      "updated_at": "2026-08-27T12:43:32Z"
+    },
+    {
+      "filename": "PIZZA-HEN_v1.0.elf",
+      "path": "payloads/ps5_hen_loader/PIZZA-HEN/v1.0/PIZZA-HEN_v1.0.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/PIZZA-HEN/v1.0/PIZZA-HEN_v1.0.elf",
+      "size_bytes": 8778712,
+      "updated_at": "2026-08-27T12:43:32Z"
+    },
+    {
+      "filename": "PIZZA-HEN_v2.00.elf",
+      "path": "payloads/ps5_hen_loader/PIZZA-HEN/v2.00/PIZZA-HEN_v2.00.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/PIZZA-HEN/v2.00/PIZZA-HEN_v2.00.elf",
+      "size_bytes": 62376400,
+      "updated_at": "2026-08-27T12:43:32Z"
+    },
+    {
+      "filename": "ELF_Arsenal_v1.6.22.elf",
+      "path": "payloads/ps5_hen_loader/ELF_Arsenal/v1.6.22/ELF_Arsenal_v1.6.22.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/ELF_Arsenal/v1.6.22/ELF_Arsenal_v1.6.22.elf",
+      "size_bytes": 4708560,
+      "updated_at": "2026-08-27T12:43:31Z"
+    },
+    {
+      "filename": "ELF_Arsenal_v1.6.21.elf",
+      "path": "payloads/ps5_hen_loader/ELF_Arsenal/v1.6.21/ELF_Arsenal_v1.6.21.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/ELF_Arsenal/v1.6.21/ELF_Arsenal_v1.6.21.elf",
+      "size_bytes": 4692176,
+      "updated_at": "2026-08-27T12:43:31Z"
+    },
+    {
+      "filename": "PS5_Unified_Autoloader_v0.1.4-955249d.elf",
+      "path": "payloads/ps5_hen_loader/PS5_Unified_Autoloader/v0.1.4-955249d/PS5_Unified_Autoloader_v0.1.4-955249d.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/PS5_Unified_Autoloader/v0.1.4-955249d/PS5_Unified_Autoloader_v0.1.4-955249d.elf",
+      "size_bytes": 2526728,
+      "updated_at": "2026-08-27T12:43:32Z"
+    },
+    {
+      "filename": "PS5_Unified_Autoloader_v0.1.2-8e96846.elf",
+      "path": "payloads/ps5_hen_loader/PS5_Unified_Autoloader/v0.1.2-8e96846/PS5_Unified_Autoloader_v0.1.2-8e96846.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/PS5_Unified_Autoloader/v0.1.2-8e96846/PS5_Unified_Autoloader_v0.1.2-8e96846.elf",
+      "size_bytes": 2149888,
+      "updated_at": "2026-08-27T12:43:32Z"
+    },
+    {
+      "filename": "PS5_Unified_Autoloader_v0.1.3-78a6f02.elf",
+      "path": "payloads/ps5_hen_loader/PS5_Unified_Autoloader/v0.1.3-78a6f02/PS5_Unified_Autoloader_v0.1.3-78a6f02.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/PS5_Unified_Autoloader/v0.1.3-78a6f02/PS5_Unified_Autoloader_v0.1.3-78a6f02.elf",
+      "size_bytes": 2510344,
+      "updated_at": "2026-08-27T12:43:32Z"
+    },
+    {
+      "filename": "fan_target_75c_v0.1.elf",
+      "path": "payloads/ps5_fan/fan_target/0.1/fan_target_75c_v0.1.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_fan/fan_target/0.1/fan_target_75c_v0.1.elf",
+      "size_bytes": 115952,
+      "updated_at": "2026-08-27T12:43:31Z"
+    },
+    {
+      "filename": "fan_target_85c_v0.1.elf",
+      "path": "payloads/ps5_fan/fan_target/0.1/fan_target_85c_v0.1.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_fan/fan_target/0.1/fan_target_85c_v0.1.elf",
+      "size_bytes": 115952,
+      "updated_at": "2026-08-27T12:43:31Z"
+    },
+    {
+      "filename": "fan_target_80c_v0.1.elf",
+      "path": "payloads/ps5_fan/fan_target/0.1/fan_target_80c_v0.1.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_fan/fan_target/0.1/fan_target_80c_v0.1.elf",
+      "size_bytes": 115952,
+      "updated_at": "2026-08-27T12:43:31Z"
+    },
+    {
+      "filename": "fan_target_70c_v0.1.elf",
+      "path": "payloads/ps5_fan/fan_target/0.1/fan_target_70c_v0.1.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_fan/fan_target/0.1/fan_target_70c_v0.1.elf",
+      "size_bytes": 115952,
+      "updated_at": "2026-08-27T12:43:31Z"
+    },
+    {
+      "filename": "fan_target_65c_v0.1.elf",
+      "path": "payloads/ps5_fan/fan_target/0.1/fan_target_65c_v0.1.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_fan/fan_target/0.1/fan_target_65c_v0.1.elf",
+      "size_bytes": 115952,
+      "updated_at": "2026-08-27T12:43:31Z"
+    },
+    {
+      "filename": "ps5-fan-control_v0.2.elf",
+      "path": "payloads/ps5_fan/ps5-fan-control/v0.2/ps5-fan-control_v0.2.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_fan/ps5-fan-control/v0.2/ps5-fan-control_v0.2.elf",
+      "size_bytes": 119720,
+      "updated_at": "2026-08-27T12:43:31Z"
+    },
+    {
+      "filename": "ps5-fan-control_v0.3.elf",
+      "path": "payloads/ps5_fan/ps5-fan-control/v0.3/ps5-fan-control_v0.3.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_fan/ps5-fan-control/v0.3/ps5-fan-control_v0.3.elf",
+      "size_bytes": 119664,
+      "updated_at": "2026-08-27T12:43:31Z"
+    },
+    {
+      "filename": "np-fake-signin_v1.3.elf",
+      "path": "payloads/PS5_Activation/np-fake-signin/v1.3/np-fake-signin_v1.3.elf",
+      "download_url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Activation/np-fake-signin/v1.3/np-fake-signin_v1.3.elf",
+      "size_bytes": 101120,
+      "updated_at": "2026-08-27T12:43:30Z"
+    }
+  ]
+}
