@@ -2,8 +2,13 @@ name: PS5 Super PLDMGR Auto Updater Pipeline
 
 on:
   schedule:
-    - cron: '0 */6 * * *' # Exécution toutes les 6 heures
-  workflow_dispatch:      # Permet le déclenchement manuel
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
 
 jobs:
   build:
@@ -30,6 +35,12 @@ jobs:
         run: |
           python botbuild/main.py
 
+      - name: Clean dist for Pages (Remove ZIPs from Pages deployment)
+        run: |
+          # Conserve les ZIP dans un dossier temporaire pour la Release
+          mkdir -p /tmp/release_assets
+          mv dist/*.zip /tmp/release_assets/ || true
+
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
@@ -44,9 +55,9 @@ jobs:
           name: "PS5 Payloads & PKG Auto-Update"
           body_path: whatsnew.md
           files: |
-            dist/payloads_aio.zip
-            dist/pkg_aio.zip
-            dist/PS5_Super_PLDMGR_Store_Template.zip
+            /tmp/release_assets/payloads_aio.zip
+            /tmp/release_assets/pkg_aio.zip
+            /tmp/release_assets/PS5_Super_PLDMGR_Store_Template.zip
           draft: false
           prerelease: false
         env:
