@@ -5,11 +5,6 @@ on:
     - cron: '0 */6 * * *'
   workflow_dispatch:
 
-permissions:
-  contents: write
-  pages: write
-  id-token: write
-
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -35,9 +30,14 @@ jobs:
         run: |
           python botbuild/main.py
 
-      - name: Clean dist for Pages (Remove ZIPs from Pages deployment)
+      # Copie d'index.html à la racine du dépôt local avant le commit
+      - name: Copy index.html to Root
         run: |
-          # Conserve les ZIP dans un dossier temporaire pour la Release
+          if [ -f dist/index.html ]; then cp dist/index.html ./index.html; fi
+
+      # Déplacement des ZIP pour la Release hors du dossier dist/
+      - name: Prepare Release Assets
+        run: |
           mkdir -p /tmp/release_assets
           mv dist/*.zip /tmp/release_assets/ || true
 
