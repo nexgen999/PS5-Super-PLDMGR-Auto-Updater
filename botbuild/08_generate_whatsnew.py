@@ -1,69 +1,56 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-===============================================================================
-Module 08 : Génération du Changelog whatsnew.md
-===============================================================================
-Rôle :
-1. Récupère les fichiers les plus récents ajoutés ou mis à jour.
-2. Synthétise les informations sous forme d'un document Markdown clair.
-3. Enregistre le résultat dans `whatsnew.md` à la racine du dépôt.
-===============================================================================
-"""
-
+import json
 import os
-import time
-from utils import get_base_dir, load_settings, logging
+from datetime import datetime
 
 def generate_whatsnew():
-    base_dir = get_base_dir()
-    settings = load_settings()
-    site_title = settings.get("web_and_ui", {}).get("site_title", "PS5 Super PLDMGR Store")
-    whatsnew_path = os.path.join(base_dir, "whatsnew.md")
-
-    files_list = []
+    now_str = datetime.now().strftime("%d/%m/%Y à %H:%M:%S")
     
-    # Parcours des répertoires payloads et pkg
-    for folder_name in ["payloads", "pkg"]:
-        target_dir = os.path.join(base_dir, folder_name)
-        if not os.path.exists(target_dir):
-            continue
+    content = f"# 🆕 Quoi de neuf sur PS5 Super PLDMGR Hub ?\n\n"
+    content += f"*Dernière mise à jour automatique : {now_str}*\n\n"
 
-        for root, _, files in os.walk(target_dir):
-            for file in files:
-                if file.endswith((".elf", ".bin", ".pkg")):
-                    full_path = os.path.join(root, file)
-                    mtime = os.path.getmtime(full_path)
-                    files_list.append((file, folder_name, mtime, os.path.getsize(full_path)))
+    # 1. DERNIÈRES MISES À JOUR (Top 10 récents)
+    content += "## 🚀 Dernières Mises à Jour\n\n"
+    content += "| Type | Nom | Version / Fichier | Date |\n"
+    content += "| :--- | :--- | :--- | :--- |\n"
+    
+    all_items = []
+    if os.path.exists("payloads.json"):
+        with open("payloads.json", "r", encoding="utf-8") as f:
+            for p in json.load(f).get("payloads", []):
+                p["item_type"] = "Payload"
+                all_items.append(p)
 
-    # Tri par date de modification (du plus récent au plus ancien)
-    files_list.sort(key=lambda x: x[2], reverse=True)
+    if os.path.exists("pkg.json"):
+        with open("pkg.json", "r", encoding="utf-8") as f:
+            for k in json.load(f).get("pkg", []):
+                k["item_type"] = "PKG"
+                all_items.append(k)
 
-    # Récupération des 15 derniers éléments
-    recent_items = files_list[:15]
+    # Tri par date
+    all_items.sort(key=lambda x: x.get("updated_at", ""), reverse=True)
+    for item in all_items[:10]:
+        content += f"| {item.get('item_type')} | **{item.get('title', 'N/A')}** | `{item.get('file_name', '')}` | {item.get('updated_at', 'N/A')} |\n"
 
-    md_lines = [
-        f"# 🆕 Quoi de neuf sur {site_title} ?",
-        f"\n*Dernière mise à jour automatique : {time.strftime('%d/%m/%Y à %H:%M:%S', time.localtime())}*\n",
-        "| Type | Fichier | Taille | Mis à jour le |",
-        "| :--- | :--- | :--- | :--- |"
-    ]
+    # 2. CONTENU INTÉGRAL PAYLOADS AIO
+    content += "\n---\n\n## 📦 Contenu Intégral du Pack Payloads AIO\n\n"
+    content += "| Catégorie | Fichier | Description |\n"
+    content += "| :--- | :--- | :--- |\n"
+    if os.path.exists("payloads.json"):
+        with open("payloads.json", "r", encoding="utf-8") as f:
+            for p in json.load(f).get("payloads", []):
+                content += f"| {p.get('category', 'Uncategorized')} | `{p.get('file_name')}` | {p.get('description', '')} |\n"
 
-    for filename, ftype, mtime, size in recent_items:
-        date_str = time.strftime("%d/%m/%Y %H:%M", time.localtime(mtime))
-        size_mb = f"{size / (1024 * 1024):.2f} Mo"
-        type_badge = "🧱 Payload" if ftype == "payloads" else "📦 PKG"
-        md_lines.append(f"| {type_badge} | `{filename}` | {size_mb} | {date_str} |")
+    # 3. CONTENU INTÉGRAL PKG AIO
+    content += "\n---\n\n## 🎮 Contenu Intégral du Pack PKG AIO\n\n"
+    content += "| Application | Fichier PKG | Version |\n"
+    content += "| :--- | :--- | :--- |\n"
+    if os.path.exists("pkg.json"):
+        with open("pkg.json", "r", encoding="utf-8") as f:
+            for k in json.load(f).get("pkg", []):
+                content += f"| **{k.get('title')}** | `{k.get('file_name')}` | {k.get('version', 'v1.0')} |\n"
 
-    with open(whatsnew_path, "w", encoding="utf-8") as f:
-        f.write("\n".join(md_lines) + "\n")
-
-    logging.info(f"[Module 08] Fichier whatsnew.md généré ({len(recent_items)} entrées récents).")
-
-def main():
-    logging.info("=== Lancement du Module 08 : Génération whatsnew.md ===")
-    generate_whatsnew()
-    logging.info("=== Module 08 Terminé avec succès ===")
+    with open("whatsnew.md", "w", encoding="utf-8") as f:
+        f.write(content)
 
 if __name__ == "__main__":
-    main()
+    generate_whatsnew()
