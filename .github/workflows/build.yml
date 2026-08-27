@@ -45,6 +45,7 @@ jobs:
           files: |
             dist/payloads_aio.zip
             dist/pkg_aio.zip
+            dist/PS5_Super_PLDMGR_Store_Template.zip
           draft: false
           prerelease: false
         env:
