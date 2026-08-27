@@ -1,90 +1,56 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-===============================================================================
-Pipeline Principal : Master Orchestrator (15 Modules)
-===============================================================================
-Description :
-Exécute dans l'ordre séquentiel l'ensemble des modules du botbuild pour la 
-synchronisation, la génération des API, la création des archives et la publication.
-===============================================================================
-"""
+import os
+import subprocess
+import logging
 
-import sys
-import time
-import importlib
-from utils import logging
+logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 
-# Liste des 15 modules correspondant à tes fichiers réels
-MODULES = [
-    ("Module 01", "01_update_payload_rules", "Analyse des règles Payloads"),
-    ("Module 02", "02_update_payload", "Téléchargement des Payloads"),
-    ("Module 03", "03_update_pkg_rules", "Analyse des règles PKG"),
-    ("Module 04", "04_update_pkg", "Téléchargement des PKG"),
-    ("Module 05", "05_update_rss", "Génération du flux RSS"),
-    ("Module 06", "06_clean_repository", "Nettoyage et rotation de sauvegarde"),
-    ("Module 07", "07_build_api_json", "Génération des API JSON"),
-    ("Module 08", "08_generate_whatsnew", "Génération du changelog whatsnew.md"),
-    ("Module 09", "09_discord_webhook", "Notification Discord Webhook"),
-    ("Module 10", "10_create_zip_archives", "Archives ZIP & Assemblage Store Clean"),
-    ("Module 11", "11_build_index_html", "Génération de index.html"),
-    ("Module 12", "12_validate_json", "Validation des fichiers JSON"),
-    ("Module 13", "13_update_readme", "Mise à jour du README.md"),
-    ("Module 14", "14_git_commit_push", "Git Commit & Push"),
-    ("Module 15", "15_generate_opml", "Génération de l'export OPML")
-]
-
-def run_module(module_tag, module_name, description):
-    """Importe et exécute la fonction main() d'un module donné."""
-    logging.info(f"---> [{module_tag}] {description} ({module_name}.py)...")
-    start_time = time.time()
+def run_script(script_name):
+    script_path = os.path.join("botbuild", script_name)
+    logging.info(f"--- Execution de {script_path} ---")
     
-    try:
-        # Import dynamique du module
-        mod = importlib.import_module(module_name)
-        
-        # Vérification de la présence de la fonction main()
-        if hasattr(mod, "main"):
-            mod.main()
-        else:
-            logging.warning(f"  [!] Aucune fonction main() trouvée dans {module_name}.py")
-            
-        elapsed = time.time() - start_time
-        logging.info(f"  [OK] {module_tag} terminé en {elapsed:.2f}s\n")
-        return True
+    if not os.path.exists(script_path):
+        logging.warning(f"Fichier introuvable : {script_path}, passage au module suivant.")
+        return
 
-    except Exception as e:
-        elapsed = time.time() - start_time
-        logging.error(f"  [X] ÉCHEC du {module_tag} ({module_name}.py) après {elapsed:.2f}s")
-        logging.error(f"      Erreur : {e}", exc_info=True)
-        return False
-
-def main():
-    start_pipeline = time.time()
-    logging.info("=========================================================================")
-    logging.info("         DÉMARRAGE DU PIPELINE BOTBUILD - STORE PS5 (15 MODULES)          ")
-    logging.info("=========================================================================\n")
-
-    failed_modules = []
-
-    for tag, name, desc in MODULES:
-        success = run_module(tag, name, desc)
-        if not success:
-            failed_modules.append((tag, name))
-            # Optionnel : Interrompre le pipeline en cas d'erreur sur un module critique
-            # sys.exit(1)
-
-    total_time = time.time() - start_pipeline
-    logging.info("=========================================================================")
-    
-    if not failed_modules:
-        logging.info(f"  [SUCCESS] PIPELINE TERMINÉ AVEC SUCCÈS EN {total_time:.2f}s")
-    else:
-        logging.warning(f"  [WARNING] PIPELINE TERMINÉ EN {total_time:.2f}s AVEC DES ERREURS :")
-        for tag, name in failed_modules:
-            logging.warning(f"    - {tag} ({name}.py)")
-
-    logging.info("=========================================================================")
+    result = subprocess.run(["python", script_path], capture_output=True, text=True)
+    if result.stdout:
+        print(result.stdout)
+    if result.stderr:
+        print(result.stderr)
+    if result.returncode != 0:
+        logging.error(f"Erreur lors de l'execution de {script_name}")
+        raise RuntimeError(f"Echec du script {script_name}")
 
 if __name__ == "__main__":
-    main()
+    logging.info("Lancement du pipeline complet PS5 Super PLDMGR Auto Updater (15 modules)...")
+    
+    # 1. Traitement des Payloads (.elf / .bin)
+    run_script("01_update_payload_rules.py")
+    run_script("02_update_payload.py")
+    
+    # 2. Traitement des PKG
+    run_script("03_update_pkg_rules.py")
+    run_script("04_update_pkg.py")
+    
+    # 3. Flux RSS & OPML
+    run_script("05_update_rss.py")
+    run_script("15_generate_opml.py")
+    
+    # 4. Nettoyage initial et structuration de l'API JSON
+    run_script("06_clean_repository.py")
+    run_script("07_build_api_json.py")
+    
+    # 5. Interface, Changements & Validation
+    run_script("08_generate_whatsnew.py")
+    run_script("11_build_index_html.py")
+    run_script("12_validate_json.py")
+    run_script("13_update_readme.py")
+    
+    # 6. Archivage, Backup local & Notifications
+    run_script("10_create_zip_archives.py")
+    run_script("09_discord_webhook.py")
+    
+    # 7. Validation Git (Commit & Push des changements sur GitHub)
+    run_script("14_git_commit_push.py")
+    
+    logging.info("Les 15 modules ont ete executes avec succes !")
