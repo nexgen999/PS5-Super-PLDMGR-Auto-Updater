@@ -16,7 +16,9 @@ import os
 import zipfile
 import requests
 from utils import get_base_dir, load_settings, logging
-from 01_update_payload_rules import build_payload_rules_map
+import importlib
+module_01 = importlib.import_module("botbuild.01_update_payload_rules")
+build_payload_rules_map = module_01.build_payload_rules_map
 
 def download_file(url: str, dest_path: str, timeout: int = 30) -> bool:
     """Télécharge un fichier distant vers le chemin local spécifié."""
