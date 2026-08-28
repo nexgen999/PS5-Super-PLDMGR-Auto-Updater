@@ -108,7 +108,7 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 | **ps5-app-dumper** | [v1.11](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/ps5-app-dumper/v1.11/ps5-app-dumper_v1.11.elf) | `18483751eb...` | PS5 App Dumper payload. |
 | **ShadowMountPlus** | [1.7alpha11](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/ShadowMountPlus/1.7alpha11/ShadowMountPlus_v1.7alpha11.elf) | `e9daf5dea9...` | ShadowMountPlus payload for game mounting. |
 | **BackPork** | [0.1](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/BackPork/0.1/BackPork_v0.1.elf) | `d74e4cd119...` | BackPork PS5 tool. |
-| **apr-emu-updater** | [v1.5.1](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/apr-emu-updater/v1.5.1/apr-emu-updater_v1.5.1.elf) | `42a0b98ed0...` | APR Emu Updater must always be loaded. |
+| **apr-emu-updater** | [v2.0.5](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/apr-emu-updater/v2.0.5/apr-emu-updater_v2.0.5.elf) | `f6d2fc0061...` | APR Emu Updater must always be loaded. |
 
 ### 🚀 PS5 HEN Loader
 📂 **JSON Catégorie :** `https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/json/ps5_hen_loader.json`
@@ -186,7 +186,7 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 | **gdbsrv** | [v0.9](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/gdbsrv/v0.9/gdbsrv_v0.9.elf) | `80952d75f4...` | GDB Debugger server payload. Port: 1234 |
 | **klogsrv** | [v0.9](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/klogsrv/v0.9/klogsrv_v0.9.elf) | `e828ec1442...` | Kernel log server daemon. Port: 3232 |
 | **ftpsrv_drakmor** | [1.6-ng-test2](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ftpsrv_drakmor/1.6-ng-test2/ftpsrv_drakmor_v1.6-ng-test2.elf) | `6364e05294...` | Drakmor's variant of the FTP server. Port: 21 |
-| **ps5upload** | [v5.12.0](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ps5upload/v5.12.0/ps5upload_v5.12.0.elf) | `862faa5f79...` | PS5 Upload server / tool. Port: 9025 |
+| **ps5upload** | [v5.12.1](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ps5upload/v5.12.1/ps5upload_v5.12.1.elf) | `993206c6cc...` | PS5 Upload server / tool. Port: 9025 |
 | **airpsx** | [0.19](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/airpsx/0.19/airpsx_v0.19.elf) | `ae025ca772...` | AirPSX server tool for PS5 ecosystem. |
 
 ### 📦 PS5 Themes-Avatars

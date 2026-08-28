@@ -462,12 +462,12 @@
     },
     {
       "name": "apr-emu-updater",
-      "filename": "apr-emu-updater_v1.5.1.elf",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/apr-emu-updater/v1.5.1/apr-emu-updater_v1.5.1.elf",
+      "filename": "apr-emu-updater_v2.0.5.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/apr-emu-updater/v2.0.5/apr-emu-updater_v2.0.5.elf",
       "description": "APR Emu Updater must always be loaded.",
-      "version": "v1.5.1",
+      "version": "v2.0.5",
       "category": "PS5 Game Dump",
-      "checksum": "42a0b98ed05eab7bdbfab30ea15ef2a55ddefa34f729861e7dfcfcb1ea74258f"
+      "checksum": "f6d2fc0061cfbafa26bd99584a33699d5b5582b14b4cfcf1994f2edade16af69"
     },
     {
       "name": "BFplayer-standalone",
@@ -579,12 +579,12 @@
     },
     {
       "name": "ps5upload",
-      "filename": "ps5upload_v5.12.0.elf",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ps5upload/v5.12.0/ps5upload_v5.12.0.elf",
+      "filename": "ps5upload_v5.12.1.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ps5upload/v5.12.1/ps5upload_v5.12.1.elf",
       "description": "PS5 Upload server / tool. Port: 9025",
-      "version": "v5.12.0",
+      "version": "v5.12.1",
       "category": "PS5 Server",
-      "checksum": "862faa5f79ef078a664bc86e433fe5de397651f957624e50ada7799ed337bee6"
+      "checksum": "993206c6cce3457f888efa4bdc0067058cc7116366e31f4245ea7a4e505d8f49"
     },
     {
       "name": "airpsx",
