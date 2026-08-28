@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>evoX AIO Store — PS5 Payloads & PKG</title>
+<style>
+:root{--bg:#08090d;--panel:#11131a;--panel2:#171a23;--text:#f4f7fb;--muted:#9299a8;--accent:#0070ff;--accent2:#00c6ff;--border:#262b38;--pkg:#8b5cf6}
+*{box-sizing:border-box}
+body{margin:0;background:radial-gradient(circle at 50% -10%,#12315f 0,#08090d 42%);color:var(--text);font:15px/1.5 Inter,Segoe UI,Arial,sans-serif}
+.container{max-width:1250px;margin:auto;padding:35px 20px 60px}
+.hero{text-align:center;padding:25px 10px 30px}
+.logo{font-size:48px;font-weight:800;letter-spacing:-2px}.logo span{color:#1687ff}
+.hero p{color:var(--muted);margin:8px 0 0}
+.tabs{display:flex;justify-content:center;gap:8px;margin:0 auto 22px;flex-wrap:wrap}
+.tab{border:1px solid var(--border);background:var(--panel2);color:#b8c0cf;padding:11px 20px;border-radius:11px;cursor:pointer;font-weight:700}
+.tab.active{background:linear-gradient(135deg,var(--accent),var(--accent2));color:#fff;border-color:transparent}
+.tab.pkg.active{background:linear-gradient(135deg,#6d28d9,var(--pkg))}
+.toolbar{display:grid;grid-template-columns:1fr 220px auto;gap:12px;background:#0e1016;border:1px solid var(--border);padding:14px;border-radius:16px;margin-bottom:22px}
+input,select,button{border:1px solid var(--border);background:var(--panel2);color:var(--text);border-radius:10px;padding:12px 14px;font:inherit}
+input:focus,select:focus{outline:2px solid #0070ff55;border-color:#0070ff}
+button{cursor:pointer;background:linear-gradient(135deg,var(--accent),var(--accent2));border:0;font-weight:700}
+button:disabled{opacity:.55;cursor:wait}
+.stats{color:var(--muted);padding:10px 2px 18px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:16px}
+.card{background:linear-gradient(180deg,#151821,#0f1117);border:1px solid var(--border);border-radius:16px;padding:18px;display:flex;flex-direction:column;min-height:255px;box-shadow:0 8px 30px #0004}
+.card.pkg-card{border-color:#302050}
+.card h2{font-size:18px;margin:0 0 8px;word-break:break-word}
+.desc{color:#b2b8c5;min-height:48px}
+.meta{display:flex;gap:7px;flex-wrap:wrap;margin:12px 0}
+.tag{font-size:12px;padding:5px 8px;border-radius:999px;background:#202532;color:#b9c8df}
+.version{background:#062f63;color:#71b5ff}
+.pkg-tag{background:#291650;color:#c7a7ff}
+.author{background:#1e2b22;color:#8be0a4}
+.actions{margin-top:auto;display:flex;gap:8px}
+.actions a,.actions button{flex:1;text-align:center;text-decoration:none}
+.download{display:block}
+.file{font-size:11px;color:#697384;word-break:break-all;margin-top:5px}
+.checksum{margin-top:12px;font-size:10px;color:#687080;word-break:break-all;cursor:pointer}
+.loading,.error,.empty{text-align:center;padding:45px;color:var(--muted)}
+.error{color:#ff8995}
+footer{text-align:center;color:#667080;margin-top:35px;font-size:13px}
+footer a{color:#68aeff}
+.source{font-size:11px;color:#596272;margin-top:8px}
+@media(max-width:700px){.toolbar{grid-template-columns:1fr}.logo{font-size:38px}.grid{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<div class="container">
+<header class="hero">
+  <div class="logo"><span>evoX</span> AIO Store</div>
+  <p>PS5 Payload Manager — Payloads et applications PKG directement depuis votre navigateur.</p>
+</header>
+
+<nav class="tabs">
+  <button class="tab active" id="payloadTab" onclick="setMode('payload')">⚡ Payloads</button>
+  <button class="tab pkg" id="pkgTab" onclick="setMode('pkg')">📦 PS5 PKG</button>
+</nav>
+
+<div class="toolbar">
+  <input id="search" type="search" placeholder="🔎 Rechercher un payload...">
+  <select id="category"><option value="">Toutes les catégories</option></select>
+  <button id="refresh">↻ Actualiser</button>
+</div>
+
+<div id="stats" class="stats">Chargement des catalogues...</div>
+<main id="grid" class="grid"><div class="loading">Chargement…</div></main>
+
+<footer>
+  Catalogue Payload :
+  <a href="https://github.com/nexgen999/PS5-Super-PLDMGR-Auto-Updater" target="_blank" rel="noopener">PS5-Super-PLDMGR-Auto-Updater</a>
+  <br>
+  Catalogue PKG :
+  <a href="https://github.com/nexgen999/PS5-Super-PLDMGR-Auto-Updater/blob/main/PKGjson/ps5pkg.json" target="_blank" rel="noopener">ps5pkg.json</a>
+</footer>
+</div>
+
+<script>
+const PAYLOAD_URL = "https://raw.githubusercontent.com/nexgen999/PS5-Super-PLDMGR-Auto-Updater/main/json/payloads.json";
+const PKG_URL = "https://raw.githubusercontent.com/nexgen999/PS5-Super-PLDMGR-Auto-Updater/main/PKGjson/ps5pkg.json";
+
+let payloads=[], packages=[], mode="payload", currentList=[];
+
+const $ = id => document.getElementById(id);
+
+async function fetchJson(url){
+  const r = await fetch(url + "?t=" + Date.now(), {cache:"no-store"});
+  if(!r.ok) throw new Error("HTTP " + r.status);
+  return await r.json();
+}
+
+async function loadCatalog(){
+  $("grid").innerHTML = '<div class="loading">⏳ Chargement des catalogues…</div>';
+  try{
+    const [payloadData,pkgData] = await Promise.all([
+      fetchJson(PAYLOAD_URL),
+      fetchJson(PKG_URL)
+    ]);
+
+    payloads = Array.isArray(payloadData) ? payloadData : (payloadData.payloads || []);
+    packages = Array.isArray(pkgData) ? pkgData : (pkgData.packages || []);
+    buildCategories();
+    render();
+  }catch(e){
+    $("stats").textContent = "Impossible de charger un ou plusieurs catalogues.";
+    $("grid").innerHTML = '<div class="error">❌ Erreur de chargement.<br><small>'+escapeHtml(e.message)+'</small></div>';
+  }
+}
+
+function setMode(newMode){
+  mode=newMode;
+  $("payloadTab").classList.toggle("active",mode==="payload");
+  $("pkgTab").classList.toggle("active",mode==="pkg");
+  $("search").placeholder=mode==="pkg" ? "🔎 Rechercher un PKG..." : "🔎 Rechercher un payload...";
+  buildCategories();
+  render();
+}
+
+function buildCategories(){
+  const select=$("category");
+  const list=mode==="pkg" ? packages : payloads;
+  const current=select.value;
+  const cats=[...new Set(list.map(p=>p.category).filter(Boolean))].sort((a,b)=>a.localeCompare(b));
+  select.innerHTML='<option value="">Toutes les catégories</option>'+
+    cats.map(c=>'<option value="'+escapeAttr(c)+'">'+escapeHtml(c)+'</option>').join("");
+  select.value=cats.includes(current)?current:"";
+}
+
+function render(){
+  const source=mode==="pkg"?packages:payloads;
+  const q=$("search").value.trim().toLowerCase();
+  const cat=$("category").value;
+
+  currentList=source.filter(p=>{
+    const text=[p.name,p.filename,p.description,p.version,p.category,p.author].join(" ").toLowerCase();
+    return (!q||text.includes(q))&&(!cat||p.category===cat);
+  });
+
+  const label=mode==="pkg"?"PKG":"payload";
+  $("stats").textContent=`${currentList.length} ${label}${currentList.length>1?"s":""} affiché${currentList.length>1?"s":""} sur ${source.length}`;
+
+  if(!currentList.length){
+    $("grid").innerHTML='<div class="empty">Aucun élément trouvé.</div>';
+    return;
+  }
+
+  $("grid").innerHTML=currentList.map((p,i)=>{
+    const isPkg=mode==="pkg";
+    return `
+    <article class="card ${isPkg?"pkg-card":""}">
+      <h2>${escapeHtml(p.name||p.filename||"Fichier")}</h2>
+      <div class="desc">${escapeHtml(p.description||"Aucune description.")}</div>
+      <div class="meta">
+        ${p.version?`<span class="tag ${isPkg?"pkg-tag":"version"}">${escapeHtml(p.version)}</span>`:""}
+        ${p.category?`<span class="tag">${escapeHtml(p.category)}</span>`:""}
+        ${p.author?`<span class="tag author">👤 ${escapeHtml(p.author)}</span>`:""}
+      </div>
+      <div class="file">📄 ${escapeHtml(p.filename||"Fichier")}</div>
+      <div class="actions">
+        <button class="download" onclick="downloadFile(${i},this)">${isPkg?"⬇ Télécharger le PKG":"⬇ Télécharger"}</button>
+        <a class="tag" style="display:flex;align-items:center;justify-content:center" href="${escapeAttr(p.url||"#")}" target="_blank" rel="noopener">Ouvrir</a>
+      </div>
+      ${p.checksum?`<div class="checksum" title="Cliquer pour copier" onclick="copyText('${escapeAttr(p.checksum)}')">SHA-256: ${escapeHtml(p.checksum)}</div>`:""}
+    </article>`;
+  }).join("");
+}
+
+async function downloadFile(index,button){
+  const p=currentList[index];
+  if(!p?.url)return;
+
+  const original=button.textContent;
+  button.disabled=true;
+  button.textContent="⏳ Préparation…";
+
+  try{
+    const r=await fetch(p.url);
+    if(!r.ok)throw new Error("HTTP "+r.status);
+    const blob=await r.blob();
+    const objectUrl=URL.createObjectURL(blob);
+    const a=document.createElement("a");
+    a.href=objectUrl;
+    a.download=p.filename||p.url.split("/").pop()||"download";
+    document.body.appendChild(a);
+    a.click();
+    a.remove();
+    setTimeout(()=>URL.revokeObjectURL(objectUrl),1500);
+    button.textContent="✓ Téléchargé";
+  }catch(e){
+    // GitHub Release peut refuser le fetch cross-origin selon le navigateur.
+    // Dans ce cas, on ouvre directement l'URL du fichier.
+    window.open(p.url,"_blank","noopener");
+    button.textContent="↗ Ouvert";
+  }finally{
+    setTimeout(()=>{
+      button.disabled=false;
+      button.textContent=original;
+    },1800);
+  }
+}
+
+async function copyText(text){
+  try{
+    await navigator.clipboard.writeText(text);
+    alert("SHA-256 copié !");
+  }catch{alert(text);}
+}
+
+function escapeHtml(s){
+  return String(s??"").replace(/[&<>"']/g,m=>({
+    "&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"
+  }[m]));
+}
+function escapeAttr(s){return escapeHtml(s).replace(/`/g,"&#96;");}
+
+$("search").addEventListener("input",render);
+$("category").addEventListener("change",render);
+$("refresh").addEventListener("click",loadCatalog);
+
+loadCatalog();
+</script>
+</body>
+</html>
