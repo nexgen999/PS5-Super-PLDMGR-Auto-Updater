@@ -260,9 +260,9 @@
       <description>BackPork PS5 tool. - Checksum: d74e4cd119b2bb1fd423f2f5b1c9a7f096b3e588c753af1ab48b983d56216a52</description>
     </item>
     <item>
-      <title>apr-emu-updater (v2.0.5)</title>
-      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/apr-emu-updater/v2.0.5/apr-emu-updater_v2.0.5.elf</link>
-      <description>APR Emu Updater must always be loaded. - Checksum: f6d2fc0061cfbafa26bd99584a33699d5b5582b14b4cfcf1994f2edade16af69</description>
+      <title>apr_emu_updater (v2.0.6)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/apr-emu-updater/v2.0.6/apr_emu_updater_v2.0.6.elf</link>
+      <description>APR Emu Updater must always be loaded. - Checksum: 4f04464283a6a551883e40e36b59134ecad0e38ecbb7ea89cbec3f91a3bd9122</description>
     </item>
     <item>
       <title>BFplayer-standalone (v0.1.0-alpha.44)</title>
@@ -370,9 +370,9 @@
       <description>Daemon pour le jailbreak de Lapy - Checksum: e8230ac4597b8f0388e75d7515ad1a2e251c4589cc3b8d56a483ffae73627eed</description>
     </item>
     <item>
-      <title>ps5-web-file-manager (v1.6)</title>
-      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_file_explorer/ps5-web-file-manager/v1.6/ps5-web-file-manager_v1.6.elf</link>
-      <description>PS5 Web File Manager http://your-ps5-ip:8888. - Checksum: 3b2bd4f8c86b125d703fda5806d732580de7b9fc453a3fa831743366239ace62</description>
+      <title>ps5-web-file-manager (v1.7)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_file_explorer/ps5-web-file-manager/v1.7/ps5-web-file-manager_v1.7.elf</link>
+      <description>PS5 Web File Manager http://your-ps5-ip:8888. - Checksum: 07c1f65d855fc4eb905b37ef990baf25a6a8b21da13590cd21b3e4b7d10ff4e1</description>
     </item>
     <item>
       <title>PS5-File-Explorer (file-explorer-v0.2.1)</title>

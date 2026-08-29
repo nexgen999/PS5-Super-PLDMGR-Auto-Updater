@@ -461,13 +461,13 @@
       "checksum": "d74e4cd119b2bb1fd423f2f5b1c9a7f096b3e588c753af1ab48b983d56216a52"
     },
     {
-      "name": "apr-emu-updater",
-      "filename": "apr-emu-updater_v2.0.5.elf",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/apr-emu-updater/v2.0.5/apr-emu-updater_v2.0.5.elf",
+      "name": "apr_emu_updater",
+      "filename": "apr_emu_updater_v2.0.6.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/apr-emu-updater/v2.0.6/apr_emu_updater_v2.0.6.elf",
       "description": "APR Emu Updater must always be loaded.",
-      "version": "v2.0.5",
+      "version": "v2.0.6",
       "category": "PS5 Game Dump",
-      "checksum": "f6d2fc0061cfbafa26bd99584a33699d5b5582b14b4cfcf1994f2edade16af69"
+      "checksum": "4f04464283a6a551883e40e36b59134ecad0e38ecbb7ea89cbec3f91a3bd9122"
     },
     {
       "name": "BFplayer-standalone",
@@ -660,12 +660,12 @@
     },
     {
       "name": "ps5-web-file-manager",
-      "filename": "ps5-web-file-manager_v1.6.elf",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_file_explorer/ps5-web-file-manager/v1.6/ps5-web-file-manager_v1.6.elf",
+      "filename": "ps5-web-file-manager_v1.7.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_file_explorer/ps5-web-file-manager/v1.7/ps5-web-file-manager_v1.7.elf",
       "description": "PS5 Web File Manager http://your-ps5-ip:8888.",
-      "version": "v1.6",
+      "version": "v1.7",
       "category": "PS5 File Explorer",
-      "checksum": "3b2bd4f8c86b125d703fda5806d732580de7b9fc453a3fa831743366239ace62"
+      "checksum": "07c1f65d855fc4eb905b37ef990baf25a6a8b21da13590cd21b3e4b7d10ff4e1"
     },
     {
       "name": "PS5-File-Explorer",
