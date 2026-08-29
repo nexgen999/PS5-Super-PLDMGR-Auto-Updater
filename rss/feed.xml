@@ -295,9 +295,9 @@
       <description>FTP server payload for PS5. Port: 21 - Checksum: 9340aa91f8f1eeb619473d716e0b6ab7af1c6fbb3ad815648520872ad6c86ccf</description>
     </item>
     <item>
-      <title>elfldr (v0.25)</title>
-      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/elfldr/v0.25/elfldr_v0.25.elf</link>
-      <description>ELF Loader utility. Port: 9020 / 9021 - Checksum: de70a47e6d099dc03718c33c158a727f1340c3b5310155618c5049ab0fb41754</description>
+      <title>elfldr (v0.26)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/elfldr/v0.26/elfldr_v0.26.elf</link>
+      <description>ELF Loader utility. Port: 9020 / 9021 - Checksum: ed6d587a057c09d6a95b2176e336d9ffc605e547ac56462128b029e47b8ccea1</description>
     </item>
     <item>
       <title>ftpsrv_ps5-payload (v0.21.1)</title>
@@ -325,9 +325,9 @@
       <description>Drakmor's variant of the FTP server. Port: 21 - Checksum: 6364e0529416f400be123c52acdcda68efd5179d971c060286022131fd047b8e</description>
     </item>
     <item>
-      <title>ps5upload (v5.12.1)</title>
-      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ps5upload/v5.12.1/ps5upload_v5.12.1.elf</link>
-      <description>PS5 Upload server / tool. Port: 9025 - Checksum: 993206c6cce3457f888efa4bdc0067058cc7116366e31f4245ea7a4e505d8f49</description>
+      <title>ps5upload (v5.13.1)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ps5upload/v5.13.1/ps5upload_v5.13.1.elf</link>
+      <description>PS5 Upload server / tool. Port: 9025 - Checksum: a2a528aa6098443949f909a6f8598f27a53ffd7a2313beabf1e3b474c2c40e08</description>
     </item>
     <item>
       <title>airpsx (0.19)</title>
