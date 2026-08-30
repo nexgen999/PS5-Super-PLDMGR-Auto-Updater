@@ -364,7 +364,7 @@ with open("README.md", "w", encoding="utf-8") as r_file:
     
     r_file.write("## 🔗 URLs Fixes des Stores JSON\n")
     r_file.write(f"* **Payloads Store JSON :** `https://nexgen999.github.io/{repo_name}/json/payloads.json`\n")
-    r_file.write(f"* **Packages PKG Store JSON :** `https://nexgen999.github.io/{repo_name}/PKGjson/ps5pkg.json`\n\n")
+    r_file.write(f"* **Packages PKG Store JSON :** `https://nexgen999.github.io/{repo_name}/PKGjson/pkg.json`\n\n")
     
     r_file.write("## 📦 Archives AIO Releases (Dernières Versions)\n")
     r_file.write(f"* 🚀 **AIO Payloads Offline (.zip) :** [Télécharger](https://github.com/nexgen999/{repo_name}/releases/download/latest/ps5_super_pldmgr_auto_updated_offline.aio_latest.zip)\n")
