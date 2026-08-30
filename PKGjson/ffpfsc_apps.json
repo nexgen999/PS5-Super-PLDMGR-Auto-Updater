@@ -1,0 +1,32 @@
+{
+  "name": "FFPFSC_APPS",
+  "packages": [
+    {
+      "name": "ProsperoLight",
+      "filename": "ProsperoLight.pkg",
+      "url": "https://github.com/blackbearreloaded/ProsperoLight",
+      "description": "PS5 Moonlight",
+      "version": "v1.0.0",
+      "author": "blackbearreloaded",
+      "category": "FFPFSC_APPS"
+    },
+    {
+      "name": "ProsperoRadio",
+      "filename": "ProsperoRadio.pkg",
+      "url": "https://github.com/blackbearreloaded/ProsperoRadio",
+      "description": "PS5 Radio Player",
+      "version": "v1.0.0",
+      "author": "blackbearreloaded",
+      "category": "FFPFSC_APPS"
+    },
+    {
+      "name": "ProsperoTV",
+      "filename": "ProsperoTV.pkg",
+      "url": "https://github.com/blackbearreloaded/ProsperoTV",
+      "description": "PS5 IPTV",
+      "version": "v1.0.0",
+      "author": "blackbearreloaded",
+      "category": "FFPFSC_APPS"
+    }
+  ]
+}

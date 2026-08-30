@@ -2,6 +2,33 @@
   "name": "AIO Store PKG",
   "packages": [
     {
+      "name": "ProsperoLight",
+      "filename": "ProsperoLight.pkg",
+      "url": "https://github.com/blackbearreloaded/ProsperoLight",
+      "description": "PS5 Moonlight",
+      "version": "v1.0.0",
+      "author": "blackbearreloaded",
+      "category": "FFPFSC_APPS"
+    },
+    {
+      "name": "ProsperoRadio",
+      "filename": "ProsperoRadio.pkg",
+      "url": "https://github.com/blackbearreloaded/ProsperoRadio",
+      "description": "PS5 Radio Player",
+      "version": "v1.0.0",
+      "author": "blackbearreloaded",
+      "category": "FFPFSC_APPS"
+    },
+    {
+      "name": "ProsperoTV",
+      "filename": "ProsperoTV.pkg",
+      "url": "https://github.com/blackbearreloaded/ProsperoTV",
+      "description": "PS5 IPTV",
+      "version": "v1.0.0",
+      "author": "blackbearreloaded",
+      "category": "FFPFSC_APPS"
+    },
+    {
       "name": "Avatar-Changer",
       "filename": "PS5PKG_Avatar-Changer_v1.00.pkg",
       "url": "https://github.com/nexgen999/Evox_PS5PKG_Private/releases/download/v1.0/PS5PKG_Avatar-Changer_v1.00.pkg",
