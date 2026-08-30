@@ -53,11 +53,11 @@ for opml_file in opml_files:
             print(f"   ⚠️ Échec de téléchargement pour {raw_filename} : {e}")
 
 # Copie du JSON global pkg dans l'archive AIO s'il existe
-global_json_src = os.path.join(PKG_JSON_DIR, "ps5pkg.json")
+global_json_src = os.path.join(PKG_JSON_DIR, "pkg.json")
 if os.path.exists(global_json_src):
     with open(global_json_src, 'r', encoding='utf-8') as fj:
         data = json.load(fj)
-    with open(os.path.join(TMP_BUILD_DIR, "ps5pkg.json"), 'w', encoding='utf-8') as fj_out:
+    with open(os.path.join(TMP_BUILD_DIR, "pkg.json"), 'w', encoding='utf-8') as fj_out:
         json.dump(data, fj_out, indent=2, ensure_ascii=False)
 
 zip_latest_name = "PS5PKG_aio_latest.zip"
