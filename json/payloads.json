@@ -344,6 +344,15 @@
       "checksum": "1a36a01c92cd73fc89645ce73e3f33c71979b5b677c92b6f4c26d269e3f9a2c1"
     },
     {
+      "name": "ps5-date-time-sync",
+      "filename": "ps5-date-time-sync_v1.0.0.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_utility/ps5-date-time-sync/v1.0.0/ps5-date-time-sync_v1.0.0.elf",
+      "description": "A lightweight, standalone PS5 payload that restores the console's system date and time using public NTP servers.",
+      "version": "v1.0.0",
+      "category": "PS5 Utility",
+      "checksum": "91806229803845930b2173174e1afeadf509e4c171f6396788f929558fad6849"
+    },
+    {
       "name": "webkit-autoloader-installer",
       "filename": "webkit-autoloader-installer_v0.4.0.elf",
       "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5-webkit-autoloader/ps5-webkit-autoloader/v0.4.0/webkit-autoloader-installer_v0.4.0.elf",
@@ -423,6 +432,15 @@
       "version": "v1.3",
       "category": "PS5 Activation",
       "checksum": "2ace1bb0be6d57f91cb24e4d3a221dec2d6d6114ace0a6b5748c6c0dcdb3b9c6"
+    },
+    {
+      "name": "Common_FPS_PS5",
+      "filename": "Common_FPS_PS5_v1.0.0.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Overlay/Common-FPS-for-PS5/v1.0.0/Common_FPS_PS5_v1.0.0.elf",
+      "description": "A lightweight, open-source real-time FPS counter for PlayStation 5.",
+      "version": "v1.0.0",
+      "category": "PS5 Overlay",
+      "checksum": "6a66da88a99fa8757bf5c649e388d777a10768cd444d9f4cf82649e4592e292c"
     },
     {
       "name": "PS5-Game-Compressor",

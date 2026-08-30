@@ -195,6 +195,11 @@
       <description>PS5-Power-Payloads-Project utility. - Checksum: 1a36a01c92cd73fc89645ce73e3f33c71979b5b677c92b6f4c26d269e3f9a2c1</description>
     </item>
     <item>
+      <title>ps5-date-time-sync (v1.0.0)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_utility/ps5-date-time-sync/v1.0.0/ps5-date-time-sync_v1.0.0.elf</link>
+      <description>A lightweight, standalone PS5 payload that restores the console's system date and time using public NTP servers. - Checksum: 91806229803845930b2173174e1afeadf509e4c171f6396788f929558fad6849</description>
+    </item>
+    <item>
       <title>webkit-autoloader-installer (v0.4.0)</title>
       <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5-webkit-autoloader/ps5-webkit-autoloader/v0.4.0/webkit-autoloader-installer_v0.4.0.elf</link>
       <description>Installs WebKit Autoloader on homescreen for firmwares 9.00-12.00. - Checksum: 179d5e52ec3e0f595900b40883c0e10cc1fba1efc275a547f47e828d45d05915</description>
@@ -238,6 +243,11 @@
       <title>np-fake-signin (v1.3)</title>
       <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Activation/np-fake-signin/v1.3/np-fake-signin_v1.3.elf</link>
       <description>Fake activate PS5 without PSN. - Checksum: 2ace1bb0be6d57f91cb24e4d3a221dec2d6d6114ace0a6b5748c6c0dcdb3b9c6</description>
+    </item>
+    <item>
+      <title>Common_FPS_PS5 (v1.0.0)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Overlay/Common-FPS-for-PS5/v1.0.0/Common_FPS_PS5_v1.0.0.elf</link>
+      <description>A lightweight, open-source real-time FPS counter for PlayStation 5. - Checksum: 6a66da88a99fa8757bf5c649e388d777a10768cd444d9f4cf82649e4592e292c</description>
     </item>
     <item>
       <title>PS5-Game-Compressor (v1.0.4)</title>

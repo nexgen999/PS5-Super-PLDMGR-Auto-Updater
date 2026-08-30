@@ -126,6 +126,15 @@
       "version": "1.0",
       "category": "PS5 Utility",
       "checksum": "1a36a01c92cd73fc89645ce73e3f33c71979b5b677c92b6f4c26d269e3f9a2c1"
+    },
+    {
+      "name": "ps5-date-time-sync",
+      "filename": "ps5-date-time-sync_v1.0.0.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_utility/ps5-date-time-sync/v1.0.0/ps5-date-time-sync_v1.0.0.elf",
+      "description": "A lightweight, standalone PS5 payload that restores the console's system date and time using public NTP servers.",
+      "version": "v1.0.0",
+      "category": "PS5 Utility",
+      "checksum": "91806229803845930b2173174e1afeadf509e4c171f6396788f929558fad6849"
     }
   ]
 }

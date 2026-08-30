@@ -57,6 +57,7 @@
     <outline text="ps5-webkit-autoloader" title="ps5-webkit-autoloader" type="rss" xmlUrl="https://github.com/itsPLK/ps5-webkit-autoloader" author="itsPLK"/>
     <outline text="PS5-File-Explorer" title="PS5-File-Explorer" type="rss" xmlUrl="https://github.com/juma-sayeh/PS5-File-Explorer" author="juma-sayeh"/>
     <outline text="PS5-Game-Compressor" title="PS5-Game-Compressor" type="rss" xmlUrl="https://github.com/juma-sayeh/PS5-Game-Compressor" author="juma-sayeh"/>
+    <outline text="ps5-date-time-sync" title="ps5-date-time-sync" type="rss" xmlUrl="https://github.com/kerrdec97/ps5-date-time-sync" author="kerrdec97"/>
     <outline text="CheatRunner" title="CheatRunner" type="rss" xmlUrl="https://github.com/notmaj0r/CheatRunner" author="notmaj0r"/>
     <outline text="ProsperoMgr" title="ProsperoMgr" type="rss" xmlUrl="https://github.com/notmaj0r/ProsperoMgr" author="notmaj0r"/>
     <outline text="ps5-fan-control" title="ps5-fan-control" type="rss" xmlUrl="https://github.com/owendswang/ps5-fan-control" author="owendswang"/>
@@ -64,6 +65,7 @@
     <outline text="pegasus-dl" title="pegasus-dl" type="rss" xmlUrl="https://github.com/pegasus-ps5/pegasus-dl" author="pegasus-ps5"/>
     <outline text="ps5upload" title="ps5upload" type="rss" xmlUrl="https://github.com/phantomptr/ps5upload" author="phantomptr"/>
     <outline text="Homebrew_Store_installer" title="Homebrew_Store_installer" type="rss" xmlUrl="https://github.com/nexgen999/Evox_PS5PKG_Private/releases/download/v1.0/PS5PKG_Homebrew_Store_installer.pkg" author="pkg-zone"/>
+    <outline text="Common-FPS-for-PS5" title="Common-FPS-for-PS5" type="rss" xmlUrl="https://github.com/porhe911/Common-FPS-for-PS5" author="porhe911"/>
     <outline text="Host-PSM pooP2JB" title="Host-PSM pooP2JB" type="rss" xmlUrl="https://github.com/ps4macedo/instalador-host-psm-poop2jb" author="ps4macedo"/>
     <outline text="ps5-linux-loader" title="ps5-linux-loader" type="rss" xmlUrl="https://github.com/ps5-linux/ps5-linux-loader" author="ps5-linux"/>
     <outline text="HOMEBREWLOADER" title="HOMEBREWLOADER" type="rss" xmlUrl="https://github.com/nexgen999/Evox_PS5PKG_Private/releases/download/v1.0/PS5PKG_HOMEBREWLOADER_v0.30.pkg" author="ps5-payload-dev"/>
