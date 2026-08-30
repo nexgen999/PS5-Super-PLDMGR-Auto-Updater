@@ -26,6 +26,7 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 | **[Homebrew_Store_installer](https://github.com/nexgen999/Evox_PS5PKG_Private/releases/download/v1.0/PS5PKG_Homebrew_Store_installer.pkg)** | pkg-zone | v1.0.0 | Homebrew_Store. |
 | **[InternetBrowser-Game_Menu](https://github.com/nexgen999/Evox_PS5PKG_Private/releases/download/v1.0/PS5PKG_InternetBrowser-Game_Menu_v1.00.pkg)** | ps5xploit | v1.00. | InternetBrowser-Game_Menu. |
 | **[InternetBrowser-Media_Menu](https://github.com/nexgen999/Evox_PS5PKG_Private/releases/download/v1.0/PS5PKG_InternetBrowser-Media_Menu_v1.00.pkg)** | ps5xploit | v1.00. | InternetBrowser-Media_Menu. |
+| **[PS5-SHOP-APPKG](https://github.com/ps5xploit/ps5shopappkg/releases/download/ps5shopappkg/PS5-SHOP-APPKG.pkg)** | ps5xploit | v1.0.0 | PS5-SHOP-APPKG need etahen or ps5shopappkg-dpi . |
 | **[Itemzflow_Game_Manager](https://github.com/nexgen999/Evox_PS5PKG_Private/releases/download/v1.0/PS5PKG_Itemzflow_Game_Manager_v1.14.pkg)** | Itemzflow | v1.14. | Itemzflow_Game_Manager. |
 | **[PS5-Xplorer](https://github.com/nexgen999/Evox_PS5PKG_Private/releases/download/v1.0/PS5PKG_PS5-Xplorer_v1.05.pkg)** | Lapy | v1.05. | PS5-Xplorer. |
 | **[PS5Webit-Nexgen999_Installer](https://github.com/nexgen999/Evox_PS5PKG_Private/releases/download/v1.0/PS5PKG_PS5Webit-Nexgen999_Installer_v1.00.pkg)** | Master0 | v1.00. | PS5Webit-Nexgen999_Installer. |
@@ -105,6 +106,7 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 | :--- | :--- | :--- | :--- |
 | **Spectrum-Library** | [1.4.3](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_freeshop/Spectrum-Library/1.4.3/Spectrum-Library_v1.4.3.elf) | `11b261457d...` | free store webadmin http://your-ps5-ip:7575. |
 | **pegasus-dl** | [v1.7.0](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_freeshop/pegasus-dl/v1.7.0/pegasus-dl_v1.7.0.elf) | `cb2a4b3c24...` | free store webadmin http://your-ps5-ip:6970. |
+| **ps5shopappkg-dpi** | [Source-Fixe](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_freeshop/ps5shopappkg-dpi/Source-Fixe/ps5shopappkg-dpi.elf) | `c4672cfa90...` | You need PS5-SHOP-APPKG.pkg DPI port 9040. |
 
 ### 💿 PS5 Game Dump
 📂 **JSON Catégorie :** `https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/json/ps5_game_dump.json`
@@ -318,6 +320,8 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 - **ps5-payload-dev** : [websrv](https://github.com/ps5-payload-dev/websrv)
 - **ps5xploit** : [InternetBrowser-Game_Menu](https://github.com/nexgen999/Evox_PS5PKG_Private/releases/download/v1.0/PS5PKG_InternetBrowser-Game_Menu_v1.00.pkg)
 - **ps5xploit** : [InternetBrowser-Media_Menu](https://github.com/nexgen999/Evox_PS5PKG_Private/releases/download/v1.0/PS5PKG_InternetBrowser-Media_Menu_v1.00.pkg)
+- **ps5xploit** : [PS5-SHOP-APPKG](https://github.com/ps5xploit/ps5shopappkg/releases/download/ps5shopappkg/PS5-SHOP-APPKG.pkg)
+- **ps5xploit** : [ps5shopappkg-dpi](https://github.com/ps5xploit/ps5shopappkg/releases/download/ps5shopappkg/ps5shopappkg-dpi.elf)
 - **seregonwar** : [MemDBG](https://github.com/seregonwar/MemDBG)
 - **seregonwar** : [zftpd](https://github.com/seregonwar/zftpd)
 - **soniciso** : [uds-trophy-unlocker](https://git.etawen.dev/soniciso/uds-trophy-unlocker)

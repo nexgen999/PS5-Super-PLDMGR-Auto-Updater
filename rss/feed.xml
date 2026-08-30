@@ -125,6 +125,11 @@
       <description>free store webadmin http://your-ps5-ip:6970. - Checksum: cb2a4b3c248323f2432ce118cb1bf4975146035239ce9b571a9bdb51b3fee226</description>
     </item>
     <item>
+      <title>ps5shopappkg-dpi (Source-Fixe)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_freeshop/ps5shopappkg-dpi/Source-Fixe/ps5shopappkg-dpi.elf</link>
+      <description>You need PS5-SHOP-APPKG.pkg DPI port 9040. - Checksum: c4672cfa909463843c537f67d5f2df9eb3456d4036d26a4fb81fc34d7853170b</description>
+    </item>
+    <item>
       <title>ChronicLoader-PS5-Payload (0.1)</title>
       <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_utility/ChronicLoader-PS5-Payload/0.1/ChronicLoader-PS5-Payload_v0.1.elf</link>
       <description>ChronicLoader utility payload for PS5. - Checksum: 3561120f85e0ec32de5de15cdd61a1fe8d5146eb4c6aa99ee88209914a2774b1</description>

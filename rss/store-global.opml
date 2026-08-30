@@ -77,6 +77,8 @@
     <outline text="websrv" title="websrv" type="rss" xmlUrl="https://github.com/ps5-payload-dev/websrv" author="ps5-payload-dev"/>
     <outline text="InternetBrowser-Game_Menu" title="InternetBrowser-Game_Menu" type="rss" xmlUrl="https://github.com/nexgen999/Evox_PS5PKG_Private/releases/download/v1.0/PS5PKG_InternetBrowser-Game_Menu_v1.00.pkg" author="ps5xploit"/>
     <outline text="InternetBrowser-Media_Menu" title="InternetBrowser-Media_Menu" type="rss" xmlUrl="https://github.com/nexgen999/Evox_PS5PKG_Private/releases/download/v1.0/PS5PKG_InternetBrowser-Media_Menu_v1.00.pkg" author="ps5xploit"/>
+    <outline text="PS5-SHOP-APPKG" title="PS5-SHOP-APPKG" type="rss" xmlUrl="https://github.com/ps5xploit/ps5shopappkg/releases/download/ps5shopappkg/PS5-SHOP-APPKG.pkg" author="ps5xploit"/>
+    <outline text="ps5shopappkg-dpi" title="ps5shopappkg-dpi" type="rss" xmlUrl="https://github.com/ps5xploit/ps5shopappkg/releases/download/ps5shopappkg/ps5shopappkg-dpi.elf" author="ps5xploit"/>
     <outline text="MemDBG" title="MemDBG" type="rss" xmlUrl="https://github.com/seregonwar/MemDBG" author="seregonwar"/>
     <outline text="zftpd" title="zftpd" type="rss" xmlUrl="https://github.com/seregonwar/zftpd" author="seregonwar"/>
     <outline text="uds-trophy-unlocker" title="uds-trophy-unlocker" type="rss" xmlUrl="https://git.etawen.dev/soniciso/uds-trophy-unlocker" author="soniciso"/>
