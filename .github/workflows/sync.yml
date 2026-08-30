@@ -51,10 +51,10 @@ jobs:
         run: |
           echo "## 🚀 Nouveautés & Contenu de cette Build" > release_notes.md
           echo "" >> release_notes.md
-          if [ -f "PKGjson/ps5pkg.json" ]; then
+          if [ -f "PKGjson/pkg.json" ]; then
             echo "### 📦 Packages PKG Inclus" >> release_notes.md
             echo "" >> release_notes.md
-            python -c "import json; data=json.load(open('PKGjson/ps5pkg.json')); print('\n'.join([f'- **{p[\"name\"]}** ({p.get(\"version\", \"v1.0.0\")}) - {p.get(\"description\", \"\")}' for p in data.get('packages', [])]))" >> release_notes.md
+            python -c "import json; data=json.load(open('PKGjson/pkg.json')); print('\n'.join([f'- **{p[\"name\"]}** ({p.get(\"version\", \"v1.0.0\")}) - {p.get(\"description\", \"\")}' for p in data.get('packages', [])]))" >> release_notes.md
             echo "" >> release_notes.md
           fi
           if [ -f "json/payloads.json" ]; then
@@ -90,7 +90,7 @@ jobs:
           files: |
             ps5_super_pldmgr_auto_updated_offline.aio_latest.zip
             PS5PKG_aio_latest.zip
-            PKGjson/ps5pkg.json
+            PKGjson/pkg.json
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
@@ -110,6 +110,6 @@ jobs:
           files: |
             ps5_super_pldmgr_auto_updated_offline.aio_*.zip
             PS5PKG_aio_*.zip
-            PKGjson/ps5pkg.json
+            PKGjson/pkg.json
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
