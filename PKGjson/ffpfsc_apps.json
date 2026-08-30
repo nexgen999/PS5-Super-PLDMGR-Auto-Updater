@@ -4,7 +4,7 @@
     {
       "name": "ProsperoLight",
       "filename": "ProsperoLight.pkg",
-      "url": "https://github.com/blackbearreloaded/ProsperoLight",
+      "url": "https://github.com/blackbearreloaded/ProsperoLight/releases/download/01.000.040/PPSA99002.ffpfsc",
       "description": "PS5 Moonlight",
       "version": "v1.0.0",
       "author": "blackbearreloaded",
@@ -13,7 +13,7 @@
     {
       "name": "ProsperoRadio",
       "filename": "ProsperoRadio.pkg",
-      "url": "https://github.com/blackbearreloaded/ProsperoRadio",
+      "url": "https://github.com/blackbearreloaded/ProsperoRadio/releases/download/01.000.005/PPSA99001.ffpfsc",
       "description": "PS5 Radio Player",
       "version": "v1.0.0",
       "author": "blackbearreloaded",
@@ -22,7 +22,7 @@
     {
       "name": "ProsperoTV",
       "filename": "ProsperoTV.pkg",
-      "url": "https://github.com/blackbearreloaded/ProsperoTV",
+      "url": "https://github.com/blackbearreloaded/ProsperoTV/releases/download/01.000.002/PPSA99003.ffpfsc",
       "description": "PS5 IPTV",
       "version": "v1.0.0",
       "author": "blackbearreloaded",

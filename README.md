@@ -8,7 +8,7 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 
 ## 🔗 URLs Fixes des Stores JSON
 * **Payloads Store JSON :** `https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/json/payloads.json`
-* **Packages PKG Store JSON :** `https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/PKGjson/ps5pkg.json`
+* **Packages PKG Store JSON :** `https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/PKGjson/pkg.json`
 
 ## 📦 Archives AIO Releases (Dernières Versions)
 * 🚀 **AIO Payloads Offline (.zip) :** [Télécharger](https://github.com/nexgen999/PS5-Super-PLDMGR-Auto-Updater/releases/download/latest/ps5_super_pldmgr_auto_updated_offline.aio_latest.zip)
@@ -20,9 +20,9 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 
 | Package | Auteur | Version | Description |
 | :--- | :--- | :--- | :--- |
-| **[ProsperoLight](https://github.com/blackbearreloaded/ProsperoLight)** | blackbearreloaded | v1.0.0 | PS5 Moonlight |
-| **[ProsperoRadio](https://github.com/blackbearreloaded/ProsperoRadio)** | blackbearreloaded | v1.0.0 | PS5 Radio Player |
-| **[ProsperoTV](https://github.com/blackbearreloaded/ProsperoTV)** | blackbearreloaded | v1.0.0 | PS5 IPTV |
+| **[ProsperoLight](https://github.com/blackbearreloaded/ProsperoLight/releases/download/01.000.040/PPSA99002.ffpfsc)** | blackbearreloaded | v1.0.0 | PS5 Moonlight |
+| **[ProsperoRadio](https://github.com/blackbearreloaded/ProsperoRadio/releases/download/01.000.005/PPSA99001.ffpfsc)** | blackbearreloaded | v1.0.0 | PS5 Radio Player |
+| **[ProsperoTV](https://github.com/blackbearreloaded/ProsperoTV/releases/download/01.000.002/PPSA99003.ffpfsc)** | blackbearreloaded | v1.0.0 | PS5 IPTV |
 | **[Avatar-Changer](https://github.com/nexgen999/Evox_PS5PKG_Private/releases/download/v1.0/PS5PKG_Avatar-Changer_v1.00.pkg)** | Lapy | v1.00. | Avatar-Changer. |
 | **[FPKGi](https://github.com/nexgen999/Evox_PS5PKG_Private/releases/download/v1.0/PS5PKG_FPKGi_v1.10.0.pkg)** | ItsJokerZz | v1.10.0. | FPKGi. |
 | **[HOMEBREWLOADER](https://github.com/nexgen999/Evox_PS5PKG_Private/releases/download/v1.0/PS5PKG_HOMEBREWLOADER_v0.30.pkg)** | ps5-payload-dev | v0.30. | HOMEBREWLOADER. |
@@ -285,9 +285,9 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 - **aydencharles** : [onionHEN](https://github.com/aydencharles/onionHEN)
 - **barisyild** : [airpsx](https://github.com/barisyild/airpsx)
 - **bizkut** : [unrar-ps5](https://github.com/bizkut/unrar-ps5)
-- **blackbearreloaded** : [ProsperoLight](https://github.com/blackbearreloaded/ProsperoLight)
-- **blackbearreloaded** : [ProsperoRadio](https://github.com/blackbearreloaded/ProsperoRadio)
-- **blackbearreloaded** : [ProsperoTV](https://github.com/blackbearreloaded/ProsperoTV)
+- **blackbearreloaded** : [ProsperoLight](https://github.com/blackbearreloaded/ProsperoLight/releases/download/01.000.040/PPSA99002.ffpfsc)
+- **blackbearreloaded** : [ProsperoRadio](https://github.com/blackbearreloaded/ProsperoRadio/releases/download/01.000.005/PPSA99001.ffpfsc)
+- **blackbearreloaded** : [ProsperoTV](https://github.com/blackbearreloaded/ProsperoTV/releases/download/01.000.002/PPSA99003.ffpfsc)
 - **drakmor** : [ShadowMountPlus](https://github.com/drakmor/ShadowMountPlus)
 - **drakmor** : [fan_target](https://github.com/drakmor/fan_target)
 - **drakmor** : [ftpsrv_drakmor](https://github.com/drakmor/ftpsrv)
