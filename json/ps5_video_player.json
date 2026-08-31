@@ -21,12 +21,12 @@
     },
     {
       "name": "svtplay",
-      "filename": "svtplay_v0.2.elf",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_video_player/svtplay/v0.2/svtplay_v0.2.elf",
+      "filename": "svtplay_v0.3.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_video_player/svtplay/v0.3/svtplay_v0.3.elf",
       "description": "This is an unofficial 10-foot UI for SVT Play, the Swedish public service television broadcaster.",
-      "version": "v0.2",
+      "version": "v0.3",
       "category": "PS5 Video Player",
-      "checksum": "5bdf25142512f25dc6269bd7c90a914001fcef5e731125a74aa23c1a8d91810f"
+      "checksum": "31f2caac7d53b8754bb37cb0364e615bfc38fc5f02c886d286a4f9e603b56832"
     },
     {
       "name": "PS-Play",

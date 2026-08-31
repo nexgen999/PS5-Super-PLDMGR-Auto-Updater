@@ -244,7 +244,7 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 | :--- | :--- | :--- | :--- |
 | **BFplayer-standalone** | [v0.1.0-alpha.44](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_video_player/BFplayer-standalone/v0.1.0-alpha.44/BFplayer-standalone_v0.1.0-alpha.44.elf) | `0d028deb14...` | BFplayer is a native media library and player for jailbroken PlayStation 5 consoles. |
 | **ProsperoPlayer** | [v1.0](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_video_player/ProsperoPlayer/v1.0/ProsperoPlayer_v1.0.elf) | `40b9955273...` | A homebrew media player for jailbroken PS5. |
-| **svtplay** | [v0.2](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_video_player/svtplay/v0.2/svtplay_v0.2.elf) | `5bdf251425...` | This is an unofficial 10-foot UI for SVT Play, the Swedish public service television broadcaster. |
+| **svtplay** | [v0.3](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_video_player/svtplay/v0.3/svtplay_v0.3.elf) | `31f2caac7d...` | This is an unofficial 10-foot UI for SVT Play, the Swedish public service television broadcaster. |
 | **PS-Play** | [2.1](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_video_player/PS-Play/2.1/PS-Play_v2.1.elf) | `e3392379d5...` | All-in-one media hub for jailbroken PlayStation 5 |
 
 ---
