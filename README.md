@@ -66,10 +66,10 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 | Application | Version | Empreinte SHA-256 | Description |
 | :--- | :--- | :--- | :--- |
 | **webkit-autoloader-installer** | [v0.4.0](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5-webkit-autoloader/ps5-webkit-autoloader/v0.4.0/webkit-autoloader-installer_v0.4.0.elf) | `179d5e52ec...` | Installs WebKit Autoloader on homescreen for firmwares 9.00-12.00. |
-| **Host-PSM-pooP2JB-v1.1.2-instala-onionhen** | [v1.1.2](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5-webkit-autoloader/Host-PSM_pooP2JB/v1.1.2/Host-PSM-pooP2JB-v1.1.2-instala-onionhen_v1.1.2.elf) | `295ab660f9...` | Host-PSM pooP2JB. |
-| **Host-PSM-pooP2JB-v1.1.2-instala-onionhen-en** | [v1.1.2](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5-webkit-autoloader/Host-PSM_pooP2JB/v1.1.2/Host-PSM-pooP2JB-v1.1.2-instala-onionhen-en_v1.1.2.elf) | `53ee8b301e...` | Host-PSM pooP2JB. |
-| **Host-PSM-pooP2JB-v1.1.2-instala-pldmgr** | [v1.1.2](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5-webkit-autoloader/Host-PSM_pooP2JB/v1.1.2/Host-PSM-pooP2JB-v1.1.2-instala-pldmgr_v1.1.2.elf) | `a0dccabfaa...` | Host-PSM pooP2JB. |
-| **Host-PSM-pooP2JB-v1.1.2-instala-pldmgr-en** | [v1.1.2](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5-webkit-autoloader/Host-PSM_pooP2JB/v1.1.2/Host-PSM-pooP2JB-v1.1.2-instala-pldmgr-en_v1.1.2.elf) | `00e3c444cb...` | Host-PSM pooP2JB. |
+| **Host-PSM-pooP2JB-v1.2.0-instala-onionhen-en** | [v1.2.0](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5-webkit-autoloader/Host-PSM_pooP2JB/v1.2.0/Host-PSM-pooP2JB-v1.2.0-instala-onionhen-en_v1.2.0.elf) | `90f1ec197e...` | Host-PSM pooP2JB. |
+| **Host-PSM-pooP2JB-v1.2.0-instala-onionhen** | [v1.2.0](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5-webkit-autoloader/Host-PSM_pooP2JB/v1.2.0/Host-PSM-pooP2JB-v1.2.0-instala-onionhen_v1.2.0.elf) | `894432bb31...` | Host-PSM pooP2JB. |
+| **Host-PSM-pooP2JB-v1.2.0-instala-pldmgr-en** | [v1.2.0](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5-webkit-autoloader/Host-PSM_pooP2JB/v1.2.0/Host-PSM-pooP2JB-v1.2.0-instala-pldmgr-en_v1.2.0.elf) | `3ccc45938d...` | Host-PSM pooP2JB. |
+| **Host-PSM-pooP2JB-v1.2.0-instala-pldmgr** | [v1.2.0](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5-webkit-autoloader/Host-PSM_pooP2JB/v1.2.0/Host-PSM-pooP2JB-v1.2.0-instala-pldmgr_v1.2.0.elf) | `b81609da1d...` | Host-PSM pooP2JB. |
 
 ### 🌐 PS5 Dns
 📂 **JSON Catégorie :** `https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/json/ps5_dns.json`
@@ -133,7 +133,7 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 | **ELF_Arsenal** | [v1.6.22](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/ELF_Arsenal/v1.6.22/ELF_Arsenal_v1.6.22.elf) | `ee8f47e4d6...` | Boîte à outils regroupant une collection complète de payloads utilitaires pour les consoles jailbreakées. |
 | **Kura** | [v1.6.48](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/Kura/v1.6.48/Kura_v1.6.48.elf) | `49a1b46fa2...` | Un loader de payloads moderne et épuré conçu pour optimiser l'injection de code sur PS5. |
 | **PIZZA-HEN** | [v2.00](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/PIZZA-HEN/v2.00/PIZZA-HEN_v2.00.elf) | `8535d39961...` | PIZZA HEN is an experimental all-in-one PS5 homebrew environment. |
-| **onionHEN** | [v0.0.11](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/onionHEN/v0.0.11/onionHEN_v0.0.11.elf) | `edc5663c32...` | An all-in-one HEN and Toolbox for PlayStation 5. |
+| **onionHEN** | [v0.0.12](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/onionHEN/v0.0.12/onionHEN_v0.0.12.elf) | `a5c8dafe2a...` | An all-in-one HEN and Toolbox for PlayStation 5. |
 | **etaHEN-2.6B** | [Source-Fixe](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/etaHEN-Beta/Source-Fixe/etaHEN-2.6B.bin) | `512c74a9d6...` | etahen beta version experimental. |
 | **ProsperoMgr** | [beta](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/ProsperoMgr/beta/ProsperoMgr_vbeta.elf) | `6cde8d8e97...` | A Web-Based All-In-One homebrew manager for your PlayStation 5 |
 
