@@ -210,6 +210,11 @@
       <description>Installs WebKit Autoloader on homescreen for firmwares 9.00-12.00. - Checksum: 179d5e52ec3e0f595900b40883c0e10cc1fba1efc275a547f47e828d45d05915</description>
     </item>
     <item>
+      <title>Host-PSM-pooP2JB-v1.2.0-instala-pldmgr-en (v1.2.0)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5-webkit-autoloader/Host-PSM_pooP2JB/v1.2.0/Host-PSM-pooP2JB-v1.2.0-instala-pldmgr-en_v1.2.0.elf</link>
+      <description>Host-PSM pooP2JB. - Checksum: 3ccc45938dcc1bb6ee766195106c928049fd632993828bcf73b5368fdebfc496</description>
+    </item>
+    <item>
       <title>Host-PSM-pooP2JB-v1.2.0-instala-onionhen-en (v1.2.0)</title>
       <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5-webkit-autoloader/Host-PSM_pooP2JB/v1.2.0/Host-PSM-pooP2JB-v1.2.0-instala-onionhen-en_v1.2.0.elf</link>
       <description>Host-PSM pooP2JB. - Checksum: 90f1ec197e66bbf4fa1a3bce040d6a5d04d571c4f8290f608401e8f7c2e9e0a4</description>
@@ -218,11 +223,6 @@
       <title>Host-PSM-pooP2JB-v1.2.0-instala-onionhen (v1.2.0)</title>
       <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5-webkit-autoloader/Host-PSM_pooP2JB/v1.2.0/Host-PSM-pooP2JB-v1.2.0-instala-onionhen_v1.2.0.elf</link>
       <description>Host-PSM pooP2JB. - Checksum: 894432bb3161559a272bbdd07cc66dd80ac487f6ddbcc9ae5718090dc0f6e716</description>
-    </item>
-    <item>
-      <title>Host-PSM-pooP2JB-v1.2.0-instala-pldmgr-en (v1.2.0)</title>
-      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5-webkit-autoloader/Host-PSM_pooP2JB/v1.2.0/Host-PSM-pooP2JB-v1.2.0-instala-pldmgr-en_v1.2.0.elf</link>
-      <description>Host-PSM pooP2JB. - Checksum: 3ccc45938dcc1bb6ee766195106c928049fd632993828bcf73b5368fdebfc496</description>
     </item>
     <item>
       <title>Host-PSM-pooP2JB-v1.2.0-instala-pldmgr (v1.2.0)</title>
