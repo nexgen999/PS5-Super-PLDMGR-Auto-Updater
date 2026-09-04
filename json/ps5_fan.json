@@ -11,24 +11,6 @@
       "checksum": "b10b6b9b9c00efed8bf9202a83b6cb762345d1f84130a419eff7139250026b36"
     },
     {
-      "name": "fan_target_75c",
-      "filename": "fan_target_75c_v0.1.elf",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_fan/fan_target/0.1/fan_target_75c_v0.1.elf",
-      "description": "fan_target keeps the PS5 fan controller at a selected target temperature while leaving the console's automatic fan control enabled.",
-      "version": "0.1",
-      "category": "PS5 Fan",
-      "checksum": "4b52e09c48ebed1f369221c290e8ec4a9fdb2a477b7b7f44a1b8646958d9f69b"
-    },
-    {
-      "name": "fan_target_85c",
-      "filename": "fan_target_85c_v0.1.elf",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_fan/fan_target/0.1/fan_target_85c_v0.1.elf",
-      "description": "fan_target keeps the PS5 fan controller at a selected target temperature while leaving the console's automatic fan control enabled.",
-      "version": "0.1",
-      "category": "PS5 Fan",
-      "checksum": "c37019c351c1c5b05b43adbac29d85bfd25f8c0ab9d94371cacab1945d8e0fd0"
-    },
-    {
       "name": "fan_target_80c",
       "filename": "fan_target_80c_v0.1.elf",
       "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_fan/fan_target/0.1/fan_target_80c_v0.1.elf",
@@ -36,6 +18,24 @@
       "version": "0.1",
       "category": "PS5 Fan",
       "checksum": "ccf2e709218f31cd9e6a0705c99646b8f030b877687df8377982a2f6ca10216e"
+    },
+    {
+      "name": "fan_target_70c",
+      "filename": "fan_target_70c_v0.1.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_fan/fan_target/0.1/fan_target_70c_v0.1.elf",
+      "description": "fan_target keeps the PS5 fan controller at a selected target temperature while leaving the console's automatic fan control enabled.",
+      "version": "0.1",
+      "category": "PS5 Fan",
+      "checksum": "a9ad8502123799d58f8ddd9882d842f524c4ecc3ea6743a73c6dcdffd0bf30e0"
+    },
+    {
+      "name": "fan_target_75c",
+      "filename": "fan_target_75c_v0.1.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_fan/fan_target/0.1/fan_target_75c_v0.1.elf",
+      "description": "fan_target keeps the PS5 fan controller at a selected target temperature while leaving the console's automatic fan control enabled.",
+      "version": "0.1",
+      "category": "PS5 Fan",
+      "checksum": "4b52e09c48ebed1f369221c290e8ec4a9fdb2a477b7b7f44a1b8646958d9f69b"
     },
     {
       "name": "fan_target_65c",
@@ -47,13 +47,13 @@
       "checksum": "0bedeb564947530d09d1dfb27df63c2a09eaa7f51faf3ddcc90b3fb2870e6312"
     },
     {
-      "name": "fan_target_70c",
-      "filename": "fan_target_70c_v0.1.elf",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_fan/fan_target/0.1/fan_target_70c_v0.1.elf",
+      "name": "fan_target_85c",
+      "filename": "fan_target_85c_v0.1.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_fan/fan_target/0.1/fan_target_85c_v0.1.elf",
       "description": "fan_target keeps the PS5 fan controller at a selected target temperature while leaving the console's automatic fan control enabled.",
       "version": "0.1",
       "category": "PS5 Fan",
-      "checksum": "a9ad8502123799d58f8ddd9882d842f524c4ecc3ea6743a73c6dcdffd0bf30e0"
+      "checksum": "c37019c351c1c5b05b43adbac29d85bfd25f8c0ab9d94371cacab1945d8e0fd0"
     }
   ]
 }
