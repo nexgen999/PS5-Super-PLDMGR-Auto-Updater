@@ -115,6 +115,11 @@
       <description>kylin-core - Checksum: 2b731fc60b3d7996667b372bb8e31df7125d209ecacbb6838312a51b24b65c29</description>
     </item>
     <item>
+      <title>Spectrum-Library (1.4.4)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_freeshop/Spectrum-Library/1.4.4/Spectrum-Library_v1.4.4.elf</link>
+      <description>free store webadmin http://your-ps5-ip:7575. - Checksum: 2005b5e169dc360c52b9033cc02bce4169a9d4a078627c543b9bbcf66607b9d5</description>
+    </item>
+    <item>
       <title>pegasus-dl (v1.7.0)</title>
       <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_freeshop/pegasus-dl/v1.7.0/pegasus-dl_v1.7.0.elf</link>
       <description>free store webadmin http://your-ps5-ip:6970. - Checksum: cb2a4b3c248323f2432ce118cb1bf4975146035239ce9b571a9bdb51b3fee226</description>
@@ -260,9 +265,9 @@
       <description>PS5 App Dumper payload. - Checksum: 18483751ebaea6879b020a9dd87c0a4fb4f1bf09f3708d950362a483f78cc0d0</description>
     </item>
     <item>
-      <title>ShadowMountPlus (1.7alpha13)</title>
-      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/ShadowMountPlus/1.7alpha13/ShadowMountPlus_v1.7alpha13.elf</link>
-      <description>ShadowMountPlus payload for game mounting. - Checksum: 28b83d88cd650d8addc34369dae6e8f0a27b0b2d14282d63e7bd1cecf3ce8adb</description>
+      <title>ShadowMountPlus (1.7alpha13fix1)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/ShadowMountPlus/1.7alpha13fix1/ShadowMountPlus_v1.7alpha13fix1.elf</link>
+      <description>ShadowMountPlus payload for game mounting. - Checksum: 15af22e6cefefbcc9f16f137b5255b6b94d546788ba5f404dc9220da4759a6ff</description>
     </item>
     <item>
       <title>BackPork (0.1)</title>
