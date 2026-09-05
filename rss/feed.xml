@@ -465,9 +465,9 @@
       <description>Drakmor's variant of the FTP server. Port: 21 - Checksum: 6364e0529416f400be123c52acdcda68efd5179d971c060286022131fd047b8e</description>
     </item>
     <item>
-      <title>ps5upload (v5.16.0)</title>
-      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ps5upload/v5.16.0/ps5upload_v5.16.0.elf</link>
-      <description>PS5 Upload server / tool. Port: 9025 - Checksum: f6b53f8ecfa7cbfa8105e6ccc56c7fb99b3567373a021991336d2e2b7d99747a</description>
+      <title>ps5upload (v5.17.0)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ps5upload/v5.17.0/ps5upload_v5.17.0.elf</link>
+      <description>PS5 Upload server / tool. Port: 9025 - Checksum: e180b4f06ee86d2acd00f2bcb0edbebc02330c396642936d9659b33529d9c3ed</description>
     </item>
     <item>
       <title>airpsx (0.19)</title>
