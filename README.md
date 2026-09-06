@@ -58,7 +58,7 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 
 | Application | Version | Empreinte SHA-256 | Description |
 | :--- | :--- | :--- | :--- |
-| **Common_FPS_PS5** | [v1.0.0](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Overlay/Common-FPS-for-PS5/v1.0.0/Common_FPS_PS5_v1.0.0.elf) | `6a66da88a9...` | A lightweight, open-source real-time FPS counter for PlayStation 5. |
+| **Common_FPS_PS5** | [v1.1.0](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Overlay/Common-FPS-for-PS5/v1.1.0/Common_FPS_PS5_v1.1.0.elf) | `4f544fa00f...` | A lightweight, open-source real-time FPS counter for PlayStation 5. |
 
 ### 📦 Ps5-Webkit-Autoloader
 📂 **JSON Catégorie :** `https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/json/ps5-webkit-autoloader.json`

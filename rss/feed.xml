@@ -370,9 +370,9 @@
       <description>Serveur DNS de redirection d'envergure conçu spécifiquement pour bloquer les mises à jour de Sony et rediriger le guide de l'utilisateur. - Checksum: 0cf13e1ed87b57ffa4fdcfca5d9afe1572be29b4f632677cedf17657a972d750</description>
     </item>
     <item>
-      <title>Common_FPS_PS5 (v1.0.0)</title>
-      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Overlay/Common-FPS-for-PS5/v1.0.0/Common_FPS_PS5_v1.0.0.elf</link>
-      <description>A lightweight, open-source real-time FPS counter for PlayStation 5. - Checksum: 6a66da88a99fa8757bf5c649e388d777a10768cd444d9f4cf82649e4592e292c</description>
+      <title>Common_FPS_PS5 (v1.1.0)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Overlay/Common-FPS-for-PS5/v1.1.0/Common_FPS_PS5_v1.1.0.elf</link>
+      <description>A lightweight, open-source real-time FPS counter for PlayStation 5. - Checksum: 4f544fa00f7a430e64c4c8d0ed42d0463d2370c81dabd9141599c27c4f3f99d6</description>
     </item>
     <item>
       <title>PS5-Game-Compressor (v1.0.4)</title>
