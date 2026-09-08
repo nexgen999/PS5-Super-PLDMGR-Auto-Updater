@@ -741,12 +741,12 @@
     },
     {
       "name": "ps5-web-file-manager",
-      "filename": "ps5-web-file-manager_v1.7.elf",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_file_explorer/ps5-web-file-manager/v1.7/ps5-web-file-manager_v1.7.elf",
+      "filename": "ps5-web-file-manager_v1.8.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_file_explorer/ps5-web-file-manager/v1.8/ps5-web-file-manager_v1.8.elf",
       "description": "PS5 Web File Manager http://your-ps5-ip:8888.",
-      "version": "v1.7",
+      "version": "v1.8",
       "category": "PS5 File Explorer",
-      "checksum": "07c1f65d855fc4eb905b37ef990baf25a6a8b21da13590cd21b3e4b7d10ff4e1"
+      "checksum": "c1a688354f00d7b41ec172f930649732b2bc0c77db3d061c533ae4e7252a8a51"
     },
     {
       "name": "PS5-File-Explorer",
@@ -831,12 +831,12 @@
     },
     {
       "name": "ps5upload",
-      "filename": "ps5upload_v5.17.5.elf",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ps5upload/v5.17.5/ps5upload_v5.17.5.elf",
+      "filename": "ps5upload_v5.17.6.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ps5upload/v5.17.6/ps5upload_v5.17.6.elf",
       "description": "PS5 Upload server / tool. Port: 9025",
-      "version": "v5.17.5",
+      "version": "v5.17.6",
       "category": "PS5 Server",
-      "checksum": "c1fc5cd84b05840a98a2b1997ef35f8aaba9426c9e667debf582d970ad5da866"
+      "checksum": "db5cdfd99d49b86cb3b33d85637bb726e2f1b4ab57cd1c8c8379e096bed50485"
     },
     {
       "name": "airpsx",

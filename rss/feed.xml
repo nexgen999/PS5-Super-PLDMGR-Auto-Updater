@@ -415,9 +415,9 @@
       <description>Daemon pour le jailbreak de Lapy - Checksum: e8230ac4597b8f0388e75d7515ad1a2e251c4589cc3b8d56a483ffae73627eed</description>
     </item>
     <item>
-      <title>ps5-web-file-manager (v1.7)</title>
-      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_file_explorer/ps5-web-file-manager/v1.7/ps5-web-file-manager_v1.7.elf</link>
-      <description>PS5 Web File Manager http://your-ps5-ip:8888. - Checksum: 07c1f65d855fc4eb905b37ef990baf25a6a8b21da13590cd21b3e4b7d10ff4e1</description>
+      <title>ps5-web-file-manager (v1.8)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_file_explorer/ps5-web-file-manager/v1.8/ps5-web-file-manager_v1.8.elf</link>
+      <description>PS5 Web File Manager http://your-ps5-ip:8888. - Checksum: c1a688354f00d7b41ec172f930649732b2bc0c77db3d061c533ae4e7252a8a51</description>
     </item>
     <item>
       <title>PS5-File-Explorer (file-explorer-v0.2.1)</title>
@@ -465,9 +465,9 @@
       <description>Drakmor's variant of the FTP server. Port: 21 - Checksum: 6364e0529416f400be123c52acdcda68efd5179d971c060286022131fd047b8e</description>
     </item>
     <item>
-      <title>ps5upload (v5.17.5)</title>
-      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ps5upload/v5.17.5/ps5upload_v5.17.5.elf</link>
-      <description>PS5 Upload server / tool. Port: 9025 - Checksum: c1fc5cd84b05840a98a2b1997ef35f8aaba9426c9e667debf582d970ad5da866</description>
+      <title>ps5upload (v5.17.6)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ps5upload/v5.17.6/ps5upload_v5.17.6.elf</link>
+      <description>PS5 Upload server / tool. Port: 9025 - Checksum: db5cdfd99d49b86cb3b33d85637bb726e2f1b4ab57cd1c8c8379e096bed50485</description>
     </item>
     <item>
       <title>airpsx (0.19)</title>
