@@ -125,11 +125,6 @@
       <description>Ghostpad controller input utility. - Checksum: 94d43a8db7ec9df6e18f0a0da25aac0f60e1a0b14d35bfff261f6f5cdeabdba1</description>
     </item>
     <item>
-      <title>Ghostcontrol-PS5-USB-Controller-Patcher (1.0.5)</title>
-      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_utility/Ghostcontrol-PS5-USB-Controller-Patcher/1.0.5/Ghostcontrol-PS5-USB-Controller-Patcher_v1.0.5.elf</link>
-      <description>USB Controller patcher tool for PS5. - Checksum: 69271d91f27397c9ad42150129639ce452ecb405021108f42c6c87926123a6f1</description>
-    </item>
-    <item>
       <title>PoorDS4-stop (v0.1.0-rc38)</title>
       <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_utility/PoorDS4/v0.1.0-rc38/PoorDS4-stop_v0.1.0-rc38.elf</link>
       <description>PoorDS4 lets a wireless DualShock 4 paired with a jailbroken PS5. - Checksum: bf9f1dec35edcffe3744fbc69cb7d4601f6df3cef72fab36c38fd249e736107a</description>
@@ -245,9 +240,9 @@
       <description>free store webadmin http://your-ps5-ip:7575. - Checksum: 2005b5e169dc360c52b9033cc02bce4169a9d4a078627c543b9bbcf66607b9d5</description>
     </item>
     <item>
-      <title>pegasus-dl (v1.7.0)</title>
-      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_freeshop/pegasus-dl/v1.7.0/pegasus-dl_v1.7.0.elf</link>
-      <description>free store webadmin http://your-ps5-ip:6970. - Checksum: cb2a4b3c248323f2432ce118cb1bf4975146035239ce9b571a9bdb51b3fee226</description>
+      <title>pegasus-dl (v1.8.0)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_freeshop/pegasus-dl/v1.8.0/pegasus-dl_v1.8.0.elf</link>
+      <description>free store webadmin http://your-ps5-ip:6970. - Checksum: 3665fa275a185e597ef364379a7f7ad5a9d58f30fda2af6bd04e43299ff2e669</description>
     </item>
     <item>
       <title>ps5shopappkg-dpi (Source-Fixe)</title>

@@ -30,7 +30,6 @@
     <outline text="Spectrum-Library" title="Spectrum-Library" type="rss" xmlUrl="https://github.com/Phoenixx1202/Spectrum-Library" author="Phoenixx1202"/>
     <outline text="ELF Arsenal" title="ELF Arsenal" type="rss" xmlUrl="https://git.etawen.dev/soniciso/elf-arsenal" author="SonicIso"/>
     <outline text="ChronicLoader-PS5-Payload" title="ChronicLoader-PS5-Payload" type="rss" xmlUrl="https://github.com/StonedModder/ChronicLoader-PS5-Payload" author="StonedModder"/>
-    <outline text="Ghostcontrol-PS5-USB-Controller-Patcher" title="Ghostcontrol-PS5-USB-Controller-Patcher" type="rss" xmlUrl="https://github.com/StonedModder/Ghostcontrol-PS5-USB-Controller-Patcher" author="StonedModder"/>
     <outline text="Ghostpad" title="Ghostpad" type="rss" xmlUrl="https://github.com/StonedModder/Ghostpad" author="StonedModder"/>
     <outline text="PS Game State Lib" title="PS Game State Lib" type="rss" xmlUrl="https://github.com/StonedModder/ps-game-state-lib" author="StonedModder"/>
     <outline text="PS-DiscordPresence" title="PS-DiscordPresence" type="rss" xmlUrl="https://github.com/StonedModder/PS-DiscordPresence" author="StonedModder"/>
