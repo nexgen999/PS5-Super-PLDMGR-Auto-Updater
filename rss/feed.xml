@@ -235,9 +235,9 @@
       <description>fan_target keeps the PS5 fan controller at a selected target temperature while leaving the console's automatic fan control enabled. - Checksum: c37019c351c1c5b05b43adbac29d85bfd25f8c0ab9d94371cacab1945d8e0fd0</description>
     </item>
     <item>
-      <title>Spectrum-Library (1.4.4)</title>
-      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_freeshop/Spectrum-Library/1.4.4/Spectrum-Library_v1.4.4.elf</link>
-      <description>free store webadmin http://your-ps5-ip:7575. - Checksum: 2005b5e169dc360c52b9033cc02bce4169a9d4a078627c543b9bbcf66607b9d5</description>
+      <title>Spectrum-Library (1.4.5)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_freeshop/Spectrum-Library/1.4.5/Spectrum-Library_v1.4.5.elf</link>
+      <description>free store webadmin http://your-ps5-ip:7575. - Checksum: cd93973a89263fad0b13b39d77d7fbb401c7c7c641bc036965876c810ebf534e</description>
     </item>
     <item>
       <title>pegasus-dl (v1.8.0)</title>
@@ -340,9 +340,9 @@
       <description>PIZZA HEN is an experimental all-in-one PS5 homebrew environment. - Checksum: 8535d399612d61c50a528b2ae416f2fc3ccfb7480296df99c17302583fb3e345</description>
     </item>
     <item>
-      <title>onionHEN (v0.0.12)</title>
-      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/onionHEN/v0.0.12/onionHEN_v0.0.12.elf</link>
-      <description>An all-in-one HEN and Toolbox for PlayStation 5. - Checksum: a5c8dafe2af2681e8014421400c4ade4183a8d8be6dad6080dbd0930fa159e00</description>
+      <title>onionHEN (v0.0.13)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/onionHEN/v0.0.13/onionHEN_v0.0.13.elf</link>
+      <description>An all-in-one HEN and Toolbox for PlayStation 5. - Checksum: aa3f98847948e2ae8ea600c3f437e28247a0a4f8b73651a046d2859924bf97b3</description>
     </item>
     <item>
       <title>etaHEN-2.6B (Source-Fixe)</title>
@@ -460,9 +460,9 @@
       <description>Drakmor's variant of the FTP server. Port: 21 - Checksum: 6364e0529416f400be123c52acdcda68efd5179d971c060286022131fd047b8e</description>
     </item>
     <item>
-      <title>ps5upload (v5.17.10)</title>
-      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ps5upload/v5.17.10/ps5upload_v5.17.10.elf</link>
-      <description>PS5 Upload server / tool. Port: 9025 - Checksum: 4039b181fb44d68f05f9d8d8e62062eef39202a2c2b8f3a75cfc3c78dae39a03</description>
+      <title>ps5upload (v5.18.0)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ps5upload/v5.18.0/ps5upload_v5.18.0.elf</link>
+      <description>PS5 Upload server / tool. Port: 9025 - Checksum: 07bb18ce1c6eacfc8da796394c23cc535850129d1ad0eff0c60dfb5dc7b93f0a</description>
     </item>
     <item>
       <title>airpsx (0.19)</title>

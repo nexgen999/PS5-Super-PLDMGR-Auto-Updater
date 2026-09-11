@@ -107,7 +107,7 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 
 | Application | Version | Empreinte SHA-256 | Description |
 | :--- | :--- | :--- | :--- |
-| **Spectrum-Library** | [1.4.4](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_freeshop/Spectrum-Library/1.4.4/Spectrum-Library_v1.4.4.elf) | `2005b5e169...` | free store webadmin http://your-ps5-ip:7575. |
+| **Spectrum-Library** | [1.4.5](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_freeshop/Spectrum-Library/1.4.5/Spectrum-Library_v1.4.5.elf) | `cd93973a89...` | free store webadmin http://your-ps5-ip:7575. |
 | **pegasus-dl** | [v1.8.0](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_freeshop/pegasus-dl/v1.8.0/pegasus-dl_v1.8.0.elf) | `3665fa275a...` | free store webadmin http://your-ps5-ip:6970. |
 | **ps5shopappkg-dpi** | [Source-Fixe](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_freeshop/ps5shopappkg-dpi/Source-Fixe/ps5shopappkg-dpi.elf) | `c4672cfa90...` | You need PS5-SHOP-APPKG.pkg DPI port 9040. |
 
@@ -133,7 +133,7 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 | **ELF_Arsenal** | [v1.6.22](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/ELF_Arsenal/v1.6.22/ELF_Arsenal_v1.6.22.elf) | `ee8f47e4d6...` | Boîte à outils regroupant une collection complète de payloads utilitaires pour les consoles jailbreakées. |
 | **Kura** | [v1.6.50](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/Kura/v1.6.50/Kura_v1.6.50.elf) | `8bac520b2b...` | Un loader de payloads moderne et épuré conçu pour optimiser l'injection de code sur PS5. |
 | **PIZZA-HEN** | [v2.00](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/PIZZA-HEN/v2.00/PIZZA-HEN_v2.00.elf) | `8535d39961...` | PIZZA HEN is an experimental all-in-one PS5 homebrew environment. |
-| **onionHEN** | [v0.0.12](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/onionHEN/v0.0.12/onionHEN_v0.0.12.elf) | `a5c8dafe2a...` | An all-in-one HEN and Toolbox for PlayStation 5. |
+| **onionHEN** | [v0.0.13](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/onionHEN/v0.0.13/onionHEN_v0.0.13.elf) | `aa3f988479...` | An all-in-one HEN and Toolbox for PlayStation 5. |
 | **etaHEN-2.6B** | [Source-Fixe](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/etaHEN-Beta/Source-Fixe/etaHEN-2.6B.bin) | `512c74a9d6...` | etahen beta version experimental. |
 | **ProsperoMgr** | [beta](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/ProsperoMgr/beta/ProsperoMgr_vbeta.elf) | `6cde8d8e97...` | A Web-Based All-In-One homebrew manager for your PlayStation 5 |
 
@@ -198,7 +198,7 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 | **gdbsrv** | [v0.9](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/gdbsrv/v0.9/gdbsrv_v0.9.elf) | `fc91ea233c...` | GDB Debugger server payload. Port: 1234 |
 | **klogsrv** | [v0.9](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/klogsrv/v0.9/klogsrv_v0.9.elf) | `e828ec1442...` | Kernel log server daemon. Port: 3232 |
 | **ftpsrv_drakmor** | [1.6-ng-test2](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ftpsrv_drakmor/1.6-ng-test2/ftpsrv_drakmor_v1.6-ng-test2.elf) | `6364e05294...` | Drakmor's variant of the FTP server. Port: 21 |
-| **ps5upload** | [v5.17.10](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ps5upload/v5.17.10/ps5upload_v5.17.10.elf) | `4039b181fb...` | PS5 Upload server / tool. Port: 9025 |
+| **ps5upload** | [v5.18.0](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ps5upload/v5.18.0/ps5upload_v5.18.0.elf) | `07bb18ce1c...` | PS5 Upload server / tool. Port: 9025 |
 | **airpsx** | [0.19](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/airpsx/0.19/airpsx_v0.19.elf) | `ae025ca772...` | AirPSX server tool for PS5 ecosystem. |
 
 ### 📦 PS5 Themes-Avatars
