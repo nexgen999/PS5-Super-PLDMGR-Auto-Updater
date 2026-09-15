@@ -105,11 +105,6 @@
       <description>Drakmor's variant of kstuff-lite. - Checksum: 2b699d411079a21dba7c39a02993fc0fb21e52f434103e884a0c892fafe56b75</description>
     </item>
     <item>
-      <title>ps5-linux-loader (v2.5)</title>
-      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_linux/ps5-linux-loader/v2.5/ps5-linux-loader_v2.5.elf</link>
-      <description>Linux loader payload for the PS5. - Checksum: 9fc48733077145d1d204a4c9cdb879baaab1e711a604dd73af0dd4a807d6bc49</description>
-    </item>
-    <item>
       <title>uds-trophy-unlocker (v1.0.0)</title>
       <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_trophy/uds-trophy-unlocker/v1.0.0/uds-trophy-unlocker_v1.0.0.elf</link>
       <description>Trophy unlocker utility for PS5 hosted on Forgejo. - Checksum: 3a338eccaa236e13e52b790140146f4cf8fd10aa79fd9127e2a91880bd85a1cb</description>
@@ -240,9 +235,9 @@
       <description>free store webadmin http://your-ps5-ip:7575. - Checksum: cd93973a89263fad0b13b39d77d7fbb401c7c7c641bc036965876c810ebf534e</description>
     </item>
     <item>
-      <title>pegasus-dl (v1.8.0)</title>
-      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_freeshop/pegasus-dl/v1.8.0/pegasus-dl_v1.8.0.elf</link>
-      <description>free store webadmin http://your-ps5-ip:6970. - Checksum: 3665fa275a185e597ef364379a7f7ad5a9d58f30fda2af6bd04e43299ff2e669</description>
+      <title>pegasus-dl (v1.9.0)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_freeshop/pegasus-dl/v1.9.0/pegasus-dl_v1.9.0.elf</link>
+      <description>free store webadmin http://your-ps5-ip:6970. - Checksum: 6336c626f0fbdef1272cc5d4e0239d7b44bf40f8106679083cf50d4c8e02389b</description>
     </item>
     <item>
       <title>ps5shopappkg-dpi (Source-Fixe)</title>
@@ -460,9 +455,9 @@
       <description>Drakmor's variant of the FTP server. Port: 21 - Checksum: 6364e0529416f400be123c52acdcda68efd5179d971c060286022131fd047b8e</description>
     </item>
     <item>
-      <title>ps5upload (v5.26.0)</title>
-      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ps5upload/v5.26.0/ps5upload_v5.26.0.elf</link>
-      <description>PS5 Upload server / tool. Port: 9025 - Checksum: 735edfeb5cf61b65bde8260cd63ce3d4417e2442dfe9609ae551a5bd8f15803a</description>
+      <title>ps5upload (v5.27.1)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ps5upload/v5.27.1/ps5upload_v5.27.1.elf</link>
+      <description>PS5 Upload server / tool. Port: 9025 - Checksum: 89df1d295a906d170e3a63764ac09841b3f0885ce56595a6ade775395fe2e146</description>
     </item>
     <item>
       <title>airpsx (0.19)</title>
