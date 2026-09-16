@@ -99,7 +99,7 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 | **bfpilot** | [v0.4.4](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_file_explorer/BFpilot/v0.4.4/bfpilot_v0.4.4.elf) | `5a82376302...` | BFpilot is a lightweight PS5 payload that serves a browser-based file manager. |
 | **BFpilot** | [v0.4.4](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_file_explorer/BFpilot/v0.4.4/BFpilot_v0.4.4.elf) | `5a82376302...` | BFpilot is a lightweight PS5 payload that serves a browser-based file manager. |
 | **lapy_jb_daemon** | [Source-Fixe](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_file_explorer/Lapy_JB_Daemon/Source-Fixe/lapy_jb_daemon.elf) | `e8230ac459...` | Daemon pour le jailbreak de Lapy |
-| **ps5-web-file-manager** | [v1.8](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_file_explorer/ps5-web-file-manager/v1.8/ps5-web-file-manager_v1.8.elf) | `c1a688354f...` | PS5 Web File Manager http://your-ps5-ip:8888. |
+| **ps5-web-file-manager** | [v1.9](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_file_explorer/ps5-web-file-manager/v1.9/ps5-web-file-manager_v1.9.elf) | `711cb076e8...` | PS5 Web File Manager http://your-ps5-ip:8888. |
 | **PS5-File-Explorer** | [file-explorer-v0.2.1](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_file_explorer/PS5-File-Explorer/file-explorer-v0.2.1/PS5-File-Explorer_vfile-explorer-v0.2.1.elf) | `6d4b905b42...` | PS5 File Explorer http://your-ps5-ip:5905. |
 
 ### 💾 PS5 Freeshop
