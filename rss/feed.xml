@@ -125,19 +125,19 @@
       <description>Ghostpad controller input utility. - Checksum: 94d43a8db7ec9df6e18f0a0da25aac0f60e1a0b14d35bfff261f6f5cdeabdba1</description>
     </item>
     <item>
-      <title>PoorDS4-stop (v0.1.0-rc38)</title>
-      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_utility/PoorDS4/v0.1.0-rc38/PoorDS4-stop_v0.1.0-rc38.elf</link>
-      <description>PoorDS4 lets a wireless DualShock 4 paired with a jailbroken PS5. - Checksum: bf9f1dec35edcffe3744fbc69cb7d4601f6df3cef72fab36c38fd249e736107a</description>
+      <title>PoorDS4-stop (v0.1.0-rc44)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_utility/PoorDS4/v0.1.0-rc44/PoorDS4-stop_v0.1.0-rc44.elf</link>
+      <description>PoorDS4 lets a wireless DualShock 4 paired with a jailbroken PS5. - Checksum: ffdce4964f0d34a2b9be7cb65e6ad345d5beb582dcdf94d0214cde6bc79acd0d</description>
     </item>
     <item>
-      <title>PoorDS4rc38 (v0.1.0-rc38)</title>
-      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_utility/PoorDS4/v0.1.0-rc38/PoorDS4rc38_v0.1.0-rc38.elf</link>
-      <description>PoorDS4 lets a wireless DualShock 4 paired with a jailbroken PS5. - Checksum: 62d21fe837ee53dd4291e45d99259d4557def05e2d4196ab54e020ba28b5399e</description>
+      <title>PoorDS4-status (v0.1.0-rc44)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_utility/PoorDS4/v0.1.0-rc44/PoorDS4-status_v0.1.0-rc44.elf</link>
+      <description>PoorDS4 lets a wireless DualShock 4 paired with a jailbroken PS5. - Checksum: 9195c512853538ec3ccf0207f68ed4898f386c6fb624c54d8fa959cef1a8b906</description>
     </item>
     <item>
-      <title>PoorDS4-status (v0.1.0-rc38)</title>
-      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_utility/PoorDS4/v0.1.0-rc38/PoorDS4-status_v0.1.0-rc38.elf</link>
-      <description>PoorDS4 lets a wireless DualShock 4 paired with a jailbroken PS5. - Checksum: c26a35a2c9ba9074ad33cf27a5afbd05536978518c546552df21d512b07a273d</description>
+      <title>PoorDS4rc44 (v0.1.0-rc44)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_utility/PoorDS4/v0.1.0-rc44/PoorDS4rc44_v0.1.0-rc44.elf</link>
+      <description>PoorDS4 lets a wireless DualShock 4 paired with a jailbroken PS5. - Checksum: a077fe7a1defbe6918538b834eaa502a6b4239d7feff58c8fa4ec06cd325d9a8</description>
     </item>
     <item>
       <title>PS_Game_State_Lib (v0.1)</title>
