@@ -7,27 +7,27 @@
     <item>
       <title>kstuff (Source-Fixe)</title>
       <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/kstuff_Darkmor_Experimental/Source-Fixe/kstuff_v1.12-dr-test8.elf</link>
-      <description>Experimental Kstuff DarkMor - Checksum: 941509b65e492166c9e4aace82ddac12d13a17478e255865cc31c5b2e01514a6</description>
+      <description>Experimental Kstuff DarkMor - Checksum: 38eff4d1b7cad9bf5dd6e3b8728530d0c117d2b3af7cc4b4df8fd23dcf9835c9</description>
     </item>
     <item>
       <title>ShadowMountPlus (Source-Fixe)</title>
       <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/ShadowMountPlus/Source-Fixe/ShadowMountPlus_v1.7alpha13fix1-13-g072c17.elf</link>
-      <description>ShadowMountPlus experimental for FPKG - Checksum: 63b68aaaf48f888ca38b8f446ae395820b7fc6eebb1fb6a1cada89d602c579b9</description>
+      <description>ShadowMountPlus experimental for FPKG - Checksum: 5894a576c139a912a7b1ffc466ffa61bc5d32eeede931f4d7e6ca26818e5879a</description>
     </item>
     <item>
       <title>a53_ppr_install_fast (Source-Fixe)</title>
       <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/A53_Experimental_KS-D/Source-Fixe/a53_ppr_install_fast_v15.09.elf</link>
-      <description>A53 Experimental for Kstuff-Darkmor - Checksum: c1a620e9fab82f571eba416f727d250d8a88e5738737c646d99bcccdcebc371b</description>
+      <description>A53 Experimental for Kstuff-Darkmor - Checksum: 0a256aef4916dc28487f3cbd534c6554035a3ef0f569c06d3e5bd543b123b438</description>
     </item>
     <item>
       <title>kstuff-echostrech (Source-Fixe)</title>
       <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/Kstuff_EchoStrech_Experimental/Source-Fixe/kstuff-echostrech_v1.11expermiental.elf</link>
-      <description>Experimental Kstuff EchoStrech - Checksum: e3330b9a8642307b0da2cf744b118ce1a827700a7e4b0a0ae7a6899a3183650d</description>
+      <description>Experimental Kstuff EchoStrech - Checksum: c76b5017ed5af7a2fa02d96500fcffa730db759a2d1dc0335850d659bf5a2f9a</description>
     </item>
     <item>
       <title>a53_exploit-experimental (Source-Fixe)</title>
       <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/A53_Experimental_KS-E/Source-Fixe/a53_exploit-experimental.elf</link>
-      <description>A53 Experimental for Kstuff-EchoStrech - Checksum: bf420faa0b02aae5508ff836b34730c9cef2b928abecd087c9d011cee26e9f2c</description>
+      <description>A53 Experimental for Kstuff-EchoStrech - Checksum: f6baa7b6be828ddfcf826541795d185856ebd2b18c499ae375f00315db804a99</description>
     </item>
     <item>
       <title>ps5debug-NG (1.3.0)</title>
