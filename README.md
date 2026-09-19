@@ -50,9 +50,11 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 
 | Application | Version | Empreinte SHA-256 | Description |
 | :--- | :--- | :--- | :--- |
-| **kstuff** | [Source-Fixe](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/kstuff_v1.12-dr-test8/Source-Fixe/kstuff_v1.12-dr-test8.elf) | `0b01120206...` | Experimental Kstuff for FPKG |
-| **ShadowMountPlus** | [Source-Fixe](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/ShadowMountPlus/Source-Fixe/ShadowMountPlus_v1.7alpha13fix1-13-g072c17.elf) | `1b40c106fa...` | ShadowMountPlus experimental for FPKG |
-| **a53_ppr_install_fast** | [Source-Fixe](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/A53_PPR_Install/Source-Fixe/a53_ppr_install_fast_v15.09.elf) | `bcd110dacb...` | A53_PPR_Install experimental for FFPKG |
+| **kstuff** | [Source-Fixe](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/kstuff_Darkmor_Experimental/Source-Fixe/kstuff_v1.12-dr-test8.elf) | `941509b65e...` | Experimental Kstuff DarkMor |
+| **ShadowMountPlus** | [Source-Fixe](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/ShadowMountPlus/Source-Fixe/ShadowMountPlus_v1.7alpha13fix1-13-g072c17.elf) | `63b68aaaf4...` | ShadowMountPlus experimental for FPKG |
+| **a53_ppr_install_fast** | [Source-Fixe](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/A53_Experimental_KS-D/Source-Fixe/a53_ppr_install_fast_v15.09.elf) | `c1a620e9fa...` | A53 Experimental for Kstuff-Darkmor |
+| **kstuff-echostrech** | [Source-Fixe](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/Kstuff_EchoStrech_Experimental/Source-Fixe/kstuff-echostrech_v1.11expermiental.elf) | `e3330b9a86...` | Experimental Kstuff EchoStrech |
+| **a53_exploit-experimental** | [Source-Fixe](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/A53_Experimental_KS-E/Source-Fixe/a53_exploit-experimental.elf) | `bf420faa0b...` | A53 Experimental for Kstuff-EchoStrech |
 
 ### 🏴‍☠️ PS5 Cheat
 📂 **JSON Catégorie :** `https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/json/PS5_Cheat.json`
@@ -268,10 +270,12 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 - **Al-Azif** : [Chukei DNS](https://github.com/Al-Azif/chukei-dns)
 - **ArkSama** : [Lapy JB Daemon](https://raw.githubusercontent.com/ArkSama/PS5-Lapy-JB-Daemon/main/lapy_jb_daemon.elf)
 - **BestPig** : [BackPork](https://github.com/BestPig/BackPork)
-- **Darkmor** : [A53_PPR_Install](https://github.com/nexgen999/PS5-Super-PLDMGR-Auto-Updater/blob/main/Internal/payloads/beta/a53_ppr/a53_ppr_install_fast_v15.09.elf)
+- **Darkmor** : [A53 Experimental KS-D](https://github.com/nexgen999/PS5-Super-PLDMGR-Auto-Updater/blob/main/Internal/payloads/beta/a53_ppr/a53_ppr_install_fast_v15.09.elf)
 - **Darkmor** : [ShadowMountPlus](https://github.com/nexgen999/PS5-Super-PLDMGR-Auto-Updater/blob/main/Internal/payloads/beta/ShadownMountPlusExpermiental/ShadowMountPlus_v1.7alpha13fix1-13-g072c17.elf)
-- **Darkmor** : [kstuff_v1.12-dr-test8](https://github.com/nexgen999/PS5-Super-PLDMGR-Auto-Updater/blob/main/Internal/payloads/beta/Kstuff-Darkmor/kstuff_v1.12-dr-test8.elf)
+- **Darkmor** : [kstuff_Darkmor_Experimental](https://github.com/nexgen999/PS5-Super-PLDMGR-Auto-Updater/blob/main/Internal/payloads/beta/Kstuff-Darkmor/kstuff_v1.12-dr-test8.elf)
 - **Drakmor** : [nanoDNS](https://github.com/drakmor/nanoDNS)
+- **EchoStrech** : [A53 Experimental KS-E](https://github.com/nexgen999/PS5-Super-PLDMGR-Auto-Updater/blob/main/Internal/payloads/beta/A53-KSE/a53_exploit-experimental.elf)
+- **EchoStrech** : [Kstuff_EchoStrech_Experimental](https://github.com/nexgen999/PS5-Super-PLDMGR-Auto-Updater/blob/main/Internal/payloads/beta/Kstuff-EchoStrech/kstuff-echostrech_v1.11expermiental.elf)
 - **EchoStretch** : [kstuff-lite_EchoStretch](https://github.com/EchoStretch/kstuff-lite)
 - **EchoStretch** : [kstuff_EchoStretch](https://github.com/EchoStretch/kstuff)
 - **EchoStretch** : [ps5-app-dumper](https://github.com/EchoStretch/ps5-app-dumper)

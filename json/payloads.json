@@ -4,11 +4,11 @@
     {
       "name": "kstuff",
       "filename": "kstuff_v1.12-dr-test8.elf",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/kstuff_v1.12-dr-test8/Source-Fixe/kstuff_v1.12-dr-test8.elf",
-      "description": "Experimental Kstuff for FPKG",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/kstuff_Darkmor_Experimental/Source-Fixe/kstuff_v1.12-dr-test8.elf",
+      "description": "Experimental Kstuff DarkMor",
       "version": "Source-Fixe",
       "category": "PS5 Beta",
-      "checksum": "0b011202064685551c1bd7bf0e400af6b71c3a9c403b389566ae68b2be5f88c6"
+      "checksum": "941509b65e492166c9e4aace82ddac12d13a17478e255865cc31c5b2e01514a6"
     },
     {
       "name": "ShadowMountPlus",
@@ -17,16 +17,34 @@
       "description": "ShadowMountPlus experimental for FPKG",
       "version": "Source-Fixe",
       "category": "PS5 Beta",
-      "checksum": "1b40c106fa9fbfe2856d010d966a424e981e9d0e1819bb186c06505d7cd57e57"
+      "checksum": "63b68aaaf48f888ca38b8f446ae395820b7fc6eebb1fb6a1cada89d602c579b9"
     },
     {
       "name": "a53_ppr_install_fast",
       "filename": "a53_ppr_install_fast_v15.09.elf",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/A53_PPR_Install/Source-Fixe/a53_ppr_install_fast_v15.09.elf",
-      "description": "A53_PPR_Install experimental for FFPKG",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/A53_Experimental_KS-D/Source-Fixe/a53_ppr_install_fast_v15.09.elf",
+      "description": "A53 Experimental for Kstuff-Darkmor",
       "version": "Source-Fixe",
       "category": "PS5 Beta",
-      "checksum": "bcd110dacb2df3e8b329de67652f112020c7f35d8d25f27037cf9e224de2a988"
+      "checksum": "c1a620e9fab82f571eba416f727d250d8a88e5738737c646d99bcccdcebc371b"
+    },
+    {
+      "name": "kstuff-echostrech",
+      "filename": "kstuff-echostrech_v1.11expermiental.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/Kstuff_EchoStrech_Experimental/Source-Fixe/kstuff-echostrech_v1.11expermiental.elf",
+      "description": "Experimental Kstuff EchoStrech",
+      "version": "Source-Fixe",
+      "category": "PS5 Beta",
+      "checksum": "e3330b9a8642307b0da2cf744b118ce1a827700a7e4b0a0ae7a6899a3183650d"
+    },
+    {
+      "name": "a53_exploit-experimental",
+      "filename": "a53_exploit-experimental.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/A53_Experimental_KS-E/Source-Fixe/a53_exploit-experimental.elf",
+      "description": "A53 Experimental for Kstuff-EchoStrech",
+      "version": "Source-Fixe",
+      "category": "PS5 Beta",
+      "checksum": "bf420faa0b02aae5508ff836b34730c9cef2b928abecd087c9d011cee26e9f2c"
     },
     {
       "name": "ps5debug-NG",
