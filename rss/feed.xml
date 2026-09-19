@@ -250,9 +250,9 @@
       <description>You need PS5-SHOP-APPKG.pkg DPI port 9040. - Checksum: c4672cfa909463843c537f67d5f2df9eb3456d4036d26a4fb81fc34d7853170b</description>
     </item>
     <item>
-      <title>garlic-savemgr (v1.13)</title>
-      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_saves/garlic-savemgr/v1.13/garlic-savemgr_v1.13.elf</link>
-      <description>Save manager utility hosted on Forgejo. - Checksum: b6d366f4101fa2fcc14a353d083ef7e45e1cc86ef457bb20502bd8680dce4d73</description>
+      <title>garlic-savemgr (v1.13.1)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_saves/garlic-savemgr/v1.13.1/garlic-savemgr_v1.13.1.elf</link>
+      <description>Save manager utility hosted on Forgejo. - Checksum: b0fc2fcdda977d2a1207d77148746859b7ea7f3cfcad02828a7a9b49651807f5</description>
     </item>
     <item>
       <title>garlic-worker (v1.1.7)</title>
