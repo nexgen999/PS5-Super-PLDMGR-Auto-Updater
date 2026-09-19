@@ -7,6 +7,9 @@
     <outline text="Chukei DNS" title="Chukei DNS" type="rss" xmlUrl="https://github.com/Al-Azif/chukei-dns" author="Al-Azif"/>
     <outline text="Lapy JB Daemon" title="Lapy JB Daemon" type="rss" xmlUrl="https://raw.githubusercontent.com/ArkSama/PS5-Lapy-JB-Daemon/main/lapy_jb_daemon.elf" author="ArkSama"/>
     <outline text="BackPork" title="BackPork" type="rss" xmlUrl="https://github.com/BestPig/BackPork" author="BestPig"/>
+    <outline text="A53_PPR_Install" title="A53_PPR_Install" type="rss" xmlUrl="https://github.com/nexgen999/PS5-Super-PLDMGR-Auto-Updater/blob/main/Internal/payloads/beta/a53_ppr/a53_ppr_install_fast_v15.09.elf" author="Darkmor"/>
+    <outline text="ShadowMountPlus" title="ShadowMountPlus" type="rss" xmlUrl="https://github.com/nexgen999/PS5-Super-PLDMGR-Auto-Updater/blob/main/Internal/payloads/beta/ShadownMountPlusExpermiental/ShadowMountPlus_v1.7alpha13fix1-13-g072c17.elf" author="Darkmor"/>
+    <outline text="kstuff_v1.12-dr-test8" title="kstuff_v1.12-dr-test8" type="rss" xmlUrl="https://github.com/nexgen999/PS5-Super-PLDMGR-Auto-Updater/blob/main/Internal/payloads/beta/Kstuff-Darkmor/kstuff_v1.12-dr-test8.elf" author="Darkmor"/>
     <outline text="nanoDNS" title="nanoDNS" type="rss" xmlUrl="https://github.com/drakmor/nanoDNS" author="Drakmor"/>
     <outline text="kstuff-lite_EchoStretch" title="kstuff-lite_EchoStretch" type="rss" xmlUrl="https://github.com/EchoStretch/kstuff-lite" author="EchoStretch"/>
     <outline text="kstuff_EchoStretch" title="kstuff_EchoStretch" type="rss" xmlUrl="https://github.com/EchoStretch/kstuff" author="EchoStretch"/>

@@ -1,0 +1,32 @@
+{
+  "name": "PS5 Beta",
+  "payloads": [
+    {
+      "name": "kstuff",
+      "filename": "kstuff_v1.12-dr-test8.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/kstuff_v1.12-dr-test8/Source-Fixe/kstuff_v1.12-dr-test8.elf",
+      "description": "Experimental Kstuff for FPKG",
+      "version": "Source-Fixe",
+      "category": "PS5 Beta",
+      "checksum": "0b011202064685551c1bd7bf0e400af6b71c3a9c403b389566ae68b2be5f88c6"
+    },
+    {
+      "name": "ShadowMountPlus",
+      "filename": "ShadowMountPlus_v1.7alpha13fix1-13-g072c17.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/ShadowMountPlus/Source-Fixe/ShadowMountPlus_v1.7alpha13fix1-13-g072c17.elf",
+      "description": "ShadowMountPlus experimental for FPKG",
+      "version": "Source-Fixe",
+      "category": "PS5 Beta",
+      "checksum": "1b40c106fa9fbfe2856d010d966a424e981e9d0e1819bb186c06505d7cd57e57"
+    },
+    {
+      "name": "a53_ppr_install_fast",
+      "filename": "a53_ppr_install_fast_v15.09.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/A53_PPR_Install/Source-Fixe/a53_ppr_install_fast_v15.09.elf",
+      "description": "A53_PPR_Install experimental for FFPKG",
+      "version": "Source-Fixe",
+      "category": "PS5 Beta",
+      "checksum": "bcd110dacb2df3e8b329de67652f112020c7f35d8d25f27037cf9e224de2a988"
+    }
+  ]
+}
