@@ -8,7 +8,7 @@
       "description": "Experimental Kstuff DarkMor",
       "version": "Source-Fixe",
       "category": "PS5 Beta",
-      "checksum": "55c19bb7703bff3019a4b1d9f3fde62caa3129f0b3a1890336936620aa788e18"
+      "checksum": "82601fe1844beee0a9e2bf9dd6bb8d0efffc54b7c1484da729a2b0f64245d430"
     },
     {
       "name": "ShadowMountPlus",
@@ -17,7 +17,7 @@
       "description": "ShadowMountPlus experimental for FPKG",
       "version": "Source-Fixe",
       "category": "PS5 Beta",
-      "checksum": "dfa27a4def7bc0b6125dd7de1db4276b8d5926d9090d7b9e9fb58bcbe0960b10"
+      "checksum": "7111e2889580e29ae2f93190f29cfad1cadd32e59a6aebde8f7142cb579f6894"
     },
     {
       "name": "a53_ppr_install_fast",
@@ -26,7 +26,7 @@
       "description": "A53 Experimental for Kstuff-Darkmor",
       "version": "Source-Fixe",
       "category": "PS5 Beta",
-      "checksum": "35d8a1ff96da1a53d1187b4765d1800d364cbbf7258e6e381cd34785fb0fd415"
+      "checksum": "fc7e97b18d9a7463281ed9022c67b3fafbe09418399f8b1c4b5ec9b7e5b9e40e"
     },
     {
       "name": "kstuff-echostrech",
@@ -35,7 +35,7 @@
       "description": "Experimental Kstuff EchoStrech",
       "version": "Source-Fixe",
       "category": "PS5 Beta",
-      "checksum": "05df87f6b7ac792f56e18cec70972e5f1f3b1e9e7846799c7adcb2fc6f4d1ace"
+      "checksum": "1c2cb6a8e91716c840d050cfcdd86c6892dd0b6d186b593a1e21836951b8b882"
     },
     {
       "name": "a53_exploit-experimental",
@@ -44,7 +44,7 @@
       "description": "A53 Experimental for Kstuff-EchoStrech",
       "version": "Source-Fixe",
       "category": "PS5 Beta",
-      "checksum": "707986f2ea7383e56830fa497fa7de0691a0ed6bb459188909a878028a64bdc6"
+      "checksum": "72d5dbf878b307e126d0e6c34459316e99c0743e6a639d6a771d3264fd908c3a"
     },
     {
       "name": "ps5debug-NG",
@@ -210,12 +210,12 @@
     },
     {
       "name": "kstuff-lite_EchoStretch",
-      "filename": "kstuff-lite_EchoStretch_v1.10.elf",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_kstuff/kstuff-lite_EchoStretch/v1.10/kstuff-lite_EchoStretch_v1.10.elf",
+      "filename": "kstuff-lite_EchoStretch_v1.11.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_kstuff/kstuff-lite_EchoStretch/v1.11/kstuff-lite_EchoStretch_v1.11.elf",
       "description": "Lightweight version of kstuff.",
-      "version": "v1.10",
+      "version": "v1.11",
       "category": "PS5 Kstuff",
-      "checksum": "82cbb1e70f8a562317d6b65269cf6aa0d7d94e22df4f1ac89a260ca0ec261252"
+      "checksum": "ea14edbfe18ddc04f10dc09c4b1bf0c26e95b34a115a797722d6eda6298769c7"
     },
     {
       "name": "kstuff-lite_drakmor",
@@ -597,12 +597,12 @@
     },
     {
       "name": "pkgmgr",
-      "filename": "pkgmgr_v1.0.0.elf",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_pkg_tool/ps5-pkg-manager/v1.0.0/pkgmgr_v1.0.0.elf",
+      "filename": "pkgmgr_v1.1.0.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_pkg_tool/ps5-pkg-manager/v1.1.0/pkgmgr_v1.1.0.elf",
       "description": "A clean and intuitive package manager for PlayStation 5",
-      "version": "v1.0.0",
+      "version": "v1.1.0",
       "category": "PS5 Pkg Tool",
-      "checksum": "51d3f13a91d007019f3262e1bd8ccc8ba3cbea6b1b6534b8e86df6bd2e0efb4b"
+      "checksum": "3df00c908411741216b3a5741b297cd3e771ce3b492cdf0f2f4edb7cc60b403b"
     },
     {
       "name": "etaHEN",
@@ -732,12 +732,12 @@
     },
     {
       "name": "ShadowMountPlus",
-      "filename": "ShadowMountPlus_v1.7alpha13fix1.elf",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/ShadowMountPlus/1.7alpha13fix1/ShadowMountPlus_v1.7alpha13fix1.elf",
+      "filename": "ShadowMountPlus_v1.7beta1.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/ShadowMountPlus/1.7beta1/ShadowMountPlus_v1.7beta1.elf",
       "description": "ShadowMountPlus payload for game mounting.",
-      "version": "1.7alpha13fix1",
+      "version": "1.7beta1",
       "category": "PS5 Game Dump",
-      "checksum": "15af22e6cefefbcc9f16f137b5255b6b94d546788ba5f404dc9220da4759a6ff"
+      "checksum": "39bd6fdb2c5d48eca8cfe447bf462f1b9ba7b1ccd425ea4a6e23999d22217ae1"
     },
     {
       "name": "BackPork",
@@ -876,12 +876,12 @@
     },
     {
       "name": "ps5upload",
-      "filename": "ps5upload_v5.30.0.elf",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ps5upload/v5.30.0/ps5upload_v5.30.0.elf",
+      "filename": "ps5upload_v5.31.1.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ps5upload/v5.31.1/ps5upload_v5.31.1.elf",
       "description": "PS5 Upload server / tool. Port: 9025",
-      "version": "v5.30.0",
+      "version": "v5.31.1",
       "category": "PS5 Server",
-      "checksum": "5d459934a2e8dac8e1a21104db8c1632809d2f45bb2f9a5a0395317d44de32c8"
+      "checksum": "c366ebdec72c53154938d3dc319ca9ee6b1bbceee52344755e88774c3d3b0956"
     },
     {
       "name": "airpsx",
