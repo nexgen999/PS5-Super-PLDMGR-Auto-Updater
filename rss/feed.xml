@@ -7,27 +7,27 @@
     <item>
       <title>kstuff (Source-Fixe)</title>
       <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/kstuff_Darkmor_Experimental/Source-Fixe/kstuff_v1.12-dr-test8.elf</link>
-      <description>Experimental Kstuff DarkMor - Checksum: 38eff4d1b7cad9bf5dd6e3b8728530d0c117d2b3af7cc4b4df8fd23dcf9835c9</description>
+      <description>Experimental Kstuff DarkMor - Checksum: c12924502e33668025e44d536622cacdb29b818cbd87d3f56047c5f4221b9dca</description>
     </item>
     <item>
       <title>ShadowMountPlus (Source-Fixe)</title>
       <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/ShadowMountPlus/Source-Fixe/ShadowMountPlus_v1.7alpha13fix1-13-g072c17.elf</link>
-      <description>ShadowMountPlus experimental for FPKG - Checksum: 5894a576c139a912a7b1ffc466ffa61bc5d32eeede931f4d7e6ca26818e5879a</description>
+      <description>ShadowMountPlus experimental for FPKG - Checksum: 42863ec14d68950e07e4084d9018142ff4af64fa8fdd1a2e418d343b402eeb26</description>
     </item>
     <item>
       <title>a53_ppr_install_fast (Source-Fixe)</title>
       <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/A53_Experimental_KS-D/Source-Fixe/a53_ppr_install_fast_v15.09.elf</link>
-      <description>A53 Experimental for Kstuff-Darkmor - Checksum: 0a256aef4916dc28487f3cbd534c6554035a3ef0f569c06d3e5bd543b123b438</description>
+      <description>A53 Experimental for Kstuff-Darkmor - Checksum: acd65375da84976d3980c79ac83029c06a5e3109afc8b984130c7eb95b3cff04</description>
     </item>
     <item>
       <title>kstuff-echostrech (Source-Fixe)</title>
       <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/Kstuff_EchoStrech_Experimental/Source-Fixe/kstuff-echostrech_v1.11expermiental.elf</link>
-      <description>Experimental Kstuff EchoStrech - Checksum: c76b5017ed5af7a2fa02d96500fcffa730db759a2d1dc0335850d659bf5a2f9a</description>
+      <description>Experimental Kstuff EchoStrech - Checksum: dd2f7ba9656a371aab15db2dd7c1a0bc94619dc3e79373769a067b317146d88f</description>
     </item>
     <item>
       <title>a53_exploit-experimental (Source-Fixe)</title>
       <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/A53_Experimental_KS-E/Source-Fixe/a53_exploit-experimental.elf</link>
-      <description>A53 Experimental for Kstuff-EchoStrech - Checksum: f6baa7b6be828ddfcf826541795d185856ebd2b18c499ae375f00315db804a99</description>
+      <description>A53 Experimental for Kstuff-EchoStrech - Checksum: 16daf2e41d15457d3e84b4c3b1bff3a9c2ab0c8f03c4af991747991d86ae5a30</description>
     </item>
     <item>
       <title>ps5debug-NG (1.3.0)</title>
@@ -260,9 +260,9 @@
       <description>fan_target keeps the PS5 fan controller at a selected target temperature while leaving the console's automatic fan control enabled. - Checksum: c37019c351c1c5b05b43adbac29d85bfd25f8c0ab9d94371cacab1945d8e0fd0</description>
     </item>
     <item>
-      <title>Spectrum-Library (1.4.5)</title>
-      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_freeshop/Spectrum-Library/1.4.5/Spectrum-Library_v1.4.5.elf</link>
-      <description>free store webadmin http://your-ps5-ip:7575. - Checksum: cd93973a89263fad0b13b39d77d7fbb401c7c7c641bc036965876c810ebf534e</description>
+      <title>Spectrum-Library (1.4.6)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_freeshop/Spectrum-Library/1.4.6/Spectrum-Library_v1.4.6.elf</link>
+      <description>free store webadmin http://your-ps5-ip:7575. - Checksum: 73dd3f3938867ac970207ae8e4093e2d0c5b005bcad1ff9ff2aeb5d34294a161</description>
     </item>
     <item>
       <title>pegasus-dl (v1.9.0)</title>

@@ -50,11 +50,11 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 
 | Application | Version | Empreinte SHA-256 | Description |
 | :--- | :--- | :--- | :--- |
-| **kstuff** | [Source-Fixe](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/kstuff_Darkmor_Experimental/Source-Fixe/kstuff_v1.12-dr-test8.elf) | `38eff4d1b7...` | Experimental Kstuff DarkMor |
-| **ShadowMountPlus** | [Source-Fixe](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/ShadowMountPlus/Source-Fixe/ShadowMountPlus_v1.7alpha13fix1-13-g072c17.elf) | `5894a576c1...` | ShadowMountPlus experimental for FPKG |
-| **a53_ppr_install_fast** | [Source-Fixe](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/A53_Experimental_KS-D/Source-Fixe/a53_ppr_install_fast_v15.09.elf) | `0a256aef49...` | A53 Experimental for Kstuff-Darkmor |
-| **kstuff-echostrech** | [Source-Fixe](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/Kstuff_EchoStrech_Experimental/Source-Fixe/kstuff-echostrech_v1.11expermiental.elf) | `c76b5017ed...` | Experimental Kstuff EchoStrech |
-| **a53_exploit-experimental** | [Source-Fixe](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/A53_Experimental_KS-E/Source-Fixe/a53_exploit-experimental.elf) | `f6baa7b6be...` | A53 Experimental for Kstuff-EchoStrech |
+| **kstuff** | [Source-Fixe](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/kstuff_Darkmor_Experimental/Source-Fixe/kstuff_v1.12-dr-test8.elf) | `c12924502e...` | Experimental Kstuff DarkMor |
+| **ShadowMountPlus** | [Source-Fixe](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/ShadowMountPlus/Source-Fixe/ShadowMountPlus_v1.7alpha13fix1-13-g072c17.elf) | `42863ec14d...` | ShadowMountPlus experimental for FPKG |
+| **a53_ppr_install_fast** | [Source-Fixe](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/A53_Experimental_KS-D/Source-Fixe/a53_ppr_install_fast_v15.09.elf) | `acd65375da...` | A53 Experimental for Kstuff-Darkmor |
+| **kstuff-echostrech** | [Source-Fixe](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/Kstuff_EchoStrech_Experimental/Source-Fixe/kstuff-echostrech_v1.11expermiental.elf) | `dd2f7ba965...` | Experimental Kstuff EchoStrech |
+| **a53_exploit-experimental** | [Source-Fixe](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/A53_Experimental_KS-E/Source-Fixe/a53_exploit-experimental.elf) | `16daf2e41d...` | A53 Experimental for Kstuff-EchoStrech |
 
 ### 🏴‍☠️ PS5 Cheat
 📂 **JSON Catégorie :** `https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/json/PS5_Cheat.json`
@@ -118,7 +118,7 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 
 | Application | Version | Empreinte SHA-256 | Description |
 | :--- | :--- | :--- | :--- |
-| **Spectrum-Library** | [1.4.5](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_freeshop/Spectrum-Library/1.4.5/Spectrum-Library_v1.4.5.elf) | `cd93973a89...` | free store webadmin http://your-ps5-ip:7575. |
+| **Spectrum-Library** | [1.4.6](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_freeshop/Spectrum-Library/1.4.6/Spectrum-Library_v1.4.6.elf) | `73dd3f3938...` | free store webadmin http://your-ps5-ip:7575. |
 | **pegasus-dl** | [v1.9.0](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_freeshop/pegasus-dl/v1.9.0/pegasus-dl_v1.9.0.elf) | `6336c626f0...` | free store webadmin http://your-ps5-ip:6970. |
 | **ps5shopappkg-dpi** | [Source-Fixe](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_freeshop/ps5shopappkg-dpi/Source-Fixe/ps5shopappkg-dpi.elf) | `c4672cfa90...` | You need PS5-SHOP-APPKG.pkg DPI port 9040. |
 
