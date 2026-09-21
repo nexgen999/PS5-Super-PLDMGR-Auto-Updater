@@ -38,15 +38,6 @@
       "checksum": "816ff23141f100004d882e53bfae80b6c29f6b9427df56524cd1a89403c40df4"
     },
     {
-      "name": "Shadowmountplus",
-      "filename": "ShadowMountPlus_v1.7beta1.elf",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/ShadowMountPlus/1.7beta1/ShadowMountPlus_v1.7beta1.elf",
-      "description": "ShadowMountPlus payload for game mounting.",
-      "version": "1.7beta1",
-      "category": "PS5 Game Dump",
-      "checksum": "0b30a1c23b83ebb2aa6523c8caaa5801ee89bde00e90cb36f392a29bb0bdb403"
-    },
-    {
       "name": "Backpork",
       "filename": "BackPork_v0.1.elf",
       "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/BackPork/0.1/BackPork_v0.1.elf",
