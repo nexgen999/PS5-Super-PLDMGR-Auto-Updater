@@ -2,7 +2,7 @@
   "name": "PS5 Game Dump",
   "payloads": [
     {
-      "name": "Ps5 Game Compressor V1.0.4",
+      "name": "PS5 Game Compressor",
       "filename": "PS5-Game-Compressor_v1.0.4.elf",
       "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/PS5-Game-Compressor/v1.0.4/PS5-Game-Compressor_v1.0.4.elf",
       "description": "Tool to compress PS5 games.",
@@ -11,7 +11,7 @@
       "checksum": "e55e90aaade13b6e0d4316c1597ef90a21b67a06475c3e25de054224bc1e941b"
     },
     {
-      "name": "Ps5 App Dumper V1.11",
+      "name": "PS5 App Dumper",
       "filename": "ps5-app-dumper_v1.11.elf",
       "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/ps5-app-dumper/v1.11/ps5-app-dumper_v1.11.elf",
       "description": "PS5 App Dumper payload.",
@@ -21,33 +21,24 @@
     },
     {
       "name": "Dump Installer",
-      "filename": "dump_installer.elf",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/dump_installer/1.07/dump_installer.elf",
+      "filename": "dump_installer_v1.07.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/dump_installer/1.07/dump_installer_v1.07.elf",
       "description": "Dump Installer utility.",
       "version": "1.07",
       "category": "PS5 Game Dump",
       "checksum": "9b01c2051795d10a6923a2b4c8137a2895ecdf365e736e42cf6750ac707d6245"
     },
     {
-      "name": "Dump Runner Toggle Kstuff",
-      "filename": "dump_runner_toggle_kstuff.elf",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/dump_runner/v1.02/dump_runner_toggle_kstuff.elf",
-      "description": "Dump Runner tool.",
-      "version": "v1.02",
-      "category": "PS5 Game Dump",
-      "checksum": "816ff23141f100004d882e53bfae80b6c29f6b9427df56524cd1a89403c40df4"
-    },
-    {
       "name": "Dump Runner",
-      "filename": "dump_runner.elf",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/dump_runner/v1.02/dump_runner.elf",
+      "filename": "dump_runner_v1.02.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/dump_runner/v1.02/dump_runner_v1.02.elf",
       "description": "Dump Runner tool.",
       "version": "v1.02",
       "category": "PS5 Game Dump",
       "checksum": "816ff23141f100004d882e53bfae80b6c29f6b9427df56524cd1a89403c40df4"
     },
     {
-      "name": "Shadowmountplus V1.7Beta1",
+      "name": "Shadowmountplus",
       "filename": "ShadowMountPlus_v1.7beta1.elf",
       "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/ShadowMountPlus/1.7beta1/ShadowMountPlus_v1.7beta1.elf",
       "description": "ShadowMountPlus payload for game mounting.",
@@ -56,7 +47,7 @@
       "checksum": "0b30a1c23b83ebb2aa6523c8caaa5801ee89bde00e90cb36f392a29bb0bdb403"
     },
     {
-      "name": "Backpork V0.1",
+      "name": "Backpork",
       "filename": "BackPork_v0.1.elf",
       "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/BackPork/0.1/BackPork_v0.1.elf",
       "description": "BackPork PS5 tool.",
@@ -65,7 +56,7 @@
       "checksum": "d74e4cd119b2bb1fd423f2f5b1c9a7f096b3e588c753af1ab48b983d56216a52"
     },
     {
-      "name": "Apr Emu Updater V2.0.6",
+      "name": "Apr Emu Updater",
       "filename": "apr_emu_updater_v2.0.6.elf",
       "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/apr-emu-updater/v2.0.6/apr_emu_updater_v2.0.6.elf",
       "description": "APR Emu Updater must always be loaded.",

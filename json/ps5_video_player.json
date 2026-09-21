@@ -2,7 +2,7 @@
   "name": "PS5 Video Player",
   "payloads": [
     {
-      "name": "Bfplayer Standalone V0.1.0 Alpha.44",
+      "name": "Bfplayer Standalone",
       "filename": "BFplayer-standalone_v0.1.0-alpha.44.elf",
       "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_video_player/BFplayer-standalone/v0.1.0-alpha.44/BFplayer-standalone_v0.1.0-alpha.44.elf",
       "description": "BFplayer is a native media library and player for jailbroken PlayStation 5 consoles.",
@@ -11,25 +11,7 @@
       "checksum": "0d028deb145d6fc9a5b55d43a45e072919178fbb261c66cd914ebcfb0b3b05c0"
     },
     {
-      "name": "Bfplayer\\Eboot",
-      "filename": "BFplayer\\eboot.elf",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_video_player/BFplayer-standalone/v0.1.0-alpha.44/BFplayer\\eboot.elf",
-      "description": "BFplayer is a native media library and player for jailbroken PlayStation 5 consoles.",
-      "version": "v0.1.0-alpha.44",
-      "category": "PS5 Video Player",
-      "checksum": "14680ab3436d104dee295426d2307d67c61326cea8a828ce901fbec8b60c27dd"
-    },
-    {
-      "name": "Bfplayer Standalone\\Bfplayer Standalone",
-      "filename": "BFplayer-standalone\\bfplayer-standalone.elf",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_video_player/BFplayer-standalone/v0.1.0-alpha.44/BFplayer-standalone\\bfplayer-standalone.elf",
-      "description": "BFplayer is a native media library and player for jailbroken PlayStation 5 consoles.",
-      "version": "v0.1.0-alpha.44",
-      "category": "PS5 Video Player",
-      "checksum": "0d028deb145d6fc9a5b55d43a45e072919178fbb261c66cd914ebcfb0b3b05c0"
-    },
-    {
-      "name": "Prosperoplayer V1.0",
+      "name": "Prosperoplayer",
       "filename": "ProsperoPlayer_v1.0.elf",
       "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_video_player/ProsperoPlayer/v1.0/ProsperoPlayer_v1.0.elf",
       "description": "A homebrew media player for jailbroken PS5.",
@@ -38,7 +20,7 @@
       "checksum": "40b9955273982cd563e1b16bd428ea6a9c399e7d4bc55b220fe223948572cdad"
     },
     {
-      "name": "Svtplay V0.4",
+      "name": "Svtplay",
       "filename": "svtplay_v0.4.elf",
       "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_video_player/svtplay/v0.4/svtplay_v0.4.elf",
       "description": "This is an unofficial 10-foot UI for SVT Play, the Swedish public service television broadcaster.",
@@ -47,7 +29,7 @@
       "checksum": "b6fdfe6d714298dc49a936ac731493ffc80dabd467da5e0ce595db7ea75f39a1"
     },
     {
-      "name": "Ps Play V2.1",
+      "name": "Ps Play",
       "filename": "PS-Play_v2.1.elf",
       "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_video_player/PS-Play/2.1/PS-Play_v2.1.elf",
       "description": "All-in-one media hub for jailbroken PlayStation 5",

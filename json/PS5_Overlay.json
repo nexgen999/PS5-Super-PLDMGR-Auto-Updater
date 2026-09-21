@@ -2,7 +2,7 @@
   "name": "PS5 Overlay",
   "payloads": [
     {
-      "name": "Common Fps Ps5 V1.1.0",
+      "name": "Common Fps Ps5",
       "filename": "Common_FPS_PS5_v1.1.0.elf",
       "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Overlay/Common-FPS-for-PS5/v1.1.0/Common_FPS_PS5_v1.1.0.elf",
       "description": "A lightweight, open-source real-time FPS counter for PlayStation 5.",

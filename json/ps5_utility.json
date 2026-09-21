@@ -2,7 +2,7 @@
   "name": "PS5 Utility",
   "payloads": [
     {
-      "name": "Chronicloader Ps5 Payload V0.1",
+      "name": "Chronicloader Ps5 Payload",
       "filename": "ChronicLoader-PS5-Payload_v0.1.elf",
       "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_utility/ChronicLoader-PS5-Payload/0.1/ChronicLoader-PS5-Payload_v0.1.elf",
       "description": "ChronicLoader utility payload for PS5.",
@@ -11,7 +11,7 @@
       "checksum": "3561120f85e0ec32de5de15cdd61a1fe8d5146eb4c6aa99ee88209914a2774b1"
     },
     {
-      "name": "Ghostpad V1.0.0",
+      "name": "Ghostpad",
       "filename": "Ghostpad_v1.0.0.elf",
       "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_utility/Ghostpad/v1.0.0/Ghostpad_v1.0.0.elf",
       "description": "Ghostpad controller input utility.",
@@ -20,7 +20,7 @@
       "checksum": "94d43a8db7ec9df6e18f0a0da25aac0f60e1a0b14d35bfff261f6f5cdeabdba1"
     },
     {
-      "name": "Poords4 Stop V0.1.0 Rc44",
+      "name": "Poords4 Stop",
       "filename": "PoorDS4-stop_v0.1.0-rc44.elf",
       "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_utility/PoorDS4/v0.1.0-rc44/PoorDS4-stop_v0.1.0-rc44.elf",
       "description": "PoorDS4 lets a wireless DualShock 4 paired with a jailbroken PS5.",
@@ -29,7 +29,7 @@
       "checksum": "ffdce4964f0d34a2b9be7cb65e6ad345d5beb582dcdf94d0214cde6bc79acd0d"
     },
     {
-      "name": "Poords4 Status V0.1.0 Rc44",
+      "name": "Poords4 Status",
       "filename": "PoorDS4-status_v0.1.0-rc44.elf",
       "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_utility/PoorDS4/v0.1.0-rc44/PoorDS4-status_v0.1.0-rc44.elf",
       "description": "PoorDS4 lets a wireless DualShock 4 paired with a jailbroken PS5.",
@@ -38,7 +38,7 @@
       "checksum": "9195c512853538ec3ccf0207f68ed4898f386c6fb624c54d8fa959cef1a8b906"
     },
     {
-      "name": "Poords4Rc44 V0.1.0 Rc44",
+      "name": "Poords4Rc44",
       "filename": "PoorDS4rc44_v0.1.0-rc44.elf",
       "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_utility/PoorDS4/v0.1.0-rc44/PoorDS4rc44_v0.1.0-rc44.elf",
       "description": "PoorDS4 lets a wireless DualShock 4 paired with a jailbroken PS5.",
@@ -47,7 +47,7 @@
       "checksum": "a077fe7a1defbe6918538b834eaa502a6b4239d7feff58c8fa4ec06cd325d9a8"
     },
     {
-      "name": "Ps Game State Lib V0.1",
+      "name": "Ps Game State Lib",
       "filename": "PS_Game_State_Lib_v0.1.elf",
       "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_utility/PS_Game_State_Lib/v0.1/PS_Game_State_Lib_v0.1.elf",
       "description": "Standalone PS5 game-state detection payload - webui ps5ip:9877 .",
@@ -56,7 +56,7 @@
       "checksum": "a550e1494b0f8be3b244f8820ee8d899442d33a936f9ded6203a0318c7afdba8"
     },
     {
-      "name": "Ps Discordpresence V0.01",
+      "name": "Ps Discordpresence",
       "filename": "PS-DiscordPresence_v0.01.elf",
       "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_utility/PS-DiscordPresence/v0.01/PS-DiscordPresence_v0.01.elf",
       "description": "PS5 game activity service with a local status endpoint and a Python Discord RPC bridge.",
@@ -65,7 +65,7 @@
       "checksum": "375cf619ea6f6c594ea2b79ecbb98704723522d07e51c877687876d5fe589afb"
     },
     {
-      "name": "Unrar Ps5 V1.4.0",
+      "name": "Unrar Ps5",
       "filename": "unrar-ps5_v1.4.0.elf",
       "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_utility/unrar-ps5/v1.4.0/unrar-ps5_v1.4.0.elf",
       "description": "PS5 ELF payload for extracting RAR and 7z archives on a jailbroken PS5 and installing extracted apps into a configurable layout..",
@@ -74,7 +74,7 @@
       "checksum": "2ef04b0bc8fc1932b29da1a53336c40ed0a3f6a945a0746bef2e5dde52149701"
     },
     {
-      "name": "Ps5 Power Payloads Project V1.0",
+      "name": "PS5 Power Payloads Project",
       "filename": "PS5-Power-Payloads-Project_v1.0.elf",
       "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_utility/PS5-Power-Payloads-Project/1.0/PS5-Power-Payloads-Project_v1.0.elf",
       "description": "PS5-Power-Payloads-Project utility.",
@@ -83,7 +83,7 @@
       "checksum": "a06cf9ace6e13f3c0241a709c6a8d23969d74e6559ec2a2290298f480f62da79"
     },
     {
-      "name": "Ps5Power Reboot V1.0",
+      "name": "Ps5Power Reboot",
       "filename": "ps5power-reboot_v1.0.elf",
       "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_utility/PS5-Power-Payloads-Project/1.0/ps5power-reboot_v1.0.elf",
       "description": "PS5-Power-Payloads-Project utility.",
@@ -92,7 +92,7 @@
       "checksum": "3614f68981adc13a231d3655bf3892725bc25aa372d67a0037698253753b7cbe"
     },
     {
-      "name": "Ps5Power Notify Test V1.0",
+      "name": "Ps5Power Notify Test",
       "filename": "ps5power-notify_test_v1.0.elf",
       "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_utility/PS5-Power-Payloads-Project/1.0/ps5power-notify_test_v1.0.elf",
       "description": "PS5-Power-Payloads-Project utility.",
@@ -101,7 +101,7 @@
       "checksum": "a06cf9ace6e13f3c0241a709c6a8d23969d74e6559ec2a2290298f480f62da79"
     },
     {
-      "name": "Ps5Power Poweroff V1.0",
+      "name": "Ps5Power Poweroff",
       "filename": "ps5power-poweroff_v1.0.elf",
       "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_utility/PS5-Power-Payloads-Project/1.0/ps5power-poweroff_v1.0.elf",
       "description": "PS5-Power-Payloads-Project utility.",
@@ -110,7 +110,7 @@
       "checksum": "42ed7983619a31f74a6ac74cc943b80899366ceaf07fed77a46384b9b0f51c48"
     },
     {
-      "name": "Ps5Power Suspend V1.0",
+      "name": "Ps5Power Suspend",
       "filename": "ps5power-suspend_v1.0.elf",
       "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_utility/PS5-Power-Payloads-Project/1.0/ps5power-suspend_v1.0.elf",
       "description": "PS5-Power-Payloads-Project utility.",
@@ -119,7 +119,7 @@
       "checksum": "1a36a01c92cd73fc89645ce73e3f33c71979b5b677c92b6f4c26d269e3f9a2c1"
     },
     {
-      "name": "Ps5 Date Time Sync V1.0.0",
+      "name": "PS5 Date Time Sync",
       "filename": "ps5-date-time-sync_v1.0.0.elf",
       "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_utility/ps5-date-time-sync/v1.0.0/ps5-date-time-sync_v1.0.0.elf",
       "description": "A lightweight, standalone PS5 payload that restores the console's system date and time using public NTP servers.",

@@ -2,18 +2,9 @@
   "name": "PS5 Cheat",
   "payloads": [
     {
-      "name": "Cheatrunner V0.17",
+      "name": "Cheatrunner",
       "filename": "CheatRunner_v0.17.elf",
       "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Cheat/CheatRunner/v0.17/CheatRunner_v0.17.elf",
-      "description": "CheatRunner.",
-      "version": "v0.17",
-      "category": "PS5 Cheat",
-      "checksum": "2f296d3f1e69b65439bb5dc362f0f6504f6dc9f245fa16a3683e9d7ec9533773"
-    },
-    {
-      "name": "Cheatrunner",
-      "filename": "CheatRunner.elf",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Cheat/CheatRunner/v0.17/CheatRunner.elf",
       "description": "CheatRunner.",
       "version": "v0.17",
       "category": "PS5 Cheat",

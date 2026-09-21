@@ -2,7 +2,7 @@
   "name": "PS5 Kstuff",
   "payloads": [
     {
-      "name": "Kstuff Echostretch V1.6.7",
+      "name": "Kstuff Echostretch",
       "filename": "kstuff_EchoStretch_v1.6.7.elf",
       "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_kstuff/kstuff_EchoStretch/v1.6.7/kstuff_EchoStretch_v1.6.7.elf",
       "description": "Fnd Kstuff payload for PS5.",
@@ -11,7 +11,7 @@
       "checksum": "f1c1f4b2b6395644af04cbe9828aba58586acf7aacb9e01113cac92ce16e3569"
     },
     {
-      "name": "Kstuff Lite Echostretch V1.11",
+      "name": "Kstuff Lite Echostretch",
       "filename": "kstuff-lite_EchoStretch_v1.11.elf",
       "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_kstuff/kstuff-lite_EchoStretch/v1.11/kstuff-lite_EchoStretch_v1.11.elf",
       "description": "Lightweight version of kstuff.",
@@ -20,34 +20,16 @@
       "checksum": "62d9bb6f16531e1c10fd522cb918431eaa3319dcd37405af5cc0b2240d7b2ee5"
     },
     {
-      "name": "Kstuff Toggle 1",
-      "filename": "kstuff-toggle-1.elf",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_kstuff/kstuff-toggle/0.6/kstuff-toggle-1.elf",
-      "description": "Utility to toggle kstuff features.",
-      "version": "0.6",
-      "category": "PS5 Kstuff",
-      "checksum": "9009b96f36721a1b4c305735038d70cd72d596c553156bfa2a27e60a68ae2dee"
-    },
-    {
-      "name": "Kstuff Toggle 3",
-      "filename": "kstuff-toggle-3.elf",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_kstuff/kstuff-toggle/0.6/kstuff-toggle-3.elf",
-      "description": "Utility to toggle kstuff features.",
-      "version": "0.6",
-      "category": "PS5 Kstuff",
-      "checksum": "0e87e92959791d9edf04c314802fcf18ccf37db74ae353d434a0062557f85093"
-    },
-    {
-      "name": "Kstuff Toggle 2",
-      "filename": "kstuff-toggle-2.elf",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_kstuff/kstuff-toggle/0.6/kstuff-toggle-2.elf",
+      "name": "Kstuff Toggle",
+      "filename": "kstuff-toggle_v0.6.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_kstuff/kstuff-toggle/0.6/kstuff-toggle_v0.6.elf",
       "description": "Utility to toggle kstuff features.",
       "version": "0.6",
       "category": "PS5 Kstuff",
       "checksum": "ae8c39e79f731b5b0515b8487ff7986cf9a626e760881dacc107bd888f3694c6"
     },
     {
-      "name": "Kstuff Lite Drakmor V1.2 Dr Test2",
+      "name": "Kstuff Lite Drakmor",
       "filename": "kstuff-lite_drakmor_v1.2-dr-test2.elf",
       "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_kstuff/kstuff-lite_drakmor/1.2-dr-test2/kstuff-lite_drakmor_v1.2-dr-test2.elf",
       "description": "Drakmor's variant of kstuff-lite.",
