@@ -105,17 +105,42 @@ for opml_file in opml_files:
                 os.makedirs(target_dir, exist_ok=True)
 
                 try:
-                    print(f"    -> Téléchargement de tous les assets GitHub ({version})...")
-                    # On télécharge TOUS les assets de la release sans filtrer
+                    print(f"    -> Téléchargement GitHub ({version})...")
                     subprocess.call(f"gh release download '{version}' --repo '{repo}' --dir '{target_dir}' --clobber 2>/devnull", shell=True)
                     
-                    # Nettoyage : on ne garde STRICTEMENT que les fichiers .elf et .bin
+                    if "poords4" in repo_lower or "fan_target" in repo_lower or "shadowmountplus" in repo_lower or "instalador-host-psm-poop2jb" in repo_lower:
+                        for item in os.listdir(target_dir):
+                            item_path = os.path.join(target_dir, item)
+                            if item.lower().endswith('.zip'):
+                                try:
+                                    with zipfile.ZipFile(item_path, 'r') as zf:
+                                        for member in zf.namelist():
+                                            if member.lower().endswith('.elf'):
+                                                zf.extract(member, target_dir)
+                                                extracted_path = os.path.join(target_dir, member)
+                                                dest_path = os.path.join(target_dir, os.path.basename(member))
+                                                if extracted_path != dest_path:
+                                                    os.rename(extracted_path, dest_path)
+                                except Exception as zerr:
+                                    print(f"    ⚠️ Erreur d'extraction ZIP : {zerr}")
+                                finally:
+                                    if os.path.exists(item_path):
+                                        os.remove(item_path)
+
                     files_downloaded = os.listdir(target_dir)
-                    for f in files_downloaded:
-                        f_lower = f.lower()
-                        if not (f_lower.endswith('.elf') or f_lower.endswith('.bin')):
-                            try: os.remove(os.path.join(target_dir, f))
-                            except: pass
+                    if "ps5-payload-dev/websrv" in repo_lower or "phantomptr/ps5upload" in repo_lower or "boazvdwansem/ps5-debugger" in repo_lower or "smoxa/ps5-new-overlay" in repo_lower:
+                        for f in files_downloaded:
+                            if not (f.lower().endswith('.elf') or f.lower().endswith('.bin')):
+                                try: os.remove(os.path.join(target_dir, f))
+                                except: pass
+                    else:
+                        for f in files_downloaded:
+                            f_lower = f.lower()
+                            if f_lower.endswith('.elf') or f_lower.endswith('.bin'):
+                                continue
+                            if f_lower.endswith('.dmg') or f_lower.endswith('.exe') or f_lower.endswith('.appimage') or f_lower.endswith('.msi') or f_lower.endswith('.txt'):
+                                try: os.remove(os.path.join(target_dir, f))
+                                except: pass
 
                     if os.listdir(target_dir):
                         downloaded = True
@@ -142,40 +167,88 @@ for opml_file in opml_files:
                             os.makedirs(target_dir, exist_ok=True)
                             
                             assets = latest_release.get('assets', [])
+                            valid_file_url = None
+                            f_name = None
+                            
                             for asset in assets:
                                 asset_url = asset.get('browser_download_url', '')
                                 asset_name = asset.get('name', '')
                                 clean_name = asset_name.lower()
-                                if clean_name.endswith('.elf') or clean_name.endswith('.bin'):
-                                    urllib.request.urlretrieve(asset_url, os.path.join(target_dir, asset_name))
-                                    downloaded = True
+                                if clean_name.endswith('.dmg') or clean_name.endswith('.exe') or clean_name.endswith('.appimage') or clean_name.endswith('.msi'):
+                                    continue
+                                if clean_name.endswith('.elf') or clean_name.endswith('.bin') or clean_name.endswith('.pkg'):
+                                    valid_file_url = asset_url
+                                    f_name = asset_name
+                                    break
+                            
+                            if valid_file_url and f_name:
+                                urllib.request.urlretrieve(valid_file_url, os.path.join(target_dir, f_name))
+                                downloaded = True
             except Exception as e:
                 print(f"    ℹ️ Erreur API Forgejo ({e})")
 
-        # Analyse de TOUS les fichiers .elf/.bin du dossier et ajout individuel au JSON
+        # Analyse & Renommage
         version_clean = re.sub(r'[^a-zA-Z0-9._-]', '', version) if version != "Source-Fixe" else "Source-Fixe"
         target_dir = os.path.join(PAYLOADS_ROOT, cat_tech_name, title.replace(" ", "_"), version_clean)
         
-        if os.path.exists(target_dir):
-            binaries_found = [f for f in os.listdir(target_dir) if f.lower().endswith('.elf') or f.lower().endswith('.bin')]
+        files_in_dir = os.listdir(target_dir) if os.path.exists(target_dir) else []
+        eligible_binaries = []
 
-            for main_file in binaries_found:
+        default_base_name = re.sub(r'[^a-zA-Z0-9._-]', '_', title)
+        default_base_name = re.sub(r'_{2,}', '_', default_base_name).strip('_')
+
+        v_suffix = version_clean
+        if v_suffix != "Source-Fixe":
+            if not v_suffix.lower().startswith('v'): v_suffix = f"v{v_suffix}"
+            v_suffix = f"_{v_suffix}"
+        else:
+            v_suffix = ""
+
+        binaries_found = [f for f in files_in_dir if f.lower().endswith('.elf') or f.lower().endswith('.bin')]
+
+        for f_name in binaries_found:
+            base_name, ext = os.path.splitext(f_name)
+            final_base = None
+
+            # Règle spéciale pour préserver les noms des deux ELF de smoxa/ps5-new-overlay
+            if "smoxa/ps5-new-overlay" in repo_lower or "ps5_overlay" in f_name.lower():
+                final_base = base_name
+            elif "instalador-host-psm-poop2jb" in repo_lower or "psm" in repo_lower or "poords4" in repo_lower:
+                final_base = base_name
+            elif "fan_target" in repo_lower or "fan_target" in f_name.lower():
+                temp_match = re.search(r'(\d+c)', f_name.lower())
+                final_base = f"fan_target_{temp_match.group(1)}" if temp_match else "fan_target"
+            else:
+                final_base = default_base_name
+
+            new_f_name = f"{final_base}{v_suffix}{ext}" if not f_name.lower().endswith(f"{v_suffix.lower()}{ext.lower()}") else f_name
+            old_path = os.path.join(target_dir, f_name)
+            new_path = os.path.join(target_dir, new_f_name)
+            
+            if old_path != new_path:
+                try: os.rename(old_path, new_path)
+                except: new_f_name = f_name
+            
+            if new_f_name not in eligible_binaries:
+                eligible_binaries.append(new_f_name)
+
+        if eligible_binaries:
+            for main_file in eligible_binaries:
                 full_path = os.path.join(target_dir, main_file)
-                
-                # Calcul de la clé SHA-256
                 hasher = hashlib.sha256()
                 with open(full_path, 'rb') as fb:
-                    for chunk in iter(lambda: fb.read(4096), b""): 
-                        hasher.update(chunk)
+                    for chunk in iter(lambda: fb.read(4096), b""): hasher.update(chunk)
                 sha256_hash = hasher.hexdigest()
 
                 credits_list.add(f"- **{author}** : [{title}]({xml_url})")
                 repo_name = os.environ.get('GITHUB_REPOSITORY', 'PS5-Super-PLDMGR-Auto-Updater').split('/')[-1]
                 file_url = f"https://nexgen999.github.io/{repo_name}/{target_dir.replace(os.sep, '/')}/{main_file}"
                 
-                # Formatage du nom : ex "ps5_overlay.elf" -> "Ps5 Overlay"
-                base_filename = os.path.splitext(main_file)[0]
-                display_name = base_filename.replace('_', ' ').replace('-', ' ').title()
+                # Génération du nom lisible pour l'interface JSON
+                raw_base_name = os.path.splitext(main_file)[0].split('_v')[0]
+                display_name = raw_base_name.replace('_', ' ').replace('-', ' ').title()
+                if display_name.startswith("Ps5 "):
+                    display_name = display_name.replace("Ps5 ", "PS5 ")
 
                 item_data = {
                     "name": display_name,
@@ -186,8 +259,6 @@ for opml_file in opml_files:
                     "category": cat_display_name,
                     "checksum": sha256_hash
                 }
-                
-                # Ajout direct aux listes JSON
                 category_payloads_list.append(item_data)
                 all_payloads_flat_list.append(item_data)
 
@@ -248,9 +319,11 @@ if os.path.exists(PKG_FEED_DIR):
             category_pkgs_list.append(item_data)
             all_pkgs_flat_list.append(item_data)
 
+        # Génération du JSON dédié (ex: PKGjson/ps5pkg.json)
         with open(os.path.join(PKG_JSON_DIR, f"{cat_tech_name}.json"), 'w', encoding='utf-8') as out_pkg_cat:
             json.dump({"name": cat_display_name, "packages": category_pkgs_list}, out_pkg_cat, indent=2, ensure_ascii=False)
 
+# Génération du JSON Global PKG
 with open(os.path.join(PKG_JSON_DIR, "pkg.json"), 'w', encoding='utf-8') as out_pkg_glob:
     json.dump({"name": "AIO Store PKG", "packages": all_pkgs_flat_list}, out_pkg_glob, indent=2, ensure_ascii=False)
 
@@ -307,6 +380,7 @@ with open("README.md", "w", encoding="utf-8") as r_file:
     
     r_file.write("---\n\n")
     
+    # Section PKG
     if all_pkgs_flat_list:
         r_file.write("## 📦 Packages PS5 (.pkg) Disponibles\n\n")
         r_file.write("| Package | Auteur | Version | Description |\n")
@@ -315,6 +389,7 @@ with open("README.md", "w", encoding="utf-8") as r_file:
             r_file.write(f"| **[{pkg['name']}]({pkg['url']})** | {pkg['author']} | {pkg['version']} | {pkg['description']} |\n")
         r_file.write("\n---\n\n")
 
+    # Section Payloads par catégorie
     r_file.write("## 📦 Payloads (.elf / .bin) Disponibles par Catégorie\n\n")
     if os.path.exists(FEED_DIR):
         for opml_file in sorted(os.listdir(FEED_DIR)):
