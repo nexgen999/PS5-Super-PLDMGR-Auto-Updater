@@ -106,7 +106,14 @@ for opml_file in opml_files:
 
                 try:
                     print(f"    -> Téléchargement GitHub ({version})...")
-                    subprocess.call(f"gh release download '{version}' --repo '{repo}' --dir '{target_dir}' --clobber 2>/devnull", shell=True)
+                    
+                    # RÈGLE DÉDIÉE : Téléchargement forcé des deux ELF pour smoxa/ps5-new-overlay
+                    if "smoxa/ps5-new-overlay" in repo_lower:
+                        for elf_name in ["ps5_overlay.elf", "ps5_overlay_shellui.elf"]:
+                            print(f"       --> Téléchargement spécifique de {elf_name}...")
+                            subprocess.call(f"gh release download '{version}' --repo '{repo}' --pattern '{elf_name}' --dir '{target_dir}' --clobber 2>/devnull", shell=True)
+                    else:
+                        subprocess.call(f"gh release download '{version}' --repo '{repo}' --dir '{target_dir}' --clobber 2>/devnull", shell=True)
                     
                     if "poords4" in repo_lower or "fan_target" in repo_lower or "shadowmountplus" in repo_lower or "instalador-host-psm-poop2jb" in repo_lower:
                         for item in os.listdir(target_dir):
@@ -210,7 +217,7 @@ for opml_file in opml_files:
             base_name, ext = os.path.splitext(f_name)
             final_base = None
 
-            # Règle spéciale pour préserver les noms des deux ELF de smoxa/ps5-new-overlay
+            # Conservation stricte des noms originaux des fichiers du repo smoxa
             if "smoxa/ps5-new-overlay" in repo_lower or "ps5_overlay" in f_name.lower():
                 final_base = base_name
             elif "instalador-host-psm-poop2jb" in repo_lower or "psm" in repo_lower or "poords4" in repo_lower:
@@ -244,7 +251,7 @@ for opml_file in opml_files:
                 repo_name = os.environ.get('GITHUB_REPOSITORY', 'PS5-Super-PLDMGR-Auto-Updater').split('/')[-1]
                 file_url = f"https://nexgen999.github.io/{repo_name}/{target_dir.replace(os.sep, '/')}/{main_file}"
                 
-                # Génération du nom lisible pour l'interface JSON
+                # Nommage propre dans le JSON
                 raw_base_name = os.path.splitext(main_file)[0].split('_v')[0]
                 display_name = raw_base_name.replace('_', ' ').replace('-', ' ').title()
                 if display_name.startswith("Ps5 "):
