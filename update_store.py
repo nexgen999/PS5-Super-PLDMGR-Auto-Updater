@@ -105,28 +105,11 @@ for opml_file in opml_files:
                 os.makedirs(target_dir, exist_ok=True)
 
                 try:
-                    print(f"    -> Téléchargement GitHub ({version})...")
+                    print(f"    -> Téléchargement de tous les assets GitHub ({version})...")
+                    # On télécharge TOUS les assets de la release sans filtrer
                     subprocess.call(f"gh release download '{version}' --repo '{repo}' --dir '{target_dir}' --clobber 2>/devnull", shell=True)
                     
-                    # EXTRACTION DES ZIP
-                    for item in os.listdir(target_dir):
-                        item_path = os.path.join(target_dir, item)
-                        if item.lower().endswith('.zip'):
-                            try:
-                                with zipfile.ZipFile(item_path, 'r') as zf:
-                                    for member in zf.namelist():
-                                        if member.lower().endswith('.elf') or member.lower().endswith('.bin'):
-                                            zf.extract(member, target_dir)
-                                            extracted_path = os.path.join(target_dir, member)
-                                            dest_path = os.path.join(target_dir, os.path.basename(member))
-                                            if extracted_path != dest_path:
-                                                os.rename(extracted_path, dest_path)
-                            except Exception as zerr:
-                                print(f"    ⚠️ Erreur d'extraction ZIP : {zerr}")
-                            finally:
-                                if os.path.exists(item_path):
-                                    os.remove(item_path)
-
+                    # Nettoyage : on ne garde STRICTEMENT que les fichiers .elf et .bin
                     files_downloaded = os.listdir(target_dir)
                     for f in files_downloaded:
                         f_lower = f.lower()
@@ -169,39 +152,44 @@ for opml_file in opml_files:
             except Exception as e:
                 print(f"    ℹ️ Erreur API Forgejo ({e})")
 
-        # Analyse, Renommage et Génération JSON pour CHAQUE binaire extrait
+        # Analyse de TOUS les fichiers .elf/.bin du dossier et ajout individuel au JSON
         version_clean = re.sub(r'[^a-zA-Z0-9._-]', '', version) if version != "Source-Fixe" else "Source-Fixe"
         target_dir = os.path.join(PAYLOADS_ROOT, cat_tech_name, title.replace(" ", "_"), version_clean)
         
-        files_in_dir = os.listdir(target_dir) if os.path.exists(target_dir) else []
-        binaries_found = [f for f in files_in_dir if f.lower().endswith('.elf') or f.lower().endswith('.bin')]
+        if os.path.exists(target_dir):
+            binaries_found = [f for f in os.listdir(target_dir) if f.lower().endswith('.elf') or f.lower().endswith('.bin')]
 
-        for main_file in binaries_found:
-            full_path = os.path.join(target_dir, main_file)
-            hasher = hashlib.sha256()
-            with open(full_path, 'rb') as fb:
-                for chunk in iter(lambda: fb.read(4096), b""): hasher.update(chunk)
-            sha256_hash = hasher.hexdigest()
+            for main_file in binaries_found:
+                full_path = os.path.join(target_dir, main_file)
+                
+                # Calcul de la clé SHA-256
+                hasher = hashlib.sha256()
+                with open(full_path, 'rb') as fb:
+                    for chunk in iter(lambda: fb.read(4096), b""): 
+                        hasher.update(chunk)
+                sha256_hash = hasher.hexdigest()
 
-            credits_list.add(f"- **{author}** : [{title}]({xml_url})")
-            repo_name = os.environ.get('GITHUB_REPOSITORY', 'PS5-Super-PLDMGR-Auto-Updater').split('/')[-1]
-            file_url = f"https://nexgen999.github.io/{repo_name}/{target_dir.replace(os.sep, '/')}/{main_file}"
-            
-            # Nom spécifique par binaire pour différencier les versions ShellUI / Normales dans le JSON
-            base_filename = os.path.splitext(main_file)[0]
-            display_name = base_filename.replace('_', ' ').replace('-', ' ').title()
+                credits_list.add(f"- **{author}** : [{title}]({xml_url})")
+                repo_name = os.environ.get('GITHUB_REPOSITORY', 'PS5-Super-PLDMGR-Auto-Updater').split('/')[-1]
+                file_url = f"https://nexgen999.github.io/{repo_name}/{target_dir.replace(os.sep, '/')}/{main_file}"
+                
+                # Formatage du nom : ex "ps5_overlay.elf" -> "Ps5 Overlay"
+                base_filename = os.path.splitext(main_file)[0]
+                display_name = base_filename.replace('_', ' ').replace('-', ' ').title()
 
-            item_data = {
-                "name": display_name,
-                "filename": main_file,
-                "url": file_url,
-                "description": description if description else f"Payload {display_name} pour PS5",
-                "version": version,
-                "category": cat_display_name,
-                "checksum": sha256_hash
-            }
-            category_payloads_list.append(item_data)
-            all_payloads_flat_list.append(item_data)
+                item_data = {
+                    "name": display_name,
+                    "filename": main_file,
+                    "url": file_url,
+                    "description": description if description else f"Payload {display_name} pour PS5",
+                    "version": version,
+                    "category": cat_display_name,
+                    "checksum": sha256_hash
+                }
+                
+                # Ajout direct aux listes JSON
+                category_payloads_list.append(item_data)
+                all_payloads_flat_list.append(item_data)
 
     with open(os.path.join(JSON_DIR, f"{cat_tech_name}.json"), 'w', encoding='utf-8') as out_cat:
         json.dump({"name": cat_display_name, "payloads": category_payloads_list}, out_cat, indent=2, ensure_ascii=False)
