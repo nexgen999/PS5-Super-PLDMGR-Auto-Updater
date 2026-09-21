@@ -2,7 +2,7 @@
   "name": "PS5 Overlay",
   "payloads": [
     {
-      "name": "Common_FPS_PS5",
+      "name": "Common Fps Ps5 V1.1.0",
       "filename": "Common_FPS_PS5_v1.1.0.elf",
       "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Overlay/Common-FPS-for-PS5/v1.1.0/Common_FPS_PS5_v1.1.0.elf",
       "description": "A lightweight, open-source real-time FPS counter for PlayStation 5.",
@@ -11,7 +11,7 @@
       "checksum": "4f544fa00f7a430e64c4c8d0ed42d0463d2370c81dabd9141599c27c4f3f99d6"
     },
     {
-      "name": "ps5-new-overlay",
+      "name": "Ps5 New Overlay V1.0.14",
       "filename": "ps5-new-overlay_v1.0.14.elf",
       "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Overlay/ps5-new-overlay/v1.0.14/ps5-new-overlay_v1.0.14.elf",
       "description": "A lightweight, standalone hardware monitoring overlay for jailbroken PlayStation 5 consoles (FW 1.xx - 10.xx+).",

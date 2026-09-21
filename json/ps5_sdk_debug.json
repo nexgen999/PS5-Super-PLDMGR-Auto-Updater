@@ -2,7 +2,7 @@
   "name": "PS5 Sdk Debug",
   "payloads": [
     {
-      "name": "ps5debug-NG",
+      "name": "Ps5Debug Ng V1.3.0",
       "filename": "ps5debug-NG_v1.3.0.elf",
       "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/ps5debug-NG/1.3.0/ps5debug-NG_v1.3.0.elf",
       "description": "Next generation debugger payload for PS5.",
@@ -11,7 +11,7 @@
       "checksum": "8f75fb90b45d7cc4d59147e3323577d7264cf572c78a27f76722202f492ad16a"
     },
     {
-      "name": "ps5-fw-spoof",
+      "name": "Ps5 Fw Spoof V26616621599",
       "filename": "ps5-fw-spoof_v26616621599.elf",
       "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/ps5-fw-spoof/26616621599/ps5-fw-spoof_v26616621599.elf",
       "description": "Firmware spoofer utility for PS5.",
@@ -20,7 +20,7 @@
       "checksum": "f1754521caa92a6a1ac313a1b6c969ec49d67750e290ba99870958290a0961f0"
     },
     {
-      "name": "ps5-self-pager-shellcore",
+      "name": "Ps5 Self Pager Shellcore V1.2",
       "filename": "ps5-self-pager-shellcore_v1.2.elf",
       "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/ps5-self-pager/v1.2/ps5-self-pager-shellcore_v1.2.elf",
       "description": "SELF pager payload tool.",
@@ -29,7 +29,7 @@
       "checksum": "2b500bc356b5bcfca5c3e5187bcec0a37c80ed05e39348b8f06bd2e5a6f3342b"
     },
     {
-      "name": "ps5-self-pager-full-system",
+      "name": "Ps5 Self Pager Full System V1.2",
       "filename": "ps5-self-pager-full-system_v1.2.elf",
       "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/ps5-self-pager/v1.2/ps5-self-pager-full-system_v1.2.elf",
       "description": "SELF pager payload tool.",
@@ -38,7 +38,7 @@
       "checksum": "fb498d4112611619150281e0c44afbd09f144c09eaca3ab3f5b306b39450d13a"
     },
     {
-      "name": "ps5-self-pager",
+      "name": "Ps5 Self Pager V1.2",
       "filename": "ps5-self-pager_v1.2.elf",
       "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/ps5-self-pager/v1.2/ps5-self-pager_v1.2.elf",
       "description": "SELF pager payload tool.",
@@ -47,7 +47,7 @@
       "checksum": "73d94fea5de9086cac26385c117a0b3098890c447d67536877fb7b51c9145aac"
     },
     {
-      "name": "ps5-self-pager-system-common-lib",
+      "name": "Ps5 Self Pager System Common Lib V1.2",
       "filename": "ps5-self-pager-system-common-lib_v1.2.elf",
       "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/ps5-self-pager/v1.2/ps5-self-pager-system-common-lib_v1.2.elf",
       "description": "SELF pager payload tool.",
@@ -56,7 +56,7 @@
       "checksum": "a86c3e69ed38656310b41af4f9221bdb2264ff4daf93fb4c2515fd54a216b701"
     },
     {
-      "name": "ps5-self-pager-game",
+      "name": "Ps5 Self Pager Game V1.2",
       "filename": "ps5-self-pager-game_v1.2.elf",
       "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/ps5-self-pager/v1.2/ps5-self-pager-game_v1.2.elf",
       "description": "SELF pager payload tool.",
@@ -65,7 +65,7 @@
       "checksum": "73d94fea5de9086cac26385c117a0b3098890c447d67536877fb7b51c9145aac"
     },
     {
-      "name": "PS5-SELF-Decrypter",
+      "name": "Ps5 Self Decrypter V0.5.2",
       "filename": "PS5-SELF-Decrypter_v0.5.2.elf",
       "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/PS5-SELF-Decrypter/v0.5.2/PS5-SELF-Decrypter_v0.5.2.elf",
       "description": "SELF decrypter tool for PS5 binaries.",
@@ -74,7 +74,7 @@
       "checksum": "190b350759b4f9d50949325e84d131e0953f37a9df271c329ba43c80c0ac7a57"
     },
     {
-      "name": "ps5-self-decrypter-shellcore",
+      "name": "Ps5 Self Decrypter Shellcore V0.5.2",
       "filename": "ps5-self-decrypter-shellcore_v0.5.2.elf",
       "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/PS5-SELF-Decrypter/v0.5.2/ps5-self-decrypter-shellcore_v0.5.2.elf",
       "description": "SELF decrypter tool for PS5 binaries.",
@@ -83,7 +83,7 @@
       "checksum": "15050c691c21c790ae970a1ee99ad3918dd1065fe5512c762fccee6d521c8066"
     },
     {
-      "name": "ps5-self-decrypter-system-common-lib",
+      "name": "Ps5 Self Decrypter System Common Lib V0.5.2",
       "filename": "ps5-self-decrypter-system-common-lib_v0.5.2.elf",
       "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/PS5-SELF-Decrypter/v0.5.2/ps5-self-decrypter-system-common-lib_v0.5.2.elf",
       "description": "SELF decrypter tool for PS5 binaries.",
@@ -92,7 +92,7 @@
       "checksum": "6a16c6457c604db4846632510da0975f49faba08e6cab9cfd7f84d78b4557d97"
     },
     {
-      "name": "ps5-self-decrypter-full-system",
+      "name": "Ps5 Self Decrypter Full System V0.5.2",
       "filename": "ps5-self-decrypter-full-system_v0.5.2.elf",
       "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/PS5-SELF-Decrypter/v0.5.2/ps5-self-decrypter-full-system_v0.5.2.elf",
       "description": "SELF decrypter tool for PS5 binaries.",
@@ -101,7 +101,7 @@
       "checksum": "46340d3048a977f5603b3def0a0ba1c85b5c182891388442e51b39e281257b6a"
     },
     {
-      "name": "ps5-self-decrypter-game",
+      "name": "Ps5 Self Decrypter Game V0.5.2",
       "filename": "ps5-self-decrypter-game_v0.5.2.elf",
       "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/PS5-SELF-Decrypter/v0.5.2/ps5-self-decrypter-game_v0.5.2.elf",
       "description": "SELF decrypter tool for PS5 binaries.",
@@ -110,7 +110,7 @@
       "checksum": "190b350759b4f9d50949325e84d131e0953f37a9df271c329ba43c80c0ac7a57"
     },
     {
-      "name": "ps5-remoteplay-get-pin",
+      "name": "Ps5 Remoteplay Get Pin V0.1.1",
       "filename": "ps5-remoteplay-get-pin_v0.1.1.elf",
       "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/ps5-remoteplay-get-pin/v0.1.1/ps5-remoteplay-get-pin_v0.1.1.elf",
       "description": "Utility to get Remote Play PIN.",
@@ -119,7 +119,7 @@
       "checksum": "1d611c1856dd2f4b4b6cb42ead1128a7f08a26585788f92de79fa4f67d721472"
     },
     {
-      "name": "MemDBG",
+      "name": "Memdbg Vnightly 20260904 G29A46Df",
       "filename": "MemDBG_vnightly-20260904-g29a46df.elf",
       "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/MemDBG/nightly-20260904-g29a46df/MemDBG_vnightly-20260904-g29a46df.elf",
       "description": "Memory debugging and inspection suite.",
@@ -128,16 +128,7 @@
       "checksum": "2835b34516ecfdfcd04a0333a19a6ff026f48f7cd3fd2d7f877aeb929083336b"
     },
     {
-      "name": "ps5-hwinfo",
-      "filename": "ps5-hwinfo_v0.1.elf",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/ps5-hwinfo/0.1/ps5-hwinfo_v0.1.elf",
-      "description": "PS5 payload for collecting hardware and runtime telemetry.",
-      "version": "0.1",
-      "category": "PS5 Sdk Debug",
-      "checksum": "ad5014112dec619779619d0ea01a984b3c8267fed682eca5687f34c9eade51cb"
-    },
-    {
-      "name": "hwinfo_bench",
+      "name": "Hwinfo Bench V0.1",
       "filename": "hwinfo_bench_v0.1.elf",
       "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/ps5-hwinfo/0.1/hwinfo_bench_v0.1.elf",
       "description": "PS5 payload for collecting hardware and runtime telemetry.",
@@ -146,7 +137,16 @@
       "checksum": "4514bdbc0c556df1a66544615942d5087d1cbee5c2026b3b66e688ba01e5a5b0"
     },
     {
-      "name": "hwinfo_sysinfo",
+      "name": "Ps5 Hwinfo V0.1",
+      "filename": "ps5-hwinfo_v0.1.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/ps5-hwinfo/0.1/ps5-hwinfo_v0.1.elf",
+      "description": "PS5 payload for collecting hardware and runtime telemetry.",
+      "version": "0.1",
+      "category": "PS5 Sdk Debug",
+      "checksum": "ad5014112dec619779619d0ea01a984b3c8267fed682eca5687f34c9eade51cb"
+    },
+    {
+      "name": "Hwinfo Sysinfo V0.1",
       "filename": "hwinfo_sysinfo_v0.1.elf",
       "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/ps5-hwinfo/0.1/hwinfo_sysinfo_v0.1.elf",
       "description": "PS5 payload for collecting hardware and runtime telemetry.",

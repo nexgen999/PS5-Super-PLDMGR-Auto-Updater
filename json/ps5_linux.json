@@ -2,7 +2,7 @@
   "name": "PS5 Linux",
   "payloads": [
     {
-      "name": "ps5-linux-loader",
+      "name": "Ps5 Linux Loader V2.5",
       "filename": "ps5-linux-loader_v2.5.elf",
       "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_linux/ps5-linux-loader/v2.5/ps5-linux-loader_v2.5.elf",
       "description": "Linux loader payload for the PS5.",

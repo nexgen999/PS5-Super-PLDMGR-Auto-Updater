@@ -2,7 +2,7 @@
   "name": "PS5 File Explorer",
   "payloads": [
     {
-      "name": "bfpilot",
+      "name": "Bfpilot V0.4.4",
       "filename": "bfpilot_v0.4.4.elf",
       "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_file_explorer/BFpilot/v0.4.4/bfpilot_v0.4.4.elf",
       "description": "BFpilot is a lightweight PS5 payload that serves a browser-based file manager.",
@@ -11,7 +11,7 @@
       "checksum": "5a8237630260026ad054d71fbbe661e433ac9ffa2cb4eea2785769c1eb7ee1c1"
     },
     {
-      "name": "BFpilot",
+      "name": "Bfpilot V0.4.4",
       "filename": "BFpilot_v0.4.4.elf",
       "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_file_explorer/BFpilot/v0.4.4/BFpilot_v0.4.4.elf",
       "description": "BFpilot is a lightweight PS5 payload that serves a browser-based file manager.",
@@ -20,7 +20,7 @@
       "checksum": "5a8237630260026ad054d71fbbe661e433ac9ffa2cb4eea2785769c1eb7ee1c1"
     },
     {
-      "name": "lapy_jb_daemon",
+      "name": "Lapy Jb Daemon",
       "filename": "lapy_jb_daemon.elf",
       "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_file_explorer/Lapy_JB_Daemon/Source-Fixe/lapy_jb_daemon.elf",
       "description": "Daemon pour le jailbreak de Lapy",
@@ -29,7 +29,7 @@
       "checksum": "e8230ac4597b8f0388e75d7515ad1a2e251c4589cc3b8d56a483ffae73627eed"
     },
     {
-      "name": "ps5-web-file-manager",
+      "name": "Ps5 Web File Manager V1.9",
       "filename": "ps5-web-file-manager_v1.9.elf",
       "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_file_explorer/ps5-web-file-manager/v1.9/ps5-web-file-manager_v1.9.elf",
       "description": "PS5 Web File Manager http://your-ps5-ip:8888.",
@@ -38,7 +38,7 @@
       "checksum": "711cb076e887fcd55d973ade8b84bb6c22720be295bfde18e32761f6e0479a3e"
     },
     {
-      "name": "PS5-File-Explorer",
+      "name": "Ps5 File Explorer Vfile Explorer V0.2.1",
       "filename": "PS5-File-Explorer_vfile-explorer-v0.2.1.elf",
       "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_file_explorer/PS5-File-Explorer/file-explorer-v0.2.1/PS5-File-Explorer_vfile-explorer-v0.2.1.elf",
       "description": "PS5 File Explorer http://your-ps5-ip:5905.",

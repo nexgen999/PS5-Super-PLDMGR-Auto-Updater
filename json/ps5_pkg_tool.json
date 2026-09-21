@@ -2,7 +2,7 @@
   "name": "PS5 Pkg Tool",
   "payloads": [
     {
-      "name": "pkgmgr",
+      "name": "Pkgmgr V1.1.0",
       "filename": "pkgmgr_v1.1.0.elf",
       "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_pkg_tool/ps5-pkg-manager/v1.1.0/pkgmgr_v1.1.0.elf",
       "description": "A clean and intuitive package manager for PlayStation 5",

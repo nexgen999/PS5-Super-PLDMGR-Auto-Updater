@@ -2,7 +2,7 @@
   "name": "PS5 Trophy",
   "payloads": [
     {
-      "name": "uds-trophy-unlocker",
+      "name": "Uds Trophy Unlocker V1.0.0",
       "filename": "uds-trophy-unlocker_v1.0.0.elf",
       "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_trophy/uds-trophy-unlocker/v1.0.0/uds-trophy-unlocker_v1.0.0.elf",
       "description": "Trophy unlocker utility for PS5 hosted on Forgejo.",
