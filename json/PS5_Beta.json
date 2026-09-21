@@ -8,7 +8,7 @@
       "description": "Experimental Kstuff DarkMor",
       "version": "Source-Fixe",
       "category": "PS5 Beta",
-      "checksum": "82601fe1844beee0a9e2bf9dd6bb8d0efffc54b7c1484da729a2b0f64245d430"
+      "checksum": "41073af5bad4679dfda426651471fe02b10673c46aeb4211cec4d74b50dc9f7d"
     },
     {
       "name": "ShadowMountPlus",
@@ -17,7 +17,7 @@
       "description": "ShadowMountPlus experimental for FPKG",
       "version": "Source-Fixe",
       "category": "PS5 Beta",
-      "checksum": "7111e2889580e29ae2f93190f29cfad1cadd32e59a6aebde8f7142cb579f6894"
+      "checksum": "fa86a3b325fc6a9814d2b419e696542bbd000a7edfdeb03197b070fda7f3f971"
     },
     {
       "name": "a53_ppr_install_fast",
@@ -26,7 +26,7 @@
       "description": "A53 Experimental for Kstuff-Darkmor",
       "version": "Source-Fixe",
       "category": "PS5 Beta",
-      "checksum": "fc7e97b18d9a7463281ed9022c67b3fafbe09418399f8b1c4b5ec9b7e5b9e40e"
+      "checksum": "609918acd85174d7e08fabd071f1cc7d3c064230bb7aa7b1e28549a417581900"
     },
     {
       "name": "kstuff-echostrech",
@@ -35,7 +35,7 @@
       "description": "Experimental Kstuff EchoStrech",
       "version": "Source-Fixe",
       "category": "PS5 Beta",
-      "checksum": "1c2cb6a8e91716c840d050cfcdd86c6892dd0b6d186b593a1e21836951b8b882"
+      "checksum": "4c4e79a03f74467ac64cb7ec9df772829ff5904c104aab308313cf2352594f1d"
     },
     {
       "name": "a53_exploit-experimental",
@@ -44,7 +44,7 @@
       "description": "A53 Experimental for Kstuff-EchoStrech",
       "version": "Source-Fixe",
       "category": "PS5 Beta",
-      "checksum": "72d5dbf878b307e126d0e6c34459316e99c0743e6a639d6a771d3264fd908c3a"
+      "checksum": "24f694b843ada4301299c6750640665679a542d3bfcc074b76fa18f7d209b492"
     }
   ]
 }
