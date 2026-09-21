@@ -7,37 +7,37 @@
     <item>
       <title>A53 Kstuff Shadowmountplus 3In1 (Source-Fixe)</title>
       <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/A53-Kstuff-ShadowMountPlus-3in1_SoNic-AIO_Experimental/Source-Fixe/A53-Kstuff-ShadowMountPlus-3in1.elf</link>
-      <description>Experimental AIO by SoNic credit to EchoStrech DarkMor - Checksum: 870d8198b9122c871c8ef752bfa61b4835dab7b9a4b6219817219c66949ffc32</description>
+      <description>Experimental AIO by SoNic credit to EchoStrech DarkMor - Checksum: 03ef76dbf029ac462f9b3ae6fb4e07a2435dabae3e355862fb81517e7c625f19</description>
     </item>
     <item>
       <title>A53 Kstuff Smp (Source-Fixe)</title>
       <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/A53-kstuff-SMP_SoNic-AIO_Experimental/Source-Fixe/A53-kstuff-SMP.elf</link>
-      <description>Experimental AIO by SoNic credit to EchoStrech DarkMor - Checksum: 7c67bd1f827cf891a4ca6fa0671f95311f5af16cc8c5d42a640d9690b6039057</description>
+      <description>Experimental AIO by SoNic credit to EchoStrech DarkMor - Checksum: 9a96928043ff1aadb2ce09d149450cf9f8653f9693e963c22d7a9677690c9c4c</description>
     </item>
     <item>
       <title>Kstuff (Source-Fixe)</title>
       <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/kstuff_Darkmor_Experimental/Source-Fixe/kstuff_v1.12-dr-test8.elf</link>
-      <description>Experimental Kstuff DarkMor - Checksum: 11133233a3733741150e485cc31ee1877d098666125fc78d987090f2a598c60e</description>
+      <description>Experimental Kstuff DarkMor - Checksum: 37d750c37922f08f5a32a0c0093902e88d266a65c68ec81e739e2cb52a99a5a5</description>
     </item>
     <item>
       <title>Shadowmountplus (Source-Fixe)</title>
       <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/ShadowMountPlus/Source-Fixe/ShadowMountPlus_v1.7alpha13fix1-13-g072c17.elf</link>
-      <description>ShadowMountPlus experimental for FPKG - Checksum: 3caccd9ddd7a7ba3e4e965f5ca0f8ef9d1253aff8d443c3f83634533955ef6f7</description>
+      <description>ShadowMountPlus experimental for FPKG - Checksum: 76beae6afb2a7ef477b2db39789a905b839a33a96af3199e73e8b4106f7df597</description>
     </item>
     <item>
       <title>A53 Ppr Install Fast (Source-Fixe)</title>
       <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/A53_Experimental_KS-D/Source-Fixe/a53_ppr_install_fast_v15.09.elf</link>
-      <description>A53 Experimental for Kstuff-Darkmor - Checksum: 64e5e1b887ad6d9626b1d232822cb33c23c45f5c7b7d06ec72f972b62ca01b7f</description>
+      <description>A53 Experimental for Kstuff-Darkmor - Checksum: b994337bc7fc2eb2907caf592552dee718242b82d8ad1c2e945f334e865b0e81</description>
     </item>
     <item>
       <title>Kstuff Echostrech (Source-Fixe)</title>
       <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/Kstuff_EchoStrech_Experimental/Source-Fixe/kstuff-echostrech_v1.11expermiental.elf</link>
-      <description>Experimental Kstuff EchoStrech - Checksum: 610502f57c496d4810b213d6407ae832a082e43c8a009df39e99cafb72a18543</description>
+      <description>Experimental Kstuff EchoStrech - Checksum: ae218a8be0fbf8e7da25f0072b6bee95e5d63404c906943c7928cce6495a6de4</description>
     </item>
     <item>
       <title>A53 Exploit Experimental (Source-Fixe)</title>
       <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/A53_Experimental_KS-E/Source-Fixe/a53_exploit-experimental.elf</link>
-      <description>A53 Experimental for Kstuff-EchoStrech - Checksum: 82604e41c3a968038b7d63f75a3fdb2117a460aa2a4bef135d2643dffb40f731</description>
+      <description>A53 Experimental for Kstuff-EchoStrech - Checksum: e5e3f9bf0d45a35bcde7d97b7b1fda2af951a37165a51a49982be05c062178f2</description>
     </item>
     <item>
       <title>Ps5Debug Ng (1.3.0)</title>
@@ -423,6 +423,16 @@
       <title>Common Fps Ps5 (v1.1.0)</title>
       <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Overlay/Common-FPS-for-PS5/v1.1.0/Common_FPS_PS5_v1.1.0.elf</link>
       <description>A lightweight, open-source real-time FPS counter for PlayStation 5. - Checksum: 4f544fa00f7a430e64c4c8d0ed42d0463d2370c81dabd9141599c27c4f3f99d6</description>
+    </item>
+    <item>
+      <title>PS5 Overlay (v1.0.15)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Overlay/ps5-new-overlay/v1.0.15/ps5_overlay_v1.0.15.elf</link>
+      <description>A lightweight, standalone hardware monitoring overlay for jailbroken PlayStation 5 consoles (FW 1.xx - 10.xx+). - Checksum: 5e843b4b20b5954802a88722e5f9436d71d29bc3c82c22d7aa828b83b9960ff9</description>
+    </item>
+    <item>
+      <title>PS5 Overlay Shellui (v1.0.15)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Overlay/ps5-new-overlay/v1.0.15/ps5_overlay_shellui_v1.0.15.elf</link>
+      <description>A lightweight, standalone hardware monitoring overlay for jailbroken PlayStation 5 consoles (FW 1.xx - 10.xx+). - Checksum: 54d23675bf44f17599a9e08397cf0c62b0e10cfbffdc2fe1673e5bcc9de8a2b7</description>
     </item>
     <item>
       <title>PS5 Game Compressor (v1.0.4)</title>

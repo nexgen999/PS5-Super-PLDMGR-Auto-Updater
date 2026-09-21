@@ -9,6 +9,24 @@
       "version": "v1.1.0",
       "category": "PS5 Overlay",
       "checksum": "4f544fa00f7a430e64c4c8d0ed42d0463d2370c81dabd9141599c27c4f3f99d6"
+    },
+    {
+      "name": "PS5 Overlay",
+      "filename": "ps5_overlay_v1.0.15.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Overlay/ps5-new-overlay/v1.0.15/ps5_overlay_v1.0.15.elf",
+      "description": "A lightweight, standalone hardware monitoring overlay for jailbroken PlayStation 5 consoles (FW 1.xx - 10.xx+).",
+      "version": "v1.0.15",
+      "category": "PS5 Overlay",
+      "checksum": "5e843b4b20b5954802a88722e5f9436d71d29bc3c82c22d7aa828b83b9960ff9"
+    },
+    {
+      "name": "PS5 Overlay Shellui",
+      "filename": "ps5_overlay_shellui_v1.0.15.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Overlay/ps5-new-overlay/v1.0.15/ps5_overlay_shellui_v1.0.15.elf",
+      "description": "A lightweight, standalone hardware monitoring overlay for jailbroken PlayStation 5 consoles (FW 1.xx - 10.xx+).",
+      "version": "v1.0.15",
+      "category": "PS5 Overlay",
+      "checksum": "54d23675bf44f17599a9e08397cf0c62b0e10cfbffdc2fe1673e5bcc9de8a2b7"
     }
   ]
 }
