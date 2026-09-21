@@ -2,13 +2,31 @@
   "name": "AIO Store",
   "payloads": [
     {
+      "name": "A53-Kstuff-ShadowMountPlus-3in1",
+      "filename": "A53-Kstuff-ShadowMountPlus-3in1.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/A53-Kstuff-ShadowMountPlus-3in1_SoNic-AIO_Experimental/Source-Fixe/A53-Kstuff-ShadowMountPlus-3in1.elf",
+      "description": "Experimental AIO by SoNic credit to EchoStrech DarkMor",
+      "version": "Source-Fixe",
+      "category": "PS5 Beta",
+      "checksum": "1fcf18089b22eef09c172d0264b7ec8e34b127fdac14dddbbe0822d2bd7030cf"
+    },
+    {
+      "name": "A53-kstuff-SMP",
+      "filename": "A53-kstuff-SMP.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/A53-kstuff-SMP_SoNic-AIO_Experimental/Source-Fixe/A53-kstuff-SMP.elf",
+      "description": "Experimental AIO by SoNic credit to EchoStrech DarkMor",
+      "version": "Source-Fixe",
+      "category": "PS5 Beta",
+      "checksum": "08c33d45a9d6c83ad5e4c7a06943110f5058992c3a55d2983c72e677a64643d2"
+    },
+    {
       "name": "kstuff",
       "filename": "kstuff_v1.12-dr-test8.elf",
       "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/kstuff_Darkmor_Experimental/Source-Fixe/kstuff_v1.12-dr-test8.elf",
       "description": "Experimental Kstuff DarkMor",
       "version": "Source-Fixe",
       "category": "PS5 Beta",
-      "checksum": "25cf55c44fb7420ebf33a4e6600c44421bfcf816a41d4554644330be97a419ea"
+      "checksum": "0d58d8d85a53a65daababa3682e0faede39f0a03d8ea4ab46092988d4f605e07"
     },
     {
       "name": "ShadowMountPlus",
@@ -17,7 +35,7 @@
       "description": "ShadowMountPlus experimental for FPKG",
       "version": "Source-Fixe",
       "category": "PS5 Beta",
-      "checksum": "41f402d01996c804ad93c6e699f3b2c186597cb2bcebf0dd5f1abd052583dbd3"
+      "checksum": "2901d72ed3651827f5a5bf49faef592110a066c847f0b69d6a1e3b432231d91c"
     },
     {
       "name": "a53_ppr_install_fast",
@@ -26,7 +44,7 @@
       "description": "A53 Experimental for Kstuff-Darkmor",
       "version": "Source-Fixe",
       "category": "PS5 Beta",
-      "checksum": "0d340566e2d16ce57e4631dcf60218e62c3d7229d85d4789ec1e1f6cf7b3a0fe"
+      "checksum": "6f3ee929cc99e48065a8cd600efa3e5826ed1f19d2086a677354b5226d663d68"
     },
     {
       "name": "kstuff-echostrech",
@@ -35,7 +53,7 @@
       "description": "Experimental Kstuff EchoStrech",
       "version": "Source-Fixe",
       "category": "PS5 Beta",
-      "checksum": "4ec951a44dfffad7a8cb5773be4681aae7ab8537765cae8076ebcac554263b87"
+      "checksum": "c9cdd1d6cf111fea77e543e93be5ca27a8a4c8937ec94d07c94f32b5b50f150a"
     },
     {
       "name": "a53_exploit-experimental",
@@ -44,7 +62,7 @@
       "description": "A53 Experimental for Kstuff-EchoStrech",
       "version": "Source-Fixe",
       "category": "PS5 Beta",
-      "checksum": "1ca6ae39caa6f33afc6fbf0d849a459b94dc85a89574b1fe96a5bb3c558c2269"
+      "checksum": "a8406555dd14d1f69c624d273c98e9f3fddb5fef368a6faa558e2b1fd86cc7c6"
     },
     {
       "name": "ps5debug-NG",
@@ -488,6 +506,15 @@
       "checksum": "c4672cfa909463843c537f67d5f2df9eb3456d4036d26a4fb81fc34d7853170b"
     },
     {
+      "name": "PS5Library",
+      "filename": "PS5Library_v0.2.10.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_freeshop/PS5Library/v0.2.10/PS5Library_v0.2.10.elf",
+      "description": "You need PS5Library.pkg.",
+      "version": "v0.2.10",
+      "category": "PS5 Freeshop",
+      "checksum": "3f77ef3e5b4610db4699b62ad04683c73419462285048fdf7ccb3bcc23a0065d"
+    },
+    {
       "name": "garlic-savemgr",
       "filename": "garlic-savemgr_v1.13.1.elf",
       "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_saves/garlic-savemgr/v1.13.1/garlic-savemgr_v1.13.1.elf",
@@ -713,6 +740,15 @@
       "checksum": "4f544fa00f7a430e64c4c8d0ed42d0463d2370c81dabd9141599c27c4f3f99d6"
     },
     {
+      "name": "ps5-new-overlay",
+      "filename": "ps5-new-overlay_v1.0.14.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Overlay/ps5-new-overlay/v1.0.14/ps5-new-overlay_v1.0.14.elf",
+      "description": "A lightweight, standalone hardware monitoring overlay for jailbroken PlayStation 5 consoles (FW 1.xx - 10.xx+).",
+      "version": "v1.0.14",
+      "category": "PS5 Overlay",
+      "checksum": "54d23675bf44f17599a9e08397cf0c62b0e10cfbffdc2fe1673e5bcc9de8a2b7"
+    },
+    {
       "name": "PS5-Game-Compressor",
       "filename": "PS5-Game-Compressor_v1.0.4.elf",
       "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/PS5-Game-Compressor/v1.0.4/PS5-Game-Compressor_v1.0.4.elf",
@@ -873,6 +909,15 @@
       "version": "1.16-ng-stable",
       "category": "PS5 Server",
       "checksum": "f19ae469b25453a7a4af4529527521d31f143100f18a2c6839666e7121c8bd32"
+    },
+    {
+      "name": "ps5-ezremote-server",
+      "filename": "ps5-ezremote-server_v1.10.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ps5-ezremote-server/1.10/ps5-ezremote-server_v1.10.elf",
+      "description": "Easy remote server component. Port: 8080",
+      "version": "1.10",
+      "category": "PS5 Server",
+      "checksum": "fa69eb0b49894356b84ce996de863d53884e5506a8fbcc0d079759a23b8905f3"
     },
     {
       "name": "ps5upload",

@@ -27,6 +27,15 @@
       "version": "Source-Fixe",
       "category": "PS5 Freeshop",
       "checksum": "c4672cfa909463843c537f67d5f2df9eb3456d4036d26a4fb81fc34d7853170b"
+    },
+    {
+      "name": "PS5Library",
+      "filename": "PS5Library_v0.2.10.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_freeshop/PS5Library/v0.2.10/PS5Library_v0.2.10.elf",
+      "description": "You need PS5Library.pkg.",
+      "version": "v0.2.10",
+      "category": "PS5 Freeshop",
+      "checksum": "3f77ef3e5b4610db4699b62ad04683c73419462285048fdf7ccb3bcc23a0065d"
     }
   ]
 }
