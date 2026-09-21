@@ -8,7 +8,7 @@
       "description": "Experimental Kstuff DarkMor",
       "version": "Source-Fixe",
       "category": "PS5 Beta",
-      "checksum": "41073af5bad4679dfda426651471fe02b10673c46aeb4211cec4d74b50dc9f7d"
+      "checksum": "25cf55c44fb7420ebf33a4e6600c44421bfcf816a41d4554644330be97a419ea"
     },
     {
       "name": "ShadowMountPlus",
@@ -17,7 +17,7 @@
       "description": "ShadowMountPlus experimental for FPKG",
       "version": "Source-Fixe",
       "category": "PS5 Beta",
-      "checksum": "fa86a3b325fc6a9814d2b419e696542bbd000a7edfdeb03197b070fda7f3f971"
+      "checksum": "41f402d01996c804ad93c6e699f3b2c186597cb2bcebf0dd5f1abd052583dbd3"
     },
     {
       "name": "a53_ppr_install_fast",
@@ -26,7 +26,7 @@
       "description": "A53 Experimental for Kstuff-Darkmor",
       "version": "Source-Fixe",
       "category": "PS5 Beta",
-      "checksum": "609918acd85174d7e08fabd071f1cc7d3c064230bb7aa7b1e28549a417581900"
+      "checksum": "0d340566e2d16ce57e4631dcf60218e62c3d7229d85d4789ec1e1f6cf7b3a0fe"
     },
     {
       "name": "kstuff-echostrech",
@@ -35,7 +35,7 @@
       "description": "Experimental Kstuff EchoStrech",
       "version": "Source-Fixe",
       "category": "PS5 Beta",
-      "checksum": "4c4e79a03f74467ac64cb7ec9df772829ff5904c104aab308313cf2352594f1d"
+      "checksum": "4ec951a44dfffad7a8cb5773be4681aae7ab8537765cae8076ebcac554263b87"
     },
     {
       "name": "a53_exploit-experimental",
@@ -44,7 +44,7 @@
       "description": "A53 Experimental for Kstuff-EchoStrech",
       "version": "Source-Fixe",
       "category": "PS5 Beta",
-      "checksum": "24f694b843ada4301299c6750640665679a542d3bfcc074b76fa18f7d209b492"
+      "checksum": "1ca6ae39caa6f33afc6fbf0d849a459b94dc85a89574b1fe96a5bb3c558c2269"
     },
     {
       "name": "ps5debug-NG",
@@ -876,12 +876,12 @@
     },
     {
       "name": "ps5upload",
-      "filename": "ps5upload_v5.31.3.elf",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ps5upload/v5.31.3/ps5upload_v5.31.3.elf",
+      "filename": "ps5upload_v5.31.4.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ps5upload/v5.31.4/ps5upload_v5.31.4.elf",
       "description": "PS5 Upload server / tool. Port: 9025",
-      "version": "v5.31.3",
+      "version": "v5.31.4",
       "category": "PS5 Server",
-      "checksum": "b1d02286a0b3dd10dc57275e8477513dca08ffb0697ad6543cd6a8bc7d771c25"
+      "checksum": "420bdd4d9328ab1068f32ef1a19f96387586ddd2a308744f81957d04d8a41d3b"
     },
     {
       "name": "airpsx",
