@@ -107,11 +107,27 @@ for opml_file in opml_files:
                 try:
                     print(f"    -> Téléchargement GitHub ({version})...")
                     
-                    # RÈGLE DÉDIÉE : Téléchargement forcé des deux ELF pour smoxa/ps5-new-overlay
+                    # CAS SPÉCIFIQUE INFALLIBLE : smoxa/ps5-new-overlay (API directe)
                     if "smoxa/ps5-new-overlay" in repo_lower:
-                        for elf_name in ["ps5_overlay.elf", "ps5_overlay_shellui.elf"]:
-                            print(f"       --> Téléchargement spécifique de {elf_name}...")
-                            subprocess.call(f"gh release download '{version}' --repo '{repo}' --pattern '{elf_name}' --dir '{target_dir}' --clobber 2>/devnull", shell=True)
+                        try:
+                            api_url = f"https://api.github.com/repos/{repo}/releases/latest"
+                            req = urllib.request.Request(api_url, headers={'User-Agent': 'Mozilla/5.0'})
+                            with urllib.request.urlopen(req) as resp:
+                                rel_data = json.loads(resp.read().decode('utf-8'))
+                                version = rel_data.get('tag_name', version)
+                                version_clean = re.sub(r'[^a-zA-Z0-9._-]', '', version)
+                                target_dir = os.path.join(PAYLOADS_ROOT, cat_tech_name, title.replace(" ", "_"), version_clean)
+                                os.makedirs(target_dir, exist_ok=True)
+
+                                for asset in rel_data.get('assets', []):
+                                    asset_name = asset.get('name', '')
+                                    download_url = asset.get('browser_download_url', '')
+                                    if asset_name.lower().endswith('.elf'):
+                                        print(f"       --> Téléchargement direct : {asset_name}")
+                                        urllib.request.urlretrieve(download_url, os.path.join(target_dir, asset_name))
+                                        downloaded = True
+                        except Exception as overlay_err:
+                            print(f"    ⚠️ Erreur téléchargement overlay via API : {overlay_err}")
                     else:
                         subprocess.call(f"gh release download '{version}' --repo '{repo}' --dir '{target_dir}' --clobber 2>/devnull", shell=True)
                     
@@ -217,13 +233,24 @@ for opml_file in opml_files:
             base_name, ext = os.path.splitext(f_name)
             final_base = None
 
-            # Conservation stricte des noms originaux des fichiers du repo smoxa
-            if "smoxa/ps5-new-overlay" in repo_lower or "ps5_overlay" in f_name.lower():
+            f_lower = f_name.lower()
+            r_lower = repo_lower.lower()
+
+            # CONSERVATION STRICTE DES NOMS SPÉCIFIQUES
+            if "smoxa/ps5-new-overlay" in r_lower or "ps5_overlay" in f_lower:
                 final_base = base_name
-            elif "instalador-host-psm-poop2jb" in repo_lower or "psm" in repo_lower or "poords4" in repo_lower:
+            elif "zftpd" in f_lower or "zhttpd" in f_lower:
                 final_base = base_name
-            elif "fan_target" in repo_lower or "fan_target" in f_name.lower():
-                temp_match = re.search(r'(\d+c)', f_name.lower())
+            elif "self_pager" in f_lower or "self-pager" in f_lower or "ps5 self pager" in title.lower():
+                final_base = base_name
+            elif "hw_info" in f_lower or "hw-info" in f_lower or "ps5_hw_info" in f_lower:
+                final_base = base_name
+            elif "ps5power" in f_lower or "ps5_power" in f_lower or "power" in f_lower:
+                final_base = base_name
+            elif "instalador-host-psm-poop2jb" in r_lower or "psm" in r_lower or "poords4" in r_lower:
+                final_base = base_name
+            elif "fan_target" in r_lower or "fan_target" in f_lower:
+                temp_match = re.search(r'(\d+c)', f_lower)
                 final_base = f"fan_target_{temp_match.group(1)}" if temp_match else "fan_target"
             else:
                 final_base = default_base_name
