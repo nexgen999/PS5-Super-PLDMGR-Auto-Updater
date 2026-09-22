@@ -1,103 +1,293 @@
+import xml.etree.ElementTree as ET
 import os
-import sys
-import json
 import re
-import hashlib
-import subprocess
 import urllib.request
 import zipfile
-import html
+import subprocess
+import json
 
-FEED_DIR = "feed"
-PKG_FEED_DIR = "PKGfeed"
-JSON_DIR = "json"
-PKG_JSON_DIR = "PKGjson"
-RSS_DIR = "rss"
-PAYLOADS_ROOT = "payloads"
+# ==============================================================================
+# CONFIGURATION ET CONSTANTES
+# ==============================================================================
+FEED_URL = "https://raw.githubusercontent.com/LightningMods/Store-Meta/refs/heads/main/db.xml"
+LOCAL_XML = "db.xml"
+PAYLOADS_ROOT = "Payloads"
 
-os.makedirs(JSON_DIR, exist_ok=True)
-os.makedirs(PKG_JSON_DIR, exist_ok=True)
-os.makedirs(RSS_DIR, exist_ok=True)
-os.makedirs(PAYLOADS_ROOT, exist_ok=True)
+# Listes des dépôts nécessitant une extraction d'archives ZIP
+ZIP_EXTRACTION_REPOS = [
+    "poords4", 
+    "fan_target", 
+    "shadowmountplus", 
+    "instalador-host-psm-poop2jb"
+]
 
-all_payloads_flat_list = []
-all_pkgs_flat_list = []
-readme_rows = []
-credits_list = set()
+# Listes des dépôts à filtrage strict (uniquement .elf et .bin)
+STRICT_BIN_ELF_REPOS = [
+    "ps5-payload-dev/websrv", 
+    "phantomptr/ps5upload", 
+    "boazvdwansem/ps5-debugger", 
+    "smoxa/ps5-new-overlay"
+]
 
-print("=== Début de la synchronisation ===")
+# Extensions de fichiers indésirables à nettoyer automatiquement
+DISCARD_EXTENSIONS = ['.dmg', '.exe', '.appimage', '.msi', '.txt', '.md', '.json', '.yml', '.yaml']
 
-# =========================================================================
-# 1. TRAITEMENT DES PAYLOADS (.ELF / .BIN)
-# =========================================================================
+# Instances alternatives basées sur Forgejo / Gitea
+FORGEJO_HOSTS = ["brewser.com", "pkg-zone.com", "gitea", "forgejo"]
 
-if not os.path.exists(FEED_DIR):
-    print(f"Erreur: Le dossier {FEED_DIR} n'existe pas.")
-    sys.exit(1)
+# ==============================================================================
+# FONCTIONS UTILITAIRES
+# ==============================================================================
+def clean_tag(tag):
+    """
+    Supprime le namespace XML ({http...}) pour faciliter le ciblage des balises.
+    """
+    if '}' in tag:
+        return tag.split('}')[-1]
+    return tag
 
-opml_files = [f for f in os.listdir(FEED_DIR) if f.endswith('.opml')]
 
-for opml_file in opml_files:
-    cat_tech_name = opml_file.replace('.opml', '')
-    cat_display_name = cat_tech_name.replace('_', ' ').title()
-    if "Hen" in cat_display_name: cat_display_name = cat_display_name.replace("Hen", "HEN")
-    if cat_display_name.startswith("Ps5 "): cat_display_name = cat_display_name.replace("Ps5 ", "PS5 ")
+def sanitize_filename(name):
+    """
+    Nettoie une chaîne de caractères pour l'utiliser comme nom de dossier/fichier.
+    """
+    cleaned = re.sub(r'[^a-zA-Z0-9._-]', '_', name)
+    return re.sub(r'_+', '_', cleaned).strip('_')
+
+
+def fetch_db():
+    """
+    Télécharge la base de données XML si elle n'existe pas localement.
+    """
+    print("----------------------------------------------------------------------")
+    if not os.path.exists(LOCAL_XML):
+        print(f"[*] Téléchargement du fichier de base de données depuis : {FEED_URL}")
+        try:
+            urllib.request.urlretrieve(FEED_URL, LOCAL_XML)
+            print("[+] Base de données XML téléchargée avec succès.")
+        except Exception as e:
+            print(f"[!] Erreur critique lors du téléchargement de db.xml : {e}")
+            exit(1)
+    else:
+        print(f"[*] Fichier local '{LOCAL_XML}' trouvé et pris en compte.")
+    print("----------------------------------------------------------------------")
+
+
+# ==============================================================================
+# TRAITEMENT DES ARCHIVES ET NETTOYAGE
+# ==============================================================================
+def process_zip_extractions(target_dir, repo_lower):
+    """
+    Inspecte le dossier cible à la recherche d'archives ZIP et extrait les .elf.
+    """
+    should_extract = any(repo_key in repo_lower for repo_key in ZIP_EXTRACTION_REPOS)
     
-    print(f"\n📁 Catégorie Payload : {cat_display_name} ({cat_tech_name})")
-    category_payloads_list = []
+    if not should_extract:
+        return
 
-    with open(os.path.join(FEED_DIR, opml_file), 'r', encoding='utf-8') as f:
-        content = f.read()
+    for item in os.listdir(target_dir):
+        item_path = os.path.join(target_dir, item)
+        if item.lower().endswith('.zip'):
+            print(f"    [-->] Extraction d'archive détectée : {item}")
+            try:
+                with zipfile.ZipFile(item_path, 'r') as zf:
+                    for member in zf.namelist():
+                        if member.lower().endswith('.elf'):
+                            zf.extract(member, target_dir)
+                            extracted_path = os.path.join(target_dir, member)
+                            dest_path = os.path.join(target_dir, os.path.basename(member))
+                            
+                            # Déplacement à la racine du dossier cible si sous-dossier
+                            if extracted_path != dest_path:
+                                if os.path.exists(dest_path):
+                                    os.remove(dest_path)
+                                os.rename(extracted_path, dest_path)
+                            print(f"        [+] Extrait avec succès : {os.path.basename(member)}")
+            except Exception as zerr:
+                print(f"    [!] Erreur lors de l'extraction ZIP ({item}) : {zerr}")
+            finally:
+                if os.path.exists(item_path):
+                    os.remove(item_path)
 
-    outlines = re.findall(r'<outline\s+([^>]+)/>', content)
-    
-    for outline in outlines:
-        attrs = dict(re.findall(r'(\w+)="([^"]*)"', outline))
-        title = attrs.get('title', 'Inconnu')
-        xml_url = attrs.get('xmlUrl', '').strip('/')
-        author = attrs.get('author', 'Inconnu')
-        description = attrs.get('description', '')
 
-        if not xml_url or "ps4" in title.lower() or "ps4" in description.lower():
+def clean_unwanted_files(target_dir, repo_lower):
+    """
+    Nettoie les fichiers binaires non PS5 ou inutiles téléchargés dans les releases.
+    """
+    if not os.path.exists(target_dir):
+        return
+
+    files_downloaded = os.listdir(target_dir)
+    is_strict = any(strict_repo in repo_lower for strict_repo in STRICT_BIN_ELF_REPOS)
+
+    for file in files_downloaded:
+        file_path = os.path.join(target_dir, file)
+        if os.path.isdir(file_path):
             continue
 
-        print(f" 🔍 Analyse de {title} ({xml_url})...")
-        version = "v1.0.0"
+        f_lower = file.lower()
+
+        if is_strict:
+            # Mode strict : conserve uniquement .elf et .bin
+            if not (f_lower.endswith('.elf') or f_lower.endswith('.bin')):
+                try:
+                    os.remove(file_path)
+                    print(f"    [-] Nettoyage (mode strict) : {file}")
+                except Exception as e:
+                    print(f"    [!] Impossible de supprimer {file} : {e}")
+        else:
+            # Mode standard : conserve les payloads et supprime les exécutables PC/Mac/docs
+            if f_lower.endswith('.elf') or f_lower.endswith('.bin'):
+                continue
+            
+            if any(f_lower.endswith(ext) for ext in DISCARD_EXTENSIONS):
+                try:
+                    os.remove(file_path)
+                    print(f"    [-] Nettoyage binaire PC/Mac : {file}")
+                except Exception as e:
+                    print(f"    [!] Impossible de supprimer {file} : {e}")
+
+
+# ==============================================================================
+# LOGIQUE PRINCIPALE DU PARSER
+# ==============================================================================
+def parse_and_download():
+    """
+    Parcourt l'arbre XML et déclenche le protocole de téléchargement adapté.
+    """
+    try:
+        tree = ET.parse(LOCAL_XML)
+        root = tree.getroot()
+    except Exception as parse_err:
+        print(f"[!] Erreur de lecture du fichier XML : {parse_err}")
+        return
+
+    items = [elem for elem in root.iter() if clean_tag(elem.tag) == "item"]
+    print(f"[*] Traitement de {len(items)} éléments dans la base de données...")
+
+    for index, item in enumerate(items, start=1):
+        title = ""
+        category_name = ""
+        version = "v1.0"
+        xml_url = ""
+
+        # Lecture des sous-éléments de chaque <item>
+        for child in item:
+            tag = clean_tag(child.tag)
+            text = child.text.strip() if child.text else ""
+
+            if tag == "title":
+                title = text
+            elif tag == "category":
+                category_name = text
+            elif tag == "version":
+                if text:
+                    version = text
+            elif tag == "enclosure":
+                xml_url = child.attrib.get('url', '')
+
+        # Filtrage : On n'embarque que les catégories liées aux Payloads
+        if "payload" not in category_name.lower():
+            continue
+
+        cat_tech_name = category_name.replace(" ", "_")
         downloaded = False
-        
-        # Sources Fixes
-        clean_xml_url = xml_url.split('?')[0].lower()
-        if clean_xml_url.endswith('.elf') or clean_xml_url.endswith('.bin') or clean_xml_url.endswith('.pkg'):
+
+        print(f"\n======================================================================")
+        print(f"[{index}/{len(items)}] TRAITEMENT : {title}")
+        print(f"    -> Catégorie : {category_name}")
+        print(f"    -> Version XML : {version}")
+        print(f"    -> URL source  : {xml_url}")
+        print(f"======================================================================")
+
+        # ----------------------------------------------------------------------
+        # STRATÉGIE 1 : Lien Direct pointant sur un fichier .elf
+        # ----------------------------------------------------------------------
+        if xml_url.lower().endswith('.elf'):
+            version_clean = re.sub(r'[^a-zA-Z0-9._-]', '', version)
+            target_dir = os.path.join(PAYLOADS_ROOT, cat_tech_name, title.replace(" ", "_"), version_clean)
+            os.makedirs(target_dir, exist_ok=True)
+            
+            filename = os.path.basename(xml_url)
+            file_path = os.path.join(target_dir, filename)
+
             try:
-                version = "Source-Fixe"
-                version_clean = "Source-Fixe"
-                target_dir = os.path.join(PAYLOADS_ROOT, cat_tech_name, title.replace(" ", "_"), version_clean)
-                os.makedirs(target_dir, exist_ok=True)
-                
-                f_name = xml_url.split('?')[0].split('/')[-1]
-                opener = urllib.request.build_opener()
-                opener.addheaders = [('User-Agent', 'Mozilla/5.0')]
-                urllib.request.install_opener(opener)
-                urllib.request.urlretrieve(xml_url, os.path.join(target_dir, f_name))
+                print(f"   [+] Exécution Stratégie 1 (Lien direct .elf)...")
+                urllib.request.urlretrieve(xml_url, file_path)
+                print(f"   [✓] Fichier téléchargé : {filename}")
                 downloaded = True
             except Exception as e:
-                print(f"    ⚠️ Échec du téléchargement de la source fixe : {e}")
+                print(f"   [!] Erreur Téléchargement Direct : {e}")
 
-        # Releases GitHub
+        # ----------------------------------------------------------------------
+        # STRATÉGIE 2 : Plateformes Forgejo / Gitea (Brewser, Pkg-Zone, etc.)
+        # ----------------------------------------------------------------------
+        if not downloaded and any(host in xml_url.lower() for host in FORGEJO_HOSTS):
+            try:
+                match = re.search(r'https?://([^/]+)/([^/]+/[^/]+)', xml_url)
+                if match:
+                    domain = match.group(1)
+                    repo = match.group(2).rstrip('/')
+                    
+                    print(f"   [+] Exécution Stratégie 2 (Forgejo/Gitea sur {domain})...")
+                    api_url = f"https://{domain}/api/v1/repos/{repo}/releases/latest"
+                    
+                    req = urllib.request.Request(api_url, headers={'User-Agent': 'Mozilla/5.0'})
+                    with urllib.request.urlopen(req) as resp:
+                        rel_data = json.loads(resp.read().decode('utf-8'))
+                        version = rel_data.get('tag_name', version)
+                        version_clean = re.sub(r'[^a-zA-Z0-9._-]', '', version)
+                        
+                        target_dir = os.path.join(PAYLOADS_ROOT, cat_tech_name, title.replace(" ", "_"), version_clean)
+                        os.makedirs(target_dir, exist_ok=True)
+
+                        for asset in rel_data.get('assets', []):
+                            asset_name = asset.get('name', '')
+                            download_url = asset.get('browser_download_url', '')
+                            
+                            if asset_name.lower().endswith(('.elf', '.bin', '.zip')):
+                                print(f"       [-->] Téléchargement asset : {asset_name}")
+                                dest_file = os.path.join(target_dir, asset_name)
+                                urllib.request.urlretrieve(download_url, dest_file)
+                                
+                                # Traitement des zips téléchargés via Forgejo
+                                if asset_name.lower().endswith('.zip'):
+                                    try:
+                                        with zipfile.ZipFile(dest_file, 'r') as zf:
+                                            zf.extractall(target_dir)
+                                        os.remove(dest_file)
+                                    except Exception as ze:
+                                        print(f"       [!] Erreur extraction ZIP Forgejo : {ze}")
+                                downloaded = True
+            except Exception as fe:
+                print(f"   [!] Erreur durant le processus Forgejo/Gitea : {fe}")
+
+        # ----------------------------------------------------------------------
+        # STRATÉGIE 3 : Dépôts GitHub (Releases GitHub / GitHub CLI / API)
+        # ----------------------------------------------------------------------
         repo_lower = ""
         if not downloaded and "github.com" in xml_url:
             repo_match = re.search(r'github\.com/([^/]+/[^/]+)', xml_url)
             if repo_match:
                 repo = repo_match.group(1)
                 repo_lower = repo.lower()
+                
+                # Récupération de la dernière version via GH CLI
                 try:
-                    res_tag = subprocess.check_output(f"gh release list --repo {repo} --limit 1 --json tagName --jq '.[0].tagName'", shell=True).decode().strip()
+                    res_tag = subprocess.check_output(
+                        f"gh release list --repo {repo} --limit 1 --json tagName --jq '.[0].tagName'", 
+                        shell=True
+                    ).decode().strip()
                     if res_tag: 
                         version = res_tag
                     else:
-                        res_tag = subprocess.check_output(f"gh repo view {repo} --json latestRelease --jq '.latestRelease.tagName'", shell=True).decode().strip()
-                        if res_tag: version = res_tag
-                except:
+                        res_tag = subprocess.check_output(
+                            f"gh repo view {repo} --json latestRelease --jq '.latestRelease.tagName'", 
+                            shell=True
+                        ).decode().strip()
+                        if res_tag: 
+                            version = res_tag
+                except Exception:
                     pass
                 
                 version_clean = re.sub(r'[^a-zA-Z0-9._-]', '', version)
@@ -105,9 +295,9 @@ for opml_file in opml_files:
                 os.makedirs(target_dir, exist_ok=True)
 
                 try:
-                    print(f"    -> Téléchargement GitHub ({version})...")
+                    print(f"   [+] Exécution Stratégie 3 (GitHub Release v{version})...")
                     
-                    # CAS SPÉCIFIQUE INFALLIBLE : smoxa/ps5-new-overlay (API directe)
+                    # Cas d'exception API directe pour smoxa/ps5-new-overlay
                     if "smoxa/ps5-new-overlay" in repo_lower:
                         try:
                             api_url = f"https://api.github.com/repos/{repo}/releases/latest"
@@ -116,6 +306,7 @@ for opml_file in opml_files:
                                 rel_data = json.loads(resp.read().decode('utf-8'))
                                 version = rel_data.get('tag_name', version)
                                 version_clean = re.sub(r'[^a-zA-Z0-9._-]', '', version)
+                                
                                 target_dir = os.path.join(PAYLOADS_ROOT, cat_tech_name, title.replace(" ", "_"), version_clean)
                                 os.makedirs(target_dir, exist_ok=True)
 
@@ -123,336 +314,57 @@ for opml_file in opml_files:
                                     asset_name = asset.get('name', '')
                                     download_url = asset.get('browser_download_url', '')
                                     if asset_name.lower().endswith('.elf'):
-                                        print(f"       --> Téléchargement direct : {asset_name}")
+                                        print(f"       [-->] Récupération API GitHub : {asset_name}")
                                         urllib.request.urlretrieve(download_url, os.path.join(target_dir, asset_name))
                                         downloaded = True
                         except Exception as overlay_err:
-                            print(f"    ⚠️ Erreur téléchargement overlay via API : {overlay_err}")
+                            print(f"       [!] Échec récupération via API Overlay : {overlay_err}")
                     else:
-                        subprocess.call(f"gh release download '{version}' --repo '{repo}' --dir '{target_dir}' --clobber 2>/devnull", shell=True)
-                    
-                    if "poords4" in repo_lower or "fan_target" in repo_lower or "shadowmountplus" in repo_lower or "instalador-host-psm-poop2jb" in repo_lower:
-                        for item in os.listdir(target_dir):
-                            item_path = os.path.join(target_dir, item)
-                            if item.lower().endswith('.zip'):
-                                try:
-                                    with zipfile.ZipFile(item_path, 'r') as zf:
-                                        for member in zf.namelist():
-                                            if member.lower().endswith('.elf'):
-                                                zf.extract(member, target_dir)
-                                                extracted_path = os.path.join(target_dir, member)
-                                                dest_path = os.path.join(target_dir, os.path.basename(member))
-                                                if extracted_path != dest_path:
-                                                    os.rename(extracted_path, dest_path)
-                                except Exception as zerr:
-                                    print(f"    ⚠️ Erreur d'extraction ZIP : {zerr}")
-                                finally:
-                                    if os.path.exists(item_path):
-                                        os.remove(item_path)
+                        # Téléchargement standard via GitHub CLI (Shadowmount, etc.)
+                        subprocess.call(
+                            f"gh release download '{version}' --repo '{repo}' --dir '{target_dir}' --clobber 2>/devnull", 
+                            shell=True
+                        )
 
-                    files_downloaded = os.listdir(target_dir)
-                    if "ps5-payload-dev/websrv" in repo_lower or "phantomptr/ps5upload" in repo_lower or "boazvdwansem/ps5-debugger" in repo_lower or "smoxa/ps5-new-overlay" in repo_lower:
-                        for f in files_downloaded:
-                            if not (f.lower().endswith('.elf') or f.lower().endswith('.bin')):
-                                try: os.remove(os.path.join(target_dir, f))
-                                except: pass
-                    else:
-                        for f in files_downloaded:
-                            f_lower = f.lower()
-                            if f_lower.endswith('.elf') or f_lower.endswith('.bin'):
-                                continue
-                            if f_lower.endswith('.dmg') or f_lower.endswith('.exe') or f_lower.endswith('.appimage') or f_lower.endswith('.msi') or f_lower.endswith('.txt'):
-                                try: os.remove(os.path.join(target_dir, f))
-                                except: pass
+                    # Post-traitements (Extractions ZIP spécifiques & Nettoyage de dossier)
+                    process_zip_extractions(target_dir, repo_lower)
+                    clean_unwanted_files(target_dir, repo_lower)
 
-                    if os.listdir(target_dir):
+                    if os.path.exists(target_dir) and os.listdir(target_dir):
                         downloaded = True
                 except Exception as e:
-                    print(f"    ⚠️ Erreur gh release: {e}")
+                    print(f"   [!] Erreur lors de l'exécution GH Release : {e}")
 
-        # Releases Forgejo
-        if not downloaded and "git.etawen.dev" in xml_url:
+        # ----------------------------------------------------------------------
+        # STRATÉGIE 4 : Mode Dégradé / Repli Direct sur l'URL de l'enclosure
+        # ----------------------------------------------------------------------
+        if not downloaded and xml_url:
+            version_clean = re.sub(r'[^a-zA-Z0-9._-]', '', version)
+            target_dir = os.path.join(PAYLOADS_ROOT, cat_tech_name, title.replace(" ", "_"), version_clean)
+            os.makedirs(target_dir, exist_ok=True)
+            
             try:
-                api_repo_match = re.search(r'git\.etawen\.dev/([^/]+/[^/]+)', xml_url)
-                if api_repo_match:
-                    repo_path = api_repo_match.group(1)
-                    api_url = f"https://git.etawen.dev/api/v1/repos/{repo_path}/releases"
-                    
-                    req = urllib.request.Request(api_url, headers={'User-Agent': 'Mozilla/5.0'})
-                    with urllib.request.urlopen(req) as response:
-                        releases_data = json.loads(response.read().decode('utf-8'))
-                        
-                        if releases_data:
-                            latest_release = releases_data[0]
-                            version = latest_release.get('tag_name', 'v1.0.0')
-                            version_clean = re.sub(r'[^a-zA-Z0-9._-]', '', version)
-                            target_dir = os.path.join(PAYLOADS_ROOT, cat_tech_name, title.replace(" ", "_"), version_clean)
-                            os.makedirs(target_dir, exist_ok=True)
-                            
-                            assets = latest_release.get('assets', [])
-                            valid_file_url = None
-                            f_name = None
-                            
-                            for asset in assets:
-                                asset_url = asset.get('browser_download_url', '')
-                                asset_name = asset.get('name', '')
-                                clean_name = asset_name.lower()
-                                if clean_name.endswith('.dmg') or clean_name.endswith('.exe') or clean_name.endswith('.appimage') or clean_name.endswith('.msi'):
-                                    continue
-                                if clean_name.endswith('.elf') or clean_name.endswith('.bin') or clean_name.endswith('.pkg'):
-                                    valid_file_url = asset_url
-                                    f_name = asset_name
-                                    break
-                            
-                            if valid_file_url and f_name:
-                                urllib.request.urlretrieve(valid_file_url, os.path.join(target_dir, f_name))
-                                downloaded = True
-            except Exception as e:
-                print(f"    ℹ️ Erreur API Forgejo ({e})")
-
-        # Analyse & Renommage
-        version_clean = re.sub(r'[^a-zA-Z0-9._-]', '', version) if version != "Source-Fixe" else "Source-Fixe"
-        target_dir = os.path.join(PAYLOADS_ROOT, cat_tech_name, title.replace(" ", "_"), version_clean)
-        
-        files_in_dir = os.listdir(target_dir) if os.path.exists(target_dir) else []
-        eligible_binaries = []
-
-        default_base_name = re.sub(r'[^a-zA-Z0-9._-]', '_', title)
-        default_base_name = re.sub(r'_{2,}', '_', default_base_name).strip('_')
-
-        v_suffix = version_clean
-        if v_suffix != "Source-Fixe":
-            if not v_suffix.lower().startswith('v'): v_suffix = f"v{v_suffix}"
-            v_suffix = f"_{v_suffix}"
-        else:
-            v_suffix = ""
-
-        binaries_found = [f for f in files_in_dir if f.lower().endswith('.elf') or f.lower().endswith('.bin')]
-
-        for f_name in binaries_found:
-            base_name, ext = os.path.splitext(f_name)
-            final_base = None
-
-            f_lower = f_name.lower()
-            r_lower = repo_lower.lower()
-
-            # CONSERVATION STRICTE DES NOMS SPÉCIFIQUES
-            if "smoxa/ps5-new-overlay" in r_lower or "ps5_overlay" in f_lower:
-                final_base = base_name
-            elif "zftpd" in f_lower or "zhttpd" in f_lower:
-                final_base = base_name
-            elif "self_pager" in f_lower or "self-pager" in f_lower or "ps5 self pager" in title.lower():
-                final_base = base_name
-            elif "hw_info" in f_lower or "hw-info" in f_lower or "ps5_hw_info" in f_lower:
-                final_base = base_name
-            elif "ps5power" in f_lower or "ps5_power" in f_lower or "power" in f_lower:
-                final_base = base_name
-            elif "instalador-host-psm-poop2jb" in r_lower or "psm" in r_lower or "poords4" in r_lower:
-                final_base = base_name
-            elif "fan_target" in r_lower or "fan_target" in f_lower:
-                temp_match = re.search(r'(\d+c)', f_lower)
-                final_base = f"fan_target_{temp_match.group(1)}" if temp_match else "fan_target"
-            else:
-                final_base = default_base_name
-
-            new_f_name = f"{final_base}{v_suffix}{ext}" if not f_name.lower().endswith(f"{v_suffix.lower()}{ext.lower()}") else f_name
-            old_path = os.path.join(target_dir, f_name)
-            new_path = os.path.join(target_dir, new_f_name)
-            
-            if old_path != new_path:
-                try: os.rename(old_path, new_path)
-                except: new_f_name = f_name
-            
-            if new_f_name not in eligible_binaries:
-                eligible_binaries.append(new_f_name)
-
-        if eligible_binaries:
-            for main_file in eligible_binaries:
-                full_path = os.path.join(target_dir, main_file)
-                hasher = hashlib.sha256()
-                with open(full_path, 'rb') as fb:
-                    for chunk in iter(lambda: fb.read(4096), b""): hasher.update(chunk)
-                sha256_hash = hasher.hexdigest()
-
-                credits_list.add(f"- **{author}** : [{title}]({xml_url})")
-                repo_name = os.environ.get('GITHUB_REPOSITORY', 'PS5-Super-PLDMGR-Auto-Updater').split('/')[-1]
-                file_url = f"https://nexgen999.github.io/{repo_name}/{target_dir.replace(os.sep, '/')}/{main_file}"
+                print(f"   [+] Exécution Stratégie 4 (Repli URL directe)...")
+                archive_name = os.path.basename(xml_url) or "payload.bin"
+                archive_path = os.path.join(target_dir, archive_name)
                 
-                # Nommage propre dans le JSON
-                raw_base_name = os.path.splitext(main_file)[0].split('_v')[0]
-                display_name = raw_base_name.replace('_', ' ').replace('-', ' ').title()
-                if display_name.startswith("Ps5 "):
-                    display_name = display_name.replace("Ps5 ", "PS5 ")
-
-                item_data = {
-                    "name": display_name,
-                    "filename": main_file,
-                    "url": file_url,
-                    "description": description if description else f"Payload {display_name} pour PS5",
-                    "version": version,
-                    "category": cat_display_name,
-                    "checksum": sha256_hash
-                }
-                category_payloads_list.append(item_data)
-                all_payloads_flat_list.append(item_data)
-
-    with open(os.path.join(JSON_DIR, f"{cat_tech_name}.json"), 'w', encoding='utf-8') as out_cat:
-        json.dump({"name": cat_display_name, "payloads": category_payloads_list}, out_cat, indent=2, ensure_ascii=False)
-
-with open(os.path.join(JSON_DIR, "payloads.json"), 'w', encoding='utf-8') as out_glob:
-    json.dump({"name": "AIO Store", "payloads": all_payloads_flat_list}, out_glob, indent=2, ensure_ascii=False)
+                urllib.request.urlretrieve(xml_url, archive_path)
+                
+                if archive_name.lower().endswith('.zip'):
+                    with zipfile.ZipFile(archive_path, 'r') as zf:
+                        zf.extractall(target_dir)
+                    os.remove(archive_path)
+                print(f"   [✓] Fichier de repli récupéré : {archive_name}")
+            except Exception as e:
+                print(f"   [!] Échec global du téléchargement : {e}")
 
 
-# =========================================================================
-# 2. TRAITEMENT DES PACKAGES (.PKG) -> PKGfeed / PKGjson
-# =========================================================================
-
-print("\n📦 Traitement des métadonnées PKG...")
-
-if os.path.exists(PKG_FEED_DIR):
-    pkg_opml_files = [f for f in os.listdir(PKG_FEED_DIR) if f.endswith('.opml')]
-
-    for opml_file in pkg_opml_files:
-        cat_tech_name = opml_file.replace('.opml', '').lower()
-        cat_display_name = cat_tech_name.upper()
-        category_pkgs_list = []
-
-        with open(os.path.join(PKG_FEED_DIR, opml_file), 'r', encoding='utf-8') as f:
-            content = f.read()
-
-        outlines = re.findall(r'<outline\s+([^>]+)/>', content)
-        
-        for outline in outlines:
-            attrs = dict(re.findall(r'(\w+)="([^"]*)"', outline))
-            title = attrs.get('title', 'Inconnu')
-            xml_url = attrs.get('xmlUrl', '').strip()
-            author = attrs.get('author', 'Inconnu')
-            description = attrs.get('description', '')
-
-            if not xml_url:
-                continue
-
-            raw_filename = xml_url.split('/')[-1].split('?')[0]
-            if not raw_filename.lower().endswith('.pkg'):
-                raw_filename = f"{title}.pkg"
-
-            v_match = re.search(r'v(\d+[\.\d+]*)', raw_filename, re.IGNORECASE)
-            version = f"v{v_match.group(1)}" if v_match else "v1.0.0"
-
-            credits_list.add(f"- **{author}** : [{title}]({xml_url})")
-
-            item_data = {
-                "name": title,
-                "filename": raw_filename,
-                "url": xml_url,
-                "description": description if description else f"Package {title} pour PS5",
-                "version": version,
-                "author": author,
-                "category": cat_display_name
-            }
-            category_pkgs_list.append(item_data)
-            all_pkgs_flat_list.append(item_data)
-
-        # Génération du JSON dédié (ex: PKGjson/ps5pkg.json)
-        with open(os.path.join(PKG_JSON_DIR, f"{cat_tech_name}.json"), 'w', encoding='utf-8') as out_pkg_cat:
-            json.dump({"name": cat_display_name, "packages": category_pkgs_list}, out_pkg_cat, indent=2, ensure_ascii=False)
-
-# Génération du JSON Global PKG
-with open(os.path.join(PKG_JSON_DIR, "pkg.json"), 'w', encoding='utf-8') as out_pkg_glob:
-    json.dump({"name": "AIO Store PKG", "packages": all_pkgs_flat_list}, out_pkg_glob, indent=2, ensure_ascii=False)
-
-
-# =========================================================================
-# 3. GENERATION RSS & README.MD
-# =========================================================================
-
-print("\n📡 Génération des flux RSS...")
-with open(os.path.join(RSS_DIR, "store-global.opml"), "w", encoding="utf-8") as opml_out:
-    opml_out.write('<?xml version="1.0" encoding="UTF-8"?>\n<opml version="2.0">\n  <head>\n    <title>PS5 Store Global Radar</title>\n  </head>\n  <body>\n')
-    for row in sorted(list(credits_list)):
-        match = re.search(r'\*\*([^*]+)\*\*\s*:\s*\[([^\]]+)\]\(([^)]+)\)', row)
-        if match:
-            author_name, title_name, raw_url = match.group(1), match.group(2), match.group(3)
-            opml_out.write(f'    <outline text="{title_name}" title="{title_name}" type="rss" xmlUrl="{raw_url}" author="{author_name}"/>\n')
-    opml_out.write('  </body>\n</opml>')
-
-with open(os.path.join(RSS_DIR, "feed.xml"), "w", encoding="utf-8") as feed_out:
-    repo_name = os.environ.get('GITHUB_REPOSITORY', 'PS5-Super-PLDMGR-Auto-Updater').split('/')[-1]
-    feed_out.write('<?xml version="1.0" encoding="UTF-8" ?>\n<rss version="2.0">\n  <channel>\n    <title>PS5 Mini-Store Mises à jour</title>\n')
-    feed_out.write(f'    <link>https://nexgen999.github.io/{repo_name}/</link>\n    <description>Suivi automatique des payloads</description>\n')
-    for item in all_payloads_flat_list:
-        feed_out.write('    <item>\n')
-        feed_out.write(f'      <title>{item["name"]} ({item["version"]})</title>\n')
-        feed_out.write(f'      <link>{item["url"]}</link>\n')
-        feed_out.write(f'      <description>{item["description"]} - Checksum: {item["checksum"]}</description>\n')
-        feed_out.write('    </item>\n')
-    feed_out.write('  </channel>\n</rss>')
-
-CATEGORY_ICONS = {
-    "ps5_activation": "🔓", "ps5_cheat": "🏴‍☠️", "ps5_dns": "🌐", "ps5_file_explorer": "📂",
-    "ps5_freeshop": "💾", "ps5_game_dump": "💿", "ps5_hen_loader": "🚀", "ps5_kstuff": "🧪",
-    "ps5_linux": "🐧", "ps5_saves": "📝", "ps5_sdk_debug": "⚙️", "ps5_server": "🖥️",
-    "ps5_themes": "🎨", "ps5_trophy": "🏆", "ps5_utility": "🛠️"
-}
-
-print("📝 Génération du README.md...")
-with open("README.md", "w", encoding="utf-8") as r_file:
-    repo_name = os.environ.get('GITHUB_REPOSITORY', 'PS5-Super-PLDMGR-Auto-Updater').split('/')[-1]
-    
-    r_file.write(f"![Banner](assets/banner.png)\n\n")
-    r_file.write("# 🎮 PS5 Payload Manager & Mini-Store\n\n")
-    r_file.write("Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !\n\n")
-    r_file.write(f"🌐 **Site Web Vitrine :** [Visiter le site PS5 Super PLDMGR Auto Updater](https://nexgen999.github.io/{repo_name}/index.html)\n\n")
-    
-    r_file.write("## 🔗 URLs Fixes des Stores JSON\n")
-    r_file.write(f"* **Payloads Store JSON :** `https://nexgen999.github.io/{repo_name}/json/payloads.json`\n")
-    r_file.write(f"* **Packages PKG Store JSON :** `https://nexgen999.github.io/{repo_name}/PKGjson/pkg.json`\n\n")
-    
-    r_file.write("## 📦 Archives AIO Releases (Dernières Versions)\n")
-    r_file.write(f"* 🚀 **AIO Payloads Offline (.zip) :** [Télécharger](https://github.com/nexgen999/{repo_name}/releases/download/latest/ps5_super_pldmgr_auto_updated_offline.aio_latest.zip)\n")
-    r_file.write(f"* 📦 **AIO PKG Offline (.zip) :** [Télécharger](https://github.com/nexgen999/{repo_name}/releases/download/latest/PS5PKG_aio_latest.zip)\n\n")
-    
-    r_file.write("---\n\n")
-    
-    # Section PKG
-    if all_pkgs_flat_list:
-        r_file.write("## 📦 Packages PS5 (.pkg) Disponibles\n\n")
-        r_file.write("| Package | Auteur | Version | Description |\n")
-        r_file.write("| :--- | :--- | :--- | :--- |\n")
-        for pkg in all_pkgs_flat_list:
-            r_file.write(f"| **[{pkg['name']}]({pkg['url']})** | {pkg['author']} | {pkg['version']} | {pkg['description']} |\n")
-        r_file.write("\n---\n\n")
-
-    # Section Payloads par catégorie
-    r_file.write("## 📦 Payloads (.elf / .bin) Disponibles par Catégorie\n\n")
-    if os.path.exists(FEED_DIR):
-        for opml_file in sorted(os.listdir(FEED_DIR)):
-            if not opml_file.endswith('.opml'): continue
-            cat_tech = opml_file.replace('.opml', '')
-            cat_display = cat_tech.replace('_', ' ').title()
-            if "Hen" in cat_display: cat_display = cat_display.replace("Hen", "HEN")
-            if cat_display.startswith("Ps5 "): cat_display = cat_display.replace("Ps5 ", "PS5 ")
-            
-            icon = CATEGORY_ICONS.get(cat_tech.lower(), "📦")
-            json_path = os.path.join(JSON_DIR, f"{cat_tech}.json")
-            
-            if os.path.exists(json_path):
-                with open(json_path, 'r', encoding='utf-8') as j_f:
-                    structured_data = json.load(j_f)
-                cat_items = structured_data.get("payloads", [])
-                if cat_items:
-                    r_file.write(f"### {icon} {cat_display}\n")
-                    r_file.write(f"📂 **JSON Catégorie :** `https://nexgen999.github.io/{repo_name}/json/{cat_tech}.json`\n\n")
-                    r_file.write("| Application | Version | Empreinte SHA-256 | Description |\n")
-                    r_file.write("| :--- | :--- | :--- | :--- |\n")
-                    for item in cat_items:
-                        r_file.write(f"| **{item['name']}** | [{item['version']}]({item['url']}) | `{item['checksum'][:10]}...` | {item['description']} |\n")
-                    r_file.write("\n")
-
-    r_file.write("---\n\n")
-    r_file.write("## 🤝 Crédits & Remerciements\n")
-    r_file.write("\n".join(sorted(list(credits_list))) + "\n\n")
-    r_file.write("---\n")
-    r_file.write("*Dépôt 100% autonome géré par GitHub Actions.*\n")
-
-print("=== Synchronisation terminée ===")
+# ==============================================================================
+# POINT D'ENTRÉE DU SCRIPT
+# ==============================================================================
+if __name__ == "__main__":
+    fetch_db()
+    parse_and_download()
+    print("\n======================================================================")
+    print("      ✅ TRAITEMENT COMPLET TERMINÉ ET LOGS GÉNÉRÉS SUR LA CONSOLE")
+    print("======================================================================\n")
