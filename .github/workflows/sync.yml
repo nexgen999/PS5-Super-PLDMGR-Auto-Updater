@@ -68,15 +68,16 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           
-          # Ajoute uniquement les dossiers s'ils existent
+          # Ajoute uniquement les dossiers/fichiers s'ils existent
           [ -d "json" ] && git add json/
           [ -d "PKGjson" ] && git add PKGjson/
           [ -d "payloads" ] && git add payloads/
           [ -d "docs" ] && git add docs/
           [ -d "rss" ] && git add rss/
           [ -f "README.md" ] && git add README.md
+          [ -f "missing_repos.log" ] && git add missing_repos.log
           
-          git commit -m "auto: update stores, payloads, web site & readme [skip ci]" || echo "No changes to commit"
+          git commit -m "auto: update stores, payloads, web site, readme & missing log [skip ci]" || echo "No changes to commit"
           git push
 
       - name: Update 'latest' Release (Only Latest Archives)
