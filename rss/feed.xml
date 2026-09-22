@@ -7,37 +7,37 @@
     <item>
       <title>A53 Kstuff Shadowmountplus 3In1 (Source-Fixe)</title>
       <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/A53-Kstuff-ShadowMountPlus-3in1_SoNic-AIO_Experimental/Source-Fixe/A53-Kstuff-ShadowMountPlus-3in1.elf</link>
-      <description>Experimental AIO by SoNic credit to EchoStrech DarkMor - Checksum: b76ad1c044c374f7da67407ef88b2c24d0c2d6cd980ac191a4ca1e940f7470e5</description>
+      <description>Experimental AIO by SoNic credit to EchoStrech DarkMor - Checksum: 5913bc1d33fe99f6f118d585c7cccb8fa6fb5d6e42e6a261ce0246699f48036a</description>
     </item>
     <item>
       <title>A53 Kstuff Smp (Source-Fixe)</title>
       <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/A53-kstuff-SMP_SoNic-AIO_Experimental/Source-Fixe/A53-kstuff-SMP.elf</link>
-      <description>Experimental AIO by SoNic credit to EchoStrech DarkMor - Checksum: 0e033b56f5f608f1d13f49c367dc1dc7bf17a35ec0117b47818f32fc98f94658</description>
+      <description>Experimental AIO by SoNic credit to EchoStrech DarkMor - Checksum: bc09f10981b2b8bf42576482449a931e0fd42f38ad27008a38320460b55b26e0</description>
     </item>
     <item>
       <title>Kstuff (Source-Fixe)</title>
       <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/kstuff_Darkmor_Experimental/Source-Fixe/kstuff_v1.12-dr-test8.elf</link>
-      <description>Experimental Kstuff DarkMor - Checksum: 17b43f2466b90e923286eb614e9b66a712c323269d09c2cb55aa2a7649449240</description>
+      <description>Experimental Kstuff DarkMor - Checksum: 512e3bbf1aa09d1dc0e2287b20f86ead20a7ce850b0b477a80aacc6c830bdabd</description>
     </item>
     <item>
       <title>Shadowmountplus (Source-Fixe)</title>
       <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/ShadowMountPlus/Source-Fixe/ShadowMountPlus_v1.7alpha13fix1-13-g072c17.elf</link>
-      <description>ShadowMountPlus experimental for FPKG - Checksum: 7572df0ddc4660cd222b42b84769da166d29e01d6c2f0d8f8d8576029fd890cb</description>
+      <description>ShadowMountPlus experimental for FPKG - Checksum: 28e882fe9a7e6a80dced30b36f74621b020b833df84685be273840d9b9f459be</description>
     </item>
     <item>
       <title>A53 Ppr Install Fast (Source-Fixe)</title>
       <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/A53_Experimental_KS-D/Source-Fixe/a53_ppr_install_fast_v15.09.elf</link>
-      <description>A53 Experimental for Kstuff-Darkmor - Checksum: 28dbdcd411d919322d55c17b55fb2d965e00aa1e25162c803aa662b155f81b0b</description>
+      <description>A53 Experimental for Kstuff-Darkmor - Checksum: 214982cfb83fec1d5a3aebd62138532e8e665d4e122263c286982d60b6cb5b8b</description>
     </item>
     <item>
       <title>Kstuff Echostrech (Source-Fixe)</title>
       <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/Kstuff_EchoStrech_Experimental/Source-Fixe/kstuff-echostrech_v1.11expermiental.elf</link>
-      <description>Experimental Kstuff EchoStrech - Checksum: e09f45bc46899ba5302848a5fc6e59d973d2d1de4b13ac6d8f8036ffd03fc89a</description>
+      <description>Experimental Kstuff EchoStrech - Checksum: 0fe5a655aa0d65a48654f2519a2e71ff26dda97e40a5d0ec6463d8acc494c94a</description>
     </item>
     <item>
       <title>A53 Exploit Experimental (Source-Fixe)</title>
       <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/A53_Experimental_KS-E/Source-Fixe/a53_exploit-experimental.elf</link>
-      <description>A53 Experimental for Kstuff-EchoStrech - Checksum: 83f6467258f1f36b4aa23b1a3a3b21c507b80f2d9ca73342168f1a25ffeb489e</description>
+      <description>A53 Experimental for Kstuff-EchoStrech - Checksum: 04943d4a2faf013525aa64248ecfbeb69219894812c7b130efaad5b99618811c</description>
     </item>
     <item>
       <title>Ps5Debug Ng (1.3.0)</title>
@@ -362,7 +362,7 @@
     <item>
       <title>Nanodns (0.4)</title>
       <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_dns/nanoDNS/0.4/nanoDNS_v0.4.elf</link>
-      <description>Un serveur DNS ultra-léger et rapide idéal pour rediriger les requêtes de la console vers votre hôte local d'exploits. - Checksum: 18a93655c59ad32e371e14c86f32d14fbd1fbc47a0e907f3e0b6667efb3ad964</description>
+      <description>Un serveur DNS ultra-léger et rapide idéal pour rediriger les requêtes de la console vers votre hôte local d'exploits. - Checksum: aa7e9d94e32ef866e40844146330028329f8a8a529244e2ecc319ff9d8b0f5f9</description>
     </item>
     <item>
       <title>Chukei Dns (0.9.0)</title>

@@ -8,7 +8,7 @@
       "description": "Experimental AIO by SoNic credit to EchoStrech DarkMor",
       "version": "Source-Fixe",
       "category": "PS5 Beta",
-      "checksum": "b76ad1c044c374f7da67407ef88b2c24d0c2d6cd980ac191a4ca1e940f7470e5"
+      "checksum": "5913bc1d33fe99f6f118d585c7cccb8fa6fb5d6e42e6a261ce0246699f48036a"
     },
     {
       "name": "A53 Kstuff Smp",
@@ -17,7 +17,7 @@
       "description": "Experimental AIO by SoNic credit to EchoStrech DarkMor",
       "version": "Source-Fixe",
       "category": "PS5 Beta",
-      "checksum": "0e033b56f5f608f1d13f49c367dc1dc7bf17a35ec0117b47818f32fc98f94658"
+      "checksum": "bc09f10981b2b8bf42576482449a931e0fd42f38ad27008a38320460b55b26e0"
     },
     {
       "name": "Kstuff",
@@ -26,7 +26,7 @@
       "description": "Experimental Kstuff DarkMor",
       "version": "Source-Fixe",
       "category": "PS5 Beta",
-      "checksum": "17b43f2466b90e923286eb614e9b66a712c323269d09c2cb55aa2a7649449240"
+      "checksum": "512e3bbf1aa09d1dc0e2287b20f86ead20a7ce850b0b477a80aacc6c830bdabd"
     },
     {
       "name": "Shadowmountplus",
@@ -35,7 +35,7 @@
       "description": "ShadowMountPlus experimental for FPKG",
       "version": "Source-Fixe",
       "category": "PS5 Beta",
-      "checksum": "7572df0ddc4660cd222b42b84769da166d29e01d6c2f0d8f8d8576029fd890cb"
+      "checksum": "28e882fe9a7e6a80dced30b36f74621b020b833df84685be273840d9b9f459be"
     },
     {
       "name": "A53 Ppr Install Fast",
@@ -44,7 +44,7 @@
       "description": "A53 Experimental for Kstuff-Darkmor",
       "version": "Source-Fixe",
       "category": "PS5 Beta",
-      "checksum": "28dbdcd411d919322d55c17b55fb2d965e00aa1e25162c803aa662b155f81b0b"
+      "checksum": "214982cfb83fec1d5a3aebd62138532e8e665d4e122263c286982d60b6cb5b8b"
     },
     {
       "name": "Kstuff Echostrech",
@@ -53,7 +53,7 @@
       "description": "Experimental Kstuff EchoStrech",
       "version": "Source-Fixe",
       "category": "PS5 Beta",
-      "checksum": "e09f45bc46899ba5302848a5fc6e59d973d2d1de4b13ac6d8f8036ffd03fc89a"
+      "checksum": "0fe5a655aa0d65a48654f2519a2e71ff26dda97e40a5d0ec6463d8acc494c94a"
     },
     {
       "name": "A53 Exploit Experimental",
@@ -62,7 +62,7 @@
       "description": "A53 Experimental for Kstuff-EchoStrech",
       "version": "Source-Fixe",
       "category": "PS5 Beta",
-      "checksum": "83f6467258f1f36b4aa23b1a3a3b21c507b80f2d9ca73342168f1a25ffeb489e"
+      "checksum": "04943d4a2faf013525aa64248ecfbeb69219894812c7b130efaad5b99618811c"
     },
     {
       "name": "Ps5Debug Ng",
@@ -647,7 +647,7 @@
       "description": "Un serveur DNS ultra-léger et rapide idéal pour rediriger les requêtes de la console vers votre hôte local d'exploits.",
       "version": "0.4",
       "category": "PS5 Dns",
-      "checksum": "18a93655c59ad32e371e14c86f32d14fbd1fbc47a0e907f3e0b6667efb3ad964"
+      "checksum": "aa7e9d94e32ef866e40844146330028329f8a8a529244e2ecc319ff9d8b0f5f9"
     },
     {
       "name": "Chukei Dns",
