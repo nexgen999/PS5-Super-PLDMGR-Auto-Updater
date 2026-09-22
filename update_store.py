@@ -91,7 +91,7 @@ for opml_file in opml_files:
         # Releases GitHub
         if not downloaded and "github.com" in xml_url:
             clean_repo_url = xml_url.strip().rstrip('/')
-            repo_match = re.search(r'github\.com/([a-zA-Z0-9_.-]+/[a-zA-Z0-9_.-]+)', clean_repo_url)
+            repo_match = re.search(r'github\.com/([^/]+/[^/]+?)(?:/|$|\?)', clean_repo_url)
             if repo_match:
                 repo = repo_match.group(1).rstrip('.git')
                 repo_lower = repo.lower()
