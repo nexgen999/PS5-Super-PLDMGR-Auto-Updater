@@ -54,7 +54,7 @@ for opml_file in opml_files:
     for outline in outlines:
         attrs = dict(re.findall(r'(\w+)="([^"]*)"', outline))
         title = attrs.get('title', 'Inconnu')
-        xml_url = attrs.get('xmlUrl', '').strip('/')
+        xml_url = attrs.get('xmlUrl', '').strip()
         author = attrs.get('author', 'Inconnu')
         description = attrs.get('description', '')
 
@@ -90,7 +90,8 @@ for opml_file in opml_files:
 
         # Releases GitHub
         if not downloaded and "github.com" in xml_url:
-            repo_match = re.search(r'github\.com/([^/]+/[^/]+)', xml_url)
+            clean_repo_url = xml_url.strip().rstrip('/')
+            repo_match = re.search(r'github\.com/([a-zA-Z0-9_.-]+/[a-zA-Z0-9_.-]+)', clean_repo_url)
             if repo_match:
                 repo = repo_match.group(1).rstrip('.git')
                 repo_lower = repo.lower()
@@ -158,11 +159,10 @@ for opml_file in opml_files:
 
                     files_downloaded = os.listdir(target_dir)
 
-                    # REGLE DÉDIÉE : seregonwar/zftpd (Conserve uniquement zftpd-ps5-*.elf et zftpd-ps5-zhttp-*.elf)
+                    # RÈGLE DÉDIÉE : seregonwar/zftpd (Conserve uniquement zftpd-ps5-*.elf et zftpd-ps5-zhttp-*.elf)
                     if "seregonwar/zftpd" in repo_lower or "zftpd" in repo_lower:
                         for f in files_downloaded:
                             f_lower = f.lower()
-                            # Doit contenir 'ps5' et se terminer par '.elf'
                             if not ('ps5' in f_lower and f_lower.endswith('.elf')):
                                 try: os.remove(os.path.join(target_dir, f))
                                 except: pass
@@ -243,7 +243,7 @@ for opml_file in opml_files:
             f_lower = f_name.lower()
             r_lower = repo_lower.lower()
 
-            # REGLES DE NOMMAGE DÉDIÉES POUR ZFTPD & ZHTTP
+            # RÈGLES DE NOMMAGE DÉDIÉES POUR ZFTPD & ZHTTP
             if "seregonwar/zftpd" in r_lower or "zftpd" in f_lower or "zhttp" in f_lower:
                 if "zhttp" in f_lower:
                     final_base = "zhttp"
