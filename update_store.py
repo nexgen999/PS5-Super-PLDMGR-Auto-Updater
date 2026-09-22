@@ -9,7 +9,7 @@ import json
 # ==============================================================================
 # CONFIGURATION ET CONSTANTES
 # ==============================================================================
-FEED_URL = "https://raw.githubusercontent.com/LightningMods/Store-Meta/refs/heads/main/db.xml"
+FEED_URL = "https://raw.githubusercontent.com/LightningMods/Store-Meta/main/db.xml"
 LOCAL_XML = "db.xml"
 PAYLOADS_ROOT = "Payloads"
 
