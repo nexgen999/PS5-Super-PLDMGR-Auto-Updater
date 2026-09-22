@@ -7,37 +7,37 @@
     <item>
       <title>A53 Kstuff Shadowmountplus 3In1 (Source-Fixe)</title>
       <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/A53-Kstuff-ShadowMountPlus-3in1_SoNic-AIO_Experimental/Source-Fixe/A53-Kstuff-ShadowMountPlus-3in1.elf</link>
-      <description>Experimental AIO by SoNic credit to EchoStrech DarkMor - Checksum: 20f1a1836c9650bcce10e344a3705e3b17e6bdcb59c74b81a6b48684ba9c7ad1</description>
+      <description>Experimental AIO by SoNic credit to EchoStrech DarkMor - Checksum: bba2d57bc64b743ef1d4d3e3518ffee901c7159ae82309a66927e77f35bca646</description>
     </item>
     <item>
       <title>A53 Kstuff Smp (Source-Fixe)</title>
       <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/A53-kstuff-SMP_SoNic-AIO_Experimental/Source-Fixe/A53-kstuff-SMP.elf</link>
-      <description>Experimental AIO by SoNic credit to EchoStrech DarkMor - Checksum: f014f43b613edda37bc24da90d15f7a0bf3587cb6b6c1fce67d4c41bcbf7ea6f</description>
+      <description>Experimental AIO by SoNic credit to EchoStrech DarkMor - Checksum: ff4f59534980d3cfc3e3e6db57bd6b70c4cbfa462095159a28a2fbab22918a9e</description>
     </item>
     <item>
       <title>Kstuff (Source-Fixe)</title>
       <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/kstuff_Darkmor_Experimental/Source-Fixe/kstuff_v1.12-dr-test8.elf</link>
-      <description>Experimental Kstuff DarkMor - Checksum: 1066b35070b601fb4c8d346031808e849aa5d5a2785b30db1516d0ecca2566ac</description>
+      <description>Experimental Kstuff DarkMor - Checksum: 05e43c335081ff049342b8ba44f2a89b1c69192deacb20abc75e855baeb69fa3</description>
     </item>
     <item>
       <title>Shadowmountplus (Source-Fixe)</title>
       <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/ShadowMountPlus/Source-Fixe/ShadowMountPlus_v1.7alpha13fix1-13-g072c17.elf</link>
-      <description>ShadowMountPlus experimental for FPKG - Checksum: 03d7fc203c9c29a110faa059752a475901fedd7fc69c98010ac95e48ab2a65a4</description>
+      <description>ShadowMountPlus experimental for FPKG - Checksum: 904faa43ef9a8f0ebf7e83543eec629d5abf0df64db23e1af3b61d10d036faf4</description>
     </item>
     <item>
       <title>A53 Ppr Install Fast (Source-Fixe)</title>
       <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/A53_Experimental_KS-D/Source-Fixe/a53_ppr_install_fast_v15.09.elf</link>
-      <description>A53 Experimental for Kstuff-Darkmor - Checksum: 69a8b53f5e51ab182233582c87a692e25e6648ced6b82d37d442e03513bf1793</description>
+      <description>A53 Experimental for Kstuff-Darkmor - Checksum: b768927206f5d96015ef4617725af358b6c14cef2d06f97b00307efa8744f4ee</description>
     </item>
     <item>
       <title>Kstuff Echostrech (Source-Fixe)</title>
       <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/Kstuff_EchoStrech_Experimental/Source-Fixe/kstuff-echostrech_v1.11expermiental.elf</link>
-      <description>Experimental Kstuff EchoStrech - Checksum: 7c58b7d8f5438fa38eeb7f011fbaf27ad3c331a555ce0ca2230cd1f70afc477b</description>
+      <description>Experimental Kstuff EchoStrech - Checksum: f2c5bd69fa3afabe7d8405a81166d4aa382020b21dfec41a78f016700c60bbfb</description>
     </item>
     <item>
       <title>A53 Exploit Experimental (Source-Fixe)</title>
       <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/A53_Experimental_KS-E/Source-Fixe/a53_exploit-experimental.elf</link>
-      <description>A53 Experimental for Kstuff-EchoStrech - Checksum: 5dfdf44e8e31ff5c0ca9f10ce71110744434beaef326bbcd22bd28124de22ac3</description>
+      <description>A53 Experimental for Kstuff-EchoStrech - Checksum: 6792a40735c7481bfa9fd04d349c121779ddd85b48c0a5338ac09e694417194b</description>
     </item>
     <item>
       <title>Ps5Debug Ng (1.3.0)</title>
@@ -358,11 +358,6 @@
       <title>Host Psm Poop2Jb V1.2.0 Instala Pldmgr En (v1.2.0)</title>
       <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5-webkit-autoloader/Host-PSM_pooP2JB/v1.2.0/Host-PSM-pooP2JB-v1.2.0-instala-pldmgr-en_v1.2.0.elf</link>
       <description>Host-PSM pooP2JB. - Checksum: 3ccc45938dcc1bb6ee766195106c928049fd632993828bcf73b5368fdebfc496</description>
-    </item>
-    <item>
-      <title>Pkgmgr (v1.1.0)</title>
-      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_pkg_tool/ps5-pkg-manager/v1.1.0/pkgmgr_v1.1.0.elf</link>
-      <description>A clean and intuitive package manager for PlayStation 5 - Checksum: 3df00c908411741216b3a5741b297cd3e771ce3b492cdf0f2f4edb7cc60b403b</description>
     </item>
     <item>
       <title>Etahen (2.5B)</title>
