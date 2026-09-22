@@ -95,6 +95,21 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Clean Old Horodated Releases & Tags
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          
+          # Supprime tous les anciens tags distants commençant par "aio-"
+          OLD_TAGS=$(git ls-remote --tags origin | grep 'refs/tags/aio-' | awk '{print $2}' | sed 's#refs/tags/##')
+          for tag in $OLD_TAGS; do
+            echo "Suppression de l'ancienne release et du tag : $tag"
+            gh release delete "$tag" --yes --repo "$GITHUB_REPOSITORY" || true
+            git push origin --delete "$tag" || true
+          done
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
       - name: Create Horodated Tag
         run: |
           git tag -f "aio-${{ env.DATE_TAG }}"
