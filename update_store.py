@@ -99,7 +99,7 @@ for opml_file in opml_files:
                     if res_tag: 
                         version = res_tag
                     else:
-                        res_tag = subprocess.check_output(f"gh repo view {repo} --json latestRelease --jq '.latestRelease.tagName' 2>/devnull", shell=True).decode().strip()
+                        res_tag = subprocess.check_output(f"gh repo view {repo} --json latestRelease --jq '.latestRelease.tagName' 2>/dev/null", shell=True).decode().strip()
                         if res_tag: version = res_tag
                 except:
                     pass
@@ -132,7 +132,6 @@ for opml_file in opml_files:
                         except Exception as overlay_err:
                             print(f"    ⚠️ Erreur overlay API : {overlay_err}")
                     else:
-                        # Correction de la syntaxe 2>/dev/null
                         res_code = subprocess.call(f"gh release download '{version}' --repo '{repo}' --dir '{target_dir}' --clobber 2>/dev/null", shell=True)
                         if res_code != 0:
                             missing_repos.append(f"Dépôt/Release GitHub introuvable ou inaccessible ({title}) : {repo}")
@@ -158,7 +157,17 @@ for opml_file in opml_files:
                                         os.remove(item_path)
 
                     files_downloaded = os.listdir(target_dir)
-                    if "ps5-payload-dev/websrv" in repo_lower or "phantomptr/ps5upload" in repo_lower or "boazvdwansem/ps5-debugger" in repo_lower or "smoxa/ps5-new-overlay" in repo_lower:
+
+                    # REGLE DÉDIÉE : seregonwar/zftpd (Conserve uniquement zftpd-ps5-*.elf et zftpd-ps5-zhttp-*.elf)
+                    if "seregonwar/zftpd" in repo_lower or "zftpd" in repo_lower:
+                        for f in files_downloaded:
+                            f_lower = f.lower()
+                            # Doit contenir 'ps5' et se terminer par '.elf'
+                            if not ('ps5' in f_lower and f_lower.endswith('.elf')):
+                                try: os.remove(os.path.join(target_dir, f))
+                                except: pass
+
+                    elif "ps5-payload-dev/websrv" in repo_lower or "phantomptr/ps5upload" in repo_lower or "boazvdwansem/ps5-debugger" in repo_lower or "smoxa/ps5-new-overlay" in repo_lower:
                         for f in files_downloaded:
                             if not (f.lower().endswith('.elf') or f.lower().endswith('.bin')):
                                 try: os.remove(os.path.join(target_dir, f))
@@ -234,10 +243,13 @@ for opml_file in opml_files:
             f_lower = f_name.lower()
             r_lower = repo_lower.lower()
 
-            # CONSERVATION STRICTE DES NOMS SPÉCIFIQUES
-            if "smoxa/ps5-new-overlay" in r_lower or "ps5_overlay" in f_lower:
-                final_base = base_name
-            elif "zftpd" in f_lower or "zhttpd" in f_lower:
+            # REGLES DE NOMMAGE DÉDIÉES POUR ZFTPD & ZHTTP
+            if "seregonwar/zftpd" in r_lower or "zftpd" in f_lower or "zhttp" in f_lower:
+                if "zhttp" in f_lower:
+                    final_base = "zhttp"
+                else:
+                    final_base = "zftpd"
+            elif "smoxa/ps5-new-overlay" in r_lower or "ps5_overlay" in f_lower:
                 final_base = base_name
             elif "self_pager" in f_lower or "self-pager" in f_lower or "ps5 self pager" in title.lower():
                 final_base = base_name
