@@ -2,15 +2,6 @@
   "name": "PS5 Server",
   "payloads": [
     {
-      "name": "Zhttp",
-      "filename": "zhttp_v1.5.0.elf",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/zftpd/v1.5.0/zhttp_v1.5.0.elf",
-      "description": "FTP server payload for PS5. Port: 21",
-      "version": "v1.5.0",
-      "category": "PS5 Server",
-      "checksum": "6cf6a738112fc339619ebe772690fa611f60ecdb20164a0e3f49e137277bc42b"
-    },
-    {
       "name": "Zftpd",
       "filename": "zftpd_v1.5.0.elf",
       "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/zftpd/v1.5.0/zftpd_v1.5.0.elf",
@@ -18,6 +9,15 @@
       "version": "v1.5.0",
       "category": "PS5 Server",
       "checksum": "68a80e1cb45544c15b1581a49154ad14aa8e29483e5fec786f2a95e0e28ea6cb"
+    },
+    {
+      "name": "Zhttp",
+      "filename": "zhttp_v1.5.0.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/zftpd/v1.5.0/zhttp_v1.5.0.elf",
+      "description": "FTP server payload for PS5. Port: 21",
+      "version": "v1.5.0",
+      "category": "PS5 Server",
+      "checksum": "6cf6a738112fc339619ebe772690fa611f60ecdb20164a0e3f49e137277bc42b"
     },
     {
       "name": "Elfldr",
@@ -35,7 +35,7 @@
       "description": "FTP server background daemon. Port: 21",
       "version": "v0.21.1",
       "category": "PS5 Server",
-      "checksum": "0ccfe0097081be0514aabef34390a0f6776226e8b3eefbb047964584e0cfe3a9"
+      "checksum": "7d4b31c83eae4e056580482a3a074e1db25922efc74ac1e439473b45d71a5938"
     },
     {
       "name": "Websrv",
@@ -53,7 +53,7 @@
       "description": "GDB Debugger server payload. Port: 1234",
       "version": "v0.9",
       "category": "PS5 Server",
-      "checksum": "fc91ea233cdbb47acd8087b93d557d9f8a663d0f47cb75908a05a024d07e7efb"
+      "checksum": "80952d75f423768b95385f0944e5a5c2f417dcc10c22c1bb6516a923ad8894e5"
     },
     {
       "name": "Klogsrv",
