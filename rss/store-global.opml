@@ -50,6 +50,7 @@
     <outline text="ProsperoRadio" title="ProsperoRadio" type="rss" xmlUrl="https://github.com/blackbearreloaded/ProsperoRadio/releases/download/01.000.005/PPSA99001.ffpfsc" author="blackbearreloaded"/>
     <outline text="ProsperoTV" title="ProsperoTV" type="rss" xmlUrl="https://github.com/blackbearreloaded/ProsperoTV/releases/download/01.000.003/PPSA99003.ffpfsc" author="blackbearreloaded"/>
     <outline text="ps5-ezremote-server" title="ps5-ezremote-server" type="rss" xmlUrl="https://github.com/cy33hc/ps5-ezremote-server" author="cy33hc"/>
+    <outline text="ShadowMountPlus" title="ShadowMountPlus" type="rss" xmlUrl="https://github.com/drakmor/ShadowMountPlus" author="drakmor"/>
     <outline text="ftpsrv_drakmor" title="ftpsrv_drakmor" type="rss" xmlUrl="https://github.com/drakmor/ftpsrv" author="drakmor"/>
     <outline text="kstuff-lite_drakmor" title="kstuff-lite_drakmor" type="rss" xmlUrl="https://github.com/drakmor/kstuff-lite" author="drakmor"/>
     <outline text="ps5-hwinfo" title="ps5-hwinfo" type="rss" xmlUrl="https://github.com/drakmor/ps5-hwinfo" author="drakmor"/>
@@ -63,6 +64,7 @@
     <outline text="ps5-fw-spoof" title="ps5-fw-spoof" type="rss" xmlUrl="https://github.com/illusionyy/ps5-fw-spoof" author="illusionyy"/>
     <outline text="PS5 Payload Manager" title="PS5 Payload Manager" type="rss" xmlUrl="https://github.com/itsPLK/ps5-payload-manager" author="itsPLK"/>
     <outline text="PS5 Unified Autoloader" title="PS5 Unified Autoloader" type="rss" xmlUrl="https://github.com/itsPLK/ps5-unified-autoloader" author="itsPLK"/>
+    <outline text="ps5-pkg-manager" title="ps5-pkg-manager" type="rss" xmlUrl="https://github.com/itsPLK/ps5-pkg-manager" author="itsPLK"/>
     <outline text="ps5-webkit-autoloader" title="ps5-webkit-autoloader" type="rss" xmlUrl="https://github.com/itsPLK/ps5-webkit-autoloader" author="itsPLK"/>
     <outline text="PS5-File-Explorer" title="PS5-File-Explorer" type="rss" xmlUrl="https://github.com/juma-sayeh/PS5-File-Explorer" author="juma-sayeh"/>
     <outline text="PS5-Game-Compressor" title="PS5-Game-Compressor" type="rss" xmlUrl="https://github.com/juma-sayeh/PS5-Game-Compressor" author="juma-sayeh"/>
@@ -73,6 +75,7 @@
     <outline text="ps5-fan-control" title="ps5-fan-control" type="rss" xmlUrl="https://github.com/owendswang/ps5-fan-control" author="owendswang"/>
     <outline text="ps5-web-file-manager" title="ps5-web-file-manager" type="rss" xmlUrl="https://github.com/owendswang/ps5-web-file-manager" author="owendswang"/>
     <outline text="pegasus-dl" title="pegasus-dl" type="rss" xmlUrl="https://github.com/pegasus-ps5/pegasus-dl" author="pegasus-ps5"/>
+    <outline text="ps5upload" title="ps5upload" type="rss" xmlUrl="https://github.com/phantomptr/ps5upload" author="phantomptr"/>
     <outline text="Homebrew_Store_installer" title="Homebrew_Store_installer" type="rss" xmlUrl="https://github.com/nexgen999/Evox_PS5PKG_Private/releases/download/v1.0/PS5PKG_Homebrew_Store_installer.pkg" author="pkg-zone"/>
     <outline text="Common-FPS-for-PS5" title="Common-FPS-for-PS5" type="rss" xmlUrl="https://github.com/porhe911/Common-FPS-for-PS5" author="porhe911"/>
     <outline text="Host-PSM pooP2JB" title="Host-PSM pooP2JB" type="rss" xmlUrl="https://github.com/ps4macedo/instalador-host-psm-poop2jb" author="ps4macedo"/>

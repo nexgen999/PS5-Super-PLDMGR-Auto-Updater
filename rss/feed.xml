@@ -7,37 +7,37 @@
     <item>
       <title>A53 Kstuff Shadowmountplus 3In1 (Source-Fixe)</title>
       <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/A53-Kstuff-ShadowMountPlus-3in1_SoNic-AIO_Experimental/Source-Fixe/A53-Kstuff-ShadowMountPlus-3in1.elf</link>
-      <description>Experimental AIO by SoNic credit to EchoStrech DarkMor - Checksum: c5b6df337a35391b6c89d24f0c35979809ae82b909aaeaccfdd6655130f35315</description>
+      <description>Experimental AIO by SoNic credit to EchoStrech DarkMor - Checksum: 00012db16d2449cce7db4383338a24f4ed4561e544be6d865a589c1eb8a265d2</description>
     </item>
     <item>
       <title>A53 Kstuff Smp (Source-Fixe)</title>
       <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/A53-kstuff-SMP_SoNic-AIO_Experimental/Source-Fixe/A53-kstuff-SMP.elf</link>
-      <description>Experimental AIO by SoNic credit to EchoStrech DarkMor - Checksum: f7d76e28892ebb65b61adef5ae39431105e185301a20f039efa6e2acbc40850c</description>
+      <description>Experimental AIO by SoNic credit to EchoStrech DarkMor - Checksum: d8f3ae2eb0130b6b6e1c65f14072f965f406aef94ce7bf020619f49e105b399d</description>
     </item>
     <item>
       <title>Kstuff (Source-Fixe)</title>
       <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/kstuff_Darkmor_Experimental/Source-Fixe/kstuff_v1.12-dr-test8.elf</link>
-      <description>Experimental Kstuff DarkMor - Checksum: ece3992a88b644fcfba51e9089d5e7b32cee693d7093aa17f520fad7a78454ad</description>
+      <description>Experimental Kstuff DarkMor - Checksum: 05c9451e2b7dbab169d62a42c56d2ce807e230590f2be3e4041a11e80a6a8956</description>
     </item>
     <item>
       <title>Shadowmountplus (Source-Fixe)</title>
       <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/ShadowMountPlus/Source-Fixe/ShadowMountPlus_v1.7alpha13fix1-13-g072c17.elf</link>
-      <description>ShadowMountPlus experimental for FPKG - Checksum: 6b8e94f286164cbc9ab1da0c9af09eca9578b6f2c15a47fa94f5aeef5e4724db</description>
+      <description>ShadowMountPlus experimental for FPKG - Checksum: f1d755baea4f4d54aa2af1ea0552f80a65df4838537bb183fc5df103cd411951</description>
     </item>
     <item>
       <title>A53 Ppr Install Fast (Source-Fixe)</title>
       <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/A53_Experimental_KS-D/Source-Fixe/a53_ppr_install_fast_v15.09.elf</link>
-      <description>A53 Experimental for Kstuff-Darkmor - Checksum: 8dccb261549c62337961e28d521f023b9c1008eef9a3a154bbad92a28526af55</description>
+      <description>A53 Experimental for Kstuff-Darkmor - Checksum: 354c601200fd2e6f6cd6f2530281adf1eb557313fdb55c92d3c0f6ca55e0b213</description>
     </item>
     <item>
       <title>Kstuff Echostrech (Source-Fixe)</title>
       <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/Kstuff_EchoStrech_Experimental/Source-Fixe/kstuff-echostrech_v1.11expermiental.elf</link>
-      <description>Experimental Kstuff EchoStrech - Checksum: 933f95f24aaf74c043280d2f633398c544afe41d5958d03609e2701ed1b111b1</description>
+      <description>Experimental Kstuff EchoStrech - Checksum: 422b2ad0d7beaac71168f19c1aa517239f1aceccd4120a7771c402d6d7506969</description>
     </item>
     <item>
       <title>A53 Exploit Experimental (Source-Fixe)</title>
       <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/A53_Experimental_KS-E/Source-Fixe/a53_exploit-experimental.elf</link>
-      <description>A53 Experimental for Kstuff-EchoStrech - Checksum: bd92144db5ab3cb1c398a20fd8ab72e8fff03d163eacb83af55ee2418595dc89</description>
+      <description>A53 Experimental for Kstuff-EchoStrech - Checksum: 6bb3f31967093ff253cd635edebdce11782a2d8a71eb537900e55be9feed749d</description>
     </item>
     <item>
       <title>Ps5Debug Ng (1.3.0)</title>
@@ -110,14 +110,14 @@
       <description>Memory debugging and inspection suite. - Checksum: 2835b34516ecfdfcd04a0333a19a6ff026f48f7cd3fd2d7f877aeb929083336b</description>
     </item>
     <item>
-      <title>Hwinfo Bench (0.1)</title>
-      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/ps5-hwinfo/0.1/hwinfo_bench_v0.1.elf</link>
-      <description>PS5 payload for collecting hardware and runtime telemetry. - Checksum: 4514bdbc0c556df1a66544615942d5087d1cbee5c2026b3b66e688ba01e5a5b0</description>
-    </item>
-    <item>
       <title>PS5 Hwinfo (0.1)</title>
       <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/ps5-hwinfo/0.1/ps5-hwinfo_v0.1.elf</link>
       <description>PS5 payload for collecting hardware and runtime telemetry. - Checksum: ad5014112dec619779619d0ea01a984b3c8267fed682eca5687f34c9eade51cb</description>
+    </item>
+    <item>
+      <title>Hwinfo Bench (0.1)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/ps5-hwinfo/0.1/hwinfo_bench_v0.1.elf</link>
+      <description>PS5 payload for collecting hardware and runtime telemetry. - Checksum: 4514bdbc0c556df1a66544615942d5087d1cbee5c2026b3b66e688ba01e5a5b0</description>
     </item>
     <item>
       <title>Hwinfo Sysinfo (0.1)</title>
@@ -310,6 +310,11 @@
       <description>Host-PSM pooP2JB. - Checksum: 3ccc45938dcc1bb6ee766195106c928049fd632993828bcf73b5368fdebfc496</description>
     </item>
     <item>
+      <title>Pkg Manager (v1.2.3)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_pkg_tool/ps5-pkg-manager/v1.2.3/pkg-manager_v1.2.3.elf</link>
+      <description>A clean and intuitive package manager for PlayStation 5 - Checksum: b14f0a54c826e5e4bb0b96c38113aa61ea41b0742663242104645add0d85ee19</description>
+    </item>
+    <item>
       <title>Etahen (2.5B)</title>
       <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/etaHEN/2.5B/etaHEN_v2.5B.bin</link>
       <description>Le Homebrew Enabler (HEN) de référence pour la PS5 avec serveurs de triche, plugins et gestionnaire de mémoire intégrés. - Checksum: 4845cac45095361b8983b14d6690622183b0dcfbf6d7fda16e161aa91ff0531e</description>
@@ -400,6 +405,11 @@
       <description>Dump Runner tool. - Checksum: 816ff23141f100004d882e53bfae80b6c29f6b9427df56524cd1a89403c40df4</description>
     </item>
     <item>
+      <title>Shadowmountplus (1.7beta2)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/ShadowMountPlus/1.7beta2/ShadowMountPlus_v1.7beta2.elf</link>
+      <description>ShadowMountPlus payload for game mounting. - Checksum: 3f716a7b2220c7e87e87452ae05cad689ef842d3beb4cdad6c526cb6dfc2b6b5</description>
+    </item>
+    <item>
       <title>Backpork (0.1)</title>
       <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/BackPork/0.1/BackPork_v0.1.elf</link>
       <description>BackPork PS5 tool. - Checksum: d74e4cd119b2bb1fd423f2f5b1c9a7f096b3e588c753af1ab48b983d56216a52</description>
@@ -425,6 +435,11 @@
       <description>PS5 File Explorer http://your-ps5-ip:5905. - Checksum: 6d4b905b42727dddeaedddb2a657ed0d4e7110ddd068a6daab0aafb2ba32604b</description>
     </item>
     <item>
+      <title>Zftpd Ps4 Zhttp V1.5.0 (v1.5.0)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/zftpd/v1.5.0/zftpd-ps4-zhttp-v1.5.0_v1.5.0.bin</link>
+      <description>FTP server payload for PS5. Port: 21 - Checksum: 265061cca872522e6a28c136f12f7c333bf9d4daea74662816890a70ccd98ad2</description>
+    </item>
+    <item>
       <title>Zftpd (v1.5.0)</title>
       <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/zftpd/v1.5.0/zftpd_v1.5.0.elf</link>
       <description>FTP server payload for PS5. Port: 21 - Checksum: bc21772ceafde44d81fce968a04e585509da3c70f8e48d5a6980e28b5bad17fb</description>
@@ -433,6 +448,41 @@
       <title>Zftpd (v1.5.0)</title>
       <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/zftpd/v1.5.0/zftpd_v1.5.0.bin</link>
       <description>FTP server payload for PS5. Port: 21 - Checksum: f430dc1fdeaea425c9e8248708b4b8f4d11b662d2a3f74ac7e85cf7d785d82c3</description>
+    </item>
+    <item>
+      <title>Zftpd Ps5 Zhttp V1.5.0 (v1.5.0)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/zftpd/v1.5.0/zftpd-ps5-zhttp-v1.5.0_v1.5.0.elf</link>
+      <description>FTP server payload for PS5. Port: 21 - Checksum: 6cf6a738112fc339619ebe772690fa611f60ecdb20164a0e3f49e137277bc42b</description>
+    </item>
+    <item>
+      <title>Zftpd Ps5 Zhttp V1.5.0 (v1.5.0)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/zftpd/v1.5.0/zftpd-ps5-zhttp-v1.5.0_v1.5.0.bin</link>
+      <description>FTP server payload for PS5. Port: 21 - Checksum: 9340aa91f8f1eeb619473d716e0b6ab7af1c6fbb3ad815648520872ad6c86ccf</description>
+    </item>
+    <item>
+      <title>Zftpd Ps4 Zhttp V1.5.0 (v1.5.0)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/zftpd/v1.5.0/zftpd-ps4-zhttp-v1.5.0_v1.5.0.elf</link>
+      <description>FTP server payload for PS5. Port: 21 - Checksum: 5d2f96ccf0630ab5803552dd3f99ad9eeaaea998daa2812f1c4dc5e7a0b45a84</description>
+    </item>
+    <item>
+      <title>Zftpd Ps5 V1.5.0 (v1.5.0)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/zftpd/v1.5.0/zftpd-ps5-v1.5.0_v1.5.0.elf</link>
+      <description>FTP server payload for PS5. Port: 21 - Checksum: 68a80e1cb45544c15b1581a49154ad14aa8e29483e5fec786f2a95e0e28ea6cb</description>
+    </item>
+    <item>
+      <title>Zftpd Ps4 V1.5.0 (v1.5.0)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/zftpd/v1.5.0/zftpd-ps4-v1.5.0_v1.5.0.bin</link>
+      <description>FTP server payload for PS5. Port: 21 - Checksum: 0f724dc57c087dedd80c1c5090bbd4d140fa0cd6f339501f5357f7009ce4d1ed</description>
+    </item>
+    <item>
+      <title>Zftpd Ps5 V1.5.0 (v1.5.0)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/zftpd/v1.5.0/zftpd-ps5-v1.5.0_v1.5.0.bin</link>
+      <description>FTP server payload for PS5. Port: 21 - Checksum: f430dc1fdeaea425c9e8248708b4b8f4d11b662d2a3f74ac7e85cf7d785d82c3</description>
+    </item>
+    <item>
+      <title>Zftpd Ps4 V1.5.0 (v1.5.0)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/zftpd/v1.5.0/zftpd-ps4-v1.5.0_v1.5.0.elf</link>
+      <description>FTP server payload for PS5. Port: 21 - Checksum: bc21772ceafde44d81fce968a04e585509da3c70f8e48d5a6980e28b5bad17fb</description>
     </item>
     <item>
       <title>Elfldr (v0.26)</title>
@@ -468,6 +518,11 @@
       <title>PS5 Ezremote Server (1.10)</title>
       <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ps5-ezremote-server/1.10/ps5-ezremote-server_v1.10.elf</link>
       <description>Easy remote server component. Port: 8080 - Checksum: fa69eb0b49894356b84ce996de863d53884e5506a8fbcc0d079759a23b8905f3</description>
+    </item>
+    <item>
+      <title>Ps5Upload (v5.33.1)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ps5upload/v5.33.1/ps5upload_v5.33.1.elf</link>
+      <description>PS5 Upload server / tool. Port: 9025 - Checksum: 75b364880bedaaac1499779d5a459008ca838eb13d30252169f9b134dd32ed63</description>
     </item>
     <item>
       <title>Airpsx (0.19)</title>

@@ -8,7 +8,7 @@
       "description": "Experimental AIO by SoNic credit to EchoStrech DarkMor",
       "version": "Source-Fixe",
       "category": "PS5 Beta",
-      "checksum": "c5b6df337a35391b6c89d24f0c35979809ae82b909aaeaccfdd6655130f35315"
+      "checksum": "00012db16d2449cce7db4383338a24f4ed4561e544be6d865a589c1eb8a265d2"
     },
     {
       "name": "A53 Kstuff Smp",
@@ -17,7 +17,7 @@
       "description": "Experimental AIO by SoNic credit to EchoStrech DarkMor",
       "version": "Source-Fixe",
       "category": "PS5 Beta",
-      "checksum": "f7d76e28892ebb65b61adef5ae39431105e185301a20f039efa6e2acbc40850c"
+      "checksum": "d8f3ae2eb0130b6b6e1c65f14072f965f406aef94ce7bf020619f49e105b399d"
     },
     {
       "name": "Kstuff",
@@ -26,7 +26,7 @@
       "description": "Experimental Kstuff DarkMor",
       "version": "Source-Fixe",
       "category": "PS5 Beta",
-      "checksum": "ece3992a88b644fcfba51e9089d5e7b32cee693d7093aa17f520fad7a78454ad"
+      "checksum": "05c9451e2b7dbab169d62a42c56d2ce807e230590f2be3e4041a11e80a6a8956"
     },
     {
       "name": "Shadowmountplus",
@@ -35,7 +35,7 @@
       "description": "ShadowMountPlus experimental for FPKG",
       "version": "Source-Fixe",
       "category": "PS5 Beta",
-      "checksum": "6b8e94f286164cbc9ab1da0c9af09eca9578b6f2c15a47fa94f5aeef5e4724db"
+      "checksum": "f1d755baea4f4d54aa2af1ea0552f80a65df4838537bb183fc5df103cd411951"
     },
     {
       "name": "A53 Ppr Install Fast",
@@ -44,7 +44,7 @@
       "description": "A53 Experimental for Kstuff-Darkmor",
       "version": "Source-Fixe",
       "category": "PS5 Beta",
-      "checksum": "8dccb261549c62337961e28d521f023b9c1008eef9a3a154bbad92a28526af55"
+      "checksum": "354c601200fd2e6f6cd6f2530281adf1eb557313fdb55c92d3c0f6ca55e0b213"
     },
     {
       "name": "Kstuff Echostrech",
@@ -53,7 +53,7 @@
       "description": "Experimental Kstuff EchoStrech",
       "version": "Source-Fixe",
       "category": "PS5 Beta",
-      "checksum": "933f95f24aaf74c043280d2f633398c544afe41d5958d03609e2701ed1b111b1"
+      "checksum": "422b2ad0d7beaac71168f19c1aa517239f1aceccd4120a7771c402d6d7506969"
     },
     {
       "name": "A53 Exploit Experimental",
@@ -62,7 +62,7 @@
       "description": "A53 Experimental for Kstuff-EchoStrech",
       "version": "Source-Fixe",
       "category": "PS5 Beta",
-      "checksum": "bd92144db5ab3cb1c398a20fd8ab72e8fff03d163eacb83af55ee2418595dc89"
+      "checksum": "6bb3f31967093ff253cd635edebdce11782a2d8a71eb537900e55be9feed749d"
     },
     {
       "name": "Ps5Debug Ng",
@@ -191,15 +191,6 @@
       "checksum": "2835b34516ecfdfcd04a0333a19a6ff026f48f7cd3fd2d7f877aeb929083336b"
     },
     {
-      "name": "Hwinfo Bench",
-      "filename": "hwinfo_bench_v0.1.elf",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/ps5-hwinfo/0.1/hwinfo_bench_v0.1.elf",
-      "description": "PS5 payload for collecting hardware and runtime telemetry.",
-      "version": "0.1",
-      "category": "PS5 Sdk Debug",
-      "checksum": "4514bdbc0c556df1a66544615942d5087d1cbee5c2026b3b66e688ba01e5a5b0"
-    },
-    {
       "name": "PS5 Hwinfo",
       "filename": "ps5-hwinfo_v0.1.elf",
       "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/ps5-hwinfo/0.1/ps5-hwinfo_v0.1.elf",
@@ -207,6 +198,15 @@
       "version": "0.1",
       "category": "PS5 Sdk Debug",
       "checksum": "ad5014112dec619779619d0ea01a984b3c8267fed682eca5687f34c9eade51cb"
+    },
+    {
+      "name": "Hwinfo Bench",
+      "filename": "hwinfo_bench_v0.1.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/ps5-hwinfo/0.1/hwinfo_bench_v0.1.elf",
+      "description": "PS5 payload for collecting hardware and runtime telemetry.",
+      "version": "0.1",
+      "category": "PS5 Sdk Debug",
+      "checksum": "4514bdbc0c556df1a66544615942d5087d1cbee5c2026b3b66e688ba01e5a5b0"
     },
     {
       "name": "Hwinfo Sysinfo",
@@ -551,6 +551,15 @@
       "checksum": "3ccc45938dcc1bb6ee766195106c928049fd632993828bcf73b5368fdebfc496"
     },
     {
+      "name": "Pkg Manager",
+      "filename": "pkg-manager_v1.2.3.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_pkg_tool/ps5-pkg-manager/v1.2.3/pkg-manager_v1.2.3.elf",
+      "description": "A clean and intuitive package manager for PlayStation 5",
+      "version": "v1.2.3",
+      "category": "PS5 Pkg Tool",
+      "checksum": "b14f0a54c826e5e4bb0b96c38113aa61ea41b0742663242104645add0d85ee19"
+    },
+    {
       "name": "Etahen",
       "filename": "etaHEN_v2.5B.bin",
       "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/etaHEN/2.5B/etaHEN_v2.5B.bin",
@@ -713,6 +722,15 @@
       "checksum": "816ff23141f100004d882e53bfae80b6c29f6b9427df56524cd1a89403c40df4"
     },
     {
+      "name": "Shadowmountplus",
+      "filename": "ShadowMountPlus_v1.7beta2.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/ShadowMountPlus/1.7beta2/ShadowMountPlus_v1.7beta2.elf",
+      "description": "ShadowMountPlus payload for game mounting.",
+      "version": "1.7beta2",
+      "category": "PS5 Game Dump",
+      "checksum": "3f716a7b2220c7e87e87452ae05cad689ef842d3beb4cdad6c526cb6dfc2b6b5"
+    },
+    {
       "name": "Backpork",
       "filename": "BackPork_v0.1.elf",
       "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/BackPork/0.1/BackPork_v0.1.elf",
@@ -758,6 +776,15 @@
       "checksum": "6d4b905b42727dddeaedddb2a657ed0d4e7110ddd068a6daab0aafb2ba32604b"
     },
     {
+      "name": "Zftpd Ps4 Zhttp V1.5.0",
+      "filename": "zftpd-ps4-zhttp-v1.5.0_v1.5.0.bin",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/zftpd/v1.5.0/zftpd-ps4-zhttp-v1.5.0_v1.5.0.bin",
+      "description": "FTP server payload for PS5. Port: 21",
+      "version": "v1.5.0",
+      "category": "PS5 Server",
+      "checksum": "265061cca872522e6a28c136f12f7c333bf9d4daea74662816890a70ccd98ad2"
+    },
+    {
       "name": "Zftpd",
       "filename": "zftpd_v1.5.0.elf",
       "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/zftpd/v1.5.0/zftpd_v1.5.0.elf",
@@ -774,6 +801,69 @@
       "version": "v1.5.0",
       "category": "PS5 Server",
       "checksum": "f430dc1fdeaea425c9e8248708b4b8f4d11b662d2a3f74ac7e85cf7d785d82c3"
+    },
+    {
+      "name": "Zftpd Ps5 Zhttp V1.5.0",
+      "filename": "zftpd-ps5-zhttp-v1.5.0_v1.5.0.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/zftpd/v1.5.0/zftpd-ps5-zhttp-v1.5.0_v1.5.0.elf",
+      "description": "FTP server payload for PS5. Port: 21",
+      "version": "v1.5.0",
+      "category": "PS5 Server",
+      "checksum": "6cf6a738112fc339619ebe772690fa611f60ecdb20164a0e3f49e137277bc42b"
+    },
+    {
+      "name": "Zftpd Ps5 Zhttp V1.5.0",
+      "filename": "zftpd-ps5-zhttp-v1.5.0_v1.5.0.bin",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/zftpd/v1.5.0/zftpd-ps5-zhttp-v1.5.0_v1.5.0.bin",
+      "description": "FTP server payload for PS5. Port: 21",
+      "version": "v1.5.0",
+      "category": "PS5 Server",
+      "checksum": "9340aa91f8f1eeb619473d716e0b6ab7af1c6fbb3ad815648520872ad6c86ccf"
+    },
+    {
+      "name": "Zftpd Ps4 Zhttp V1.5.0",
+      "filename": "zftpd-ps4-zhttp-v1.5.0_v1.5.0.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/zftpd/v1.5.0/zftpd-ps4-zhttp-v1.5.0_v1.5.0.elf",
+      "description": "FTP server payload for PS5. Port: 21",
+      "version": "v1.5.0",
+      "category": "PS5 Server",
+      "checksum": "5d2f96ccf0630ab5803552dd3f99ad9eeaaea998daa2812f1c4dc5e7a0b45a84"
+    },
+    {
+      "name": "Zftpd Ps5 V1.5.0",
+      "filename": "zftpd-ps5-v1.5.0_v1.5.0.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/zftpd/v1.5.0/zftpd-ps5-v1.5.0_v1.5.0.elf",
+      "description": "FTP server payload for PS5. Port: 21",
+      "version": "v1.5.0",
+      "category": "PS5 Server",
+      "checksum": "68a80e1cb45544c15b1581a49154ad14aa8e29483e5fec786f2a95e0e28ea6cb"
+    },
+    {
+      "name": "Zftpd Ps4 V1.5.0",
+      "filename": "zftpd-ps4-v1.5.0_v1.5.0.bin",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/zftpd/v1.5.0/zftpd-ps4-v1.5.0_v1.5.0.bin",
+      "description": "FTP server payload for PS5. Port: 21",
+      "version": "v1.5.0",
+      "category": "PS5 Server",
+      "checksum": "0f724dc57c087dedd80c1c5090bbd4d140fa0cd6f339501f5357f7009ce4d1ed"
+    },
+    {
+      "name": "Zftpd Ps5 V1.5.0",
+      "filename": "zftpd-ps5-v1.5.0_v1.5.0.bin",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/zftpd/v1.5.0/zftpd-ps5-v1.5.0_v1.5.0.bin",
+      "description": "FTP server payload for PS5. Port: 21",
+      "version": "v1.5.0",
+      "category": "PS5 Server",
+      "checksum": "f430dc1fdeaea425c9e8248708b4b8f4d11b662d2a3f74ac7e85cf7d785d82c3"
+    },
+    {
+      "name": "Zftpd Ps4 V1.5.0",
+      "filename": "zftpd-ps4-v1.5.0_v1.5.0.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/zftpd/v1.5.0/zftpd-ps4-v1.5.0_v1.5.0.elf",
+      "description": "FTP server payload for PS5. Port: 21",
+      "version": "v1.5.0",
+      "category": "PS5 Server",
+      "checksum": "bc21772ceafde44d81fce968a04e585509da3c70f8e48d5a6980e28b5bad17fb"
     },
     {
       "name": "Elfldr",
@@ -837,6 +927,15 @@
       "version": "1.10",
       "category": "PS5 Server",
       "checksum": "fa69eb0b49894356b84ce996de863d53884e5506a8fbcc0d079759a23b8905f3"
+    },
+    {
+      "name": "Ps5Upload",
+      "filename": "ps5upload_v5.33.1.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ps5upload/v5.33.1/ps5upload_v5.33.1.elf",
+      "description": "PS5 Upload server / tool. Port: 9025",
+      "version": "v5.33.1",
+      "category": "PS5 Server",
+      "checksum": "75b364880bedaaac1499779d5a459008ca838eb13d30252169f9b134dd32ed63"
     },
     {
       "name": "Airpsx",
