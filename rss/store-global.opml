@@ -20,7 +20,6 @@
     <outline text="kstuff_EchoStretch" title="kstuff_EchoStretch" type="rss" xmlUrl="https://github.com/EchoStretch/kstuff" author="EchoStretch"/>
     <outline text="ps5-app-dumper" title="ps5-app-dumper" type="rss" xmlUrl="https://github.com/EchoStretch/ps5-app-dumper" author="EchoStretch"/>
     <outline text="Itemzflow_Game_Manager" title="Itemzflow_Game_Manager" type="rss" xmlUrl="https://github.com/nexgen999/Evox_PS5PKG_Private/releases/download/v1.0/PS5PKG_Itemzflow_Game_Manager_v1.14.pkg" author="Itemzflow"/>
-    <outline text="BFpilot" title="BFpilot" type="rss" xmlUrl="https://github.com/ItsBlurf/BFpilot" author="ItsBlurf"/>
     <outline text="BFplayer-standalone" title="BFplayer-standalone" type="rss" xmlUrl="https://github.com/ItsBlurf/BFplayer" author="ItsBlurf"/>
     <outline text="PoorDS4" title="PoorDS4" type="rss" xmlUrl="https://github.com/ItsBlurf/PoorDS4" author="ItsBlurf"/>
     <outline text="FPKGi" title="FPKGi" type="rss" xmlUrl="https://github.com/nexgen999/Evox_PS5PKG_Private/releases/download/v1.0/PS5PKG_FPKGi_v1.10.0.pkg" author="ItsJokerZz"/>
@@ -29,7 +28,6 @@
     <outline text="PS5-Xplorer" title="PS5-Xplorer" type="rss" xmlUrl="https://github.com/nexgen999/Evox_PS5PKG_Private/releases/download/v1.0/PS5PKG_PS5-Xplorer_v1.05.pkg" author="Lapy"/>
     <outline text="etaHEN" title="etaHEN" type="rss" xmlUrl="https://github.com/etaHEN/etaHEN" author="LightningMods"/>
     <outline text="PS5Webit-Nexgen999_Installer" title="PS5Webit-Nexgen999_Installer" type="rss" xmlUrl="https://github.com/nexgen999/Evox_PS5PKG_Private/releases/download/v1.0/PS5PKG_PS5Webit-Nexgen999_Installer_v1.00.pkg" author="Master0"/>
-    <outline text="PS5-Power-Payloads-Project" title="PS5-Power-Payloads-Project" type="rss" xmlUrl="https://github.com/MasterPS0/PS5-Power-Payloads-Project" author="MasterPS0"/>
     <outline text="PIZZA-HEN" title="PIZZA-HEN" type="rss" xmlUrl="https://github.com/Michele-M-Media/PIZZA-HEN" author="Michele-M-Media"/>
     <outline text="PS-Play" title="PS-Play" type="rss" xmlUrl="https://github.com/MounirHero/PS-Play" author="MounirHero"/>
     <outline text="PS5-Custom-Tool-Manager-" title="PS5-Custom-Tool-Manager-" type="rss" xmlUrl="https://github.com/NikoBellikJR31/PS5-Custom-Tool-Manager-" author="NikoBellikJR31"/>
@@ -51,9 +49,7 @@
     <outline text="ProsperoLight" title="ProsperoLight" type="rss" xmlUrl="https://github.com/blackbearreloaded/ProsperoLight/releases/download/01.000.050/PPSA99002.ffpfsc" author="blackbearreloaded"/>
     <outline text="ProsperoRadio" title="ProsperoRadio" type="rss" xmlUrl="https://github.com/blackbearreloaded/ProsperoRadio/releases/download/01.000.005/PPSA99001.ffpfsc" author="blackbearreloaded"/>
     <outline text="ProsperoTV" title="ProsperoTV" type="rss" xmlUrl="https://github.com/blackbearreloaded/ProsperoTV/releases/download/01.000.003/PPSA99003.ffpfsc" author="blackbearreloaded"/>
-    <outline text="ps5-ezremote-client" title="ps5-ezremote-client" type="rss" xmlUrl="https://github.com/cy33hc/ps5-ezremote-client" author="cy33hc"/>
     <outline text="ps5-ezremote-server" title="ps5-ezremote-server" type="rss" xmlUrl="https://github.com/cy33hc/ps5-ezremote-server" author="cy33hc"/>
-    <outline text="fan_target" title="fan_target" type="rss" xmlUrl="https://github.com/drakmor/fan_target" author="drakmor"/>
     <outline text="ftpsrv_drakmor" title="ftpsrv_drakmor" type="rss" xmlUrl="https://github.com/drakmor/ftpsrv" author="drakmor"/>
     <outline text="kstuff-lite_drakmor" title="kstuff-lite_drakmor" type="rss" xmlUrl="https://github.com/drakmor/kstuff-lite" author="drakmor"/>
     <outline text="ps5-hwinfo" title="ps5-hwinfo" type="rss" xmlUrl="https://github.com/drakmor/ps5-hwinfo" author="drakmor"/>

@@ -74,15 +74,6 @@
       "checksum": "f19ae469b25453a7a4af4529527521d31f143100f18a2c6839666e7121c8bd32"
     },
     {
-      "name": "PS5 Ezremote Client",
-      "filename": "ps5-ezremote-client_v2.12.elf",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ps5-ezremote-client/2.12/ps5-ezremote-client_v2.12.elf",
-      "description": "Easy remote client application for PS5.",
-      "version": "2.12",
-      "category": "PS5 Server",
-      "checksum": "e216388949f2c8f8241b5dd4a402a16501b664a9a8ade6859ef1fe33fcb0c961"
-    },
-    {
       "name": "PS5 Ezremote Server",
       "filename": "ps5-ezremote-server_v1.10.elf",
       "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ps5-ezremote-server/1.10/ps5-ezremote-server_v1.10.elf",

@@ -51,13 +51,13 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 
 | Application | Version | Empreinte SHA-256 | Description |
 | :--- | :--- | :--- | :--- |
-| **A53 Kstuff Shadowmountplus 3In1** | [Source-Fixe](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/A53-Kstuff-ShadowMountPlus-3in1_SoNic-AIO_Experimental/Source-Fixe/A53-Kstuff-ShadowMountPlus-3in1.elf) | `20f2623d7e...` | Experimental AIO by SoNic credit to EchoStrech DarkMor |
-| **A53 Kstuff Smp** | [Source-Fixe](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/A53-kstuff-SMP_SoNic-AIO_Experimental/Source-Fixe/A53-kstuff-SMP.elf) | `4a9309806e...` | Experimental AIO by SoNic credit to EchoStrech DarkMor |
-| **Kstuff** | [Source-Fixe](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/kstuff_Darkmor_Experimental/Source-Fixe/kstuff_v1.12-dr-test8.elf) | `bfd1ccf67f...` | Experimental Kstuff DarkMor |
-| **Shadowmountplus** | [Source-Fixe](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/ShadowMountPlus/Source-Fixe/ShadowMountPlus_v1.7alpha13fix1-13-g072c17.elf) | `a950ab8d76...` | ShadowMountPlus experimental for FPKG |
-| **A53 Ppr Install Fast** | [Source-Fixe](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/A53_Experimental_KS-D/Source-Fixe/a53_ppr_install_fast_v15.09.elf) | `b862e0192e...` | A53 Experimental for Kstuff-Darkmor |
-| **Kstuff Echostrech** | [Source-Fixe](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/Kstuff_EchoStrech_Experimental/Source-Fixe/kstuff-echostrech_v1.11expermiental.elf) | `72e95d4645...` | Experimental Kstuff EchoStrech |
-| **A53 Exploit Experimental** | [Source-Fixe](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/A53_Experimental_KS-E/Source-Fixe/a53_exploit-experimental.elf) | `0c507fde0d...` | A53 Experimental for Kstuff-EchoStrech |
+| **A53 Kstuff Shadowmountplus 3In1** | [Source-Fixe](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/A53-Kstuff-ShadowMountPlus-3in1_SoNic-AIO_Experimental/Source-Fixe/A53-Kstuff-ShadowMountPlus-3in1.elf) | `c5b6df337a...` | Experimental AIO by SoNic credit to EchoStrech DarkMor |
+| **A53 Kstuff Smp** | [Source-Fixe](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/A53-kstuff-SMP_SoNic-AIO_Experimental/Source-Fixe/A53-kstuff-SMP.elf) | `f7d76e2889...` | Experimental AIO by SoNic credit to EchoStrech DarkMor |
+| **Kstuff** | [Source-Fixe](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/kstuff_Darkmor_Experimental/Source-Fixe/kstuff_v1.12-dr-test8.elf) | `ece3992a88...` | Experimental Kstuff DarkMor |
+| **Shadowmountplus** | [Source-Fixe](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/ShadowMountPlus/Source-Fixe/ShadowMountPlus_v1.7alpha13fix1-13-g072c17.elf) | `6b8e94f286...` | ShadowMountPlus experimental for FPKG |
+| **A53 Ppr Install Fast** | [Source-Fixe](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/A53_Experimental_KS-D/Source-Fixe/a53_ppr_install_fast_v15.09.elf) | `8dccb26154...` | A53 Experimental for Kstuff-Darkmor |
+| **Kstuff Echostrech** | [Source-Fixe](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/Kstuff_EchoStrech_Experimental/Source-Fixe/kstuff-echostrech_v1.11expermiental.elf) | `933f95f24a...` | Experimental Kstuff EchoStrech |
+| **A53 Exploit Experimental** | [Source-Fixe](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/A53_Experimental_KS-E/Source-Fixe/a53_exploit-experimental.elf) | `bd92144db5...` | A53 Experimental for Kstuff-EchoStrech |
 
 ### 🏴‍☠️ PS5 Cheat
 📂 **JSON Catégorie :** `https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/json/PS5_Cheat.json`
@@ -101,19 +101,12 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 | Application | Version | Empreinte SHA-256 | Description |
 | :--- | :--- | :--- | :--- |
 | **PS5 Fan Control** | [v0.3](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_fan/ps5-fan-control/v0.3/ps5-fan-control_v0.3.elf) | `b10b6b9b9c...` | Small PS5 daemon payload ELF that sets the system fan temperature. |
-| **Fan Target 80C** | [0.1](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_fan/fan_target/0.1/fan_target_80c_v0.1.elf) | `ccf2e70921...` | fan_target keeps the PS5 fan controller at a selected target temperature while leaving the console's automatic fan control enabled. |
-| **Fan Target 70C** | [0.1](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_fan/fan_target/0.1/fan_target_70c_v0.1.elf) | `a9ad850212...` | fan_target keeps the PS5 fan controller at a selected target temperature while leaving the console's automatic fan control enabled. |
-| **Fan Target 85C** | [0.1](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_fan/fan_target/0.1/fan_target_85c_v0.1.elf) | `c37019c351...` | fan_target keeps the PS5 fan controller at a selected target temperature while leaving the console's automatic fan control enabled. |
-| **Fan Target 65C** | [0.1](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_fan/fan_target/0.1/fan_target_65c_v0.1.elf) | `0bedeb5649...` | fan_target keeps the PS5 fan controller at a selected target temperature while leaving the console's automatic fan control enabled. |
-| **Fan Target 75C** | [0.1](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_fan/fan_target/0.1/fan_target_75c_v0.1.elf) | `4b52e09c48...` | fan_target keeps the PS5 fan controller at a selected target temperature while leaving the console's automatic fan control enabled. |
 
 ### 📂 PS5 File Explorer
 📂 **JSON Catégorie :** `https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/json/ps5_file_explorer.json`
 
 | Application | Version | Empreinte SHA-256 | Description |
 | :--- | :--- | :--- | :--- |
-| **Bfpilot** | [v0.4.4](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_file_explorer/BFpilot/v0.4.4/bfpilot_v0.4.4.elf) | `5a82376302...` | BFpilot is a lightweight PS5 payload that serves a browser-based file manager. |
-| **Bfpilot** | [v0.4.4](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_file_explorer/BFpilot/v0.4.4/BFpilot_v0.4.4.elf) | `5a82376302...` | BFpilot is a lightweight PS5 payload that serves a browser-based file manager. |
 | **Lapy Jb Daemon** | [Source-Fixe](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_file_explorer/Lapy_JB_Daemon/Source-Fixe/lapy_jb_daemon.elf) | `e8230ac459...` | Daemon pour le jailbreak de Lapy |
 | **PS5 Web File Manager** | [v1.9](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_file_explorer/ps5-web-file-manager/v1.9/ps5-web-file-manager_v1.9.elf) | `711cb076e8...` | PS5 Web File Manager http://your-ps5-ip:8888. |
 | **PS5 File Explorer** | [file-explorer-v0.2.1](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_file_explorer/PS5-File-Explorer/file-explorer-v0.2.1/PS5-File-Explorer_vfile-explorer-v0.2.1.elf) | `6d4b905b42...` | PS5 File Explorer http://your-ps5-ip:5905. |
@@ -178,7 +171,7 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 | Application | Version | Empreinte SHA-256 | Description |
 | :--- | :--- | :--- | :--- |
 | **Garlic Savemgr** | [v1.13.1](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_saves/garlic-savemgr/v1.13.1/garlic-savemgr_v1.13.1.elf) | `b0fc2fcdda...` | Save manager utility hosted on Forgejo. |
-| **Garlic Worker** | [v1.1.7](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_saves/garlic-worker/v1.1.7/garlic-worker_v1.1.7.elf) | `4d0055b1cd...` | Garlic worker payload component. |
+| **Garlic Worker** | [v1.1.7](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_saves/garlic-worker/v1.1.7/garlic-worker_v1.1.7.elf) | `2643f35cdf...` | Garlic worker payload component. |
 | **Playstation 5 Save Mounter** | [v2.0.1](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_saves/Playstation-5-Save-Mounter/v2.0.1/Playstation-5-Save-Mounter_v2.0.1.elf) | `79194e4d3d...` | PS5 Save Mounter application. |
 | **Savemnt Offset Dumper** | [1.0.0](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_saves/savemnt-offset-dumper/1.0.0/savemnt-offset-dumper_v1.0.0.elf) | `946328551f...` | Offset dumper for save mounting utilities. |
 
@@ -218,7 +211,6 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 | **Gdbsrv** | [v0.9](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/gdbsrv/v0.9/gdbsrv_v0.9.elf) | `fc91ea233c...` | GDB Debugger server payload. Port: 1234 |
 | **Klogsrv** | [v0.9](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/klogsrv/v0.9/klogsrv_v0.9.elf) | `e828ec1442...` | Kernel log server daemon. Port: 3232 |
 | **Ftpsrv Drakmor** | [1.16-ng-stable](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ftpsrv_drakmor/1.16-ng-stable/ftpsrv_drakmor_v1.16-ng-stable.elf) | `f19ae469b2...` | Drakmor's variant of the FTP server. Port: 21 |
-| **PS5 Ezremote Client** | [2.12](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ps5-ezremote-client/2.12/ps5-ezremote-client_v2.12.elf) | `e216388949...` | Easy remote client application for PS5. |
 | **PS5 Ezremote Server** | [1.10](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ps5-ezremote-server/1.10/ps5-ezremote-server_v1.10.elf) | `fa69eb0b49...` | Easy remote server component. Port: 8080 |
 | **Airpsx** | [0.19](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/airpsx/0.19/airpsx_v0.19.elf) | `ae025ca772...` | AirPSX server tool for PS5 ecosystem. |
 
@@ -250,11 +242,6 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 | **Ps Game State Lib** | [v0.1](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_utility/PS_Game_State_Lib/v0.1/PS_Game_State_Lib_v0.1.elf) | `a550e1494b...` | Standalone PS5 game-state detection payload - webui ps5ip:9877 . |
 | **Ps Discordpresence** | [v0.01](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_utility/PS-DiscordPresence/v0.01/PS-DiscordPresence_v0.01.elf) | `375cf619ea...` | PS5 game activity service with a local status endpoint and a Python Discord RPC bridge. |
 | **Unrar Ps5** | [v1.4.0](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_utility/unrar-ps5/v1.4.0/unrar-ps5_v1.4.0.elf) | `2ef04b0bc8...` | PS5 ELF payload for extracting RAR and 7z archives on a jailbroken PS5 and installing extracted apps into a configurable layout.. |
-| **PS5 Power Payloads Project** | [1.0](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_utility/PS5-Power-Payloads-Project/1.0/PS5-Power-Payloads-Project_v1.0.elf) | `a06cf9ace6...` | PS5-Power-Payloads-Project utility. |
-| **Ps5Power Reboot** | [1.0](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_utility/PS5-Power-Payloads-Project/1.0/ps5power-reboot_v1.0.elf) | `3614f68981...` | PS5-Power-Payloads-Project utility. |
-| **Ps5Power Notify Test** | [1.0](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_utility/PS5-Power-Payloads-Project/1.0/ps5power-notify_test_v1.0.elf) | `a06cf9ace6...` | PS5-Power-Payloads-Project utility. |
-| **Ps5Power Poweroff** | [1.0](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_utility/PS5-Power-Payloads-Project/1.0/ps5power-poweroff_v1.0.elf) | `42ed798361...` | PS5-Power-Payloads-Project utility. |
-| **Ps5Power Suspend** | [1.0](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_utility/PS5-Power-Payloads-Project/1.0/ps5power-suspend_v1.0.elf) | `1a36a01c92...` | PS5-Power-Payloads-Project utility. |
 | **PS5 Date Time Sync** | [v1.0.0](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_utility/ps5-date-time-sync/v1.0.0/ps5-date-time-sync_v1.0.0.elf) | `9180622980...` | A lightweight, standalone PS5 payload that restores the console's system date and time using public NTP servers. |
 
 ### 📦 PS5 Video Player
@@ -286,7 +273,6 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 - **EchoStretch** : [kstuff_EchoStretch](https://github.com/EchoStretch/kstuff)
 - **EchoStretch** : [ps5-app-dumper](https://github.com/EchoStretch/ps5-app-dumper)
 - **Itemzflow** : [Itemzflow_Game_Manager](https://github.com/nexgen999/Evox_PS5PKG_Private/releases/download/v1.0/PS5PKG_Itemzflow_Game_Manager_v1.14.pkg)
-- **ItsBlurf** : [BFpilot](https://github.com/ItsBlurf/BFpilot)
 - **ItsBlurf** : [BFplayer-standalone](https://github.com/ItsBlurf/BFplayer)
 - **ItsBlurf** : [PoorDS4](https://github.com/ItsBlurf/PoorDS4)
 - **ItsJokerZz** : [FPKGi](https://github.com/nexgen999/Evox_PS5PKG_Private/releases/download/v1.0/PS5PKG_FPKGi_v1.10.0.pkg)
@@ -295,7 +281,6 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 - **Lapy** : [PS5-Xplorer](https://github.com/nexgen999/Evox_PS5PKG_Private/releases/download/v1.0/PS5PKG_PS5-Xplorer_v1.05.pkg)
 - **LightningMods** : [etaHEN](https://github.com/etaHEN/etaHEN)
 - **Master0** : [PS5Webit-Nexgen999_Installer](https://github.com/nexgen999/Evox_PS5PKG_Private/releases/download/v1.0/PS5PKG_PS5Webit-Nexgen999_Installer_v1.00.pkg)
-- **MasterPS0** : [PS5-Power-Payloads-Project](https://github.com/MasterPS0/PS5-Power-Payloads-Project)
 - **Michele-M-Media** : [PIZZA-HEN](https://github.com/Michele-M-Media/PIZZA-HEN)
 - **MounirHero** : [PS-Play](https://github.com/MounirHero/PS-Play)
 - **NikoBellikJR31** : [PS5-Custom-Tool-Manager-](https://github.com/NikoBellikJR31/PS5-Custom-Tool-Manager-)
@@ -317,9 +302,7 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 - **blackbearreloaded** : [ProsperoLight](https://github.com/blackbearreloaded/ProsperoLight/releases/download/01.000.050/PPSA99002.ffpfsc)
 - **blackbearreloaded** : [ProsperoRadio](https://github.com/blackbearreloaded/ProsperoRadio/releases/download/01.000.005/PPSA99001.ffpfsc)
 - **blackbearreloaded** : [ProsperoTV](https://github.com/blackbearreloaded/ProsperoTV/releases/download/01.000.003/PPSA99003.ffpfsc)
-- **cy33hc** : [ps5-ezremote-client](https://github.com/cy33hc/ps5-ezremote-client)
 - **cy33hc** : [ps5-ezremote-server](https://github.com/cy33hc/ps5-ezremote-server)
-- **drakmor** : [fan_target](https://github.com/drakmor/fan_target)
 - **drakmor** : [ftpsrv_drakmor](https://github.com/drakmor/ftpsrv)
 - **drakmor** : [kstuff-lite_drakmor](https://github.com/drakmor/kstuff-lite)
 - **drakmor** : [ps5-hwinfo](https://github.com/drakmor/ps5-hwinfo)
