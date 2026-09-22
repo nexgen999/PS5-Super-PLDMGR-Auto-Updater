@@ -51,13 +51,13 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 
 | Application | Version | Empreinte SHA-256 | Description |
 | :--- | :--- | :--- | :--- |
-| **A53 Kstuff Shadowmountplus 3In1** | [Source-Fixe](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/A53-Kstuff-ShadowMountPlus-3in1_SoNic-AIO_Experimental/Source-Fixe/A53-Kstuff-ShadowMountPlus-3in1.elf) | `00012db16d...` | Experimental AIO by SoNic credit to EchoStrech DarkMor |
-| **A53 Kstuff Smp** | [Source-Fixe](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/A53-kstuff-SMP_SoNic-AIO_Experimental/Source-Fixe/A53-kstuff-SMP.elf) | `d8f3ae2eb0...` | Experimental AIO by SoNic credit to EchoStrech DarkMor |
-| **Kstuff** | [Source-Fixe](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/kstuff_Darkmor_Experimental/Source-Fixe/kstuff_v1.12-dr-test8.elf) | `05c9451e2b...` | Experimental Kstuff DarkMor |
-| **Shadowmountplus** | [Source-Fixe](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/ShadowMountPlus/Source-Fixe/ShadowMountPlus_v1.7alpha13fix1-13-g072c17.elf) | `f1d755baea...` | ShadowMountPlus experimental for FPKG |
-| **A53 Ppr Install Fast** | [Source-Fixe](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/A53_Experimental_KS-D/Source-Fixe/a53_ppr_install_fast_v15.09.elf) | `354c601200...` | A53 Experimental for Kstuff-Darkmor |
-| **Kstuff Echostrech** | [Source-Fixe](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/Kstuff_EchoStrech_Experimental/Source-Fixe/kstuff-echostrech_v1.11expermiental.elf) | `422b2ad0d7...` | Experimental Kstuff EchoStrech |
-| **A53 Exploit Experimental** | [Source-Fixe](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/A53_Experimental_KS-E/Source-Fixe/a53_exploit-experimental.elf) | `6bb3f31967...` | A53 Experimental for Kstuff-EchoStrech |
+| **A53 Kstuff Shadowmountplus 3In1** | [Source-Fixe](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/A53-Kstuff-ShadowMountPlus-3in1_SoNic-AIO_Experimental/Source-Fixe/A53-Kstuff-ShadowMountPlus-3in1.elf) | `e4b1861851...` | Experimental AIO by SoNic credit to EchoStrech DarkMor |
+| **A53 Kstuff Smp** | [Source-Fixe](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/A53-kstuff-SMP_SoNic-AIO_Experimental/Source-Fixe/A53-kstuff-SMP.elf) | `7f03ca34cc...` | Experimental AIO by SoNic credit to EchoStrech DarkMor |
+| **Kstuff** | [Source-Fixe](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/kstuff_Darkmor_Experimental/Source-Fixe/kstuff_v1.12-dr-test8.elf) | `d5dc88d6e6...` | Experimental Kstuff DarkMor |
+| **Shadowmountplus** | [Source-Fixe](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/ShadowMountPlus/Source-Fixe/ShadowMountPlus_v1.7alpha13fix1-13-g072c17.elf) | `aa9cd52fe2...` | ShadowMountPlus experimental for FPKG |
+| **A53 Ppr Install Fast** | [Source-Fixe](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/A53_Experimental_KS-D/Source-Fixe/a53_ppr_install_fast_v15.09.elf) | `4f70e421f9...` | A53 Experimental for Kstuff-Darkmor |
+| **Kstuff Echostrech** | [Source-Fixe](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/Kstuff_EchoStrech_Experimental/Source-Fixe/kstuff-echostrech_v1.11expermiental.elf) | `071a1eabf6...` | Experimental Kstuff EchoStrech |
+| **A53 Exploit Experimental** | [Source-Fixe](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/A53_Experimental_KS-E/Source-Fixe/a53_exploit-experimental.elf) | `21e18c8d39...` | A53 Experimental for Kstuff-EchoStrech |
 
 ### 🏴‍☠️ PS5 Cheat
 📂 **JSON Catégorie :** `https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/json/PS5_Cheat.json`
@@ -211,16 +211,10 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 
 | Application | Version | Empreinte SHA-256 | Description |
 | :--- | :--- | :--- | :--- |
-| **Zftpd Ps4 Zhttp V1.5.0** | [v1.5.0](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/zftpd/v1.5.0/zftpd-ps4-zhttp-v1.5.0_v1.5.0.bin) | `265061cca8...` | FTP server payload for PS5. Port: 21 |
-| **Zftpd** | [v1.5.0](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/zftpd/v1.5.0/zftpd_v1.5.0.elf) | `bc21772cea...` | FTP server payload for PS5. Port: 21 |
-| **Zftpd** | [v1.5.0](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/zftpd/v1.5.0/zftpd_v1.5.0.bin) | `f430dc1fde...` | FTP server payload for PS5. Port: 21 |
 | **Zftpd Ps5 Zhttp V1.5.0** | [v1.5.0](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/zftpd/v1.5.0/zftpd-ps5-zhttp-v1.5.0_v1.5.0.elf) | `6cf6a73811...` | FTP server payload for PS5. Port: 21 |
-| **Zftpd Ps5 Zhttp V1.5.0** | [v1.5.0](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/zftpd/v1.5.0/zftpd-ps5-zhttp-v1.5.0_v1.5.0.bin) | `9340aa91f8...` | FTP server payload for PS5. Port: 21 |
-| **Zftpd Ps4 Zhttp V1.5.0** | [v1.5.0](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/zftpd/v1.5.0/zftpd-ps4-zhttp-v1.5.0_v1.5.0.elf) | `5d2f96ccf0...` | FTP server payload for PS5. Port: 21 |
+| **Zhttp** | [v1.5.0](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/zftpd/v1.5.0/zhttp_v1.5.0.elf) | `6cf6a73811...` | FTP server payload for PS5. Port: 21 |
 | **Zftpd Ps5 V1.5.0** | [v1.5.0](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/zftpd/v1.5.0/zftpd-ps5-v1.5.0_v1.5.0.elf) | `68a80e1cb4...` | FTP server payload for PS5. Port: 21 |
-| **Zftpd Ps4 V1.5.0** | [v1.5.0](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/zftpd/v1.5.0/zftpd-ps4-v1.5.0_v1.5.0.bin) | `0f724dc57c...` | FTP server payload for PS5. Port: 21 |
-| **Zftpd Ps5 V1.5.0** | [v1.5.0](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/zftpd/v1.5.0/zftpd-ps5-v1.5.0_v1.5.0.bin) | `f430dc1fde...` | FTP server payload for PS5. Port: 21 |
-| **Zftpd Ps4 V1.5.0** | [v1.5.0](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/zftpd/v1.5.0/zftpd-ps4-v1.5.0_v1.5.0.elf) | `bc21772cea...` | FTP server payload for PS5. Port: 21 |
+| **Zftpd** | [v1.5.0](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/zftpd/v1.5.0/zftpd_v1.5.0.elf) | `68a80e1cb4...` | FTP server payload for PS5. Port: 21 |
 | **Elfldr** | [v0.26](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/elfldr/v0.26/elfldr_v0.26.elf) | `ed6d587a05...` | ELF Loader utility. Port: 9020 / 9021 |
 | **Ftpsrv Ps5 Payload** | [v0.21.1](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ftpsrv_ps5-payload/v0.21.1/ftpsrv_ps5-payload_v0.21.1.elf) | `0ccfe00970...` | FTP server background daemon. Port: 21 |
 | **Websrv** | [v0.34](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/websrv/v0.34/websrv_v0.34.elf) | `54730c867c...` | HTTP Web server payload. Port: 8080 |
