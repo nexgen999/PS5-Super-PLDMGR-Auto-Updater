@@ -7,37 +7,37 @@
     <item>
       <title>A53 Kstuff Shadowmountplus 3In1 (Source-Fixe)</title>
       <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/A53-Kstuff-ShadowMountPlus-3in1_SoNic-AIO_Experimental/Source-Fixe/A53-Kstuff-ShadowMountPlus-3in1.elf</link>
-      <description>Experimental AIO by SoNic credit to EchoStrech DarkMor - Checksum: bba2d57bc64b743ef1d4d3e3518ffee901c7159ae82309a66927e77f35bca646</description>
+      <description>Experimental AIO by SoNic credit to EchoStrech DarkMor - Checksum: 68b70699e636da895b13197e6420fc45eeb5925f148678e29a941cb7f03bf7d0</description>
     </item>
     <item>
       <title>A53 Kstuff Smp (Source-Fixe)</title>
       <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/A53-kstuff-SMP_SoNic-AIO_Experimental/Source-Fixe/A53-kstuff-SMP.elf</link>
-      <description>Experimental AIO by SoNic credit to EchoStrech DarkMor - Checksum: ff4f59534980d3cfc3e3e6db57bd6b70c4cbfa462095159a28a2fbab22918a9e</description>
+      <description>Experimental AIO by SoNic credit to EchoStrech DarkMor - Checksum: b6d4c8b36f2010c94cde6d5b5a0dccf083d66ba5338c11284cc7a7dc76672fec</description>
     </item>
     <item>
       <title>Kstuff (Source-Fixe)</title>
       <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/kstuff_Darkmor_Experimental/Source-Fixe/kstuff_v1.12-dr-test8.elf</link>
-      <description>Experimental Kstuff DarkMor - Checksum: 05e43c335081ff049342b8ba44f2a89b1c69192deacb20abc75e855baeb69fa3</description>
+      <description>Experimental Kstuff DarkMor - Checksum: 45de30c24751f111cc5e5604bfca3e3654cfa28a4a259b857877cfcb100c2ee5</description>
     </item>
     <item>
       <title>Shadowmountplus (Source-Fixe)</title>
       <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/ShadowMountPlus/Source-Fixe/ShadowMountPlus_v1.7alpha13fix1-13-g072c17.elf</link>
-      <description>ShadowMountPlus experimental for FPKG - Checksum: 904faa43ef9a8f0ebf7e83543eec629d5abf0df64db23e1af3b61d10d036faf4</description>
+      <description>ShadowMountPlus experimental for FPKG - Checksum: 36b4712a458666378025eb42e841379b8f84942815ba55129d2b8c2c0ffbabf8</description>
     </item>
     <item>
       <title>A53 Ppr Install Fast (Source-Fixe)</title>
       <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/A53_Experimental_KS-D/Source-Fixe/a53_ppr_install_fast_v15.09.elf</link>
-      <description>A53 Experimental for Kstuff-Darkmor - Checksum: b768927206f5d96015ef4617725af358b6c14cef2d06f97b00307efa8744f4ee</description>
+      <description>A53 Experimental for Kstuff-Darkmor - Checksum: 54a040803837ee0adfe1ed6d7e4c9d41a3f505ad7e2fa53ae0b2bd81e1bc525d</description>
     </item>
     <item>
       <title>Kstuff Echostrech (Source-Fixe)</title>
       <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/Kstuff_EchoStrech_Experimental/Source-Fixe/kstuff-echostrech_v1.11expermiental.elf</link>
-      <description>Experimental Kstuff EchoStrech - Checksum: f2c5bd69fa3afabe7d8405a81166d4aa382020b21dfec41a78f016700c60bbfb</description>
+      <description>Experimental Kstuff EchoStrech - Checksum: aee9a9416c0cb50f3e05f24f24e7b0c2a69d7cb8a40655a74eb533bb7c5db8c6</description>
     </item>
     <item>
       <title>A53 Exploit Experimental (Source-Fixe)</title>
       <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/A53_Experimental_KS-E/Source-Fixe/a53_exploit-experimental.elf</link>
-      <description>A53 Experimental for Kstuff-EchoStrech - Checksum: 6792a40735c7481bfa9fd04d349c121779ddd85b48c0a5338ac09e694417194b</description>
+      <description>A53 Experimental for Kstuff-EchoStrech - Checksum: b3cc577e6847bed45095fc6bee66f3e7fc2d7426dcf1e18361316f4ad13d13a6</description>
     </item>
     <item>
       <title>Ps5Debug Ng (1.3.0)</title>
@@ -533,11 +533,6 @@
       <title>PS5 Ezremote Server (1.10)</title>
       <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ps5-ezremote-server/1.10/ps5-ezremote-server_v1.10.elf</link>
       <description>Easy remote server component. Port: 8080 - Checksum: fa69eb0b49894356b84ce996de863d53884e5506a8fbcc0d079759a23b8905f3</description>
-    </item>
-    <item>
-      <title>Ps5Upload (v5.31.4)</title>
-      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ps5upload/v5.31.4/ps5upload_v5.31.4.elf</link>
-      <description>PS5 Upload server / tool. Port: 9025 - Checksum: 420bdd4d9328ab1068f32ef1a19f96387586ddd2a308744f81957d04d8a41d3b</description>
     </item>
     <item>
       <title>Airpsx (0.19)</title>
