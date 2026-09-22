@@ -6,7 +6,6 @@ import hashlib
 import subprocess
 import urllib.request
 import zipfile
-import html
 
 FEED_DIR = "feed"
 PKG_FEED_DIR = "PKGfeed"
@@ -14,6 +13,7 @@ JSON_DIR = "json"
 PKG_JSON_DIR = "PKGjson"
 RSS_DIR = "rss"
 PAYLOADS_ROOT = "payloads"
+MISSING_LOG_FILE = "missing_repos.log"
 
 os.makedirs(JSON_DIR, exist_ok=True)
 os.makedirs(PKG_JSON_DIR, exist_ok=True)
@@ -23,6 +23,7 @@ os.makedirs(PAYLOADS_ROOT, exist_ok=True)
 all_payloads_flat_list = []
 all_pkgs_flat_list = []
 credits_list = set()
+missing_repos = []
 
 print("=== Début de la synchronisation ===")
 
@@ -85,6 +86,7 @@ for opml_file in opml_files:
                 downloaded = True
             except Exception as e:
                 print(f"    ⚠️ Échec du téléchargement de la source fixe : {e}")
+                missing_repos.append(f"Source fixe introuvable ({title}) : {xml_url}")
 
         # Releases GitHub
         if not downloaded and "github.com" in xml_url:
@@ -93,11 +95,11 @@ for opml_file in opml_files:
                 repo = repo_match.group(1).rstrip('.git')
                 repo_lower = repo.lower()
                 try:
-                    res_tag = subprocess.check_output(f"gh release list --repo {repo} --limit 1 --json tagName --jq '.[0].tagName'", shell=True).decode().strip()
+                    res_tag = subprocess.check_output(f"gh release list --repo {repo} --limit 1 --json tagName --jq '.[0].tagName' 2>/dev/null", shell=True).decode().strip()
                     if res_tag: 
                         version = res_tag
                     else:
-                        res_tag = subprocess.check_output(f"gh repo view {repo} --json latestRelease --jq '.latestRelease.tagName'", shell=True).decode().strip()
+                        res_tag = subprocess.check_output(f"gh repo view {repo} --json latestRelease --jq '.latestRelease.tagName' 2>/devnull", shell=True).decode().strip()
                         if res_tag: version = res_tag
                 except:
                     pass
@@ -109,7 +111,7 @@ for opml_file in opml_files:
                 try:
                     print(f"    -> Téléchargement GitHub ({version})...")
                     
-                    # CAS SPÉCIFIQUE : smoxa/ps5-new-overlay (API directe pour récupérer les 2 ELF)
+                    # CAS SPÉCIFIQUE : smoxa/ps5-new-overlay (API directe)
                     if "smoxa/ps5-new-overlay" in repo_lower:
                         try:
                             api_url = f"https://api.github.com/repos/{repo}/releases/latest"
@@ -125,13 +127,15 @@ for opml_file in opml_files:
                                     asset_name = asset.get('name', '')
                                     download_url = asset.get('browser_download_url', '')
                                     if asset_name.lower().endswith('.elf'):
-                                        print(f"       --> Téléchargement direct API : {asset_name}")
                                         urllib.request.urlretrieve(download_url, os.path.join(target_dir, asset_name))
                                         downloaded = True
                         except Exception as overlay_err:
                             print(f"    ⚠️ Erreur overlay API : {overlay_err}")
                     else:
-                        subprocess.call(f"gh release download '{version}' --repo '{repo}' --dir '{target_dir}' --clobber 2>/devnull", shell=True)
+                        # Correction de la syntaxe 2>/dev/null
+                        res_code = subprocess.call(f"gh release download '{version}' --repo '{repo}' --dir '{target_dir}' --clobber 2>/dev/null", shell=True)
+                        if res_code != 0:
+                            missing_repos.append(f"Dépôt/Release GitHub introuvable ou inaccessible ({title}) : {repo}")
                     
                     # Extractions des ZIP (Shadowmount, Poords4, etc.)
                     if "poords4" in repo_lower or "fan_target" in repo_lower or "shadowmountplus" in repo_lower or "instalador-host-psm-poop2jb" in repo_lower:
@@ -198,8 +202,11 @@ for opml_file in opml_files:
                                 if any(asset_name.lower().endswith(ext) for ext in ['.elf', '.bin', '.zip', '.pkg']):
                                     urllib.request.urlretrieve(asset_url, os.path.join(target_dir, asset_name))
                                     downloaded = True
+                        else:
+                            missing_repos.append(f"Aucune release Forgejo ({title}) : {repo_path}")
             except Exception as e:
                 print(f"    ℹ️ Erreur API Forgejo ({e})")
+                missing_repos.append(f"Erreur API Forgejo 404/Inaccessible ({title}) : {xml_url}")
 
         # Analyse & Renommage
         version_clean = re.sub(r'[^a-zA-Z0-9._-]', '', version) if version != "Source-Fixe" else "Source-Fixe"
@@ -351,7 +358,22 @@ with open(os.path.join(PKG_JSON_DIR, "pkg.json"), 'w', encoding='utf-8') as out_
 
 
 # =========================================================================
-# 3. GÉNÉRATION RSS & README.MD
+# 3. GÉNÉRATION DU FICHIER LOG DE RAPPORTS DE DÉPÔTS MANQUANTS
+# =========================================================================
+
+with open(MISSING_LOG_FILE, "w", encoding="utf-8") as log_file:
+    log_file.write("=== RAPPORT DES DÉPÔTS / LIENS MANQUANTS OU INACCESSIBLES ===\n\n")
+    if missing_repos:
+        for entry in sorted(set(missing_repos)):
+            log_file.write(f"- {entry}\n")
+    else:
+        log_file.write("Aucune erreur détectée. Tous les dépôts sont fonctionnels.\n")
+
+print(f"\n📄 Rapport de dépôts manquants généré : {MISSING_LOG_FILE}")
+
+
+# =========================================================================
+# 4. GÉNÉRATION RSS & README.MD
 # =========================================================================
 
 print("\n📡 Génération des flux RSS...")
