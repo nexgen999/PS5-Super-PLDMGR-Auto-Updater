@@ -5,5 +5,6 @@
   </head>
   <body>
     <outline text="ps5-pkg-manager" title="ps5-pkg-manager" type="rss" xmlUrl="https://github.com/itsPLK/ps5-pkg-manager" author="itsPLK" description="A clean and intuitive package manager for PlayStation 5"/>
+    <outline text="pkg-receiver" title="pkg-receiver" type="rss" xmlUrl="https://github.com/Loopayeh/pkg-sender" author="Loopayeh" description="A package manager for PlayStation 5 need PkgSender android app or windows app"/>
   </body>
 </opml>
