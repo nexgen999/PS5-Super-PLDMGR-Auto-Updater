@@ -1,0 +1,14 @@
+{
+  "name": "PS5 Browser",
+  "payloads": [
+    {
+      "name": "Browser Launcher",
+      "filename": "browser_launcher_v1.0.0.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Browser/PS5_Browser_App/v1.0.0/browser_launcher_v1.0.0.elf",
+      "description": "PS5 Browser App.",
+      "version": "v1.0.0",
+      "category": "PS5 Browser",
+      "checksum": "8162e9c0988e0e69d506840d3ba0a239fdbc5fbea60517cfaa6f820b23cd96f4"
+    }
+  ]
+}

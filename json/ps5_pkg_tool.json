@@ -9,6 +9,15 @@
       "version": "v1.2.4",
       "category": "PS5 Pkg Tool",
       "checksum": "77c945c890c7a5e520cd30a45ebc13fdbf18792e4a0315ac9402914a4f81c566"
+    },
+    {
+      "name": "Pkg Receiver",
+      "filename": "pkg-receiver_v1.2.7.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_pkg_tool/pkg-receiver/v1.2.7/pkg-receiver_v1.2.7.elf",
+      "description": "A package manager for PlayStation 5 need PkgSender android app or windows app",
+      "version": "v1.2.7",
+      "category": "PS5 Pkg Tool",
+      "checksum": "fe61e8fc2b87f359817edd7d3d2d520a18a505aba6c1a451ded95c93e32b2101"
     }
   ]
 }
