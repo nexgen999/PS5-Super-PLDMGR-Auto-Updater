@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>PS5_Browser</title>
+  </head>
+  <body>
+    <outline text="PS5 Browser App" title="PS5 Browser App" type="rss" xmlUrl="https://github.com/KAR0218/KAR0218.github.io" author="KAR0218" description="PS5 Browser App."/>
+  </body>
+</opml>
