@@ -62,37 +62,32 @@
     <item>
       <title>A53 Kstuff Shadowmountplus 3In1 (Source-Fixe)</title>
       <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/A53-Kstuff-ShadowMountPlus-3in1_SoNic-AIO_Experimental/Source-Fixe/A53-Kstuff-ShadowMountPlus-3in1.elf</link>
-      <description>Experimental AIO by SoNic credit to EchoStrech DarkMor - Checksum: 76307faad0bf387ccbcd50e23f0ae39efd267daa4b5e0e55dec1fe8054e99764</description>
+      <description>Experimental AIO by SoNic credit to EchoStrech DarkMor - Checksum: 792d4d4e90205b930095fad0e37fc7d8fa3813a709796a08cf8d2cb76c2f4c63</description>
     </item>
     <item>
       <title>A53 Kstuff Smp (Source-Fixe)</title>
       <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/A53-kstuff-SMP_SoNic-AIO_Experimental/Source-Fixe/A53-kstuff-SMP.elf</link>
-      <description>Experimental AIO by SoNic credit to EchoStrech DarkMor - Checksum: 9c8fde8ceca8c328441222cdb78dec157107163b740dd0be22a569a3eaf80463</description>
+      <description>Experimental AIO by SoNic credit to EchoStrech DarkMor - Checksum: 2379335db2cf4a1fe017ea756c561037b2a267c1cf51a8eb98cbdfe101d3cef8</description>
     </item>
     <item>
       <title>Kstuff (Source-Fixe)</title>
       <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/kstuff_Darkmor_Experimental/Source-Fixe/kstuff_v1.12-dr-test8.elf</link>
-      <description>Experimental Kstuff DarkMor - Checksum: 60cda6eb23b3ebde4564f4b7c993282ff14644ab44d11edf54a7394378ebaf1b</description>
+      <description>Experimental Kstuff DarkMor - kstuff-1.13-fpkg-dr-test3 - Checksum: 60cda6eb23b3ebde4564f4b7c993282ff14644ab44d11edf54a7394378ebaf1b</description>
     </item>
     <item>
-      <title>Shadowmountplus (Source-Fixe)</title>
-      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/ShadowMountPlus/Source-Fixe/ShadowMountPlus_v1.7alpha13fix1-13-g072c17.elf</link>
-      <description>ShadowMountPlus experimental for FPKG - Checksum: f706193fc706bf4f79667d39049efe6b3600338c15c2e509f74b8a26c9a5a06a</description>
+      <title>Kstuff 1.13 Fpkg Dr Test3 (Source-Fixe)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/kstuff_Darkmor_Experimental/Source-Fixe/kstuff-1.13-fpkg-dr-test3.elf</link>
+      <description>Experimental Kstuff DarkMor - kstuff-1.13-fpkg-dr-test3 - Checksum: e00bc0b9b84386b08fa4697c6246e988ba4cd42c0acd65749f089f2952a9488c</description>
     </item>
     <item>
-      <title>A53 Ppr Install Fast (Source-Fixe)</title>
-      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/A53_Experimental_KS-D/Source-Fixe/a53_ppr_install_fast_v15.09.elf</link>
-      <description>A53 Experimental for Kstuff-Darkmor - Checksum: dfaaaa0057e7ea97f3533c0187b917d920edbe2407aef63bff34d8bcdbbf20cd</description>
+      <title>A53 Ppr Install 1140 20.09 (Source-Fixe)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/A53_1.00-11.40_Experimental_KS-D/Source-Fixe/a53_ppr_install_1140_20.09.elf</link>
+      <description>a53_ppr_install_1140_20.09.elf - support 1.00-11.40 - Checksum: 0f477492a555f2cba5df4d99f7c9e25872e84b2fc773037189212d1ed6fb11d5</description>
     </item>
     <item>
-      <title>Kstuff Echostrech (Source-Fixe)</title>
-      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/Kstuff_EchoStrech_Experimental/Source-Fixe/kstuff-echostrech_v1.11expermiental.elf</link>
-      <description>Experimental Kstuff EchoStrech - Checksum: 9c674884edcc3da0fa4d5887c136ae7642ac16542b47da7b24d8f23aeb9ebe95</description>
-    </item>
-    <item>
-      <title>A53 Exploit Experimental (Source-Fixe)</title>
-      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/A53_Experimental_KS-E/Source-Fixe/a53_exploit-experimental.elf</link>
-      <description>A53 Experimental for Kstuff-EchoStrech - Checksum: 50984994b21a37342070f18307d64bb741f959354200df03ca428dc2d17248be</description>
+      <title>A53 Ppr Install 1160 20.09 (Source-Fixe)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/A53_11.60_only_Experimental_KS-D/Source-Fixe/a53_ppr_install_1160_20.09.elf</link>
+      <description>a53_ppr_install_1160_20.09.elf - 11.60 only - Checksum: efafec4a861f96c8ab24c1b5400b1cde3b143e585e26e16302d4dfdb47017dea</description>
     </item>
     <item>
       <title>Webkit Autoloader Installer (v0.4.0)</title>

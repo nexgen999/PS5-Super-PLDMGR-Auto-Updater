@@ -51,13 +51,12 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 
 | Application | Version | Empreinte SHA-256 | Description |
 | :--- | :--- | :--- | :--- |
-| **A53 Kstuff Shadowmountplus 3In1** | [Source-Fixe](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/A53-Kstuff-ShadowMountPlus-3in1_SoNic-AIO_Experimental/Source-Fixe/A53-Kstuff-ShadowMountPlus-3in1.elf) | `76307faad0...` | Experimental AIO by SoNic credit to EchoStrech DarkMor |
-| **A53 Kstuff Smp** | [Source-Fixe](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/A53-kstuff-SMP_SoNic-AIO_Experimental/Source-Fixe/A53-kstuff-SMP.elf) | `9c8fde8cec...` | Experimental AIO by SoNic credit to EchoStrech DarkMor |
-| **Kstuff** | [Source-Fixe](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/kstuff_Darkmor_Experimental/Source-Fixe/kstuff_v1.12-dr-test8.elf) | `60cda6eb23...` | Experimental Kstuff DarkMor |
-| **Shadowmountplus** | [Source-Fixe](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/ShadowMountPlus/Source-Fixe/ShadowMountPlus_v1.7alpha13fix1-13-g072c17.elf) | `f706193fc7...` | ShadowMountPlus experimental for FPKG |
-| **A53 Ppr Install Fast** | [Source-Fixe](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/A53_Experimental_KS-D/Source-Fixe/a53_ppr_install_fast_v15.09.elf) | `dfaaaa0057...` | A53 Experimental for Kstuff-Darkmor |
-| **Kstuff Echostrech** | [Source-Fixe](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/Kstuff_EchoStrech_Experimental/Source-Fixe/kstuff-echostrech_v1.11expermiental.elf) | `9c674884ed...` | Experimental Kstuff EchoStrech |
-| **A53 Exploit Experimental** | [Source-Fixe](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/A53_Experimental_KS-E/Source-Fixe/a53_exploit-experimental.elf) | `50984994b2...` | A53 Experimental for Kstuff-EchoStrech |
+| **A53 Kstuff Shadowmountplus 3In1** | [Source-Fixe](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/A53-Kstuff-ShadowMountPlus-3in1_SoNic-AIO_Experimental/Source-Fixe/A53-Kstuff-ShadowMountPlus-3in1.elf) | `792d4d4e90...` | Experimental AIO by SoNic credit to EchoStrech DarkMor |
+| **A53 Kstuff Smp** | [Source-Fixe](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/A53-kstuff-SMP_SoNic-AIO_Experimental/Source-Fixe/A53-kstuff-SMP.elf) | `2379335db2...` | Experimental AIO by SoNic credit to EchoStrech DarkMor |
+| **Kstuff** | [Source-Fixe](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/kstuff_Darkmor_Experimental/Source-Fixe/kstuff_v1.12-dr-test8.elf) | `60cda6eb23...` | Experimental Kstuff DarkMor - kstuff-1.13-fpkg-dr-test3 |
+| **Kstuff 1.13 Fpkg Dr Test3** | [Source-Fixe](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/kstuff_Darkmor_Experimental/Source-Fixe/kstuff-1.13-fpkg-dr-test3.elf) | `e00bc0b9b8...` | Experimental Kstuff DarkMor - kstuff-1.13-fpkg-dr-test3 |
+| **A53 Ppr Install 1140 20.09** | [Source-Fixe](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/A53_1.00-11.40_Experimental_KS-D/Source-Fixe/a53_ppr_install_1140_20.09.elf) | `0f477492a5...` | a53_ppr_install_1140_20.09.elf - support 1.00-11.40 |
+| **A53 Ppr Install 1160 20.09** | [Source-Fixe](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/A53_11.60_only_Experimental_KS-D/Source-Fixe/a53_ppr_install_1160_20.09.elf) | `efafec4a86...` | a53_ppr_install_1160_20.09.elf - 11.60 only |
 
 ### 📦 PS5 Browser
 📂 **JSON Catégorie :** `https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/json/PS5_Browser.json`
@@ -277,12 +276,10 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 - **Al-Azif** : [Chukei DNS](https://github.com/Al-Azif/chukei-dns)
 - **ArkSama** : [Lapy JB Daemon](https://raw.githubusercontent.com/ArkSama/PS5-Lapy-JB-Daemon/main/lapy_jb_daemon.elf)
 - **BestPig** : [BackPork](https://github.com/BestPig/BackPork)
-- **Darkmor** : [A53 Experimental KS-D](https://github.com/nexgen999/PS5-Super-PLDMGR-Auto-Updater/blob/main/Internal/payloads/beta/a53_ppr/a53_ppr_install_fast_v15.09.elf)
-- **Darkmor** : [ShadowMountPlus](https://github.com/nexgen999/PS5-Super-PLDMGR-Auto-Updater/blob/main/Internal/payloads/beta/ShadownMountPlusExpermiental/ShadowMountPlus_v1.7alpha13fix1-13-g072c17.elf)
-- **Darkmor** : [kstuff_Darkmor_Experimental](https://github.com/nexgen999/PS5-Super-PLDMGR-Auto-Updater/blob/main/Internal/payloads/beta/Kstuff-Darkmor/kstuff_v1.12-dr-test8.elf)
+- **Darkmor** : [A53 1.00-11.40 Experimental KS-D](https://github.com/nexgen999/PS5-Super-PLDMGR-Auto-Updater/blob/main/Internal/payloads/beta/a53_ppr/a53_ppr_install_1140_20.09.elf)
+- **Darkmor** : [A53 11.60 only Experimental KS-D](https://github.com/nexgen999/PS5-Super-PLDMGR-Auto-Updater/blob/main/Internal/payloads/beta/a53_ppr/a53_ppr_install_1160_20.09.elf)
+- **Darkmor** : [kstuff_Darkmor_Experimental](https://github.com/nexgen999/PS5-Super-PLDMGR-Auto-Updater/blob/main/Internal/payloads/beta/Kstuff-Darkmor/kstuff-1.13-fpkg-dr-test3.elf)
 - **Drakmor** : [nanoDNS](https://github.com/drakmor/nanoDNS)
-- **EchoStrech** : [A53 Experimental KS-E](https://github.com/nexgen999/PS5-Super-PLDMGR-Auto-Updater/blob/main/Internal/payloads/beta/A53-KSE/a53_exploit-experimental.elf)
-- **EchoStrech** : [Kstuff_EchoStrech_Experimental](https://github.com/nexgen999/PS5-Super-PLDMGR-Auto-Updater/blob/main/Internal/payloads/beta/Kstuff-EchoStrech/kstuff-echostrech_v1.11expermiental.elf)
 - **EchoStretch** : [dump_installer](https://github.com/EchoStretch/dump_installer)
 - **EchoStretch** : [dump_runner](https://github.com/EchoStretch/dump_runner)
 - **EchoStretch** : [kstuff-lite_EchoStretch](https://github.com/EchoStretch/kstuff-lite)
