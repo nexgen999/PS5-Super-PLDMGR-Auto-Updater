@@ -62,27 +62,27 @@
     <item>
       <title>A53 Kstuff Shadowmountplus 3In1 (Source-Fixe)</title>
       <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/A53-Kstuff-ShadowMountPlus-3in1_SoNic-AIO_Experimental/Source-Fixe/A53-Kstuff-ShadowMountPlus-3in1.elf</link>
-      <description>Experimental AIO by SoNic credit to EchoStrech DarkMor - Checksum: d3ba639f2e870a8033a715e7266b391c2768dbad3b81f4e3400360c0e49aa3cd</description>
+      <description>Experimental AIO by SoNic credit to EchoStrech DarkMor - Checksum: 0c8a23604fac2aeb1e89187f95d479ed79e8e244c34c7145e2ddc56aa17dadec</description>
     </item>
     <item>
       <title>A53 Kstuff Smp (Source-Fixe)</title>
       <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/A53-kstuff-SMP_SoNic-AIO_Experimental/Source-Fixe/A53-kstuff-SMP.elf</link>
-      <description>Experimental AIO by SoNic credit to EchoStrech DarkMor - Checksum: 79e4c133da830ffcdfa81cbe6c30a02714729872eb0cfc8c96eb56c438978167</description>
+      <description>Experimental AIO by SoNic credit to EchoStrech DarkMor - Checksum: f29a6b8673fecb7efbf86685bfa7965dc13fcf86f8919d5d6f2c7d540fc02da7</description>
     </item>
     <item>
       <title>Kstuff 1.13 Fpkg Dr Test3 (Source-Fixe)</title>
       <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/kstuff_Darkmor_Experimental/Source-Fixe/kstuff-1.13-fpkg-dr-test3.elf</link>
-      <description>Experimental Kstuff DarkMor - kstuff-1.13-fpkg-dr-test3 - Checksum: 0c978c05cf07a63025e3109b5b4921a06c21510977090b0d6d86d4c4433de861</description>
+      <description>Experimental Kstuff DarkMor - kstuff-1.13-fpkg-dr-test3 - Checksum: 80f68144fb46453d9c233a23e0be416b946b7e25e61fe4ca52ad84b7cb73402e</description>
     </item>
     <item>
       <title>A53 Ppr Install 1140 20.09 (Source-Fixe)</title>
       <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/A53_1.00-11.40_Experimental_KS-D/Source-Fixe/a53_ppr_install_1140_20.09.elf</link>
-      <description>a53_ppr_install_1140_20.09.elf - support 1.00-11.40 - Checksum: a6c597c89b04340e6743d36f52f5ae0817eee56f52dabdbf78c2072b377f851b</description>
+      <description>a53_ppr_install_1140_20.09.elf - support 1.00-11.40 - Checksum: 06bfbd9427fb248ebdb86d9d5f5eec795c288b83d820921811ab2e2e6ec21117</description>
     </item>
     <item>
       <title>A53 Ppr Install 1160 20.09 (Source-Fixe)</title>
       <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/A53_11.60_only_Experimental_KS-D/Source-Fixe/a53_ppr_install_1160_20.09.elf</link>
-      <description>a53_ppr_install_1160_20.09.elf - 11.60 only - Checksum: 654ca10bf732755fe40b90036881249a7057796b152accefdeb153c545fe2bca</description>
+      <description>a53_ppr_install_1160_20.09.elf - 11.60 only - Checksum: 81112294e9f7cd215340a148c2873290ef41f625f733a8728360f53de96b87c2</description>
     </item>
     <item>
       <title>Webkit Autoloader Installer (v0.4.0)</title>
@@ -255,14 +255,14 @@
       <description>All-in-one media hub for jailbroken PlayStation 5 - Checksum: e3392379d5bc6ca4e44cb0d2a1d8921083b2c3ea480725f68378831874542d8d</description>
     </item>
     <item>
-      <title>Pkg Manager (v1.2.4)</title>
-      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_pkg_tool/ps5-pkg-manager/v1.2.4/pkg-manager_v1.2.4.elf</link>
-      <description>A clean and intuitive package manager for PlayStation 5 - Checksum: 77c945c890c7a5e520cd30a45ebc13fdbf18792e4a0315ac9402914a4f81c566</description>
+      <title>Pkg Manager (v1.3.0)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_pkg_tool/ps5-pkg-manager/v1.3.0/pkg-manager_v1.3.0.elf</link>
+      <description>A clean and intuitive package manager for PlayStation 5 - Checksum: 3566678158f73f1ebdf80a7cccec263a554c6fbad1563a0054c5e8fcc0f4eb47</description>
     </item>
     <item>
-      <title>Pkg Receiver (v1.2.7)</title>
-      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_pkg_tool/pkg-receiver/v1.2.7/pkg-receiver_v1.2.7.elf</link>
-      <description>A package manager for PlayStation 5 need PkgSender android app or windows app - Checksum: fe61e8fc2b87f359817edd7d3d2d520a18a505aba6c1a451ded95c93e32b2101</description>
+      <title>Pkg Receiver (v1.2.8)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_pkg_tool/pkg-receiver/v1.2.8/pkg-receiver_v1.2.8.elf</link>
+      <description>A package manager for PlayStation 5 need PkgSender android app or windows app - Checksum: 6946d52c6c04a3f43d3141a505394ba8e0c6923f17fe471054e11567c9a526c7</description>
     </item>
     <item>
       <title>Etahen (2.5B)</title>
