@@ -8,7 +8,7 @@
       "description": "Experimental AIO by SoNic credit to EchoStrech DarkMor",
       "version": "Source-Fixe",
       "category": "PS5 Beta",
-      "checksum": "97425367d01d17e514f80a3a1b629a0548c3365cf979fea99613fba7ae12a6c9"
+      "checksum": "264285baa2b10ee7d1718c33a5c4f052d37a1ecc97e1286fe0af26eaae96f418"
     },
     {
       "name": "A53 Kstuff Smp",
@@ -17,7 +17,7 @@
       "description": "Experimental AIO by SoNic credit to EchoStrech DarkMor",
       "version": "Source-Fixe",
       "category": "PS5 Beta",
-      "checksum": "b445a5909ac4ab687056d372ef268b305c252fd5a0b918ad3610df8bb21a5565"
+      "checksum": "a0741d0dc5d467559b6472bfca7527b34794e9b9329063b4705380a66cf40e4f"
     },
     {
       "name": "Kstuff 1.13 Fpkg Dr Test3",
@@ -26,7 +26,7 @@
       "description": "Experimental Kstuff DarkMor - kstuff-1.13-fpkg-dr-test3",
       "version": "Source-Fixe",
       "category": "PS5 Beta",
-      "checksum": "622aa5fb7e498853c03cc815468228c6b6ace017c5165e0dfe2fe8216c25e121"
+      "checksum": "55f09681ab67c938d90308a10a99dd4caf430edd47e2a698e5a0e1aab6611620"
     },
     {
       "name": "A53 Ppr Install 1140 20.09",
@@ -35,7 +35,7 @@
       "description": "a53_ppr_install_1140_20.09.elf - support 1.00-11.40",
       "version": "Source-Fixe",
       "category": "PS5 Beta",
-      "checksum": "cd22cb2a31987fe4056aab9fd157869041abe1382e9af1159c0ef682107fbc50"
+      "checksum": "042976e98f89b5a148783e0efa09c0d2d876954c16493377d030e9ebccfb701e"
     },
     {
       "name": "A53 Ppr Install 1160 20.09",
@@ -44,7 +44,7 @@
       "description": "a53_ppr_install_1160_20.09.elf - 11.60 only",
       "version": "Source-Fixe",
       "category": "PS5 Beta",
-      "checksum": "25afa9ef4a9cec19dfcda3b4ca9ebef71e7c5c0fea6757554db177123e7ccb4e"
+      "checksum": "af6c795d639b0c00907ab0d725a57942faa5ae98e70309415b4a00ea8ad40439"
     }
   ]
 }
