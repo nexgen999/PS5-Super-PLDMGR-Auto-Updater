@@ -62,27 +62,27 @@
     <item>
       <title>A53 Kstuff Shadowmountplus 3In1 (Source-Fixe)</title>
       <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/A53-Kstuff-ShadowMountPlus-3in1_SoNic-AIO_Experimental/Source-Fixe/A53-Kstuff-ShadowMountPlus-3in1.elf</link>
-      <description>Experimental AIO by SoNic credit to EchoStrech DarkMor - Checksum: 6d560bc7495ba6c201d68ad63615f86de8fb8cffc35275848bebd54c83e06a8c</description>
+      <description>Experimental AIO by SoNic credit to EchoStrech DarkMor - Checksum: 837d3156d66c1c0a9c5d07b0b052074c8abf69c542fee5b21d9927d3b86f2cf2</description>
     </item>
     <item>
       <title>A53 Kstuff Smp (Source-Fixe)</title>
       <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/A53-kstuff-SMP_SoNic-AIO_Experimental/Source-Fixe/A53-kstuff-SMP.elf</link>
-      <description>Experimental AIO by SoNic credit to EchoStrech DarkMor - Checksum: 8430ffe01aab557876818b0cfe93539c7c614f3e1bf81b56ae2fc31a5602435c</description>
+      <description>Experimental AIO by SoNic credit to EchoStrech DarkMor - Checksum: 68e4f0d9f186fc137cfe9a8800ba897910dfaf317e9364d3137566a66ebb7bea</description>
     </item>
     <item>
       <title>Kstuff 1.13 Fpkg Dr Test3 (Source-Fixe)</title>
       <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/kstuff_Darkmor_Experimental/Source-Fixe/kstuff-1.13-fpkg-dr-test3.elf</link>
-      <description>Experimental Kstuff DarkMor - kstuff-1.13-fpkg-dr-test3 - Checksum: 2ebd9ee1db5107a56761c2a0f0dbbc444681b0f6c0f54e92240f6528c8b769c1</description>
+      <description>Experimental Kstuff DarkMor - kstuff-1.13-fpkg-dr-test3 - Checksum: 9b3e9d30a8500f35f504e96233bb739f07a866ee6da06ad1f65abaa826a185f8</description>
     </item>
     <item>
       <title>A53 Ppr Install 1140 20.09 (Source-Fixe)</title>
       <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/A53_1.00-11.40_Experimental_KS-D/Source-Fixe/a53_ppr_install_1140_20.09.elf</link>
-      <description>a53_ppr_install_1140_20.09.elf - support 1.00-11.40 - Checksum: fd70b964b3680243058f875c9a811af68965b8a82319e434a62377516d01d9f5</description>
+      <description>a53_ppr_install_1140_20.09.elf - support 1.00-11.40 - Checksum: 7717ee898da0d2027f8d6409c376ed0acd4d93eee6e461f90c5e0bc34fd76848</description>
     </item>
     <item>
       <title>A53 Ppr Install 1160 20.09 (Source-Fixe)</title>
       <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/A53_11.60_only_Experimental_KS-D/Source-Fixe/a53_ppr_install_1160_20.09.elf</link>
-      <description>a53_ppr_install_1160_20.09.elf - 11.60 only - Checksum: 06fa82e59b8bd32e8ae670179d267b56d2db8c3e77a98b3f8a4bbf49654b237d</description>
+      <description>a53_ppr_install_1160_20.09.elf - 11.60 only - Checksum: c0f079f4f66cbcaa03719a3e214d5f5f5a0a205abcc0854fc691b855ee38c4b9</description>
     </item>
     <item>
       <title>Webkit Autoloader Installer (v0.4.0)</title>
@@ -255,9 +255,9 @@
       <description>All-in-one media hub for jailbroken PlayStation 5 - Checksum: e3392379d5bc6ca4e44cb0d2a1d8921083b2c3ea480725f68378831874542d8d</description>
     </item>
     <item>
-      <title>Pkg Manager (v1.3.0)</title>
-      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_pkg_tool/ps5-pkg-manager/v1.3.0/pkg-manager_v1.3.0.elf</link>
-      <description>A clean and intuitive package manager for PlayStation 5 - Checksum: 3566678158f73f1ebdf80a7cccec263a554c6fbad1563a0054c5e8fcc0f4eb47</description>
+      <title>Pkg Manager (v1.4.0)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_pkg_tool/ps5-pkg-manager/v1.4.0/pkg-manager_v1.4.0.elf</link>
+      <description>A clean and intuitive package manager for PlayStation 5 - Checksum: 3950d1a5ba4429bf1872bf6898859ba70910d95af439225c548cac092582493f</description>
     </item>
     <item>
       <title>Pkg Receiver (v1.2.8)</title>

@@ -107,7 +107,7 @@
       "description": "Experimental AIO by SoNic credit to EchoStrech DarkMor",
       "version": "Source-Fixe",
       "category": "PS5 Beta",
-      "checksum": "6d560bc7495ba6c201d68ad63615f86de8fb8cffc35275848bebd54c83e06a8c"
+      "checksum": "837d3156d66c1c0a9c5d07b0b052074c8abf69c542fee5b21d9927d3b86f2cf2"
     },
     {
       "name": "A53 Kstuff Smp",
@@ -116,7 +116,7 @@
       "description": "Experimental AIO by SoNic credit to EchoStrech DarkMor",
       "version": "Source-Fixe",
       "category": "PS5 Beta",
-      "checksum": "8430ffe01aab557876818b0cfe93539c7c614f3e1bf81b56ae2fc31a5602435c"
+      "checksum": "68e4f0d9f186fc137cfe9a8800ba897910dfaf317e9364d3137566a66ebb7bea"
     },
     {
       "name": "Kstuff 1.13 Fpkg Dr Test3",
@@ -125,7 +125,7 @@
       "description": "Experimental Kstuff DarkMor - kstuff-1.13-fpkg-dr-test3",
       "version": "Source-Fixe",
       "category": "PS5 Beta",
-      "checksum": "2ebd9ee1db5107a56761c2a0f0dbbc444681b0f6c0f54e92240f6528c8b769c1"
+      "checksum": "9b3e9d30a8500f35f504e96233bb739f07a866ee6da06ad1f65abaa826a185f8"
     },
     {
       "name": "A53 Ppr Install 1140 20.09",
@@ -134,7 +134,7 @@
       "description": "a53_ppr_install_1140_20.09.elf - support 1.00-11.40",
       "version": "Source-Fixe",
       "category": "PS5 Beta",
-      "checksum": "fd70b964b3680243058f875c9a811af68965b8a82319e434a62377516d01d9f5"
+      "checksum": "7717ee898da0d2027f8d6409c376ed0acd4d93eee6e461f90c5e0bc34fd76848"
     },
     {
       "name": "A53 Ppr Install 1160 20.09",
@@ -143,7 +143,7 @@
       "description": "a53_ppr_install_1160_20.09.elf - 11.60 only",
       "version": "Source-Fixe",
       "category": "PS5 Beta",
-      "checksum": "06fa82e59b8bd32e8ae670179d267b56d2db8c3e77a98b3f8a4bbf49654b237d"
+      "checksum": "c0f079f4f66cbcaa03719a3e214d5f5f5a0a205abcc0854fc691b855ee38c4b9"
     },
     {
       "name": "Webkit Autoloader Installer",
@@ -453,12 +453,12 @@
     },
     {
       "name": "Pkg Manager",
-      "filename": "pkg-manager_v1.3.0.elf",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_pkg_tool/ps5-pkg-manager/v1.3.0/pkg-manager_v1.3.0.elf",
+      "filename": "pkg-manager_v1.4.0.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_pkg_tool/ps5-pkg-manager/v1.4.0/pkg-manager_v1.4.0.elf",
       "description": "A clean and intuitive package manager for PlayStation 5",
-      "version": "v1.3.0",
+      "version": "v1.4.0",
       "category": "PS5 Pkg Tool",
-      "checksum": "3566678158f73f1ebdf80a7cccec263a554c6fbad1563a0054c5e8fcc0f4eb47"
+      "checksum": "3950d1a5ba4429bf1872bf6898859ba70910d95af439225c548cac092582493f"
     },
     {
       "name": "Pkg Receiver",
