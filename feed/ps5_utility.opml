@@ -13,5 +13,9 @@
     <outline text="unrar-ps5" title="unrar-ps5" type="rss" xmlUrl="https://github.com/bizkut/unrar-ps5" author="bizkut" description="PS5 ELF payload for extracting RAR and 7z archives on a jailbroken PS5 and installing extracted apps into a configurable layout.."/>
     <outline text="PS5-Power-Payloads-Project" title="PS5-Power-Payloads-Project" type="rss" xmlUrl="https://github.com/MasterPS0/PS5-Power-Payloads-Project" author="MasterPS0" description="PS5-Power-Payloads-Project utility."/>
     <outline text="ps5-date-time-sync" title="ps5-date-time-sync" type="rss" xmlUrl="https://github.com/kerrdec97/ps5-date-time-sync" author="kerrdec97" description="A lightweight, standalone PS5 payload that restores the console's system date and time using public NTP servers."/>
+    <outline text="FGG-XSense" title="FGG-XSense" type="rss" xmlUrl="https://github.com/FGGstore/FGG-XSense" author="FGGstore" description="Use an Xbox controller on a jailbroken PlayStation 5."/>
+    <outline text="FGG-PlayPods" title="FGG-PlayPods" type="rss" xmlUrl="https://github.com/FGGstore/FGG-PlayPods" author="FGGstore" description="Hear your PlayStation 5 on an ordinary Bluetooth headset."/>
+    <outline text="FGG-Unpack" title="FGG-Unpack" type="rss" xmlUrl="https://github.com/FGGstore/FGG-Unpack" author="FGGstore" description="Extract .zip and .7z archives directly on a jailbroken PlayStation 5."/>
+    <outline text="ghost-toothAPI" title="ghost-toothAPI" type="rss" xmlUrl="https://github.com/nexgen999/PS5-Super-PLDMGR-Auto-Updater/blob/main/Internal/payloads/ps5_utility/ghost-toothAPI/ghost-toothAPI.elf" author="StonedModder" description="ghost-toothAPI."/>
   </body>
 </opml>
