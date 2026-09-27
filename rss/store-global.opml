@@ -18,6 +18,9 @@
     <outline text="kstuff-toggle" title="kstuff-toggle" type="rss" xmlUrl="https://github.com/EchoStretch/kstuff-toggle" author="EchoStretch"/>
     <outline text="kstuff_EchoStretch" title="kstuff_EchoStretch" type="rss" xmlUrl="https://github.com/EchoStretch/kstuff" author="EchoStretch"/>
     <outline text="ps5-app-dumper" title="ps5-app-dumper" type="rss" xmlUrl="https://github.com/EchoStretch/ps5-app-dumper" author="EchoStretch"/>
+    <outline text="FGG-PlayPods" title="FGG-PlayPods" type="rss" xmlUrl="https://github.com/FGGstore/FGG-PlayPods" author="FGGstore"/>
+    <outline text="FGG-Unpack" title="FGG-Unpack" type="rss" xmlUrl="https://github.com/FGGstore/FGG-Unpack" author="FGGstore"/>
+    <outline text="FGG-XSense" title="FGG-XSense" type="rss" xmlUrl="https://github.com/FGGstore/FGG-XSense" author="FGGstore"/>
     <outline text="Itemzflow_Game_Manager" title="Itemzflow_Game_Manager" type="rss" xmlUrl="https://github.com/nexgen999/Evox_PS5PKG_Private/releases/download/v1.0/PS5PKG_Itemzflow_Game_Manager_v1.14.pkg" author="Itemzflow"/>
     <outline text="BFplayer-standalone" title="BFplayer-standalone" type="rss" xmlUrl="https://github.com/ItsBlurf/BFplayer" author="ItsBlurf"/>
     <outline text="PoorDS4" title="PoorDS4" type="rss" xmlUrl="https://github.com/ItsBlurf/PoorDS4" author="ItsBlurf"/>
@@ -42,7 +45,9 @@
     <outline text="Ghostpad" title="Ghostpad" type="rss" xmlUrl="https://github.com/StonedModder/Ghostpad" author="StonedModder"/>
     <outline text="PS Game State Lib" title="PS Game State Lib" type="rss" xmlUrl="https://github.com/StonedModder/ps-game-state-lib" author="StonedModder"/>
     <outline text="PS-DiscordPresence" title="PS-DiscordPresence" type="rss" xmlUrl="https://github.com/StonedModder/PS-DiscordPresence" author="StonedModder"/>
+    <outline text="ghost-toothAPI" title="ghost-toothAPI" type="rss" xmlUrl="https://github.com/nexgen999/PS5-Super-PLDMGR-Auto-Updater/blob/main/Internal/payloads/ps5_utility/ghost-toothAPI/ghost-toothAPI.elf" author="StonedModder"/>
     <outline text="savemnt-offset-dumper" title="savemnt-offset-dumper" type="rss" xmlUrl="https://github.com/StonedModder/savemnt-offset-dumper" author="StonedModder"/>
+    <outline text="elf-launcher" title="elf-launcher" type="rss" xmlUrl="https://github.com/X-F1REBALL-X/elf-launcher" author="X-F1REBALL-X"/>
     <outline text="kylin-core" title="kylin-core" type="rss" xmlUrl="https://raw.githubusercontent.com/nexgen999/PS5_Payload_Manager_Updater/main/ps5_cheat/kylin-core-community-lite-v131-global-release.elf" author="aydencharles"/>
     <outline text="onionHEN" title="onionHEN" type="rss" xmlUrl="https://github.com/aydencharles/onionHEN" author="aydencharles"/>
     <outline text="airpsx" title="airpsx" type="rss" xmlUrl="https://github.com/barisyild/airpsx" author="barisyild"/>
