@@ -34,6 +34,8 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 | **[Itemzflow_Game_Manager](https://github.com/nexgen999/Evox_PS5PKG_Private/releases/download/v1.0/PS5PKG_Itemzflow_Game_Manager_v1.14.pkg)** | Itemzflow | v1.14. | Itemzflow_Game_Manager. |
 | **[PS5-Xplorer](https://github.com/nexgen999/Evox_PS5PKG_Private/releases/download/v1.0/PS5PKG_PS5-Xplorer_v1.05.pkg)** | Lapy | v1.05. | PS5-Xplorer. |
 | **[PS5Webit-Nexgen999_Installer](https://github.com/nexgen999/Evox_PS5PKG_Private/releases/download/v1.0/PS5PKG_PS5Webit-Nexgen999_Installer_v1.00.pkg)** | Master0 | v1.00. | PS5Webit-Nexgen999_Installer. |
+| **[Mario Kart 64 Port](https://github.com/nexgen999/Evox_PS5PKG_Private/releases/download/v2.0/PS5PKG_MK64_Port.pkg)** | m0ur0ne | v1.0.0 | PS5PKG_MK64_Port. |
+| **[God Of War - Betrayal Port](https://github.com/nexgen999/Evox_PS5PKG_Private/releases/download/v2.0/PS5PKG_GOW-Betrayal_Port.pkg)** | m0ur0ne | v1.0.0 | PS5PKG_MK64_Port. |
 
 ---
 
@@ -51,11 +53,12 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 
 | Application | Version | Empreinte SHA-256 | Description |
 | :--- | :--- | :--- | :--- |
-| **A53 Kstuff Shadowmountplus 3In1** | [Source-Fixe](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/A53-Kstuff-ShadowMountPlus-3in1_SoNic-AIO_Experimental/Source-Fixe/A53-Kstuff-ShadowMountPlus-3in1.elf) | `cbca73253f...` | Experimental AIO by SoNic credit to EchoStrech DarkMor |
-| **A53 Kstuff Smp** | [Source-Fixe](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/A53-kstuff-SMP_SoNic-AIO_Experimental/Source-Fixe/A53-kstuff-SMP.elf) | `b0be107839...` | Experimental AIO by SoNic credit to EchoStrech DarkMor |
-| **Kstuff 1.13 Fpkg Dr Test3** | [Source-Fixe](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/kstuff_Darkmor_Experimental/Source-Fixe/kstuff-1.13-fpkg-dr-test3.elf) | `47589c3a29...` | Experimental Kstuff DarkMor - kstuff-1.13-fpkg-dr-test3 |
-| **A53 Ppr Install 1140 20.09** | [Source-Fixe](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/A53_1.00-11.40_Experimental_KS-D/Source-Fixe/a53_ppr_install_1140_20.09.elf) | `69c188ee62...` | a53_ppr_install_1140_20.09.elf - support 1.00-11.40 |
-| **A53 Ppr Install 1160 20.09** | [Source-Fixe](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/A53_11.60_only_Experimental_KS-D/Source-Fixe/a53_ppr_install_1160_20.09.elf) | `aca33b6c33...` | a53_ppr_install_1160_20.09.elf - 11.60 only |
+| **A53 Kstuff Shadowmountplus 3In1** | [Source-Fixe](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/A53-Kstuff-ShadowMountPlus-3in1_SoNic-AIO_Experimental/Source-Fixe/A53-Kstuff-ShadowMountPlus-3in1.elf) | `a1987467c0...` | Experimental AIO by SoNic credit to EchoStrech DarkMor |
+| **A53 Kstuff Smp** | [Source-Fixe](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/A53-kstuff-SMP_SoNic-AIO_Experimental/Source-Fixe/A53-kstuff-SMP.elf) | `16fad759cb...` | Experimental AIO by SoNic credit to EchoStrech DarkMor |
+| **Kstuff Ng** | [Source-Fixe](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/Kstuff-NG_EchoStrech_Experimental/Source-Fixe/Kstuff-NG_v1.00.elf) | `0a3c3a8c87...` | Experimental Kstuff NG |
+| **Kstuff 1.13 Fpkg Dr Test3** | [Source-Fixe](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/kstuff_Darkmor_Experimental/Source-Fixe/kstuff-1.13-fpkg-dr-test3.elf) | `0930b64358...` | Experimental Kstuff DarkMor - kstuff-1.13-fpkg-dr-test3 |
+| **A53 Ppr Install 1140 20.09** | [Source-Fixe](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/A53_1.00-11.40_Experimental_KS-D/Source-Fixe/a53_ppr_install_1140_20.09.elf) | `51df7b043d...` | a53_ppr_install_1140_20.09.elf - support 1.00-11.40 |
+| **A53 Ppr Install 1160 20.09** | [Source-Fixe](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/A53_11.60_only_Experimental_KS-D/Source-Fixe/a53_ppr_install_1160_20.09.elf) | `e129b506ac...` | a53_ppr_install_1160_20.09.elf - 11.60 only |
 
 ### 📦 PS5 Browser
 📂 **JSON Catégorie :** `https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/json/PS5_Browser.json`
@@ -121,10 +124,10 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 
 | Application | Version | Empreinte SHA-256 | Description |
 | :--- | :--- | :--- | :--- |
-| **Spectrum Library** | [1.4.6](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_freeshop/Spectrum-Library/1.4.6/Spectrum-Library_v1.4.6.elf) | `73dd3f3938...` | free store webadmin http://your-ps5-ip:7575. |
+| **Spectrum Library** | [1.4.7](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_freeshop/Spectrum-Library/1.4.7/Spectrum-Library_v1.4.7.bin) | `9c7b603801...` | free store webadmin http://your-ps5-ip:7575. |
 | **Pegasus Dl** | [v1.9.0](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_freeshop/pegasus-dl/v1.9.0/pegasus-dl_v1.9.0.elf) | `6336c626f0...` | free store webadmin http://your-ps5-ip:6970. |
 | **Ps5Shopappkg Dpi** | [Source-Fixe](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_freeshop/ps5shopappkg-dpi/Source-Fixe/ps5shopappkg-dpi.elf) | `c4672cfa90...` | You need PS5-SHOP-APPKG.pkg DPI port 9040. |
-| **Ps5Library** | [v0.2.10](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_freeshop/PS5Library/v0.2.10/PS5Library_v0.2.10.elf) | `3f77ef3e5b...` | You need PS5Library.pkg. |
+| **Ps5Library** | [v0.2.54](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_freeshop/PS5Library/v0.2.54/PS5Library_v0.2.54.elf) | `ddd201c104...` | You need PS5Library.pkg. |
 
 ### 💿 PS5 Game Dump
 📂 **JSON Catégorie :** `https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/json/ps5_game_dump.json`
@@ -279,6 +282,7 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 - **Darkmor** : [A53 11.60 only Experimental KS-D](https://github.com/nexgen999/PS5-Super-PLDMGR-Auto-Updater/blob/main/Internal/payloads/beta/a53_ppr/a53_ppr_install_1160_20.09.elf)
 - **Darkmor** : [kstuff_Darkmor_Experimental](https://github.com/nexgen999/PS5-Super-PLDMGR-Auto-Updater/blob/main/Internal/payloads/beta/Kstuff-Darkmor/kstuff-1.13-fpkg-dr-test3.elf)
 - **Drakmor** : [nanoDNS](https://github.com/drakmor/nanoDNS)
+- **EchoStrech** : [Kstuff-NG_EchoStrech_Experimental](https://github.com/nexgen999/PS5-Super-PLDMGR-Auto-Updater/blob/main/Internal/payloads/beta/Kstuff-NG/Kstuff-NG_v1.00.elf)
 - **EchoStretch** : [dump_installer](https://github.com/EchoStretch/dump_installer)
 - **EchoStretch** : [dump_runner](https://github.com/EchoStretch/dump_runner)
 - **EchoStretch** : [kstuff-lite_EchoStretch](https://github.com/EchoStretch/kstuff-lite)
@@ -337,6 +341,8 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 - **juma-sayeh** : [PS5-File-Explorer](https://github.com/juma-sayeh/PS5-File-Explorer)
 - **juma-sayeh** : [PS5-Game-Compressor](https://github.com/juma-sayeh/PS5-Game-Compressor)
 - **kerrdec97** : [ps5-date-time-sync](https://github.com/kerrdec97/ps5-date-time-sync)
+- **m0ur0ne** : [God Of War - Betrayal Port](https://github.com/nexgen999/Evox_PS5PKG_Private/releases/download/v2.0/PS5PKG_GOW-Betrayal_Port.pkg)
+- **m0ur0ne** : [Mario Kart 64 Port](https://github.com/nexgen999/Evox_PS5PKG_Private/releases/download/v2.0/PS5PKG_MK64_Port.pkg)
 - **n0llptr** : [Playstation-5-Save-Mounter](https://github.com/n0llptr/Playstation-5-Save-Mounter)
 - **notmaj0r** : [CheatRunner](https://github.com/notmaj0r/CheatRunner)
 - **notmaj0r** : [ProsperoMgr](https://github.com/notmaj0r/ProsperoMgr)

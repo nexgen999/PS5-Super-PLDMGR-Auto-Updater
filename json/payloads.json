@@ -107,7 +107,7 @@
       "description": "Experimental AIO by SoNic credit to EchoStrech DarkMor",
       "version": "Source-Fixe",
       "category": "PS5 Beta",
-      "checksum": "cbca73253fba8c00b5056b1911e8da5dff08397f37b38fe01950e722b1a6ac8d"
+      "checksum": "a1987467c0f0295de0690d27919fa880a6a7481ff2d4f5b59c9bc16ff7b0f92f"
     },
     {
       "name": "A53 Kstuff Smp",
@@ -116,7 +116,16 @@
       "description": "Experimental AIO by SoNic credit to EchoStrech DarkMor",
       "version": "Source-Fixe",
       "category": "PS5 Beta",
-      "checksum": "b0be1078397a3b5e7a49d70d390ceb7f92675e780cad34f7aa6f1c71f72c4aa3"
+      "checksum": "16fad759cb9b8eb47c1094536e137af37ec3ea562a726039d8b7c96a49ff22d8"
+    },
+    {
+      "name": "Kstuff Ng",
+      "filename": "Kstuff-NG_v1.00.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/Kstuff-NG_EchoStrech_Experimental/Source-Fixe/Kstuff-NG_v1.00.elf",
+      "description": "Experimental Kstuff NG",
+      "version": "Source-Fixe",
+      "category": "PS5 Beta",
+      "checksum": "0a3c3a8c875dc3cd7a737bcf3bea6fd7697bf2228df5d9cfbb0fb6444a986c1d"
     },
     {
       "name": "Kstuff 1.13 Fpkg Dr Test3",
@@ -125,7 +134,7 @@
       "description": "Experimental Kstuff DarkMor - kstuff-1.13-fpkg-dr-test3",
       "version": "Source-Fixe",
       "category": "PS5 Beta",
-      "checksum": "47589c3a296c549fd1cb088a194b30e79e94e79dafdb8081284577d6bc95e6d7"
+      "checksum": "0930b64358894c0568abb20e910e47e00750554a057e50a792b1baa1e4895bd3"
     },
     {
       "name": "A53 Ppr Install 1140 20.09",
@@ -134,7 +143,7 @@
       "description": "a53_ppr_install_1140_20.09.elf - support 1.00-11.40",
       "version": "Source-Fixe",
       "category": "PS5 Beta",
-      "checksum": "69c188ee6200f9ac6a483e5a7edd7cf8d1c6608ce085ad1a8cc33b4dfb9cd79a"
+      "checksum": "51df7b043d05c46f316999f95162d0e715f6d62b98c51611b397f82c98eb6af0"
     },
     {
       "name": "A53 Ppr Install 1160 20.09",
@@ -143,7 +152,7 @@
       "description": "a53_ppr_install_1160_20.09.elf - 11.60 only",
       "version": "Source-Fixe",
       "category": "PS5 Beta",
-      "checksum": "aca33b6c331a9fd65ef0ddfdea8aaef4ab4a2952a1db0df324c21b5b9e23d200"
+      "checksum": "e129b506acc64f300f21a719fa5f7c8684ab33fc83b7944901ee8640bd1a40d0"
     },
     {
       "name": "Webkit Autoloader Installer",
@@ -372,12 +381,12 @@
     },
     {
       "name": "Spectrum Library",
-      "filename": "Spectrum-Library_v1.4.6.elf",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_freeshop/Spectrum-Library/1.4.6/Spectrum-Library_v1.4.6.elf",
+      "filename": "Spectrum-Library_v1.4.7.bin",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_freeshop/Spectrum-Library/1.4.7/Spectrum-Library_v1.4.7.bin",
       "description": "free store webadmin http://your-ps5-ip:7575.",
-      "version": "1.4.6",
+      "version": "1.4.7",
       "category": "PS5 Freeshop",
-      "checksum": "73dd3f3938867ac970207ae8e4093e2d0c5b005bcad1ff9ff2aeb5d34294a161"
+      "checksum": "9c7b60380153cda2eb4a6f20ddc46774a621706388714d0fd97b492a6152f751"
     },
     {
       "name": "Pegasus Dl",
@@ -399,12 +408,12 @@
     },
     {
       "name": "Ps5Library",
-      "filename": "PS5Library_v0.2.10.elf",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_freeshop/PS5Library/v0.2.10/PS5Library_v0.2.10.elf",
+      "filename": "PS5Library_v0.2.54.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_freeshop/PS5Library/v0.2.54/PS5Library_v0.2.54.elf",
       "description": "You need PS5Library.pkg.",
-      "version": "v0.2.10",
+      "version": "v0.2.54",
       "category": "PS5 Freeshop",
-      "checksum": "3f77ef3e5b4610db4699b62ad04683c73419462285048fdf7ccb3bcc23a0065d"
+      "checksum": "ddd201c1041e90d736231f9dc18ae54d3b64c2500985573e9585c17dcb3cc55f"
     },
     {
       "name": "Uds Trophy Unlocker",

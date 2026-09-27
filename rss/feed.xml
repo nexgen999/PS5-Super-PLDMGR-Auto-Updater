@@ -62,27 +62,32 @@
     <item>
       <title>A53 Kstuff Shadowmountplus 3In1 (Source-Fixe)</title>
       <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/A53-Kstuff-ShadowMountPlus-3in1_SoNic-AIO_Experimental/Source-Fixe/A53-Kstuff-ShadowMountPlus-3in1.elf</link>
-      <description>Experimental AIO by SoNic credit to EchoStrech DarkMor - Checksum: cbca73253fba8c00b5056b1911e8da5dff08397f37b38fe01950e722b1a6ac8d</description>
+      <description>Experimental AIO by SoNic credit to EchoStrech DarkMor - Checksum: a1987467c0f0295de0690d27919fa880a6a7481ff2d4f5b59c9bc16ff7b0f92f</description>
     </item>
     <item>
       <title>A53 Kstuff Smp (Source-Fixe)</title>
       <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/A53-kstuff-SMP_SoNic-AIO_Experimental/Source-Fixe/A53-kstuff-SMP.elf</link>
-      <description>Experimental AIO by SoNic credit to EchoStrech DarkMor - Checksum: b0be1078397a3b5e7a49d70d390ceb7f92675e780cad34f7aa6f1c71f72c4aa3</description>
+      <description>Experimental AIO by SoNic credit to EchoStrech DarkMor - Checksum: 16fad759cb9b8eb47c1094536e137af37ec3ea562a726039d8b7c96a49ff22d8</description>
+    </item>
+    <item>
+      <title>Kstuff Ng (Source-Fixe)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/Kstuff-NG_EchoStrech_Experimental/Source-Fixe/Kstuff-NG_v1.00.elf</link>
+      <description>Experimental Kstuff NG - Checksum: 0a3c3a8c875dc3cd7a737bcf3bea6fd7697bf2228df5d9cfbb0fb6444a986c1d</description>
     </item>
     <item>
       <title>Kstuff 1.13 Fpkg Dr Test3 (Source-Fixe)</title>
       <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/kstuff_Darkmor_Experimental/Source-Fixe/kstuff-1.13-fpkg-dr-test3.elf</link>
-      <description>Experimental Kstuff DarkMor - kstuff-1.13-fpkg-dr-test3 - Checksum: 47589c3a296c549fd1cb088a194b30e79e94e79dafdb8081284577d6bc95e6d7</description>
+      <description>Experimental Kstuff DarkMor - kstuff-1.13-fpkg-dr-test3 - Checksum: 0930b64358894c0568abb20e910e47e00750554a057e50a792b1baa1e4895bd3</description>
     </item>
     <item>
       <title>A53 Ppr Install 1140 20.09 (Source-Fixe)</title>
       <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/A53_1.00-11.40_Experimental_KS-D/Source-Fixe/a53_ppr_install_1140_20.09.elf</link>
-      <description>a53_ppr_install_1140_20.09.elf - support 1.00-11.40 - Checksum: 69c188ee6200f9ac6a483e5a7edd7cf8d1c6608ce085ad1a8cc33b4dfb9cd79a</description>
+      <description>a53_ppr_install_1140_20.09.elf - support 1.00-11.40 - Checksum: 51df7b043d05c46f316999f95162d0e715f6d62b98c51611b397f82c98eb6af0</description>
     </item>
     <item>
       <title>A53 Ppr Install 1160 20.09 (Source-Fixe)</title>
       <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/A53_11.60_only_Experimental_KS-D/Source-Fixe/a53_ppr_install_1160_20.09.elf</link>
-      <description>a53_ppr_install_1160_20.09.elf - 11.60 only - Checksum: aca33b6c331a9fd65ef0ddfdea8aaef4ab4a2952a1db0df324c21b5b9e23d200</description>
+      <description>a53_ppr_install_1160_20.09.elf - 11.60 only - Checksum: e129b506acc64f300f21a719fa5f7c8684ab33fc83b7944901ee8640bd1a40d0</description>
     </item>
     <item>
       <title>Webkit Autoloader Installer (v0.4.0)</title>
@@ -210,9 +215,9 @@
       <description>A lightweight, standalone PS5 payload that restores the console's system date and time using public NTP servers. - Checksum: 91806229803845930b2173174e1afeadf509e4c171f6396788f929558fad6849</description>
     </item>
     <item>
-      <title>Spectrum Library (1.4.6)</title>
-      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_freeshop/Spectrum-Library/1.4.6/Spectrum-Library_v1.4.6.elf</link>
-      <description>free store webadmin http://your-ps5-ip:7575. - Checksum: 73dd3f3938867ac970207ae8e4093e2d0c5b005bcad1ff9ff2aeb5d34294a161</description>
+      <title>Spectrum Library (1.4.7)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_freeshop/Spectrum-Library/1.4.7/Spectrum-Library_v1.4.7.bin</link>
+      <description>free store webadmin http://your-ps5-ip:7575. - Checksum: 9c7b60380153cda2eb4a6f20ddc46774a621706388714d0fd97b492a6152f751</description>
     </item>
     <item>
       <title>Pegasus Dl (v1.9.0)</title>
@@ -225,9 +230,9 @@
       <description>You need PS5-SHOP-APPKG.pkg DPI port 9040. - Checksum: c4672cfa909463843c537f67d5f2df9eb3456d4036d26a4fb81fc34d7853170b</description>
     </item>
     <item>
-      <title>Ps5Library (v0.2.10)</title>
-      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_freeshop/PS5Library/v0.2.10/PS5Library_v0.2.10.elf</link>
-      <description>You need PS5Library.pkg. - Checksum: 3f77ef3e5b4610db4699b62ad04683c73419462285048fdf7ccb3bcc23a0065d</description>
+      <title>Ps5Library (v0.2.54)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_freeshop/PS5Library/v0.2.54/PS5Library_v0.2.54.elf</link>
+      <description>You need PS5Library.pkg. - Checksum: ddd201c1041e90d736231f9dc18ae54d3b64c2500985573e9585c17dcb3cc55f</description>
     </item>
     <item>
       <title>Uds Trophy Unlocker (v1.0.0)</title>

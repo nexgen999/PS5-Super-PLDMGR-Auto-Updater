@@ -126,6 +126,24 @@
       "version": "v1.00.",
       "author": "Master0",
       "category": "PS5PKG"
+    },
+    {
+      "name": "Mario Kart 64 Port",
+      "filename": "PS5PKG_MK64_Port.pkg",
+      "url": "https://github.com/nexgen999/Evox_PS5PKG_Private/releases/download/v2.0/PS5PKG_MK64_Port.pkg",
+      "description": "PS5PKG_MK64_Port.",
+      "version": "v1.0.0",
+      "author": "m0ur0ne",
+      "category": "PS5PKG"
+    },
+    {
+      "name": "God Of War - Betrayal Port",
+      "filename": "PS5PKG_GOW-Betrayal_Port.pkg",
+      "url": "https://github.com/nexgen999/Evox_PS5PKG_Private/releases/download/v2.0/PS5PKG_GOW-Betrayal_Port.pkg",
+      "description": "PS5PKG_MK64_Port.",
+      "version": "v1.0.0",
+      "author": "m0ur0ne",
+      "category": "PS5PKG"
     }
   ]
 }

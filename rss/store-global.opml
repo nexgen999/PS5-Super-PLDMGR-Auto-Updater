@@ -11,6 +11,7 @@
     <outline text="A53 11.60 only Experimental KS-D" title="A53 11.60 only Experimental KS-D" type="rss" xmlUrl="https://github.com/nexgen999/PS5-Super-PLDMGR-Auto-Updater/blob/main/Internal/payloads/beta/a53_ppr/a53_ppr_install_1160_20.09.elf" author="Darkmor"/>
     <outline text="kstuff_Darkmor_Experimental" title="kstuff_Darkmor_Experimental" type="rss" xmlUrl="https://github.com/nexgen999/PS5-Super-PLDMGR-Auto-Updater/blob/main/Internal/payloads/beta/Kstuff-Darkmor/kstuff-1.13-fpkg-dr-test3.elf" author="Darkmor"/>
     <outline text="nanoDNS" title="nanoDNS" type="rss" xmlUrl="https://github.com/drakmor/nanoDNS" author="Drakmor"/>
+    <outline text="Kstuff-NG_EchoStrech_Experimental" title="Kstuff-NG_EchoStrech_Experimental" type="rss" xmlUrl="https://github.com/nexgen999/PS5-Super-PLDMGR-Auto-Updater/blob/main/Internal/payloads/beta/Kstuff-NG/Kstuff-NG_v1.00.elf" author="EchoStrech"/>
     <outline text="dump_installer" title="dump_installer" type="rss" xmlUrl="https://github.com/EchoStretch/dump_installer" author="EchoStretch"/>
     <outline text="dump_runner" title="dump_runner" type="rss" xmlUrl="https://github.com/EchoStretch/dump_runner" author="EchoStretch"/>
     <outline text="kstuff-lite_EchoStretch" title="kstuff-lite_EchoStretch" type="rss" xmlUrl="https://github.com/EchoStretch/kstuff-lite" author="EchoStretch"/>
@@ -69,6 +70,8 @@
     <outline text="PS5-File-Explorer" title="PS5-File-Explorer" type="rss" xmlUrl="https://github.com/juma-sayeh/PS5-File-Explorer" author="juma-sayeh"/>
     <outline text="PS5-Game-Compressor" title="PS5-Game-Compressor" type="rss" xmlUrl="https://github.com/juma-sayeh/PS5-Game-Compressor" author="juma-sayeh"/>
     <outline text="ps5-date-time-sync" title="ps5-date-time-sync" type="rss" xmlUrl="https://github.com/kerrdec97/ps5-date-time-sync" author="kerrdec97"/>
+    <outline text="God Of War - Betrayal Port" title="God Of War - Betrayal Port" type="rss" xmlUrl="https://github.com/nexgen999/Evox_PS5PKG_Private/releases/download/v2.0/PS5PKG_GOW-Betrayal_Port.pkg" author="m0ur0ne"/>
+    <outline text="Mario Kart 64 Port" title="Mario Kart 64 Port" type="rss" xmlUrl="https://github.com/nexgen999/Evox_PS5PKG_Private/releases/download/v2.0/PS5PKG_MK64_Port.pkg" author="m0ur0ne"/>
     <outline text="Playstation-5-Save-Mounter" title="Playstation-5-Save-Mounter" type="rss" xmlUrl="https://github.com/n0llptr/Playstation-5-Save-Mounter" author="n0llptr"/>
     <outline text="CheatRunner" title="CheatRunner" type="rss" xmlUrl="https://github.com/notmaj0r/CheatRunner" author="notmaj0r"/>
     <outline text="ProsperoMgr" title="ProsperoMgr" type="rss" xmlUrl="https://github.com/notmaj0r/ProsperoMgr" author="notmaj0r"/>
