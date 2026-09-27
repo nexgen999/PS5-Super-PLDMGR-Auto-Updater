@@ -3,12 +3,12 @@
   "payloads": [
     {
       "name": "Pkg Manager",
-      "filename": "pkg-manager_v1.4.0.elf",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_pkg_tool/ps5-pkg-manager/v1.4.0/pkg-manager_v1.4.0.elf",
+      "filename": "pkg-manager_v1.4.1.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_pkg_tool/ps5-pkg-manager/v1.4.1/pkg-manager_v1.4.1.elf",
       "description": "A clean and intuitive package manager for PlayStation 5",
-      "version": "v1.4.0",
+      "version": "v1.4.1",
       "category": "PS5 Pkg Tool",
-      "checksum": "3950d1a5ba4429bf1872bf6898859ba70910d95af439225c548cac092582493f"
+      "checksum": "09adaff13b858bb3db519faaea673ee3fa67298081e608d32f6501ed6e9f706e"
     },
     {
       "name": "Pkg Receiver",
