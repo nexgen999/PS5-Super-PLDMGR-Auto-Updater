@@ -15,6 +15,7 @@
     <outline text="Itemzflow_Game_Manager" title="Itemzflow_Game_Manager" type="rss" xmlUrl="https://github.com/nexgen999/Evox_PS5PKG_Private/releases/download/v1.0/PS5PKG_Itemzflow_Game_Manager_v1.14.pkg" author="Itemzflow" description="Itemzflow_Game_Manager." />
     <outline text="PS5-Xplorer" title="PS5-Xplorer" type="rss" xmlUrl="https://github.com/nexgen999/Evox_PS5PKG_Private/releases/download/v1.0/PS5PKG_PS5-Xplorer_v1.05.pkg" author="Lapy" description="PS5-Xplorer." />
 	<outline text="PS5Webit-Nexgen999_Installer" title="PS5Webit-Nexgen999_Installer" type="rss" xmlUrl="https://github.com/nexgen999/Evox_PS5PKG_Private/releases/download/v1.0/PS5PKG_PS5Webit-Nexgen999_Installer_v1.00.pkg" author="Master0" description="PS5Webit-Nexgen999_Installer." />
-    <outline text="Mario Kart 64 Port" title="Mario Kart 64 Port" type="rss" xmlUrl="https://github.com/nexgen999/Evox_PS5PKG_Private/releases/download/v1.0/PS5PKG_MK64_Port.pkg" author="m0ur0ne" description="PS5PKG_MK64_Port." />
+    <outline text="Mario Kart 64 Port" title="Mario Kart 64 Port" type="rss" xmlUrl="https://github.com/nexgen999/Evox_PS5PKG_Private/releases/download/v2.0/PS5PKG_MK64_Port.pkg" author="m0ur0ne" description="PS5PKG_MK64_Port." />
+    <outline text="God Of War - Betrayal Port" title="God Of War - Betrayal Port" type="rss" xmlUrl="https://github.com/nexgen999/Evox_PS5PKG_Private/releases/download/v2.0/PS5PKG_GOW-Betrayal_Port.pkg" author="m0ur0ne" description="PS5PKG_MK64_Port." />
   </body>
 </opml>
