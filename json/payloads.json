@@ -39,12 +39,12 @@
     },
     {
       "name": "Common Fps Ps5",
-      "filename": "Common_FPS_PS5_v1.1.0.elf",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Overlay/Common-FPS-for-PS5/v1.1.0/Common_FPS_PS5_v1.1.0.elf",
+      "filename": "Common_FPS_PS5_v1.2.0.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Overlay/Common-FPS-for-PS5/v1.2.0/Common_FPS_PS5_v1.2.0.elf",
       "description": "A lightweight, open-source real-time FPS counter for PlayStation 5.",
-      "version": "v1.1.0",
+      "version": "v1.2.0",
       "category": "PS5 Overlay",
-      "checksum": "4f544fa00f7a430e64c4c8d0ed42d0463d2370c81dabd9141599c27c4f3f99d6"
+      "checksum": "6cab6df150bb0d77a954e7cf812992b291fc74d8b2aaf31c8316210aabb360b2"
     },
     {
       "name": "PS5 Overlay",
@@ -107,7 +107,7 @@
       "description": "Experimental AIO by SoNic credit to EchoStrech DarkMor",
       "version": "Source-Fixe",
       "category": "PS5 Beta",
-      "checksum": "c3d1ed0ca4f391d98b2082106d98c22ebb24fd34220e18a124567db07f60b8ac"
+      "checksum": "81d1bfa58609dd67103f2e65a3a739103546ec9b4553802b592739a16ef7b592"
     },
     {
       "name": "A53 Kstuff Smp",
@@ -116,7 +116,7 @@
       "description": "Experimental AIO by SoNic credit to EchoStrech DarkMor",
       "version": "Source-Fixe",
       "category": "PS5 Beta",
-      "checksum": "15088b4ce70f3753aea8a72c8d358a405c17a2c97957437b27db332ab76e5c45"
+      "checksum": "3014d28ed98e97c090197c4604cf20c25fea40025f57c4d1423dbc0be06f2888"
     },
     {
       "name": "Kstuff Ng",
@@ -125,7 +125,7 @@
       "description": "Experimental Kstuff NG",
       "version": "Source-Fixe",
       "category": "PS5 Beta",
-      "checksum": "c543ef91ba0094a0f6a5986116587e9bbae1aba2ab441a117246162b3242a719"
+      "checksum": "2fb260b52f77373176c3470279b446e83ccac346ab908784c06e00d5cf0b26dc"
     },
     {
       "name": "Kstuff 1.13 Fpkg Dr Test3",
@@ -134,7 +134,7 @@
       "description": "Experimental Kstuff DarkMor - kstuff-1.13-fpkg-dr-test3",
       "version": "Source-Fixe",
       "category": "PS5 Beta",
-      "checksum": "a3ad919b4243784afda230ab7d26c62c0177682d8262cd683aa356e14a646760"
+      "checksum": "2ef800d000d5e3c8b126d237c9b77ec00c430622f41a25ab66436cadc6a1dfb3"
     },
     {
       "name": "A53 Ppr Install 1140 20.09",
@@ -143,7 +143,7 @@
       "description": "a53_ppr_install_1140_20.09.elf - support 1.00-11.40",
       "version": "Source-Fixe",
       "category": "PS5 Beta",
-      "checksum": "dd3e2bc0c3bf3d3bd686472a734413a22ccd88f2103e8cd1e6c49c9fccfc46a3"
+      "checksum": "1119aa511735d07c48ea4125a9408741ba7123c8f2a96f266dd470806b6942ea"
     },
     {
       "name": "A53 Ppr Install 1160 20.09",
@@ -152,7 +152,7 @@
       "description": "a53_ppr_install_1160_20.09.elf - 11.60 only",
       "version": "Source-Fixe",
       "category": "PS5 Beta",
-      "checksum": "f21757113ea85b249ee0e52b61f56dfc5c2af1891ecde582a58ab30fd32eb7eb"
+      "checksum": "925af0056aeb2a4ddcbc168ae18a97100415ae8d9a6fdca2186a219b4ea3d806"
     },
     {
       "name": "Webkit Autoloader Installer",
@@ -282,12 +282,12 @@
     },
     {
       "name": "Ps5Upload",
-      "filename": "ps5upload_v5.36.0.elf",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ps5upload/v5.36.0/ps5upload_v5.36.0.elf",
+      "filename": "ps5upload_v5.37.1.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ps5upload/v5.37.1/ps5upload_v5.37.1.elf",
       "description": "PS5 Upload server / tool. Port: 9025",
-      "version": "v5.36.0",
+      "version": "v5.37.1",
       "category": "PS5 Server",
-      "checksum": "b1a10ae2b55ae8929681941991535226610d3fe2af9454a34d260e5884c8d336"
+      "checksum": "b84d3dc726078cfa2da1f5ea6a32a7d1301b667565efff2f0bada965c94dfe31"
     },
     {
       "name": "Airpsx",
@@ -413,16 +413,7 @@
       "description": "ghost-toothAPI.",
       "version": "Source-Fixe",
       "category": "PS5 Utility",
-      "checksum": "e8ef436c033ebef42aaf72be8fba1408ecc108e466e37d8dc9d684866b04d33a"
-    },
-    {
-      "name": "Spectrum Library",
-      "filename": "Spectrum-Library_v1.4.7.bin",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_freeshop/Spectrum-Library/1.4.7/Spectrum-Library_v1.4.7.bin",
-      "description": "free store webadmin http://your-ps5-ip:7575.",
-      "version": "1.4.7",
-      "category": "PS5 Freeshop",
-      "checksum": "9c7b60380153cda2eb4a6f20ddc46774a621706388714d0fd97b492a6152f751"
+      "checksum": "8b0cf934f3782023ad2f1d12cc77361240cc1e758e347e851a26b7f2d5c9b873"
     },
     {
       "name": "Pegasus Dl",
@@ -588,12 +579,12 @@
     },
     {
       "name": "Prosperomgr",
-      "filename": "ProsperoMgr_vbeta.elf",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/ProsperoMgr/beta/ProsperoMgr_vbeta.elf",
+      "filename": "ProsperoMgr_v1.1.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/ProsperoMgr/v1.1/ProsperoMgr_v1.1.elf",
       "description": "A Web-Based All-In-One homebrew manager for your PlayStation 5",
-      "version": "beta",
+      "version": "v1.1",
       "category": "PS5 HEN Loader",
-      "checksum": "6cde8d8e97478ff43f69d2c6b22ac6512311d83b1d9ceb09d56796b9200c1b3c"
+      "checksum": "e7a6bb544adb2fb2a61aa9cc83b0ad15f70b32d7511a3de0f1fb88812f11983c"
     },
     {
       "name": "Elf Launcher",
