@@ -21,12 +21,12 @@
     },
     {
       "name": "Ps5Library",
-      "filename": "PS5Library_v0.2.54.elf",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_freeshop/PS5Library/v0.2.54/PS5Library_v0.2.54.elf",
+      "filename": "PS5Library_v0.2.55.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_freeshop/PS5Library/v0.2.55/PS5Library_v0.2.55.elf",
       "description": "You need PS5Library.pkg.",
-      "version": "v0.2.54",
+      "version": "v0.2.55",
       "category": "PS5 Freeshop",
-      "checksum": "ddd201c1041e90d736231f9dc18ae54d3b64c2500985573e9585c17dcb3cc55f"
+      "checksum": "1efb53f018dc79803da3041c24bac6cc5dec31617fbd0eb09f5c53cfee27625d"
     }
   ]
 }
