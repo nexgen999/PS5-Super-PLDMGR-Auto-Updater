@@ -3,12 +3,12 @@
   "payloads": [
     {
       "name": "Cheatrunner",
-      "filename": "CheatRunner_v0.17.elf",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Cheat/CheatRunner/v0.17/CheatRunner_v0.17.elf",
+      "filename": "CheatRunner_v0.17.1.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Cheat/CheatRunner/v0.17.1/CheatRunner_v0.17.1.elf",
       "description": "CheatRunner.",
-      "version": "v0.17",
+      "version": "v0.17.1",
       "category": "PS5 Cheat",
-      "checksum": "2f296d3f1e69b65439bb5dc362f0f6504f6dc9f245fa16a3683e9d7ec9533773"
+      "checksum": "6863f06cb6ff41f846d84a0542c21469b52cacf55c9e6a0e2c74c114b3a55212"
     },
     {
       "name": "Kylin Core Community Lite V131 Global Release",

@@ -3,12 +3,12 @@
   "payloads": [
     {
       "name": "Webkit Autoloader Installer",
-      "filename": "webkit-autoloader-installer_v0.5.1.elf",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5-webkit-autoloader/ps5-webkit-autoloader/v0.5.1/webkit-autoloader-installer_v0.5.1.elf",
+      "filename": "webkit-autoloader-installer_v0.5.2.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5-webkit-autoloader/ps5-webkit-autoloader/v0.5.2/webkit-autoloader-installer_v0.5.2.elf",
       "description": "Installs WebKit Autoloader on homescreen for firmwares 9.00-12.00.",
-      "version": "v0.5.1",
+      "version": "v0.5.2",
       "category": "Ps5-Webkit-Autoloader",
-      "checksum": "80083f76383944e1f87c2d4126e4e067cd70bd8013feb538575bc2cb08258a78"
+      "checksum": "f990e48e8330231d2066a7b8ab6dc25fda83b2cc36cb426c472b35b33767451a"
     },
     {
       "name": "Host Psm Poop2Jb V1.2.0 Instala Pldmgr En",
