@@ -12,12 +12,12 @@
     },
     {
       "name": "PS5 App Dumper",
-      "filename": "ps5-app-dumper_v1.11.elf",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/ps5-app-dumper/v1.11/ps5-app-dumper_v1.11.elf",
+      "filename": "ps5-app-dumper_v2.00.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/ps5-app-dumper/v2.00/ps5-app-dumper_v2.00.elf",
       "description": "PS5 App Dumper payload.",
-      "version": "v1.11",
+      "version": "v2.00",
       "category": "PS5 Game Dump",
-      "checksum": "18483751ebaea6879b020a9dd87c0a4fb4f1bf09f3708d950362a483f78cc0d0"
+      "checksum": "b6fea71afb8937fcd1a933116c620e989acba25b7049eaeaa00cdc1bd604d686"
     },
     {
       "name": "Dump Installer",

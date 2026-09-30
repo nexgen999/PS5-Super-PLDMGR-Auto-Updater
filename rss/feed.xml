@@ -62,37 +62,37 @@
     <item>
       <title>A53 Kstuff Shadowmountplus 3In1 (Source-Fixe)</title>
       <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/A53-Kstuff-ShadowMountPlus-3in1_SoNic-AIO_Experimental/Source-Fixe/A53-Kstuff-ShadowMountPlus-3in1.elf</link>
-      <description>Experimental AIO by SoNic credit to EchoStrech DarkMor - Checksum: e0d5777cf758efef04e596080e85d9deeaac81a78e4faa08688372869ad285f0</description>
+      <description>Experimental AIO by SoNic credit to EchoStrech DarkMor - Checksum: d886b8c4d11ad89f3fe5c08a2fb6f2ed6403d1711f9a8a4cdbb0a0beed469783</description>
     </item>
     <item>
       <title>A53 Kstuff Smp (Source-Fixe)</title>
       <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/A53-kstuff-SMP_SoNic-AIO_Experimental/Source-Fixe/A53-kstuff-SMP.elf</link>
-      <description>Experimental AIO by SoNic credit to EchoStrech DarkMor - Checksum: a7aac4ef51bdf71485ee72fd562442b119ee01f8a85247e1d8b2d4f5bd0eee78</description>
+      <description>Experimental AIO by SoNic credit to EchoStrech DarkMor - Checksum: f6d76176e6ce6c68cead8cb8bc763befd734058abf912c65043558cffa48cff7</description>
     </item>
     <item>
       <title>Kstuff Ng (Source-Fixe)</title>
       <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/Kstuff-NG_EchoStrech_Experimental/Source-Fixe/Kstuff-NG_v1.00.elf</link>
-      <description>Experimental Kstuff NG - Checksum: 68058d66830a3351c6be9f887a7167ac070b1448df63d6e6a48334380abea5fd</description>
+      <description>Experimental Kstuff NG - Checksum: edfe88333faeade26305f25bdc3b3ebaa087dc1de54c362ec213af0bebcd206d</description>
     </item>
     <item>
       <title>Kstuff 1.13 Fpkg Dr Test3 (Source-Fixe)</title>
       <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/kstuff_Darkmor_Experimental/Source-Fixe/kstuff-1.13-fpkg-dr-test3.elf</link>
-      <description>Experimental Kstuff DarkMor - kstuff-1.13-fpkg-dr-test3 - Checksum: f317ecdaae8eaccaa4e941254ab4639c5ea9bed74734151d40bd3ce633195443</description>
+      <description>Experimental Kstuff DarkMor - kstuff-1.13-fpkg-dr-test3 - Checksum: d4b2f96b12c8e7018a6f28c32f7df7490d3d83dd237e5a4d8ab50a09da3b1530</description>
     </item>
     <item>
       <title>A53 Ppr Install 1140 20.09 (Source-Fixe)</title>
       <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/A53_1.00-11.40_Experimental_KS-D/Source-Fixe/a53_ppr_install_1140_20.09.elf</link>
-      <description>a53_ppr_install_1140_20.09.elf - support 1.00-11.40 - Checksum: da71cda35766c6a4810351a50586c648a53ff1574f5f24e0a325ca5f0f3cd69d</description>
+      <description>a53_ppr_install_1140_20.09.elf - support 1.00-11.40 - Checksum: ae696713b2d5ec1ecae48fcbc3b4b418084e43dc57046c7707f2333e3cf0d473</description>
     </item>
     <item>
       <title>A53 Ppr Install 1160 20.09 (Source-Fixe)</title>
       <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/A53_11.60_only_Experimental_KS-D/Source-Fixe/a53_ppr_install_1160_20.09.elf</link>
-      <description>a53_ppr_install_1160_20.09.elf - 11.60 only - Checksum: 675e21c257fd8ae59f84e54a31d978f4a25ed13574035a7cf247ff86a5ccd9d5</description>
+      <description>a53_ppr_install_1160_20.09.elf - 11.60 only - Checksum: 06c9abc407b3fa0340569d0c850319fa3fcf4c99200407e2473e189de131ceb6</description>
     </item>
     <item>
-      <title>Webkit Autoloader Installer (v0.5.0)</title>
-      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5-webkit-autoloader/ps5-webkit-autoloader/v0.5.0/webkit-autoloader-installer_v0.5.0.elf</link>
-      <description>Installs WebKit Autoloader on homescreen for firmwares 9.00-12.00. - Checksum: 83c2128520267515fe2f197db35427bb95b7273934e52ad3c6bf668a4ef27b7f</description>
+      <title>Webkit Autoloader Installer (v0.5.1)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5-webkit-autoloader/ps5-webkit-autoloader/v0.5.1/webkit-autoloader-installer_v0.5.1.elf</link>
+      <description>Installs WebKit Autoloader on homescreen for firmwares 9.00-12.00. - Checksum: 80083f76383944e1f87c2d4126e4e067cd70bd8013feb538575bc2cb08258a78</description>
     </item>
     <item>
       <title>Host Psm Poop2Jb V1.2.0 Instala Pldmgr En (v1.2.0)</title>
@@ -180,19 +180,19 @@
       <description>Ghostpad controller input utility. - Checksum: 94d43a8db7ec9df6e18f0a0da25aac0f60e1a0b14d35bfff261f6f5cdeabdba1</description>
     </item>
     <item>
-      <title>Poords4 Status (v0.1.0-rc44)</title>
-      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_utility/PoorDS4/v0.1.0-rc44/PoorDS4-status_v0.1.0-rc44.elf</link>
-      <description>PoorDS4 lets a wireless DualShock 4 paired with a jailbroken PS5. - Checksum: 9195c512853538ec3ccf0207f68ed4898f386c6fb624c54d8fa959cef1a8b906</description>
+      <title>Poords4 Status (v0.1.0-rc51)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_utility/PoorDS4/v0.1.0-rc51/PoorDS4-status_v0.1.0-rc51.elf</link>
+      <description>PoorDS4 lets a wireless DualShock 4 paired with a jailbroken PS5. - Checksum: d47bb84a6ae05117f095c05b75dfee15d9fbf07864a3e52d0e2e626eab613440</description>
     </item>
     <item>
-      <title>Poords4 Stop (v0.1.0-rc44)</title>
-      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_utility/PoorDS4/v0.1.0-rc44/PoorDS4-stop_v0.1.0-rc44.elf</link>
+      <title>Poords4 Stop (v0.1.0-rc51)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_utility/PoorDS4/v0.1.0-rc51/PoorDS4-stop_v0.1.0-rc51.elf</link>
       <description>PoorDS4 lets a wireless DualShock 4 paired with a jailbroken PS5. - Checksum: ffdce4964f0d34a2b9be7cb65e6ad345d5beb582dcdf94d0214cde6bc79acd0d</description>
     </item>
     <item>
-      <title>Poords4Rc44 (v0.1.0-rc44)</title>
-      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_utility/PoorDS4/v0.1.0-rc44/PoorDS4rc44_v0.1.0-rc44.elf</link>
-      <description>PoorDS4 lets a wireless DualShock 4 paired with a jailbroken PS5. - Checksum: a077fe7a1defbe6918538b834eaa502a6b4239d7feff58c8fa4ec06cd325d9a8</description>
+      <title>Poords4Rc51 (v0.1.0-rc51)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_utility/PoorDS4/v0.1.0-rc51/PoorDS4rc51_v0.1.0-rc51.elf</link>
+      <description>PoorDS4 lets a wireless DualShock 4 paired with a jailbroken PS5. - Checksum: e1b9f257f51678a977edaeafd4ca1f8a03e9df0afda7d5dd84435841fa20795d</description>
     </item>
     <item>
       <title>Ps Game State Lib (v0.1)</title>
@@ -232,7 +232,7 @@
     <item>
       <title>Ghost Toothapi (Source-Fixe)</title>
       <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_utility/ghost-toothAPI/Source-Fixe/ghost-toothAPI.elf</link>
-      <description>ghost-toothAPI. - Checksum: 533d1634ab2ac68c49d9d24034a6d08efde6c3d4cc20d9cd8e91716e065d6de5</description>
+      <description>ghost-toothAPI. - Checksum: 24ec09b3d95993e6dd4ec5937ba80ac3f402f9691628107d1d0781de0c9fe6d2</description>
     </item>
     <item>
       <title>Pegasus Dl (v1.10.0)</title>
@@ -490,9 +490,9 @@
       <description>Tool to compress PS5 games. - Checksum: e55e90aaade13b6e0d4316c1597ef90a21b67a06475c3e25de054224bc1e941b</description>
     </item>
     <item>
-      <title>PS5 App Dumper (v1.11)</title>
-      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/ps5-app-dumper/v1.11/ps5-app-dumper_v1.11.elf</link>
-      <description>PS5 App Dumper payload. - Checksum: 18483751ebaea6879b020a9dd87c0a4fb4f1bf09f3708d950362a483f78cc0d0</description>
+      <title>PS5 App Dumper (v2.00)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/ps5-app-dumper/v2.00/ps5-app-dumper_v2.00.elf</link>
+      <description>PS5 App Dumper payload. - Checksum: b6fea71afb8937fcd1a933116c620e989acba25b7049eaeaa00cdc1bd604d686</description>
     </item>
     <item>
       <title>Dump Installer (1.07)</title>
