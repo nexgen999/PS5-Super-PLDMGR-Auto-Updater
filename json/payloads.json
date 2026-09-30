@@ -107,7 +107,7 @@
       "description": "Experimental AIO by SoNic credit to EchoStrech DarkMor",
       "version": "Source-Fixe",
       "category": "PS5 Beta",
-      "checksum": "23571d4329978b2089c9bee6feb30531be86dd87c7891999a338b325795f0787"
+      "checksum": "a525e5bb13314afe5974a2f9a25b31d53380a62a64944bdb44ead5e367cac982"
     },
     {
       "name": "A53 Kstuff Smp",
@@ -116,7 +116,7 @@
       "description": "Experimental AIO by SoNic credit to EchoStrech DarkMor",
       "version": "Source-Fixe",
       "category": "PS5 Beta",
-      "checksum": "dde582e067dd008b1eec5c6f2fe0ed1374af01b185b8762d8489c125af49cbca"
+      "checksum": "4ea31fbe7b2f4bc04f630859f9c491aafff6412c7af4cb4ed142058e284a318e"
     },
     {
       "name": "Kstuff Ng",
@@ -125,7 +125,7 @@
       "description": "Experimental Kstuff NG",
       "version": "Source-Fixe",
       "category": "PS5 Beta",
-      "checksum": "e31b86de9859f2ff6c03942f62ffa30f91129f8678365ab97c61d782435e98e5"
+      "checksum": "b395a112950ad865d0cb6ac73bebdc25c827758e2aff7f38677159a1c058c3a1"
     },
     {
       "name": "Kstuff 1.13 Fpkg Dr Test3",
@@ -134,7 +134,7 @@
       "description": "Experimental Kstuff DarkMor - kstuff-1.13-fpkg-dr-test3",
       "version": "Source-Fixe",
       "category": "PS5 Beta",
-      "checksum": "6372fdef7f803f23543ea5a3bbd47d6b4c2dc59ad5cf6778c69e42c4f355f43f"
+      "checksum": "426dde571fcc60b0940a7b218993803a443223f954fbb68e25f4b0f27b883e68"
     },
     {
       "name": "A53 Ppr Install 1140 20.09",
@@ -143,7 +143,7 @@
       "description": "a53_ppr_install_1140_20.09.elf - support 1.00-11.40",
       "version": "Source-Fixe",
       "category": "PS5 Beta",
-      "checksum": "9f633e92d18f2625ebe357f63decc7e917fe558983a7504ec684693b703c163a"
+      "checksum": "d7b8added536200c02af015965ff991cdd63fe0853aa045c05dcd65ceb90db38"
     },
     {
       "name": "A53 Ppr Install 1160 20.09",
@@ -152,7 +152,7 @@
       "description": "a53_ppr_install_1160_20.09.elf - 11.60 only",
       "version": "Source-Fixe",
       "category": "PS5 Beta",
-      "checksum": "79053b2dfce03c9eff2eed1dc020edc18af51c27a75cf0116b4ce8dbdfe96be0"
+      "checksum": "b3ebfda655e85e63635e82ac811f5638b5c6cdb63e2cfb3c6b9862f6b922fe4f"
     },
     {
       "name": "Webkit Autoloader Installer",
@@ -413,7 +413,7 @@
       "description": "ghost-toothAPI.",
       "version": "Source-Fixe",
       "category": "PS5 Utility",
-      "checksum": "d7df28634676e790de521cb879b48240f0a4b85cade1aa1055e87ee6daf31c63"
+      "checksum": "799afcf8fc8dd87cd08738b7569cb021bb3491060b2a8cd2c71852973a3aa2ea"
     },
     {
       "name": "Pegasus Dl",
@@ -585,15 +585,6 @@
       "version": "v1.1",
       "category": "PS5 HEN Loader",
       "checksum": "e7a6bb544adb2fb2a61aa9cc83b0ad15f70b32d7511a3de0f1fb88812f11983c"
-    },
-    {
-      "name": "Elf Launcher",
-      "filename": "elf-launcher_v1.0.5.elf",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/elf-launcher/v1.0.5/elf-launcher_v1.0.5.elf",
-      "description": "PS5 launcher for ELF payloads.",
-      "version": "v1.0.5",
-      "category": "PS5 HEN Loader",
-      "checksum": "ffaba582a76748f2a239d5ec3ebe6d38645c88771b8b4f29d722c8203bb8bfdc"
     },
     {
       "name": "Np Fake Signin",
