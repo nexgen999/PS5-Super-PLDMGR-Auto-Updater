@@ -41,24 +41,17 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 
 ## 📦 Payloads (.elf / .bin) Disponibles par Catégorie
 
-### 🔓 PS5 Activation
-📂 **JSON Catégorie :** `https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/json/PS5_Activation.json`
-
-| Application | Version | Empreinte SHA-256 | Description |
-| :--- | :--- | :--- | :--- |
-| **Np Fake Signin** | [v1.3](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Activation/np-fake-signin/v1.3/np-fake-signin_v1.3.elf) | `2ace1bb0be...` | Fake activate PS5 without PSN. |
-
 ### 📦 PS5 Beta
 📂 **JSON Catégorie :** `https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/json/PS5_Beta.json`
 
 | Application | Version | Empreinte SHA-256 | Description |
 | :--- | :--- | :--- | :--- |
-| **A53 Kstuff Shadowmountplus 3In1** | [Source-Fixe](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/A53-Kstuff-ShadowMountPlus-3in1_SoNic-AIO_Experimental/Source-Fixe/A53-Kstuff-ShadowMountPlus-3in1.elf) | `87a3ff214f...` | Experimental AIO by SoNic credit to EchoStrech DarkMor |
-| **A53 Kstuff Smp** | [Source-Fixe](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/A53-kstuff-SMP_SoNic-AIO_Experimental/Source-Fixe/A53-kstuff-SMP.elf) | `e03fd3ea1f...` | Experimental AIO by SoNic credit to EchoStrech DarkMor |
-| **Kstuff Ng** | [Source-Fixe](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/Kstuff-NG_EchoStrech_Experimental/Source-Fixe/Kstuff-NG_v1.00.elf) | `fa3e7fcd42...` | Experimental Kstuff NG |
-| **Kstuff 1.13 Fpkg Dr Test3** | [Source-Fixe](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/kstuff_Darkmor_Experimental/Source-Fixe/kstuff-1.13-fpkg-dr-test3.elf) | `3639e66376...` | Experimental Kstuff DarkMor - kstuff-1.13-fpkg-dr-test3 |
-| **A53 Ppr Install 1140 20.09** | [Source-Fixe](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/A53_1.00-11.40_Experimental_KS-D/Source-Fixe/a53_ppr_install_1140_20.09.elf) | `94e4ce1e83...` | a53_ppr_install_1140_20.09.elf - support 1.00-11.40 |
-| **A53 Ppr Install 1160 20.09** | [Source-Fixe](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/A53_11.60_only_Experimental_KS-D/Source-Fixe/a53_ppr_install_1160_20.09.elf) | `b8b5fc7b65...` | a53_ppr_install_1160_20.09.elf - 11.60 only |
+| **A53 Kstuff Shadowmountplus 3In1** | [Source-Fixe](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/A53-Kstuff-ShadowMountPlus-3in1_SoNic-AIO_Experimental/Source-Fixe/A53-Kstuff-ShadowMountPlus-3in1.elf) | `8ddd18d65e...` | Experimental AIO by SoNic credit to EchoStrech DarkMor |
+| **A53 Kstuff Smp** | [Source-Fixe](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/A53-kstuff-SMP_SoNic-AIO_Experimental/Source-Fixe/A53-kstuff-SMP.elf) | `fa63876f43...` | Experimental AIO by SoNic credit to EchoStrech DarkMor |
+| **Kstuff Ng** | [Source-Fixe](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/Kstuff-NG_EchoStrech_Experimental/Source-Fixe/Kstuff-NG_v1.00.elf) | `829e79d011...` | Experimental Kstuff NG |
+| **Kstuff 1.13 Fpkg Dr Test3** | [Source-Fixe](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/kstuff_Darkmor_Experimental/Source-Fixe/kstuff-1.13-fpkg-dr-test3.elf) | `eae5085e57...` | Experimental Kstuff DarkMor - kstuff-1.13-fpkg-dr-test3 |
+| **A53 Ppr Install 1140 20.09** | [Source-Fixe](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/A53_1.00-11.40_Experimental_KS-D/Source-Fixe/a53_ppr_install_1140_20.09.elf) | `696509de8b...` | a53_ppr_install_1140_20.09.elf - support 1.00-11.40 |
+| **A53 Ppr Install 1160 20.09** | [Source-Fixe](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/A53_11.60_only_Experimental_KS-D/Source-Fixe/a53_ppr_install_1160_20.09.elf) | `d9f5567c91...` | a53_ppr_install_1160_20.09.elf - 11.60 only |
 
 ### 📦 PS5 Browser
 📂 **JSON Catégorie :** `https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/json/PS5_Browser.json`
@@ -149,7 +142,6 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 | **Etahen** | [2.5B](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/etaHEN/2.5B/etaHEN_v2.5B.bin) | `4845cac450...` | Le Homebrew Enabler (HEN) de référence pour la PS5 avec serveurs de triche, plugins et gestionnaire de mémoire intégrés. |
 | **PS5 Unified Autoloader** | [v0.1.5-915a65e](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/PS5_Unified_Autoloader/v0.1.5-915a65e/PS5_Unified_Autoloader_v0.1.5-915a65e.elf) | `c8e36ea06c...` | Chargeur universel de payloads permettant de lancer automatiquement vos outils favoris au démarrage de l'exploit. |
 | **Pldmgr** | [v0.5.2](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/PS5_Payload_Manager/v0.5.2/pldmgr_v0.5.2.elf) | `62b3ba2a49...` | Interface d'administration et de gestion réseau pour envoyer, activer et ordonner vos fichiers ELF/BIN sur la console. |
-| **Elf Arsenal** | [v1.6.23](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/ELF_Arsenal/v1.6.23/ELF_Arsenal_v1.6.23.elf) | `20cdb0979c...` | Boîte à outils regroupant une collection complète de payloads utilitaires pour les consoles jailbreakées. |
 | **Kura** | [v1.6.50](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/Kura/v1.6.50/Kura_v1.6.50.elf) | `8bac520b2b...` | Un loader de payloads moderne et épuré conçu pour optimiser l'injection de code sur PS5. |
 | **Pizza Hen** | [v2.00](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/PIZZA-HEN/v2.00/PIZZA-HEN_v2.00.elf) | `8535d39961...` | PIZZA HEN is an experimental all-in-one PS5 homebrew environment. |
 | **Onionhen** | [v0.0.13](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/onionHEN/v0.0.13/onionHEN_v0.0.13.elf) | `aa3f988479...` | An all-in-one HEN and Toolbox for PlayStation 5. |
@@ -263,7 +255,7 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 | **Fgg Xsense** | [1.1](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_utility/FGG-XSense/1.1/FGG-XSense_v1.1.elf) | `55195ccb02...` | Use an Xbox controller on a jailbroken PlayStation 5. |
 | **Fgg Playpods** | [1.0](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_utility/FGG-PlayPods/1.0/FGG-PlayPods_v1.0.elf) | `9ee1958ec2...` | Hear your PlayStation 5 on an ordinary Bluetooth headset. |
 | **Fgg Unpack** | [v0.1](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_utility/FGG-Unpack/v0.1/FGG-Unpack_v0.1.elf) | `e8c8e57bbd...` | Extract .zip and .7z archives directly on a jailbroken PlayStation 5. |
-| **Ghost Toothapi** | [Source-Fixe](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_utility/ghost-toothAPI/Source-Fixe/ghost-toothAPI.elf) | `da08708507...` | ghost-toothAPI. |
+| **Ghost Toothapi** | [Source-Fixe](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_utility/ghost-toothAPI/Source-Fixe/ghost-toothAPI.elf) | `5858b688bb...` | ghost-toothAPI. |
 
 ### 📦 PS5 Video Player
 📂 **JSON Catégorie :** `https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/json/ps5_video_player.json`
@@ -313,7 +305,6 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 - **OpenSourcereR-dev** : [ps5debug-NG](https://github.com/OpenSourcereR-dev/ps5debug-NG)
 - **SoNic-AIO** : [A53-Kstuff-ShadowMountPlus-3in1_SoNic-AIO_Experimental](https://github.com/nexgen999/PS5-Super-PLDMGR-Auto-Updater/blob/main/Internal/payloads/beta/SoNic-AIO/A53-Kstuff-ShadowMountPlus-3in1.elf)
 - **SoNic-AIO** : [A53-kstuff-SMP_SoNic-AIO_Experimental](https://github.com/nexgen999/PS5-Super-PLDMGR-Auto-Updater/blob/main/Internal/payloads/beta/SoNic-AIO/A53-kstuff-SMP.elf)
-- **SonicIso** : [ELF Arsenal](https://git.etawen.dev/soniciso/elf-arsenal)
 - **StonedModder** : [ChronicLoader-PS5-Payload](https://github.com/StonedModder/ChronicLoader-PS5-Payload)
 - **StonedModder** : [Ghostpad](https://github.com/StonedModder/Ghostpad)
 - **StonedModder** : [PS Game State Lib](https://github.com/StonedModder/ps-game-state-lib)
@@ -334,7 +325,6 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 - **drakmor** : [ps5-hwinfo](https://github.com/drakmor/ps5-hwinfo)
 - **earthonion** : [garlic-savemgr](https://git.etawen.dev/earthonion/garlic-savemgr)
 - **earthonion** : [garlic-worker](https://git.etawen.dev/earthonion/garlic-worker)
-- **earthonion** : [np-fake-signin](https://git.etawen.dev/earthonion/np-fake-signin)
 - **hgr9519** : [ps5-wallpaper-modd](https://github.com/hgr9519/ps5-wallpaper-modd)
 - **idlesauce** : [PS5-SELF-Decrypter](https://github.com/idlesauce/PS5-SELF-Decrypter)
 - **idlesauce** : [ps5-remoteplay-get-pin](https://github.com/idlesauce/ps5-remoteplay-get-pin)
