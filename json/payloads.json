@@ -107,7 +107,7 @@
       "description": "Experimental AIO by SoNic credit to EchoStrech DarkMor",
       "version": "Source-Fixe",
       "category": "PS5 Beta",
-      "checksum": "fb7083666a87cb508c16f5d4b5d2f10011d59306d2ecb8b0c9cf543f719bb120"
+      "checksum": "3b3b43bf9b8a1aafae1fc1f783cc6dd2c10f0f18b0dd5478ae3b602b753ba105"
     },
     {
       "name": "A53 Kstuff Smp",
@@ -116,7 +116,7 @@
       "description": "Experimental AIO by SoNic credit to EchoStrech DarkMor",
       "version": "Source-Fixe",
       "category": "PS5 Beta",
-      "checksum": "774f151f85b9df419aa3c84453f7a33b9e347e87a0825c92863dac1c80e07445"
+      "checksum": "02dbbb4b502d552f952808409ed07fc8c9542c077cfdd0427209d0c2be63cd62"
     },
     {
       "name": "Kstuff Ng",
@@ -125,7 +125,7 @@
       "description": "Experimental Kstuff NG",
       "version": "Source-Fixe",
       "category": "PS5 Beta",
-      "checksum": "b81b46d7ee18777557b6035c9cb51e42ff1641cc0aef71623097b5bbab86ef0a"
+      "checksum": "5e71b6a69a58533d4a3708cc5e85ce97ec37458f23ff65abb1518394f8154f69"
     },
     {
       "name": "Kstuff 1.13 Fpkg Dr Test3",
@@ -134,7 +134,7 @@
       "description": "Experimental Kstuff DarkMor - kstuff-1.13-fpkg-dr-test3",
       "version": "Source-Fixe",
       "category": "PS5 Beta",
-      "checksum": "e6da4380ada3515d6194c5511ec18092896acdb67cf26beb6874d0a29f812d0c"
+      "checksum": "4d0dc5779e6f47bbcb012fe07d265cf10e3821bdf4d1779e470ddfa7a8b08448"
     },
     {
       "name": "A53 Ppr Install 1140 20.09",
@@ -143,7 +143,7 @@
       "description": "a53_ppr_install_1140_20.09.elf - support 1.00-11.40",
       "version": "Source-Fixe",
       "category": "PS5 Beta",
-      "checksum": "28201d7ad86db7015cf7aaae4f10ee63c0d25a8e41bb328d532909d710d3c1cb"
+      "checksum": "a682ce727ddcc2324b68397333e5319ece3c351ef845dd000af1452538fb0a72"
     },
     {
       "name": "A53 Ppr Install 1160 20.09",
@@ -152,7 +152,7 @@
       "description": "a53_ppr_install_1160_20.09.elf - 11.60 only",
       "version": "Source-Fixe",
       "category": "PS5 Beta",
-      "checksum": "f373f16455bbd0757640339e3cdb77c431bd22db2e06cd214c8289d1f9b7ac14"
+      "checksum": "e1fb8fb3f373b670564052aefcda6752e51b556cd923fd1764c6e4ac7bd1dd7d"
     },
     {
       "name": "Webkit Autoloader Installer",
@@ -413,7 +413,7 @@
       "description": "ghost-toothAPI.",
       "version": "Source-Fixe",
       "category": "PS5 Utility",
-      "checksum": "7a4cda1a11f236e4420b088b0319d712aae90998a0fe9d6ff44bad5ae4561037"
+      "checksum": "ed5903cea4901ecd7c4f546cc147a25b5ab36b783f30a3110e99342a7df193b1"
     },
     {
       "name": "Pegasus Dl",
@@ -786,12 +786,12 @@
     },
     {
       "name": "Cheatrunner",
-      "filename": "CheatRunner_v0.17.1.elf",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Cheat/CheatRunner/v0.17.1/CheatRunner_v0.17.1.elf",
+      "filename": "CheatRunner_v0.17.2.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Cheat/CheatRunner/v0.17.2/CheatRunner_v0.17.2.elf",
       "description": "CheatRunner.",
-      "version": "v0.17.1",
+      "version": "v0.17.2",
       "category": "PS5 Cheat",
-      "checksum": "6863f06cb6ff41f846d84a0542c21469b52cacf55c9e6a0e2c74c114b3a55212"
+      "checksum": "36ad03e236e6603aaaf05d95ed3399c7b54475a9bceba085cbe02899bc88ae0f"
     },
     {
       "name": "Kylin Core Community Lite V131 Global Release",
