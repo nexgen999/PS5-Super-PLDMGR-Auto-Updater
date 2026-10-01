@@ -62,32 +62,32 @@
     <item>
       <title>A53 Kstuff Shadowmountplus 3In1 (Source-Fixe)</title>
       <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/A53-Kstuff-ShadowMountPlus-3in1_SoNic-AIO_Experimental/Source-Fixe/A53-Kstuff-ShadowMountPlus-3in1.elf</link>
-      <description>Experimental AIO by SoNic credit to EchoStrech DarkMor - Checksum: 8ddd18d65e4da9876b7d0a288634dde60c723066564aa149efe6e384caef8a98</description>
+      <description>Experimental AIO by SoNic credit to EchoStrech DarkMor - Checksum: fb7083666a87cb508c16f5d4b5d2f10011d59306d2ecb8b0c9cf543f719bb120</description>
     </item>
     <item>
       <title>A53 Kstuff Smp (Source-Fixe)</title>
       <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/A53-kstuff-SMP_SoNic-AIO_Experimental/Source-Fixe/A53-kstuff-SMP.elf</link>
-      <description>Experimental AIO by SoNic credit to EchoStrech DarkMor - Checksum: fa63876f43bf0a7eb00763bac6d9ebb4b24c493d9015f6cd7b1cd50b64610e67</description>
+      <description>Experimental AIO by SoNic credit to EchoStrech DarkMor - Checksum: 774f151f85b9df419aa3c84453f7a33b9e347e87a0825c92863dac1c80e07445</description>
     </item>
     <item>
       <title>Kstuff Ng (Source-Fixe)</title>
       <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/Kstuff-NG_EchoStrech_Experimental/Source-Fixe/Kstuff-NG_v1.00.elf</link>
-      <description>Experimental Kstuff NG - Checksum: 829e79d011cab3ed8ef4f5b40caace76a26fa95018bf406d9aedb47027cb3c4a</description>
+      <description>Experimental Kstuff NG - Checksum: b81b46d7ee18777557b6035c9cb51e42ff1641cc0aef71623097b5bbab86ef0a</description>
     </item>
     <item>
       <title>Kstuff 1.13 Fpkg Dr Test3 (Source-Fixe)</title>
       <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/kstuff_Darkmor_Experimental/Source-Fixe/kstuff-1.13-fpkg-dr-test3.elf</link>
-      <description>Experimental Kstuff DarkMor - kstuff-1.13-fpkg-dr-test3 - Checksum: eae5085e57b171c3167222d72a645e617edcdbfb47e4896ff1ab721f66e9171d</description>
+      <description>Experimental Kstuff DarkMor - kstuff-1.13-fpkg-dr-test3 - Checksum: e6da4380ada3515d6194c5511ec18092896acdb67cf26beb6874d0a29f812d0c</description>
     </item>
     <item>
       <title>A53 Ppr Install 1140 20.09 (Source-Fixe)</title>
       <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/A53_1.00-11.40_Experimental_KS-D/Source-Fixe/a53_ppr_install_1140_20.09.elf</link>
-      <description>a53_ppr_install_1140_20.09.elf - support 1.00-11.40 - Checksum: 696509de8b3791f1c1979771008272993404c2fe2b7ff0a1d949e949cc8dd64a</description>
+      <description>a53_ppr_install_1140_20.09.elf - support 1.00-11.40 - Checksum: 28201d7ad86db7015cf7aaae4f10ee63c0d25a8e41bb328d532909d710d3c1cb</description>
     </item>
     <item>
       <title>A53 Ppr Install 1160 20.09 (Source-Fixe)</title>
       <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/A53_11.60_only_Experimental_KS-D/Source-Fixe/a53_ppr_install_1160_20.09.elf</link>
-      <description>a53_ppr_install_1160_20.09.elf - 11.60 only - Checksum: d9f5567c91cad27ad06581194557a7914fade1c24a20adcf7a63a6e80488ca43</description>
+      <description>a53_ppr_install_1160_20.09.elf - 11.60 only - Checksum: f373f16455bbd0757640339e3cdb77c431bd22db2e06cd214c8289d1f9b7ac14</description>
     </item>
     <item>
       <title>Webkit Autoloader Installer (v0.5.2)</title>
@@ -232,7 +232,7 @@
     <item>
       <title>Ghost Toothapi (Source-Fixe)</title>
       <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_utility/ghost-toothAPI/Source-Fixe/ghost-toothAPI.elf</link>
-      <description>ghost-toothAPI. - Checksum: 5858b688bb52fb3b3dc03a890a3ea81e5d7d25acb0525229d988d250e44115fb</description>
+      <description>ghost-toothAPI. - Checksum: 7a4cda1a11f236e4420b088b0319d712aae90998a0fe9d6ff44bad5ae4561037</description>
     </item>
     <item>
       <title>Pegasus Dl (v1.10.1)</title>
@@ -300,6 +300,11 @@
       <description>Interface d'administration et de gestion réseau pour envoyer, activer et ordonner vos fichiers ELF/BIN sur la console. - Checksum: 62b3ba2a4937c2afc502f9a4e7242cca538610ebb4ae2800c7c6f72e7f268e7c</description>
     </item>
     <item>
+      <title>Elf Arsenal (v1.6.23)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/ELF_Arsenal/v1.6.23/ELF_Arsenal_v1.6.23.elf</link>
+      <description>Boîte à outils regroupant une collection complète de payloads utilitaires pour les consoles jailbreakées. - Checksum: 20cdb0979ce627aff8e684a4506e18390a72492d5e3aa15ecef0bfe1bca08bb5</description>
+    </item>
+    <item>
       <title>Kura (v1.6.50)</title>
       <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/Kura/v1.6.50/Kura_v1.6.50.elf</link>
       <description>Un loader de payloads moderne et épuré conçu pour optimiser l'injection de code sur PS5. - Checksum: 8bac520b2b99dcda8109838884380605736d8b1c23793754250bcef00536b6ab</description>
@@ -323,6 +328,11 @@
       <title>Prosperomgr (v1.1)</title>
       <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/ProsperoMgr/v1.1/ProsperoMgr_v1.1.elf</link>
       <description>A Web-Based All-In-One homebrew manager for your PlayStation 5 - Checksum: e7a6bb544adb2fb2a61aa9cc83b0ad15f70b32d7511a3de0f1fb88812f11983c</description>
+    </item>
+    <item>
+      <title>Np Fake Signin (v1.3)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Activation/np-fake-signin/v1.3/np-fake-signin_v1.3.elf</link>
+      <description>Fake activate PS5 without PSN. - Checksum: 2ace1bb0be6d57f91cb24e4d3a221dec2d6d6114ace0a6b5748c6c0dcdb3b9c6</description>
     </item>
     <item>
       <title>PS5 Linux Loader (v2.5)</title>
@@ -490,9 +500,9 @@
       <description>Dump Runner tool. - Checksum: 816ff23141f100004d882e53bfae80b6c29f6b9427df56524cd1a89403c40df4</description>
     </item>
     <item>
-      <title>Shadowmountplus (1.7beta2)</title>
-      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/ShadowMountPlus/1.7beta2/ShadowMountPlus_v1.7beta2.elf</link>
-      <description>ShadowMountPlus payload for game mounting. - Checksum: 3f716a7b2220c7e87e87452ae05cad689ef842d3beb4cdad6c526cb6dfc2b6b5</description>
+      <title>Shadowmountplus (1.7beta3)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/ShadowMountPlus/1.7beta3/ShadowMountPlus_v1.7beta3.elf</link>
+      <description>ShadowMountPlus payload for game mounting. - Checksum: 2a7427e20ba7a70bd8cd01e47eb00ee7ca82db82dff3da7884f48f9c3fcbe95a</description>
     </item>
     <item>
       <title>Backpork (0.1)</title>
