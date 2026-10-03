@@ -101,13 +101,22 @@
       "checksum": "8162e9c0988e0e69d506840d3ba0a239fdbc5fbea60517cfaa6f820b23cd96f4"
     },
     {
+      "name": "A53 Kstuff Shadowmountplus 3In1",
+      "filename": "A53-Kstuff-ShadowMountPlus-3in1.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/A53-Kstuff-ShadowMountPlus-3in1_SoNic-AIO_Experimental/Source-Fixe/A53-Kstuff-ShadowMountPlus-3in1.elf",
+      "description": "Experimental AIO by SoNic credit to EchoStrech DarkMor",
+      "version": "Source-Fixe",
+      "category": "PS5 Beta",
+      "checksum": "7132f65b66feb5d2e86e7d7e85e7eb85fa90e325ce82adb5f43b15b65eb58719"
+    },
+    {
       "name": "A53 Kstuff Smp",
       "filename": "A53-kstuff-SMP.elf",
       "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/A53-kstuff-SMP_SoNic-AIO_Experimental/Source-Fixe/A53-kstuff-SMP.elf",
       "description": "Experimental AIO by SoNic credit to EchoStrech DarkMor",
       "version": "Source-Fixe",
       "category": "PS5 Beta",
-      "checksum": "35dea4363009abf9c96296924ac8667a34a1aad0a447a9f824d847db84e57ad1"
+      "checksum": "63cf6c81f2ef6ba23fdecd7be45ab4f26f9ef98f0a8f80c782860301f6fafbfb"
     },
     {
       "name": "Kstuff Ng",
@@ -116,7 +125,7 @@
       "description": "Experimental Kstuff NG",
       "version": "Source-Fixe",
       "category": "PS5 Beta",
-      "checksum": "a1cbad2381851bebe080fde79ea3b24f47e3458ba1e65025fde4e8166e5aaa4e"
+      "checksum": "73d7d0c5c42fa7c127f185fad89dda621b1cfeee82f827bc393bc6a2f0d55ce7"
     },
     {
       "name": "Kstuff 1.13 Fpkg Dr Test3",
@@ -125,7 +134,7 @@
       "description": "Experimental Kstuff DarkMor - kstuff-1.13-fpkg-dr-test3",
       "version": "Source-Fixe",
       "category": "PS5 Beta",
-      "checksum": "a8d78c5ff6ed638d27d1009a8f4cc493953792cd7d6cea54ed1c997ea618ed64"
+      "checksum": "eba945e43d38240845ebc39ab7041c31ccea5574229f12bcacc6b74ebbc482b9"
     },
     {
       "name": "A53 Ppr Install 1140 20.09",
@@ -134,7 +143,7 @@
       "description": "a53_ppr_install_1140_20.09.elf - support 1.00-11.40",
       "version": "Source-Fixe",
       "category": "PS5 Beta",
-      "checksum": "0b11601ca098aa08d5075227fb49c9b4fe4fbc2193805aaec8e0c0812c5643d2"
+      "checksum": "863d43cb89c54de3b36f4efc3375bc52bf65e70004b9c6a99f96571ccb4a539e"
     },
     {
       "name": "A53 Ppr Install 1160 20.09",
@@ -143,7 +152,7 @@
       "description": "a53_ppr_install_1160_20.09.elf - 11.60 only",
       "version": "Source-Fixe",
       "category": "PS5 Beta",
-      "checksum": "4ebc3c0514bc423a31bbbf66b47f3ea0cd9c90024ad2b9f2b582f99dab87f6da"
+      "checksum": "d7f6b3c70381165f0188a8fc7d2354fd1bd22f8119e086ac57e99ffd3b5ccff1"
     },
     {
       "name": "Webkit Autoloader Installer",
@@ -404,7 +413,7 @@
       "description": "ghost-toothAPI.",
       "version": "Source-Fixe",
       "category": "PS5 Utility",
-      "checksum": "bf0669fa463139ea5d3be45e692b529987dbc388102f8a43e8b5ea88d3f31a88"
+      "checksum": "98851ee22d502f7cc1dfefcd1fe75c5304cfcebee83a8e0b299722bd799b6d78"
     },
     {
       "name": "Spectrum Library",
@@ -867,12 +876,12 @@
     },
     {
       "name": "PS5 App Dumper",
-      "filename": "ps5-app-dumper_v2.00.elf",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/ps5-app-dumper/v2.00/ps5-app-dumper_v2.00.elf",
+      "filename": "ps5-app-dumper_v2.10.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/ps5-app-dumper/v2.10/ps5-app-dumper_v2.10.elf",
       "description": "PS5 App Dumper payload.",
-      "version": "v2.00",
+      "version": "v2.10",
       "category": "PS5 Game Dump",
-      "checksum": "b6fea71afb8937fcd1a933116c620e989acba25b7049eaeaa00cdc1bd604d686"
+      "checksum": "c850f1df6f2787824d6ddeeed69ce4144e00569b32135973401c2985cfb0345b"
     },
     {
       "name": "Dump Installer",
