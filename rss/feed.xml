@@ -62,32 +62,32 @@
     <item>
       <title>A53 Kstuff Shadowmountplus 3In1 (Source-Fixe)</title>
       <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/A53-Kstuff-ShadowMountPlus-3in1_SoNic-AIO_Experimental/Source-Fixe/A53-Kstuff-ShadowMountPlus-3in1.elf</link>
-      <description>Experimental AIO by SoNic credit to EchoStrech DarkMor - Checksum: 7132f65b66feb5d2e86e7d7e85e7eb85fa90e325ce82adb5f43b15b65eb58719</description>
+      <description>Experimental AIO by SoNic credit to EchoStrech DarkMor - Checksum: 5e662f347a1fb9a701eb7438e5504981f3bd195b180f00d9227b4dafe68c02e3</description>
     </item>
     <item>
       <title>A53 Kstuff Smp (Source-Fixe)</title>
       <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/A53-kstuff-SMP_SoNic-AIO_Experimental/Source-Fixe/A53-kstuff-SMP.elf</link>
-      <description>Experimental AIO by SoNic credit to EchoStrech DarkMor - Checksum: 63cf6c81f2ef6ba23fdecd7be45ab4f26f9ef98f0a8f80c782860301f6fafbfb</description>
+      <description>Experimental AIO by SoNic credit to EchoStrech DarkMor - Checksum: 7fbaeda1874a0cf242d784e1923007b90c0349d6dd34731d55b9156a2ae94be8</description>
     </item>
     <item>
       <title>Kstuff Ng (Source-Fixe)</title>
       <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/Kstuff-NG_EchoStrech_Experimental/Source-Fixe/Kstuff-NG_v1.00.elf</link>
-      <description>Experimental Kstuff NG - Checksum: 73d7d0c5c42fa7c127f185fad89dda621b1cfeee82f827bc393bc6a2f0d55ce7</description>
+      <description>Experimental Kstuff NG - Checksum: 1e14051497c6c19cde5a17757abae14141c45417a84ce1194553ccaa8eb2686c</description>
     </item>
     <item>
       <title>Kstuff 1.13 Fpkg Dr Test3 (Source-Fixe)</title>
       <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/kstuff_Darkmor_Experimental/Source-Fixe/kstuff-1.13-fpkg-dr-test3.elf</link>
-      <description>Experimental Kstuff DarkMor - kstuff-1.13-fpkg-dr-test3 - Checksum: eba945e43d38240845ebc39ab7041c31ccea5574229f12bcacc6b74ebbc482b9</description>
+      <description>Experimental Kstuff DarkMor - kstuff-1.13-fpkg-dr-test3 - Checksum: 128c4d8a105d83d471eee60186346ca7f3ff9ff323e4c116d9dadd2630b41da1</description>
     </item>
     <item>
       <title>A53 Ppr Install 1140 20.09 (Source-Fixe)</title>
       <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/A53_1.00-11.40_Experimental_KS-D/Source-Fixe/a53_ppr_install_1140_20.09.elf</link>
-      <description>a53_ppr_install_1140_20.09.elf - support 1.00-11.40 - Checksum: 863d43cb89c54de3b36f4efc3375bc52bf65e70004b9c6a99f96571ccb4a539e</description>
+      <description>a53_ppr_install_1140_20.09.elf - support 1.00-11.40 - Checksum: 6d899f0e121c183a75c2361c69695e26925abf904ffe5b84e976d95073eda2c9</description>
     </item>
     <item>
       <title>A53 Ppr Install 1160 20.09 (Source-Fixe)</title>
       <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Beta/A53_11.60_only_Experimental_KS-D/Source-Fixe/a53_ppr_install_1160_20.09.elf</link>
-      <description>a53_ppr_install_1160_20.09.elf - 11.60 only - Checksum: d7f6b3c70381165f0188a8fc7d2354fd1bd22f8119e086ac57e99ffd3b5ccff1</description>
+      <description>a53_ppr_install_1160_20.09.elf - 11.60 only - Checksum: f1813bc03f17eb955770861cb3c9cb2f72c07eaacb327df8bbe7e12c9f8a639d</description>
     </item>
     <item>
       <title>Webkit Autoloader Installer (v0.5.2)</title>
@@ -232,7 +232,7 @@
     <item>
       <title>Ghost Toothapi (Source-Fixe)</title>
       <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_utility/ghost-toothAPI/Source-Fixe/ghost-toothAPI.elf</link>
-      <description>ghost-toothAPI. - Checksum: 98851ee22d502f7cc1dfefcd1fe75c5304cfcebee83a8e0b299722bd799b6d78</description>
+      <description>ghost-toothAPI. - Checksum: 42555e931ca59b66726921692c23a9038fb16657486a705699bb1045d15a6c44</description>
     </item>
     <item>
       <title>Spectrum Library (1.4.8)</title>
@@ -320,9 +320,9 @@
       <description>PIZZA HEN is an experimental all-in-one PS5 homebrew environment. - Checksum: 8535d399612d61c50a528b2ae416f2fc3ccfb7480296df99c17302583fb3e345</description>
     </item>
     <item>
-      <title>Onionhen (v0.0.13)</title>
-      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/onionHEN/v0.0.13/onionHEN_v0.0.13.elf</link>
-      <description>An all-in-one HEN and Toolbox for PlayStation 5. - Checksum: aa3f98847948e2ae8ea600c3f437e28247a0a4f8b73651a046d2859924bf97b3</description>
+      <title>Onionhen (v0.9.0-beta1)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/onionHEN/v0.9.0-beta1/onionHEN_v0.9.0-beta1.elf</link>
+      <description>An all-in-one HEN and Toolbox for PlayStation 5. - Checksum: c587a0e92158d0a64f1c78e10a9743709b3ab194bee2d4cf8ffdd3147c3a7530</description>
     </item>
     <item>
       <title>Etahen 2.6B (Source-Fixe)</title>

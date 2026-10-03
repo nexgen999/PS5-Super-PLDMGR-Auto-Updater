@@ -107,7 +107,7 @@
       "description": "Experimental AIO by SoNic credit to EchoStrech DarkMor",
       "version": "Source-Fixe",
       "category": "PS5 Beta",
-      "checksum": "7132f65b66feb5d2e86e7d7e85e7eb85fa90e325ce82adb5f43b15b65eb58719"
+      "checksum": "5e662f347a1fb9a701eb7438e5504981f3bd195b180f00d9227b4dafe68c02e3"
     },
     {
       "name": "A53 Kstuff Smp",
@@ -116,7 +116,7 @@
       "description": "Experimental AIO by SoNic credit to EchoStrech DarkMor",
       "version": "Source-Fixe",
       "category": "PS5 Beta",
-      "checksum": "63cf6c81f2ef6ba23fdecd7be45ab4f26f9ef98f0a8f80c782860301f6fafbfb"
+      "checksum": "7fbaeda1874a0cf242d784e1923007b90c0349d6dd34731d55b9156a2ae94be8"
     },
     {
       "name": "Kstuff Ng",
@@ -125,7 +125,7 @@
       "description": "Experimental Kstuff NG",
       "version": "Source-Fixe",
       "category": "PS5 Beta",
-      "checksum": "73d7d0c5c42fa7c127f185fad89dda621b1cfeee82f827bc393bc6a2f0d55ce7"
+      "checksum": "1e14051497c6c19cde5a17757abae14141c45417a84ce1194553ccaa8eb2686c"
     },
     {
       "name": "Kstuff 1.13 Fpkg Dr Test3",
@@ -134,7 +134,7 @@
       "description": "Experimental Kstuff DarkMor - kstuff-1.13-fpkg-dr-test3",
       "version": "Source-Fixe",
       "category": "PS5 Beta",
-      "checksum": "eba945e43d38240845ebc39ab7041c31ccea5574229f12bcacc6b74ebbc482b9"
+      "checksum": "128c4d8a105d83d471eee60186346ca7f3ff9ff323e4c116d9dadd2630b41da1"
     },
     {
       "name": "A53 Ppr Install 1140 20.09",
@@ -143,7 +143,7 @@
       "description": "a53_ppr_install_1140_20.09.elf - support 1.00-11.40",
       "version": "Source-Fixe",
       "category": "PS5 Beta",
-      "checksum": "863d43cb89c54de3b36f4efc3375bc52bf65e70004b9c6a99f96571ccb4a539e"
+      "checksum": "6d899f0e121c183a75c2361c69695e26925abf904ffe5b84e976d95073eda2c9"
     },
     {
       "name": "A53 Ppr Install 1160 20.09",
@@ -152,7 +152,7 @@
       "description": "a53_ppr_install_1160_20.09.elf - 11.60 only",
       "version": "Source-Fixe",
       "category": "PS5 Beta",
-      "checksum": "d7f6b3c70381165f0188a8fc7d2354fd1bd22f8119e086ac57e99ffd3b5ccff1"
+      "checksum": "f1813bc03f17eb955770861cb3c9cb2f72c07eaacb327df8bbe7e12c9f8a639d"
     },
     {
       "name": "Webkit Autoloader Installer",
@@ -413,7 +413,7 @@
       "description": "ghost-toothAPI.",
       "version": "Source-Fixe",
       "category": "PS5 Utility",
-      "checksum": "98851ee22d502f7cc1dfefcd1fe75c5304cfcebee83a8e0b299722bd799b6d78"
+      "checksum": "42555e931ca59b66726921692c23a9038fb16657486a705699bb1045d15a6c44"
     },
     {
       "name": "Spectrum Library",
@@ -570,12 +570,12 @@
     },
     {
       "name": "Onionhen",
-      "filename": "onionHEN_v0.0.13.elf",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/onionHEN/v0.0.13/onionHEN_v0.0.13.elf",
+      "filename": "onionHEN_v0.9.0-beta1.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/onionHEN/v0.9.0-beta1/onionHEN_v0.9.0-beta1.elf",
       "description": "An all-in-one HEN and Toolbox for PlayStation 5.",
-      "version": "v0.0.13",
+      "version": "v0.9.0-beta1",
       "category": "PS5 HEN Loader",
-      "checksum": "aa3f98847948e2ae8ea600c3f437e28247a0a4f8b73651a046d2859924bf97b3"
+      "checksum": "c587a0e92158d0a64f1c78e10a9743709b3ab194bee2d4cf8ffdd3147c3a7530"
     },
     {
       "name": "Etahen 2.6B",
