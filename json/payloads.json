@@ -107,7 +107,7 @@
       "description": "Experimental AIO by SoNic credit to EchoStrech DarkMor",
       "version": "Source-Fixe",
       "category": "PS5 Beta",
-      "checksum": "2ae70d6213c841df942fd6caade8c3c4b6157d102db4080a01e3e4ca4050e5f8"
+      "checksum": "42ae834df7c4e0522a15f06e945fe8031290bf3c869b5e13a0d1ce35d0519bf7"
     },
     {
       "name": "A53 Kstuff Smp",
@@ -116,7 +116,7 @@
       "description": "Experimental AIO by SoNic credit to EchoStrech DarkMor",
       "version": "Source-Fixe",
       "category": "PS5 Beta",
-      "checksum": "a7ce3bc75ec95ac8856ec8937fff76d7c2511c1a1b8206a946014c0baa51a4b6"
+      "checksum": "038db372070d0a103fb6680f29f3f7ff6740e84200088d785e8a2f31d31554e3"
     },
     {
       "name": "Kstuff Ng",
@@ -125,7 +125,7 @@
       "description": "Experimental Kstuff NG",
       "version": "Source-Fixe",
       "category": "PS5 Beta",
-      "checksum": "70becc787d03eb96c4ff3902286c9d0a9346cb93a363fba99049e204697326fc"
+      "checksum": "e05cc89f474e5c2518f3714f709733267adb8016ae5c7d15313b2c97c21e8b63"
     },
     {
       "name": "Kstuff 1.13 Fpkg Dr Test3",
@@ -134,7 +134,7 @@
       "description": "Experimental Kstuff DarkMor - kstuff-1.13-fpkg-dr-test3",
       "version": "Source-Fixe",
       "category": "PS5 Beta",
-      "checksum": "5fdf74eadbe499b15d1b6614c7472666f1bd9a1afdfbe5331e2fdef18424623d"
+      "checksum": "cc50b91f0a8a710faf3678d20a9a679bf29bfda4d93876f5c019163e85d50aea"
     },
     {
       "name": "A53 Ppr Install 1140 20.09",
@@ -143,7 +143,7 @@
       "description": "a53_ppr_install_1140_20.09.elf - support 1.00-11.40",
       "version": "Source-Fixe",
       "category": "PS5 Beta",
-      "checksum": "2b4085244ca030863f29242fd40213eca7a061c49cc00fe042199672f6a07f8e"
+      "checksum": "aaf1aec8efb977719738f6c3b18c3dc00eac4bedaf9c391e1a284dd6d9305e8e"
     },
     {
       "name": "A53 Ppr Install 1160 20.09",
@@ -152,7 +152,7 @@
       "description": "a53_ppr_install_1160_20.09.elf - 11.60 only",
       "version": "Source-Fixe",
       "category": "PS5 Beta",
-      "checksum": "8c8e40135b027b2ed6d3787cf340f4cb578e0de435a4aa0ba603446439ac5954"
+      "checksum": "1f73b56d19719781968c685842fc627072b1e7fb0052ba44642c90607a3cb518"
     },
     {
       "name": "Webkit Autoloader Installer",
@@ -413,7 +413,7 @@
       "description": "ghost-toothAPI.",
       "version": "Source-Fixe",
       "category": "PS5 Utility",
-      "checksum": "b6b87050bcd7864a3c7f5b1dcd7c8f37eaa0db22961c9431567ace4c20bf1b2f"
+      "checksum": "76ea8b6de54f87ff9ea6b9a1cae479c1a291ee5844e287245690c8c480089892"
     },
     {
       "name": "Spectrum Library",
@@ -507,10 +507,10 @@
     },
     {
       "name": "Pkg Receiver",
-      "filename": "pkg-receiver_v1.2.8.elf",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_pkg_tool/pkg-receiver/v1.2.8/pkg-receiver_v1.2.8.elf",
+      "filename": "pkg-receiver_v1.2.9.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_pkg_tool/pkg-receiver/v1.2.9/pkg-receiver_v1.2.9.elf",
       "description": "A package manager for PlayStation 5 need PkgSender android app or windows app",
-      "version": "v1.2.8",
+      "version": "v1.2.9",
       "category": "PS5 Pkg Tool",
       "checksum": "6946d52c6c04a3f43d3141a505394ba8e0c6923f17fe471054e11567c9a526c7"
     },
