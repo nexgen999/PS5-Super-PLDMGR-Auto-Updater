@@ -1,4 +1,4 @@
-![Banner](assets/banner.png)
+![Banner](assets/evox-store-banner.png)
 
 # 🎮 PS5 Super PLDMGR Auto Updater is now closed
 
