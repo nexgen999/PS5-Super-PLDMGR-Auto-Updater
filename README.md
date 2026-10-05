@@ -6,6 +6,8 @@ Upgrade To evoX-CoreOS
 
 https://github.com/nexgen999/evoX-CoreOS
 
+Payloads are import from evX-CoreOS for migration time before full closed repository
+
 ## 🔗 URLs Fixes des Stores JSON
 * **Payloads Store JSON :** `https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/json/payloads.json`
 
