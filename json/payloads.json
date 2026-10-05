@@ -1,0 +1,1124 @@
+{
+  "name": "AIO Store Payloads",
+  "payloads": [
+    {
+      "name": "Garlic-Savemgr V1.13.1",
+      "filename": "garlic-savemgr_v1.13.1.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_saves/garlic-savemgr/v1.13.1/garlic-savemgr_v1.13.1.elf",
+      "local_path": "payloads/ps5_saves/garlic-savemgr/v1.13.1/garlic-savemgr_v1.13.1.elf",
+      "description": "Save manager utility hosted on Forgejo.",
+      "version": "v1.13.1",
+      "category": "PS5 Saves",
+      "checksum": "b0fc2fcdda977d2a1207d77148746859b7ea7f3cfcad02828a7a9b49651807f5"
+    },
+    {
+      "name": "Garlic-Worker V1.1.7",
+      "filename": "garlic-worker_v1.1.7.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_saves/garlic-worker/v1.1.7/garlic-worker_v1.1.7.elf",
+      "local_path": "payloads/ps5_saves/garlic-worker/v1.1.7/garlic-worker_v1.1.7.elf",
+      "description": "Garlic worker payload component.",
+      "version": "v1.1.7",
+      "category": "PS5 Saves",
+      "checksum": "2643f35cdfe9969cf775220dc4a65bc4ff0d08750c39bfb714b74dbbf29cd396"
+    },
+    {
+      "name": "Savemnt-Offset-Dumper V1.0.0",
+      "filename": "savemnt-offset-dumper_v1.0.0.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_saves/savemnt-offset-dumper/1.0.0/savemnt-offset-dumper_v1.0.0.elf",
+      "local_path": "payloads/ps5_saves/savemnt-offset-dumper/1.0.0/savemnt-offset-dumper_v1.0.0.elf",
+      "description": "Offset dumper for save mounting utilities.",
+      "version": "1.0.0",
+      "category": "PS5 Saves",
+      "checksum": "946328551f74e3b6a34a7c0169f9b40792e392775768b84874b55ecdff71222e"
+    },
+    {
+      "name": "Common Fps Ps5 V1.2.1",
+      "filename": "Common_FPS_PS5_v1.2.1.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/PS5_Overlay/Common-FPS-for-PS5/v1.2.1/Common_FPS_PS5_v1.2.1.elf",
+      "local_path": "payloads/PS5_Overlay/Common-FPS-for-PS5/v1.2.1/Common_FPS_PS5_v1.2.1.elf",
+      "description": "A lightweight, open-source real-time FPS counter for PlayStation 5.",
+      "version": "v1.2.1",
+      "category": "PS5 Overlay",
+      "checksum": "6be733b7b3a15ed03b67adcd34ca02628427210775c330f2fbe9f000bc7b27ff"
+    },
+    {
+      "name": "Ps5 Overlay",
+      "filename": "ps5_overlay.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/PS5_Overlay/ps5-new-overlay/v1.0.15/ps5_overlay.elf",
+      "local_path": "payloads/PS5_Overlay/ps5-new-overlay/v1.0.15/ps5_overlay.elf",
+      "description": "A lightweight, standalone hardware monitoring overlay for jailbroken PlayStation 5 consoles (FW 1.xx - 10.xx+).",
+      "version": "v1.0.15",
+      "category": "PS5 Overlay",
+      "checksum": "5e843b4b20b5954802a88722e5f9436d71d29bc3c82c22d7aa828b83b9960ff9"
+    },
+    {
+      "name": "Ps5 Overlay Shellui",
+      "filename": "ps5_overlay_shellui.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/PS5_Overlay/ps5-new-overlay/v1.0.15/ps5_overlay_shellui.elf",
+      "local_path": "payloads/PS5_Overlay/ps5-new-overlay/v1.0.15/ps5_overlay_shellui.elf",
+      "description": "A lightweight, standalone hardware monitoring overlay for jailbroken PlayStation 5 consoles (FW 1.xx - 10.xx+).",
+      "version": "v1.0.15",
+      "category": "PS5 Overlay",
+      "checksum": "54d23675bf44f17599a9e08397cf0c62b0e10cfbffdc2fe1673e5bcc9de8a2b7"
+    },
+    {
+      "name": "Bfpilot V0.4.4",
+      "filename": "BFpilot_v0.4.4.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_file_explorer/BFpilot/v0.4.4/BFpilot_v0.4.4.elf",
+      "local_path": "payloads/ps5_file_explorer/BFpilot/v0.4.4/BFpilot_v0.4.4.elf",
+      "description": "BFpilot is a lightweight PS5 payload that serves a browser-based file manager.",
+      "version": "v0.4.4",
+      "category": "PS5 File Explorer",
+      "checksum": "5a8237630260026ad054d71fbbe661e433ac9ffa2cb4eea2785769c1eb7ee1c1"
+    },
+    {
+      "name": "Lapy Jb Daemon",
+      "filename": "lapy_jb_daemon.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_file_explorer/Lapy_JB_Daemon/Source-Fixe/lapy_jb_daemon.elf",
+      "local_path": "payloads/ps5_file_explorer/Lapy_JB_Daemon/Source-Fixe/lapy_jb_daemon.elf",
+      "description": "Daemon pour le jailbreak de Lapy",
+      "version": "Source-Fixe",
+      "category": "PS5 File Explorer",
+      "checksum": "e8230ac4597b8f0388e75d7515ad1a2e251c4589cc3b8d56a483ffae73627eed"
+    },
+    {
+      "name": "Web-File-Mgr V1.9",
+      "filename": "web-file-mgr_v1.9.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_file_explorer/ps5-web-file-manager/v1.9/web-file-mgr_v1.9.elf",
+      "local_path": "payloads/ps5_file_explorer/ps5-web-file-manager/v1.9/web-file-mgr_v1.9.elf",
+      "description": "PS5 Web File Manager http://your-ps5-ip:8888.",
+      "version": "v1.9",
+      "category": "PS5 File Explorer",
+      "checksum": "711cb076e887fcd55d973ade8b84bb6c22720be295bfde18e32761f6e0479a3e"
+    },
+    {
+      "name": "Web-File-Mgr-V1.9",
+      "filename": "web-file-mgr-v1.9.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_file_explorer/ps5-web-file-manager/v1.9/web-file-mgr-v1.9.elf",
+      "local_path": "payloads/ps5_file_explorer/ps5-web-file-manager/v1.9/web-file-mgr-v1.9.elf",
+      "description": "PS5 Web File Manager http://your-ps5-ip:8888.",
+      "version": "v1.9",
+      "category": "PS5 File Explorer",
+      "checksum": "711cb076e887fcd55d973ade8b84bb6c22720be295bfde18e32761f6e0479a3e"
+    },
+    {
+      "name": "Wfm-7Zip-Helper",
+      "filename": "wfm-7zip-helper.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_file_explorer/ps5-web-file-manager/v1.9/wfm-7zip-helper.elf",
+      "local_path": "payloads/ps5_file_explorer/ps5-web-file-manager/v1.9/wfm-7zip-helper.elf",
+      "description": "PS5 Web File Manager http://your-ps5-ip:8888.",
+      "version": "v1.9",
+      "category": "PS5 File Explorer",
+      "checksum": "7a6369489143c2b8887331a7235a6a77dd5667c794c4234973f8159fed92fe24"
+    },
+    {
+      "name": "Ps5-File-Explorer Vfile-Explorer-V0.2.1",
+      "filename": "PS5-File-Explorer_vfile-explorer-v0.2.1.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_file_explorer/PS5-File-Explorer/file-explorer-v0.2.1/PS5-File-Explorer_vfile-explorer-v0.2.1.elf",
+      "local_path": "payloads/ps5_file_explorer/PS5-File-Explorer/file-explorer-v0.2.1/PS5-File-Explorer_vfile-explorer-v0.2.1.elf",
+      "description": "PS5 File Explorer http://your-ps5-ip:5905.",
+      "version": "file-explorer-v0.2.1",
+      "category": "PS5 File Explorer",
+      "checksum": "6d4b905b42727dddeaedddb2a657ed0d4e7110ddd068a6daab0aafb2ba32604b"
+    },
+    {
+      "name": "A53-Kstuff-Shadowmountplus-3In1",
+      "filename": "A53-Kstuff-ShadowMountPlus-3in1.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/PS5_Beta/A53-Kstuff-ShadowMountPlus-3in1_SoNic-AIO_Experimental/Source-Fixe/A53-Kstuff-ShadowMountPlus-3in1.elf",
+      "local_path": "payloads/PS5_Beta/A53-Kstuff-ShadowMountPlus-3in1_SoNic-AIO_Experimental/Source-Fixe/A53-Kstuff-ShadowMountPlus-3in1.elf",
+      "description": "Experimental AIO by SoNic credit to EchoStrech DarkMor",
+      "version": "Source-Fixe",
+      "category": "PS5 Beta",
+      "checksum": "51f5c7973a2edb5db61bcbfb7afc3d2336f19368631f84bfc55d08ef4a3d4ab2"
+    },
+    {
+      "name": "A53-Kstuff-Smp",
+      "filename": "A53-kstuff-SMP.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/PS5_Beta/A53-kstuff-SMP_SoNic-AIO_Experimental/Source-Fixe/A53-kstuff-SMP.elf",
+      "local_path": "payloads/PS5_Beta/A53-kstuff-SMP_SoNic-AIO_Experimental/Source-Fixe/A53-kstuff-SMP.elf",
+      "description": "Experimental AIO by SoNic credit to EchoStrech DarkMor",
+      "version": "Source-Fixe",
+      "category": "PS5 Beta",
+      "checksum": "98fd2462262b6c3e46f8f5f44672ee50c5c3f8718b9a3281ae8220f05a06d3dc"
+    },
+    {
+      "name": "Kstuff-Ng V1.00",
+      "filename": "Kstuff-NG_v1.00.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/PS5_Beta/Kstuff-NG_EchoStrech_Experimental/Source-Fixe/Kstuff-NG_v1.00.elf",
+      "local_path": "payloads/PS5_Beta/Kstuff-NG_EchoStrech_Experimental/Source-Fixe/Kstuff-NG_v1.00.elf",
+      "description": "Experimental Kstuff NG",
+      "version": "Source-Fixe",
+      "category": "PS5 Beta",
+      "checksum": "77c7a96783de94201417630cf57bdec3d7eebd047dfb96d8f144c3590359256f"
+    },
+    {
+      "name": "Kstuff-1.13-Fpkg-Dr-Test5",
+      "filename": "kstuff-1.13-fpkg-dr-test5.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/PS5_Beta/kstuff_Darkmor_Experimental/Source-Fixe/kstuff-1.13-fpkg-dr-test5.elf",
+      "local_path": "payloads/PS5_Beta/kstuff_Darkmor_Experimental/Source-Fixe/kstuff-1.13-fpkg-dr-test5.elf",
+      "description": "Experimental Kstuff DarkMor - kstuff-1.13-fpkg-dr-test3",
+      "version": "Source-Fixe",
+      "category": "PS5 Beta",
+      "checksum": "829b45fe871dd64fbd53874ae4558076c2f1e1f203fe1ab52db5510d5fc45923"
+    },
+    {
+      "name": "A53 Ppr Install 1140 20.09",
+      "filename": "a53_ppr_install_1140_20.09.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/PS5_Beta/A53_1.00-11.40_Experimental_KS-D/Source-Fixe/a53_ppr_install_1140_20.09.elf",
+      "local_path": "payloads/PS5_Beta/A53_1.00-11.40_Experimental_KS-D/Source-Fixe/a53_ppr_install_1140_20.09.elf",
+      "description": "a53_ppr_install_1140_20.09.elf - support 1.00-11.40",
+      "version": "Source-Fixe",
+      "category": "PS5 Beta",
+      "checksum": "5d664382ea83e11f0326d9f0544af215a9f329e27fbd1edc483446e0d7b8ee13"
+    },
+    {
+      "name": "A53 Ppr Install 1160 20.09",
+      "filename": "a53_ppr_install_1160_20.09.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/PS5_Beta/A53_11.60_only_Experimental_KS-D/Source-Fixe/a53_ppr_install_1160_20.09.elf",
+      "local_path": "payloads/PS5_Beta/A53_11.60_only_Experimental_KS-D/Source-Fixe/a53_ppr_install_1160_20.09.elf",
+      "description": "a53_ppr_install_1160_20.09.elf - 11.60 only",
+      "version": "Source-Fixe",
+      "category": "PS5 Beta",
+      "checksum": "984be03548aa849bcd06757acbed5575a3764532d858f4afaaa243b9f2a08bbf"
+    },
+    {
+      "name": "Webkit-Autoloader-Installer V0.5.2",
+      "filename": "webkit-autoloader-installer_v0.5.2.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5-webkit-autoloader/ps5-webkit-autoloader/v0.5.2/webkit-autoloader-installer_v0.5.2.elf",
+      "local_path": "payloads/ps5-webkit-autoloader/ps5-webkit-autoloader/v0.5.2/webkit-autoloader-installer_v0.5.2.elf",
+      "description": "Installs WebKit Autoloader on homescreen for firmwares 9.00-12.00.",
+      "version": "v0.5.2",
+      "category": "Ps5-Webkit-Autoloader",
+      "checksum": "f990e48e8330231d2066a7b8ab6dc25fda83b2cc36cb426c472b35b33767451a"
+    },
+    {
+      "name": "Host-Psm-Poop2Jb-V1.2.0-Instala-Pldmgr-En V1.2.0",
+      "filename": "Host-PSM-pooP2JB-v1.2.0-instala-pldmgr-en_v1.2.0.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5-webkit-autoloader/Host-PSM_pooP2JB/v1.2.0/Host-PSM-pooP2JB-v1.2.0-instala-pldmgr-en_v1.2.0.elf",
+      "local_path": "payloads/ps5-webkit-autoloader/Host-PSM_pooP2JB/v1.2.0/Host-PSM-pooP2JB-v1.2.0-instala-pldmgr-en_v1.2.0.elf",
+      "description": "Host-PSM pooP2JB.",
+      "version": "v1.2.0",
+      "category": "Ps5-Webkit-Autoloader",
+      "checksum": "3ccc45938dcc1bb6ee766195106c928049fd632993828bcf73b5368fdebfc496"
+    },
+    {
+      "name": "Host-Psm-Poop2Jb-V1.2.0-Instala-Onionhen V1.2.0",
+      "filename": "Host-PSM-pooP2JB-v1.2.0-instala-onionhen_v1.2.0.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5-webkit-autoloader/Host-PSM_pooP2JB/v1.2.0/Host-PSM-pooP2JB-v1.2.0-instala-onionhen_v1.2.0.elf",
+      "local_path": "payloads/ps5-webkit-autoloader/Host-PSM_pooP2JB/v1.2.0/Host-PSM-pooP2JB-v1.2.0-instala-onionhen_v1.2.0.elf",
+      "description": "Host-PSM pooP2JB.",
+      "version": "v1.2.0",
+      "category": "Ps5-Webkit-Autoloader",
+      "checksum": "894432bb3161559a272bbdd07cc66dd80ac487f6ddbcc9ae5718090dc0f6e716"
+    },
+    {
+      "name": "Host-Psm-Poop2Jb-V1.2.0-Instala-Pldmgr V1.2.0",
+      "filename": "Host-PSM-pooP2JB-v1.2.0-instala-pldmgr_v1.2.0.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5-webkit-autoloader/Host-PSM_pooP2JB/v1.2.0/Host-PSM-pooP2JB-v1.2.0-instala-pldmgr_v1.2.0.elf",
+      "local_path": "payloads/ps5-webkit-autoloader/Host-PSM_pooP2JB/v1.2.0/Host-PSM-pooP2JB-v1.2.0-instala-pldmgr_v1.2.0.elf",
+      "description": "Host-PSM pooP2JB.",
+      "version": "v1.2.0",
+      "category": "Ps5-Webkit-Autoloader",
+      "checksum": "b81609da1db061165e44541653b95f524c917a3d5a1fca308965b0d821be3178"
+    },
+    {
+      "name": "Host-Psm-Poop2Jb-V1.2.0-Instala-Onionhen-En V1.2.0",
+      "filename": "Host-PSM-pooP2JB-v1.2.0-instala-onionhen-en_v1.2.0.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5-webkit-autoloader/Host-PSM_pooP2JB/v1.2.0/Host-PSM-pooP2JB-v1.2.0-instala-onionhen-en_v1.2.0.elf",
+      "local_path": "payloads/ps5-webkit-autoloader/Host-PSM_pooP2JB/v1.2.0/Host-PSM-pooP2JB-v1.2.0-instala-onionhen-en_v1.2.0.elf",
+      "description": "Host-PSM pooP2JB.",
+      "version": "v1.2.0",
+      "category": "Ps5-Webkit-Autoloader",
+      "checksum": "90f1ec197e66bbf4fa1a3bce040d6a5d04d571c4f8290f608401e8f7c2e9e0a4"
+    },
+    {
+      "name": "Zftpd-Ps5-V1.6.0",
+      "filename": "zftpd-ps5-v1.6.0.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_server/zftpd/v1.6.0/zftpd-ps5-v1.6.0.elf",
+      "local_path": "payloads/ps5_server/zftpd/v1.6.0/zftpd-ps5-v1.6.0.elf",
+      "description": "FTP server payload for PS5. Port: 21",
+      "version": "v1.6.0",
+      "category": "PS5 Server",
+      "checksum": "39ed57bef579282418f822da2e58ea5d56acfa5aa4cd38816744b1f610bfa14d"
+    },
+    {
+      "name": "Zftpd-Ps5-Zhttp-V1.6.0",
+      "filename": "zftpd-ps5-zhttp-v1.6.0.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_server/zftpd/v1.6.0/zftpd-ps5-zhttp-v1.6.0.elf",
+      "local_path": "payloads/ps5_server/zftpd/v1.6.0/zftpd-ps5-zhttp-v1.6.0.elf",
+      "description": "FTP server payload for PS5. Port: 21",
+      "version": "v1.6.0",
+      "category": "PS5 Server",
+      "checksum": "fc59b60aab2dce9a8bae385c106bfa174048d765c826101355f1f010a789b497"
+    },
+    {
+      "name": "Elfldr V0.26",
+      "filename": "elfldr_v0.26.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_server/elfldr/v0.26/elfldr_v0.26.elf",
+      "local_path": "payloads/ps5_server/elfldr/v0.26/elfldr_v0.26.elf",
+      "description": "ELF Loader utility. Port: 9020 / 9021",
+      "version": "v0.26",
+      "category": "PS5 Server",
+      "checksum": "ed6d587a057c09d6a95b2176e336d9ffc605e547ac56462128b029e47b8ccea1"
+    },
+    {
+      "name": "Ftpsrv Ps5-Payload V0.21.1",
+      "filename": "ftpsrv_ps5-payload_v0.21.1.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_server/ftpsrv_ps5-payload/v0.21.1/ftpsrv_ps5-payload_v0.21.1.elf",
+      "local_path": "payloads/ps5_server/ftpsrv_ps5-payload/v0.21.1/ftpsrv_ps5-payload_v0.21.1.elf",
+      "description": "FTP server background daemon. Port: 21",
+      "version": "v0.21.1",
+      "category": "PS5 Server",
+      "checksum": "7d4b31c83eae4e056580482a3a074e1db25922efc74ac1e439473b45d71a5938"
+    },
+    {
+      "name": "Websrv V0.34",
+      "filename": "websrv_v0.34.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_server/websrv/v0.34/websrv_v0.34.elf",
+      "local_path": "payloads/ps5_server/websrv/v0.34/websrv_v0.34.elf",
+      "description": "HTTP Web server payload. Port: 8080",
+      "version": "v0.34",
+      "category": "PS5 Server",
+      "checksum": "54730c867c6e1148536fdcb370e63a7762d989ea87b62488ad4caff64d43f263"
+    },
+    {
+      "name": "Gdbsrv V0.9",
+      "filename": "gdbsrv_v0.9.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_server/gdbsrv/v0.9/gdbsrv_v0.9.elf",
+      "local_path": "payloads/ps5_server/gdbsrv/v0.9/gdbsrv_v0.9.elf",
+      "description": "GDB Debugger server payload. Port: 1234",
+      "version": "v0.9",
+      "category": "PS5 Server",
+      "checksum": "80952d75f423768b95385f0944e5a5c2f417dcc10c22c1bb6516a923ad8894e5"
+    },
+    {
+      "name": "Klogsrv V0.9",
+      "filename": "klogsrv_v0.9.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_server/klogsrv/v0.9/klogsrv_v0.9.elf",
+      "local_path": "payloads/ps5_server/klogsrv/v0.9/klogsrv_v0.9.elf",
+      "description": "Kernel log server daemon. Port: 3232",
+      "version": "v0.9",
+      "category": "PS5 Server",
+      "checksum": "e828ec144231f81547cb58bc7d2c396fa984be0c2295f31364b58017816dcceb"
+    },
+    {
+      "name": "Ftpsrv Drakmor V1.16-Ng-Stable",
+      "filename": "ftpsrv_drakmor_v1.16-ng-stable.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_server/ftpsrv_drakmor/1.16-ng-stable/ftpsrv_drakmor_v1.16-ng-stable.elf",
+      "local_path": "payloads/ps5_server/ftpsrv_drakmor/1.16-ng-stable/ftpsrv_drakmor_v1.16-ng-stable.elf",
+      "description": "Drakmor",
+      "version": "1.16-ng-stable",
+      "category": "PS5 Server",
+      "checksum": "f19ae469b25453a7a4af4529527521d31f143100f18a2c6839666e7121c8bd32"
+    },
+    {
+      "name": "Ps5-Ezremote-Server V1.11",
+      "filename": "ps5-ezremote-server_v1.11.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_server/ps5-ezremote-server/1.11/ps5-ezremote-server_v1.11.elf",
+      "local_path": "payloads/ps5_server/ps5-ezremote-server/1.11/ps5-ezremote-server_v1.11.elf",
+      "description": "Easy remote server component. Port: 8080",
+      "version": "1.11",
+      "category": "PS5 Server",
+      "checksum": "0f36b7ea3c3380303e2c74ec8d31a2c53d822cc4f4fd05cb5931d6b4f8b33c03"
+    },
+    {
+      "name": "Ps5Upload V5.41.0",
+      "filename": "ps5upload_v5.41.0.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_server/ps5upload/v5.41.0/ps5upload_v5.41.0.elf",
+      "local_path": "payloads/ps5_server/ps5upload/v5.41.0/ps5upload_v5.41.0.elf",
+      "description": "PS5 Upload server / tool. Port: 9025",
+      "version": "v5.41.0",
+      "category": "PS5 Server",
+      "checksum": "90db08434228a08554e06a949f26457fb25c9b607f126fa63616b8d261426dee"
+    },
+    {
+      "name": "Airpsx V0.19",
+      "filename": "airpsx_v0.19.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_server/airpsx/0.19/airpsx_v0.19.elf",
+      "local_path": "payloads/ps5_server/airpsx/0.19/airpsx_v0.19.elf",
+      "description": "AirPSX server tool for PS5 ecosystem.",
+      "version": "0.19",
+      "category": "PS5 Server",
+      "checksum": "ae025ca7727b3a8abf6a705903ca9116a6fa6e7f7ead606916109cf9044c5d63"
+    },
+    {
+      "name": "Chronicloader-Ps5-Payload V0.1",
+      "filename": "ChronicLoader-PS5-Payload_v0.1.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_utility/ChronicLoader-PS5-Payload/0.1/ChronicLoader-PS5-Payload_v0.1.elf",
+      "local_path": "payloads/ps5_utility/ChronicLoader-PS5-Payload/0.1/ChronicLoader-PS5-Payload_v0.1.elf",
+      "description": "ChronicLoader utility payload for PS5.",
+      "version": "0.1",
+      "category": "PS5 Utility",
+      "checksum": "3561120f85e0ec32de5de15cdd61a1fe8d5146eb4c6aa99ee88209914a2774b1"
+    },
+    {
+      "name": "Poords4-Stop V0.1.0-Rc51",
+      "filename": "PoorDS4-stop_v0.1.0-rc51.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_utility/PoorDS4/v0.1.0-rc51/PoorDS4-stop_v0.1.0-rc51.elf",
+      "local_path": "payloads/ps5_utility/PoorDS4/v0.1.0-rc51/PoorDS4-stop_v0.1.0-rc51.elf",
+      "description": "PoorDS4 lets a wireless DualShock 4 paired with a jailbroken PS5.",
+      "version": "v0.1.0-rc51",
+      "category": "PS5 Utility",
+      "checksum": "ffdce4964f0d34a2b9be7cb65e6ad345d5beb582dcdf94d0214cde6bc79acd0d"
+    },
+    {
+      "name": "Poords4-Status V0.1.0-Rc51",
+      "filename": "PoorDS4-status_v0.1.0-rc51.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_utility/PoorDS4/v0.1.0-rc51/PoorDS4-status_v0.1.0-rc51.elf",
+      "local_path": "payloads/ps5_utility/PoorDS4/v0.1.0-rc51/PoorDS4-status_v0.1.0-rc51.elf",
+      "description": "PoorDS4 lets a wireless DualShock 4 paired with a jailbroken PS5.",
+      "version": "v0.1.0-rc51",
+      "category": "PS5 Utility",
+      "checksum": "d47bb84a6ae05117f095c05b75dfee15d9fbf07864a3e52d0e2e626eab613440"
+    },
+    {
+      "name": "Poords4Rc51 V0.1.0-Rc51",
+      "filename": "PoorDS4rc51_v0.1.0-rc51.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_utility/PoorDS4/v0.1.0-rc51/PoorDS4rc51_v0.1.0-rc51.elf",
+      "local_path": "payloads/ps5_utility/PoorDS4/v0.1.0-rc51/PoorDS4rc51_v0.1.0-rc51.elf",
+      "description": "PoorDS4 lets a wireless DualShock 4 paired with a jailbroken PS5.",
+      "version": "v0.1.0-rc51",
+      "category": "PS5 Utility",
+      "checksum": "e1b9f257f51678a977edaeafd4ca1f8a03e9df0afda7d5dd84435841fa20795d"
+    },
+    {
+      "name": "Ps Game State Lib V0.1",
+      "filename": "PS_Game_State_Lib_v0.1.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_utility/PS_Game_State_Lib/v0.1/PS_Game_State_Lib_v0.1.elf",
+      "local_path": "payloads/ps5_utility/PS_Game_State_Lib/v0.1/PS_Game_State_Lib_v0.1.elf",
+      "description": "Standalone PS5 game-state detection payload - webui ps5ip:9877 .",
+      "version": "v0.1",
+      "category": "PS5 Utility",
+      "checksum": "a550e1494b0f8be3b244f8820ee8d899442d33a936f9ded6203a0318c7afdba8"
+    },
+    {
+      "name": "Ps-Discordpresence V0.01",
+      "filename": "PS-DiscordPresence_v0.01.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_utility/PS-DiscordPresence/v0.01/PS-DiscordPresence_v0.01.elf",
+      "local_path": "payloads/ps5_utility/PS-DiscordPresence/v0.01/PS-DiscordPresence_v0.01.elf",
+      "description": "PS5 game activity service with a local status endpoint and a Python Discord RPC bridge.",
+      "version": "v0.01",
+      "category": "PS5 Utility",
+      "checksum": "375cf619ea6f6c594ea2b79ecbb98704723522d07e51c877687876d5fe589afb"
+    },
+    {
+      "name": "Unrar-Ps5 V1.4.0",
+      "filename": "unrar-ps5_v1.4.0.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_utility/unrar-ps5/v1.4.0/unrar-ps5_v1.4.0.elf",
+      "local_path": "payloads/ps5_utility/unrar-ps5/v1.4.0/unrar-ps5_v1.4.0.elf",
+      "description": "PS5 ELF payload for extracting RAR and 7z archives on a jailbroken PS5 and installing extracted apps into a configurable layout..",
+      "version": "v1.4.0",
+      "category": "PS5 Utility",
+      "checksum": "2ef04b0bc8fc1932b29da1a53336c40ed0a3f6a945a0746bef2e5dde52149701"
+    },
+    {
+      "name": "Ps5-Power-Payloads-Project V1.0",
+      "filename": "PS5-Power-Payloads-Project_v1.0.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_utility/PS5-Power-Payloads-Project/1.0/PS5-Power-Payloads-Project_v1.0.elf",
+      "local_path": "payloads/ps5_utility/PS5-Power-Payloads-Project/1.0/PS5-Power-Payloads-Project_v1.0.elf",
+      "description": "PS5-Power-Payloads-Project utility.",
+      "version": "1.0",
+      "category": "PS5 Utility",
+      "checksum": "3614f68981adc13a231d3655bf3892725bc25aa372d67a0037698253753b7cbe"
+    },
+    {
+      "name": "Ps5-Date-Time-Sync V1.0.0",
+      "filename": "ps5-date-time-sync_v1.0.0.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_utility/ps5-date-time-sync/v1.0.0/ps5-date-time-sync_v1.0.0.elf",
+      "local_path": "payloads/ps5_utility/ps5-date-time-sync/v1.0.0/ps5-date-time-sync_v1.0.0.elf",
+      "description": "A lightweight, standalone PS5 payload that restores the console",
+      "version": "v1.0.0",
+      "category": "PS5 Utility",
+      "checksum": "91806229803845930b2173174e1afeadf509e4c171f6396788f929558fad6849"
+    },
+    {
+      "name": "Fgg-Xsense V1.1",
+      "filename": "FGG-XSense_v1.1.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_utility/FGG-XSense/1.1/FGG-XSense_v1.1.elf",
+      "local_path": "payloads/ps5_utility/FGG-XSense/1.1/FGG-XSense_v1.1.elf",
+      "description": "Use an Xbox controller on a jailbroken PlayStation 5.",
+      "version": "1.1",
+      "category": "PS5 Utility",
+      "checksum": "55195ccb02fbdbfa002e9188b0eff72d7d2e6de6c7a1c91666f88c6c9ff0d6c0"
+    },
+    {
+      "name": "Fgg-Playpods V1.0",
+      "filename": "FGG-PlayPods_v1.0.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_utility/FGG-PlayPods/1.0/FGG-PlayPods_v1.0.elf",
+      "local_path": "payloads/ps5_utility/FGG-PlayPods/1.0/FGG-PlayPods_v1.0.elf",
+      "description": "Hear your PlayStation 5 on an ordinary Bluetooth headset.",
+      "version": "1.0",
+      "category": "PS5 Utility",
+      "checksum": "9ee1958ec24e4a927992fea9ee202f5a173756091bd3abc02ebf4d2d686211a4"
+    },
+    {
+      "name": "Fgg-Unpack V0.1",
+      "filename": "FGG-Unpack_v0.1.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_utility/FGG-Unpack/v0.1/FGG-Unpack_v0.1.elf",
+      "local_path": "payloads/ps5_utility/FGG-Unpack/v0.1/FGG-Unpack_v0.1.elf",
+      "description": "Extract .zip and .7z archives directly on a jailbroken PlayStation 5.",
+      "version": "v0.1",
+      "category": "PS5 Utility",
+      "checksum": "e8c8e57bbda31b5d16d131797aac6f83b555cae8d439b1f475c952f3d9554eff"
+    },
+    {
+      "name": "Ghost-Toothapi",
+      "filename": "ghost-toothAPI.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_utility/ghost-toothAPI/Source-Fixe/ghost-toothAPI.elf",
+      "local_path": "payloads/ps5_utility/ghost-toothAPI/Source-Fixe/ghost-toothAPI.elf",
+      "description": "ghost-toothAPI.",
+      "version": "Source-Fixe",
+      "category": "PS5 Utility",
+      "checksum": "744277a72a268871284ad3b91565968df06c57c0acdabd921c8712e6de731f99"
+    },
+    {
+      "name": "Pegasus-Dl V1.10.1",
+      "filename": "pegasus-dl_v1.10.1.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_freeshop/pegasus-dl/v1.10.1/pegasus-dl_v1.10.1.elf",
+      "local_path": "payloads/ps5_freeshop/pegasus-dl/v1.10.1/pegasus-dl_v1.10.1.elf",
+      "description": "free store webadmin http://your-ps5-ip:6970.",
+      "version": "v1.10.1",
+      "category": "PS5 Freeshop",
+      "checksum": "b24fdc62fc6cad14684b214a9c5be6c1221585afbf9493e387ab90f9dee21138"
+    },
+    {
+      "name": "Ps5Shopappkg-Dpi",
+      "filename": "ps5shopappkg-dpi.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_freeshop/ps5shopappkg-dpi/Source-Fixe/ps5shopappkg-dpi.elf",
+      "local_path": "payloads/ps5_freeshop/ps5shopappkg-dpi/Source-Fixe/ps5shopappkg-dpi.elf",
+      "description": "You need PS5-SHOP-APPKG.pkg DPI port 9040.",
+      "version": "Source-Fixe",
+      "category": "PS5 Freeshop",
+      "checksum": "c4672cfa909463843c537f67d5f2df9eb3456d4036d26a4fb81fc34d7853170b"
+    },
+    {
+      "name": "Ps5Library-Agent-0.2.55",
+      "filename": "ps5library-agent-0.2.55.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_freeshop/PS5Library/v0.2.55/ps5library-agent-0.2.55.elf",
+      "local_path": "payloads/ps5_freeshop/PS5Library/v0.2.55/ps5library-agent-0.2.55.elf",
+      "description": "You need PS5Library.pkg.",
+      "version": "v0.2.55",
+      "category": "PS5 Freeshop",
+      "checksum": "1efb53f018dc79803da3041c24bac6cc5dec31617fbd0eb09f5c53cfee27625d"
+    },
+    {
+      "name": "Orbit Store",
+      "filename": "orbit_store.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_freeshop/orbit-store-ps5/v0.6.1/orbit_store.elf",
+      "local_path": "payloads/ps5_freeshop/orbit-store-ps5/v0.6.1/orbit_store.elf",
+      "description": "A modern, no-BS download manager for PS5.",
+      "version": "v0.6.1",
+      "category": "PS5 Freeshop",
+      "checksum": "cb548c8c39e45d6a1b72bb81f0b7c74d569fd050aafdd9ce163fa3ac8e738bc2"
+    },
+    {
+      "name": "Ps5-Phstore Vphstore",
+      "filename": "PS5-PHStore_vPHStore.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_freeshop/PS5-PHStore/PHStore/PS5-PHStore_vPHStore.elf",
+      "local_path": "payloads/ps5_freeshop/PS5-PHStore/PHStore/PS5-PHStore_vPHStore.elf",
+      "description": "Free PH Store client for PS5.",
+      "version": "PHStore",
+      "category": "PS5 Freeshop",
+      "checksum": "64d5c4605a063a63f01213c31d627466218e787956873b2eef39b369b60112ee"
+    },
+    {
+      "name": "Actremotelink Agent V2.0",
+      "filename": "actremotelink_agent_v2.0.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/PS5_Remote/ActRemoteLink-13.x/v2.0/actremotelink_agent_v2.0.elf",
+      "local_path": "payloads/PS5_Remote/ActRemoteLink-13.x/v2.0/actremotelink_agent_v2.0.elf",
+      "description": "ActRemoteLink is a set of payloads and utilities for PS5 jailbreak workflows focused on offline activation of a local account and Remote Play",
+      "version": "v2.0",
+      "category": "PS5 Remote",
+      "checksum": "c3a4195b86eaeb77ba64903e9280a0bb6d55e55fb1399a2f2c26310f09ca166a"
+    },
+    {
+      "name": "Actremotelink Pin Notify V2.0",
+      "filename": "actremotelink_pin_notify_v2.0.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/PS5_Remote/ActRemoteLink-13.x/v2.0/actremotelink_pin_notify_v2.0.elf",
+      "local_path": "payloads/PS5_Remote/ActRemoteLink-13.x/v2.0/actremotelink_pin_notify_v2.0.elf",
+      "description": "ActRemoteLink is a set of payloads and utilities for PS5 jailbreak workflows focused on offline activation of a local account and Remote Play",
+      "version": "v2.0",
+      "category": "PS5 Remote",
+      "checksum": "707ea60d186b2b0b53ca379a740fef4b4a7c18558730e9f8c86868a1ab77b70c"
+    },
+    {
+      "name": "Bfplayer-Standalone",
+      "filename": "bfplayer-standalone.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_video_player/BFplayer-standalone/v0.1.0-alpha.44/bfplayer-standalone.elf",
+      "local_path": "payloads/ps5_video_player/BFplayer-standalone/v0.1.0-alpha.44/bfplayer-standalone.elf",
+      "description": "BFplayer is a native media library and player for jailbroken PlayStation 5 consoles.",
+      "version": "v0.1.0-alpha.44",
+      "category": "PS5 Video Player",
+      "checksum": "0d028deb145d6fc9a5b55d43a45e072919178fbb261c66cd914ebcfb0b3b05c0"
+    },
+    {
+      "name": "Prosperoplayer V1.0",
+      "filename": "ProsperoPlayer_v1.0.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_video_player/ProsperoPlayer/v1.0/ProsperoPlayer_v1.0.elf",
+      "local_path": "payloads/ps5_video_player/ProsperoPlayer/v1.0/ProsperoPlayer_v1.0.elf",
+      "description": "A homebrew media player for jailbroken PS5.",
+      "version": "v1.0",
+      "category": "PS5 Video Player",
+      "checksum": "40b9955273982cd563e1b16bd428ea6a9c399e7d4bc55b220fe223948572cdad"
+    },
+    {
+      "name": "Svtplay V0.3",
+      "filename": "svtplay_v0.3.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_video_player/svtplay/v0.3/svtplay_v0.3.elf",
+      "local_path": "payloads/ps5_video_player/svtplay/v0.3/svtplay_v0.3.elf",
+      "description": "This is an unofficial 10-foot UI for SVT Play, the Swedish public service television broadcaster.",
+      "version": "v0.3",
+      "category": "PS5 Video Player",
+      "checksum": "31f2caac7d53b8754bb37cb0364e615bfc38fc5f02c886d286a4f9e603b56832"
+    },
+    {
+      "name": "Ps-Play V2.1",
+      "filename": "PS-Play_v2.1.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_video_player/PS-Play/2.1/PS-Play_v2.1.elf",
+      "local_path": "payloads/ps5_video_player/PS-Play/2.1/PS-Play_v2.1.elf",
+      "description": "All-in-one media hub for jailbroken PlayStation 5",
+      "version": "2.1",
+      "category": "PS5 Video Player",
+      "checksum": "e3392379d5bc6ca4e44cb0d2a1d8921083b2c3ea480725f68378831874542d8d"
+    },
+    {
+      "name": "Nuvio-Ps5 V1.7.3",
+      "filename": "Nuvio-PS5_v1.7.3.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_video_player/Nuvio-PS5/v1.7.3/Nuvio-PS5_v1.7.3.elf",
+      "local_path": "payloads/ps5_video_player/Nuvio-PS5/v1.7.3/Nuvio-PS5_v1.7.3.elf",
+      "description": "Nuvio, at home on the PlayStation 5",
+      "version": "v1.7.3",
+      "category": "PS5 Video Player",
+      "checksum": "a12758a431e94ff06430869a74dbae4e936503c5523fdfd5f5a2cafe3c89ebd2"
+    },
+    {
+      "name": "Pkg-Manager V1.4.1",
+      "filename": "pkg-manager_v1.4.1.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_pkg_tool/ps5-pkg-manager/v1.4.1/pkg-manager_v1.4.1.elf",
+      "local_path": "payloads/ps5_pkg_tool/ps5-pkg-manager/v1.4.1/pkg-manager_v1.4.1.elf",
+      "description": "A clean and intuitive package manager for PlayStation 5",
+      "version": "v1.4.1",
+      "category": "PS5 Pkg Tool",
+      "checksum": "09adaff13b858bb3db519faaea673ee3fa67298081e608d32f6501ed6e9f706e"
+    },
+    {
+      "name": "Pkg-Receiver V1.2.9",
+      "filename": "pkg-receiver_v1.2.9.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_pkg_tool/pkg-receiver/v1.2.9/pkg-receiver_v1.2.9.elf",
+      "local_path": "payloads/ps5_pkg_tool/pkg-receiver/v1.2.9/pkg-receiver_v1.2.9.elf",
+      "description": "A package manager for PlayStation 5 need PkgSender android app or windows app",
+      "version": "v1.2.9",
+      "category": "PS5 Pkg Tool",
+      "checksum": "6946d52c6c04a3f43d3141a505394ba8e0c6923f17fe471054e11567c9a526c7"
+    },
+    {
+      "name": "Etahen V2.5B",
+      "filename": "etaHEN_v2.5B.bin",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_hen_loader/etaHEN/2.5B/etaHEN_v2.5B.bin",
+      "local_path": "payloads/ps5_hen_loader/etaHEN/2.5B/etaHEN_v2.5B.bin",
+      "description": "Le Homebrew Enabler (HEN) de référence pour la PS5 avec serveurs de triche, plugins et gestionnaire de mémoire intégrés.",
+      "version": "2.5B",
+      "category": "PS5 HEN Loader",
+      "checksum": "4845cac45095361b8983b14d6690622183b0dcfbf6d7fda16e161aa91ff0531e"
+    },
+    {
+      "name": "Ps5 Unified Autoloader V0.1.5-915A65E",
+      "filename": "PS5_Unified_Autoloader_v0.1.5-915a65e.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_hen_loader/PS5_Unified_Autoloader/v0.1.5-915a65e/PS5_Unified_Autoloader_v0.1.5-915a65e.elf",
+      "local_path": "payloads/ps5_hen_loader/PS5_Unified_Autoloader/v0.1.5-915a65e/PS5_Unified_Autoloader_v0.1.5-915a65e.elf",
+      "description": "Chargeur universel de payloads permettant de lancer automatiquement vos outils favoris au démarrage de l",
+      "version": "v0.1.5-915a65e",
+      "category": "PS5 HEN Loader",
+      "checksum": "c8e36ea06cfd37c5fad356ff9fcd09d3e62065d88170b5119ce8f1eeb3efacac"
+    },
+    {
+      "name": "Pldmgr V0.5.2",
+      "filename": "pldmgr_v0.5.2.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_hen_loader/PS5_Payload_Manager/v0.5.2/pldmgr_v0.5.2.elf",
+      "local_path": "payloads/ps5_hen_loader/PS5_Payload_Manager/v0.5.2/pldmgr_v0.5.2.elf",
+      "description": "Interface d",
+      "version": "v0.5.2",
+      "category": "PS5 HEN Loader",
+      "checksum": "62b3ba2a4937c2afc502f9a4e7242cca538610ebb4ae2800c7c6f72e7f268e7c"
+    },
+    {
+      "name": "Elf Arsenal V1.6.23",
+      "filename": "ELF_Arsenal_v1.6.23.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_hen_loader/ELF_Arsenal/v1.6.23/ELF_Arsenal_v1.6.23.elf",
+      "local_path": "payloads/ps5_hen_loader/ELF_Arsenal/v1.6.23/ELF_Arsenal_v1.6.23.elf",
+      "description": "Boîte à outils regroupant une collection complète de payloads utilitaires pour les consoles jailbreakées.",
+      "version": "v1.6.23",
+      "category": "PS5 HEN Loader",
+      "checksum": "20cdb0979ce627aff8e684a4506e18390a72492d5e3aa15ecef0bfe1bca08bb5"
+    },
+    {
+      "name": "Kura V1.6.50",
+      "filename": "Kura_v1.6.50.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_hen_loader/Kura/v1.6.50/Kura_v1.6.50.elf",
+      "local_path": "payloads/ps5_hen_loader/Kura/v1.6.50/Kura_v1.6.50.elf",
+      "description": "Un loader de payloads moderne et épuré conçu pour optimiser l",
+      "version": "v1.6.50",
+      "category": "PS5 HEN Loader",
+      "checksum": "8bac520b2b99dcda8109838884380605736d8b1c23793754250bcef00536b6ab"
+    },
+    {
+      "name": "Pizza-Hen V2.00",
+      "filename": "PIZZA-HEN_v2.00.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_hen_loader/PIZZA-HEN/v2.00/PIZZA-HEN_v2.00.elf",
+      "local_path": "payloads/ps5_hen_loader/PIZZA-HEN/v2.00/PIZZA-HEN_v2.00.elf",
+      "description": "PIZZA HEN is an experimental all-in-one PS5 homebrew environment.",
+      "version": "v2.00",
+      "category": "PS5 HEN Loader",
+      "checksum": "8535d399612d61c50a528b2ae416f2fc3ccfb7480296df99c17302583fb3e345"
+    },
+    {
+      "name": "Onionhen V0.0.13",
+      "filename": "onionHEN_v0.0.13.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_hen_loader/onionHEN/v0.0.13/onionHEN_v0.0.13.elf",
+      "local_path": "payloads/ps5_hen_loader/onionHEN/v0.0.13/onionHEN_v0.0.13.elf",
+      "description": "An all-in-one HEN and Toolbox for PlayStation 5.",
+      "version": "v0.0.13",
+      "category": "PS5 HEN Loader",
+      "checksum": "aa3f98847948e2ae8ea600c3f437e28247a0a4f8b73651a046d2859924bf97b3"
+    },
+    {
+      "name": "Etahen-2.6B",
+      "filename": "etaHEN-2.6B.bin",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_hen_loader/etaHEN-Beta/Source-Fixe/etaHEN-2.6B.bin",
+      "local_path": "payloads/ps5_hen_loader/etaHEN-Beta/Source-Fixe/etaHEN-2.6B.bin",
+      "description": "etahen beta version experimental.",
+      "version": "Source-Fixe",
+      "category": "PS5 HEN Loader",
+      "checksum": "512c74a9d6f56bb5a4ab871a0306a8cbefb8b3d5454ba8f1d833b020b245a126"
+    },
+    {
+      "name": "Prosperomgr",
+      "filename": "ProsperoMgr.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_hen_loader/ProsperoMgr/v1.1/ProsperoMgr.elf",
+      "local_path": "payloads/ps5_hen_loader/ProsperoMgr/v1.1/ProsperoMgr.elf",
+      "description": "A Web-Based All-In-One homebrew manager for your PlayStation 5",
+      "version": "v1.1",
+      "category": "PS5 HEN Loader",
+      "checksum": "e7a6bb544adb2fb2a61aa9cc83b0ad15f70b32d7511a3de0f1fb88812f11983c"
+    },
+    {
+      "name": "Np-Fake-Signin-Ps5",
+      "filename": "np-fake-signin-ps5.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/PS5_Activation/np-fake-signin/v1.4/np-fake-signin-ps5.elf",
+      "local_path": "payloads/PS5_Activation/np-fake-signin/v1.4/np-fake-signin-ps5.elf",
+      "description": "Fake activate PS5 without PSN.",
+      "version": "v1.4",
+      "category": "PS5 Activation",
+      "checksum": "9ec8562b3e3f6508071e280037e225371d8a6c297e74b8ae4d240e357ee38eca"
+    },
+    {
+      "name": "Ps5-Linux-Loader V2.5",
+      "filename": "ps5-linux-loader_v2.5.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_linux/ps5-linux-loader/v2.5/ps5-linux-loader_v2.5.elf",
+      "local_path": "payloads/ps5_linux/ps5-linux-loader/v2.5/ps5-linux-loader_v2.5.elf",
+      "description": "Linux loader payload for the PS5.",
+      "version": "v2.5",
+      "category": "PS5 Linux",
+      "checksum": "9fc48733077145d1d204a4c9cdb879baaab1e711a604dd73af0dd4a807d6bc49"
+    },
+    {
+      "name": "Snes9Xps5 V2.0",
+      "filename": "snes9xPS5_v2.0.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_emulator/snes9xPS5/v2.0/snes9xPS5_v2.0.elf",
+      "local_path": "payloads/ps5_emulator/snes9xPS5/v2.0/snes9xPS5_v2.0.elf",
+      "description": "snes9x emulator",
+      "version": "v2.0",
+      "category": "PS5 Emulator",
+      "checksum": "fa7d317ef132fdbcb085376ab4ee6bcf539a0edb23b8df7a34c236f2dc6f1ae6"
+    },
+    {
+      "name": "Ps5X360 V0.5.3-Preview",
+      "filename": "PS5X360_v0.5.3-preview.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_emulator/PS5X360/v0.5.3-preview/PS5X360_v0.5.3-preview.elf",
+      "local_path": "payloads/ps5_emulator/PS5X360/v0.5.3-preview/PS5X360_v0.5.3-preview.elf",
+      "description": "x360 emu for ps5, you need PPSA97358.zip",
+      "version": "v0.5.3-preview",
+      "category": "PS5 Emulator",
+      "checksum": "1a2cce68e19feb96c998a7d676e21d19b379dd0ea49f98bf2b07ca59f2f3842c"
+    },
+    {
+      "name": "Ps5-Romm V1.0.2",
+      "filename": "ps5-romm_v1.0.2.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_emulator/ps5-romm/v1.0.2/ps5-romm_v1.0.2.elf",
+      "local_path": "payloads/ps5_emulator/ps5-romm/v1.0.2/ps5-romm_v1.0.2.elf",
+      "description": "ps5-romm for ps5",
+      "version": "v1.0.2",
+      "category": "PS5 Emulator",
+      "checksum": "210b85775b551ca1267a5a84998e3cc9c498f764fcb7bbdd66a98d1c4c5a420d"
+    },
+    {
+      "name": "Ps5-Fan-Control V0.3",
+      "filename": "ps5-fan-control_v0.3.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_fan/ps5-fan-control/v0.3/ps5-fan-control_v0.3.elf",
+      "local_path": "payloads/ps5_fan/ps5-fan-control/v0.3/ps5-fan-control_v0.3.elf",
+      "description": "Small PS5 daemon payload ELF that sets the system fan temperature.",
+      "version": "v0.3",
+      "category": "PS5 Fan",
+      "checksum": "b10b6b9b9c00efed8bf9202a83b6cb762345d1f84130a419eff7139250026b36"
+    },
+    {
+      "name": "Fan Target 85C V0.1",
+      "filename": "fan_target_85c_v0.1.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_fan/fan_target/0.1/fan_target_85c_v0.1.elf",
+      "local_path": "payloads/ps5_fan/fan_target/0.1/fan_target_85c_v0.1.elf",
+      "description": "fan_target keeps the PS5 fan controller at a selected target temperature while leaving the console",
+      "version": "0.1",
+      "category": "PS5 Fan",
+      "checksum": "c37019c351c1c5b05b43adbac29d85bfd25f8c0ab9d94371cacab1945d8e0fd0"
+    },
+    {
+      "name": "Fan Target V0.1",
+      "filename": "fan_target_v0.1.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_fan/fan_target/0.1/fan_target_v0.1.elf",
+      "local_path": "payloads/ps5_fan/fan_target/0.1/fan_target_v0.1.elf",
+      "description": "fan_target keeps the PS5 fan controller at a selected target temperature while leaving the console",
+      "version": "0.1",
+      "category": "PS5 Fan",
+      "checksum": "a9ad8502123799d58f8ddd9882d842f524c4ecc3ea6743a73c6dcdffd0bf30e0"
+    },
+    {
+      "name": "Fan Target 75C V0.1",
+      "filename": "fan_target_75c_v0.1.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_fan/fan_target/0.1/fan_target_75c_v0.1.elf",
+      "local_path": "payloads/ps5_fan/fan_target/0.1/fan_target_75c_v0.1.elf",
+      "description": "fan_target keeps the PS5 fan controller at a selected target temperature while leaving the console",
+      "version": "0.1",
+      "category": "PS5 Fan",
+      "checksum": "4b52e09c48ebed1f369221c290e8ec4a9fdb2a477b7b7f44a1b8646958d9f69b"
+    },
+    {
+      "name": "Fan Target 70C V0.1",
+      "filename": "fan_target_70c_v0.1.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_fan/fan_target/0.1/fan_target_70c_v0.1.elf",
+      "local_path": "payloads/ps5_fan/fan_target/0.1/fan_target_70c_v0.1.elf",
+      "description": "fan_target keeps the PS5 fan controller at a selected target temperature while leaving the console",
+      "version": "0.1",
+      "category": "PS5 Fan",
+      "checksum": "a9ad8502123799d58f8ddd9882d842f524c4ecc3ea6743a73c6dcdffd0bf30e0"
+    },
+    {
+      "name": "Fan Target 65C V0.1",
+      "filename": "fan_target_65c_v0.1.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_fan/fan_target/0.1/fan_target_65c_v0.1.elf",
+      "local_path": "payloads/ps5_fan/fan_target/0.1/fan_target_65c_v0.1.elf",
+      "description": "fan_target keeps the PS5 fan controller at a selected target temperature while leaving the console",
+      "version": "0.1",
+      "category": "PS5 Fan",
+      "checksum": "0bedeb564947530d09d1dfb27df63c2a09eaa7f51faf3ddcc90b3fb2870e6312"
+    },
+    {
+      "name": "Fan Target 80C V0.1",
+      "filename": "fan_target_80c_v0.1.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_fan/fan_target/0.1/fan_target_80c_v0.1.elf",
+      "local_path": "payloads/ps5_fan/fan_target/0.1/fan_target_80c_v0.1.elf",
+      "description": "fan_target keeps the PS5 fan controller at a selected target temperature while leaving the console",
+      "version": "0.1",
+      "category": "PS5 Fan",
+      "checksum": "ccf2e709218f31cd9e6a0705c99646b8f030b877687df8377982a2f6ca10216e"
+    },
+    {
+      "name": "Ps5-Custom-Tool-Manager- Vcustom",
+      "filename": "PS5-Custom-Tool-Manager-_vCustom.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_themes-avatars/PS5-Custom-Tool-Manager-/Custom/PS5-Custom-Tool-Manager-_vCustom.elf",
+      "local_path": "payloads/ps5_themes-avatars/PS5-Custom-Tool-Manager-/Custom/PS5-Custom-Tool-Manager-_vCustom.elf",
+      "description": "Custom manager tool for PS5 personalization.",
+      "version": "Custom",
+      "category": "PS5 Themes-Avatars",
+      "checksum": "297824ceaf6ea53fde57550adf9b5c2fc44c63ef60e8196ab92d351d1615d9cb"
+    },
+    {
+      "name": "Ps5-Wallpaper-Modd V1.0",
+      "filename": "ps5-wallpaper-modd_v1.0.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_themes-avatars/ps5-wallpaper-modd/v1.0/ps5-wallpaper-modd_v1.0.elf",
+      "local_path": "payloads/ps5_themes-avatars/ps5-wallpaper-modd/v1.0/ps5-wallpaper-modd_v1.0.elf",
+      "description": "Wallpaper modification utility for PS5.",
+      "version": "v1.0",
+      "category": "PS5 Themes-Avatars",
+      "checksum": "b18a866bac9deff45b921b7d3ea6143d541117b56c666d817ecdc81961829139"
+    },
+    {
+      "name": "Ps5Debug-Ng V1.3.2",
+      "filename": "ps5debug-NG_v1.3.2.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_sdk_debug/ps5debug-NG/1.3.2/ps5debug-NG_v1.3.2.elf",
+      "local_path": "payloads/ps5_sdk_debug/ps5debug-NG/1.3.2/ps5debug-NG_v1.3.2.elf",
+      "description": "Next generation debugger payload for PS5.",
+      "version": "1.3.2",
+      "category": "PS5 Sdk Debug",
+      "checksum": "949b0e6e0fe3f24f4a820319fd76d9ccb92f9770cbb1a64b09a8eca5c1fc9ff3"
+    },
+    {
+      "name": "Ps5-Fw-Spoof",
+      "filename": "ps5-fw-spoof.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_sdk_debug/ps5-fw-spoof/26616621599/ps5-fw-spoof.elf",
+      "local_path": "payloads/ps5_sdk_debug/ps5-fw-spoof/26616621599/ps5-fw-spoof.elf",
+      "description": "Firmware spoofer utility for PS5.",
+      "version": "26616621599",
+      "category": "PS5 Sdk Debug",
+      "checksum": "f1754521caa92a6a1ac313a1b6c969ec49d67750e290ba99870958290a0961f0"
+    },
+    {
+      "name": "Ps5-Self-Pager-System-Common-Lib",
+      "filename": "ps5-self-pager-system-common-lib.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_sdk_debug/ps5-self-pager/v1.2/ps5-self-pager-system-common-lib.elf",
+      "local_path": "payloads/ps5_sdk_debug/ps5-self-pager/v1.2/ps5-self-pager-system-common-lib.elf",
+      "description": "SELF pager payload tool.",
+      "version": "v1.2",
+      "category": "PS5 Sdk Debug",
+      "checksum": "a86c3e69ed38656310b41af4f9221bdb2264ff4daf93fb4c2515fd54a216b701"
+    },
+    {
+      "name": "Ps5-Self-Pager-Game",
+      "filename": "ps5-self-pager-game.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_sdk_debug/ps5-self-pager/v1.2/ps5-self-pager-game.elf",
+      "local_path": "payloads/ps5_sdk_debug/ps5-self-pager/v1.2/ps5-self-pager-game.elf",
+      "description": "SELF pager payload tool.",
+      "version": "v1.2",
+      "category": "PS5 Sdk Debug",
+      "checksum": "73d94fea5de9086cac26385c117a0b3098890c447d67536877fb7b51c9145aac"
+    },
+    {
+      "name": "Ps5-Self-Pager-Full-System",
+      "filename": "ps5-self-pager-full-system.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_sdk_debug/ps5-self-pager/v1.2/ps5-self-pager-full-system.elf",
+      "local_path": "payloads/ps5_sdk_debug/ps5-self-pager/v1.2/ps5-self-pager-full-system.elf",
+      "description": "SELF pager payload tool.",
+      "version": "v1.2",
+      "category": "PS5 Sdk Debug",
+      "checksum": "fb498d4112611619150281e0c44afbd09f144c09eaca3ab3f5b306b39450d13a"
+    },
+    {
+      "name": "Ps5-Self-Pager-Shellcore",
+      "filename": "ps5-self-pager-shellcore.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_sdk_debug/ps5-self-pager/v1.2/ps5-self-pager-shellcore.elf",
+      "local_path": "payloads/ps5_sdk_debug/ps5-self-pager/v1.2/ps5-self-pager-shellcore.elf",
+      "description": "SELF pager payload tool.",
+      "version": "v1.2",
+      "category": "PS5 Sdk Debug",
+      "checksum": "2b500bc356b5bcfca5c3e5187bcec0a37c80ed05e39348b8f06bd2e5a6f3342b"
+    },
+    {
+      "name": "Ps5-Self-Decrypter-Game",
+      "filename": "ps5-self-decrypter-game.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_sdk_debug/PS5-SELF-Decrypter/v0.5.2/ps5-self-decrypter-game.elf",
+      "local_path": "payloads/ps5_sdk_debug/PS5-SELF-Decrypter/v0.5.2/ps5-self-decrypter-game.elf",
+      "description": "SELF decrypter tool for PS5 binaries.",
+      "version": "v0.5.2",
+      "category": "PS5 Sdk Debug",
+      "checksum": "190b350759b4f9d50949325e84d131e0953f37a9df271c329ba43c80c0ac7a57"
+    },
+    {
+      "name": "Ps5-Self-Decrypter-System-Common-Lib",
+      "filename": "ps5-self-decrypter-system-common-lib.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_sdk_debug/PS5-SELF-Decrypter/v0.5.2/ps5-self-decrypter-system-common-lib.elf",
+      "local_path": "payloads/ps5_sdk_debug/PS5-SELF-Decrypter/v0.5.2/ps5-self-decrypter-system-common-lib.elf",
+      "description": "SELF decrypter tool for PS5 binaries.",
+      "version": "v0.5.2",
+      "category": "PS5 Sdk Debug",
+      "checksum": "6a16c6457c604db4846632510da0975f49faba08e6cab9cfd7f84d78b4557d97"
+    },
+    {
+      "name": "Ps5-Self-Decrypter-Shellcore",
+      "filename": "ps5-self-decrypter-shellcore.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_sdk_debug/PS5-SELF-Decrypter/v0.5.2/ps5-self-decrypter-shellcore.elf",
+      "local_path": "payloads/ps5_sdk_debug/PS5-SELF-Decrypter/v0.5.2/ps5-self-decrypter-shellcore.elf",
+      "description": "SELF decrypter tool for PS5 binaries.",
+      "version": "v0.5.2",
+      "category": "PS5 Sdk Debug",
+      "checksum": "15050c691c21c790ae970a1ee99ad3918dd1065fe5512c762fccee6d521c8066"
+    },
+    {
+      "name": "Ps5-Self-Decrypter-Full-System",
+      "filename": "ps5-self-decrypter-full-system.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_sdk_debug/PS5-SELF-Decrypter/v0.5.2/ps5-self-decrypter-full-system.elf",
+      "local_path": "payloads/ps5_sdk_debug/PS5-SELF-Decrypter/v0.5.2/ps5-self-decrypter-full-system.elf",
+      "description": "SELF decrypter tool for PS5 binaries.",
+      "version": "v0.5.2",
+      "category": "PS5 Sdk Debug",
+      "checksum": "46340d3048a977f5603b3def0a0ba1c85b5c182891388442e51b39e281257b6a"
+    },
+    {
+      "name": "Ps5-Remoteplay-Get-Pin V0.1.1",
+      "filename": "ps5-remoteplay-get-pin_v0.1.1.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_sdk_debug/ps5-remoteplay-get-pin/v0.1.1/ps5-remoteplay-get-pin_v0.1.1.elf",
+      "local_path": "payloads/ps5_sdk_debug/ps5-remoteplay-get-pin/v0.1.1/ps5-remoteplay-get-pin_v0.1.1.elf",
+      "description": "Utility to get Remote Play PIN.",
+      "version": "v0.1.1",
+      "category": "PS5 Sdk Debug",
+      "checksum": "1d611c1856dd2f4b4b6cb42ead1128a7f08a26585788f92de79fa4f67d721472"
+    },
+    {
+      "name": "Memdbg Vnightly-20260930-G6E493C9",
+      "filename": "MemDBG_vnightly-20260930-g6e493c9.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_sdk_debug/MemDBG/nightly-20260930-g6e493c9/MemDBG_vnightly-20260930-g6e493c9.elf",
+      "local_path": "payloads/ps5_sdk_debug/MemDBG/nightly-20260930-g6e493c9/MemDBG_vnightly-20260930-g6e493c9.elf",
+      "description": "Memory debugging and inspection suite.",
+      "version": "nightly-20260930-g6e493c9",
+      "category": "PS5 Sdk Debug",
+      "checksum": "2fbdc9f0b21043619b1c32b512df47b3ddf79a99f096243c0d48f5ffc14e1906"
+    },
+    {
+      "name": "Ps5-Hwinfo V0.1",
+      "filename": "ps5-hwinfo_v0.1.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_sdk_debug/ps5-hwinfo/0.1/ps5-hwinfo_v0.1.elf",
+      "local_path": "payloads/ps5_sdk_debug/ps5-hwinfo/0.1/ps5-hwinfo_v0.1.elf",
+      "description": "PS5 payload for collecting hardware and runtime telemetry.",
+      "version": "0.1",
+      "category": "PS5 Sdk Debug",
+      "checksum": "4514bdbc0c556df1a66544615942d5087d1cbee5c2026b3b66e688ba01e5a5b0"
+    },
+    {
+      "name": "Cheatrunner V0.17.2",
+      "filename": "CheatRunner_v0.17.2.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/PS5_Cheat/CheatRunner/v0.17.2/CheatRunner_v0.17.2.elf",
+      "local_path": "payloads/PS5_Cheat/CheatRunner/v0.17.2/CheatRunner_v0.17.2.elf",
+      "description": "CheatRunner.",
+      "version": "v0.17.2",
+      "category": "PS5 Cheat",
+      "checksum": "36ad03e236e6603aaaf05d95ed3399c7b54475a9bceba085cbe02899bc88ae0f"
+    },
+    {
+      "name": "Kylin-Core V2.0.0-Community-Lite",
+      "filename": "kylin-core_v2.0.0-community-lite.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/PS5_Cheat/kylin-core/v2.0.0-community-lite/kylin-core_v2.0.0-community-lite.elf",
+      "local_path": "payloads/PS5_Cheat/kylin-core/v2.0.0-community-lite/kylin-core_v2.0.0-community-lite.elf",
+      "description": "kylin-core",
+      "version": "v2.0.0-community-lite",
+      "category": "PS5 Cheat",
+      "checksum": "7f5245f2db67b131c6f9e991b731117c2c730923a9dd65a2d82b36f2e2b91545"
+    },
+    {
+      "name": "Kstuff Echostretch V1.6.7",
+      "filename": "kstuff_EchoStretch_v1.6.7.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_kstuff/kstuff_EchoStretch/v1.6.7/kstuff_EchoStretch_v1.6.7.elf",
+      "local_path": "payloads/ps5_kstuff/kstuff_EchoStretch/v1.6.7/kstuff_EchoStretch_v1.6.7.elf",
+      "description": "Fnd Kstuff payload for PS5.",
+      "version": "v1.6.7",
+      "category": "PS5 Kstuff",
+      "checksum": "f1c1f4b2b6395644af04cbe9828aba58586acf7aacb9e01113cac92ce16e3569"
+    },
+    {
+      "name": "Kstuff-Lite Echostretch V1.11",
+      "filename": "kstuff-lite_EchoStretch_v1.11.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_kstuff/kstuff-lite_EchoStretch/v1.11/kstuff-lite_EchoStretch_v1.11.elf",
+      "local_path": "payloads/ps5_kstuff/kstuff-lite_EchoStretch/v1.11/kstuff-lite_EchoStretch_v1.11.elf",
+      "description": "Lightweight version of kstuff.",
+      "version": "v1.11",
+      "category": "PS5 Kstuff",
+      "checksum": "ab9a6cb4d3b1daf139d4d646e402b1cf569071acd64599c936d7a3a6164dc779"
+    },
+    {
+      "name": "Kstuff-Lite Drakmor V1.2-Dr-Test1",
+      "filename": "kstuff-lite_drakmor_v1.2-dr-test1.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_kstuff/kstuff-lite_drakmor/1.2-dr-test1/kstuff-lite_drakmor_v1.2-dr-test1.elf",
+      "local_path": "payloads/ps5_kstuff/kstuff-lite_drakmor/1.2-dr-test1/kstuff-lite_drakmor_v1.2-dr-test1.elf",
+      "description": "Drakmor",
+      "version": "1.2-dr-test1",
+      "category": "PS5 Kstuff",
+      "checksum": "9c1b242eaed3704ef18be45d001a2c4ebf2d9222cfe3cbb0f0c3db33309abac9"
+    },
+    {
+      "name": "Kstuff-A53 Sonic V1.4",
+      "filename": "kstuff-a53_SoNic_v1.4.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_kstuff/kstuff-a53_SoNic/1.4/kstuff-a53_SoNic_v1.4.elf",
+      "local_path": "payloads/ps5_kstuff/kstuff-a53_SoNic/1.4/kstuff-a53_SoNic_v1.4.elf",
+      "description": "SoNic variant of kstuff-a53.",
+      "version": "1.4",
+      "category": "PS5 Kstuff",
+      "checksum": "675bef691b1bd1ee14956409aa3947ef9fd52dc36034dbd18d7c55d469e08d23"
+    },
+    {
+      "name": "Nanodns V0.4",
+      "filename": "nanoDNS_v0.4.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_dns/nanoDNS/0.4/nanoDNS_v0.4.elf",
+      "local_path": "payloads/ps5_dns/nanoDNS/0.4/nanoDNS_v0.4.elf",
+      "description": "Un serveur DNS ultra-léger et rapide idéal pour rediriger les requêtes de la console vers votre hôte local d",
+      "version": "0.4",
+      "category": "PS5 Dns",
+      "checksum": "fcfb7d47c3b295560ea1603dc015f7c4950353ef0faca16428bd425680ef1fc5"
+    },
+    {
+      "name": "Chukei Dns V0.9.0",
+      "filename": "Chukei_DNS_v0.9.0.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_dns/Chukei_DNS/0.9.0/Chukei_DNS_v0.9.0.elf",
+      "local_path": "payloads/ps5_dns/Chukei_DNS/0.9.0/Chukei_DNS_v0.9.0.elf",
+      "description": "Serveur DNS de redirection d",
+      "version": "0.9.0",
+      "category": "PS5 Dns",
+      "checksum": "d69081b4a68adcab517c699d8535b17830af41de635d891de4c516b43015610f"
+    },
+    {
+      "name": "Ps5-Game-Compressor V1.0.4",
+      "filename": "PS5-Game-Compressor_v1.0.4.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_game_dump/PS5-Game-Compressor/v1.0.4/PS5-Game-Compressor_v1.0.4.elf",
+      "local_path": "payloads/ps5_game_dump/PS5-Game-Compressor/v1.0.4/PS5-Game-Compressor_v1.0.4.elf",
+      "description": "Tool to compress PS5 games.",
+      "version": "v1.0.4",
+      "category": "PS5 Game Dump",
+      "checksum": "e55e90aaade13b6e0d4316c1597ef90a21b67a06475c3e25de054224bc1e941b"
+    },
+    {
+      "name": "Ps5-App-Dumper V2.10",
+      "filename": "ps5-app-dumper_v2.10.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_game_dump/ps5-app-dumper/v2.10/ps5-app-dumper_v2.10.elf",
+      "local_path": "payloads/ps5_game_dump/ps5-app-dumper/v2.10/ps5-app-dumper_v2.10.elf",
+      "description": "PS5 App Dumper payload.",
+      "version": "v2.10",
+      "category": "PS5 Game Dump",
+      "checksum": "c850f1df6f2787824d6ddeeed69ce4144e00569b32135973401c2985cfb0345b"
+    },
+    {
+      "name": "Shadowmountplus",
+      "filename": "shadowmountplus.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_game_dump/ShadowMountPlus/1.7beta4/shadowmountplus.elf",
+      "local_path": "payloads/ps5_game_dump/ShadowMountPlus/1.7beta4/shadowmountplus.elf",
+      "description": "ShadowMountPlus payload for game mounting.",
+      "version": "1.7beta4",
+      "category": "PS5 Game Dump",
+      "checksum": "fc4e5f715e76660ce34bde2adb10eaf1d069cb2cdf06f7a380896dfb62bd0c4a"
+    },
+    {
+      "name": "Backpork V0.1",
+      "filename": "BackPork_v0.1.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_game_dump/BackPork/0.1/BackPork_v0.1.elf",
+      "local_path": "payloads/ps5_game_dump/BackPork/0.1/BackPork_v0.1.elf",
+      "description": "BackPork PS5 tool.",
+      "version": "0.1",
+      "category": "PS5 Game Dump",
+      "checksum": "d74e4cd119b2bb1fd423f2f5b1c9a7f096b3e588c753af1ab48b983d56216a52"
+    },
+    {
+      "name": "Apr Emu Updater V2.0.6",
+      "filename": "apr_emu_updater_v2.0.6.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_game_dump/apr-emu-updater/v2.0.6/apr_emu_updater_v2.0.6.elf",
+      "local_path": "payloads/ps5_game_dump/apr-emu-updater/v2.0.6/apr_emu_updater_v2.0.6.elf",
+      "description": "APR Emu Updater must always be loaded.",
+      "version": "v2.0.6",
+      "category": "PS5 Game Dump",
+      "checksum": "4f04464283a6a551883e40e36b59134ecad0e38ecbb7ea89cbec3f91a3bd9122"
+    },
+    {
+      "name": "Ps5-Game-Compressor Fork V1.1.1",
+      "filename": "PS5-Game-Compressor_fork_v1.1.1.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_game_dump/PS5-Game-Compressor_fork/v1.1.1/PS5-Game-Compressor_fork_v1.1.1.elf",
+      "local_path": "payloads/ps5_game_dump/PS5-Game-Compressor_fork/v1.1.1/PS5-Game-Compressor_fork_v1.1.1.elf",
+      "description": "Fork Tool to compress PS5 games.",
+      "version": "v1.1.1",
+      "category": "PS5 Game Dump",
+      "checksum": "5fec05b8a3cb89bafbc97970d5d68d9f31e6fcde873b5523243890e50836592b"
+    },
+    {
+      "name": "Spectrum-Library V1.4.8",
+      "filename": "Spectrum-Library_v1.4.8.elf",
+      "url": "",
+      "local_path": "payloads/ps5_freeshop/Spectrum-Library/1.4.8/Spectrum-Library_v1.4.8.elf",
+      "description": "Récupéré depuis le stockage local (Interne / Fallback)",
+      "version": "Spectrum-Library",
+      "checksum": "5d1372d48f76167e3f9e24b335cf571ea6e4b3960e6b7202d2802b0f78c3a519"
+    }
+  ]
+}
