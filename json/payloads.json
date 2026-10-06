@@ -434,12 +434,12 @@
     {
       "name": "Orbit Store",
       "filename": "orbit_store.elf",
-      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_freeshop/orbit-store-ps5/v0.7.0/orbit_store.elf",
-      "local_path": "payloads/ps5_freeshop/orbit-store-ps5/v0.7.0/orbit_store.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_freeshop/orbit-store-ps5/v0.8.0/orbit_store.elf",
+      "local_path": "payloads/ps5_freeshop/orbit-store-ps5/v0.8.0/orbit_store.elf",
       "description": "A modern, no-BS download manager for PS5.",
-      "version": "v0.7.0",
+      "version": "v0.8.0",
       "category": "PS5 Freeshop",
-      "checksum": "12f9f3b7cb66ba45ae6ce3732781a4ae2ed3228f14d4f85fba0cebe6adfa2eb8"
+      "checksum": "f8188366e1b6a36cf7ce1c3429df15a1d0fa69c2a93cb9cca36ea5a46cedbb4d"
     },
     {
       "name": "Ps5-Phstore Vphstore",
@@ -709,7 +709,7 @@
       "description": "Connect your Bluetooth controllers to your PS5 console.",
       "version": "Source-Fixe",
       "category": "PS5 Pad Utility",
-      "checksum": "84b6dd1ceeb1331d9c4ceb2f19791d5f90cfb9c006d490db851266af123aff30"
+      "checksum": "39cee2f976be0d0f8f41fbec98f3f21e21465d1372bf22954fa52ac1c2790c14"
     },
     {
       "name": "Np-Fake-Signin-Ps5",
@@ -770,6 +770,16 @@
       "version": "v1.0.2",
       "category": "PS5 Emulator",
       "checksum": "210b85775b551ca1267a5a84998e3cc9c498f764fcb7bbdd66a98d1c4c5a420d"
+    },
+    {
+      "name": "Phu-Sandbox.Exit V1.0",
+      "filename": "PHU-Sandbox.Exit_v1.0.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_emulator/PHU-Sandbox.Exit/Source-Fixe/PHU-Sandbox.Exit_v1.0.elf",
+      "local_path": "payloads/ps5_emulator/PHU-Sandbox.Exit/Source-Fixe/PHU-Sandbox.Exit_v1.0.elf",
+      "description": "addon for Markus-PHU Emupack",
+      "version": "Source-Fixe",
+      "category": "PS5 Emulator",
+      "checksum": "228462a0f7fc9f40f9ae7460feaf5516ab5a36f1fb6d912664e7d1f289ad204e"
     },
     {
       "name": "Ps5-Fan-Control V0.3",
