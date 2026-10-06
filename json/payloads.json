@@ -2,26 +2,6 @@
   "name": "AIO Store Payloads",
   "payloads": [
     {
-      "name": "Garlic-Savemgr V1.13.1",
-      "filename": "garlic-savemgr_v1.13.1.elf",
-      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_saves/garlic-savemgr/v1.13.1/garlic-savemgr_v1.13.1.elf",
-      "local_path": "payloads/ps5_saves/garlic-savemgr/v1.13.1/garlic-savemgr_v1.13.1.elf",
-      "description": "Save manager utility hosted on Forgejo.",
-      "version": "v1.13.1",
-      "category": "PS5 Saves",
-      "checksum": "b0fc2fcdda977d2a1207d77148746859b7ea7f3cfcad02828a7a9b49651807f5"
-    },
-    {
-      "name": "Garlic-Worker V1.1.7",
-      "filename": "garlic-worker_v1.1.7.elf",
-      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_saves/garlic-worker/v1.1.7/garlic-worker_v1.1.7.elf",
-      "local_path": "payloads/ps5_saves/garlic-worker/v1.1.7/garlic-worker_v1.1.7.elf",
-      "description": "Garlic worker payload component.",
-      "version": "v1.1.7",
-      "category": "PS5 Saves",
-      "checksum": "2643f35cdfe9969cf775220dc4a65bc4ff0d08750c39bfb714b74dbbf29cd396"
-    },
-    {
       "name": "Savemnt-Offset-Dumper V1.0.0",
       "filename": "savemnt-offset-dumper_v1.0.0.elf",
       "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_saves/savemnt-offset-dumper/1.0.0/savemnt-offset-dumper_v1.0.0.elf",
@@ -312,14 +292,14 @@
       "checksum": "0f36b7ea3c3380303e2c74ec8d31a2c53d822cc4f4fd05cb5931d6b4f8b33c03"
     },
     {
-      "name": "Ps5Upload V6.1.0",
-      "filename": "ps5upload_v6.1.0.elf",
-      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_server/ps5upload/v6.1.0/ps5upload_v6.1.0.elf",
-      "local_path": "payloads/ps5_server/ps5upload/v6.1.0/ps5upload_v6.1.0.elf",
+      "name": "Ps5Upload V6.1.2",
+      "filename": "ps5upload_v6.1.2.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_server/ps5upload/v6.1.2/ps5upload_v6.1.2.elf",
+      "local_path": "payloads/ps5_server/ps5upload/v6.1.2/ps5upload_v6.1.2.elf",
       "description": "PS5 Upload server / tool. Port: 9025",
-      "version": "v6.1.0",
+      "version": "v6.1.2",
       "category": "PS5 Server",
-      "checksum": "39bb275892ad9f07dfd6da56de9467945b0c9dc839db877cd00d881aa60481e9"
+      "checksum": "1fdf0a79687a4a823dd7c331c267cf492f849bd2bc6666e2db496fc03e544162"
     },
     {
       "name": "Airpsx V0.19",
@@ -722,14 +702,14 @@
       "checksum": "fa7d317ef132fdbcb085376ab4ee6bcf539a0edb23b8df7a34c236f2dc6f1ae6"
     },
     {
-      "name": "Ps5X360 V0.5.3-Preview",
-      "filename": "PS5X360_v0.5.3-preview.elf",
-      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_emulator/PS5X360/v0.5.3-preview/PS5X360_v0.5.3-preview.elf",
-      "local_path": "payloads/ps5_emulator/PS5X360/v0.5.3-preview/PS5X360_v0.5.3-preview.elf",
+      "name": "Ps5X360 V0.5.6",
+      "filename": "PS5X360_v0.5.6.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_emulator/PS5X360/v0.5.6/PS5X360_v0.5.6.elf",
+      "local_path": "payloads/ps5_emulator/PS5X360/v0.5.6/PS5X360_v0.5.6.elf",
       "description": "x360 emu for ps5, you need PPSA97358.zip",
-      "version": "v0.5.3-preview",
+      "version": "v0.5.6",
       "category": "PS5 Emulator",
-      "checksum": "1a2cce68e19feb96c998a7d676e21d19b379dd0ea49f98bf2b07ca59f2f3842c"
+      "checksum": "5da64c23263e6868696aa0f8b1bfd0eb97581bae73124d08066b507652adfbfb"
     },
     {
       "name": "Ps5-Romm V1.0.2",
@@ -1118,6 +1098,24 @@
       "description": "Récupéré depuis le stockage local (Interne / Fallback)",
       "version": "ps5-web-file-manager",
       "checksum": "711cb076e887fcd55d973ade8b84bb6c22720be295bfde18e32761f6e0479a3e"
+    },
+    {
+      "name": "Garlic-Worker V1.1.7",
+      "filename": "garlic-worker_v1.1.7.elf",
+      "url": "",
+      "local_path": "payloads/ps5_saves/garlic-worker/v1.1.7/garlic-worker_v1.1.7.elf",
+      "description": "Récupéré depuis le stockage local (Interne / Fallback)",
+      "version": "garlic-worker",
+      "checksum": "2643f35cdfe9969cf775220dc4a65bc4ff0d08750c39bfb714b74dbbf29cd396"
+    },
+    {
+      "name": "Garlic-Savemgr V1.13.1",
+      "filename": "garlic-savemgr_v1.13.1.elf",
+      "url": "",
+      "local_path": "payloads/ps5_saves/garlic-savemgr/v1.13.1/garlic-savemgr_v1.13.1.elf",
+      "description": "Récupéré depuis le stockage local (Interne / Fallback)",
+      "version": "garlic-savemgr",
+      "checksum": "b0fc2fcdda977d2a1207d77148746859b7ea7f3cfcad02828a7a9b49651807f5"
     },
     {
       "name": "Spectrum-Library V1.4.8",
