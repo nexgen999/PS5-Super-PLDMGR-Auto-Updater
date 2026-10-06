@@ -82,34 +82,24 @@
       "checksum": "e8230ac4597b8f0388e75d7515ad1a2e251c4589cc3b8d56a483ffae73627eed"
     },
     {
-      "name": "Web-File-Mgr V1.9",
-      "filename": "web-file-mgr_v1.9.elf",
-      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_file_explorer/ps5-web-file-manager/v1.9/web-file-mgr_v1.9.elf",
-      "local_path": "payloads/ps5_file_explorer/ps5-web-file-manager/v1.9/web-file-mgr_v1.9.elf",
+      "name": "Web-File-Mgr-V1.10",
+      "filename": "web-file-mgr-v1.10.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_file_explorer/ps5-web-file-manager/v1.10/web-file-mgr-v1.10.elf",
+      "local_path": "payloads/ps5_file_explorer/ps5-web-file-manager/v1.10/web-file-mgr-v1.10.elf",
       "description": "PS5 Web File Manager http://your-ps5-ip:8888.",
-      "version": "v1.9",
+      "version": "v1.10",
       "category": "PS5 File Explorer",
-      "checksum": "711cb076e887fcd55d973ade8b84bb6c22720be295bfde18e32761f6e0479a3e"
-    },
-    {
-      "name": "Web-File-Mgr-V1.9",
-      "filename": "web-file-mgr-v1.9.elf",
-      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_file_explorer/ps5-web-file-manager/v1.9/web-file-mgr-v1.9.elf",
-      "local_path": "payloads/ps5_file_explorer/ps5-web-file-manager/v1.9/web-file-mgr-v1.9.elf",
-      "description": "PS5 Web File Manager http://your-ps5-ip:8888.",
-      "version": "v1.9",
-      "category": "PS5 File Explorer",
-      "checksum": "711cb076e887fcd55d973ade8b84bb6c22720be295bfde18e32761f6e0479a3e"
+      "checksum": "409145ec9a1c338ecb5f6f917c3b057c4ba48bfae2e86d621e19dda7ac129bd3"
     },
     {
       "name": "Wfm-7Zip-Helper",
       "filename": "wfm-7zip-helper.elf",
-      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_file_explorer/ps5-web-file-manager/v1.9/wfm-7zip-helper.elf",
-      "local_path": "payloads/ps5_file_explorer/ps5-web-file-manager/v1.9/wfm-7zip-helper.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_file_explorer/ps5-web-file-manager/v1.10/wfm-7zip-helper.elf",
+      "local_path": "payloads/ps5_file_explorer/ps5-web-file-manager/v1.10/wfm-7zip-helper.elf",
       "description": "PS5 Web File Manager http://your-ps5-ip:8888.",
-      "version": "v1.9",
+      "version": "v1.10",
       "category": "PS5 File Explorer",
-      "checksum": "7a6369489143c2b8887331a7235a6a77dd5667c794c4234973f8159fed92fe24"
+      "checksum": "dc28dfd499a97e389c5dbb6c1915404764d5a8f8d35869d2a7a9f5c98c2bc7ff"
     },
     {
       "name": "Ps5-File-Explorer Vfile-Explorer-V0.2.1",
@@ -322,14 +312,14 @@
       "checksum": "0f36b7ea3c3380303e2c74ec8d31a2c53d822cc4f4fd05cb5931d6b4f8b33c03"
     },
     {
-      "name": "Ps5Upload V5.41.0",
-      "filename": "ps5upload_v5.41.0.elf",
-      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_server/ps5upload/v5.41.0/ps5upload_v5.41.0.elf",
-      "local_path": "payloads/ps5_server/ps5upload/v5.41.0/ps5upload_v5.41.0.elf",
+      "name": "Ps5Upload V6.1.0",
+      "filename": "ps5upload_v6.1.0.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_server/ps5upload/v6.1.0/ps5upload_v6.1.0.elf",
+      "local_path": "payloads/ps5_server/ps5upload/v6.1.0/ps5upload_v6.1.0.elf",
       "description": "PS5 Upload server / tool. Port: 9025",
-      "version": "v5.41.0",
+      "version": "v6.1.0",
       "category": "PS5 Server",
-      "checksum": "90db08434228a08554e06a949f26457fb25c9b607f126fa63616b8d261426dee"
+      "checksum": "39bb275892ad9f07dfd6da56de9467945b0c9dc839db877cd00d881aa60481e9"
     },
     {
       "name": "Airpsx V0.19",
@@ -504,12 +494,12 @@
     {
       "name": "Orbit Store",
       "filename": "orbit_store.elf",
-      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_freeshop/orbit-store-ps5/v0.6.1/orbit_store.elf",
-      "local_path": "payloads/ps5_freeshop/orbit-store-ps5/v0.6.1/orbit_store.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_freeshop/orbit-store-ps5/v0.7.0/orbit_store.elf",
+      "local_path": "payloads/ps5_freeshop/orbit-store-ps5/v0.7.0/orbit_store.elf",
       "description": "A modern, no-BS download manager for PS5.",
-      "version": "v0.6.1",
+      "version": "v0.7.0",
       "category": "PS5 Freeshop",
-      "checksum": "cb548c8c39e45d6a1b72bb81f0b7c74d569fd050aafdd9ce163fa3ac8e738bc2"
+      "checksum": "12f9f3b7cb66ba45ae6ce3732781a4ae2ed3228f14d4f85fba0cebe6adfa2eb8"
     },
     {
       "name": "Ps5-Phstore Vphstore",
@@ -1110,6 +1100,24 @@
       "version": "v1.1.1",
       "category": "PS5 Game Dump",
       "checksum": "5fec05b8a3cb89bafbc97970d5d68d9f31e6fcde873b5523243890e50836592b"
+    },
+    {
+      "name": "Web-File-Mgr V1.9",
+      "filename": "web-file-mgr_v1.9.elf",
+      "url": "",
+      "local_path": "payloads/ps5_file_explorer/ps5-web-file-manager/v1.9/web-file-mgr_v1.9.elf",
+      "description": "Récupéré depuis le stockage local (Interne / Fallback)",
+      "version": "ps5-web-file-manager",
+      "checksum": "711cb076e887fcd55d973ade8b84bb6c22720be295bfde18e32761f6e0479a3e"
+    },
+    {
+      "name": "Web-File-Mgr-V1.9",
+      "filename": "web-file-mgr-v1.9.elf",
+      "url": "",
+      "local_path": "payloads/ps5_file_explorer/ps5-web-file-manager/v1.9/web-file-mgr-v1.9.elf",
+      "description": "Récupéré depuis le stockage local (Interne / Fallback)",
+      "version": "ps5-web-file-manager",
+      "checksum": "711cb076e887fcd55d973ade8b84bb6c22720be295bfde18e32761f6e0479a3e"
     },
     {
       "name": "Spectrum-Library V1.4.8",
