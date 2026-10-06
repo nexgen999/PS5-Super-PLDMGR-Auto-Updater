@@ -2,6 +2,26 @@
   "name": "AIO Store Payloads",
   "payloads": [
     {
+      "name": "Garlic-Savemgr V1.13.1",
+      "filename": "garlic-savemgr_v1.13.1.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_saves/garlic-savemgr/v1.13.1/garlic-savemgr_v1.13.1.elf",
+      "local_path": "payloads/ps5_saves/garlic-savemgr/v1.13.1/garlic-savemgr_v1.13.1.elf",
+      "description": "Save manager utility hosted on Forgejo.",
+      "version": "v1.13.1",
+      "category": "PS5 Saves",
+      "checksum": "b0fc2fcdda977d2a1207d77148746859b7ea7f3cfcad02828a7a9b49651807f5"
+    },
+    {
+      "name": "Garlic-Worker V1.1.7",
+      "filename": "garlic-worker_v1.1.7.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_saves/garlic-worker/v1.1.7/garlic-worker_v1.1.7.elf",
+      "local_path": "payloads/ps5_saves/garlic-worker/v1.1.7/garlic-worker_v1.1.7.elf",
+      "description": "Garlic worker payload component.",
+      "version": "v1.1.7",
+      "category": "PS5 Saves",
+      "checksum": "2643f35cdfe9969cf775220dc4a65bc4ff0d08750c39bfb714b74dbbf29cd396"
+    },
+    {
       "name": "Savemnt-Offset-Dumper V1.0.0",
       "filename": "savemnt-offset-dumper_v1.0.0.elf",
       "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_saves/savemnt-offset-dumper/1.0.0/savemnt-offset-dumper_v1.0.0.elf",
@@ -96,7 +116,7 @@
       "filename": "A53-Kstuff-ShadowMountPlus-3in1.elf",
       "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/PS5_Beta/A53-Kstuff-ShadowMountPlus-3in1_SoNic-AIO_Experimental/Source-Fixe/A53-Kstuff-ShadowMountPlus-3in1.elf",
       "local_path": "payloads/PS5_Beta/A53-Kstuff-ShadowMountPlus-3in1_SoNic-AIO_Experimental/Source-Fixe/A53-Kstuff-ShadowMountPlus-3in1.elf",
-      "description": "Experimental AIO by SoNic credit to EchoStrech DarkMor",
+      "description": "Experimental AIO by SoNic credit to EchoStrech DrakMor",
       "version": "Source-Fixe",
       "category": "PS5 Beta",
       "checksum": "51f5c7973a2edb5db61bcbfb7afc3d2336f19368631f84bfc55d08ef4a3d4ab2"
@@ -106,7 +126,7 @@
       "filename": "A53-kstuff-SMP.elf",
       "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/PS5_Beta/A53-kstuff-SMP_SoNic-AIO_Experimental/Source-Fixe/A53-kstuff-SMP.elf",
       "local_path": "payloads/PS5_Beta/A53-kstuff-SMP_SoNic-AIO_Experimental/Source-Fixe/A53-kstuff-SMP.elf",
-      "description": "Experimental AIO by SoNic credit to EchoStrech DarkMor",
+      "description": "Experimental AIO by SoNic credit to EchoStrech DrakMor",
       "version": "Source-Fixe",
       "category": "PS5 Beta",
       "checksum": "98fd2462262b6c3e46f8f5f44672ee50c5c3f8718b9a3281ae8220f05a06d3dc"
@@ -124,9 +144,9 @@
     {
       "name": "Kstuff-1.13-Fpkg-Dr-Test5",
       "filename": "kstuff-1.13-fpkg-dr-test5.elf",
-      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/PS5_Beta/kstuff_Darkmor_Experimental/Source-Fixe/kstuff-1.13-fpkg-dr-test5.elf",
-      "local_path": "payloads/PS5_Beta/kstuff_Darkmor_Experimental/Source-Fixe/kstuff-1.13-fpkg-dr-test5.elf",
-      "description": "Experimental Kstuff DarkMor - kstuff-1.13-fpkg-dr-test3",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/PS5_Beta/kstuff_Drakmor_Experimental/Source-Fixe/kstuff-1.13-fpkg-dr-test5.elf",
+      "local_path": "payloads/PS5_Beta/kstuff_Drakmor_Experimental/Source-Fixe/kstuff-1.13-fpkg-dr-test5.elf",
+      "description": "Experimental Kstuff DrakMor - kstuff-1.13-fpkg-dr-test3",
       "version": "Source-Fixe",
       "category": "PS5 Beta",
       "checksum": "829b45fe871dd64fbd53874ae4558076c2f1e1f203fe1ab52db5510d5fc45923"
@@ -322,36 +342,6 @@
       "checksum": "3561120f85e0ec32de5de15cdd61a1fe8d5146eb4c6aa99ee88209914a2774b1"
     },
     {
-      "name": "Poords4-Stop V0.1.0-Rc51",
-      "filename": "PoorDS4-stop_v0.1.0-rc51.elf",
-      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_utility/PoorDS4/v0.1.0-rc51/PoorDS4-stop_v0.1.0-rc51.elf",
-      "local_path": "payloads/ps5_utility/PoorDS4/v0.1.0-rc51/PoorDS4-stop_v0.1.0-rc51.elf",
-      "description": "PoorDS4 lets a wireless DualShock 4 paired with a jailbroken PS5.",
-      "version": "v0.1.0-rc51",
-      "category": "PS5 Utility",
-      "checksum": "ffdce4964f0d34a2b9be7cb65e6ad345d5beb582dcdf94d0214cde6bc79acd0d"
-    },
-    {
-      "name": "Poords4-Status V0.1.0-Rc51",
-      "filename": "PoorDS4-status_v0.1.0-rc51.elf",
-      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_utility/PoorDS4/v0.1.0-rc51/PoorDS4-status_v0.1.0-rc51.elf",
-      "local_path": "payloads/ps5_utility/PoorDS4/v0.1.0-rc51/PoorDS4-status_v0.1.0-rc51.elf",
-      "description": "PoorDS4 lets a wireless DualShock 4 paired with a jailbroken PS5.",
-      "version": "v0.1.0-rc51",
-      "category": "PS5 Utility",
-      "checksum": "d47bb84a6ae05117f095c05b75dfee15d9fbf07864a3e52d0e2e626eab613440"
-    },
-    {
-      "name": "Poords4Rc51 V0.1.0-Rc51",
-      "filename": "PoorDS4rc51_v0.1.0-rc51.elf",
-      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_utility/PoorDS4/v0.1.0-rc51/PoorDS4rc51_v0.1.0-rc51.elf",
-      "local_path": "payloads/ps5_utility/PoorDS4/v0.1.0-rc51/PoorDS4rc51_v0.1.0-rc51.elf",
-      "description": "PoorDS4 lets a wireless DualShock 4 paired with a jailbroken PS5.",
-      "version": "v0.1.0-rc51",
-      "category": "PS5 Utility",
-      "checksum": "e1b9f257f51678a977edaeafd4ca1f8a03e9df0afda7d5dd84435841fa20795d"
-    },
-    {
       "name": "Ps Game State Lib V0.1",
       "filename": "PS_Game_State_Lib_v0.1.elf",
       "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_utility/PS_Game_State_Lib/v0.1/PS_Game_State_Lib_v0.1.elf",
@@ -402,26 +392,6 @@
       "checksum": "91806229803845930b2173174e1afeadf509e4c171f6396788f929558fad6849"
     },
     {
-      "name": "Fgg-Xsense V1.1",
-      "filename": "FGG-XSense_v1.1.elf",
-      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_utility/FGG-XSense/1.1/FGG-XSense_v1.1.elf",
-      "local_path": "payloads/ps5_utility/FGG-XSense/1.1/FGG-XSense_v1.1.elf",
-      "description": "Use an Xbox controller on a jailbroken PlayStation 5.",
-      "version": "1.1",
-      "category": "PS5 Utility",
-      "checksum": "55195ccb02fbdbfa002e9188b0eff72d7d2e6de6c7a1c91666f88c6c9ff0d6c0"
-    },
-    {
-      "name": "Fgg-Playpods V1.0",
-      "filename": "FGG-PlayPods_v1.0.elf",
-      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_utility/FGG-PlayPods/1.0/FGG-PlayPods_v1.0.elf",
-      "local_path": "payloads/ps5_utility/FGG-PlayPods/1.0/FGG-PlayPods_v1.0.elf",
-      "description": "Hear your PlayStation 5 on an ordinary Bluetooth headset.",
-      "version": "1.0",
-      "category": "PS5 Utility",
-      "checksum": "9ee1958ec24e4a927992fea9ee202f5a173756091bd3abc02ebf4d2d686211a4"
-    },
-    {
       "name": "Fgg-Unpack V0.1",
       "filename": "FGG-Unpack_v0.1.elf",
       "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_utility/FGG-Unpack/v0.1/FGG-Unpack_v0.1.elf",
@@ -430,16 +400,6 @@
       "version": "v0.1",
       "category": "PS5 Utility",
       "checksum": "e8c8e57bbda31b5d16d131797aac6f83b555cae8d439b1f475c952f3d9554eff"
-    },
-    {
-      "name": "Ghost-Toothapi",
-      "filename": "ghost-toothAPI.elf",
-      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_utility/ghost-toothAPI/Source-Fixe/ghost-toothAPI.elf",
-      "local_path": "payloads/ps5_utility/ghost-toothAPI/Source-Fixe/ghost-toothAPI.elf",
-      "description": "ghost-toothAPI.",
-      "version": "Source-Fixe",
-      "category": "PS5 Utility",
-      "checksum": "744277a72a268871284ad3b91565968df06c57c0acdabd921c8712e6de731f99"
     },
     {
       "name": "Pegasus-Dl V1.10.1",
@@ -672,6 +632,86 @@
       "checksum": "e7a6bb544adb2fb2a61aa9cc83b0ad15f70b32d7511a3de0f1fb88812f11983c"
     },
     {
+      "name": "Poords4-Stop V0.1.0-Rc51",
+      "filename": "PoorDS4-stop_v0.1.0-rc51.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_pad_utility/PoorDS4/v0.1.0-rc51/PoorDS4-stop_v0.1.0-rc51.elf",
+      "local_path": "payloads/ps5_pad_utility/PoorDS4/v0.1.0-rc51/PoorDS4-stop_v0.1.0-rc51.elf",
+      "description": "PoorDS4 lets a wireless DualShock 4 paired with a jailbroken PS5.",
+      "version": "v0.1.0-rc51",
+      "category": "PS5 Pad Utility",
+      "checksum": "ffdce4964f0d34a2b9be7cb65e6ad345d5beb582dcdf94d0214cde6bc79acd0d"
+    },
+    {
+      "name": "Poords4-Status V0.1.0-Rc51",
+      "filename": "PoorDS4-status_v0.1.0-rc51.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_pad_utility/PoorDS4/v0.1.0-rc51/PoorDS4-status_v0.1.0-rc51.elf",
+      "local_path": "payloads/ps5_pad_utility/PoorDS4/v0.1.0-rc51/PoorDS4-status_v0.1.0-rc51.elf",
+      "description": "PoorDS4 lets a wireless DualShock 4 paired with a jailbroken PS5.",
+      "version": "v0.1.0-rc51",
+      "category": "PS5 Pad Utility",
+      "checksum": "d47bb84a6ae05117f095c05b75dfee15d9fbf07864a3e52d0e2e626eab613440"
+    },
+    {
+      "name": "Poords4Rc51 V0.1.0-Rc51",
+      "filename": "PoorDS4rc51_v0.1.0-rc51.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_pad_utility/PoorDS4/v0.1.0-rc51/PoorDS4rc51_v0.1.0-rc51.elf",
+      "local_path": "payloads/ps5_pad_utility/PoorDS4/v0.1.0-rc51/PoorDS4rc51_v0.1.0-rc51.elf",
+      "description": "PoorDS4 lets a wireless DualShock 4 paired with a jailbroken PS5.",
+      "version": "v0.1.0-rc51",
+      "category": "PS5 Pad Utility",
+      "checksum": "e1b9f257f51678a977edaeafd4ca1f8a03e9df0afda7d5dd84435841fa20795d"
+    },
+    {
+      "name": "Omnipad-Ps5 V1.0.4-Hotfix1",
+      "filename": "OmniPad-PS5_v1.0.4-hotfix1.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_pad_utility/OmniPad-PS5/v1.0.4-hotfix1/OmniPad-PS5_v1.0.4-hotfix1.elf",
+      "local_path": "payloads/ps5_pad_utility/OmniPad-PS5/v1.0.4-hotfix1/OmniPad-PS5_v1.0.4-hotfix1.elf",
+      "description": "Universal controller engine and Web Dashboard for PlayStation 5 (FW 7.00 - 13.60).",
+      "version": "v1.0.4-hotfix1",
+      "category": "PS5 Pad Utility",
+      "checksum": "00677d6cfac752f1da395d2aeddfee1b5f8f3a3175c524bb0ca90afd9ea0d624"
+    },
+    {
+      "name": "Fgg-Xsense V1.1",
+      "filename": "FGG-XSense_v1.1.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_pad_utility/FGG-XSense/1.1/FGG-XSense_v1.1.elf",
+      "local_path": "payloads/ps5_pad_utility/FGG-XSense/1.1/FGG-XSense_v1.1.elf",
+      "description": "Use an Xbox controller on a jailbroken PlayStation 5.",
+      "version": "1.1",
+      "category": "PS5 Pad Utility",
+      "checksum": "55195ccb02fbdbfa002e9188b0eff72d7d2e6de6c7a1c91666f88c6c9ff0d6c0"
+    },
+    {
+      "name": "Ghost-Toothapi",
+      "filename": "ghost-toothAPI.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_pad_utility/ghost-toothAPI/Source-Fixe/ghost-toothAPI.elf",
+      "local_path": "payloads/ps5_pad_utility/ghost-toothAPI/Source-Fixe/ghost-toothAPI.elf",
+      "description": "ghost-toothAPI.",
+      "version": "Source-Fixe",
+      "category": "PS5 Pad Utility",
+      "checksum": "744277a72a268871284ad3b91565968df06c57c0acdabd921c8712e6de731f99"
+    },
+    {
+      "name": "Pad2C V0.2.1",
+      "filename": "pad2c_v0.2.1.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_pad_utility/pad2c/v0.2.1/pad2c_v0.2.1.elf",
+      "local_path": "payloads/ps5_pad_utility/pad2c/v0.2.1/pad2c_v0.2.1.elf",
+      "description": "Use the 8BitDo Ultimate 2C Wireless controller on a jailbroken PS5 as a second DualSense, through its 2.4G USB dongle - no Bluetooth.",
+      "version": "v0.2.1",
+      "category": "PS5 Pad Utility",
+      "checksum": "45357888ad9fdd3de68ae80a9d224894c114acf0e6945db13d88b039d9758458"
+    },
+    {
+      "name": "Anypad-Ps5 V0.6.0",
+      "filename": "AnyPad-PS5_v0.6.0.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_pad_utility/Any-Pad-ps5/Source-Fixe/AnyPad-PS5_v0.6.0.elf",
+      "local_path": "payloads/ps5_pad_utility/Any-Pad-ps5/Source-Fixe/AnyPad-PS5_v0.6.0.elf",
+      "description": "Connect your Bluetooth controllers to your PS5 console.",
+      "version": "Source-Fixe",
+      "category": "PS5 Pad Utility",
+      "checksum": "84b6dd1ceeb1331d9c4ceb2f19791d5f90cfb9c006d490db851266af123aff30"
+    },
+    {
       "name": "Np-Fake-Signin-Ps5",
       "filename": "np-fake-signin-ps5.elf",
       "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/PS5_Activation/np-fake-signin/v1.4/np-fake-signin-ps5.elf",
@@ -700,6 +740,16 @@
       "version": "v2.0",
       "category": "PS5 Emulator",
       "checksum": "fa7d317ef132fdbcb085376ab4ee6bcf539a0edb23b8df7a34c236f2dc6f1ae6"
+    },
+    {
+      "name": "Genplusgxps5 V1.0",
+      "filename": "genplusgxPS5_v1.0.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_emulator/genplusgxPS5/v1.0/genplusgxPS5_v1.0.elf",
+      "local_path": "payloads/ps5_emulator/genplusgxPS5/v1.0/genplusgxPS5_v1.0.elf",
+      "description": "Port of Genesis-Plus-GX for PS55",
+      "version": "v1.0",
+      "category": "PS5 Emulator",
+      "checksum": "d3be76f3755c104425423f9b7ad1f2526f7a1512c565c01ba42a7abeefcdee71"
     },
     {
       "name": "Ps5X360 V0.5.6",
@@ -790,6 +840,26 @@
       "version": "0.1",
       "category": "PS5 Fan",
       "checksum": "ccf2e709218f31cd9e6a0705c99646b8f030b877687df8377982a2f6ca10216e"
+    },
+    {
+      "name": "Fgg-Playpods-Gui V0.1.5",
+      "filename": "FGG-PlayPods-GUI_v0.1.5.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_audio_utility/FGG-PlayPods-GUI/v0.1.5/FGG-PlayPods-GUI_v0.1.5.elf",
+      "local_path": "payloads/ps5_audio_utility/FGG-PlayPods-GUI/v0.1.5/FGG-PlayPods-GUI_v0.1.5.elf",
+      "description": "AudioBridge GUI PS5 Bluetooth A2DP Web GUI, based on FGG-PlayPods by FathiGhanem.",
+      "version": "v0.1.5",
+      "category": "PS5 Audio Utility",
+      "checksum": "af438dbd138d34ea452db94057d6594b61eafb0692a1bc95d029adfbdc9a61fa"
+    },
+    {
+      "name": "Fgg-Playpods V1.0",
+      "filename": "FGG-PlayPods_v1.0.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_audio_utility/FGG-PlayPods/1.0/FGG-PlayPods_v1.0.elf",
+      "local_path": "payloads/ps5_audio_utility/FGG-PlayPods/1.0/FGG-PlayPods_v1.0.elf",
+      "description": "Hear your PlayStation 5 on an ordinary Bluetooth headset.",
+      "version": "1.0",
+      "category": "PS5 Audio Utility",
+      "checksum": "9ee1958ec24e4a927992fea9ee202f5a173756091bd3abc02ebf4d2d686211a4"
     },
     {
       "name": "Ps5-Custom-Tool-Manager- Vcustom",
@@ -1098,24 +1168,6 @@
       "description": "Récupéré depuis le stockage local (Interne / Fallback)",
       "version": "ps5-web-file-manager",
       "checksum": "711cb076e887fcd55d973ade8b84bb6c22720be295bfde18e32761f6e0479a3e"
-    },
-    {
-      "name": "Garlic-Worker V1.1.7",
-      "filename": "garlic-worker_v1.1.7.elf",
-      "url": "",
-      "local_path": "payloads/ps5_saves/garlic-worker/v1.1.7/garlic-worker_v1.1.7.elf",
-      "description": "Récupéré depuis le stockage local (Interne / Fallback)",
-      "version": "garlic-worker",
-      "checksum": "2643f35cdfe9969cf775220dc4a65bc4ff0d08750c39bfb714b74dbbf29cd396"
-    },
-    {
-      "name": "Garlic-Savemgr V1.13.1",
-      "filename": "garlic-savemgr_v1.13.1.elf",
-      "url": "",
-      "local_path": "payloads/ps5_saves/garlic-savemgr/v1.13.1/garlic-savemgr_v1.13.1.elf",
-      "description": "Récupéré depuis le stockage local (Interne / Fallback)",
-      "version": "garlic-savemgr",
-      "checksum": "b0fc2fcdda977d2a1207d77148746859b7ea7f3cfcad02828a7a9b49651807f5"
     },
     {
       "name": "Spectrum-Library V1.4.8",
