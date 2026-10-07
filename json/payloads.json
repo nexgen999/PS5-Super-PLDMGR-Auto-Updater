@@ -312,14 +312,14 @@
       "checksum": "0f36b7ea3c3380303e2c74ec8d31a2c53d822cc4f4fd05cb5931d6b4f8b33c03"
     },
     {
-      "name": "Ps5Upload V6.1.2",
-      "filename": "ps5upload_v6.1.2.elf",
-      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_server/ps5upload/v6.1.2/ps5upload_v6.1.2.elf",
-      "local_path": "payloads/ps5_server/ps5upload/v6.1.2/ps5upload_v6.1.2.elf",
+      "name": "Ps5Upload V6.2.1",
+      "filename": "ps5upload_v6.2.1.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_server/ps5upload/v6.2.1/ps5upload_v6.2.1.elf",
+      "local_path": "payloads/ps5_server/ps5upload/v6.2.1/ps5upload_v6.2.1.elf",
       "description": "PS5 Upload server / tool. Port: 9025",
-      "version": "v6.1.2",
+      "version": "v6.2.1",
       "category": "PS5 Server",
-      "checksum": "1fdf0a79687a4a823dd7c331c267cf492f849bd2bc6666e2db496fc03e544162"
+      "checksum": "eb0bf3b9f5c0004cecc5e2c43dbd3d0749fa6e032a9a4b0343c115d79fb10a96"
     },
     {
       "name": "Airpsx V0.19",
@@ -709,7 +709,7 @@
       "description": "Connect your Bluetooth controllers to your PS5 console.",
       "version": "Source-Fixe",
       "category": "PS5 Pad Utility",
-      "checksum": "52466a4612c77bb34639e3a85eac245c52e19a9ebc535d80bc729cddf6047ee0"
+      "checksum": "067fc3be4dd06291302ae22c0b34aefa8f4ac1babf112df372fb0b94ebb679cc"
     },
     {
       "name": "Np-Fake-Signin-Ps5",
@@ -752,12 +752,12 @@
       "checksum": "b1c3e0f2fb46099c7f6e79a59b9dcdc1f8daefd0b54d462d9e3053486d34cbf6"
     },
     {
-      "name": "Ps5X360 V0.5.6",
-      "filename": "PS5X360_v0.5.6.elf",
-      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_emulator/PS5X360/v0.5.6/PS5X360_v0.5.6.elf",
-      "local_path": "payloads/ps5_emulator/PS5X360/v0.5.6/PS5X360_v0.5.6.elf",
+      "name": "Ps5X360 V0.5.7",
+      "filename": "PS5X360_v0.5.7.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_emulator/PS5X360/v0.5.7/PS5X360_v0.5.7.elf",
+      "local_path": "payloads/ps5_emulator/PS5X360/v0.5.7/PS5X360_v0.5.7.elf",
       "description": "x360 emu for ps5, you need PPSA97358.zip",
-      "version": "v0.5.6",
+      "version": "v0.5.7",
       "category": "PS5 Emulator",
       "checksum": "5da64c23263e6868696aa0f8b1bfd0eb97581bae73124d08066b507652adfbfb"
     },
