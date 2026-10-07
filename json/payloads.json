@@ -709,7 +709,7 @@
       "description": "Connect your Bluetooth controllers to your PS5 console.",
       "version": "Source-Fixe",
       "category": "PS5 Pad Utility",
-      "checksum": "39cee2f976be0d0f8f41fbec98f3f21e21465d1372bf22954fa52ac1c2790c14"
+      "checksum": "52466a4612c77bb34639e3a85eac245c52e19a9ebc535d80bc729cddf6047ee0"
     },
     {
       "name": "Np-Fake-Signin-Ps5",
@@ -742,14 +742,14 @@
       "checksum": "fa7d317ef132fdbcb085376ab4ee6bcf539a0edb23b8df7a34c236f2dc6f1ae6"
     },
     {
-      "name": "Genplusgxps5 V1.0",
-      "filename": "genplusgxPS5_v1.0.elf",
-      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_emulator/genplusgxPS5/v1.0/genplusgxPS5_v1.0.elf",
-      "local_path": "payloads/ps5_emulator/genplusgxPS5/v1.0/genplusgxPS5_v1.0.elf",
+      "name": "Genplusgxps5 V1.2",
+      "filename": "genplusgxPS5_v1.2.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_emulator/genplusgxPS5/v1.2/genplusgxPS5_v1.2.elf",
+      "local_path": "payloads/ps5_emulator/genplusgxPS5/v1.2/genplusgxPS5_v1.2.elf",
       "description": "Port of Genesis-Plus-GX for PS55",
-      "version": "v1.0",
+      "version": "v1.2",
       "category": "PS5 Emulator",
-      "checksum": "d3be76f3755c104425423f9b7ad1f2526f7a1512c565c01ba42a7abeefcdee71"
+      "checksum": "b1c3e0f2fb46099c7f6e79a59b9dcdc1f8daefd0b54d462d9e3053486d34cbf6"
     },
     {
       "name": "Ps5X360 V0.5.6",
