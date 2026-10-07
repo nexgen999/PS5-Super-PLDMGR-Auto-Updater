@@ -312,14 +312,14 @@
       "checksum": "0f36b7ea3c3380303e2c74ec8d31a2c53d822cc4f4fd05cb5931d6b4f8b33c03"
     },
     {
-      "name": "Ps5Upload V6.2.1",
-      "filename": "ps5upload_v6.2.1.elf",
-      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_server/ps5upload/v6.2.1/ps5upload_v6.2.1.elf",
-      "local_path": "payloads/ps5_server/ps5upload/v6.2.1/ps5upload_v6.2.1.elf",
+      "name": "Ps5Upload V6.2.3",
+      "filename": "ps5upload_v6.2.3.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_server/ps5upload/v6.2.3/ps5upload_v6.2.3.elf",
+      "local_path": "payloads/ps5_server/ps5upload/v6.2.3/ps5upload_v6.2.3.elf",
       "description": "PS5 Upload server / tool. Port: 9025",
-      "version": "v6.2.1",
+      "version": "v6.2.3",
       "category": "PS5 Server",
-      "checksum": "eb0bf3b9f5c0004cecc5e2c43dbd3d0749fa6e032a9a4b0343c115d79fb10a96"
+      "checksum": "19c0455f2e460badba95021501468dd7b06d3b8b3baa0348c7d3bc777d4c5f74"
     },
     {
       "name": "Airpsx V0.19",
@@ -709,7 +709,7 @@
       "description": "Connect your Bluetooth controllers to your PS5 console.",
       "version": "Source-Fixe",
       "category": "PS5 Pad Utility",
-      "checksum": "067fc3be4dd06291302ae22c0b34aefa8f4ac1babf112df372fb0b94ebb679cc"
+      "checksum": "790d0926a3d89fc6e04bb393a79c8438c40f15e3c0bbb4b75e70ff2219589f9a"
     },
     {
       "name": "Np-Fake-Signin-Ps5",
@@ -754,11 +754,10 @@
     {
       "name": "Ps5X360 V0.5.7",
       "filename": "PS5X360_v0.5.7.elf",
-      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_emulator/PS5X360/v0.5.7/PS5X360_v0.5.7.elf",
+      "url": "",
       "local_path": "payloads/ps5_emulator/PS5X360/v0.5.7/PS5X360_v0.5.7.elf",
-      "description": "x360 emu for ps5, you need PPSA97358.zip",
-      "version": "v0.5.7",
-      "category": "PS5 Emulator",
+      "description": "Récupéré depuis le stockage local (Interne / Fallback)",
+      "version": "PS5X360",
       "checksum": "5da64c23263e6868696aa0f8b1bfd0eb97581bae73124d08066b507652adfbfb"
     },
     {
