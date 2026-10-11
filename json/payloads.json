@@ -312,14 +312,14 @@
       "checksum": "0f36b7ea3c3380303e2c74ec8d31a2c53d822cc4f4fd05cb5931d6b4f8b33c03"
     },
     {
-      "name": "Ps5Upload V7.0.1",
-      "filename": "ps5upload_v7.0.1.elf",
-      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_server/ps5upload/v7.0.1/ps5upload_v7.0.1.elf",
-      "local_path": "payloads/ps5_server/ps5upload/v7.0.1/ps5upload_v7.0.1.elf",
+      "name": "Ps5Upload V7.0.8",
+      "filename": "ps5upload_v7.0.8.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_server/ps5upload/v7.0.8/ps5upload_v7.0.8.elf",
+      "local_path": "payloads/ps5_server/ps5upload/v7.0.8/ps5upload_v7.0.8.elf",
       "description": "PS5 Upload server / tool. Port: 9025",
-      "version": "v7.0.1",
+      "version": "v7.0.8",
       "category": "PS5 Server",
-      "checksum": "cf37ffb531a7dd56fb78d72eb01b5ec44fed40959504581a432b49a8d8352291"
+      "checksum": "085d27825a78bb2066c334506791e2a85e12240c0710db1e649e4bf15f8f4aa4"
     },
     {
       "name": "Airpsx V0.19",
@@ -709,7 +709,7 @@
       "description": "Connect your Bluetooth controllers to your PS5 console.",
       "version": "Source-Fixe",
       "category": "PS5 Pad Utility",
-      "checksum": "00985208671068cd2d96069acc53d647f4fbf32efd02bf59864932de64dfdbc3"
+      "checksum": "782f40bd9abf56f96731fb8988d981d65e97c16e864662974fc482a7ca65e53a"
     },
     {
       "name": "Np-Fake-Signin-Ps5",
