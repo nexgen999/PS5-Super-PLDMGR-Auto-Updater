@@ -314,11 +314,10 @@
     {
       "name": "Ps5Upload V7.0.8",
       "filename": "ps5upload_v7.0.8.elf",
-      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_server/ps5upload/v7.0.8/ps5upload_v7.0.8.elf",
+      "url": "",
       "local_path": "payloads/ps5_server/ps5upload/v7.0.8/ps5upload_v7.0.8.elf",
-      "description": "PS5 Upload server / tool. Port: 9025",
-      "version": "v7.0.8",
-      "category": "PS5 Server",
+      "description": "Récupéré depuis le stockage local (Interne / Fallback)",
+      "version": "ps5upload",
       "checksum": "085d27825a78bb2066c334506791e2a85e12240c0710db1e649e4bf15f8f4aa4"
     },
     {
@@ -434,12 +433,12 @@
     {
       "name": "Orbit Store",
       "filename": "orbit_store.elf",
-      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_freeshop/orbit-store-ps5/v1.1.0/orbit_store.elf",
-      "local_path": "payloads/ps5_freeshop/orbit-store-ps5/v1.1.0/orbit_store.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_freeshop/orbit-store-ps5/v1.2.0/orbit_store.elf",
+      "local_path": "payloads/ps5_freeshop/orbit-store-ps5/v1.2.0/orbit_store.elf",
       "description": "A modern, no-BS download manager for PS5.",
-      "version": "v1.1.0",
+      "version": "v1.2.0",
       "category": "PS5 Freeshop",
-      "checksum": "e7afcd24678828436efc3aa3d58bb88cd0165f7dc39e72fb1ae60cf64037b986"
+      "checksum": "86778d4fa830b1ff46379d167568c32294764cb05bc06ce6b05edc9db2a91691"
     },
     {
       "name": "Ps5-Phstore Vphstore",
@@ -709,7 +708,7 @@
       "description": "Connect your Bluetooth controllers to your PS5 console.",
       "version": "Source-Fixe",
       "category": "PS5 Pad Utility",
-      "checksum": "782f40bd9abf56f96731fb8988d981d65e97c16e864662974fc482a7ca65e53a"
+      "checksum": "8a4117af47b2f6019f848dd1f9e84cde34949bdd4234c9a22927fcd36e3eb1dc"
     },
     {
       "name": "Np-Fake-Signin-Ps5",
