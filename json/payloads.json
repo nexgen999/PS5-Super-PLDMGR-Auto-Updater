@@ -312,14 +312,14 @@
       "checksum": "0f36b7ea3c3380303e2c74ec8d31a2c53d822cc4f4fd05cb5931d6b4f8b33c03"
     },
     {
-      "name": "Ps5Upload V6.7.4",
-      "filename": "ps5upload_v6.7.4.elf",
-      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_server/ps5upload/v6.7.4/ps5upload_v6.7.4.elf",
-      "local_path": "payloads/ps5_server/ps5upload/v6.7.4/ps5upload_v6.7.4.elf",
+      "name": "Ps5Upload V7.0.1",
+      "filename": "ps5upload_v7.0.1.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_server/ps5upload/v7.0.1/ps5upload_v7.0.1.elf",
+      "local_path": "payloads/ps5_server/ps5upload/v7.0.1/ps5upload_v7.0.1.elf",
       "description": "PS5 Upload server / tool. Port: 9025",
-      "version": "v6.7.4",
+      "version": "v7.0.1",
       "category": "PS5 Server",
-      "checksum": "72b183a73082ff48f8a97e87c773e6c581e8ec80ba1747a338ffad67b2a2335d"
+      "checksum": "cf37ffb531a7dd56fb78d72eb01b5ec44fed40959504581a432b49a8d8352291"
     },
     {
       "name": "Airpsx V0.19",
@@ -434,12 +434,12 @@
     {
       "name": "Orbit Store",
       "filename": "orbit_store.elf",
-      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_freeshop/orbit-store-ps5/v1.0.5/orbit_store.elf",
-      "local_path": "payloads/ps5_freeshop/orbit-store-ps5/v1.0.5/orbit_store.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_freeshop/orbit-store-ps5/v1.1.0/orbit_store.elf",
+      "local_path": "payloads/ps5_freeshop/orbit-store-ps5/v1.1.0/orbit_store.elf",
       "description": "A modern, no-BS download manager for PS5.",
-      "version": "v1.0.5",
+      "version": "v1.1.0",
       "category": "PS5 Freeshop",
-      "checksum": "7883cf64b62252594d58e5558ea29f8de7ed3ca1d9a3182c844f23513eaf7617"
+      "checksum": "e7afcd24678828436efc3aa3d58bb88cd0165f7dc39e72fb1ae60cf64037b986"
     },
     {
       "name": "Ps5-Phstore Vphstore",
@@ -522,14 +522,14 @@
       "checksum": "a12758a431e94ff06430869a74dbae4e936503c5523fdfd5f5a2cafe3c89ebd2"
     },
     {
-      "name": "Pkg-Manager V1.5.0",
-      "filename": "pkg-manager_v1.5.0.elf",
-      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_pkg_tool/ps5-pkg-manager/v1.5.0/pkg-manager_v1.5.0.elf",
-      "local_path": "payloads/ps5_pkg_tool/ps5-pkg-manager/v1.5.0/pkg-manager_v1.5.0.elf",
+      "name": "Pkg-Manager V1.5.1",
+      "filename": "pkg-manager_v1.5.1.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_pkg_tool/ps5-pkg-manager/v1.5.1/pkg-manager_v1.5.1.elf",
+      "local_path": "payloads/ps5_pkg_tool/ps5-pkg-manager/v1.5.1/pkg-manager_v1.5.1.elf",
       "description": "A clean and intuitive package manager for PlayStation 5",
-      "version": "v1.5.0",
+      "version": "v1.5.1",
       "category": "PS5 Pkg Tool",
-      "checksum": "fb29a0e3c058cd69e00320668db57704207b827b92b92e0cd23fb5fe7fe1429d"
+      "checksum": "82e3548edcc41419b644482cccaef65689334fc0315dc20247f48b90bf182dca"
     },
     {
       "name": "Pkg-Receiver V1.2.9",
@@ -709,7 +709,7 @@
       "description": "Connect your Bluetooth controllers to your PS5 console.",
       "version": "Source-Fixe",
       "category": "PS5 Pad Utility",
-      "checksum": "fab407c5a942c588ff88faa7752b59c0096c89356384792f95c82040396ab538"
+      "checksum": "00985208671068cd2d96069acc53d647f4fbf32efd02bf59864932de64dfdbc3"
     },
     {
       "name": "Np-Fake-Signin-Ps5",
@@ -1022,14 +1022,14 @@
       "checksum": "4514bdbc0c556df1a66544615942d5087d1cbee5c2026b3b66e688ba01e5a5b0"
     },
     {
-      "name": "Cheatrunner V0.17.2",
-      "filename": "CheatRunner_v0.17.2.elf",
-      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/PS5_Cheat/CheatRunner/v0.17.2/CheatRunner_v0.17.2.elf",
-      "local_path": "payloads/PS5_Cheat/CheatRunner/v0.17.2/CheatRunner_v0.17.2.elf",
+      "name": "Cheatrunner V0.18",
+      "filename": "CheatRunner_v0.18.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/PS5_Cheat/CheatRunner/v0.18/CheatRunner_v0.18.elf",
+      "local_path": "payloads/PS5_Cheat/CheatRunner/v0.18/CheatRunner_v0.18.elf",
       "description": "CheatRunner.",
-      "version": "v0.17.2",
+      "version": "v0.18",
       "category": "PS5 Cheat",
-      "checksum": "36ad03e236e6603aaaf05d95ed3399c7b54475a9bceba085cbe02899bc88ae0f"
+      "checksum": "4ae1ea4e37b2e67d5487355ddf671f166861ed6dceea348c048ad060770c0140"
     },
     {
       "name": "Kylin-Core V2.0.0-Community-Lite",
@@ -1124,12 +1124,12 @@
     {
       "name": "Shadowmountplus",
       "filename": "shadowmountplus.elf",
-      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_game_dump/ShadowMountPlus/1.7beta4/shadowmountplus.elf",
-      "local_path": "payloads/ps5_game_dump/ShadowMountPlus/1.7beta4/shadowmountplus.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_game_dump/ShadowMountPlus/1.7beta5/shadowmountplus.elf",
+      "local_path": "payloads/ps5_game_dump/ShadowMountPlus/1.7beta5/shadowmountplus.elf",
       "description": "ShadowMountPlus payload for game mounting.",
-      "version": "1.7beta4",
+      "version": "1.7beta5",
       "category": "PS5 Game Dump",
-      "checksum": "fc4e5f715e76660ce34bde2adb10eaf1d069cb2cdf06f7a380896dfb62bd0c4a"
+      "checksum": "0d54a8467ec3544e1c7b365c9f100b2bf42bf4633cb768bde7c8f16b6cfb5375"
     },
     {
       "name": "Backpork V0.1",
