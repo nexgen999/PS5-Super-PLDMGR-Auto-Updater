@@ -511,14 +511,14 @@
       "checksum": "e3392379d5bc6ca4e44cb0d2a1d8921083b2c3ea480725f68378831874542d8d"
     },
     {
-      "name": "Nuvio-Ps5 V1.7.3",
-      "filename": "Nuvio-PS5_v1.7.3.elf",
-      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_video_player/Nuvio-PS5/v1.7.3/Nuvio-PS5_v1.7.3.elf",
-      "local_path": "payloads/ps5_video_player/Nuvio-PS5/v1.7.3/Nuvio-PS5_v1.7.3.elf",
+      "name": "Nuvio-Ps5 V1.8.0",
+      "filename": "Nuvio-PS5_v1.8.0.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_video_player/Nuvio-PS5/v1.8.0/Nuvio-PS5_v1.8.0.elf",
+      "local_path": "payloads/ps5_video_player/Nuvio-PS5/v1.8.0/Nuvio-PS5_v1.8.0.elf",
       "description": "Nuvio, at home on the PlayStation 5",
-      "version": "v1.7.3",
+      "version": "v1.8.0",
       "category": "PS5 Video Player",
-      "checksum": "a12758a431e94ff06430869a74dbae4e936503c5523fdfd5f5a2cafe3c89ebd2"
+      "checksum": "2c4812fdf411116652db756a5bd563cb4934f9df76373f59bdba3ff25a79cc3b"
     },
     {
       "name": "Pkg-Manager V1.5.1",
@@ -708,7 +708,7 @@
       "description": "Connect your Bluetooth controllers to your PS5 console.",
       "version": "Source-Fixe",
       "category": "PS5 Pad Utility",
-      "checksum": "8a4117af47b2f6019f848dd1f9e84cde34949bdd4234c9a22927fcd36e3eb1dc"
+      "checksum": "9e5186b8f612fd318f0270a47f9257bd1d7ead3b720f0f0942a08735bc405036"
     },
     {
       "name": "Np-Fake-Signin-Ps5",
