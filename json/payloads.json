@@ -433,12 +433,12 @@
     {
       "name": "Orbit Store",
       "filename": "orbit_store.elf",
-      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_freeshop/orbit-store-ps5/v1.2.0/orbit_store.elf",
-      "local_path": "payloads/ps5_freeshop/orbit-store-ps5/v1.2.0/orbit_store.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_freeshop/orbit-store-ps5/v1.3.0/orbit_store.elf",
+      "local_path": "payloads/ps5_freeshop/orbit-store-ps5/v1.3.0/orbit_store.elf",
       "description": "A modern, no-BS download manager for PS5.",
-      "version": "v1.2.0",
+      "version": "v1.3.0",
       "category": "PS5 Freeshop",
-      "checksum": "86778d4fa830b1ff46379d167568c32294764cb05bc06ce6b05edc9db2a91691"
+      "checksum": "553b39e7503ec141f6a015b7939c83e93fe8f05dee176e42c7e3bc026b0ea519"
     },
     {
       "name": "Ps5-Phstore Vphstore",
@@ -708,7 +708,7 @@
       "description": "Connect your Bluetooth controllers to your PS5 console.",
       "version": "Source-Fixe",
       "category": "PS5 Pad Utility",
-      "checksum": "5f73d8600b5f04ca2f2304a8c28ddbc76a49d5dff14ebbb87f6850e06a9de0ba"
+      "checksum": "c788b442d62cfeb683792530766d5d02eadb11bea9eff14aefd0c87f2fa74a96"
     },
     {
       "name": "Np-Fake-Signin-Ps5",
