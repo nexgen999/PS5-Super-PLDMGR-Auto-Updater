@@ -9,7 +9,8 @@
       "description": "Save manager utility hosted on Forgejo.",
       "version": "v1.13.1",
       "category": "PS5 Saves",
-      "checksum": "b0fc2fcdda977d2a1207d77148746859b7ea7f3cfcad02828a7a9b49651807f5"
+      "checksum": "b0fc2fcdda977d2a1207d77148746859b7ea7f3cfcad02828a7a9b49651807f5",
+      "source": "https://git.etawen.dev/earthonion/garlic-savemgr/releases"
     },
     {
       "name": "Garlic-Worker V1.1.7",
@@ -19,7 +20,8 @@
       "description": "Garlic worker payload component.",
       "version": "v1.1.7",
       "category": "PS5 Saves",
-      "checksum": "2643f35cdfe9969cf775220dc4a65bc4ff0d08750c39bfb714b74dbbf29cd396"
+      "checksum": "2643f35cdfe9969cf775220dc4a65bc4ff0d08750c39bfb714b74dbbf29cd396",
+      "source": "https://git.etawen.dev/earthonion/garlic-worker/releases"
     },
     {
       "name": "Savemnt-Offset-Dumper V1.0.0",
@@ -29,7 +31,8 @@
       "description": "Offset dumper for save mounting utilities.",
       "version": "1.0.0",
       "category": "PS5 Saves",
-      "checksum": "946328551f74e3b6a34a7c0169f9b40792e392775768b84874b55ecdff71222e"
+      "checksum": "946328551f74e3b6a34a7c0169f9b40792e392775768b84874b55ecdff71222e",
+      "source": "https://github.com/StonedModder/savemnt-offset-dumper/releases"
     },
     {
       "name": "Common Fps Ps5 V1.2.1",
@@ -39,7 +42,8 @@
       "description": "A lightweight, open-source real-time FPS counter for PlayStation 5.",
       "version": "v1.2.1",
       "category": "PS5 Overlay",
-      "checksum": "6be733b7b3a15ed03b67adcd34ca02628427210775c330f2fbe9f000bc7b27ff"
+      "checksum": "6be733b7b3a15ed03b67adcd34ca02628427210775c330f2fbe9f000bc7b27ff",
+      "source": "https://github.com/porhe911/Common-FPS-for-PS5/releases"
     },
     {
       "name": "Ps5 Overlay",
@@ -49,7 +53,8 @@
       "description": "A lightweight, standalone hardware monitoring overlay for jailbroken PlayStation 5 consoles (FW 1.xx - 10.xx+).",
       "version": "v1.0.15",
       "category": "PS5 Overlay",
-      "checksum": "5e843b4b20b5954802a88722e5f9436d71d29bc3c82c22d7aa828b83b9960ff9"
+      "checksum": "5e843b4b20b5954802a88722e5f9436d71d29bc3c82c22d7aa828b83b9960ff9",
+      "source": "https://github.com/smoxa/ps5-new-overlay/releases"
     },
     {
       "name": "Ps5 Overlay Shellui",
@@ -59,7 +64,8 @@
       "description": "A lightweight, standalone hardware monitoring overlay for jailbroken PlayStation 5 consoles (FW 1.xx - 10.xx+).",
       "version": "v1.0.15",
       "category": "PS5 Overlay",
-      "checksum": "54d23675bf44f17599a9e08397cf0c62b0e10cfbffdc2fe1673e5bcc9de8a2b7"
+      "checksum": "54d23675bf44f17599a9e08397cf0c62b0e10cfbffdc2fe1673e5bcc9de8a2b7",
+      "source": "https://github.com/smoxa/ps5-new-overlay/releases"
     },
     {
       "name": "Bfpilot V0.4.4",
@@ -69,7 +75,8 @@
       "description": "BFpilot is a lightweight PS5 payload that serves a browser-based file manager.",
       "version": "v0.4.4",
       "category": "PS5 File Explorer",
-      "checksum": "5a8237630260026ad054d71fbbe661e433ac9ffa2cb4eea2785769c1eb7ee1c1"
+      "checksum": "5a8237630260026ad054d71fbbe661e433ac9ffa2cb4eea2785769c1eb7ee1c1",
+      "source": "https://github.com/ItsBlurf/BFpilot/releases"
     },
     {
       "name": "Lapy Jb Daemon",
@@ -79,7 +86,8 @@
       "description": "Daemon pour le jailbreak de Lapy",
       "version": "Source-Fixe",
       "category": "PS5 File Explorer",
-      "checksum": "e8230ac4597b8f0388e75d7515ad1a2e251c4589cc3b8d56a483ffae73627eed"
+      "checksum": "e8230ac4597b8f0388e75d7515ad1a2e251c4589cc3b8d56a483ffae73627eed",
+      "source": "https://raw.githubusercontent.com/ArkSama/PS5-Lapy-JB-Daemon/main/lapy_jb_daemon.elf"
     },
     {
       "name": "Web-File-Mgr-V1.10",
@@ -89,7 +97,8 @@
       "description": "PS5 Web File Manager http://your-ps5-ip:8888.",
       "version": "v1.10",
       "category": "PS5 File Explorer",
-      "checksum": "409145ec9a1c338ecb5f6f917c3b057c4ba48bfae2e86d621e19dda7ac129bd3"
+      "checksum": "409145ec9a1c338ecb5f6f917c3b057c4ba48bfae2e86d621e19dda7ac129bd3",
+      "source": "https://github.com/owendswang/ps5-web-file-manager/releases"
     },
     {
       "name": "Wfm-7Zip-Helper",
@@ -99,7 +108,8 @@
       "description": "PS5 Web File Manager http://your-ps5-ip:8888.",
       "version": "v1.10",
       "category": "PS5 File Explorer",
-      "checksum": "dd8bbae4cd44ed20c4cbafc74fdc3271f52b9d7888a0d4f4038a8ae05feb92a4"
+      "checksum": "dd8bbae4cd44ed20c4cbafc74fdc3271f52b9d7888a0d4f4038a8ae05feb92a4",
+      "source": "https://github.com/owendswang/ps5-web-file-manager/releases"
     },
     {
       "name": "Ps5-File-Explorer Vfile-Explorer-V0.2.1",
@@ -109,7 +119,8 @@
       "description": "PS5 File Explorer http://your-ps5-ip:5905.",
       "version": "file-explorer-v0.2.1",
       "category": "PS5 File Explorer",
-      "checksum": "6d4b905b42727dddeaedddb2a657ed0d4e7110ddd068a6daab0aafb2ba32604b"
+      "checksum": "6d4b905b42727dddeaedddb2a657ed0d4e7110ddd068a6daab0aafb2ba32604b",
+      "source": "https://github.com/juma-sayeh/PS5-File-Explorer/releases"
     },
     {
       "name": "A53-Kstuff-Shadowmountplus-3In1",
@@ -119,7 +130,8 @@
       "description": "Experimental AIO by SoNic credit to EchoStrech DrakMor",
       "version": "Source-Fixe",
       "category": "PS5 Beta",
-      "checksum": "51f5c7973a2edb5db61bcbfb7afc3d2336f19368631f84bfc55d08ef4a3d4ab2"
+      "checksum": "51f5c7973a2edb5db61bcbfb7afc3d2336f19368631f84bfc55d08ef4a3d4ab2",
+      "source": "https://github.com/nexgen999/evoX-CoreOS/raw/refs/heads/main/internal/payloads/PS5_Beta/SoNic-AIO/A53-Kstuff-ShadowMountPlus-3in1.elf"
     },
     {
       "name": "A53-Kstuff-Smp",
@@ -129,7 +141,8 @@
       "description": "Experimental AIO by SoNic credit to EchoStrech DrakMor",
       "version": "Source-Fixe",
       "category": "PS5 Beta",
-      "checksum": "98fd2462262b6c3e46f8f5f44672ee50c5c3f8718b9a3281ae8220f05a06d3dc"
+      "checksum": "98fd2462262b6c3e46f8f5f44672ee50c5c3f8718b9a3281ae8220f05a06d3dc",
+      "source": "https://github.com/nexgen999/evoX-CoreOS/raw/refs/heads/main/internal/payloads/PS5_Beta/SoNic-AIO/A53-kstuff-SMP.elf"
     },
     {
       "name": "Kstuff-Ng V1.00",
@@ -139,7 +152,8 @@
       "description": "Experimental Kstuff NG",
       "version": "Source-Fixe",
       "category": "PS5 Beta",
-      "checksum": "77c7a96783de94201417630cf57bdec3d7eebd047dfb96d8f144c3590359256f"
+      "checksum": "77c7a96783de94201417630cf57bdec3d7eebd047dfb96d8f144c3590359256f",
+      "source": "https://github.com/nexgen999/evoX-CoreOS/raw/refs/heads/main/internal/payloads/PS5_Beta/Kstuff-NG/Kstuff-NG_v1.00.elf"
     },
     {
       "name": "Kstuff-1.13-Fpkg-Dr-Test5",
@@ -149,7 +163,8 @@
       "description": "Experimental Kstuff DrakMor - kstuff-1.13-fpkg-dr-test3",
       "version": "Source-Fixe",
       "category": "PS5 Beta",
-      "checksum": "829b45fe871dd64fbd53874ae4558076c2f1e1f203fe1ab52db5510d5fc45923"
+      "checksum": "829b45fe871dd64fbd53874ae4558076c2f1e1f203fe1ab52db5510d5fc45923",
+      "source": "https://github.com/nexgen999/evoX-CoreOS/raw/refs/heads/main/internal/payloads/PS5_Beta/Kstuff-Darkmor/kstuff-1.13-fpkg-dr-test5.elf"
     },
     {
       "name": "A53 Ppr Install 1140 20.09",
@@ -159,7 +174,8 @@
       "description": "a53_ppr_install_1140_20.09.elf - support 1.00-11.40",
       "version": "Source-Fixe",
       "category": "PS5 Beta",
-      "checksum": "5d664382ea83e11f0326d9f0544af215a9f329e27fbd1edc483446e0d7b8ee13"
+      "checksum": "5d664382ea83e11f0326d9f0544af215a9f329e27fbd1edc483446e0d7b8ee13",
+      "source": "https://github.com/nexgen999/evoX-CoreOS/raw/refs/heads/main/internal/payloads/PS5_Beta/a53_ppr/a53_ppr_install_1140_20.09.elf"
     },
     {
       "name": "A53 Ppr Install 1160 20.09",
@@ -169,7 +185,8 @@
       "description": "a53_ppr_install_1160_20.09.elf - 11.60 only",
       "version": "Source-Fixe",
       "category": "PS5 Beta",
-      "checksum": "984be03548aa849bcd06757acbed5575a3764532d858f4afaaa243b9f2a08bbf"
+      "checksum": "984be03548aa849bcd06757acbed5575a3764532d858f4afaaa243b9f2a08bbf",
+      "source": "https://github.com/nexgen999/evoX-CoreOS/raw/refs/heads/main/internal/payloads/PS5_Beta/a53_ppr/a53_ppr_install_1160_20.09.elf"
     },
     {
       "name": "Webkit-Autoloader-Installer V0.6.1",
@@ -179,7 +196,8 @@
       "description": "Installs WebKit Autoloader on homescreen for firmwares 9.00-12.00.",
       "version": "v0.6.1",
       "category": "Ps5-Webkit-Autoloader",
-      "checksum": "f662c75a502e4f1bc41b055dcb490625f8222c499ce437dc80f439a3a279e93f"
+      "checksum": "f662c75a502e4f1bc41b055dcb490625f8222c499ce437dc80f439a3a279e93f",
+      "source": "https://github.com/itsPLK/ps5-webkit-autoloader/releases"
     },
     {
       "name": "Host-Psm-Poop2Jb-V1.2.0-Instala-Pldmgr-En V1.2.0",
@@ -189,7 +207,8 @@
       "description": "Host-PSM pooP2JB.",
       "version": "v1.2.0",
       "category": "Ps5-Webkit-Autoloader",
-      "checksum": "3ccc45938dcc1bb6ee766195106c928049fd632993828bcf73b5368fdebfc496"
+      "checksum": "3ccc45938dcc1bb6ee766195106c928049fd632993828bcf73b5368fdebfc496",
+      "source": "https://github.com/ps4macedo/instalador-host-psm-poop2jb/releases"
     },
     {
       "name": "Host-Psm-Poop2Jb-V1.2.0-Instala-Onionhen V1.2.0",
@@ -199,7 +218,8 @@
       "description": "Host-PSM pooP2JB.",
       "version": "v1.2.0",
       "category": "Ps5-Webkit-Autoloader",
-      "checksum": "894432bb3161559a272bbdd07cc66dd80ac487f6ddbcc9ae5718090dc0f6e716"
+      "checksum": "894432bb3161559a272bbdd07cc66dd80ac487f6ddbcc9ae5718090dc0f6e716",
+      "source": "https://github.com/ps4macedo/instalador-host-psm-poop2jb/releases"
     },
     {
       "name": "Host-Psm-Poop2Jb-V1.2.0-Instala-Pldmgr V1.2.0",
@@ -209,7 +229,8 @@
       "description": "Host-PSM pooP2JB.",
       "version": "v1.2.0",
       "category": "Ps5-Webkit-Autoloader",
-      "checksum": "b81609da1db061165e44541653b95f524c917a3d5a1fca308965b0d821be3178"
+      "checksum": "b81609da1db061165e44541653b95f524c917a3d5a1fca308965b0d821be3178",
+      "source": "https://github.com/ps4macedo/instalador-host-psm-poop2jb/releases"
     },
     {
       "name": "Host-Psm-Poop2Jb-V1.2.0-Instala-Onionhen-En V1.2.0",
@@ -219,7 +240,8 @@
       "description": "Host-PSM pooP2JB.",
       "version": "v1.2.0",
       "category": "Ps5-Webkit-Autoloader",
-      "checksum": "90f1ec197e66bbf4fa1a3bce040d6a5d04d571c4f8290f608401e8f7c2e9e0a4"
+      "checksum": "90f1ec197e66bbf4fa1a3bce040d6a5d04d571c4f8290f608401e8f7c2e9e0a4",
+      "source": "https://github.com/ps4macedo/instalador-host-psm-poop2jb/releases"
     },
     {
       "name": "Zftpd-Ps5-V1.6.0",
@@ -229,7 +251,8 @@
       "description": "FTP server payload for PS5. Port: 21",
       "version": "v1.6.0",
       "category": "PS5 Server",
-      "checksum": "39ed57bef579282418f822da2e58ea5d56acfa5aa4cd38816744b1f610bfa14d"
+      "checksum": "39ed57bef579282418f822da2e58ea5d56acfa5aa4cd38816744b1f610bfa14d",
+      "source": "https://github.com/seregonwar/zftpd/releases"
     },
     {
       "name": "Zftpd-Ps5-Zhttp-V1.6.0",
@@ -239,7 +262,8 @@
       "description": "FTP server payload for PS5. Port: 21",
       "version": "v1.6.0",
       "category": "PS5 Server",
-      "checksum": "fc59b60aab2dce9a8bae385c106bfa174048d765c826101355f1f010a789b497"
+      "checksum": "fc59b60aab2dce9a8bae385c106bfa174048d765c826101355f1f010a789b497",
+      "source": "https://github.com/seregonwar/zftpd/releases"
     },
     {
       "name": "Elfldr V0.26",
@@ -249,7 +273,8 @@
       "description": "ELF Loader utility. Port: 9020 / 9021",
       "version": "v0.26",
       "category": "PS5 Server",
-      "checksum": "ed6d587a057c09d6a95b2176e336d9ffc605e547ac56462128b029e47b8ccea1"
+      "checksum": "ed6d587a057c09d6a95b2176e336d9ffc605e547ac56462128b029e47b8ccea1",
+      "source": "https://github.com/ps5-payload-dev/elfldr/releases"
     },
     {
       "name": "Ftpsrv Ps5-Payload V0.21.1",
@@ -259,7 +284,8 @@
       "description": "FTP server background daemon. Port: 21",
       "version": "v0.21.1",
       "category": "PS5 Server",
-      "checksum": "7d4b31c83eae4e056580482a3a074e1db25922efc74ac1e439473b45d71a5938"
+      "checksum": "7d4b31c83eae4e056580482a3a074e1db25922efc74ac1e439473b45d71a5938",
+      "source": "https://github.com/ps5-payload-dev/ftpsrv/releases"
     },
     {
       "name": "Websrv V0.34",
@@ -269,7 +295,8 @@
       "description": "HTTP Web server payload. Port: 8080",
       "version": "v0.34",
       "category": "PS5 Server",
-      "checksum": "54730c867c6e1148536fdcb370e63a7762d989ea87b62488ad4caff64d43f263"
+      "checksum": "54730c867c6e1148536fdcb370e63a7762d989ea87b62488ad4caff64d43f263",
+      "source": "https://github.com/ps5-payload-dev/websrv/releases"
     },
     {
       "name": "Gdbsrv V0.9",
@@ -279,7 +306,8 @@
       "description": "GDB Debugger server payload. Port: 1234",
       "version": "v0.9",
       "category": "PS5 Server",
-      "checksum": "80952d75f423768b95385f0944e5a5c2f417dcc10c22c1bb6516a923ad8894e5"
+      "checksum": "80952d75f423768b95385f0944e5a5c2f417dcc10c22c1bb6516a923ad8894e5",
+      "source": "https://github.com/ps5-payload-dev/gdbsrv/releases"
     },
     {
       "name": "Klogsrv V0.9",
@@ -289,7 +317,8 @@
       "description": "Kernel log server daemon. Port: 3232",
       "version": "v0.9",
       "category": "PS5 Server",
-      "checksum": "e828ec144231f81547cb58bc7d2c396fa984be0c2295f31364b58017816dcceb"
+      "checksum": "e828ec144231f81547cb58bc7d2c396fa984be0c2295f31364b58017816dcceb",
+      "source": "https://github.com/ps5-payload-dev/klogsrv/releases"
     },
     {
       "name": "Ftpsrv Drakmor V1.16-Ng-Stable",
@@ -299,7 +328,8 @@
       "description": "Drakmor",
       "version": "1.16-ng-stable",
       "category": "PS5 Server",
-      "checksum": "f19ae469b25453a7a4af4529527521d31f143100f18a2c6839666e7121c8bd32"
+      "checksum": "f19ae469b25453a7a4af4529527521d31f143100f18a2c6839666e7121c8bd32",
+      "source": "https://github.com/drakmor/ftpsrv/releases"
     },
     {
       "name": "Ps5-Ezremote-Server V1.11",
@@ -309,7 +339,8 @@
       "description": "Easy remote server component. Port: 8080",
       "version": "1.11",
       "category": "PS5 Server",
-      "checksum": "0f36b7ea3c3380303e2c74ec8d31a2c53d822cc4f4fd05cb5931d6b4f8b33c03"
+      "checksum": "0f36b7ea3c3380303e2c74ec8d31a2c53d822cc4f4fd05cb5931d6b4f8b33c03",
+      "source": "https://github.com/cy33hc/ps5-ezremote-server/releases"
     },
     {
       "name": "Ps5Upload V7.0.8",
@@ -328,7 +359,8 @@
       "description": "AirPSX server tool for PS5 ecosystem.",
       "version": "0.19",
       "category": "PS5 Server",
-      "checksum": "ae025ca7727b3a8abf6a705903ca9116a6fa6e7f7ead606916109cf9044c5d63"
+      "checksum": "ae025ca7727b3a8abf6a705903ca9116a6fa6e7f7ead606916109cf9044c5d63",
+      "source": "https://github.com/barisyild/airpsx/releases"
     },
     {
       "name": "Chronicloader-Ps5-Payload V0.1",
@@ -338,7 +370,8 @@
       "description": "ChronicLoader utility payload for PS5.",
       "version": "0.1",
       "category": "PS5 Utility",
-      "checksum": "3561120f85e0ec32de5de15cdd61a1fe8d5146eb4c6aa99ee88209914a2774b1"
+      "checksum": "3561120f85e0ec32de5de15cdd61a1fe8d5146eb4c6aa99ee88209914a2774b1",
+      "source": "https://github.com/StonedModder/ChronicLoader-PS5-Payload/releases"
     },
     {
       "name": "Ps Game State Lib V0.1",
@@ -348,7 +381,8 @@
       "description": "Standalone PS5 game-state detection payload - webui ps5ip:9877 .",
       "version": "v0.1",
       "category": "PS5 Utility",
-      "checksum": "a550e1494b0f8be3b244f8820ee8d899442d33a936f9ded6203a0318c7afdba8"
+      "checksum": "a550e1494b0f8be3b244f8820ee8d899442d33a936f9ded6203a0318c7afdba8",
+      "source": "https://github.com/StonedModder/ps-game-state-lib/releases"
     },
     {
       "name": "Ps-Discordpresence V0.01",
@@ -358,7 +392,8 @@
       "description": "PS5 game activity service with a local status endpoint and a Python Discord RPC bridge.",
       "version": "v0.01",
       "category": "PS5 Utility",
-      "checksum": "375cf619ea6f6c594ea2b79ecbb98704723522d07e51c877687876d5fe589afb"
+      "checksum": "375cf619ea6f6c594ea2b79ecbb98704723522d07e51c877687876d5fe589afb",
+      "source": "https://github.com/StonedModder/PS-DiscordPresence/releases"
     },
     {
       "name": "Unrar-Ps5 V1.4.0",
@@ -368,7 +403,8 @@
       "description": "PS5 ELF payload for extracting RAR and 7z archives on a jailbroken PS5 and installing extracted apps into a configurable layout..",
       "version": "v1.4.0",
       "category": "PS5 Utility",
-      "checksum": "2ef04b0bc8fc1932b29da1a53336c40ed0a3f6a945a0746bef2e5dde52149701"
+      "checksum": "2ef04b0bc8fc1932b29da1a53336c40ed0a3f6a945a0746bef2e5dde52149701",
+      "source": "https://github.com/bizkut/unrar-ps5/releases"
     },
     {
       "name": "Ps5-Power-Payloads-Project V1.0",
@@ -378,7 +414,8 @@
       "description": "PS5-Power-Payloads-Project utility.",
       "version": "1.0",
       "category": "PS5 Utility",
-      "checksum": "3614f68981adc13a231d3655bf3892725bc25aa372d67a0037698253753b7cbe"
+      "checksum": "3614f68981adc13a231d3655bf3892725bc25aa372d67a0037698253753b7cbe",
+      "source": "https://github.com/MasterPS0/PS5-Power-Payloads-Project/releases"
     },
     {
       "name": "Ps5-Date-Time-Sync V1.0.0",
@@ -388,7 +425,8 @@
       "description": "A lightweight, standalone PS5 payload that restores the console",
       "version": "v1.0.0",
       "category": "PS5 Utility",
-      "checksum": "91806229803845930b2173174e1afeadf509e4c171f6396788f929558fad6849"
+      "checksum": "91806229803845930b2173174e1afeadf509e4c171f6396788f929558fad6849",
+      "source": "https://github.com/kerrdec97/ps5-date-time-sync/releases"
     },
     {
       "name": "Fgg-Unpack V0.1",
@@ -398,7 +436,8 @@
       "description": "Extract .zip and .7z archives directly on a jailbroken PlayStation 5.",
       "version": "v0.1",
       "category": "PS5 Utility",
-      "checksum": "e8c8e57bbda31b5d16d131797aac6f83b555cae8d439b1f475c952f3d9554eff"
+      "checksum": "e8c8e57bbda31b5d16d131797aac6f83b555cae8d439b1f475c952f3d9554eff",
+      "source": "https://github.com/FGGstore/FGG-Unpack/releases"
     },
     {
       "name": "Pegasus-Dl V1.11.0",
@@ -408,7 +447,8 @@
       "description": "free store webadmin http://your-ps5-ip:6970.",
       "version": "v1.11.0",
       "category": "PS5 Freeshop",
-      "checksum": "32b69c2089bb545abfabd04d5827444698f9c4f1bc4915d72247cb781e8c23d9"
+      "checksum": "32b69c2089bb545abfabd04d5827444698f9c4f1bc4915d72247cb781e8c23d9",
+      "source": "https://github.com/pegasus-ps5/pegasus-dl/releases"
     },
     {
       "name": "Ps5Shopappkg-Dpi",
@@ -418,7 +458,8 @@
       "description": "You need PS5-SHOP-APPKG.pkg DPI port 9040.",
       "version": "Source-Fixe",
       "category": "PS5 Freeshop",
-      "checksum": "c4672cfa909463843c537f67d5f2df9eb3456d4036d26a4fb81fc34d7853170b"
+      "checksum": "c4672cfa909463843c537f67d5f2df9eb3456d4036d26a4fb81fc34d7853170b",
+      "source": "https://github.com/ps5xploit/ps5shopappkg/releases/download/ps5shopappkg/ps5shopappkg-dpi.elf"
     },
     {
       "name": "Ps5Library-Agent",
@@ -428,17 +469,19 @@
       "description": "You need PS5Library.pkg.",
       "version": "v0.2.91",
       "category": "PS5 Freeshop",
-      "checksum": "ac78389a628401edba3c081f00156238ad5652b1b7ad241f5ccc7713179f0c82"
+      "checksum": "ac78389a628401edba3c081f00156238ad5652b1b7ad241f5ccc7713179f0c82",
+      "source": "https://github.com/rdiol12/PS5Library/releases"
     },
     {
       "name": "Orbit Store",
       "filename": "orbit_store.elf",
-      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_freeshop/orbit-store-ps5/v1.3.0/orbit_store.elf",
-      "local_path": "payloads/ps5_freeshop/orbit-store-ps5/v1.3.0/orbit_store.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_freeshop/orbit-store-ps5/v1.3.5/orbit_store.elf",
+      "local_path": "payloads/ps5_freeshop/orbit-store-ps5/v1.3.5/orbit_store.elf",
       "description": "A modern, no-BS download manager for PS5.",
-      "version": "v1.3.0",
+      "version": "v1.3.5",
       "category": "PS5 Freeshop",
-      "checksum": "553b39e7503ec141f6a015b7939c83e93fe8f05dee176e42c7e3bc026b0ea519"
+      "checksum": "561a8e8015d9564d44e32b58a84e1294ea7043e96146110801a9f62ad99ac93b",
+      "source": "https://github.com/saawant12/orbit-store-ps5/releases"
     },
     {
       "name": "Ps5-Phstore Vphstore",
@@ -448,7 +491,8 @@
       "description": "Free PH Store client for PS5.",
       "version": "PHStore",
       "category": "PS5 Freeshop",
-      "checksum": "64d5c4605a063a63f01213c31d627466218e787956873b2eef39b369b60112ee"
+      "checksum": "64d5c4605a063a63f01213c31d627466218e787956873b2eef39b369b60112ee",
+      "source": "https://github.com/PratikHackTR/PS5-PHStore/releases"
     },
     {
       "name": "Actremotelink Agent V2.0",
@@ -458,7 +502,8 @@
       "description": "ActRemoteLink is a set of payloads and utilities for PS5 jailbreak workflows focused on offline activation of a local account and Remote Play",
       "version": "v2.0",
       "category": "PS5 Remote",
-      "checksum": "c3a4195b86eaeb77ba64903e9280a0bb6d55e55fb1399a2f2c26310f09ca166a"
+      "checksum": "c3a4195b86eaeb77ba64903e9280a0bb6d55e55fb1399a2f2c26310f09ca166a",
+      "source": "https://github.com/StonedModder/ActRemoteLink-13.x/releases"
     },
     {
       "name": "Actremotelink Pin Notify V2.0",
@@ -468,7 +513,8 @@
       "description": "ActRemoteLink is a set of payloads and utilities for PS5 jailbreak workflows focused on offline activation of a local account and Remote Play",
       "version": "v2.0",
       "category": "PS5 Remote",
-      "checksum": "707ea60d186b2b0b53ca379a740fef4b4a7c18558730e9f8c86868a1ab77b70c"
+      "checksum": "707ea60d186b2b0b53ca379a740fef4b4a7c18558730e9f8c86868a1ab77b70c",
+      "source": "https://github.com/StonedModder/ActRemoteLink-13.x/releases"
     },
     {
       "name": "Bfplayer-Standalone",
@@ -478,7 +524,8 @@
       "description": "BFplayer is a native media library and player for jailbroken PlayStation 5 consoles.",
       "version": "v0.1.0-alpha.44",
       "category": "PS5 Video Player",
-      "checksum": "0d028deb145d6fc9a5b55d43a45e072919178fbb261c66cd914ebcfb0b3b05c0"
+      "checksum": "0d028deb145d6fc9a5b55d43a45e072919178fbb261c66cd914ebcfb0b3b05c0",
+      "source": "https://github.com/ItsBlurf/BFplayer/releases"
     },
     {
       "name": "Prosperoplayer V1.0",
@@ -488,7 +535,8 @@
       "description": "A homebrew media player for jailbroken PS5.",
       "version": "v1.0",
       "category": "PS5 Video Player",
-      "checksum": "40b9955273982cd563e1b16bd428ea6a9c399e7d4bc55b220fe223948572cdad"
+      "checksum": "40b9955273982cd563e1b16bd428ea6a9c399e7d4bc55b220fe223948572cdad",
+      "source": "https://github.com/KINGDKAK/ProsperoPlayer/releases"
     },
     {
       "name": "Svtplay V0.3",
@@ -498,7 +546,8 @@
       "description": "This is an unofficial 10-foot UI for SVT Play, the Swedish public service television broadcaster.",
       "version": "v0.3",
       "category": "PS5 Video Player",
-      "checksum": "31f2caac7d53b8754bb37cb0364e615bfc38fc5f02c886d286a4f9e603b56832"
+      "checksum": "31f2caac7d53b8754bb37cb0364e615bfc38fc5f02c886d286a4f9e603b56832",
+      "source": "https://github.com/ps5-payload-dev/svtplay/releases"
     },
     {
       "name": "Ps-Play V2.1",
@@ -508,7 +557,8 @@
       "description": "All-in-one media hub for jailbroken PlayStation 5",
       "version": "2.1",
       "category": "PS5 Video Player",
-      "checksum": "e3392379d5bc6ca4e44cb0d2a1d8921083b2c3ea480725f68378831874542d8d"
+      "checksum": "e3392379d5bc6ca4e44cb0d2a1d8921083b2c3ea480725f68378831874542d8d",
+      "source": "https://github.com/MounirHero/PS-Play/releases"
     },
     {
       "name": "Nuvio-Ps5 V1.8.0",
@@ -518,7 +568,8 @@
       "description": "Nuvio, at home on the PlayStation 5",
       "version": "v1.8.0",
       "category": "PS5 Video Player",
-      "checksum": "2c4812fdf411116652db756a5bd563cb4934f9df76373f59bdba3ff25a79cc3b"
+      "checksum": "2c4812fdf411116652db756a5bd563cb4934f9df76373f59bdba3ff25a79cc3b",
+      "source": "https://github.com/theghostonline/Nuvio-PS5/releases"
     },
     {
       "name": "Pkg-Manager V1.5.1",
@@ -528,7 +579,8 @@
       "description": "A clean and intuitive package manager for PlayStation 5",
       "version": "v1.5.1",
       "category": "PS5 Pkg Tool",
-      "checksum": "82e3548edcc41419b644482cccaef65689334fc0315dc20247f48b90bf182dca"
+      "checksum": "82e3548edcc41419b644482cccaef65689334fc0315dc20247f48b90bf182dca",
+      "source": "https://github.com/itsPLK/ps5-pkg-manager/releases"
     },
     {
       "name": "Pkg-Receiver V1.2.9",
@@ -538,7 +590,8 @@
       "description": "A package manager for PlayStation 5 need PkgSender android app or windows app",
       "version": "v1.2.9",
       "category": "PS5 Pkg Tool",
-      "checksum": "6946d52c6c04a3f43d3141a505394ba8e0c6923f17fe471054e11567c9a526c7"
+      "checksum": "6946d52c6c04a3f43d3141a505394ba8e0c6923f17fe471054e11567c9a526c7",
+      "source": "https://github.com/Loopayeh/pkg-sender/releases"
     },
     {
       "name": "Etahen V2.5B",
@@ -548,7 +601,8 @@
       "description": "Le Homebrew Enabler (HEN) de référence pour la PS5 avec serveurs de triche, plugins et gestionnaire de mémoire intégrés.",
       "version": "2.5B",
       "category": "PS5 HEN Loader",
-      "checksum": "4845cac45095361b8983b14d6690622183b0dcfbf6d7fda16e161aa91ff0531e"
+      "checksum": "4845cac45095361b8983b14d6690622183b0dcfbf6d7fda16e161aa91ff0531e",
+      "source": "https://github.com/etaHEN/etaHEN/releases"
     },
     {
       "name": "Ps5 Unified Autoloader V0.1.5-915A65E",
@@ -558,7 +612,8 @@
       "description": "Chargeur universel de payloads permettant de lancer automatiquement vos outils favoris au démarrage de l",
       "version": "v0.1.5-915a65e",
       "category": "PS5 HEN Loader",
-      "checksum": "c8e36ea06cfd37c5fad356ff9fcd09d3e62065d88170b5119ce8f1eeb3efacac"
+      "checksum": "c8e36ea06cfd37c5fad356ff9fcd09d3e62065d88170b5119ce8f1eeb3efacac",
+      "source": "https://github.com/itsPLK/ps5-unified-autoloader/releases"
     },
     {
       "name": "Pldmgr V0.6.1",
@@ -568,7 +623,8 @@
       "description": "Interface d",
       "version": "v0.6.1",
       "category": "PS5 HEN Loader",
-      "checksum": "5165cbe4c13360828bd0f5d558cdbb9e2d55b0660b1dc7f7a58d3f4ee9e23285"
+      "checksum": "5165cbe4c13360828bd0f5d558cdbb9e2d55b0660b1dc7f7a58d3f4ee9e23285",
+      "source": "https://github.com/itsPLK/ps5-payload-manager/releases"
     },
     {
       "name": "Elf Arsenal V1.6.23",
@@ -578,7 +634,8 @@
       "description": "Boîte à outils regroupant une collection complète de payloads utilitaires pour les consoles jailbreakées.",
       "version": "v1.6.23",
       "category": "PS5 HEN Loader",
-      "checksum": "20cdb0979ce627aff8e684a4506e18390a72492d5e3aa15ecef0bfe1bca08bb5"
+      "checksum": "20cdb0979ce627aff8e684a4506e18390a72492d5e3aa15ecef0bfe1bca08bb5",
+      "source": "https://git.etawen.dev/soniciso/elf-arsenal/releases"
     },
     {
       "name": "Kura V1.6.50",
@@ -588,7 +645,8 @@
       "description": "Un loader de payloads moderne et épuré conçu pour optimiser l",
       "version": "v1.6.50",
       "category": "PS5 HEN Loader",
-      "checksum": "8bac520b2b99dcda8109838884380605736d8b1c23793754250bcef00536b6ab"
+      "checksum": "8bac520b2b99dcda8109838884380605736d8b1c23793754250bcef00536b6ab",
+      "source": "https://github.com/NookieAI/kura/releases"
     },
     {
       "name": "Pizza-Hen V2.00",
@@ -598,7 +656,8 @@
       "description": "PIZZA HEN is an experimental all-in-one PS5 homebrew environment.",
       "version": "v2.00",
       "category": "PS5 HEN Loader",
-      "checksum": "8535d399612d61c50a528b2ae416f2fc3ccfb7480296df99c17302583fb3e345"
+      "checksum": "8535d399612d61c50a528b2ae416f2fc3ccfb7480296df99c17302583fb3e345",
+      "source": "https://github.com/Michele-M-Media/PIZZA-HEN/releases"
     },
     {
       "name": "Onionhen V0.0.13",
@@ -608,7 +667,8 @@
       "description": "An all-in-one HEN and Toolbox for PlayStation 5.",
       "version": "v0.0.13",
       "category": "PS5 HEN Loader",
-      "checksum": "aa3f98847948e2ae8ea600c3f437e28247a0a4f8b73651a046d2859924bf97b3"
+      "checksum": "aa3f98847948e2ae8ea600c3f437e28247a0a4f8b73651a046d2859924bf97b3",
+      "source": "https://github.com/aydencharles/onionHEN/releases"
     },
     {
       "name": "Etahen-2.6B",
@@ -618,7 +678,8 @@
       "description": "etahen beta version experimental.",
       "version": "Source-Fixe",
       "category": "PS5 HEN Loader",
-      "checksum": "512c74a9d6f56bb5a4ab871a0306a8cbefb8b3d5454ba8f1d833b020b245a126"
+      "checksum": "512c74a9d6f56bb5a4ab871a0306a8cbefb8b3d5454ba8f1d833b020b245a126",
+      "source": "https://github.com/zecoxao/zecoxao.github.io/raw/refs/heads/main/luasauce/payloads/etaHEN-2.6B.bin"
     },
     {
       "name": "Prosperomgr",
@@ -628,7 +689,8 @@
       "description": "A Web-Based All-In-One homebrew manager for your PlayStation 5",
       "version": "v1.1",
       "category": "PS5 HEN Loader",
-      "checksum": "e7a6bb544adb2fb2a61aa9cc83b0ad15f70b32d7511a3de0f1fb88812f11983c"
+      "checksum": "e7a6bb544adb2fb2a61aa9cc83b0ad15f70b32d7511a3de0f1fb88812f11983c",
+      "source": "https://github.com/notmaj0r/ProsperoMgr/releases"
     },
     {
       "name": "Poords4-Stop V0.1.0-Rc51",
@@ -638,7 +700,8 @@
       "description": "PoorDS4 lets a wireless DualShock 4 paired with a jailbroken PS5.",
       "version": "v0.1.0-rc51",
       "category": "PS5 Pad Utility",
-      "checksum": "ffdce4964f0d34a2b9be7cb65e6ad345d5beb582dcdf94d0214cde6bc79acd0d"
+      "checksum": "ffdce4964f0d34a2b9be7cb65e6ad345d5beb582dcdf94d0214cde6bc79acd0d",
+      "source": "https://github.com/ItsBlurf/PoorDS4/releases"
     },
     {
       "name": "Poords4-Status V0.1.0-Rc51",
@@ -648,7 +711,8 @@
       "description": "PoorDS4 lets a wireless DualShock 4 paired with a jailbroken PS5.",
       "version": "v0.1.0-rc51",
       "category": "PS5 Pad Utility",
-      "checksum": "d47bb84a6ae05117f095c05b75dfee15d9fbf07864a3e52d0e2e626eab613440"
+      "checksum": "d47bb84a6ae05117f095c05b75dfee15d9fbf07864a3e52d0e2e626eab613440",
+      "source": "https://github.com/ItsBlurf/PoorDS4/releases"
     },
     {
       "name": "Poords4Rc51 V0.1.0-Rc51",
@@ -658,7 +722,8 @@
       "description": "PoorDS4 lets a wireless DualShock 4 paired with a jailbroken PS5.",
       "version": "v0.1.0-rc51",
       "category": "PS5 Pad Utility",
-      "checksum": "e1b9f257f51678a977edaeafd4ca1f8a03e9df0afda7d5dd84435841fa20795d"
+      "checksum": "e1b9f257f51678a977edaeafd4ca1f8a03e9df0afda7d5dd84435841fa20795d",
+      "source": "https://github.com/ItsBlurf/PoorDS4/releases"
     },
     {
       "name": "Omnipad-Ps5 V1.0.4-Hotfix1",
@@ -668,7 +733,8 @@
       "description": "Universal controller engine and Web Dashboard for PlayStation 5 (FW 7.00 - 13.60).",
       "version": "v1.0.4-hotfix1",
       "category": "PS5 Pad Utility",
-      "checksum": "00677d6cfac752f1da395d2aeddfee1b5f8f3a3175c524bb0ca90afd9ea0d624"
+      "checksum": "00677d6cfac752f1da395d2aeddfee1b5f8f3a3175c524bb0ca90afd9ea0d624",
+      "source": "https://github.com/diegobarbosaa/OmniPad-PS5/releases"
     },
     {
       "name": "Fgg-Xsense V1.1",
@@ -678,7 +744,8 @@
       "description": "Use an Xbox controller on a jailbroken PlayStation 5.",
       "version": "1.1",
       "category": "PS5 Pad Utility",
-      "checksum": "55195ccb02fbdbfa002e9188b0eff72d7d2e6de6c7a1c91666f88c6c9ff0d6c0"
+      "checksum": "55195ccb02fbdbfa002e9188b0eff72d7d2e6de6c7a1c91666f88c6c9ff0d6c0",
+      "source": "https://github.com/FGGstore/FGG-XSense/releases"
     },
     {
       "name": "Ghost-Toothapi",
@@ -688,7 +755,8 @@
       "description": "ghost-toothAPI.",
       "version": "Source-Fixe",
       "category": "PS5 Pad Utility",
-      "checksum": "744277a72a268871284ad3b91565968df06c57c0acdabd921c8712e6de731f99"
+      "checksum": "744277a72a268871284ad3b91565968df06c57c0acdabd921c8712e6de731f99",
+      "source": "https://github.com/nexgen999/evoX-CoreOS/raw/refs/heads/main/internal/payloads/ps5_utility/ghost-toothAPI/ghost-toothAPI.elf"
     },
     {
       "name": "Pad2C V0.2.1",
@@ -698,7 +766,8 @@
       "description": "Use the 8BitDo Ultimate 2C Wireless controller on a jailbroken PS5 as a second DualSense, through its 2.4G USB dongle - no Bluetooth.",
       "version": "v0.2.1",
       "category": "PS5 Pad Utility",
-      "checksum": "45357888ad9fdd3de68ae80a9d224894c114acf0e6945db13d88b039d9758458"
+      "checksum": "45357888ad9fdd3de68ae80a9d224894c114acf0e6945db13d88b039d9758458",
+      "source": "https://github.com/sub0x00001/pad2c/releases"
     },
     {
       "name": "Anypad-Ps5 V0.6.0",
@@ -708,7 +777,8 @@
       "description": "Connect your Bluetooth controllers to your PS5 console.",
       "version": "Source-Fixe",
       "category": "PS5 Pad Utility",
-      "checksum": "855f2a232fd6b1d3c13249e0684c329f3913bc8bd9e41e71cb63bab4eee1b2a2"
+      "checksum": "a244e393634c125156e3cb4fec9f6771fc4961cb1523fb72eaa59250791291aa",
+      "source": "https://github.com/nexgen999/evoX-CoreOS/blob/main/internal/payloads/ps5_pad_utility/AnyPad-PS5/v0.6.0/AnyPad-PS5_v0.6.0.elf"
     },
     {
       "name": "Np-Fake-Signin-Ps5",
@@ -718,7 +788,8 @@
       "description": "Fake activate PS5 without PSN.",
       "version": "v1.4",
       "category": "PS5 Activation",
-      "checksum": "9ec8562b3e3f6508071e280037e225371d8a6c297e74b8ae4d240e357ee38eca"
+      "checksum": "9ec8562b3e3f6508071e280037e225371d8a6c297e74b8ae4d240e357ee38eca",
+      "source": "https://git.etawen.dev/earthonion/np-fake-signin/releases"
     },
     {
       "name": "Ps5-Linux-Loader V2.5",
@@ -728,7 +799,8 @@
       "description": "Linux loader payload for the PS5.",
       "version": "v2.5",
       "category": "PS5 Linux",
-      "checksum": "9fc48733077145d1d204a4c9cdb879baaab1e711a604dd73af0dd4a807d6bc49"
+      "checksum": "9fc48733077145d1d204a4c9cdb879baaab1e711a604dd73af0dd4a807d6bc49",
+      "source": "https://github.com/ps5-linux/ps5-linux-loader/releases"
     },
     {
       "name": "Snes9Xps5 V2.3",
@@ -738,7 +810,8 @@
       "description": "snes9x emulator",
       "version": "v2.3",
       "category": "PS5 Emulator",
-      "checksum": "d71f900bc434eaed55b304e603ae79327ef7de6be147a159d78803dd0eb7fe27"
+      "checksum": "d71f900bc434eaed55b304e603ae79327ef7de6be147a159d78803dd0eb7fe27",
+      "source": "https://github.com/MisterTemaki/snes9xPS5/releases"
     },
     {
       "name": "Genplusgxps5 V1.6",
@@ -748,17 +821,19 @@
       "description": "Port of Genesis-Plus-GX for PS55",
       "version": "v1.6",
       "category": "PS5 Emulator",
-      "checksum": "c548e4dd9e15f58bff8cccc2e7042df276462643ec74a0ea7548deeee6941548"
+      "checksum": "c548e4dd9e15f58bff8cccc2e7042df276462643ec74a0ea7548deeee6941548",
+      "source": "https://github.com/MisterTemaki/genplusgxPS5/releases"
     },
     {
-      "name": "Ps5-Romm V1.1.1",
-      "filename": "ps5-romm_v1.1.1.elf",
-      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_emulator/ps5-romm/v1.1.1/ps5-romm_v1.1.1.elf",
-      "local_path": "payloads/ps5_emulator/ps5-romm/v1.1.1/ps5-romm_v1.1.1.elf",
+      "name": "Ps5-Romm V1.2.0",
+      "filename": "ps5-romm_v1.2.0.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_emulator/ps5-romm/v1.2.0/ps5-romm_v1.2.0.elf",
+      "local_path": "payloads/ps5_emulator/ps5-romm/v1.2.0/ps5-romm_v1.2.0.elf",
       "description": "ps5-romm for ps5",
-      "version": "v1.1.1",
+      "version": "v1.2.0",
       "category": "PS5 Emulator",
-      "checksum": "e86153e3d8f480656b47906bb6a6dd9d9fc76217ded4c9243f6f4df90724e53a"
+      "checksum": "e2e3710cdb267049cb89398cd2a74192c2cf4924e78fab53f2ff44de35cb1f77",
+      "source": "https://github.com/s0liton/ps5-romm/releases"
     },
     {
       "name": "Fbneo-Ps5 V1.8",
@@ -768,7 +843,8 @@
       "description": "FBNeo for ps5",
       "version": "v1.8",
       "category": "PS5 Emulator",
-      "checksum": "9e3b4af4239eeb574adb1b042f5da54e806d6ec018a85c6f93cf8a423815b11c"
+      "checksum": "9e3b4af4239eeb574adb1b042f5da54e806d6ec018a85c6f93cf8a423815b11c",
+      "source": "https://github.com/MisterTemaki/fbneo-ps5/releases"
     },
     {
       "name": "Phu-Sandbox.Exit V1.0",
@@ -778,7 +854,8 @@
       "description": "addon for Markus-PHU Emupack",
       "version": "Source-Fixe",
       "category": "PS5 Emulator",
-      "checksum": "228462a0f7fc9f40f9ae7460feaf5516ab5a36f1fb6d912664e7d1f289ad204e"
+      "checksum": "228462a0f7fc9f40f9ae7460feaf5516ab5a36f1fb6d912664e7d1f289ad204e",
+      "source": "https://github.com/nexgen999/Evox_PS5PKG_Private/releases/download/v3.0/PHU-Sandbox.Exit_v1.0.elf"
     },
     {
       "name": "Ps5-Fan-Control V0.3",
@@ -788,7 +865,8 @@
       "description": "Small PS5 daemon payload ELF that sets the system fan temperature.",
       "version": "v0.3",
       "category": "PS5 Fan",
-      "checksum": "b10b6b9b9c00efed8bf9202a83b6cb762345d1f84130a419eff7139250026b36"
+      "checksum": "b10b6b9b9c00efed8bf9202a83b6cb762345d1f84130a419eff7139250026b36",
+      "source": "https://github.com/owendswang/ps5-fan-control/releases"
     },
     {
       "name": "Fan Target 85C V0.1",
@@ -798,7 +876,8 @@
       "description": "fan_target keeps the PS5 fan controller at a selected target temperature while leaving the console",
       "version": "0.1",
       "category": "PS5 Fan",
-      "checksum": "c37019c351c1c5b05b43adbac29d85bfd25f8c0ab9d94371cacab1945d8e0fd0"
+      "checksum": "c37019c351c1c5b05b43adbac29d85bfd25f8c0ab9d94371cacab1945d8e0fd0",
+      "source": "https://github.com/drakmor/fan_target/releases"
     },
     {
       "name": "Fan Target V0.1",
@@ -808,7 +887,8 @@
       "description": "fan_target keeps the PS5 fan controller at a selected target temperature while leaving the console",
       "version": "0.1",
       "category": "PS5 Fan",
-      "checksum": "a9ad8502123799d58f8ddd9882d842f524c4ecc3ea6743a73c6dcdffd0bf30e0"
+      "checksum": "a9ad8502123799d58f8ddd9882d842f524c4ecc3ea6743a73c6dcdffd0bf30e0",
+      "source": "https://github.com/drakmor/fan_target/releases"
     },
     {
       "name": "Fan Target 75C V0.1",
@@ -818,7 +898,8 @@
       "description": "fan_target keeps the PS5 fan controller at a selected target temperature while leaving the console",
       "version": "0.1",
       "category": "PS5 Fan",
-      "checksum": "4b52e09c48ebed1f369221c290e8ec4a9fdb2a477b7b7f44a1b8646958d9f69b"
+      "checksum": "4b52e09c48ebed1f369221c290e8ec4a9fdb2a477b7b7f44a1b8646958d9f69b",
+      "source": "https://github.com/drakmor/fan_target/releases"
     },
     {
       "name": "Fan Target 70C V0.1",
@@ -828,7 +909,8 @@
       "description": "fan_target keeps the PS5 fan controller at a selected target temperature while leaving the console",
       "version": "0.1",
       "category": "PS5 Fan",
-      "checksum": "a9ad8502123799d58f8ddd9882d842f524c4ecc3ea6743a73c6dcdffd0bf30e0"
+      "checksum": "a9ad8502123799d58f8ddd9882d842f524c4ecc3ea6743a73c6dcdffd0bf30e0",
+      "source": "https://github.com/drakmor/fan_target/releases"
     },
     {
       "name": "Fan Target 65C V0.1",
@@ -838,7 +920,8 @@
       "description": "fan_target keeps the PS5 fan controller at a selected target temperature while leaving the console",
       "version": "0.1",
       "category": "PS5 Fan",
-      "checksum": "0bedeb564947530d09d1dfb27df63c2a09eaa7f51faf3ddcc90b3fb2870e6312"
+      "checksum": "0bedeb564947530d09d1dfb27df63c2a09eaa7f51faf3ddcc90b3fb2870e6312",
+      "source": "https://github.com/drakmor/fan_target/releases"
     },
     {
       "name": "Fan Target 80C V0.1",
@@ -848,7 +931,8 @@
       "description": "fan_target keeps the PS5 fan controller at a selected target temperature while leaving the console",
       "version": "0.1",
       "category": "PS5 Fan",
-      "checksum": "ccf2e709218f31cd9e6a0705c99646b8f030b877687df8377982a2f6ca10216e"
+      "checksum": "ccf2e709218f31cd9e6a0705c99646b8f030b877687df8377982a2f6ca10216e",
+      "source": "https://github.com/drakmor/fan_target/releases"
     },
     {
       "name": "Fgg-Playpods-Gui V0.1.5",
@@ -858,7 +942,8 @@
       "description": "AudioBridge GUI PS5 Bluetooth A2DP Web GUI, based on FGG-PlayPods by FathiGhanem.",
       "version": "v0.1.5",
       "category": "PS5 Audio Utility",
-      "checksum": "af438dbd138d34ea452db94057d6594b61eafb0692a1bc95d029adfbdc9a61fa"
+      "checksum": "af438dbd138d34ea452db94057d6594b61eafb0692a1bc95d029adfbdc9a61fa",
+      "source": "https://github.com/menfis911/FGG-PlayPods-GUI/releases"
     },
     {
       "name": "Fgg-Playpods V1.0",
@@ -868,7 +953,8 @@
       "description": "Hear your PlayStation 5 on an ordinary Bluetooth headset.",
       "version": "1.0",
       "category": "PS5 Audio Utility",
-      "checksum": "9ee1958ec24e4a927992fea9ee202f5a173756091bd3abc02ebf4d2d686211a4"
+      "checksum": "9ee1958ec24e4a927992fea9ee202f5a173756091bd3abc02ebf4d2d686211a4",
+      "source": "https://github.com/FGGstore/FGG-PlayPods/releases"
     },
     {
       "name": "Ps5-Custom-Tool-Manager- Vcustom",
@@ -878,7 +964,8 @@
       "description": "Custom manager tool for PS5 personalization.",
       "version": "Custom",
       "category": "PS5 Themes-Avatars",
-      "checksum": "297824ceaf6ea53fde57550adf9b5c2fc44c63ef60e8196ab92d351d1615d9cb"
+      "checksum": "297824ceaf6ea53fde57550adf9b5c2fc44c63ef60e8196ab92d351d1615d9cb",
+      "source": "https://github.com/NikoBellikJR31/PS5-Custom-Tool-Manager-/releases"
     },
     {
       "name": "Ps5-Wallpaper-Modd V1.0",
@@ -888,7 +975,8 @@
       "description": "Wallpaper modification utility for PS5.",
       "version": "v1.0",
       "category": "PS5 Themes-Avatars",
-      "checksum": "b18a866bac9deff45b921b7d3ea6143d541117b56c666d817ecdc81961829139"
+      "checksum": "b18a866bac9deff45b921b7d3ea6143d541117b56c666d817ecdc81961829139",
+      "source": "https://github.com/hgr9519/ps5-wallpaper-modd/releases"
     },
     {
       "name": "Ps5Debug-Ng V1.3.2",
@@ -898,7 +986,8 @@
       "description": "Next generation debugger payload for PS5.",
       "version": "1.3.2",
       "category": "PS5 Sdk Debug",
-      "checksum": "949b0e6e0fe3f24f4a820319fd76d9ccb92f9770cbb1a64b09a8eca5c1fc9ff3"
+      "checksum": "949b0e6e0fe3f24f4a820319fd76d9ccb92f9770cbb1a64b09a8eca5c1fc9ff3",
+      "source": "https://github.com/OpenSourcereR-dev/ps5debug-NG/releases"
     },
     {
       "name": "Ps5-Fw-Spoof",
@@ -908,7 +997,8 @@
       "description": "Firmware spoofer utility for PS5.",
       "version": "26616621599",
       "category": "PS5 Sdk Debug",
-      "checksum": "f1754521caa92a6a1ac313a1b6c969ec49d67750e290ba99870958290a0961f0"
+      "checksum": "f1754521caa92a6a1ac313a1b6c969ec49d67750e290ba99870958290a0961f0",
+      "source": "https://github.com/illusionyy/ps5-fw-spoof/releases"
     },
     {
       "name": "Ps5-Self-Pager-System-Common-Lib",
@@ -918,7 +1008,8 @@
       "description": "SELF pager payload tool.",
       "version": "v1.2",
       "category": "PS5 Sdk Debug",
-      "checksum": "a86c3e69ed38656310b41af4f9221bdb2264ff4daf93fb4c2515fd54a216b701"
+      "checksum": "a86c3e69ed38656310b41af4f9221bdb2264ff4daf93fb4c2515fd54a216b701",
+      "source": "https://github.com/idlesauce/ps5-self-pager/releases"
     },
     {
       "name": "Ps5-Self-Pager-Game",
@@ -928,7 +1019,8 @@
       "description": "SELF pager payload tool.",
       "version": "v1.2",
       "category": "PS5 Sdk Debug",
-      "checksum": "73d94fea5de9086cac26385c117a0b3098890c447d67536877fb7b51c9145aac"
+      "checksum": "73d94fea5de9086cac26385c117a0b3098890c447d67536877fb7b51c9145aac",
+      "source": "https://github.com/idlesauce/ps5-self-pager/releases"
     },
     {
       "name": "Ps5-Self-Pager-Full-System",
@@ -938,7 +1030,8 @@
       "description": "SELF pager payload tool.",
       "version": "v1.2",
       "category": "PS5 Sdk Debug",
-      "checksum": "fb498d4112611619150281e0c44afbd09f144c09eaca3ab3f5b306b39450d13a"
+      "checksum": "fb498d4112611619150281e0c44afbd09f144c09eaca3ab3f5b306b39450d13a",
+      "source": "https://github.com/idlesauce/ps5-self-pager/releases"
     },
     {
       "name": "Ps5-Self-Pager-Shellcore",
@@ -948,7 +1041,8 @@
       "description": "SELF pager payload tool.",
       "version": "v1.2",
       "category": "PS5 Sdk Debug",
-      "checksum": "2b500bc356b5bcfca5c3e5187bcec0a37c80ed05e39348b8f06bd2e5a6f3342b"
+      "checksum": "2b500bc356b5bcfca5c3e5187bcec0a37c80ed05e39348b8f06bd2e5a6f3342b",
+      "source": "https://github.com/idlesauce/ps5-self-pager/releases"
     },
     {
       "name": "Ps5-Self-Decrypter-Game",
@@ -958,7 +1052,8 @@
       "description": "SELF decrypter tool for PS5 binaries.",
       "version": "v0.5.2",
       "category": "PS5 Sdk Debug",
-      "checksum": "190b350759b4f9d50949325e84d131e0953f37a9df271c329ba43c80c0ac7a57"
+      "checksum": "190b350759b4f9d50949325e84d131e0953f37a9df271c329ba43c80c0ac7a57",
+      "source": "https://github.com/idlesauce/PS5-SELF-Decrypter/releases"
     },
     {
       "name": "Ps5-Self-Decrypter-System-Common-Lib",
@@ -968,7 +1063,8 @@
       "description": "SELF decrypter tool for PS5 binaries.",
       "version": "v0.5.2",
       "category": "PS5 Sdk Debug",
-      "checksum": "6a16c6457c604db4846632510da0975f49faba08e6cab9cfd7f84d78b4557d97"
+      "checksum": "6a16c6457c604db4846632510da0975f49faba08e6cab9cfd7f84d78b4557d97",
+      "source": "https://github.com/idlesauce/PS5-SELF-Decrypter/releases"
     },
     {
       "name": "Ps5-Self-Decrypter-Shellcore",
@@ -978,7 +1074,8 @@
       "description": "SELF decrypter tool for PS5 binaries.",
       "version": "v0.5.2",
       "category": "PS5 Sdk Debug",
-      "checksum": "15050c691c21c790ae970a1ee99ad3918dd1065fe5512c762fccee6d521c8066"
+      "checksum": "15050c691c21c790ae970a1ee99ad3918dd1065fe5512c762fccee6d521c8066",
+      "source": "https://github.com/idlesauce/PS5-SELF-Decrypter/releases"
     },
     {
       "name": "Ps5-Self-Decrypter-Full-System",
@@ -988,7 +1085,8 @@
       "description": "SELF decrypter tool for PS5 binaries.",
       "version": "v0.5.2",
       "category": "PS5 Sdk Debug",
-      "checksum": "46340d3048a977f5603b3def0a0ba1c85b5c182891388442e51b39e281257b6a"
+      "checksum": "46340d3048a977f5603b3def0a0ba1c85b5c182891388442e51b39e281257b6a",
+      "source": "https://github.com/idlesauce/PS5-SELF-Decrypter/releases"
     },
     {
       "name": "Ps5-Remoteplay-Get-Pin V0.1.1",
@@ -998,7 +1096,8 @@
       "description": "Utility to get Remote Play PIN.",
       "version": "v0.1.1",
       "category": "PS5 Sdk Debug",
-      "checksum": "1d611c1856dd2f4b4b6cb42ead1128a7f08a26585788f92de79fa4f67d721472"
+      "checksum": "1d611c1856dd2f4b4b6cb42ead1128a7f08a26585788f92de79fa4f67d721472",
+      "source": "https://github.com/idlesauce/ps5-remoteplay-get-pin/releases"
     },
     {
       "name": "Memdbg Vnightly-20260930-G6E493C9",
@@ -1008,7 +1107,8 @@
       "description": "Memory debugging and inspection suite.",
       "version": "nightly-20260930-g6e493c9",
       "category": "PS5 Sdk Debug",
-      "checksum": "2fbdc9f0b21043619b1c32b512df47b3ddf79a99f096243c0d48f5ffc14e1906"
+      "checksum": "2fbdc9f0b21043619b1c32b512df47b3ddf79a99f096243c0d48f5ffc14e1906",
+      "source": "https://github.com/seregonwar/MemDBG/releases"
     },
     {
       "name": "Ps5-Hwinfo V0.1",
@@ -1018,7 +1118,8 @@
       "description": "PS5 payload for collecting hardware and runtime telemetry.",
       "version": "0.1",
       "category": "PS5 Sdk Debug",
-      "checksum": "4514bdbc0c556df1a66544615942d5087d1cbee5c2026b3b66e688ba01e5a5b0"
+      "checksum": "4514bdbc0c556df1a66544615942d5087d1cbee5c2026b3b66e688ba01e5a5b0",
+      "source": "https://github.com/drakmor/ps5-hwinfo/releases"
     },
     {
       "name": "Cheatrunner V0.18",
@@ -1028,7 +1129,8 @@
       "description": "CheatRunner.",
       "version": "v0.18",
       "category": "PS5 Cheat",
-      "checksum": "4ae1ea4e37b2e67d5487355ddf671f166861ed6dceea348c048ad060770c0140"
+      "checksum": "4ae1ea4e37b2e67d5487355ddf671f166861ed6dceea348c048ad060770c0140",
+      "source": "https://github.com/notmaj0r/CheatRunner/releases"
     },
     {
       "name": "Kylin-Core V2.0.0-Community-Lite",
@@ -1038,7 +1140,8 @@
       "description": "kylin-core",
       "version": "v2.0.0-community-lite",
       "category": "PS5 Cheat",
-      "checksum": "7f5245f2db67b131c6f9e991b731117c2c730923a9dd65a2d82b36f2e2b91545"
+      "checksum": "7f5245f2db67b131c6f9e991b731117c2c730923a9dd65a2d82b36f2e2b91545",
+      "source": "https://github.com/aydencharles/kylin-core-release/releases"
     },
     {
       "name": "Kstuff Echostretch V1.6.7",
@@ -1048,7 +1151,8 @@
       "description": "Fnd Kstuff payload for PS5.",
       "version": "v1.6.7",
       "category": "PS5 Kstuff",
-      "checksum": "f1c1f4b2b6395644af04cbe9828aba58586acf7aacb9e01113cac92ce16e3569"
+      "checksum": "f1c1f4b2b6395644af04cbe9828aba58586acf7aacb9e01113cac92ce16e3569",
+      "source": "https://github.com/EchoStretch/kstuff/releases"
     },
     {
       "name": "Kstuff-Lite Echostretch V1.11",
@@ -1058,7 +1162,8 @@
       "description": "Lightweight version of kstuff.",
       "version": "v1.11",
       "category": "PS5 Kstuff",
-      "checksum": "ab9a6cb4d3b1daf139d4d646e402b1cf569071acd64599c936d7a3a6164dc779"
+      "checksum": "ab9a6cb4d3b1daf139d4d646e402b1cf569071acd64599c936d7a3a6164dc779",
+      "source": "https://github.com/EchoStretch/kstuff-lite/releases"
     },
     {
       "name": "Kstuff-Lite Drakmor V1.2-Dr-Test1",
@@ -1068,7 +1173,8 @@
       "description": "Drakmor",
       "version": "1.2-dr-test1",
       "category": "PS5 Kstuff",
-      "checksum": "9c1b242eaed3704ef18be45d001a2c4ebf2d9222cfe3cbb0f0c3db33309abac9"
+      "checksum": "9c1b242eaed3704ef18be45d001a2c4ebf2d9222cfe3cbb0f0c3db33309abac9",
+      "source": "https://github.com/drakmor/kstuff-lite/releases"
     },
     {
       "name": "Kstuff-A53 Sonic V1.4",
@@ -1078,7 +1184,8 @@
       "description": "SoNic variant of kstuff-a53.",
       "version": "1.4",
       "category": "PS5 Kstuff",
-      "checksum": "675bef691b1bd1ee14956409aa3947ef9fd52dc36034dbd18d7c55d469e08d23"
+      "checksum": "675bef691b1bd1ee14956409aa3947ef9fd52dc36034dbd18d7c55d469e08d23",
+      "source": "https://github.com/Soonniicc/kstuff-a53/releases"
     },
     {
       "name": "Nanodns V0.4",
@@ -1088,7 +1195,8 @@
       "description": "Un serveur DNS ultra-léger et rapide idéal pour rediriger les requêtes de la console vers votre hôte local d",
       "version": "0.4",
       "category": "PS5 Dns",
-      "checksum": "fcfb7d47c3b295560ea1603dc015f7c4950353ef0faca16428bd425680ef1fc5"
+      "checksum": "fcfb7d47c3b295560ea1603dc015f7c4950353ef0faca16428bd425680ef1fc5",
+      "source": "https://github.com/drakmor/nanoDNS/releases"
     },
     {
       "name": "Chukei Dns V0.9.0",
@@ -1098,7 +1206,8 @@
       "description": "Serveur DNS de redirection d",
       "version": "0.9.0",
       "category": "PS5 Dns",
-      "checksum": "d69081b4a68adcab517c699d8535b17830af41de635d891de4c516b43015610f"
+      "checksum": "d69081b4a68adcab517c699d8535b17830af41de635d891de4c516b43015610f",
+      "source": "https://github.com/Al-Azif/chukei-dns/releases"
     },
     {
       "name": "Ps5-Game-Compressor V1.0.4",
@@ -1108,7 +1217,8 @@
       "description": "Tool to compress PS5 games.",
       "version": "v1.0.4",
       "category": "PS5 Game Dump",
-      "checksum": "e55e90aaade13b6e0d4316c1597ef90a21b67a06475c3e25de054224bc1e941b"
+      "checksum": "e55e90aaade13b6e0d4316c1597ef90a21b67a06475c3e25de054224bc1e941b",
+      "source": "https://github.com/juma-sayeh/PS5-Game-Compressor/releases"
     },
     {
       "name": "Ps5-App-Dumper V2.10",
@@ -1118,7 +1228,8 @@
       "description": "PS5 App Dumper payload.",
       "version": "v2.10",
       "category": "PS5 Game Dump",
-      "checksum": "c850f1df6f2787824d6ddeeed69ce4144e00569b32135973401c2985cfb0345b"
+      "checksum": "c850f1df6f2787824d6ddeeed69ce4144e00569b32135973401c2985cfb0345b",
+      "source": "https://github.com/EchoStretch/ps5-app-dumper/releases"
     },
     {
       "name": "Shadowmountplus",
@@ -1128,7 +1239,8 @@
       "description": "ShadowMountPlus payload for game mounting.",
       "version": "1.7beta5",
       "category": "PS5 Game Dump",
-      "checksum": "0d54a8467ec3544e1c7b365c9f100b2bf42bf4633cb768bde7c8f16b6cfb5375"
+      "checksum": "0d54a8467ec3544e1c7b365c9f100b2bf42bf4633cb768bde7c8f16b6cfb5375",
+      "source": "https://github.com/drakmor/ShadowMountPlus/releases"
     },
     {
       "name": "Backpork V0.1",
@@ -1138,7 +1250,8 @@
       "description": "BackPork PS5 tool.",
       "version": "0.1",
       "category": "PS5 Game Dump",
-      "checksum": "d74e4cd119b2bb1fd423f2f5b1c9a7f096b3e588c753af1ab48b983d56216a52"
+      "checksum": "d74e4cd119b2bb1fd423f2f5b1c9a7f096b3e588c753af1ab48b983d56216a52",
+      "source": "https://github.com/BestPig/BackPork/releases"
     },
     {
       "name": "Apr Emu Updater V2.0.6",
@@ -1148,7 +1261,8 @@
       "description": "APR Emu Updater must always be loaded.",
       "version": "v2.0.6",
       "category": "PS5 Game Dump",
-      "checksum": "4f04464283a6a551883e40e36b59134ecad0e38ecbb7ea89cbec3f91a3bd9122"
+      "checksum": "4f04464283a6a551883e40e36b59134ecad0e38ecbb7ea89cbec3f91a3bd9122",
+      "source": "https://github.com/tsuramatsu1/apr-emu-updater/releases"
     },
     {
       "name": "Ps5-Game-Compressor Fork V1.1.1",
@@ -1158,7 +1272,8 @@
       "description": "Fork Tool to compress PS5 games.",
       "version": "v1.1.1",
       "category": "PS5 Game Dump",
-      "checksum": "5fec05b8a3cb89bafbc97970d5d68d9f31e6fcde873b5523243890e50836592b"
+      "checksum": "5fec05b8a3cb89bafbc97970d5d68d9f31e6fcde873b5523243890e50836592b",
+      "source": "https://github.com/gcoding97/PS5-Game-Compressor/releases"
     },
     {
       "name": "Web-File-Mgr V1.9",
