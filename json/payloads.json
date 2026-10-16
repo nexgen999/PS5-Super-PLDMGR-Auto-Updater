@@ -35,14 +35,14 @@
       "source": "https://github.com/StonedModder/savemnt-offset-dumper/releases"
     },
     {
-      "name": "Common Fps Ps5 V1.2.1",
-      "filename": "Common_FPS_PS5_v1.2.1.elf",
-      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/PS5_Overlay/Common-FPS-for-PS5/v1.2.1/Common_FPS_PS5_v1.2.1.elf",
-      "local_path": "payloads/PS5_Overlay/Common-FPS-for-PS5/v1.2.1/Common_FPS_PS5_v1.2.1.elf",
+      "name": "Common Fps Ps5 V1.2.3",
+      "filename": "Common_FPS_PS5_v1.2.3.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/PS5_Overlay/Common-FPS-for-PS5/v1.2.3/Common_FPS_PS5_v1.2.3.elf",
+      "local_path": "payloads/PS5_Overlay/Common-FPS-for-PS5/v1.2.3/Common_FPS_PS5_v1.2.3.elf",
       "description": "A lightweight, open-source real-time FPS counter for PlayStation 5.",
-      "version": "v1.2.1",
+      "version": "v1.2.3",
       "category": "PS5 Overlay",
-      "checksum": "6be733b7b3a15ed03b67adcd34ca02628427210775c330f2fbe9f000bc7b27ff",
+      "checksum": "bb74aa448952e9af4fb001f256f48b3b15fdedff88c2dec472ee9d16b20dbed5",
       "source": "https://github.com/porhe911/Common-FPS-for-PS5/releases"
     },
     {
@@ -777,7 +777,7 @@
       "description": "Connect your Bluetooth controllers to your PS5 console.",
       "version": "Source-Fixe",
       "category": "PS5 Pad Utility",
-      "checksum": "d6994f995e3099fcb26601bf7ac7b021d1e66f0e8ab3b61e7508ee972fb6099a",
+      "checksum": "f5fb6c31cd0e5bfb7f574a64225a2c4702b752195b066358f5fc8955fac822e5",
       "source": "https://github.com/nexgen999/evoX-CoreOS/blob/main/internal/payloads/ps5_pad_utility/AnyPad-PS5/v0.6.0/AnyPad-PS5_v0.6.0.elf"
     },
     {
