@@ -46,25 +46,25 @@
       "source": "https://github.com/porhe911/Common-FPS-for-PS5/releases"
     },
     {
-      "name": "Ps5 Overlay",
-      "filename": "ps5_overlay.elf",
-      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/PS5_Overlay/ps5-new-overlay/v1.0.15/ps5_overlay.elf",
-      "local_path": "payloads/PS5_Overlay/ps5-new-overlay/v1.0.15/ps5_overlay.elf",
+      "name": "Overlay Payload",
+      "filename": "overlay_payload.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/PS5_Overlay/ps5-new-overlay/v0.0.18/overlay_payload.elf",
+      "local_path": "payloads/PS5_Overlay/ps5-new-overlay/v0.0.18/overlay_payload.elf",
       "description": "A lightweight, standalone hardware monitoring overlay for jailbroken PlayStation 5 consoles (FW 1.xx - 10.xx+).",
-      "version": "v1.0.15",
+      "version": "v0.0.18",
       "category": "PS5 Overlay",
-      "checksum": "5e843b4b20b5954802a88722e5f9436d71d29bc3c82c22d7aa828b83b9960ff9",
+      "checksum": "b144a1594e328279966797dc9e79cf8675156d447fc232d07f94a01d16a44013",
       "source": "https://github.com/smoxa/ps5-new-overlay/releases"
     },
     {
-      "name": "Ps5 Overlay Shellui",
-      "filename": "ps5_overlay_shellui.elf",
-      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/PS5_Overlay/ps5-new-overlay/v1.0.15/ps5_overlay_shellui.elf",
-      "local_path": "payloads/PS5_Overlay/ps5-new-overlay/v1.0.15/ps5_overlay_shellui.elf",
+      "name": "Ps5-Overlay-Kus V1.0.18",
+      "filename": "ps5-overlay-kus_v1.0.18.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/PS5_Overlay/ps5-new-overlay/v0.0.18/ps5-overlay-kus_v1.0.18.elf",
+      "local_path": "payloads/PS5_Overlay/ps5-new-overlay/v0.0.18/ps5-overlay-kus_v1.0.18.elf",
       "description": "A lightweight, standalone hardware monitoring overlay for jailbroken PlayStation 5 consoles (FW 1.xx - 10.xx+).",
-      "version": "v1.0.15",
+      "version": "v0.0.18",
       "category": "PS5 Overlay",
-      "checksum": "54d23675bf44f17599a9e08397cf0c62b0e10cfbffdc2fe1673e5bcc9de8a2b7",
+      "checksum": "96562d1fc8deb641c67e19dc618cf2334f14512bc02e15732f53361f31005e29",
       "source": "https://github.com/smoxa/ps5-new-overlay/releases"
     },
     {
@@ -777,7 +777,7 @@
       "description": "Connect your Bluetooth controllers to your PS5 console.",
       "version": "Source-Fixe",
       "category": "PS5 Pad Utility",
-      "checksum": "f5fb6c31cd0e5bfb7f574a64225a2c4702b752195b066358f5fc8955fac822e5",
+      "checksum": "b5ad912f8f48507da8509b49a6b2fd1beadfc5381ad010d50df2bc5de2770dae",
       "source": "https://github.com/nexgen999/evoX-CoreOS/blob/main/internal/payloads/ps5_pad_utility/AnyPad-PS5/v0.6.0/AnyPad-PS5_v0.6.0.elf"
     },
     {
@@ -1319,6 +1319,24 @@
       "description": "Récupéré depuis le stockage local (Interne / Fallback)",
       "version": "Spectrum-Library",
       "checksum": "5d1372d48f76167e3f9e24b335cf571ea6e4b3960e6b7202d2802b0f78c3a519"
+    },
+    {
+      "name": "Ps5 Overlay",
+      "filename": "ps5_overlay.elf",
+      "url": "",
+      "local_path": "payloads/PS5_Overlay/ps5-new-overlay/v1.0.15/ps5_overlay.elf",
+      "description": "Récupéré depuis le stockage local (Interne / Fallback)",
+      "version": "ps5-new-overlay",
+      "checksum": "5e843b4b20b5954802a88722e5f9436d71d29bc3c82c22d7aa828b83b9960ff9"
+    },
+    {
+      "name": "Ps5 Overlay Shellui",
+      "filename": "ps5_overlay_shellui.elf",
+      "url": "",
+      "local_path": "payloads/PS5_Overlay/ps5-new-overlay/v1.0.15/ps5_overlay_shellui.elf",
+      "description": "Récupéré depuis le stockage local (Interne / Fallback)",
+      "version": "ps5-new-overlay",
+      "checksum": "54d23675bf44f17599a9e08397cf0c62b0e10cfbffdc2fe1673e5bcc9de8a2b7"
     },
     {
       "name": "Ps5X360 V0.5.7",
