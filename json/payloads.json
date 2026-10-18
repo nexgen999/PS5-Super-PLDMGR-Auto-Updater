@@ -48,23 +48,23 @@
     {
       "name": "Overlay Payload",
       "filename": "overlay_payload.elf",
-      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/PS5_Overlay/ps5-new-overlay/v0.0.18/overlay_payload.elf",
-      "local_path": "payloads/PS5_Overlay/ps5-new-overlay/v0.0.18/overlay_payload.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/PS5_Overlay/ps5-new-overlay/v1.0.19/overlay_payload.elf",
+      "local_path": "payloads/PS5_Overlay/ps5-new-overlay/v1.0.19/overlay_payload.elf",
       "description": "A lightweight, standalone hardware monitoring overlay for jailbroken PlayStation 5 consoles (FW 1.xx - 10.xx+).",
-      "version": "v0.0.18",
+      "version": "v1.0.19",
       "category": "PS5 Overlay",
-      "checksum": "b144a1594e328279966797dc9e79cf8675156d447fc232d07f94a01d16a44013",
+      "checksum": "d663a8eb3756994a3f409a9a8624f838c4755f2924b8c936f62101920acfd285",
       "source": "https://github.com/smoxa/ps5-new-overlay/releases"
     },
     {
-      "name": "Ps5-Overlay-Kus V1.0.18",
-      "filename": "ps5-overlay-kus_v1.0.18.elf",
-      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/PS5_Overlay/ps5-new-overlay/v0.0.18/ps5-overlay-kus_v1.0.18.elf",
-      "local_path": "payloads/PS5_Overlay/ps5-new-overlay/v0.0.18/ps5-overlay-kus_v1.0.18.elf",
+      "name": "Ps5-Overlay-Kus V1.0.19",
+      "filename": "ps5-overlay-kus_v1.0.19.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/PS5_Overlay/ps5-new-overlay/v1.0.19/ps5-overlay-kus_v1.0.19.elf",
+      "local_path": "payloads/PS5_Overlay/ps5-new-overlay/v1.0.19/ps5-overlay-kus_v1.0.19.elf",
       "description": "A lightweight, standalone hardware monitoring overlay for jailbroken PlayStation 5 consoles (FW 1.xx - 10.xx+).",
-      "version": "v0.0.18",
+      "version": "v1.0.19",
       "category": "PS5 Overlay",
-      "checksum": "96562d1fc8deb641c67e19dc618cf2334f14512bc02e15732f53361f31005e29",
+      "checksum": "fbb798d01fa413ca0d04b81ff9c719e1da0535e4145858459d9982e163b975d1",
       "source": "https://github.com/smoxa/ps5-new-overlay/releases"
     },
     {
@@ -768,7 +768,7 @@
       "description": "Connect your Bluetooth controllers to your PS5 console.",
       "version": "Source-Fixe",
       "category": "PS5 Pad Utility",
-      "checksum": "21eaa5d56fa84f0978a70362fb87cf09f93f613fadd70a732ee93cc983eb45fe",
+      "checksum": "50e1ed403077094304b1a26b224c5ad5aa723b05c675aafbb9b18faa053693e1",
       "source": "https://github.com/nexgen999/evoX-CoreOS/blob/main/internal/payloads/ps5_pad_utility/AnyPad-PS5/v0.6.0/AnyPad-PS5_v0.6.0.elf"
     },
     {
