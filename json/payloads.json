@@ -2,14 +2,14 @@
   "name": "AIO Store Payloads",
   "payloads": [
     {
-      "name": "Garlic-Savemgr V1.13.1",
-      "filename": "garlic-savemgr_v1.13.1.elf",
-      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_saves/garlic-savemgr/v1.13.1/garlic-savemgr_v1.13.1.elf",
-      "local_path": "payloads/ps5_saves/garlic-savemgr/v1.13.1/garlic-savemgr_v1.13.1.elf",
+      "name": "Garlic-Savemgr V1.14.0",
+      "filename": "garlic-savemgr_v1.14.0.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_saves/garlic-savemgr/v1.14.0/garlic-savemgr_v1.14.0.elf",
+      "local_path": "payloads/ps5_saves/garlic-savemgr/v1.14.0/garlic-savemgr_v1.14.0.elf",
       "description": "Save manager utility hosted on Forgejo.",
-      "version": "v1.13.1",
+      "version": "v1.14.0",
       "category": "PS5 Saves",
-      "checksum": "b0fc2fcdda977d2a1207d77148746859b7ea7f3cfcad02828a7a9b49651807f5",
+      "checksum": "0b96822e3f554666b7fa4ead673c60ef602e5534a9f01a45e94d0580bd6e9edd",
       "source": "https://git.etawen.dev/earthonion/garlic-savemgr/releases"
     },
     {
@@ -343,14 +343,14 @@
       "source": "https://github.com/cy33hc/ps5-ezremote-server/releases"
     },
     {
-      "name": "Ps5Upload V7.1.2",
-      "filename": "ps5upload_v7.1.2.elf",
-      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_server/ps5upload/v7.1.2/ps5upload_v7.1.2.elf",
-      "local_path": "payloads/ps5_server/ps5upload/v7.1.2/ps5upload_v7.1.2.elf",
+      "name": "Ps5Upload V7.1.4",
+      "filename": "ps5upload_v7.1.4.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_server/ps5upload/v7.1.4/ps5upload_v7.1.4.elf",
+      "local_path": "payloads/ps5_server/ps5upload/v7.1.4/ps5upload_v7.1.4.elf",
       "description": "PS5 Upload server / tool. Port: 9025",
-      "version": "v7.1.2",
+      "version": "v7.1.4",
       "category": "PS5 Server",
-      "checksum": "dde5731e9423112c243cde2c13165b5992f99e3ec35eb423e2c2bcbfab0ee564",
+      "checksum": "71398d65f2f7cd3d0a35ab16f7aee1f51f0f2d2d5b8ab3a184a62b68805cf775",
       "source": "https://github.com/phantomptr/ps5upload/releases"
     },
     {
@@ -768,7 +768,7 @@
       "description": "Connect your Bluetooth controllers to your PS5 console.",
       "version": "Source-Fixe",
       "category": "PS5 Pad Utility",
-      "checksum": "4b188f97646482c9efd52c0d3b8ee72c398730329ddf39b71756ddd87467e982",
+      "checksum": "4e11654e27763fbf293cd0098f879e899ed18539f1e2d5ce56b709dd117fa839",
       "source": "https://github.com/nexgen999/evoX-CoreOS/blob/main/internal/payloads/ps5_pad_utility/AnyPad-PS5/v0.6.0/AnyPad-PS5_v0.6.0.elf"
     },
     {
