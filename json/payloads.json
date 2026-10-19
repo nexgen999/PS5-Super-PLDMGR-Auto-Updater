@@ -90,23 +90,23 @@
       "source": "https://raw.githubusercontent.com/ArkSama/PS5-Lapy-JB-Daemon/main/lapy_jb_daemon.elf"
     },
     {
-      "name": "Web-File-Mgr-V1.11",
-      "filename": "web-file-mgr-v1.11.elf",
-      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_file_explorer/ps5-web-file-manager/v1.11/web-file-mgr-v1.11.elf",
-      "local_path": "payloads/ps5_file_explorer/ps5-web-file-manager/v1.11/web-file-mgr-v1.11.elf",
+      "name": "Web-File-Mgr-V1.11B",
+      "filename": "web-file-mgr-v1.11b.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_file_explorer/ps5-web-file-manager/v1.11b/web-file-mgr-v1.11b.elf",
+      "local_path": "payloads/ps5_file_explorer/ps5-web-file-manager/v1.11b/web-file-mgr-v1.11b.elf",
       "description": "PS5 Web File Manager http://your-ps5-ip:8888.",
-      "version": "v1.11",
+      "version": "v1.11b",
       "category": "PS5 File Explorer",
-      "checksum": "cbcdacf69c331025e1643fc99f5b5fc117125e7c39931b6dd914323412558911",
+      "checksum": "989f26d292d07a35581a2ee36766fc477fc2f5deedb2a9d0cedae5ee19667eba",
       "source": "https://github.com/owendswang/ps5-web-file-manager/releases"
     },
     {
       "name": "Wfm-7Zip-Helper",
       "filename": "wfm-7zip-helper.elf",
-      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_file_explorer/ps5-web-file-manager/v1.11/wfm-7zip-helper.elf",
-      "local_path": "payloads/ps5_file_explorer/ps5-web-file-manager/v1.11/wfm-7zip-helper.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_file_explorer/ps5-web-file-manager/v1.11b/wfm-7zip-helper.elf",
+      "local_path": "payloads/ps5_file_explorer/ps5-web-file-manager/v1.11b/wfm-7zip-helper.elf",
       "description": "PS5 Web File Manager http://your-ps5-ip:8888.",
-      "version": "v1.11",
+      "version": "v1.11b",
       "category": "PS5 File Explorer",
       "checksum": "dd8bbae4cd44ed20c4cbafc74fdc3271f52b9d7888a0d4f4038a8ae05feb92a4",
       "source": "https://github.com/owendswang/ps5-web-file-manager/releases"
@@ -343,14 +343,14 @@
       "source": "https://github.com/cy33hc/ps5-ezremote-server/releases"
     },
     {
-      "name": "Ps5Upload V7.1.8",
-      "filename": "ps5upload_v7.1.8.elf",
-      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_server/ps5upload/v7.1.8/ps5upload_v7.1.8.elf",
-      "local_path": "payloads/ps5_server/ps5upload/v7.1.8/ps5upload_v7.1.8.elf",
+      "name": "Ps5Upload V7.1.9",
+      "filename": "ps5upload_v7.1.9.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_server/ps5upload/v7.1.9/ps5upload_v7.1.9.elf",
+      "local_path": "payloads/ps5_server/ps5upload/v7.1.9/ps5upload_v7.1.9.elf",
       "description": "PS5 Upload server / tool. Port: 9025",
-      "version": "v7.1.8",
+      "version": "v7.1.9",
       "category": "PS5 Server",
-      "checksum": "2e7b45ca91a2aa0b3fb8f6f1478d77d925e6479ec83842f3971543b35d9bfa5f",
+      "checksum": "a9674bd22737688783c1857817d032ddf2fd5ca4e750eea17175428556271141",
       "source": "https://github.com/phantomptr/ps5upload/releases"
     },
     {
@@ -607,14 +607,14 @@
       "source": "https://github.com/itsPLK/ps5-unified-autoloader/releases"
     },
     {
-      "name": "Pldmgr V0.6.2",
-      "filename": "pldmgr_v0.6.2.elf",
-      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_hen_loader/PS5_Payload_Manager/v0.6.2/pldmgr_v0.6.2.elf",
-      "local_path": "payloads/ps5_hen_loader/PS5_Payload_Manager/v0.6.2/pldmgr_v0.6.2.elf",
+      "name": "Pldmgr V0.6.3",
+      "filename": "pldmgr_v0.6.3.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_hen_loader/PS5_Payload_Manager/v0.6.3/pldmgr_v0.6.3.elf",
+      "local_path": "payloads/ps5_hen_loader/PS5_Payload_Manager/v0.6.3/pldmgr_v0.6.3.elf",
       "description": "Interface d",
-      "version": "v0.6.2",
+      "version": "v0.6.3",
       "category": "PS5 HEN Loader",
-      "checksum": "0cd5e0cc89ca4db6586dc1ff6f335caa4e33b50951c0ef86f5d1ea971f34e9c5",
+      "checksum": "2a42054fd9725e1d9595ff4add95abc30e5b49446fcdcb96c06775a376a841c4",
       "source": "https://github.com/itsPLK/ps5-payload-manager/releases"
     },
     {
@@ -768,7 +768,7 @@
       "description": "Connect your Bluetooth controllers to your PS5 console.",
       "version": "Source-Fixe",
       "category": "PS5 Pad Utility",
-      "checksum": "55bbf7b85c655362dade067c5f9de1adcb7b72fb5a1ea83494cb37c414a200e0",
+      "checksum": "70dc39a0ee14aa4eef020990cdeab7b1ce5a34a1e943ac0e706c9f95b0afc207",
       "source": "https://github.com/nexgen999/evoX-CoreOS/blob/main/internal/payloads/ps5_pad_utility/AnyPad-PS5/v0.6.0/AnyPad-PS5_v0.6.0.elf"
     },
     {
@@ -1292,6 +1292,15 @@
       "description": "Récupéré depuis le stockage local (Interne / Fallback)",
       "version": "ps5-web-file-manager",
       "checksum": "711cb076e887fcd55d973ade8b84bb6c22720be295bfde18e32761f6e0479a3e"
+    },
+    {
+      "name": "Web-File-Mgr-V1.11",
+      "filename": "web-file-mgr-v1.11.elf",
+      "url": "",
+      "local_path": "payloads/ps5_file_explorer/ps5-web-file-manager/v1.11/web-file-mgr-v1.11.elf",
+      "description": "Récupéré depuis le stockage local (Interne / Fallback)",
+      "version": "ps5-web-file-manager",
+      "checksum": "cbcdacf69c331025e1643fc99f5b5fc117125e7c39931b6dd914323412558911"
     },
     {
       "name": "Nuvio-Ps5 V1.8.0",
