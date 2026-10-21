@@ -2,14 +2,14 @@
   "name": "AIO Store Payloads",
   "payloads": [
     {
-      "name": "Garlic-Savemgr V1.14.0",
-      "filename": "garlic-savemgr_v1.14.0.elf",
-      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_saves/garlic-savemgr/v1.14.0/garlic-savemgr_v1.14.0.elf",
-      "local_path": "payloads/ps5_saves/garlic-savemgr/v1.14.0/garlic-savemgr_v1.14.0.elf",
+      "name": "Garlic-Savemgr V1.14",
+      "filename": "garlic-savemgr_v1.14.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_saves/garlic-savemgr/v1.14/garlic-savemgr_v1.14.elf",
+      "local_path": "payloads/ps5_saves/garlic-savemgr/v1.14/garlic-savemgr_v1.14.elf",
       "description": "Save manager utility hosted on Forgejo.",
-      "version": "v1.14.0",
+      "version": "v1.14",
       "category": "PS5 Saves",
-      "checksum": "0b96822e3f554666b7fa4ead673c60ef602e5534a9f01a45e94d0580bd6e9edd",
+      "checksum": "57763da9d36ae1cb0c744e90a59a06cb54e4eae0c9a8dec62ce774f892c624b9",
       "source": "https://git.etawen.dev/earthonion/garlic-savemgr/releases"
     },
     {
@@ -766,7 +766,7 @@
       "description": "Connect your Bluetooth controllers to your PS5 console.",
       "version": "Source-Fixe",
       "category": "PS5 Pad Utility",
-      "checksum": "6a4bd7c8616d323d29b6bc04a516d6c6dba160c65628e4150cba5f65f10f0d2a",
+      "checksum": "52935bee9158f2015972dc6259f9ab16cd4ad3a4166a4aa4a1b7685c5c4cc44a",
       "source": "https://github.com/nexgen999/evoX-CoreOS/blob/main/internal/payloads/ps5_pad_utility/AnyPad-PS5/v0.6.0/AnyPad-PS5_v0.6.0.elf"
     },
     {
@@ -792,14 +792,14 @@
       "source": "https://github.com/ps5-linux/ps5-linux-loader/releases"
     },
     {
-      "name": "Snes9Xps5 V2.7",
-      "filename": "snes9xPS5_v2.7.elf",
-      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_emulator/snes9xPS5/v2.7/snes9xPS5_v2.7.elf",
-      "local_path": "payloads/ps5_emulator/snes9xPS5/v2.7/snes9xPS5_v2.7.elf",
+      "name": "Snes9Xps5 V2.8",
+      "filename": "snes9xPS5_v2.8.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_emulator/snes9xPS5/v2.8/snes9xPS5_v2.8.elf",
+      "local_path": "payloads/ps5_emulator/snes9xPS5/v2.8/snes9xPS5_v2.8.elf",
       "description": "snes9x emulator",
-      "version": "v2.7",
+      "version": "v2.8",
       "category": "PS5 Emulator",
-      "checksum": "286cdfe2b9f5e935c00e24f4575d4ef358ddd746aca7dc5c319a0d02c3a2dfdb",
+      "checksum": "2633e61352406697d1c37f4374554cab83adf13055a8ca284419e1c8b6ac22bd",
       "source": "https://github.com/MisterTemaki/snes9xPS5/releases"
     },
     {
@@ -1223,12 +1223,12 @@
     {
       "name": "Shadowmountplus",
       "filename": "shadowmountplus.elf",
-      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_game_dump/ShadowMountPlus/1.7beta6-fix2/shadowmountplus.elf",
-      "local_path": "payloads/ps5_game_dump/ShadowMountPlus/1.7beta6-fix2/shadowmountplus.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_game_dump/ShadowMountPlus/1.7beta7/shadowmountplus.elf",
+      "local_path": "payloads/ps5_game_dump/ShadowMountPlus/1.7beta7/shadowmountplus.elf",
       "description": "ShadowMountPlus payload for game mounting.",
-      "version": "1.7beta6-fix2",
+      "version": "1.7beta7",
       "category": "PS5 Game Dump",
-      "checksum": "ec87ad20f78be2d7cb82e9d77e72352b079e049baac3c1a211960ccd6f252e62",
+      "checksum": "a8f9d7f76e8749912508ade0cd5c78076b5bbf1271813c78c80c3d3d9d4777ee",
       "source": "https://github.com/drakmor/ShadowMountPlus/releases"
     },
     {
