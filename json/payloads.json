@@ -352,26 +352,15 @@
       "source": "https://github.com/EchoStretch/kstuff-lite/releases"
     },
     {
-      "name": "Kstuff-Lite Drakmor V1.2-Dr-Test1",
-      "filename": "kstuff-lite_drakmor_v1.2-dr-test1.elf",
-      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_kstuff/kstuff-lite_drakmor/1.2-dr-test1/kstuff-lite_drakmor_v1.2-dr-test1.elf",
-      "local_path": "payloads/ps5_kstuff/kstuff-lite_drakmor/1.2-dr-test1/kstuff-lite_drakmor_v1.2-dr-test1.elf",
+      "name": "Kstuff-Lite Drakmor V1.2-Dr-Test2",
+      "filename": "kstuff-lite_drakmor_v1.2-dr-test2.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_kstuff/kstuff-lite_drakmor/1.2-dr-test2/kstuff-lite_drakmor_v1.2-dr-test2.elf",
+      "local_path": "payloads/ps5_kstuff/kstuff-lite_drakmor/1.2-dr-test2/kstuff-lite_drakmor_v1.2-dr-test2.elf",
       "description": "Drakmor",
-      "version": "1.2-dr-test1",
+      "version": "1.2-dr-test2",
       "category": "PS5 Kstuff",
-      "checksum": "9c1b242eaed3704ef18be45d001a2c4ebf2d9222cfe3cbb0f0c3db33309abac9",
+      "checksum": "2b699d411079a21dba7c39a02993fc0fb21e52f434103e884a0c892fafe56b75",
       "source": "https://github.com/drakmor/kstuff-lite/releases"
-    },
-    {
-      "name": "Kstuff-A53 Sonic V1.4",
-      "filename": "kstuff-a53_SoNic_v1.4.elf",
-      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_kstuff/kstuff-a53_SoNic/1.4/kstuff-a53_SoNic_v1.4.elf",
-      "local_path": "payloads/ps5_kstuff/kstuff-a53_SoNic/1.4/kstuff-a53_SoNic_v1.4.elf",
-      "description": "SoNic variant of kstuff-a53.",
-      "version": "1.4",
-      "category": "PS5 Kstuff",
-      "checksum": "675bef691b1bd1ee14956409aa3947ef9fd52dc36034dbd18d7c55d469e08d23",
-      "source": "https://github.com/Soonniicc/kstuff-a53/releases"
     },
     {
       "name": "Ps5-Custom-Tool-Manager- Vcustom",
@@ -702,17 +691,6 @@
       "category": "PS5 Sdk Debug",
       "checksum": "949b0e6e0fe3f24f4a820319fd76d9ccb92f9770cbb1a64b09a8eca5c1fc9ff3",
       "source": "https://github.com/OpenSourcereR-dev/ps5debug-NG/releases"
-    },
-    {
-      "name": "Ps5-Fw-Spoof",
-      "filename": "ps5-fw-spoof.elf",
-      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_sdk_debug/ps5-fw-spoof/26616621599/ps5-fw-spoof.elf",
-      "local_path": "payloads/ps5_sdk_debug/ps5-fw-spoof/26616621599/ps5-fw-spoof.elf",
-      "description": "Firmware spoofer utility for PS5.",
-      "version": "26616621599",
-      "category": "PS5 Sdk Debug",
-      "checksum": "f1754521caa92a6a1ac313a1b6c969ec49d67750e290ba99870958290a0961f0",
-      "source": "https://github.com/illusionyy/ps5-fw-spoof/releases"
     },
     {
       "name": "Ps5-Self-Pager-System-Common-Lib",
@@ -1069,23 +1047,23 @@
     {
       "name": "Wfm-7Zip-Helper",
       "filename": "wfm-7zip-helper.elf",
-      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_file_explorer/ps5-web-file-manager/v1.11b/wfm-7zip-helper.elf",
-      "local_path": "payloads/ps5_file_explorer/ps5-web-file-manager/v1.11b/wfm-7zip-helper.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_file_explorer/ps5-web-file-manager/v1.12/wfm-7zip-helper.elf",
+      "local_path": "payloads/ps5_file_explorer/ps5-web-file-manager/v1.12/wfm-7zip-helper.elf",
       "description": "PS5 Web File Manager http://your-ps5-ip:8888.",
-      "version": "v1.11b",
+      "version": "v1.12",
       "category": "PS5 File Explorer",
-      "checksum": "dd8bbae4cd44ed20c4cbafc74fdc3271f52b9d7888a0d4f4038a8ae05feb92a4",
+      "checksum": "6acc2972d358dfc92b5ac66cf8cb9ca8613c096bde56ce790077a6831fb17825",
       "source": "https://github.com/owendswang/ps5-web-file-manager/releases"
     },
     {
-      "name": "Web-File-Mgr-V1.11B",
-      "filename": "web-file-mgr-v1.11b.elf",
-      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_file_explorer/ps5-web-file-manager/v1.11b/web-file-mgr-v1.11b.elf",
-      "local_path": "payloads/ps5_file_explorer/ps5-web-file-manager/v1.11b/web-file-mgr-v1.11b.elf",
+      "name": "Web-File-Mgr-V1.12",
+      "filename": "web-file-mgr-v1.12.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_file_explorer/ps5-web-file-manager/v1.12/web-file-mgr-v1.12.elf",
+      "local_path": "payloads/ps5_file_explorer/ps5-web-file-manager/v1.12/web-file-mgr-v1.12.elf",
       "description": "PS5 Web File Manager http://your-ps5-ip:8888.",
-      "version": "v1.11b",
+      "version": "v1.12",
       "category": "PS5 File Explorer",
-      "checksum": "989f26d292d07a35581a2ee36766fc477fc2f5deedb2a9d0cedae5ee19667eba",
+      "checksum": "f3461eb967da7afbbf0420d3294fbc8f999cc2ad53a756bed413aa80c7cfa67a",
       "source": "https://github.com/owendswang/ps5-web-file-manager/releases"
     },
     {
@@ -1184,7 +1162,7 @@
       "description": "Connect your Bluetooth controllers to your PS5 console.",
       "version": "Source-Fixe",
       "category": "PS5 Pad Utility",
-      "checksum": "40b657dea0aaa1b29832e9014ac89093b55c4f420a7431560ccd5c62da278b3f",
+      "checksum": "398cb66c75fa397b26bf243e7565344d1cdc46d818850d825071548eb3e05642",
       "source": "https://github.com/nexgen999/evoX-CoreOS/blob/main/internal/payloads/ps5_pad_utility/AnyPad-PS5/v0.6.0/AnyPad-PS5_v0.6.0.elf"
     },
     {
@@ -1265,6 +1243,15 @@
       "source": "https://github.com/ps4macedo/instalador-host-psm-poop2jb/releases"
     },
     {
+      "name": "Ps5-Fw-Spoof",
+      "filename": "ps5-fw-spoof.elf",
+      "url": "",
+      "local_path": "payloads/ps5_sdk_debug/ps5-fw-spoof/26616621599/ps5-fw-spoof.elf",
+      "description": "Récupéré depuis le stockage local (Interne / Fallback)",
+      "version": "ps5-fw-spoof",
+      "checksum": "f1754521caa92a6a1ac313a1b6c969ec49d67750e290ba99870958290a0961f0"
+    },
+    {
       "name": "Poords4Rc51 V0.1.0-Rc51",
       "filename": "PoorDS4rc51_v0.1.0-rc51.elf",
       "url": "",
@@ -1301,6 +1288,15 @@
       "checksum": "409145ec9a1c338ecb5f6f917c3b057c4ba48bfae2e86d621e19dda7ac129bd3"
     },
     {
+      "name": "Web-File-Mgr-V1.11B",
+      "filename": "web-file-mgr-v1.11b.elf",
+      "url": "",
+      "local_path": "payloads/ps5_file_explorer/ps5-web-file-manager/v1.11b/web-file-mgr-v1.11b.elf",
+      "description": "Récupéré depuis le stockage local (Interne / Fallback)",
+      "version": "ps5-web-file-manager",
+      "checksum": "989f26d292d07a35581a2ee36766fc477fc2f5deedb2a9d0cedae5ee19667eba"
+    },
+    {
       "name": "Web-File-Mgr-V1.11",
       "filename": "web-file-mgr-v1.11.elf",
       "url": "",
@@ -1335,6 +1331,15 @@
       "description": "Récupéré depuis le stockage local (Interne / Fallback)",
       "version": "PS5X360",
       "checksum": "5da64c23263e6868696aa0f8b1bfd0eb97581bae73124d08066b507652adfbfb"
+    },
+    {
+      "name": "Kstuff-A53 Sonic V1.4",
+      "filename": "kstuff-a53_SoNic_v1.4.elf",
+      "url": "",
+      "local_path": "payloads/ps5_kstuff/kstuff-a53_SoNic/1.4/kstuff-a53_SoNic_v1.4.elf",
+      "description": "Récupéré depuis le stockage local (Interne / Fallback)",
+      "version": "kstuff-a53_SoNic",
+      "checksum": "675bef691b1bd1ee14956409aa3947ef9fd52dc36034dbd18d7c55d469e08d23"
     },
     {
       "name": "Spectrum-Library V1.4.8",
