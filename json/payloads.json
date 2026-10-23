@@ -2,14 +2,14 @@
   "name": "AIO Store Payloads",
   "payloads": [
     {
-      "name": "Garlic-Savemgr V1.14",
-      "filename": "garlic-savemgr_v1.14.elf",
-      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_saves/garlic-savemgr/v1.14/garlic-savemgr_v1.14.elf",
-      "local_path": "payloads/ps5_saves/garlic-savemgr/v1.14/garlic-savemgr_v1.14.elf",
+      "name": "Garlic-Savemgr V1.15-Beta1",
+      "filename": "garlic-savemgr_v1.15-beta1.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_saves/garlic-savemgr/v1.15-beta1/garlic-savemgr_v1.15-beta1.elf",
+      "local_path": "payloads/ps5_saves/garlic-savemgr/v1.15-beta1/garlic-savemgr_v1.15-beta1.elf",
       "description": "Save manager utility hosted on Forgejo.",
-      "version": "v1.14",
+      "version": "v1.15-beta1",
       "category": "PS5 Saves",
-      "checksum": "57763da9d36ae1cb0c744e90a59a06cb54e4eae0c9a8dec62ce774f892c624b9",
+      "checksum": "9777e49916968b5327be9d3799d25f1d3b810d3c853c448d38c8bbd120124787",
       "source": "https://git.etawen.dev/earthonion/garlic-savemgr/releases"
     },
     {
@@ -484,17 +484,6 @@
       "source": "https://github.com/saawant12/orbit-store-ps5/releases"
     },
     {
-      "name": "Ps5-Phstore Vphstore",
-      "filename": "PS5-PHStore_vPHStore.elf",
-      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_freeshop/PS5-PHStore/PHStore/PS5-PHStore_vPHStore.elf",
-      "local_path": "payloads/ps5_freeshop/PS5-PHStore/PHStore/PS5-PHStore_vPHStore.elf",
-      "description": "Free PH Store client for PS5.",
-      "version": "PHStore",
-      "category": "PS5 Freeshop",
-      "checksum": "64d5c4605a063a63f01213c31d627466218e787956873b2eef39b369b60112ee",
-      "source": "https://github.com/PratikHackTR/PS5-PHStore/releases"
-    },
-    {
       "name": "Actremotelink Agent V2.0",
       "filename": "actremotelink_agent_v2.0.elf",
       "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/PS5_Remote/ActRemoteLink-13.x/v2.0/actremotelink_agent_v2.0.elf",
@@ -748,14 +737,14 @@
       "source": "https://github.com/nexgen999/evoX-CoreOS/raw/refs/heads/main/internal/payloads/ps5_utility/ghost-toothAPI/ghost-toothAPI.elf"
     },
     {
-      "name": "Pad2C V1.2.0",
-      "filename": "pad2c_v1.2.0.elf",
-      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_pad_utility/pad2c/v1.2.0/pad2c_v1.2.0.elf",
-      "local_path": "payloads/ps5_pad_utility/pad2c/v1.2.0/pad2c_v1.2.0.elf",
+      "name": "Pad2C V1.3.0",
+      "filename": "pad2c_v1.3.0.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_pad_utility/pad2c/v1.3.0/pad2c_v1.3.0.elf",
+      "local_path": "payloads/ps5_pad_utility/pad2c/v1.3.0/pad2c_v1.3.0.elf",
       "description": "Use the 8BitDo Ultimate 2C Wireless controller on a jailbroken PS5 as a second DualSense, through its 2.4G USB dongle - no Bluetooth.",
-      "version": "v1.2.0",
+      "version": "v1.3.0",
       "category": "PS5 Pad Utility",
-      "checksum": "ba056a5aaeeae2924f5559e9ded07e544d36e60c90a820c1c9ba268ab9bc83c9",
+      "checksum": "98bd84646df953307bf732c64c064d8361931e66cf70d2b5cd2f8537c49f8860",
       "source": "https://github.com/sub0x00001/pad2c/releases"
     },
     {
@@ -766,7 +755,7 @@
       "description": "Connect your Bluetooth controllers to your PS5 console.",
       "version": "Source-Fixe",
       "category": "PS5 Pad Utility",
-      "checksum": "0fd52452efa770eed373c42b74bb0d8e6af5ddea78a341a4cc9da986c9dbfb9b",
+      "checksum": "6e5aabff3c9e3a5e55b54652d8c1fc32a5056323e2e04d42b331bcca9c1ccbde",
       "source": "https://github.com/nexgen999/evoX-CoreOS/blob/main/internal/payloads/ps5_pad_utility/AnyPad-PS5/v0.6.0/AnyPad-PS5_v0.6.0.elf"
     },
     {
@@ -805,13 +794,11 @@
     {
       "name": "Genplusgxps5 V2.1",
       "filename": "genplusgxPS5_v2.1.elf",
-      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_emulator/genplusgxPS5/v2.1/genplusgxPS5_v2.1.elf",
+      "url": "",
       "local_path": "payloads/ps5_emulator/genplusgxPS5/v2.1/genplusgxPS5_v2.1.elf",
-      "description": "Port of Genesis-Plus-GX for PS55",
-      "version": "v2.1",
-      "category": "PS5 Emulator",
-      "checksum": "7c8c6e23e734dde655d065643b6e4b73084f479f51d7929e837dcc610558338c",
-      "source": "https://github.com/MisterTemaki/genplusgxPS5/releases"
+      "description": "Récupéré depuis le stockage local (Interne / Fallback)",
+      "version": "genplusgxPS5",
+      "checksum": "7c8c6e23e734dde655d065643b6e4b73084f479f51d7929e837dcc610558338c"
     },
     {
       "name": "Ps5-Romm V1.3.0",
@@ -1342,6 +1329,15 @@
       "description": "Récupéré depuis le stockage local (Interne / Fallback)",
       "version": "Spectrum-Library",
       "checksum": "5d1372d48f76167e3f9e24b335cf571ea6e4b3960e6b7202d2802b0f78c3a519"
+    },
+    {
+      "name": "Ps5-Phstore Vphstore",
+      "filename": "PS5-PHStore_vPHStore.elf",
+      "url": "",
+      "local_path": "payloads/ps5_freeshop/PS5-PHStore/PHStore/PS5-PHStore_vPHStore.elf",
+      "description": "Récupéré depuis le stockage local (Interne / Fallback)",
+      "version": "PS5-PHStore",
+      "checksum": "64d5c4605a063a63f01213c31d627466218e787956873b2eef39b369b60112ee"
     },
     {
       "name": "Ps5 Overlay",
