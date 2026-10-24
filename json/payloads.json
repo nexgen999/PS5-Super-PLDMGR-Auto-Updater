@@ -68,14 +68,14 @@
       "source": "https://github.com/smoxa/ps5-new-overlay/releases"
     },
     {
-      "name": "Bfpilot V0.4.4",
-      "filename": "BFpilot_v0.4.4.elf",
-      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_file_explorer/BFpilot/v0.4.4/BFpilot_v0.4.4.elf",
-      "local_path": "payloads/ps5_file_explorer/BFpilot/v0.4.4/BFpilot_v0.4.4.elf",
+      "name": "Bfpilot V0.5.0",
+      "filename": "BFpilot_v0.5.0.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_file_explorer/BFpilot/v0.5.0/BFpilot_v0.5.0.elf",
+      "local_path": "payloads/ps5_file_explorer/BFpilot/v0.5.0/BFpilot_v0.5.0.elf",
       "description": "BFpilot is a lightweight PS5 payload that serves a browser-based file manager.",
-      "version": "v0.4.4",
+      "version": "v0.5.0",
       "category": "PS5 File Explorer",
-      "checksum": "5a8237630260026ad054d71fbbe661e433ac9ffa2cb4eea2785769c1eb7ee1c1",
+      "checksum": "b9226a4321de09d434579d651b9fdbb5ce0ccbe5c65f86bb2e951c324da4df9f",
       "source": "https://github.com/ItsBlurf/BFpilot/releases"
     },
     {
@@ -343,13 +343,15 @@
       "source": "https://github.com/cy33hc/ps5-ezremote-server/releases"
     },
     {
-      "name": "Ps5Upload V7.1.9",
-      "filename": "ps5upload_v7.1.9.elf",
-      "url": "",
-      "local_path": "payloads/ps5_server/ps5upload/v7.1.9/ps5upload_v7.1.9.elf",
-      "description": "Récupéré depuis le stockage local (Interne / Fallback)",
-      "version": "ps5upload",
-      "checksum": "a9674bd22737688783c1857817d032ddf2fd5ca4e750eea17175428556271141"
+      "name": "Ps5Upload V7.2.0",
+      "filename": "ps5upload_v7.2.0.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_server/ps5upload/v7.2.0/ps5upload_v7.2.0.elf",
+      "local_path": "payloads/ps5_server/ps5upload/v7.2.0/ps5upload_v7.2.0.elf",
+      "description": "PS5 Upload server / tool. Port: 9025",
+      "version": "v7.2.0",
+      "category": "PS5 Server",
+      "checksum": "a8a20057b43fae225df7adfdda046911d81886a72fc3223e831c2999db948331",
+      "source": "https://github.com/phantomptr/ps5upload/releases"
     },
     {
       "name": "Airpsx V0.19",
@@ -755,7 +757,7 @@
       "description": "Connect your Bluetooth controllers to your PS5 console.",
       "version": "Source-Fixe",
       "category": "PS5 Pad Utility",
-      "checksum": "00efd1108b3433ea5b07b1f0e22e9ed4bc9eb2bef95df27995ffd2d93b692552",
+      "checksum": "fb23c8d8679e5d0d94773394826bf106db4871158e2d708fa0b16661185cb578",
       "source": "https://github.com/nexgen999/evoX-CoreOS/blob/main/internal/payloads/ps5_pad_utility/AnyPad-PS5/v0.6.0/AnyPad-PS5_v0.6.0.elf"
     },
     {
