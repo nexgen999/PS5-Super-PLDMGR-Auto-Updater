@@ -70,13 +70,11 @@
     {
       "name": "Bfpilot V0.5.0",
       "filename": "BFpilot_v0.5.0.elf",
-      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_file_explorer/BFpilot/v0.5.0/BFpilot_v0.5.0.elf",
+      "url": "",
       "local_path": "payloads/ps5_file_explorer/BFpilot/v0.5.0/BFpilot_v0.5.0.elf",
-      "description": "BFpilot is a lightweight PS5 payload that serves a browser-based file manager.",
-      "version": "v0.5.0",
-      "category": "PS5 File Explorer",
-      "checksum": "b9226a4321de09d434579d651b9fdbb5ce0ccbe5c65f86bb2e951c324da4df9f",
-      "source": "https://github.com/ItsBlurf/BFpilot/releases"
+      "description": "Récupéré depuis le stockage local (Interne / Fallback)",
+      "version": "BFpilot",
+      "checksum": "b9226a4321de09d434579d651b9fdbb5ce0ccbe5c65f86bb2e951c324da4df9f"
     },
     {
       "name": "Lapy Jb Daemon",
@@ -343,14 +341,14 @@
       "source": "https://github.com/cy33hc/ps5-ezremote-server/releases"
     },
     {
-      "name": "Ps5Upload V7.2.0",
-      "filename": "ps5upload_v7.2.0.elf",
-      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_server/ps5upload/v7.2.0/ps5upload_v7.2.0.elf",
-      "local_path": "payloads/ps5_server/ps5upload/v7.2.0/ps5upload_v7.2.0.elf",
+      "name": "Ps5Upload V7.3.0",
+      "filename": "ps5upload_v7.3.0.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_server/ps5upload/v7.3.0/ps5upload_v7.3.0.elf",
+      "local_path": "payloads/ps5_server/ps5upload/v7.3.0/ps5upload_v7.3.0.elf",
       "description": "PS5 Upload server / tool. Port: 9025",
-      "version": "v7.2.0",
+      "version": "v7.3.0",
       "category": "PS5 Server",
-      "checksum": "a8a20057b43fae225df7adfdda046911d81886a72fc3223e831c2999db948331",
+      "checksum": "ded4faa584fa2ac76d34210b7df01cee1359c47eeb0bae5c6f8d7c03a3e1a3cd",
       "source": "https://github.com/phantomptr/ps5upload/releases"
     },
     {
@@ -757,7 +755,7 @@
       "description": "Connect your Bluetooth controllers to your PS5 console.",
       "version": "Source-Fixe",
       "category": "PS5 Pad Utility",
-      "checksum": "fb23c8d8679e5d0d94773394826bf106db4871158e2d708fa0b16661185cb578",
+      "checksum": "f3b6481c6780e4400e43a47c1588548c248ff97eb0ad8d3af87fe5726d744398",
       "source": "https://github.com/nexgen999/evoX-CoreOS/blob/main/internal/payloads/ps5_pad_utility/AnyPad-PS5/v0.6.0/AnyPad-PS5_v0.6.0.elf"
     },
     {
@@ -796,13 +794,11 @@
     {
       "name": "Genplusgxps5 V2.2",
       "filename": "genplusgxPS5_v2.2.elf",
-      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_emulator/genplusgxPS5/v2.2/genplusgxPS5_v2.2.elf",
+      "url": "",
       "local_path": "payloads/ps5_emulator/genplusgxPS5/v2.2/genplusgxPS5_v2.2.elf",
-      "description": "Port of Genesis-Plus-GX for PS55",
-      "version": "v2.2",
-      "category": "PS5 Emulator",
-      "checksum": "0acf4a5edd0443a1540ee509cb1fb16bd4ba6d7533a53bd0992e6eaa76508494",
-      "source": "https://github.com/MisterTemaki/genplusgxPS5/releases"
+      "description": "Récupéré depuis le stockage local (Interne / Fallback)",
+      "version": "genplusgxPS5",
+      "checksum": "0acf4a5edd0443a1540ee509cb1fb16bd4ba6d7533a53bd0992e6eaa76508494"
     },
     {
       "name": "Ps5-Romm V1.3.0",
