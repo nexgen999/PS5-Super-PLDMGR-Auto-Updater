@@ -341,14 +341,14 @@
       "source": "https://github.com/cy33hc/ps5-ezremote-server/releases"
     },
     {
-      "name": "Ps5Upload V7.5.1",
-      "filename": "ps5upload_v7.5.1.elf",
-      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_server/ps5upload/v7.5.1/ps5upload_v7.5.1.elf",
-      "local_path": "payloads/ps5_server/ps5upload/v7.5.1/ps5upload_v7.5.1.elf",
+      "name": "Ps5Upload V7.5.2",
+      "filename": "ps5upload_v7.5.2.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_server/ps5upload/v7.5.2/ps5upload_v7.5.2.elf",
+      "local_path": "payloads/ps5_server/ps5upload/v7.5.2/ps5upload_v7.5.2.elf",
       "description": "PS5 Upload server / tool. Port: 9025",
-      "version": "v7.5.1",
+      "version": "v7.5.2",
       "category": "PS5 Server",
-      "checksum": "021c03c15d1b077558f8966ca46f38636f1934c084b930545098167e11abbc7b",
+      "checksum": "6ad5f22acb9dfb1f977b303c59e7e9c30dc61af302650249fe8fb0078feedde4",
       "source": "https://github.com/phantomptr/ps5upload/releases"
     },
     {
@@ -744,7 +744,7 @@
       "description": "Connect your Bluetooth controllers to your PS5 console.",
       "version": "Source-Fixe",
       "category": "PS5 Pad Utility",
-      "checksum": "78b157a9b0289645368e947f2913313c2349116235bde0f19a2744b366add496",
+      "checksum": "91b506c361096eac2b6643c04f756c565dc967fe912a565b01ec471cf5c962df",
       "source": "https://github.com/nexgen999/evoX-CoreOS/blob/main/internal/payloads/ps5_pad_utility/AnyPad-PS5/v0.6.0/AnyPad-PS5_v0.6.0.elf"
     },
     {
