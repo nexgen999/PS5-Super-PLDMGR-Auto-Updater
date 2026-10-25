@@ -341,14 +341,14 @@
       "source": "https://github.com/cy33hc/ps5-ezremote-server/releases"
     },
     {
-      "name": "Ps5Upload V7.4.3",
-      "filename": "ps5upload_v7.4.3.elf",
-      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_server/ps5upload/v7.4.3/ps5upload_v7.4.3.elf",
-      "local_path": "payloads/ps5_server/ps5upload/v7.4.3/ps5upload_v7.4.3.elf",
+      "name": "Ps5Upload V7.5.1",
+      "filename": "ps5upload_v7.5.1.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_server/ps5upload/v7.5.1/ps5upload_v7.5.1.elf",
+      "local_path": "payloads/ps5_server/ps5upload/v7.5.1/ps5upload_v7.5.1.elf",
       "description": "PS5 Upload server / tool. Port: 9025",
-      "version": "v7.4.3",
+      "version": "v7.5.1",
       "category": "PS5 Server",
-      "checksum": "1a7dfaff37d131adac59a74a454dd0a756a503d1022bddda5b5b7e619299e667",
+      "checksum": "021c03c15d1b077558f8966ca46f38636f1934c084b930545098167e11abbc7b",
       "source": "https://github.com/phantomptr/ps5upload/releases"
     },
     {
@@ -438,17 +438,6 @@
       "category": "PS5 Utility",
       "checksum": "e8c8e57bbda31b5d16d131797aac6f83b555cae8d439b1f475c952f3d9554eff",
       "source": "https://github.com/FGGstore/FGG-Unpack/releases"
-    },
-    {
-      "name": "Pegasus-Dl V1.11.0",
-      "filename": "pegasus-dl_v1.11.0.elf",
-      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_freeshop/pegasus-dl/v1.11.0/pegasus-dl_v1.11.0.elf",
-      "local_path": "payloads/ps5_freeshop/pegasus-dl/v1.11.0/pegasus-dl_v1.11.0.elf",
-      "description": "free store webadmin http://your-ps5-ip:6970.",
-      "version": "v1.11.0",
-      "category": "PS5 Freeshop",
-      "checksum": "32b69c2089bb545abfabd04d5827444698f9c4f1bc4915d72247cb781e8c23d9",
-      "source": "https://github.com/pegasus-ps5/pegasus-dl/releases"
     },
     {
       "name": "Ps5Shopappkg-Dpi",
@@ -755,7 +744,7 @@
       "description": "Connect your Bluetooth controllers to your PS5 console.",
       "version": "Source-Fixe",
       "category": "PS5 Pad Utility",
-      "checksum": "2e0d6550c665dac704ce34e219681cfdc7a44cc9ca9c6cfd9dadd8df3adc3dc8",
+      "checksum": "78b157a9b0289645368e947f2913313c2349116235bde0f19a2744b366add496",
       "source": "https://github.com/nexgen999/evoX-CoreOS/blob/main/internal/payloads/ps5_pad_utility/AnyPad-PS5/v0.6.0/AnyPad-PS5_v0.6.0.elf"
     },
     {
@@ -1329,6 +1318,15 @@
       "description": "Récupéré depuis le stockage local (Interne / Fallback)",
       "version": "Spectrum-Library",
       "checksum": "5d1372d48f76167e3f9e24b335cf571ea6e4b3960e6b7202d2802b0f78c3a519"
+    },
+    {
+      "name": "Pegasus-Dl V1.11.0",
+      "filename": "pegasus-dl_v1.11.0.elf",
+      "url": "",
+      "local_path": "payloads/ps5_freeshop/pegasus-dl/v1.11.0/pegasus-dl_v1.11.0.elf",
+      "description": "Récupéré depuis le stockage local (Interne / Fallback)",
+      "version": "pegasus-dl",
+      "checksum": "32b69c2089bb545abfabd04d5827444698f9c4f1bc4915d72247cb781e8c23d9"
     },
     {
       "name": "Ps5-Phstore Vphstore",
