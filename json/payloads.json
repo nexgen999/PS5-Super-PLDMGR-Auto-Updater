@@ -744,7 +744,7 @@
       "description": "Connect your Bluetooth controllers to your PS5 console.",
       "version": "Source-Fixe",
       "category": "PS5 Pad Utility",
-      "checksum": "bea1a7cf4b7d2649ddb1ffdfd8b41bb29a2e41916313eb9f0444df34686213b7",
+      "checksum": "769761208e9047eb07fec214b6951c855dd8b7a20aac96255516c07d49a4f6d9",
       "source": "https://github.com/nexgen999/evoX-CoreOS/blob/main/internal/payloads/ps5_pad_utility/AnyPad-PS5/v0.6.0/AnyPad-PS5_v0.6.0.elf"
     },
     {
@@ -801,14 +801,14 @@
       "source": "https://github.com/s0liton/ps5-romm/releases"
     },
     {
-      "name": "Fbneo-Ps5 V2.0",
-      "filename": "fbneo-ps5_v2.0.elf",
-      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_emulator/fbneo-ps5/v2.0/fbneo-ps5_v2.0.elf",
-      "local_path": "payloads/ps5_emulator/fbneo-ps5/v2.0/fbneo-ps5_v2.0.elf",
+      "name": "Fbneo-Ps5 V2.1",
+      "filename": "fbneo-ps5_v2.1.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_emulator/fbneo-ps5/v2.1/fbneo-ps5_v2.1.elf",
+      "local_path": "payloads/ps5_emulator/fbneo-ps5/v2.1/fbneo-ps5_v2.1.elf",
       "description": "FBNeo for ps5",
-      "version": "v2.0",
+      "version": "v2.1",
       "category": "PS5 Emulator",
-      "checksum": "d6708791adb1842efd8a06e85cc0e30b91c47c1583cde2333934b81bb6e148f8",
+      "checksum": "4ff2db1c4276aeec70866e2c949c6ee871a2074284cbf1ce61dc354f3822356c",
       "source": "https://github.com/MisterTemaki/fbneo-ps5/releases"
     },
     {
@@ -1197,12 +1197,12 @@
     {
       "name": "Shadowmountplus",
       "filename": "shadowmountplus.elf",
-      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_game_dump/ShadowMountPlus/1.7beta7/shadowmountplus.elf",
-      "local_path": "payloads/ps5_game_dump/ShadowMountPlus/1.7beta7/shadowmountplus.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_game_dump/ShadowMountPlus/1.7beta8/shadowmountplus.elf",
+      "local_path": "payloads/ps5_game_dump/ShadowMountPlus/1.7beta8/shadowmountplus.elf",
       "description": "ShadowMountPlus payload for game mounting.",
-      "version": "1.7beta7",
+      "version": "1.7beta8",
       "category": "PS5 Game Dump",
-      "checksum": "a8f9d7f76e8749912508ade0cd5c78076b5bbf1271813c78c80c3d3d9d4777ee",
+      "checksum": "7163472217a2390f5bcbe3b61a96963976f7b7bd84d960b8d926f35b9cbecf28",
       "source": "https://github.com/drakmor/ShadowMountPlus/releases"
     },
     {
