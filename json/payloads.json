@@ -341,14 +341,14 @@
       "source": "https://github.com/cy33hc/ps5-ezremote-server/releases"
     },
     {
-      "name": "Ps5Upload V8.1.1",
-      "filename": "ps5upload_v8.1.1.elf",
-      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_server/ps5upload/v8.1.1/ps5upload_v8.1.1.elf",
-      "local_path": "payloads/ps5_server/ps5upload/v8.1.1/ps5upload_v8.1.1.elf",
+      "name": "Ps5Upload V8.3.0",
+      "filename": "ps5upload_v8.3.0.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_server/ps5upload/v8.3.0/ps5upload_v8.3.0.elf",
+      "local_path": "payloads/ps5_server/ps5upload/v8.3.0/ps5upload_v8.3.0.elf",
       "description": "PS5 Upload server / tool. Port: 9025",
-      "version": "v8.1.1",
+      "version": "v8.3.0",
       "category": "PS5 Server",
-      "checksum": "db756d8b61cfa91627491092f090120239722cb8699bc531f34030497c6a1910",
+      "checksum": "9fe5785c63382b2d3c6eb131b14b7027a6c7cf0fcac011ba26cc331051e44a13",
       "source": "https://github.com/phantomptr/ps5upload/releases"
     },
     {
@@ -464,12 +464,12 @@
     {
       "name": "Orbit Store",
       "filename": "orbit_store.elf",
-      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_freeshop/orbit-store-ps5/v1.6.0/orbit_store.elf",
-      "local_path": "payloads/ps5_freeshop/orbit-store-ps5/v1.6.0/orbit_store.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_freeshop/orbit-store-ps5/v1.7.0/orbit_store.elf",
+      "local_path": "payloads/ps5_freeshop/orbit-store-ps5/v1.7.0/orbit_store.elf",
       "description": "A modern, no-BS download manager for PS5.",
-      "version": "v1.6.0",
+      "version": "v1.7.0",
       "category": "PS5 Freeshop",
-      "checksum": "61554da43cc2abc0474b0bcc58dfd563b64b8685b91fec11aa2676792ad6443a",
+      "checksum": "ca46295969f4711096c036af5cad9925e96b24fcefc5211ed07dbe768f6f809b",
       "source": "https://github.com/saawant12/orbit-store-ps5/releases"
     },
     {
@@ -744,7 +744,7 @@
       "description": "Connect your Bluetooth controllers to your PS5 console.",
       "version": "Source-Fixe",
       "category": "PS5 Pad Utility",
-      "checksum": "6a8e650ef27526218530992f45fd663630d5cb7de4c2fac1781ab28213a33dff",
+      "checksum": "c629d23083226f6090c6778c476cacd9ce8f12e21f7f2187e1dbf221f6245f41",
       "source": "https://github.com/nexgen999/evoX-CoreOS/blob/main/internal/payloads/ps5_pad_utility/AnyPad-PS5/v0.6.0/AnyPad-PS5_v0.6.0.elf"
     },
     {
