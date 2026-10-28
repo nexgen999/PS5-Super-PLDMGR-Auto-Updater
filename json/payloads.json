@@ -326,14 +326,14 @@
       "source": "https://github.com/aydencharles/kylin-core-release/releases"
     },
     {
-      "name": "Webkit-Autoloader-Installer V0.6.1",
-      "filename": "webkit-autoloader-installer_v0.6.1.elf",
-      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5-webkit-autoloader/ps5-webkit-autoloader/v0.6.1/webkit-autoloader-installer_v0.6.1.elf",
-      "local_path": "payloads/ps5-webkit-autoloader/ps5-webkit-autoloader/v0.6.1/webkit-autoloader-installer_v0.6.1.elf",
+      "name": "Webkit-Autoloader-Installer V0.6.2",
+      "filename": "webkit-autoloader-installer_v0.6.2.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5-webkit-autoloader/ps5-webkit-autoloader/v0.6.2/webkit-autoloader-installer_v0.6.2.elf",
+      "local_path": "payloads/ps5-webkit-autoloader/ps5-webkit-autoloader/v0.6.2/webkit-autoloader-installer_v0.6.2.elf",
       "description": "Installs WebKit Autoloader on homescreen for firmwares 9.00-12.00.",
-      "version": "v0.6.1",
+      "version": "v0.6.2",
       "category": "Ps5-Webkit-Autoloader",
-      "checksum": "f662c75a502e4f1bc41b055dcb490625f8222c499ce437dc80f439a3a279e93f",
+      "checksum": "27fd335764270716972faea399a5cc7810b9e49a21abf4966d9759580756cb19",
       "source": "https://github.com/itsPLK/ps5-webkit-autoloader/releases"
     },
     {
@@ -465,7 +465,7 @@
       "description": "Connect your Bluetooth controllers to your PS5 console.",
       "version": "Source-Fixe",
       "category": "PS5 Pad Utility",
-      "checksum": "91ec5cce245115eaa6ab4f1b533978885211ee61694709d807667bd6c62116f7",
+      "checksum": "388714932de121d8194ff864fe2650ad1c6aa6dbffb5b5e37ba02f228927cbc2",
       "source": "https://github.com/nexgen999/evoX-CoreOS/blob/main/internal/payloads/ps5_pad_utility/AnyPad-PS5/v0.6.0/AnyPad-PS5_v0.6.0.elf"
     },
     {
