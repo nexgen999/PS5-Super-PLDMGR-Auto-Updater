@@ -465,7 +465,7 @@
       "description": "Connect your Bluetooth controllers to your PS5 console.",
       "version": "Source-Fixe",
       "category": "PS5 Pad Utility",
-      "checksum": "b76dfdc7adde96a1ffa7a28f43301de8845613a858c07b23c440dff1c2ed857b",
+      "checksum": "7241f58c513c14eb4b56a35c4b3cded9127a3e787f21ad4a826be000ec719fb7",
       "source": "https://github.com/nexgen999/evoX-CoreOS/blob/main/internal/payloads/ps5_pad_utility/AnyPad-PS5/v0.6.0/AnyPad-PS5_v0.6.0.elf"
     },
     {
@@ -667,14 +667,14 @@
       "source": "https://github.com/etaHEN/etaHEN/releases"
     },
     {
-      "name": "Ps5 Unified Autoloader V0.1.6-E7093Cd",
-      "filename": "PS5_Unified_Autoloader_v0.1.6-e7093cd.elf",
-      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_hen_loader/PS5_Unified_Autoloader/v0.1.6-e7093cd/PS5_Unified_Autoloader_v0.1.6-e7093cd.elf",
-      "local_path": "payloads/ps5_hen_loader/PS5_Unified_Autoloader/v0.1.6-e7093cd/PS5_Unified_Autoloader_v0.1.6-e7093cd.elf",
+      "name": "Ps5 Unified Autoloader V0.1.7-Abc3B82",
+      "filename": "PS5_Unified_Autoloader_v0.1.7-abc3b82.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_hen_loader/PS5_Unified_Autoloader/v0.1.7-abc3b82/PS5_Unified_Autoloader_v0.1.7-abc3b82.elf",
+      "local_path": "payloads/ps5_hen_loader/PS5_Unified_Autoloader/v0.1.7-abc3b82/PS5_Unified_Autoloader_v0.1.7-abc3b82.elf",
       "description": "Chargeur universel de payloads permettant de lancer automatiquement vos outils favoris au démarrage de l",
-      "version": "v0.1.6-e7093cd",
+      "version": "v0.1.7-abc3b82",
       "category": "PS5 HEN Loader",
-      "checksum": "edc4f805404f80497026ba2d74f675ee7043b1ef7f4ed92b82c1ef200aac123d",
+      "checksum": "cc6a464ceaa23472cc35d557efe60a5fc3f8ebd46cf1a84790c04a2be9c5bee1",
       "source": "https://github.com/itsPLK/ps5-unified-autoloader/releases"
     },
     {
@@ -1184,14 +1184,14 @@
       "source": "https://github.com/cy33hc/ps5-ezremote-server/releases"
     },
     {
-      "name": "Ps5Upload V8.9.0",
-      "filename": "ps5upload_v8.9.0.elf",
-      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_server/ps5upload/v8.9.0/ps5upload_v8.9.0.elf",
-      "local_path": "payloads/ps5_server/ps5upload/v8.9.0/ps5upload_v8.9.0.elf",
+      "name": "Ps5Upload V9.0.1",
+      "filename": "ps5upload_v9.0.1.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_server/ps5upload/v9.0.1/ps5upload_v9.0.1.elf",
+      "local_path": "payloads/ps5_server/ps5upload/v9.0.1/ps5upload_v9.0.1.elf",
       "description": "PS5 Upload server / tool. Port: 9025",
-      "version": "v8.9.0",
+      "version": "v9.0.1",
       "category": "PS5 Server",
-      "checksum": "59e622340d9faf7c8a54e41d303a51f03408c88dbef409e299aea3ffc5c306a0",
+      "checksum": "36317d7d360faad3aeac6127199e7e61514dc2c2cc5f83c10835682951806d9f",
       "source": "https://github.com/phantomptr/ps5upload/releases"
     },
     {
