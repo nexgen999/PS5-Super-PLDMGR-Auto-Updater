@@ -465,7 +465,7 @@
       "description": "Connect your Bluetooth controllers to your PS5 console.",
       "version": "Source-Fixe",
       "category": "PS5 Pad Utility",
-      "checksum": "3070620b0b3ebe2da3c2fec6d722e96246889f947233703bf7a59eb1e5d2b74f",
+      "checksum": "afc2db5784f08312033ce55ec859e48f60428941cd2a9d593c1d1b1495994e39",
       "source": "https://github.com/nexgen999/evoX-CoreOS/blob/main/internal/payloads/ps5_pad_utility/AnyPad-PS5/v0.6.0/AnyPad-PS5_v0.6.0.elf"
     },
     {
@@ -1184,14 +1184,14 @@
       "source": "https://github.com/cy33hc/ps5-ezremote-server/releases"
     },
     {
-      "name": "Ps5Upload V9.2.2",
-      "filename": "ps5upload_v9.2.2.elf",
-      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_server/ps5upload/v9.2.2/ps5upload_v9.2.2.elf",
-      "local_path": "payloads/ps5_server/ps5upload/v9.2.2/ps5upload_v9.2.2.elf",
+      "name": "Ps5Upload V9.4.1",
+      "filename": "ps5upload_v9.4.1.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_server/ps5upload/v9.4.1/ps5upload_v9.4.1.elf",
+      "local_path": "payloads/ps5_server/ps5upload/v9.4.1/ps5upload_v9.4.1.elf",
       "description": "PS5 Upload server / tool. Port: 9025",
-      "version": "v9.2.2",
+      "version": "v9.4.1",
       "category": "PS5 Server",
-      "checksum": "9b7ea36573c7fb7c78ea89d598a01b6cf6e49a52951279abfc8d09aeb6ae3cc5",
+      "checksum": "b276e08c0b82dd29abbe7bbe7b23ed21adafc5a89737f5deba4787ed2ceccad8",
       "source": "https://github.com/phantomptr/ps5upload/releases"
     },
     {
