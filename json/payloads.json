@@ -22,14 +22,14 @@
       "checksum": "0acf4a5edd0443a1540ee509cb1fb16bd4ba6d7533a53bd0992e6eaa76508494"
     },
     {
-      "name": "Ps5-Romm V1.3.0",
-      "filename": "ps5-romm_v1.3.0.elf",
-      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_emulator/ps5-romm/v1.3.0/ps5-romm_v1.3.0.elf",
-      "local_path": "payloads/ps5_emulator/ps5-romm/v1.3.0/ps5-romm_v1.3.0.elf",
+      "name": "Ps5-Romm V1.4.0",
+      "filename": "ps5-romm_v1.4.0.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_emulator/ps5-romm/v1.4.0/ps5-romm_v1.4.0.elf",
+      "local_path": "payloads/ps5_emulator/ps5-romm/v1.4.0/ps5-romm_v1.4.0.elf",
       "description": "ps5-romm for ps5",
-      "version": "v1.3.0",
+      "version": "v1.4.0",
       "category": "PS5 Emulator",
-      "checksum": "3eb185983557ff480a279c56bbf0a44fee47c0fff7a89c98563fd62a2ade5aae",
+      "checksum": "dca8be73920a0bbddf25c132619a37ac0e7d9bae31f02410981b9007f16566aa",
       "source": "https://github.com/s0liton/ps5-romm/releases"
     },
     {
@@ -465,7 +465,7 @@
       "description": "Connect your Bluetooth controllers to your PS5 console.",
       "version": "Source-Fixe",
       "category": "PS5 Pad Utility",
-      "checksum": "afc2db5784f08312033ce55ec859e48f60428941cd2a9d593c1d1b1495994e39",
+      "checksum": "ea596f6f46b33483bb7c1faa0592dfdbc7586bac47764fdd1db2ec6c23a6656f",
       "source": "https://github.com/nexgen999/evoX-CoreOS/blob/main/internal/payloads/ps5_pad_utility/AnyPad-PS5/v0.6.0/AnyPad-PS5_v0.6.0.elf"
     },
     {
@@ -1162,14 +1162,14 @@
       "source": "https://github.com/drakmor/ftpsrv/releases"
     },
     {
-      "name": "Ps5-Ezremote-Client V2.16",
-      "filename": "ps5-ezremote-client_v2.16.elf",
-      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_server/ps5-ezremote-client/2.16/ps5-ezremote-client_v2.16.elf",
-      "local_path": "payloads/ps5_server/ps5-ezremote-client/2.16/ps5-ezremote-client_v2.16.elf",
+      "name": "Ps5-Ezremote-Client V2.17",
+      "filename": "ps5-ezremote-client_v2.17.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_server/ps5-ezremote-client/2.17/ps5-ezremote-client_v2.17.elf",
+      "local_path": "payloads/ps5_server/ps5-ezremote-client/2.17/ps5-ezremote-client_v2.17.elf",
       "description": "Easy remote client application for PS5.",
-      "version": "2.16",
+      "version": "2.17",
       "category": "PS5 Server",
-      "checksum": "f9ed69c486627b6fba408ad2aea8cc96737b5909994fa9bce9d51189cc4e4157",
+      "checksum": "eda226e008efae5f14bd9e4fb0dd27ee198d1e3b525aa4ab1079e410e66f5e3c",
       "source": "https://github.com/cy33hc/ps5-ezremote-client/releases"
     },
     {
@@ -1184,14 +1184,14 @@
       "source": "https://github.com/cy33hc/ps5-ezremote-server/releases"
     },
     {
-      "name": "Ps5Upload V9.4.1",
-      "filename": "ps5upload_v9.4.1.elf",
-      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_server/ps5upload/v9.4.1/ps5upload_v9.4.1.elf",
-      "local_path": "payloads/ps5_server/ps5upload/v9.4.1/ps5upload_v9.4.1.elf",
+      "name": "Ps5Upload V9.5.1",
+      "filename": "ps5upload_v9.5.1.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_server/ps5upload/v9.5.1/ps5upload_v9.5.1.elf",
+      "local_path": "payloads/ps5_server/ps5upload/v9.5.1/ps5upload_v9.5.1.elf",
       "description": "PS5 Upload server / tool. Port: 9025",
-      "version": "v9.4.1",
+      "version": "v9.5.1",
       "category": "PS5 Server",
-      "checksum": "b276e08c0b82dd29abbe7bbe7b23ed21adafc5a89737f5deba4787ed2ceccad8",
+      "checksum": "6c113d167d7fe4c4f3e036e8556d044ab3b04e7f45fe53778f8dbea158ede8d7",
       "source": "https://github.com/phantomptr/ps5upload/releases"
     },
     {
