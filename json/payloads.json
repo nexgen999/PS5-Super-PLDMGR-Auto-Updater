@@ -4,13 +4,11 @@
     {
       "name": "Snes9Xps5 V2.9",
       "filename": "snes9xPS5_v2.9.elf",
-      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_emulator/snes9xPS5/v2.9/snes9xPS5_v2.9.elf",
+      "url": "",
       "local_path": "payloads/ps5_emulator/snes9xPS5/v2.9/snes9xPS5_v2.9.elf",
-      "description": "snes9x emulator",
-      "version": "v2.9",
-      "category": "PS5 Emulator",
-      "checksum": "14d5147546ec26d54973fbad975d380539832834d8940e3806f902e2183b2779",
-      "source": "https://github.com/MisterTemaki/snes9xPS5/releases"
+      "description": "Récupéré depuis le stockage local (Interne / Fallback)",
+      "version": "snes9xPS5",
+      "checksum": "14d5147546ec26d54973fbad975d380539832834d8940e3806f902e2183b2779"
     },
     {
       "name": "Genplusgxps5 V2.2",
@@ -465,7 +463,7 @@
       "description": "Connect your Bluetooth controllers to your PS5 console.",
       "version": "Source-Fixe",
       "category": "PS5 Pad Utility",
-      "checksum": "ea596f6f46b33483bb7c1faa0592dfdbc7586bac47764fdd1db2ec6c23a6656f",
+      "checksum": "8923300507fcb57718138a7a654d4d66cfd4ed841758f6008c1b9d67c14d190d",
       "source": "https://github.com/nexgen999/evoX-CoreOS/blob/main/internal/payloads/ps5_pad_utility/AnyPad-PS5/v0.6.0/AnyPad-PS5_v0.6.0.elf"
     },
     {
@@ -647,12 +645,12 @@
     {
       "name": "Orbit Store",
       "filename": "orbit_store.elf",
-      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_freeshop/orbit-store-ps5/v1.7.5/orbit_store.elf",
-      "local_path": "payloads/ps5_freeshop/orbit-store-ps5/v1.7.5/orbit_store.elf",
+      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_freeshop/orbit-store-ps5/v1.8.0/orbit_store.elf",
+      "local_path": "payloads/ps5_freeshop/orbit-store-ps5/v1.8.0/orbit_store.elf",
       "description": "A modern, no-BS download manager for PS5.",
-      "version": "v1.7.5",
+      "version": "v1.8.0",
       "category": "PS5 Freeshop",
-      "checksum": "c5c601dd349b52c650ee4147fc89d9e2ab9a7d1df35e6e6039eee1175194e832",
+      "checksum": "53446c09c568468436f5762593618a5063375ece64e73f0532063a2da5c80a07",
       "source": "https://github.com/saawant12/orbit-store-ps5/releases"
     },
     {
@@ -1186,13 +1184,11 @@
     {
       "name": "Ps5Upload V9.5.1",
       "filename": "ps5upload_v9.5.1.elf",
-      "url": "https://nexgen999.github.io/evoX-CoreOS/payloads/ps5_server/ps5upload/v9.5.1/ps5upload_v9.5.1.elf",
+      "url": "",
       "local_path": "payloads/ps5_server/ps5upload/v9.5.1/ps5upload_v9.5.1.elf",
-      "description": "PS5 Upload server / tool. Port: 9025",
-      "version": "v9.5.1",
-      "category": "PS5 Server",
-      "checksum": "6c113d167d7fe4c4f3e036e8556d044ab3b04e7f45fe53778f8dbea158ede8d7",
-      "source": "https://github.com/phantomptr/ps5upload/releases"
+      "description": "Récupéré depuis le stockage local (Interne / Fallback)",
+      "version": "ps5upload",
+      "checksum": "6c113d167d7fe4c4f3e036e8556d044ab3b04e7f45fe53778f8dbea158ede8d7"
     },
     {
       "name": "Airpsx V0.19",
